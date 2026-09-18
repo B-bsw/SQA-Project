@@ -86,5 +86,1122 @@
     "elapsed_seconds": 222.76,
     "finish_reason": "stop",
     "updated_at": "2026-09-18T09:23:08.016880"
+  },
+  "JacksonCore_1/com/fasterxml/jackson/core/io/NumberInput.java": {
+    "project": "JacksonCore_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonCore_1/com/fasterxml/jackson/core/io/NumberInput.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/JacksonCore_1_buggy/NumberInputTest.java",
+    "file_size_bytes": 13589,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 75.72,
+    "finish_reason": "stop",
+    "updated_at": "2026-09-18T09:24:25.887992"
+  },
+  "Jsoup_91/org/jsoup/UncheckedIOException.java": {
+    "project": "Jsoup_91",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_91/org/jsoup/UncheckedIOException.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Jsoup_91_buggy/UncheckedIOExceptionTest.java",
+    "file_size_bytes": 3991,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 11.7,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 664,
+      "completion_tokens": 1440,
+      "total_tokens": 2104
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 173807,
+      "daily_remaining_tokens": 26193
+    },
+    "updated_at": "2026-09-18T09:35:01.527895"
+  },
+  "Mockito_19/org/mockito/internal/configuration/injection/filter/MockCandidateFilter.java": {
+    "project": "Mockito_19",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_19/org/mockito/internal/configuration/injection/filter/MockCandidateFilter.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Mockito_19_buggy/MockCandidateFilterTest.java",
+    "file_size_bytes": 9224,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 31.26,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 732,
+      "completion_tokens": 4169,
+      "total_tokens": 4901
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 124028,
+      "daily_remaining_tokens": 75972
+    },
+    "updated_at": "2026-09-18T09:35:34.817300"
+  },
+  "Mockito_2/org/mockito/internal/util/Timer.java": {
+    "project": "Mockito_2",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_2/org/mockito/internal/util/Timer.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Mockito_2_buggy/TimerTest.java",
+    "file_size_bytes": 2049,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 8.07,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 768,
+      "completion_tokens": 874,
+      "total_tokens": 1642
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 175449,
+      "daily_remaining_tokens": 24551
+    },
+    "updated_at": "2026-09-18T09:35:44.923493"
+  },
+  "Mockito_12/org/mockito/internal/util/reflection/GenericMaster.java": {
+    "project": "Mockito_12",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_12/org/mockito/internal/util/reflection/GenericMaster.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Mockito_12_buggy/GenericMasterTest.java",
+    "file_size_bytes": 3557,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 13.2,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 850,
+      "completion_tokens": 1462,
+      "total_tokens": 2312
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 126340,
+      "daily_remaining_tokens": 73660
+    },
+    "updated_at": "2026-09-18T09:36:00.148415"
+  },
+  "Mockito_19/org/mockito/internal/configuration/injection/filter/TypeBasedCandidateFilter.java": {
+    "project": "Mockito_19",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_19/org/mockito/internal/configuration/injection/filter/TypeBasedCandidateFilter.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Mockito_19_buggy/TypeBasedCandidateFilterTest.java",
+    "file_size_bytes": 6233,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 34.08,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 928,
+      "completion_tokens": 4873,
+      "total_tokens": 5801
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 185427,
+      "daily_remaining_tokens": 14573
+    },
+    "updated_at": "2026-09-18T09:37:33.739361"
+  },
+  "Mockito_29/org/mockito/internal/matchers/Same.java": {
+    "project": "Mockito_29",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_29/org/mockito/internal/matchers/Same.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Mockito_29_buggy/SameTest.java",
+    "file_size_bytes": 3213,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 9.86,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 939,
+      "completion_tokens": 1212,
+      "total_tokens": 2151
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 128491,
+      "daily_remaining_tokens": 71509
+    },
+    "updated_at": "2026-09-18T09:37:45.619267"
+  },
+  "Mockito_22/org/mockito/internal/matchers/Equality.java": {
+    "project": "Mockito_22",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_22/org/mockito/internal/matchers/Equality.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Mockito_22_buggy/EqualityTest.java",
+    "file_size_bytes": 5418,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 17.79,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1055,
+      "completion_tokens": 2583,
+      "total_tokens": 3638
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 189065,
+      "daily_remaining_tokens": 10935
+    },
+    "updated_at": "2026-09-18T09:38:05.432563"
+  },
+  "Jsoup_16/org/jsoup/nodes/DocumentType.java": {
+    "project": "Jsoup_16",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_16/org/jsoup/nodes/DocumentType.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Jsoup_16_buggy/DocumentTypeTest.java",
+    "file_size_bytes": 5880,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 67.68,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1064,
+      "completion_tokens": 8283,
+      "total_tokens": 9347
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 137838,
+      "daily_remaining_tokens": 62162
+    },
+    "updated_at": "2026-09-18T09:39:15.152071"
+  },
+  "JxPath_7/org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java": {
+    "project": "JxPath_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_7/org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/JxPath_7_buggy/CoreOperationRelationalExpressionTest.java",
+    "file_size_bytes": 12736,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 86.9,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1071,
+      "completion_tokens": 10597,
+      "total_tokens": 11668
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 200733,
+      "daily_remaining_tokens": -733
+    },
+    "updated_at": "2026-09-18T09:40:44.087962"
+  },
+  "JxPath_9/org/apache/commons/jxpath/ri/compiler/CoreOperationEqual.java": {
+    "project": "JxPath_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_9/org/apache/commons/jxpath/ri/compiler/CoreOperationEqual.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/JxPath_9_buggy/CoreOperationEqualTest.java",
+    "file_size_bytes": 4994,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 55.13,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1103,
+      "completion_tokens": 7048,
+      "total_tokens": 8151
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 145989,
+      "daily_remaining_tokens": 54011
+    },
+    "updated_at": "2026-09-18T09:41:41.264439"
+  },
+  "JxPath_9/org/apache/commons/jxpath/ri/compiler/CoreOperationNotEqual.java": {
+    "project": "JxPath_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_9/org/apache/commons/jxpath/ri/compiler/CoreOperationNotEqual.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/JxPath_9_buggy/CoreOperationNotEqualTest.java",
+    "file_size_bytes": 3038,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 42.84,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1109,
+      "completion_tokens": 5041,
+      "total_tokens": 6150
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 152139,
+      "daily_remaining_tokens": 47861
+    },
+    "updated_at": "2026-09-18T09:42:26.166720"
+  },
+  "Jsoup_40/org/jsoup/nodes/DocumentType.java": {
+    "project": "Jsoup_40",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_40/org/jsoup/nodes/DocumentType.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Jsoup_40_buggy/DocumentTypeTest.java",
+    "file_size_bytes": 5324,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 18.48,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1132,
+      "completion_tokens": 2404,
+      "total_tokens": 3536
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 155675,
+      "daily_remaining_tokens": 44325
+    },
+    "updated_at": "2026-09-18T09:42:47.024400"
+  },
+  "Mockito_15/org/mockito/internal/configuration/injection/FinalMockCandidateFilter.java": {
+    "project": "Mockito_15",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_15/org/mockito/internal/configuration/injection/FinalMockCandidateFilter.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Mockito_15_buggy/FinalMockCandidateFilterTest.java",
+    "file_size_bytes": 4085,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 14.97,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1056,
+      "completion_tokens": 1892,
+      "total_tokens": 2948
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 158623,
+      "daily_remaining_tokens": 41377
+    },
+    "updated_at": "2026-09-18T09:43:04.114109"
+  },
+  "Mockito_19/org/mockito/internal/configuration/injection/filter/NameBasedCandidateFilter.java": {
+    "project": "Mockito_19",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_19/org/mockito/internal/configuration/injection/filter/NameBasedCandidateFilter.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Mockito_19_buggy/NameBasedCandidateFilterTest.java",
+    "file_size_bytes": 6786,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 55.49,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1146,
+      "completion_tokens": 7322,
+      "total_tokens": 8468
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 167091,
+      "daily_remaining_tokens": 32909
+    },
+    "updated_at": "2026-09-18T09:44:01.654522"
+  },
+  "JacksonDatabind_9/com/fasterxml/jackson/databind/ser/std/StdKeySerializer.java": {
+    "project": "JacksonDatabind_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_9/com/fasterxml/jackson/databind/ser/std/StdKeySerializer.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/JacksonDatabind_9_buggy/StdKeySerializerTest.java",
+    "file_size_bytes": 3997,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 18.82,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1171,
+      "completion_tokens": 2328,
+      "total_tokens": 3499
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 170590,
+      "daily_remaining_tokens": 29410
+    },
+    "updated_at": "2026-09-18T09:44:22.512866"
+  },
+  "Mockito_11/org/mockito/internal/creation/DelegatingMethod.java": {
+    "project": "Mockito_11",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_11/org/mockito/internal/creation/DelegatingMethod.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Mockito_11_buggy/DelegatingMethodTest.java",
+    "file_size_bytes": 6452,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 22.4,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1118,
+      "completion_tokens": 3113,
+      "total_tokens": 4231
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 174821,
+      "daily_remaining_tokens": 25179
+    },
+    "updated_at": "2026-09-18T09:44:46.953219"
+  },
+  "JxPath_7/org/apache/commons/jxpath/ri/compiler/CoreOperationLessThan.java": {
+    "project": "JxPath_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_7/org/apache/commons/jxpath/ri/compiler/CoreOperationLessThan.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/JxPath_7_buggy/CoreOperationLessThanTest.java",
+    "file_size_bytes": 6134,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 64.14,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1203,
+      "completion_tokens": 7345,
+      "total_tokens": 8548
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 183369,
+      "daily_remaining_tokens": 16631
+    },
+    "updated_at": "2026-09-18T09:45:53.225386"
+  },
+  "JxPath_7/org/apache/commons/jxpath/ri/compiler/CoreOperationGreaterThan.java": {
+    "project": "JxPath_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_7/org/apache/commons/jxpath/ri/compiler/CoreOperationGreaterThan.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/JxPath_7_buggy/CoreOperationGreaterThanTest.java",
+    "file_size_bytes": 2655,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 31.2,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1207,
+      "completion_tokens": 3568,
+      "total_tokens": 4775
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 188144,
+      "daily_remaining_tokens": 11856
+    },
+    "updated_at": "2026-09-18T09:46:26.457250"
+  },
+  "JxPath_7/org/apache/commons/jxpath/ri/compiler/CoreOperationLessThanOrEqual.java": {
+    "project": "JxPath_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_7/org/apache/commons/jxpath/ri/compiler/CoreOperationLessThanOrEqual.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/JxPath_7_buggy/CoreOperationLessThanOrEqualTest.java",
+    "file_size_bytes": 5551,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 23.05,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1218,
+      "completion_tokens": 3146,
+      "total_tokens": 4364
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 192508,
+      "daily_remaining_tokens": 7492
+    },
+    "updated_at": "2026-09-18T09:46:51.538934"
+  },
+  "JxPath_7/org/apache/commons/jxpath/ri/compiler/CoreOperationGreaterThanOrEqual.java": {
+    "project": "JxPath_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_7/org/apache/commons/jxpath/ri/compiler/CoreOperationGreaterThanOrEqual.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/JxPath_7_buggy/CoreOperationGreaterThanOrEqualTest.java",
+    "file_size_bytes": 5779,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 76.33,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1222,
+      "completion_tokens": 9389,
+      "total_tokens": 10611
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 203119,
+      "daily_remaining_tokens": -3119
+    },
+    "updated_at": "2026-09-18T09:48:09.898745"
+  },
+  "JacksonDatabind_39/com/fasterxml/jackson/databind/deser/std/NullifyingDeserializer.java": {
+    "project": "JacksonDatabind_39",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_39/com/fasterxml/jackson/databind/deser/std/NullifyingDeserializer.java",
+    "status": "FAILED",
+    "error": "คีย์ API ทั้งหมดในระบบโควต้าหมดแล้ว หรือไม่สามารถเชื่อมต่อได้",
+    "updated_at": "2026-09-18T09:48:11.916848"
+  },
+  "Chart_1/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java": {
+    "project": "Chart_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_1/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Chart_1_buggy/AbstractCategoryItemRendererTest.java",
+    "file_size_bytes": 33668,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 223.54,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 16672,
+      "completion_tokens": 28181,
+      "total_tokens": 44853
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 44853,
+      "daily_remaining_tokens": 155147
+    },
+    "updated_at": "2026-09-18T10:06:19.594519"
+  },
+  "Chart_10/org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java": {
+    "project": "Chart_10",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_10/org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Chart_10_buggy/StandardToolTipTagFragmentGeneratorTest.java",
+    "file_size_bytes": 4266,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 12.35,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1498,
+      "completion_tokens": 1691,
+      "total_tokens": 3189
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 3189,
+      "daily_remaining_tokens": 196811
+    },
+    "updated_at": "2026-09-18T10:06:33.980069"
+  },
+  "Chart_11/org/jfree/chart/util/ShapeUtilities.java": {
+    "project": "Chart_11",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_11/org/jfree/chart/util/ShapeUtilities.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Chart_11_buggy/ShapeUtilitiesTest.java",
+    "file_size_bytes": 22072,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 76.45,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8425,
+      "completion_tokens": 12043,
+      "total_tokens": 20468
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 20468,
+      "daily_remaining_tokens": 179532
+    },
+    "updated_at": "2026-09-18T10:07:52.465271"
+  },
+  "Chart_12/org/jfree/chart/plot/MultiplePiePlot.java": {
+    "project": "Chart_12",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_12/org/jfree/chart/plot/MultiplePiePlot.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Chart_12_buggy/MultiplePiePlotTest.java",
+    "file_size_bytes": 14082,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 81.07,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5305,
+      "completion_tokens": 10532,
+      "total_tokens": 15837
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 15837,
+      "daily_remaining_tokens": 184163
+    },
+    "updated_at": "2026-09-18T10:09:15.566487"
+  },
+  "Chart_13/org/jfree/chart/block/BorderArrangement.java": {
+    "project": "Chart_13",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_13/org/jfree/chart/block/BorderArrangement.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Chart_13_buggy/BorderArrangementTest.java",
+    "file_size_bytes": 22465,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 200.5,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6461,
+      "completion_tokens": 26697,
+      "total_tokens": 33158
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 78011,
+      "daily_remaining_tokens": 121989
+    },
+    "updated_at": "2026-09-18T10:12:38.124483"
+  },
+  "Chart_14/org/jfree/chart/plot/CategoryPlot.java": {
+    "project": "Chart_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_14/org/jfree/chart/plot/CategoryPlot.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Chart_14_buggy/CategoryPlotTest.java",
+    "file_size_bytes": 33880,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 181.1,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 29735,
+      "completion_tokens": 25078,
+      "total_tokens": 54813
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 58002,
+      "daily_remaining_tokens": 141998
+    },
+    "updated_at": "2026-09-18T10:15:41.262566"
+  },
+  "Chart_14/org/jfree/chart/plot/XYPlot.java": {
+    "project": "Chart_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_14/org/jfree/chart/plot/XYPlot.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Chart_14_buggy/XYPlotTest.java",
+    "file_size_bytes": 34878,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 98.14,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 38646,
+      "completion_tokens": 15451,
+      "total_tokens": 54097
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 74565,
+      "daily_remaining_tokens": 125435
+    },
+    "updated_at": "2026-09-18T10:17:21.603800"
+  },
+  "Chart_15/org/jfree/chart/plot/PiePlot.java": {
+    "project": "Chart_15",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_15/org/jfree/chart/plot/PiePlot.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Chart_15_buggy/PiePlotTest.java",
+    "file_size_bytes": 39717,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 209.62,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 22698,
+      "completion_tokens": 28764,
+      "total_tokens": 51462
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 67299,
+      "daily_remaining_tokens": 132701
+    },
+    "updated_at": "2026-09-18T10:20:53.355574"
+  },
+  "Chart_19/org/jfree/chart/plot/CategoryPlot.java": {
+    "project": "Chart_19",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_19/org/jfree/chart/plot/CategoryPlot.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Chart_19_buggy/CategoryPlotTest.java",
+    "file_size_bytes": 26517,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 130.25,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 28877,
+      "completion_tokens": 18206,
+      "total_tokens": 47083
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 125094,
+      "daily_remaining_tokens": 74906
+    },
+    "updated_at": "2026-09-18T10:23:05.658694"
+  },
+  "Chart_20/org/jfree/chart/plot/ValueMarker.java": {
+    "project": "Chart_20",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_20/org/jfree/chart/plot/ValueMarker.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Chart_20_buggy/ValueMarkerTest.java",
+    "file_size_bytes": 6902,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 23.19,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2449,
+      "completion_tokens": 3294,
+      "total_tokens": 5743
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 63745,
+      "daily_remaining_tokens": 136255
+    },
+    "updated_at": "2026-09-18T10:23:30.945829"
+  },
+  "Chart_23/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java": {
+    "project": "Chart_23",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_23/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Chart_23_buggy/MinMaxCategoryRendererTest.java",
+    "file_size_bytes": 18626,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 113.56,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7790,
+      "completion_tokens": 14356,
+      "total_tokens": 22146
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 96711,
+      "daily_remaining_tokens": 103289
+    },
+    "updated_at": "2026-09-18T10:25:26.630154"
+  },
+  "Chart_24/org/jfree/chart/renderer/GrayPaintScale.java": {
+    "project": "Chart_24",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_24/org/jfree/chart/renderer/GrayPaintScale.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Chart_24_buggy/GrayPaintScaleTest.java",
+    "file_size_bytes": 5811,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 18.18,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2610,
+      "completion_tokens": 2649,
+      "total_tokens": 5259
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 72558,
+      "daily_remaining_tokens": 127442
+    },
+    "updated_at": "2026-09-18T10:25:46.911627"
+  },
+  "Chart_25/org/jfree/chart/renderer/category/StatisticalBarRenderer.java": {
+    "project": "Chart_25",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_25/org/jfree/chart/renderer/category/StatisticalBarRenderer.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Chart_25_buggy/StatisticalBarRendererTest.java",
+    "file_size_bytes": 16860,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 48.6,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5631,
+      "completion_tokens": 7557,
+      "total_tokens": 13188
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 138282,
+      "daily_remaining_tokens": 61718
+    },
+    "updated_at": "2026-09-18T10:26:37.545059"
+  },
+  "Chart_26/org/jfree/chart/axis/Axis.java": {
+    "project": "Chart_26",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_26/org/jfree/chart/axis/Axis.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Chart_26_buggy/AxisTest.java",
+    "file_size_bytes": 31970,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 107.38,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10238,
+      "completion_tokens": 16549,
+      "total_tokens": 26787
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 90532,
+      "daily_remaining_tokens": 109468
+    },
+    "updated_at": "2026-09-18T10:28:27.093325"
+  },
+  "Chart_4/org/jfree/chart/plot/XYPlot.java": {
+    "project": "Chart_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_4/org/jfree/chart/plot/XYPlot.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Chart_4_buggy/XYPlotTest.java",
+    "file_size_bytes": 43224,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 174.16,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 44895,
+      "completion_tokens": 25486,
+      "total_tokens": 70381
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 167092,
+      "daily_remaining_tokens": 32908
+    },
+    "updated_at": "2026-09-18T10:31:23.633934"
+  },
+  "Chart_6/org/jfree/chart/util/ShapeList.java": {
+    "project": "Chart_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_6/org/jfree/chart/util/ShapeList.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Chart_6_buggy/ShapeListTest.java",
+    "file_size_bytes": 6826,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 22.27,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2278,
+      "completion_tokens": 3211,
+      "total_tokens": 5489
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 78047,
+      "daily_remaining_tokens": 121953
+    },
+    "updated_at": "2026-09-18T10:31:48.160835"
+  },
+  "Cli_10/org/apache/commons/cli/Parser.java": {
+    "project": "Cli_10",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_10/org/apache/commons/cli/Parser.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_10_buggy/ParserTest.java",
+    "file_size_bytes": 15272,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 138.53,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4717,
+      "completion_tokens": 18065,
+      "total_tokens": 22782
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 161064,
+      "daily_remaining_tokens": 38936
+    },
+    "updated_at": "2026-09-18T10:34:08.725554"
+  },
+  "Cli_11/org/apache/commons/cli/HelpFormatter.java": {
+    "project": "Cli_11",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_11/org/apache/commons/cli/HelpFormatter.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_11_buggy/HelpFormatterTest.java",
+    "file_size_bytes": 21709,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 133.21,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5639,
+      "completion_tokens": 16848,
+      "total_tokens": 22487
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 113019,
+      "daily_remaining_tokens": 86981
+    },
+    "updated_at": "2026-09-18T10:36:23.960974"
+  },
+  "Cli_12/org/apache/commons/cli/GnuParser.java": {
+    "project": "Cli_12",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_12/org/apache/commons/cli/GnuParser.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_12_buggy/GnuParserTest.java",
+    "file_size_bytes": 5319,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 27.97,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1826,
+      "completion_tokens": 3137,
+      "total_tokens": 4963
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 172055,
+      "daily_remaining_tokens": 27945
+    },
+    "updated_at": "2026-09-18T10:36:53.963641"
+  },
+  "Cli_13/org/apache/commons/cli2/WriteableCommandLine.java": {
+    "project": "Cli_13",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_13/org/apache/commons/cli2/WriteableCommandLine.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_13_buggy/WriteableCommandLineTest.java",
+    "file_size_bytes": 12599,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 125.56,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1572,
+      "completion_tokens": 15695,
+      "total_tokens": 17267
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 95314,
+      "daily_remaining_tokens": 104686
+    },
+    "updated_at": "2026-09-18T10:39:01.559427"
+  },
+  "Cli_13/org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java": {
+    "project": "Cli_13",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_13/org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_13_buggy/WriteableCommandLineImplTest.java",
+    "file_size_bytes": 14711,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 130.07,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2998,
+      "completion_tokens": 18393,
+      "total_tokens": 21391
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 182455,
+      "daily_remaining_tokens": 17545
+    },
+    "updated_at": "2026-09-18T10:41:13.700581"
+  },
+  "Cli_13/org/apache/commons/cli2/option/ArgumentImpl.java": {
+    "project": "Cli_13",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_13/org/apache/commons/cli2/option/ArgumentImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_13_buggy/ArgumentImplTest.java",
+    "file_size_bytes": 21687,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 260.69,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4690,
+      "completion_tokens": 35184,
+      "total_tokens": 39874
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 152893,
+      "daily_remaining_tokens": 47107
+    },
+    "updated_at": "2026-09-18T10:45:36.459971"
+  },
+  "Cli_14/org/apache/commons/cli2/option/GroupImpl.java": {
+    "project": "Cli_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_14/org/apache/commons/cli2/option/GroupImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_14_buggy/GroupImplTest.java",
+    "file_size_bytes": 18132,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 304.49,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5833,
+      "completion_tokens": 37478,
+      "total_tokens": 43311
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 215366,
+      "daily_remaining_tokens": -15366
+    },
+    "updated_at": "2026-09-18T10:50:42.981452"
+  },
+  "Cli_15/org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java": {
+    "project": "Cli_15",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_15/org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_15_buggy/WriteableCommandLineImplTest.java",
+    "file_size_bytes": 12321,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 147.93,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3406,
+      "completion_tokens": 17857,
+      "total_tokens": 21263
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 203718,
+      "daily_remaining_tokens": -3718
+    },
+    "updated_at": "2026-09-18T10:53:12.952001"
+  },
+  "Cli_16/org/apache/commons/cli2/Option.java": {
+    "project": "Cli_16",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_16/org/apache/commons/cli2/Option.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_16_buggy/OptionTest.java",
+    "file_size_bytes": 15018,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 38.47,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2867,
+      "completion_tokens": 5358,
+      "total_tokens": 8225
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 103539,
+      "daily_remaining_tokens": 96461
+    },
+    "updated_at": "2026-09-18T10:53:53.579921"
+  },
+  "Cli_16/org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java": {
+    "project": "Cli_16",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_16/org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_16_buggy/WriteableCommandLineImplTest.java",
+    "file_size_bytes": 18349,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 262.81,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3552,
+      "completion_tokens": 33354,
+      "total_tokens": 36906
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 189799,
+      "daily_remaining_tokens": 10201
+    },
+    "updated_at": "2026-09-18T10:58:18.535893"
+  },
+  "Cli_16/org/apache/commons/cli2/option/GroupImpl.java": {
+    "project": "Cli_16",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_16/org/apache/commons/cli2/option/GroupImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_16_buggy/GroupImplTest.java",
+    "file_size_bytes": 19462,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 301.76,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5828,
+      "completion_tokens": 35643,
+      "total_tokens": 41471
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 145010,
+      "daily_remaining_tokens": 54990
+    },
+    "updated_at": "2026-09-18T11:03:22.328154"
+  },
+  "Cli_16/org/apache/commons/cli2/option/OptionImpl.java": {
+    "project": "Cli_16",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_16/org/apache/commons/cli2/option/OptionImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_16_buggy/OptionImplTest.java",
+    "file_size_bytes": 15973,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 113.9,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2329,
+      "completion_tokens": 14901,
+      "total_tokens": 17230
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 207029,
+      "daily_remaining_tokens": -7029
+    },
+    "updated_at": "2026-09-18T11:05:18.269559"
+  },
+  "Cli_17/org/apache/commons/cli/PosixParser.java": {
+    "project": "Cli_17",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_17/org/apache/commons/cli/PosixParser.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_17_buggy/PosixParserTest.java",
+    "file_size_bytes": 7710,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 98.67,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4156,
+      "completion_tokens": 10855,
+      "total_tokens": 15011
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 160021,
+      "daily_remaining_tokens": 39979
+    },
+    "updated_at": "2026-09-18T11:06:59.017705"
+  },
+  "Cli_18/org/apache/commons/cli/PosixParser.java": {
+    "project": "Cli_18",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_18/org/apache/commons/cli/PosixParser.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_18_buggy/PosixParserTest.java",
+    "file_size_bytes": 8212,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 138.32,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4075,
+      "completion_tokens": 15333,
+      "total_tokens": 19408
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 179429,
+      "daily_remaining_tokens": 20571
+    },
+    "updated_at": "2026-09-18T11:09:19.374979"
+  },
+  "Cli_19/org/apache/commons/cli/PosixParser.java": {
+    "project": "Cli_19",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_19/org/apache/commons/cli/PosixParser.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_19_buggy/PosixParserTest.java",
+    "file_size_bytes": 9736,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 134.32,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4044,
+      "completion_tokens": 15105,
+      "total_tokens": 19149
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 198578,
+      "daily_remaining_tokens": 1422
+    },
+    "updated_at": "2026-09-18T11:11:35.855618"
+  },
+  "Cli_2/org/apache/commons/cli/PosixParser.java": {
+    "project": "Cli_2",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_2/org/apache/commons/cli/PosixParser.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_2_buggy/PosixParserTest.java",
+    "file_size_bytes": 6469,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 143.98,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4153,
+      "completion_tokens": 16144,
+      "total_tokens": 20297
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 218875,
+      "daily_remaining_tokens": -18875
+    },
+    "updated_at": "2026-09-18T11:14:01.892561"
+  },
+  "Cli_20/org/apache/commons/cli/PosixParser.java": {
+    "project": "Cli_20",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_20/org/apache/commons/cli/PosixParser.java",
+    "status": "FAILED",
+    "error": "คีย์ API ทั้งหมดในระบบโควต้าหมดแล้ว หรือไม่สามารถเชื่อมต่อได้",
+    "updated_at": "2026-09-18T11:14:03.919205"
   }
 }
