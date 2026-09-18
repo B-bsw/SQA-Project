@@ -165,7 +165,9 @@ python script/generate_claude_tests.py --project Codec_1 -v
 | `--dry-run` | flag | `False` | โหมดจำลอง แสดงรายการไฟล์และ Prompt โดยไม่ยิง API |
 | `--model` | string | `claude-sonnet-5` | โมเดลที่ต้องการเรียกใช้ |
 | `--timeout` | int | `60` | เวลา Timeout สูงสุดต่อ Request (วินาที) ตัดจบและ Failover คีย์เร็วขึ้น |
-| `--sort-by-size` | flag | `False` | จัดเรียงคิวงานตามขนาดไฟล์ (Smallest first) ทำไฟล์เล็กก่อนไฟล์ใหญ่ |
+| `--sort-by-size` | flag | `True` | จัดเรียงคิวงานตามขนาดไฟล์ (Smallest first) ทำไฟล์เล็กก่อนไฟล์ใหญ่ (เปิดเป็นค่าเริ่มต้น) |
+| `--no-sort-by-size` | flag | `False` | ปิดการจัดเรียงตามขนาดไฟล์ (เรียงตามลำดับโฟลเดอร์เดิม) |
+| `--limit`, `-n` | int | `None` | จำกัดจำนวนไฟล์ที่จะประมวลผลในรอบนี้ (เช่น `-n 10` ทำ 10 ไฟล์แรก) |
 | `--no-auto-compact`| flag | `False` | ปิดระบบย่อโค้ดอัตโนมัติ (ตัด Javadoc/Comments) สำหรับคลาสขนาดใหญ่ |
 | `--check-quota` | flag | `False` | ตรวจสอบโควต้าคงเหลือจริง (Real-time Token Quota) ของทุก API Key จากเซิร์ฟเวอร์ KKU |
 

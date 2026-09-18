@@ -1632,5 +1632,26 @@
       "daily_remaining_tokens": 128370
     },
     "updated_at": "2026-09-18T11:19:55.989789"
+  },
+  "Closure_109/com/google/javascript/jscomp/parsing/JsDocInfoParser.java": {
+    "project": "Closure_109",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_109/com/google/javascript/jscomp/parsing/JsDocInfoParser.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_109_buggy/JsDocInfoParserTest.java",
+    "file_size_bytes": 36198,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 63.77,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 17028,
+      "completion_tokens": 9744,
+      "total_tokens": 29449
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 260677,
+      "daily_remaining_tokens": 89323
+    },
+    "updated_at": "2026-09-18T11:22:02.397400"
   }
 }

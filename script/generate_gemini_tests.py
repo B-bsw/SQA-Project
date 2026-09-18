@@ -2,17 +2,22 @@
 # -*- coding: utf-8 -*-
 
 """
-generate_claude_tests.py
+generate_gemini_tests.py
 ------------------------
 สคริปต์สำหรับอ่านไฟล์ Java Source Code จาก Resoucre ทีละไฟล์ ทีละโปรเจกต์
-แล้วส่ง Request ไปยัง KKU GenAI API (โมเดล claude-sonnet-5) ตาม Template ใน promt.md
-จากนั้นดึงโค้ด JUnit Test จาก Response มาบันทึกลงใน Claude-sonnet-5/TestCode/<Project>_1_buggy/
+แล้วส่ง Request ไปยัง KKU GenAI API (โมเดล gemini-3.8-flash) ตาม Template ใน Gemini-3.8-flash/promt/promt.md
+จากนั้นสกัดโค้ด JUnit Test จาก Response มาบันทึกลงใน Gemini-3.8-flash/TestCode/<Project>_1_buggy/
 
 คุณสมบัติพิเศษ:
-- Real-time Live Progress & Streaming: แสดงสถานะการสร้างโค้ดแบบวินาทีต่อวินาที ไม่ค้างเงียบ ไม่ทำให้รู้สึกว่าแฮงก์
-- Multi-Key Rotation & Auto-Failover: รองรับหลาย API Key สลับใช้งานแบบ Round-Robin และสลับคีย์อัตโนมัติเมื่อคีย์ใดคีย์หนึ่งติด Quota/Rate Limit
-- ระบบ Memory / State Tracking: จดจำสถานะแต่ละไฟล์ลงใน generation_state.json อัตโนมัติ รันต่อได้ทันทีไม่เสียเวลา
-- Handle Token / Quota Exhausted: ตรวจจับกรณีโควต้าหมดทุกคีย์แล้วหยุดทำงานทันที ไม่ฝืนยิงต่อให้เสียเวลา
+- รองรับโมเดล gemini-3.8-flash (โควต้า 350,000 tokens/วัน ต่อคีย์บน KKU IntelSphere API)
+- Real-time Live Progress & Streaming: แสดงสถานะการสร้างโค้ดแบบวินาทีต่อวินาที ตรวจสอบ TTFT และปริมาณ token แบบสด
+- Multi-Key Rotation & Auto-Failover: รองรับหลาย API Key (API_KEY, API_KEY2, API_KEY3, API_KEY4) สลับ Round-Robin และ Failover ทันทีที่คีย์ใดคีย์หนึ่งหมดโควต้า
+- ตรวจสอบโควต้าสด (--check-quota): ดึงยอด token คงเหลือจริงของแต่ละคีย์จากเซิร์ฟเวอร์แบบ Real-time
+- Scale รองรับ 800+ โฟลเดอร์: ใช้ Fast Directory Scanner พร้อม Live Counter แสดงจำนวนไฟล์ที่พบทันที ไม่ค้างเงียบ
+- In-Memory Test Index (O(1)): สแกนและทำดัชนีไฟล์ Test เดิมไว้ใน Memory ตรวจจับไฟล์เดิมและ Manual Tests ได้ในเสี้ยววินาที
+- จัดลำดับ Smallest First อัตโนมัติ: ประมวลผลจากไฟล์ขนาดเล็กไปใหญ่ ไม่สะดุดที่คลาสขนาดใหญ่ตั้งแต่เริ่มต้น
+- Proactive & Reactive Compact: ย่อโค้ด Java (ตัด Javadoc/Comments) สำหรับคลาสขนาดใหญ่ เพื่อให้ TTFT รวดเร็วและลด token
+- ระบบ Memory / State Tracking: จดจำสถานะลงใน Gemini-3.8-flash/generation_state.json อัตโนมัติ ข้ามไฟล์ที่เสร็จแล้ว
 - Safe Interrupt: ดักจับ Ctrl+C และบันทึกสถานะล่าสุดก่อนปิดโปรแกรมเสมอ
 """
 
@@ -48,107 +53,78 @@ except ImportError:
 # ==========================================
 # 1. ฟังก์ชันโหลดค่าคอนฟิกจาก .env
 # ==========================================
-def load_env(env_path: Path = None) -> dict:
-    """อ่านไฟล์ .env แบบ Native โดยไม่ต้องติดตั้ง python-dotenv"""
+def load_env_file(env_path: Path) -> dict:
+    """อ่านไฟล์ .env และแปลงเป็น key-value dictionary"""
     env_vars = {}
-    search_paths = []
-    if env_path:
-        search_paths.append(Path(env_path))
-    
-    current_dir = Path(__file__).resolve().parent
-    workspace_root = current_dir.parent
-    
-    search_paths.extend([
-        workspace_root / ".env",
-        current_dir / ".env",
-        Path.cwd() / ".env"
-    ])
-    
-    found_file = None
-    for p in search_paths:
-        if p.is_file():
-            found_file = p
-            break
-            
-    if found_file:
-        with open(found_file, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if not line or line.startswith("#"):
-                    continue
-                if "=" in line:
-                    k, v = line.split("=", 1)
-                    k = k.strip()
-                    v = v.strip().strip("'\"")
-                    env_vars[k] = v
-                    
+    if not env_path.is_file():
+        return env_vars
+
+    with open(env_path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            if "=" in line:
+                key, val = line.split("=", 1)
+                env_vars[key.strip()] = val.strip().strip("'\"")
     return env_vars
 
 
-def get_all_api_keys(cli_keys: list = None, env_path: str = None) -> list:
+def get_all_api_keys(cli_keys: list, env_file_arg: str = None) -> list:
     """
-    ค้นหา API Keys ทั้งหมดที่ระบุไว้ใน:
-    1. CLI Argument (--api-key)
-    2. ไฟล์ .env (เช่น API_KEY, API_KEY2, API_KEY_1, API_KEYS=k1,k2)
-    3. System Environment Variables
+    ค้นหาและรวบรวม API Key ทั้งหมดจากทุกแหล่ง:
+    1. ค่าที่ส่งผ่าน CLI: -k key1 -k key2 หรือ -k "key1,key2"
+    2. ไฟล์ .env: API_KEY, API_KEY2, API_KEY3, API_KEY4... หรือ API_KEYS="key1,key2"
+    3. ตัวแปร Environment ของระบบ: API_KEY
     """
     keys = []
-    
-    # 1. จาก CLI Arguments
+
+    # 1. จาก CLI
     if cli_keys:
-        for k in cli_keys:
-            if "," in k:
-                keys.extend([x.strip() for x in k.split(",") if x.strip()])
-            elif k.strip():
-                keys.append(k.strip())
-                
+        for item in cli_keys:
+            if "," in item:
+                keys.extend([k.strip() for k in item.split(",") if k.strip()])
+            elif item.strip():
+                keys.append(item.strip())
+
     # 2. จากไฟล์ .env
-    env_vars = load_env(Path(env_path) if env_path else None)
-    key_pattern = re.compile(r'^(API_KEY|CLAUDE_API_KEY|KKU_API_KEY)(_?\d+)?$', re.IGNORECASE)
-    comma_pattern = re.compile(r'^(API_KEYS|CLAUDE_API_KEYS|KKU_API_KEYS)$', re.IGNORECASE)
-    
-    for k, v in env_vars.items():
-        if not v:
-            continue
-        if comma_pattern.match(k):
-            keys.extend([x.strip() for x in v.split(",") if x.strip()])
-        elif key_pattern.match(k):
-            if "," in v:
-                keys.extend([x.strip() for x in v.split(",") if x.strip()])
-            else:
-                keys.append(v.strip())
+    workspace_dir = Path(__file__).resolve().parent.parent
+    env_path = Path(env_file_arg) if env_file_arg else (workspace_dir / ".env")
+
+    if env_path.is_file():
+        env_vars = load_env_file(env_path)
+        # ตรวจสอบ API_KEYS แบบคั่นด้วยจุลภาค
+        if "API_KEYS" in env_vars:
+            keys.extend([k.strip() for k in env_vars["API_KEYS"].split(",") if k.strip()])
+        # ตรวจสอบ API_KEY, API_KEY1, API_KEY2, API_KEY3, API_KEY4...
+        for k_name, k_val in env_vars.items():
+            if re.match(r"^API_KEY\d*$", k_name, re.IGNORECASE) and k_val:
+                keys.append(k_val.strip())
 
     # 3. จาก System Environment Variables
-    for k, v in os.environ.items():
-        if not v:
-            continue
-        if comma_pattern.match(k):
-            keys.extend([x.strip() for x in v.split(",") if x.strip()])
-        elif key_pattern.match(k):
-            if "," in v:
-                keys.extend([x.strip() for x in v.split(",") if x.strip()])
-            else:
-                keys.append(v.strip())
+    if not keys:
+        env_sys = os.environ.get("API_KEY")
+        if env_sys:
+            keys.append(env_sys.strip())
 
-    # ตัดคีย์ที่ซ้ำกันออกโดยรักษาลำดับเดิม
-    seen = set()
+    # กรองค่าว่างและคีย์ที่ซ้ำกันออกโดยรักษาลำดับเดิม
     unique_keys = []
     for k in keys:
-        if k and k not in seen:
-            seen.add(k)
+        if k and k not in unique_keys:
             unique_keys.append(k)
-            
+
     return unique_keys
 
 
 # ==========================================
-# 2. คลาส KeyManager จัดการการสลับคีย์ API
+# 2. คลาสจัดการ API Key Rotation (KeyManager)
 # ==========================================
 class KeyManager:
     """
-    คลาสบริหารจัดการ API Keys หลายชุด:
+    คลาสสำหรับบริหารจัดการ API Keys หลายคีย์:
     - สลับคีย์แบบ Round-Robin ทุกครั้งที่เรียกสำเร็จ
     - สลับคีย์ทันที (Failover) เมื่อพบคีย์ใดโควต้าหมด หรือติด Rate Limit
+    - บันทึกข้อมูลโควต้าคงเหลือ (model_quota) จาก KKU IntelSphere API
     - ตัดคีย์ที่โควต้าหมดออกจากคิว ไม่ให้ถูกนำมาใช้อีกในรอบการทำงานนี้
     """
     def __init__(self, keys: list):
@@ -250,14 +226,28 @@ def load_prompt_template(prompt_path: Path) -> str:
 
 
 def build_prompt(template: str, source_code: str, dependencies: str = "") -> str:
-    """แทนที่ source code ลงใน Prompt Template"""
+    """
+    แทนที่ source code ลงใน Prompt Template
+    รองรับทั้ง Template สไตล์ Gemini และ Claude
+    """
     prompt = template
-    placeholder_src = "[full class source code ของ target class]"
-    if placeholder_src in prompt:
-        prompt = prompt.replace(placeholder_src, source_code)
-    else:
+    
+    # 1. รูปแบบของ Gemini: // วาง Source Code ของไฟล์ Java ที่ต้องการให้ทดสอบที่นี่...
+    placeholder_cmt = "// วาง Source Code ของไฟล์ Java ที่ต้องการให้ทดสอบที่นี่ (เช่น โค้ดของ SoundexUtils.java)"
+    if placeholder_cmt in prompt:
+        prompt = prompt.replace(placeholder_cmt, source_code)
+    # 2. รูปแบบ [full class source code ของ target class]
+    elif "[full class source code ของ target class]" in prompt:
+        prompt = prompt.replace("[full class source code ของ target class]", source_code)
+    # 3. รูปแบบแท็ก XML <source_code>...</source_code>
+    elif "<source_code>" in prompt and "</source_code>" in prompt:
         prompt = re.sub(r'(<source_code>)([\s\S]*?)(</source_code>)',
                         rf'\1\n{source_code}\n\3', prompt)
+    # 4. รูปแบบหัวข้อ [SOURCE CODE]
+    elif "[SOURCE CODE]" in prompt:
+        prompt = prompt.replace("[SOURCE CODE]", f"[SOURCE CODE]\n{source_code}")
+    else:
+        prompt = f"{prompt}\n\n[SOURCE CODE]\n{source_code}"
         
     placeholder_dep = "[signature ของ class ที่ target class เรียกใช้ ถ้ามี]"
     if placeholder_dep in prompt:
@@ -271,7 +261,7 @@ def extract_java_code(response_text: str) -> str:
     """
     สกัดโค้ด Java จาก Response ที่ได้รับจากโมเดล
     รองรับทั้งโค้ดล้วน และโค้ดที่ครอบด้วย ```java ... ```
-    คำเตือน: สกัดเฉพาะโค้ดจาก Response เท่านั้น ห้ามเขียนขึ้นมาเองเด็ดขาด
+    หากโมเดลมีข้อความ Phase 1 วิเคราะห์ และ Phase 2 โค้ด จะตัดเอาเฉพาะ Class ที่เป็น Unit Test
     """
     text = response_text.strip()
     pattern = r"```(?:java|Java)?\s*([\s\S]*?)\s*```"
@@ -398,7 +388,6 @@ class WaitingTicker:
         self.running = False
         if self.thread:
             self.thread.join(timeout=0.5)
-        # ล้างบรรทัดปัจจุบัน
         sys.stdout.write("\r" + " " * 95 + "\r")
         sys.stdout.flush()
 
@@ -407,7 +396,7 @@ def call_single_api_stream(
     api_key: str,
     prompt: str,
     base_url: str = "https://gen.ai.kku.ac.th/api/v1",
-    model: str = "claude-sonnet-5",
+    model: str = "gemini-3.8-flash",
     timeout: int = 60,
     max_retries: int = 1,
     retry_delay: int = 4,
@@ -416,7 +405,7 @@ def call_single_api_stream(
     """
     ยิง Request ไปยัง KKU GenAI แบบ Streaming (SSE)
     แสดงผล Real-time ให้ผู้ใช้เห็นความคืบหน้าตลอดเวลาทุกวินาที
-    พร้อมระบบตรวจจับ Error ก่อน Response และ Error ในสตรีม
+    พร้อมระบบตรวจจับ Error ก่อน Response, Error ในสตรีม, และสกัด model_quota
     """
     url = f"{base_url.rstrip('/')}/chat/completions"
     headers = {
@@ -449,7 +438,6 @@ def call_single_api_stream(
             ticker.start()
             t0 = time.time()
             
-            # ใช้ connect timeout 15s และ read timeout ตาม timeout ที่กำหนด
             resp = requests.post(
                 url,
                 headers=headers,
@@ -458,7 +446,6 @@ def call_single_api_stream(
                 timeout=(15, timeout)
             )
             
-            # ตรวจสอบกรณีเกิด Error ทันที (เช่น HTTP 400/401/402/413/429/500/504)
             if resp.status_code != 200:
                 ticker.stop()
                 err_text = resp.text
@@ -515,7 +502,6 @@ def call_single_api_stream(
                     continue
                 decoded = line.decode("utf-8", errors="replace")
                 
-                # ตรวจสอบ Error ที่อาจส่งมาในรูปแบบ JSON ตรงๆ ก่อนหรือระหว่างสตรีม
                 if decoded.startswith("{") and '"error"' in decoded:
                     try:
                         err_obj = json.loads(decoded)
@@ -533,7 +519,6 @@ def call_single_api_stream(
                     try:
                         chunk_json = json.loads(data_str)
                         
-                        # ตรวจสอบ error ที่หุ้มใน data: {"error": ...}
                         if "error" in chunk_json:
                             err_val = chunk_json["error"]
                             stream_error = err_val.get("message", data_str) if isinstance(err_val, dict) else str(err_val)
@@ -583,7 +568,6 @@ def call_single_api_stream(
             total_elapsed = time.time() - t0
             est_tokens = len(full_text) // 4
 
-            # กรณีพบ Error ในสตรีม
             if stream_error:
                 print(f"\n    ⚠️ ได้รับ Error ในสตรีม: {stream_error}")
                 if is_quota_exceeded(429, stream_error):
@@ -603,7 +587,6 @@ def call_single_api_stream(
                 time.sleep(retry_delay * attempt)
                 continue
 
-            # ตรวจสอบว่าได้รับเนื้อหาจริงหรือไม่ ไม่ปล่อยให้ผ่านกรณีได้ empty string
             if not full_text.strip() or len(full_text.strip()) < 50:
                 last_err = "ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง"
                 print(f"\n    ⚠️ {last_err} - กำลังลองใหม่รอบที่ {attempt}/{max_retries}...")
@@ -623,7 +606,7 @@ def call_single_api_stream(
                 tot = model_quota.get("daily_quota_tokens")
                 used = model_quota.get("daily_usage_tokens")
                 if rem is not None and tot is not None:
-                    print(f"  📊 Quota โมเดล: คงเหลือ {rem:,} / {tot:,} tokens (ใช้สะสมวันนี้ {used:,} tokens)")
+                    print(f"  📊 Quota โมเดล ({model}): คงเหลือ {rem:,} / {tot:,} tokens (ใช้สะสมวันนี้ {used:,} tokens)")
 
             return {
                 "success": True,
@@ -652,41 +635,36 @@ def call_single_api_stream(
             last_err = e
             print(f"\n    ⚠️ Network Exception ({e}) - กำลังลองใหม่รอบที่ {attempt}/{max_retries}...")
             time.sleep(retry_delay * attempt)
-        finally:
-            ticker.stop()
-            if resp:
-                try:
-                    resp.close()
-                except Exception:
-                    pass
-            
+
     return {
         "success": False,
         "quota_exhausted": False,
-        "error": f"Failed after {max_retries} retries: {str(last_err)}"
+        "error": f"Failed after {max_retries} attempts: {last_err}"
     }
 
 
-def call_claude_api_with_rotation(
+def call_gemini_api_with_rotation(
     key_manager: KeyManager,
     prompt: str,
     base_url: str = "https://gen.ai.kku.ac.th/api/v1",
-    model: str = "claude-sonnet-5",
+    model: str = "gemini-3.8-flash",
     timeout: int = 60,
     show_stream: bool = False
 ) -> dict:
     """
-    ยิง API พร้อมระบบ Multi-Key Rotation & Auto-Failover:
-    - สลับคีย์แบบ Round-Robin
-    - สลับคีย์สำรองทันทีเมื่อพบคีย์โควต้าหมด หรือเกิด Timeout
-    - สตรีมผลลัพธ์แบบ Real-time ให้เห็นความคืบหน้าตลอดเวลา
+    ฟังก์ชันสลับคีย์อัตโนมัติ (Multi-Key Rotation & Failover)
+    - สลับคีย์ Round-Robin ทุกครั้งที่สำเร็จ
+    - หมุนเวียนไปใช้คีย์สำรองทันทีหากพบ Quota หมด หรือ Timeout
+    - ทำงานจนกว่าจะสำเร็จ หรือคีย์ทั้งหมดในระบบโควต้าหมด
     """
-    tried_in_request = set()
     last_res = None
+    tried_in_request = set()
     
     while key_manager.has_active_keys():
         current_key = key_manager.get_current_key()
-        
+        if not current_key:
+            break
+            
         if current_key in tried_in_request and len(tried_in_request) >= len(key_manager.get_active_keys()):
             break
         tried_in_request.add(current_key)
@@ -717,11 +695,9 @@ def call_claude_api_with_rotation(
             key_manager.mark_exhausted(current_key, res.get("error", ""))
             continue
 
-        # หากเป็นข้อผิดพลาดจากขนาดไฟล์ใหญ่เกินไป (Payload too large) การเปลี่ยนคีย์จะไม่ช่วย
         if res.get("payload_too_large"):
             return res
 
-        # กรณี TTFT Timeout ให้ทำ Fast Failover สลับไปลองคีย์ถัดไปทันที
         if res.get("is_timeout"):
             active_keys = key_manager.get_active_keys()
             if len(tried_in_request) < len(active_keys):
@@ -763,7 +739,7 @@ def call_claude_api_with_rotation(
 # ==========================================
 def pre_index_test_code_dir(test_code_dir: Path) -> dict:
     """
-    สแกนและจัดทำดัชนี (In-Memory Index) ไฟล์ Test ที่มีอยู่จริงใน Claude-sonnet-5/TestCode ทั้งหมดไว้ล่วงหน้า
+    สแกนและจัดทำดัชนี (In-Memory Index) ไฟล์ Test ที่มีอยู่จริงใน Gemini-3.8-flash/TestCode ทั้งหมดไว้ล่วงหน้า
     เพื่อลดการเข้าถึงดิสก์จาก 1,000+ ครั้ง เหลือเพียง 1 ครั้งในระดับเสี้ยววินาที (O(1) Memory Lookup)
     """
     index = {}
@@ -868,7 +844,7 @@ def sync_existing_tests_to_memory(tasks: list, state_data: dict, state_file: Pat
     return synced_count
 
 
-def check_live_quotas(key_manager: KeyManager, model: str = "claude-sonnet-5", base_url: str = "https://gen.ai.kku.ac.th/api/v1"):
+def check_live_quotas(key_manager: KeyManager, model: str = "gemini-3.8-flash", base_url: str = "https://gen.ai.kku.ac.th/api/v1"):
     """
     ตรวจสอบโควต้าคงเหลือจริงของทุกคีย์จาก KKU IntelSphere API
     """
@@ -917,7 +893,7 @@ def print_memory_status(state_file: Path, tasks: list, key_manager: KeyManager):
     """พิมพ์สถานะภาพรวมจาก Memory File พร้อมสถานะ API Keys"""
     state_data = load_state(state_file)
     print("\n================================================================================")
-    print("📊 รายงานสถานะความคืบหน้าปัจจุบัน (Memory Status)")
+    print("📊 รายงานสถานะความคืบหน้าปัจจุบัน (Memory Status - Gemini)")
     print(f"📄 State File: {state_file}")
     print(f"🔑 API Keys:   {key_manager.total_count} คีย์ที่ตรวจพบ")
     for i, k in enumerate(key_manager.keys, 1):
@@ -962,7 +938,7 @@ def print_memory_status(state_file: Path, tasks: list, key_manager: KeyManager):
 # ==========================================
 def main():
     parser = argparse.ArgumentParser(
-        description="สคริปต์ส่ง Code จาก Resoucre ไป Gen JUnit Test ด้วย Claude Sonnet 5 (KKU GenAI)"
+        description="สคริปต์ส่ง Code จาก Resoucre ไป Gen JUnit Test ด้วย Gemini 3.8 Flash (KKU GenAI)"
     )
     parser.add_argument("--project", "-p", type=str, default=None,
                         help="ระบุโปรเจกต์เฉพาะที่ต้องการรัน (เช่น Codec_1 หรือ Chart_1) ถ้าไม่ระบุจะรันทุกโปรเจกต์")
@@ -973,7 +949,7 @@ def main():
     parser.add_argument("--env-file", type=str, default=None,
                         help="พาธไฟล์ .env")
     parser.add_argument("--state-file", type=str, default=None,
-                        help="พาธไฟล์บันทึกสถานะ Memory (ค่าเริ่มต้น: Claude-sonnet-5/generation_state.json)")
+                        help="พาธไฟล์บันทึกสถานะ Memory (ค่าเริ่มต้น: Gemini-3.8-flash/generation_state.json)")
     parser.add_argument("--overwrite", action="store_true", default=False,
                         help="บังคับเขียนทับไฟล์ Test และสร้างใหม่ แม้เคยทำเสร็จแล้ว")
     parser.add_argument("--reset-state", action="store_true", default=False,
@@ -982,12 +958,12 @@ def main():
                         help="แสดงรายงานสถานะปัจจุบันจาก Memory file โดยไม่เรียกใช้งาน API")
     parser.add_argument("--show-stream", "-v", action="store_true", default=False,
                         help="แสดงโค้ด Java ที่กำลังสตรีมแบบสดลงบนหน้าจอคอนโซล")
-    parser.add_argument("--delay", type=float, default=2.0,
-                        help="หน่วงเวลาระหว่าง Request แต่ละครั้ง (วินาที, ค่าเริ่มต้น: 2.0)")
+    parser.add_argument("--delay", type=float, default=1.5,
+                        help="หน่วงเวลาระหว่าง Request แต่ละครั้ง (วินาที, ค่าเริ่มต้น: 1.5)")
     parser.add_argument("--dry-run", action="store_true", default=False,
                         help="ทดสอบแสดงรายการไฟล์ที่จะถูกประมวลผล โดยไม่ยิง API จริง")
-    parser.add_argument("--model", type=str, default="claude-sonnet-5",
-                        help="โมเดลที่ใช้ (ค่าเริ่มต้น: claude-sonnet-5)")
+    parser.add_argument("--model", type=str, default="gemini-3.8-flash",
+                        help="โมเดลที่ใช้ (ค่าเริ่มต้น: gemini-3.8-flash)")
     parser.add_argument("--timeout", type=int, default=60,
                         help="เวลา Timeout สูงสุดต่อ Request (วินาที, ค่าเริ่มต้น: 60)")
     parser.add_argument("--no-auto-compact", action="store_true", default=False,
@@ -1005,9 +981,11 @@ def main():
     # กำหนดพาธหลักของโฟลเดอร์
     workspace_dir = Path(__file__).resolve().parent.parent
     resource_dir = workspace_dir / "Resoucre"
-    prompt_file = workspace_dir / "Claude-sonnet-5" / "Promt" / "promt.md"
-    test_code_dir = workspace_dir / "Claude-sonnet-5" / "TestCode"
-    state_file = Path(args.state_file) if args.state_file else (workspace_dir / "Claude-sonnet-5" / "generation_state.json")
+    prompt_file = workspace_dir / "Gemini-3.8-flash" / "promt" / "promt.md"
+    if not prompt_file.is_file():
+        prompt_file = workspace_dir / "Gemini-3.8-flash" / "Promt" / "promt.md"
+    test_code_dir = workspace_dir / "Gemini-3.8-flash" / "TestCode"
+    state_file = Path(args.state_file) if args.state_file else (workspace_dir / "Gemini-3.8-flash" / "generation_state.json")
 
     # 1. ตรวจหาและโหลด API Keys ทั้งหมด
     all_keys = get_all_api_keys(args.api_key, args.env_file)
@@ -1019,7 +997,7 @@ def main():
         sys.exit(0)
 
     print("================================================================================")
-    print("🚀 Claude Sonnet 5 - JUnit Test Generation (Live Stream & Multi-Key)")
+    print("🚀 Gemini 3.8 Flash - JUnit Test Generation (Live Stream & Multi-Key)")
     print("================================================================================")
     print(f"📂 Workspace:    {workspace_dir}")
     print(f"📂 Resource Dir: {resource_dir}")
@@ -1038,7 +1016,7 @@ def main():
     # โหลด Memory State เดิม
     state_data = load_state(state_file)
 
-    # 1. ตรวจสอบ API Keys
+    # ตรวจสอบ API Keys
     if not args.dry_run:
         if not key_manager.has_active_keys():
             print("\n❌ [ERROR] ไม่พบ API_KEY ในระบบ!")
@@ -1046,7 +1024,7 @@ def main():
             print("  1. ใส่ในไฟล์ .env เช่น:")
             print("     API_KEY=sk_key1...")
             print("     API_KEY2=sk_key2...")
-            print("  2. หรือระบุผ่าน Command line: python script/generate_claude_tests.py -k key1 -k key2")
+            print("  2. หรือระบุผ่าน Command line: python script/generate_gemini_tests.py -k key1 -k key2")
             print("  3. หรือตั้งค่าตัวแปรระบบ: export API_KEY=<YOUR_KEY>\n")
             sys.exit(1)
         print(f"🔑 โหลด API Keys สำเร็จ: {key_manager.total_count} คีย์ (เปิดใช้งานระบบสลับคีย์อัตโนมัติ)")
@@ -1082,7 +1060,6 @@ def main():
             sys.stdout.write(f"\r  ⏳ กำลังสแกนโปรเจกต์: [{p_idx}/{len(project_dirs)}] ({len(tasks):,} ไฟล์พบแล้ว)")
             sys.stdout.flush()
 
-        # ใช้ os.walk ที่เร็วกว่า rglob หลายเท่าตัว
         for root, _, files in os.walk(p_dir):
             for fname in files:
                 if fname.endswith(".java"):
@@ -1232,8 +1209,8 @@ def main():
                 stats["success"] += 1
                 continue
 
-            # ยิง Request ไปยัง Claude API พร้อมระบบสลับคีย์และ Streaming
-            api_result = call_claude_api_with_rotation(
+            # ยิง Request ไปยัง Gemini API พร้อมระบบสลับคีย์และ Streaming
+            api_result = call_gemini_api_with_rotation(
                 key_manager=key_manager,
                 prompt=full_prompt,
                 model=args.model,
@@ -1241,8 +1218,7 @@ def main():
                 show_stream=args.show_stream
             )
 
-            # 🛑 กรณีที่ล้มเหลว และอาจเกิดจากขนาดคลาสใหญ่เกินไป (Payload Too Large หรือ Timeout จากไฟล์ขนาดใหญ่)
-            # ทำการย่อโค้ด (Compact: ตัด comments/javadoc) แล้วลองใหม่โดยอัตโนมัติ (เฉพาะกรณีที่ยังไม่ได้ Pre-compact)
+            # 🛑 กรณีที่ล้มเหลว และอาจเกิดจากขนาดคลาสใหญ่เกินไป
             if not api_result["success"] and not api_result.get("all_keys_exhausted"):
                 is_size_or_timeout = (
                     api_result.get("payload_too_large")
@@ -1254,7 +1230,7 @@ def main():
                     if saved > 500:
                         print(f"\n  ⚡ [AUTO-COMPACT] ตรวจพบคลาสขนาดใหญ่ ({len(source_code):,} chars) กำลังย่อโค้ด (ตัด Javadoc/Comments ลดลง {saved:,} chars) แล้วลองส่งใหม่...")
                         compacted_prompt = build_prompt(prompt_template, compacted_code)
-                        api_result = call_claude_api_with_rotation(
+                        api_result = call_gemini_api_with_rotation(
                             key_manager=key_manager,
                             prompt=compacted_prompt,
                             model=args.model,
@@ -1304,7 +1280,7 @@ def main():
             if finish_reason == "length":
                 print(f"  ⚠️ Warning: Response สิ้นสุดเพราะติด Token Output Limit (finish_reason=length)")
 
-            # สกัด Java Test Code จาก Response (ใช้เฉพาะโค้ดที่ได้จากการยิงมาเท่านั้น)
+            # สกัด Java Test Code จาก Response
             extracted_code = extract_java_code(raw_content)
 
             if not extracted_code or len(extracted_code) < 50:
@@ -1320,7 +1296,7 @@ def main():
                 save_state(state_file, state_data)
                 continue
 
-            # ตรวจสอบชื่อไฟล์คลาสที่แท้จริง
+            # ตรวจสอบชื่อไฟล์และบันทึก
             actual_filename = get_test_class_name(file_basename, extracted_code)
             final_output_path = target_dir / actual_filename
 
@@ -1362,7 +1338,7 @@ def main():
 
     # 5. สรุปผลการทำงาน
     print("\n================================================================================")
-    print("📊 สรุปผลการประมวลผล (Summary Report)")
+    print("📊 สรุปผลการประมวลผล (Summary Report - Gemini 3.8 Flash)")
     print("================================================================================")
     print(f"• ทั้งหมด (Total):     {stats['total']}")
     print(f"• สำเร็จ (Success):   {stats['success']}")
