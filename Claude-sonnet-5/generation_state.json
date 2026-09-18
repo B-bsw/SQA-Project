@@ -1,0 +1,90 @@
+{
+  "Codec_1/org/apache/commons/codec/language/Caverphone.java": {
+    "project": "Codec_1",
+    "source_file": "E:/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_1/org/apache/commons/codec/language/Caverphone.java",
+    "status": "COMPLETED",
+    "test_file": "E:/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Codec_1_buggy/CaverphoneTest.java",
+    "file_size_bytes": 4614,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 154.36,
+    "finish_reason": "stop",
+    "updated_at": "2026-09-18T22:28:41.995881"
+  },
+  "Codec_1/org/apache/commons/codec/language/SoundexUtils.java": {
+    "project": "Codec_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_1/org/apache/commons/codec/language/SoundexUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Codec_1_buggy/SoundexUtilsTest.java",
+    "file_size_bytes": 5295,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 20.2,
+    "finish_reason": "stop",
+    "updated_at": "2026-09-18T08:58:31.948646"
+  },
+  "Jsoup_1/org/jsoup/nodes/Document.java": {
+    "project": "Jsoup_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_1/org/jsoup/nodes/Document.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Jsoup_1_buggy/DocumentTest.java",
+    "file_size_bytes": 6008,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 17.25,
+    "finish_reason": "stop",
+    "updated_at": "2026-09-18T08:58:51.221312"
+  },
+  "Csv_1/org/apache/commons/csv/ExtendedBufferedReader.java": {
+    "project": "Csv_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_1/org/apache/commons/csv/ExtendedBufferedReader.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Csv_1_buggy/ExtendedBufferedReaderTest.java",
+    "file_size_bytes": 10784,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 50.73,
+    "finish_reason": "stop",
+    "updated_at": "2026-09-18T08:59:44.019416"
+  },
+  "Gson_1/com/google/gson/TypeInfoFactory.java": {
+    "project": "Gson_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_1/com/google/gson/TypeInfoFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Gson_1_buggy/TypeInfoFactoryTest.java",
+    "file_size_bytes": 12604,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 240.39,
+    "finish_reason": "stop",
+    "updated_at": "2026-09-18T09:16:06.230388"
+  },
+  "Mockito_1/org/mockito/internal/invocation/InvocationMatcher.java": {
+    "project": "Mockito_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_1/org/mockito/internal/invocation/InvocationMatcher.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Mockito_1_buggy/InvocationMatcherTest.java",
+    "file_size_bytes": 15520,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 157.76,
+    "finish_reason": "stop",
+    "updated_at": "2026-09-18T09:18:46.027871"
+  },
+  "Time_1/org/joda/time/field/UnsupportedDurationField.java": {
+    "project": "Time_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_1/org/joda/time/field/UnsupportedDurationField.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Time_1_buggy/UnsupportedDurationFieldTest.java",
+    "file_size_bytes": 12131,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 35.05,
+    "finish_reason": "stop",
+    "updated_at": "2026-09-18T09:19:23.222457"
+  },
+  "Cli_1/org/apache/commons/cli/CommandLine.java": {
+    "project": "Cli_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_1/org/apache/commons/cli/CommandLine.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_1_buggy/CommandLineTest.java",
+    "file_size_bytes": 13377,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 222.76,
+    "finish_reason": "stop",
+    "updated_at": "2026-09-18T09:23:08.016880"
+  }
+}

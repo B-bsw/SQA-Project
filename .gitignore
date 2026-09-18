@@ -1,2 +1,4 @@
 data
 .env
+CLAUDE.md
+script/__pycache__
