@@ -1,0 +1,110 @@
+{
+  "expected_active_bugs": 854,
+  "bug_folders": 855,
+  "verified_bugs": 854,
+  "failed_bugs": 0,
+  "projects": [
+    {
+      "project": "Chart",
+      "expected_bugs": 26,
+      "verified_bugs": 26,
+      "source_files": 28
+    },
+    {
+      "project": "Cli",
+      "expected_bugs": 39,
+      "verified_bugs": 39,
+      "source_files": 51
+    },
+    {
+      "project": "Closure",
+      "expected_bugs": 174,
+      "verified_bugs": 174,
+      "source_files": 225
+    },
+    {
+      "project": "Codec",
+      "expected_bugs": 18,
+      "verified_bugs": 18,
+      "source_files": 27
+    },
+    {
+      "project": "Collections",
+      "expected_bugs": 28,
+      "verified_bugs": 28,
+      "source_files": 28
+    },
+    {
+      "project": "Compress",
+      "expected_bugs": 47,
+      "verified_bugs": 47,
+      "source_files": 58
+    },
+    {
+      "project": "Csv",
+      "expected_bugs": 16,
+      "verified_bugs": 16,
+      "source_files": 17
+    },
+    {
+      "project": "Gson",
+      "expected_bugs": 18,
+      "verified_bugs": 18,
+      "source_files": 21
+    },
+    {
+      "project": "JacksonCore",
+      "expected_bugs": 26,
+      "verified_bugs": 26,
+      "source_files": 35
+    },
+    {
+      "project": "JacksonDatabind",
+      "expected_bugs": 110,
+      "verified_bugs": 110,
+      "source_files": 157
+    },
+    {
+      "project": "JacksonXml",
+      "expected_bugs": 6,
+      "verified_bugs": 6,
+      "source_files": 6
+    },
+    {
+      "project": "Jsoup",
+      "expected_bugs": 93,
+      "verified_bugs": 93,
+      "source_files": 125
+    },
+    {
+      "project": "JxPath",
+      "expected_bugs": 22,
+      "verified_bugs": 22,
+      "source_files": 35
+    },
+    {
+      "project": "Lang",
+      "expected_bugs": 61,
+      "verified_bugs": 61,
+      "source_files": 61
+    },
+    {
+      "project": "Math",
+      "expected_bugs": 106,
+      "verified_bugs": 106,
+      "source_files": 119
+    },
+    {
+      "project": "Mockito",
+      "expected_bugs": 38,
+      "verified_bugs": 38,
+      "source_files": 46
+    },
+    {
+      "project": "Time",
+      "expected_bugs": 26,
+      "verified_bugs": 26,
+      "source_files": 31
+    }
+  ]
+}

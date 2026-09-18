@@ -1,0 +1,9 @@
+# Local checkout workspaces and original-file backups used by the collector.
+.checkout-*/
+.export-*/
+.buggy-*/
+_collection/previous/
+_collection/*.log
+__pycache__/
+xcrun_db
+_collection
