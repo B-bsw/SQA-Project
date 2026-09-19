@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "round": 2,
+  "subject_version": "fixed",
+  "created_at": "2026-09-19T12:16:42Z",
+  "project": "Chart",
+  "bug_id": 8,
+  "test_code_dir": "GenericAlgorithm/TestCode/Chart_8",
+  "status": "ok",
+  "tests": [
+    {
+      "test_class": "org.jfree.data.time.Week_ESTest",
+      "execution_seconds": 1,
+      "tests_run": 31,
+      "failures": 0,
+      "test_execution": "PASS",
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

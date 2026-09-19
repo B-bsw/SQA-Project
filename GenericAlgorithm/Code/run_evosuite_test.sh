@@ -1,11 +1,35 @@
 #!/usr/bin/env bash
-# Usage: run_evosuite_test.sh PROJECT BUG_ID [BUDGET_SECONDS]
+# Usage: run_evosuite_test.sh PROJECT BUG_ID_OR_LIST [BUDGET_SECONDS]
 set -euo pipefail
-if [[ $# -lt 2 || $# -gt 3 ]]; then echo "Usage: $0 PROJECT BUG_ID [BUDGET_SECONDS]" >&2; exit 2; fi
-project=$1; bug_id=$2; budget=${3:-60}
+if [[ $# -lt 2 || $# -gt 3 ]]; then echo "Usage: $0 PROJECT BUG_ID_OR_LIST [BUDGET_SECONDS]" >&2; exit 2; fi
+project=$1; bug_spec=$(printf '%s' "$2" | tr -d '[:space:]'); budget=${3:-60}
+bug_spec=${bug_spec#\[}; bug_spec=${bug_spec%\]}
+IFS=, read -r -a bug_ids <<< "$bug_spec"
+[[ ${#bug_ids[@]} -gt 0 ]] || { echo "BUG_ID list must not be empty." >&2; exit 2; }
 [[ "$project" =~ ^[A-Za-z][A-Za-z0-9]*$ ]] || { echo "Invalid project: $project" >&2; exit 2; }
-[[ "$bug_id" =~ ^[1-9][0-9]*$ ]] || { echo "BUG_ID must be positive." >&2; exit 2; }
+for id in "${bug_ids[@]}"; do
+  [[ "$id" =~ ^[1-9][0-9]*$ ]] || { echo "Invalid BUG_ID in list: $id" >&2; exit 2; }
+done
 [[ "$budget" =~ ^[1-9][0-9]*$ ]] || { echo "Budget must be positive." >&2; exit 2; }
+
+if [[ ${#bug_ids[@]} -gt 1 ]]; then
+  max_parallel=${MAX_PARALLEL:-2}
+  [[ "$max_parallel" =~ ^[1-9][0-9]*$ ]] || { echo "MAX_PARALLEL must be positive." >&2; exit 2; }
+  pids=(); failed=0
+  echo "Batch Round 1: ${#bug_ids[@]} bugs, MAX_PARALLEL=$max_parallel" >&2
+  for id in "${bug_ids[@]}"; do
+    while [[ $(jobs -pr | wc -l | tr -d ' ') -ge $max_parallel ]]; do sleep 1; done
+    "$0" "$project" "$id" "$budget" &
+    pids+=("$!")
+  done
+  for pid in "${pids[@]}"; do
+    if ! wait "$pid"; then failed=$((failed + 1)); fi
+  done
+  echo "Batch Round 1 complete: $((${#bug_ids[@]} - failed)) passed, $failed failed" >&2
+  [[ $failed -eq 0 ]]
+  exit
+fi
+bug_id=${bug_ids[0]}
 
 code_dir=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 ga_root=$(cd "$code_dir/.." && pwd); repo_root=$(cd "$ga_root/.." && pwd)
@@ -15,7 +39,9 @@ java11_home=${JAVA11_HOME:-/Users/bb/.sdkman/candidates/java/11.0.31-amzn}
 evosuite_jar=${EVOSUITE_JAR:-$code_dir/evosuite-1.2.0.jar}
 seed=${SEED:-20260918}
 client_memory_mb=${EVOSUITE_CLIENT_MEMORY_MB:-2048}
+client_on_thread=${EVOSUITE_CLIENT_ON_THREAD:-true}
 [[ "$client_memory_mb" =~ ^[1-9][0-9]*$ ]] || { echo "EVOSUITE_CLIENT_MEMORY_MB must be positive." >&2; exit 2; }
+[[ "$client_on_thread" == true || "$client_on_thread" == false ]] || { echo "EVOSUITE_CLIENT_ON_THREAD must be true or false." >&2; exit 2; }
 command -v jq >/dev/null || { echo "jq is required." >&2; exit 2; }
 for file in "$defects4j_bin" "$java11_home/bin/java" "$evosuite_jar"; do
   [[ -e "$file" ]] || { echo "Missing: $file" >&2; exit 2; }
@@ -78,10 +104,6 @@ jsonl="$temp_root/results.jsonl"; : > "$jsonl"
 while IFS= read -r source; do
   package=$(awk '/^[[:space:]]*package[[:space:]]+/ {gsub(/[;\r]/,"",$2); print $2; exit}' "$source")
   class_name=$(basename "$source" .java); target_class=${package:+$package.}$class_name
-  client_on_thread=false
-  if rg -q '(^|[[:space:]])abstract[[:space:]]+class[[:space:]]' "$source"; then
-    client_on_thread=true
-  fi
   target_slug=${target_class//[^A-Za-z0-9_]/_}
   target_tests="$temp_root/generated-$target_slug"
   evo_report="$temp_root/report-$target_slug"; generated_output="$temp_root/generate-$target_slug.txt"

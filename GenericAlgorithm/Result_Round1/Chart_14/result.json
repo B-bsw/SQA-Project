@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "round": 1,
+  "subject_version": "buggy",
+  "created_at": "2026-09-19T12:22:58Z",
+  "project": "Chart",
+  "bug_id": 14,
+  "resource_dir": "Resoucre/Chart_14",
+  "test_code_dir": "GenericAlgorithm/TestCode/Chart_14",
+  "algorithm": "STANDARD_GA",
+  "status": "ok",
+  "targets": [
+    {
+      "source_file": "Resoucre/Chart_14/org/jfree/chart/plot/CategoryPlot.java",
+      "target_class": "org.jfree.chart.plot.CategoryPlot",
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "client_memory_mb": 2048,
+      "client_on_thread": true,
+      "search_budget_seconds": 60,
+      "generation_seconds": 124,
+      "generated_test_methods": 137,
+      "test_execution": "PASS",
+      "line_coverage_percent": 74.02,
+      "branch_coverage_percent": 65.22,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "source_file": "Resoucre/Chart_14/org/jfree/chart/plot/XYPlot.java",
+      "target_class": "org.jfree.chart.plot.XYPlot",
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "client_memory_mb": 2048,
+      "client_on_thread": true,
+      "search_budget_seconds": 60,
+      "generation_seconds": 120,
+      "generated_test_methods": 156,
+      "test_execution": "PASS",
+      "line_coverage_percent": 50.62,
+      "branch_coverage_percent": 43.39,
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

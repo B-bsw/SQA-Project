@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "round": 1,
+  "subject_version": "buggy",
+  "created_at": "2026-09-19T12:04:11Z",
+  "project": "Chart",
+  "bug_id": 8,
+  "resource_dir": "Resoucre/Chart_8",
+  "test_code_dir": "GenericAlgorithm/TestCode/Chart_8",
+  "algorithm": "STANDARD_GA",
+  "status": "ok",
+  "targets": [
+    {
+      "source_file": "Resoucre/Chart_8/org/jfree/data/time/Week.java",
+      "target_class": "org.jfree.data.time.Week",
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "client_memory_mb": 2048,
+      "client_on_thread": false,
+      "search_budget_seconds": 60,
+      "generation_seconds": 71,
+      "generated_test_methods": 31,
+      "test_execution": "PASS",
+      "line_coverage_percent": 91.36,
+      "branch_coverage_percent": 85.54,
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

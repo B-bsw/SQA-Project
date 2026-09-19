@@ -1,10 +1,34 @@
 #!/usr/bin/env bash
-# Usage: run_fixed_test.sh PROJECT BUG_ID
+# Usage: run_evosuite_test_fixed.sh PROJECT BUG_ID_OR_LIST
 set -euo pipefail
-if [[ $# -ne 2 ]]; then echo "Usage: $0 PROJECT BUG_ID" >&2; exit 2; fi
-project=$1; bug_id=$2
+if [[ $# -ne 2 ]]; then echo "Usage: $0 PROJECT BUG_ID_OR_LIST" >&2; exit 2; fi
+project=$1; bug_spec=$(printf '%s' "$2" | tr -d '[:space:]')
+bug_spec=${bug_spec#\[}; bug_spec=${bug_spec%\]}
+IFS=, read -r -a bug_ids <<< "$bug_spec"
+[[ ${#bug_ids[@]} -gt 0 ]] || { echo "BUG_ID list must not be empty." >&2; exit 2; }
 [[ "$project" =~ ^[A-Za-z][A-Za-z0-9]*$ ]] || { echo "Invalid project: $project" >&2; exit 2; }
-[[ "$bug_id" =~ ^[1-9][0-9]*$ ]] || { echo "BUG_ID must be positive." >&2; exit 2; }
+for id in "${bug_ids[@]}"; do
+  [[ "$id" =~ ^[1-9][0-9]*$ ]] || { echo "Invalid BUG_ID in list: $id" >&2; exit 2; }
+done
+
+if [[ ${#bug_ids[@]} -gt 1 ]]; then
+  max_parallel=${MAX_PARALLEL:-2}
+  [[ "$max_parallel" =~ ^[1-9][0-9]*$ ]] || { echo "MAX_PARALLEL must be positive." >&2; exit 2; }
+  pids=(); failed=0
+  echo "Batch Round 2: ${#bug_ids[@]} bugs, MAX_PARALLEL=$max_parallel" >&2
+  for id in "${bug_ids[@]}"; do
+    while [[ $(jobs -pr | wc -l | tr -d ' ') -ge $max_parallel ]]; do sleep 1; done
+    "$0" "$project" "$id" &
+    pids+=("$!")
+  done
+  for pid in "${pids[@]}"; do
+    if ! wait "$pid"; then failed=$((failed + 1)); fi
+  done
+  echo "Batch Round 2 complete: $((${#bug_ids[@]} - failed)) passed, $failed failed" >&2
+  [[ $failed -eq 0 ]]
+  exit
+fi
+bug_id=${bug_ids[0]}
 code_dir=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 ga_root=$(cd "$code_dir/.." && pwd); repo_root=$(cd "$ga_root/.." && pwd)
 defects4j_bin=${DEFECTS4J_BIN:-/Users/bb/Desktop/class/sqa/defects4j/framework/bin/defects4j}

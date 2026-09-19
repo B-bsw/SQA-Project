@@ -4,6 +4,15 @@ Round 1 generates and runs tests against buggy Java sources from Resource:
 
     ./run_evosuite_test.sh Chart 1 60
 
+Run multiple bugs concurrently (two processes by default):
+
+    ./run_evosuite_test.sh Lang 1,2,3 60
+    MAX_PARALLEL=4 ./run_evosuite_test.sh Lang 1,2,3,4 60
+
+Bracket form is also accepted when quoted to prevent shell glob expansion:
+
+    ./run_evosuite_test.sh Lang "[1,2,3]" 60
+
 Generated JUnit source is saved directly in `GenericAlgorithm/TestCode/Chart_1`
 as `*_ESTest.java` and `*_ESTest_scaffolding.java`.
 JSON and CSV reports are saved in
@@ -12,6 +21,10 @@ JSON and CSV reports are saved in
 Round 2 runs the latest generated suite against the fixed Defects4J revision:
 
     ./run_evosuite_test_fixed.sh Chart 1
+
+Multiple fixed versions can also run concurrently:
+
+    ./run_evosuite_test_fixed.sh Lang 1,2,3
 
 Round 2 JSON and CSV reports are saved under `GenericAlgorithm/Result_Round2`.
 Both scripts embed errors in reports and do not retain `.log` or Markdown files.

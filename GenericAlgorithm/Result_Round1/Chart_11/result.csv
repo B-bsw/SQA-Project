@@ -1,0 +1,2 @@
+"project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
+"Chart",11,"Resoucre/Chart_11","GenericAlgorithm/TestCode/Chart_11","STANDARD_GA",20260918,60,"org.jfree.chart.util.ShapeUtilities","Resoucre/Chart_11/org/jfree/chart/util/ShapeUtilities.java",74,60,"PASS",96.94,95.93,"ok",""

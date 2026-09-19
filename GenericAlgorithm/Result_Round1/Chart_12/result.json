@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "round": 1,
+  "subject_version": "buggy",
+  "created_at": "2026-09-19T12:09:42Z",
+  "project": "Chart",
+  "bug_id": 12,
+  "resource_dir": "Resoucre/Chart_12",
+  "test_code_dir": "GenericAlgorithm/TestCode/Chart_12",
+  "algorithm": "STANDARD_GA",
+  "status": "ok",
+  "targets": [
+    {
+      "source_file": "Resoucre/Chart_12/org/jfree/chart/plot/MultiplePiePlot.java",
+      "target_class": "org.jfree.chart.plot.MultiplePiePlot",
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "client_memory_mb": 2048,
+      "client_on_thread": true,
+      "search_budget_seconds": 60,
+      "generation_seconds": 80,
+      "generated_test_methods": 28,
+      "test_execution": "PASS",
+      "line_coverage_percent": 96.32,
+      "branch_coverage_percent": 94.79,
+      "status": "ok",
+      "error": null
+    }
+  ]
+}
