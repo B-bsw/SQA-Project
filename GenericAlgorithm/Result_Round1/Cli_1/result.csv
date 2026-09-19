@@ -1,0 +1,2 @@
+"project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
+"Cli",1,"Resoucre/Cli_1","GenericAlgorithm/TestCode/Cli_1","STANDARD_GA",20260918,60,"org.apache.commons.cli.CommandLine","Resoucre/Cli_1/org/apache/commons/cli/CommandLine.java",8,16,"PASS",100.00,100.00,"ok",""

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "round": 1,
+  "subject_version": "buggy",
+  "created_at": "2026-09-19T12:52:33Z",
+  "project": "Cli",
+  "bug_id": 3,
+  "resource_dir": "Resoucre/Cli_3",
+  "test_code_dir": "GenericAlgorithm/TestCode/Cli_3",
+  "algorithm": "STANDARD_GA",
+  "status": "failed",
+  "targets": [
+    {
+      "source_file": "Resoucre/Cli_3/org/apache/commons/cli/TypeHandler.java",
+      "target_class": "org.apache.commons.cli.TypeHandler",
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "client_memory_mb": 2048,
+      "client_on_thread": true,
+      "search_budget_seconds": 60,
+      "generation_seconds": 65,
+      "generated_test_methods": 6,
+      "test_execution": "FAIL",
+      "line_coverage_percent": 76.36,
+      "branch_coverage_percent": 82.14,
+      "status": "test_failed",
+      "error": "19:52:32.973 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class '91(GR:DpD4/rI.class' should be in target project, but could not be found!\nUnable to find: 91(GR:DpD4.rI\nE.19:52:32.975 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: F1\u007f$NFi,WI1\n19:52:32.975 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'F1\u007f$NFi,WI1'.\n19:52:32.975 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'F1\u007f$NFi,WI1.class' should be in target project, but could not be found!\nUnable to find: F1\u007f$NFi,WI1\n.\nTime: 0.68\nThere was 1 failure:\n1) test3(org.apache.commons.cli.TypeHandler_ESTest)\njava.lang.AssertionError: expected null, but was:<91(GR:DpD4.rI>\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotNull(Assert.java:756)\n\tat org.junit.Assert.assertNull(Assert.java:738)\n\tat org.junit.Assert.assertNull(Assert.java:748)\n\tat org.apache.commons.cli.TypeHandler_ESTest.test3(TypeHandler_ESTest.java:48)\n\nFAILURES!!!\nTests run: 6,  Failures: 1"
+    }
+  ]
+}
