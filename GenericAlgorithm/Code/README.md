@@ -38,3 +38,12 @@ Collect all per-bug reports into root-level JSON and CSV files:
 
 The aggregate files are `result_round1.json/csv` and `result_round2.json/csv`.
 Running the collector again atomically replaces the previous aggregate files.
+
+Create a combined Round 1 and Round 2 overview:
+
+    ./summarize_results.sh
+
+This refreshes both aggregate reports and prints one compact row per project:
+total bugs, pass percentages, generated tests, line/branch coverage, fixed tests,
+and failures. It also creates `GenericAlgorithm/summary.json` and
+`GenericAlgorithm/summary.csv`.
