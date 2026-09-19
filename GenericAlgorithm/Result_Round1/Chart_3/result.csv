@@ -1,0 +1,2 @@
+"project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
+"Chart",3,"Resoucre/Chart_3","GenericAlgorithm/TestCode/Chart_3","STANDARD_GA",20260918,60,"org.jfree.data.time.TimeSeries","Resoucre/Chart_3/org/jfree/data/time/TimeSeries.java",77,61,"PASS",91.32,84.02,"ok",""
