@@ -14,6 +14,8 @@ defects4j_bin=${DEFECTS4J_BIN:-/Users/bb/Desktop/class/sqa/defects4j/framework/b
 java11_home=${JAVA11_HOME:-/Users/bb/.sdkman/candidates/java/11.0.31-amzn}
 evosuite_jar=${EVOSUITE_JAR:-$code_dir/evosuite-1.2.0.jar}
 seed=${SEED:-20260918}
+client_memory_mb=${EVOSUITE_CLIENT_MEMORY_MB:-2048}
+[[ "$client_memory_mb" =~ ^[1-9][0-9]*$ ]] || { echo "EVOSUITE_CLIENT_MEMORY_MB must be positive." >&2; exit 2; }
 command -v jq >/dev/null || { echo "jq is required." >&2; exit 2; }
 for file in "$defects4j_bin" "$java11_home/bin/java" "$evosuite_jar"; do
   [[ -e "$file" ]] || { echo "Missing: $file" >&2; exit 2; }
@@ -31,10 +33,9 @@ project=$canonical; resource_dir="$resource_root/${project}_${bug_id}"
 java_count=$(find "$resource_dir" -type f -name '*.java' | wc -l | tr -d ' ')
 [[ "$java_count" -gt 0 ]] || { echo "No Java files in $resource_dir" >&2; exit 2; }
 
-run_id=$(date -u +%Y%m%dT%H%M%SZ)-$$
-result_parent=${RESULT_PARENT:-$ga_root/Result_Round1/${project}_${bug_id}}
-result_dir=${RESULT_DIR:-$result_parent/$run_id}
-test_root=${TEST_DIR:-$ga_root/TestCode/${project}_${bug_id}/$run_id}
+result_dir="$ga_root/Result_Round1/${project}_${bug_id}"
+test_root="$ga_root/TestCode/${project}_${bug_id}"
+rm -rf "$result_dir" "$test_root"
 mkdir -p "$result_dir" "$test_root"
 temp_root=$(mktemp -d "/tmp/evosuite-ga-${project}-${bug_id}.XXXXXX")
 cleanup() { rm -rf "$temp_root"; }; trap cleanup EXIT INT TERM
@@ -66,8 +67,12 @@ IFS=$old_ifs
 compile_cp=$clean_cp
 bin_dir="$workspace/$bin_relative"; resource_classes="$temp_root/resource-classes"
 mkdir -p "$resource_classes"; source_list="$temp_root/resource-sources.txt"
+# Keep the Resource implementation and every compiled project dependency in a
+# single classpath root. EvoSuite 1.2.0 can fail while instrumenting old Chart
+# classes when the modified class and its sibling classes are in separate roots.
+cp -R "$bin_dir/." "$resource_classes/"
 find "$resource_dir" -type f -name '*.java' | sort > "$source_list"
-"$JAVA_HOME/bin/javac" -cp "$bin_dir:$compile_cp" -d "$resource_classes" @"$source_list" >>"$setup_output" 2>&1 || write_setup_failure resource_compile_failed
+"$JAVA_HOME/bin/javac" -cp "$resource_classes:$compile_cp" -d "$resource_classes" @"$source_list" >>"$setup_output" 2>&1 || write_setup_failure resource_compile_failed
 
 jsonl="$temp_root/results.jsonl"; : > "$jsonl"
 while IFS= read -r source; do
@@ -79,8 +84,10 @@ while IFS= read -r source; do
   echo "[$project-$bug_id] STANDARD_GA $target_class" >&2
   started=$(date +%s); set +e
   "$JAVA_HOME/bin/java" ${EVOSUITE_JAVA_OPTS:--Xmx2g} -jar "$evosuite_jar" \
+    -mem "$client_memory_mb" \
     -generateSuite -class "$target_class" -projectCP "$resource_classes:$bin_dir:$compile_cp" \
     -seed "$seed" -Dalgorithm=STANDARD_GA -Dcriterion=LINE:BRANCH \
+    -Dclient_on_thread=true \
     -Dstopping_condition=MaxTime -Dsearch_budget="$budget" -Dshow_progress=false \
     -Doutput_variables=TARGET_CLASS,criterion,Coverage,LineCoverage,BranchCoverage \
     -Dtest_dir="$target_tests" -Dreport_dir="$evo_report" >"$generated_output" 2>&1
@@ -91,7 +98,7 @@ while IFS= read -r source; do
     value=$(awk -F, 'NR==1{for(i=1;i<=NF;i++)if($i=="LineCoverage")p=i;next}NR==2&&p{printf "%.2f",$p*100}' "$statistics"); [[ -n "$value" ]] && line_coverage=$value
     value=$(awk -F, 'NR==1{for(i=1;i<=NF;i++)if($i=="BranchCoverage")p=i;next}NR==2&&p{printf "%.2f",$p*100}' "$statistics"); [[ -n "$value" ]] && branch_coverage=$value
   fi
-  execution=NOT_RUN; state=generation_failed; error=$(tail -20 "$generated_output")
+  execution=NOT_RUN; state=generation_failed; error=$(tail -200 "$generated_output")
   if [[ $generation_rc -eq 0 && "$test_methods" -gt 0 ]]; then
     compiled_tests="$temp_root/tests-$target_slug"; test_sources="$temp_root/test-sources-$target_slug.txt"
     test_output="$temp_root/test-$target_slug.txt"; mkdir -p "$compiled_tests"
@@ -114,14 +121,19 @@ while IFS= read -r source; do
     --argjson budget "$budget" --argjson seconds "$elapsed" --argjson methods "$test_methods" \
     --argjson line "$line_coverage" --argjson branch "$branch_coverage" \
     --arg execution "$execution" --arg state "$state" --arg error "$error" \
-    '{source_file:$source,target_class:$target,algorithm:"STANDARD_GA",seed:$seed,search_budget_seconds:$budget,generation_seconds:$seconds,generated_test_methods:$methods,test_execution:$execution,line_coverage_percent:$line,branch_coverage_percent:$branch,status:$state,error:(if $error=="" then null else $error end)}' >> "$jsonl"
+    --argjson client_memory_mb "$client_memory_mb" \
+    '{source_file:$source,target_class:$target,algorithm:"STANDARD_GA",seed:$seed,client_memory_mb:$client_memory_mb,search_budget_seconds:$budget,generation_seconds:$seconds,generated_test_methods:$methods,test_execution:$execution,line_coverage_percent:$line,branch_coverage_percent:$branch,status:$state,error:(if $error=="" then null else $error end)}' >> "$jsonl"
 done < "$source_list"
 
 created_at=$(date -u +%Y-%m-%dT%H:%M:%SZ)
-jq -s --arg run_id "$run_id" --arg created_at "$created_at" --arg project "$project" \
+jq -s --arg created_at "$created_at" --arg project "$project" \
   --argjson bug_id "$bug_id" --arg resource_dir "${resource_dir#"$repo_root/"}" \
   --arg test_code_dir "${test_root#"$repo_root/"}" \
-  '{schema_version:"1.0",round:1,subject_version:"buggy",run_id:$run_id,created_at:$created_at,project:$project,bug_id:$bug_id,resource_dir:$resource_dir,test_code_dir:$test_code_dir,algorithm:"STANDARD_GA",status:(if all(.[];.status=="ok") then "ok" else "failed" end),targets:.}' "$jsonl" > "$result_dir/result.json"
-jq -r '["run_id","project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"], (.targets[] as $t | [.run_id,.project,.bug_id,.resource_dir,.test_code_dir,$t.algorithm,$t.seed,$t.search_budget_seconds,$t.target_class,$t.source_file,$t.generation_seconds,$t.generated_test_methods,$t.test_execution,($t.line_coverage_percent//""),($t.branch_coverage_percent//""),$t.status,($t.error//"")]) | @csv' "$result_dir/result.json" > "$result_dir/result.csv"
+  '{schema_version:"1.0",round:1,subject_version:"buggy",created_at:$created_at,project:$project,bug_id:$bug_id,resource_dir:$resource_dir,test_code_dir:$test_code_dir,algorithm:"STANDARD_GA",status:(if all(.[];.status=="ok") then "ok" else "failed" end),targets:.}' "$jsonl" > "$result_dir/result.json"
+jq -r '["project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"], (.targets[] as $t | [.project,.bug_id,.resource_dir,.test_code_dir,$t.algorithm,$t.seed,$t.search_budget_seconds,$t.target_class,$t.source_file,$t.generation_seconds,$t.generated_test_methods,$t.test_execution,($t.line_coverage_percent//""),($t.branch_coverage_percent//""),$t.status,($t.error//"")]) | @csv' "$result_dir/result.json" > "$result_dir/result.csv"
+generated_files=$(find "$test_root" -type f -name '*_ESTest*.java' | wc -l | tr -d ' ')
+echo "Generated EvoSuite files : $generated_files" >&2
+echo "TestCode path            : $test_root" >&2
+echo "Result path              : $result_dir" >&2
 printf '%s\n' "$result_dir"
 [[ $(jq -r '.status' "$result_dir/result.json") == ok ]]
