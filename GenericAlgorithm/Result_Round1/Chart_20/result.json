@@ -1,0 +1,28 @@
+{
+  "schema_version": "2.0",
+  "report_type": "generation",
+  "round": 1,
+  "created_at": "2026-09-19T17:40:11Z",
+  "project": "Chart",
+  "bug_id": 20,
+  "resource_dir": "Resoucre/Chart_20",
+  "test_code_dir": "GenericAlgorithm/TestCode/Chart_20",
+  "algorithm": "STANDARD_GA",
+  "status": "ok",
+  "targets": [
+    {
+      "source_file": "Resoucre/Chart_20/org/jfree/chart/plot/ValueMarker.java",
+      "target_class": "org.jfree.chart.plot.ValueMarker",
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "search_budget_seconds": 60,
+      "generation_seconds": 43,
+      "generated_test_methods": 8,
+      "test_execution": "PASS",
+      "line_coverage_percent": 100.00,
+      "branch_coverage_percent": 100.00,
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

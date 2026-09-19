@@ -1,0 +1,28 @@
+{
+  "schema_version": "2.0",
+  "report_type": "generation",
+  "round": 1,
+  "created_at": "2026-09-19T17:29:23Z",
+  "project": "Chart",
+  "bug_id": 7,
+  "resource_dir": "Resoucre/Chart_7",
+  "test_code_dir": "GenericAlgorithm/TestCode/Chart_7",
+  "algorithm": "STANDARD_GA",
+  "status": "ok",
+  "targets": [
+    {
+      "source_file": "Resoucre/Chart_7/org/jfree/data/time/TimePeriodValues.java",
+      "target_class": "org.jfree.data.time.TimePeriodValues",
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "search_budget_seconds": 60,
+      "generation_seconds": 71,
+      "generated_test_methods": 25,
+      "test_execution": "PASS",
+      "line_coverage_percent": 98.74,
+      "branch_coverage_percent": 100.00,
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

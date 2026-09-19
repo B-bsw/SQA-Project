@@ -28,17 +28,18 @@ jq -n --slurpfile r1 "$summary_root/result_round1.json" --slurpfile r2 "$summary
      buggy_fail:([$v[]|select(.subject_version=="buggy" and .test_execution=="FAIL")]|length),
      fixed_pass:([$v[]|select(.subject_version=="fixed" and .test_execution=="PASS")]|length),
      fixed_fail:([$v[]|select(.subject_version=="fixed" and .test_execution=="FAIL")]|length),
-     defects:([$d[]|select(.status=="defect")]|length),passes:([$d[]|select(.status=="pass")]|length),
+     defects:([$d[]|select(.bug_detected==true)]|length),passes:([$d[]|select(.status=="pass")]|length),
+     inconclusive:([$d[]|select(.status=="inconclusive")]|length),
      not_available:([$d[]|select(.status=="not_available")]|length)}
   ] as $projects |
   {schema_version:"2.0",projects:$projects,
-   overall:($projects|reduce .[] as $p ({project:"ALL",bugs:0,generation_ok:0,generated_test_methods:0,buggy_pass:0,buggy_fail:0,fixed_pass:0,fixed_fail:0,defects:0,passes:0,not_available:0};
-     .bugs+=$p.bugs|.generation_ok+=$p.generation_ok|.generated_test_methods+=$p.generated_test_methods|.buggy_pass+=$p.buggy_pass|.buggy_fail+=$p.buggy_fail|.fixed_pass+=$p.fixed_pass|.fixed_fail+=$p.fixed_fail|.defects+=$p.defects|.passes+=$p.passes|.not_available+=$p.not_available))}
+   overall:($projects|reduce .[] as $p ({project:"ALL",bugs:0,generation_ok:0,generated_test_methods:0,buggy_pass:0,buggy_fail:0,fixed_pass:0,fixed_fail:0,defects:0,passes:0,inconclusive:0,not_available:0};
+     .bugs+=$p.bugs|.generation_ok+=$p.generation_ok|.generated_test_methods+=$p.generated_test_methods|.buggy_pass+=$p.buggy_pass|.buggy_fail+=$p.buggy_fail|.fixed_pass+=$p.fixed_pass|.fixed_fail+=$p.fixed_fail|.defects+=$p.defects|.passes+=$p.passes|.inconclusive+=$p.inconclusive|.not_available+=$p.not_available))}
 ' > "$temp_json"
-jq -r '["project","bugs","generation_ok","generated_test_methods","mean_line_coverage_percent","mean_branch_coverage_percent","buggy_pass","buggy_fail","fixed_pass","fixed_fail","defects","passes","not_available"],
-  (.projects[],.overall|[.project,.bugs,.generation_ok,.generated_test_methods,(.mean_line_coverage_percent//""),(.mean_branch_coverage_percent//""),.buggy_pass,.buggy_fail,.fixed_pass,.fixed_fail,.defects,.passes,.not_available])|@csv' "$temp_json" > "$temp_csv"
+jq -r '["project","bugs","generation_ok","generated_test_methods","mean_line_coverage_percent","mean_branch_coverage_percent","buggy_pass","buggy_fail","fixed_pass","fixed_fail","defects","passes","inconclusive","not_available"],
+  (.projects[],.overall|[.project,.bugs,.generation_ok,.generated_test_methods,(.mean_line_coverage_percent//""),(.mean_branch_coverage_percent//""),.buggy_pass,.buggy_fail,.fixed_pass,.fixed_fail,.defects,.passes,.inconclusive,.not_available])|@csv' "$temp_json" > "$temp_csv"
 archive_existing "$output_json" "$output_csv"; mv "$temp_json" "$output_json"; mv "$temp_csv" "$output_csv"; trap - EXIT INT TERM
-printf '%-12s %6s %10s %10s %10s %10s %9s %8s\n' PROJECT BUGS GENERATED BUGGY_FAIL FIXED_PASS DEFECTS PASS N/A
-jq -r '.projects[],.overall|[.project,.bugs,.generation_ok,.buggy_fail,.fixed_pass,.defects,.passes,.not_available]|@tsv' "$output_json" |
-while IFS=$'\t' read -r p bugs generated buggy_fail fixed_pass defects pass unavailable; do printf '%-12s %6s %10s %10s %10s %10s %9s %8s\n' "$p" "$bugs" "$generated" "$buggy_fail" "$fixed_pass" "$defects" "$pass" "$unavailable"; done
+printf '%-12s %6s %10s %10s %10s %10s %9s %14s %8s\n' PROJECT BUGS GENERATED BUGGY_FAIL FIXED_PASS DEFECTS PASS INCONCLUSIVE N/A
+jq -r '.projects[],.overall|[.project,.bugs,.generation_ok,.buggy_fail,.fixed_pass,.defects,.passes,.inconclusive,.not_available]|@tsv' "$output_json" |
+while IFS=$'\t' read -r p bugs generated buggy_fail fixed_pass defects pass inconclusive unavailable; do printf '%-12s %6s %10s %10s %10s %10s %9s %14s %8s\n' "$p" "$bugs" "$generated" "$buggy_fail" "$fixed_pass" "$defects" "$pass" "$inconclusive" "$unavailable"; done
 echo "JSON: $output_json"; echo "CSV : $output_csv"

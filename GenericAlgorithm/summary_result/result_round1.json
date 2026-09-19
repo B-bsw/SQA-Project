@@ -6,7 +6,7 @@
       "schema_version": "2.0",
       "report_type": "generation",
       "round": 1,
-      "created_at": "2026-09-19T15:13:46Z",
+      "created_at": "2026-09-19T17:25:01Z",
       "project": "Chart",
       "bug_id": 1,
       "resource_dir": "Resoucre/Chart_1",
@@ -20,11 +20,739 @@
           "algorithm": "STANDARD_GA",
           "seed": 20260918,
           "search_budget_seconds": 60,
-          "generation_seconds": 86,
-          "generated_test_methods": 55,
+          "generation_seconds": 88,
+          "generated_test_methods": 52,
           "test_execution": "PASS",
-          "line_coverage_percent": 43.38,
-          "branch_coverage_percent": 43.80,
+          "line_coverage_percent": 41.99,
+          "branch_coverage_percent": 41.97,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:25:03Z",
+      "project": "Chart",
+      "bug_id": 2,
+      "resource_dir": "Resoucre/Chart_2",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_2",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_2/org/jfree/data/general/DatasetUtilities.java",
+          "target_class": "org.jfree.data.general.DatasetUtilities",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 90,
+          "generated_test_methods": 113,
+          "test_execution": "PASS",
+          "line_coverage_percent": 70.04,
+          "branch_coverage_percent": 64.11,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:26:33Z",
+      "project": "Chart",
+      "bug_id": 3,
+      "resource_dir": "Resoucre/Chart_3",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_3",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_3/org/jfree/data/time/TimeSeries.java",
+          "target_class": "org.jfree.data.time.TimeSeries",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 80,
+          "generated_test_methods": 56,
+          "test_execution": "PASS",
+          "line_coverage_percent": 90.26,
+          "branch_coverage_percent": 80.82,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:27:42Z",
+      "project": "Chart",
+      "bug_id": 4,
+      "resource_dir": "Resoucre/Chart_4",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_4",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_4/org/jfree/chart/plot/XYPlot.java",
+          "target_class": "org.jfree.chart.plot.XYPlot",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 146,
+          "generated_test_methods": 190,
+          "test_execution": "PASS",
+          "line_coverage_percent": 51.17,
+          "branch_coverage_percent": 43.73,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:28:01Z",
+      "project": "Chart",
+      "bug_id": 5,
+      "resource_dir": "Resoucre/Chart_5",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_5",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_5/org/jfree/data/xy/XYSeries.java",
+          "target_class": "org.jfree.data.xy.XYSeries",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 76,
+          "generated_test_methods": 39,
+          "test_execution": "PASS",
+          "line_coverage_percent": 97.67,
+          "branch_coverage_percent": 100.00,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:28:59Z",
+      "project": "Chart",
+      "bug_id": 6,
+      "resource_dir": "Resoucre/Chart_6",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_6",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_6/org/jfree/chart/util/ShapeList.java",
+          "target_class": "org.jfree.chart.util.ShapeList",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 65,
+          "generated_test_methods": 6,
+          "test_execution": "PASS",
+          "line_coverage_percent": 41.38,
+          "branch_coverage_percent": 52.94,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:29:23Z",
+      "project": "Chart",
+      "bug_id": 7,
+      "resource_dir": "Resoucre/Chart_7",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_7",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_7/org/jfree/data/time/TimePeriodValues.java",
+          "target_class": "org.jfree.data.time.TimePeriodValues",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 71,
+          "generated_test_methods": 25,
+          "test_execution": "PASS",
+          "line_coverage_percent": 98.74,
+          "branch_coverage_percent": 100.00,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:30:21Z",
+      "project": "Chart",
+      "bug_id": 8,
+      "resource_dir": "Resoucre/Chart_8",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_8",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_8/org/jfree/data/time/Week.java",
+          "target_class": "org.jfree.data.time.Week",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 72,
+          "generated_test_methods": 27,
+          "test_execution": "PASS",
+          "line_coverage_percent": 91.36,
+          "branch_coverage_percent": 81.93,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:30:53Z",
+      "project": "Chart",
+      "bug_id": 9,
+      "resource_dir": "Resoucre/Chart_9",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_9",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_9/org/jfree/data/time/TimeSeries.java",
+          "target_class": "org.jfree.data.time.TimeSeries",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 79,
+          "generated_test_methods": 53,
+          "test_execution": "PASS",
+          "line_coverage_percent": 90.31,
+          "branch_coverage_percent": 85.53,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:30:36Z",
+      "project": "Chart",
+      "bug_id": 10,
+      "resource_dir": "Resoucre/Chart_10",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_10",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_10/org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java",
+          "target_class": "org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 4,
+          "generated_test_methods": 1,
+          "test_execution": "PASS",
+          "line_coverage_percent": 100.00,
+          "branch_coverage_percent": 100.00,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:32:03Z",
+      "project": "Chart",
+      "bug_id": 11,
+      "resource_dir": "Resoucre/Chart_11",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_11",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_11/org/jfree/chart/util/ShapeUtilities.java",
+          "target_class": "org.jfree.chart.util.ShapeUtilities",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 75,
+          "generated_test_methods": 57,
+          "test_execution": "PASS",
+          "line_coverage_percent": 96.43,
+          "branch_coverage_percent": 94.31,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:32:24Z",
+      "project": "Chart",
+      "bug_id": 12,
+      "resource_dir": "Resoucre/Chart_12",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_12",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_12/org/jfree/chart/plot/MultiplePiePlot.java",
+          "target_class": "org.jfree.chart.plot.MultiplePiePlot",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 79,
+          "generated_test_methods": 29,
+          "test_execution": "PASS",
+          "line_coverage_percent": 94.74,
+          "branch_coverage_percent": 92.71,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:33:24Z",
+      "project": "Chart",
+      "bug_id": 13,
+      "resource_dir": "Resoucre/Chart_13",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_13",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_13/org/jfree/chart/block/BorderArrangement.java",
+          "target_class": "org.jfree.chart.block.BorderArrangement",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 69,
+          "generated_test_methods": 14,
+          "test_execution": "PASS",
+          "line_coverage_percent": 63.32,
+          "branch_coverage_percent": 63.93,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:36:37Z",
+      "project": "Chart",
+      "bug_id": 14,
+      "resource_dir": "Resoucre/Chart_14",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_14",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_14/org/jfree/chart/plot/CategoryPlot.java",
+          "target_class": "org.jfree.chart.plot.CategoryPlot",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 117,
+          "generated_test_methods": 146,
+          "test_execution": "PASS",
+          "line_coverage_percent": 65.16,
+          "branch_coverage_percent": 55.12,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "source_file": "Resoucre/Chart_14/org/jfree/chart/plot/XYPlot.java",
+          "target_class": "org.jfree.chart.plot.XYPlot",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 126,
+          "generated_test_methods": 147,
+          "test_execution": "PASS",
+          "line_coverage_percent": 51.07,
+          "branch_coverage_percent": 41.96,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:35:16Z",
+      "project": "Chart",
+      "bug_id": 15,
+      "resource_dir": "Resoucre/Chart_15",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_15",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_15/org/jfree/chart/plot/PiePlot.java",
+          "target_class": "org.jfree.chart.plot.PiePlot",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 100,
+          "generated_test_methods": 117,
+          "test_execution": "PASS",
+          "line_coverage_percent": 50.85,
+          "branch_coverage_percent": 50.64,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:36:46Z",
+      "project": "Chart",
+      "bug_id": 16,
+      "resource_dir": "Resoucre/Chart_16",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_16",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_16/org/jfree/data/category/DefaultIntervalCategoryDataset.java",
+          "target_class": "org.jfree.data.category.DefaultIntervalCategoryDataset",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 79,
+          "generated_test_methods": 51,
+          "test_execution": "PASS",
+          "line_coverage_percent": 92.02,
+          "branch_coverage_percent": 89.05,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:38:07Z",
+      "project": "Chart",
+      "bug_id": 17,
+      "resource_dir": "Resoucre/Chart_17",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_17",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_17/org/jfree/data/time/TimeSeries.java",
+          "target_class": "org.jfree.data.time.TimeSeries",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 79,
+          "generated_test_methods": 49,
+          "test_execution": "PASS",
+          "line_coverage_percent": 91.32,
+          "branch_coverage_percent": 85.53,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:39:16Z",
+      "project": "Chart",
+      "bug_id": 18,
+      "resource_dir": "Resoucre/Chart_18",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_18",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_18/org/jfree/data/DefaultKeyedValues.java",
+          "target_class": "org.jfree.data.DefaultKeyedValues",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 69,
+          "generated_test_methods": 24,
+          "test_execution": "PASS",
+          "line_coverage_percent": 100.00,
+          "branch_coverage_percent": 98.41,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "source_file": "Resoucre/Chart_18/org/jfree/data/DefaultKeyedValues2D.java",
+          "target_class": "org.jfree.data.DefaultKeyedValues2D",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 69,
+          "generated_test_methods": 26,
+          "test_execution": "PASS",
+          "line_coverage_percent": 98.61,
+          "branch_coverage_percent": 96.55,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:40:29Z",
+      "project": "Chart",
+      "bug_id": 19,
+      "resource_dir": "Resoucre/Chart_19",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_19",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_19/org/jfree/chart/plot/CategoryPlot.java",
+          "target_class": "org.jfree.chart.plot.CategoryPlot",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 130,
+          "generated_test_methods": 132,
+          "test_execution": "PASS",
+          "line_coverage_percent": 64.66,
+          "branch_coverage_percent": 56.97,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:40:11Z",
+      "project": "Chart",
+      "bug_id": 20,
+      "resource_dir": "Resoucre/Chart_20",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_20",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_20/org/jfree/chart/plot/ValueMarker.java",
+          "target_class": "org.jfree.chart.plot.ValueMarker",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 43,
+          "generated_test_methods": 8,
+          "test_execution": "PASS",
+          "line_coverage_percent": 100.00,
+          "branch_coverage_percent": 100.00,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:41:35Z",
+      "project": "Chart",
+      "bug_id": 21,
+      "resource_dir": "Resoucre/Chart_21",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_21",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_21/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java",
+          "target_class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 73,
+          "generated_test_methods": 45,
+          "test_execution": "PASS",
+          "line_coverage_percent": 100.00,
+          "branch_coverage_percent": 88.46,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:41:49Z",
+      "project": "Chart",
+      "bug_id": 22,
+      "resource_dir": "Resoucre/Chart_22",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_22",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_22/org/jfree/data/KeyedObjects2D.java",
+          "target_class": "org.jfree.data.KeyedObjects2D",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 69,
+          "generated_test_methods": 19,
+          "test_execution": "PASS",
+          "line_coverage_percent": 97.58,
+          "branch_coverage_percent": 93.06,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:42:58Z",
+      "project": "Chart",
+      "bug_id": 23,
+      "resource_dir": "Resoucre/Chart_23",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_23",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_23/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java",
+          "target_class": "org.jfree.chart.renderer.category.MinMaxCategoryRenderer",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 71,
+          "generated_test_methods": 15,
+          "test_execution": "PASS",
+          "line_coverage_percent": 41.55,
+          "branch_coverage_percent": 38.10,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:42:06Z",
+      "project": "Chart",
+      "bug_id": 24,
+      "resource_dir": "Resoucre/Chart_24",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_24",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_24/org/jfree/chart/renderer/GrayPaintScale.java",
+          "target_class": "org.jfree.chart.renderer.GrayPaintScale",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 5,
+          "generated_test_methods": 8,
+          "test_execution": "PASS",
+          "line_coverage_percent": 100.00,
+          "branch_coverage_percent": 100.00,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:43:29Z",
+      "project": "Chart",
+      "bug_id": 25,
+      "resource_dir": "Resoucre/Chart_25",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_25",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_25/org/jfree/chart/renderer/category/StatisticalBarRenderer.java",
+          "target_class": "org.jfree.chart.renderer.category.StatisticalBarRenderer",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 73,
+          "generated_test_methods": 12,
+          "test_execution": "PASS",
+          "line_coverage_percent": 28.74,
+          "branch_coverage_percent": 22.47,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "2.0",
+      "report_type": "generation",
+      "round": 1,
+      "created_at": "2026-09-19T17:44:35Z",
+      "project": "Chart",
+      "bug_id": 26,
+      "resource_dir": "Resoucre/Chart_26",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_26",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_26/org/jfree/chart/axis/Axis.java",
+          "target_class": "org.jfree.chart.axis.Axis",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "search_budget_seconds": 60,
+          "generation_seconds": 86,
+          "generated_test_methods": 50,
+          "test_execution": "PASS",
+          "line_coverage_percent": 77.94,
+          "branch_coverage_percent": 77.71,
           "status": "ok",
           "error": null
         }

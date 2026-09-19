@@ -82,15 +82,14 @@ bin_relative=$("$defects4j_bin" export -w "$workspace" -p dir.bin.classes 2>>"$s
 compile_cp=$("$defects4j_bin" export -w "$workspace" -p cp.compile 2>>"$setup_output")
 clean_cp=''; old_ifs=$IFS; IFS=:
 for entry in $compile_cp; do
+  if [[ ! -e "$entry" && -e "$workspace/$entry" ]]; then entry="$workspace/$entry"; fi
   [[ -e "$entry" ]] || continue
   [[ -z "$clean_cp" ]] && clean_cp=$entry || clean_cp="$clean_cp:$entry"
 done
 IFS=$old_ifs; compile_cp=$clean_cp
-bin_dir="$workspace/$bin_relative"; resource_classes="$temp_root/resource-classes"
-mkdir -p "$resource_classes"; cp -R "$bin_dir/." "$resource_classes/"
+bin_dir="$workspace/$bin_relative"
 source_list="$temp_root/resource-sources.txt"
 find "$resource_dir" -type f -name '*.java' | sort > "$source_list"
-"$JAVA_HOME/bin/javac" -cp "$resource_classes:$compile_cp" -d "$resource_classes" @"$source_list" >>"$setup_output" 2>&1 || write_setup_failure resource_compile_failed
 
 jsonl="$temp_root/results.jsonl"; : > "$jsonl"
 while IFS= read -r source; do
@@ -102,9 +101,9 @@ while IFS= read -r source; do
   echo "[$project-$bug_id] STANDARD_GA $target_class" >&2
   started=$(date +%s); set +e
   "$JAVA_HOME/bin/java" ${EVOSUITE_JAVA_OPTS:--Xmx2g} \
-    -cp "$evosuite_jar:$resource_classes:$compile_cp" org.evosuite.EvoSuite \
+    -cp "$evosuite_jar:$bin_dir:$compile_cp" org.evosuite.EvoSuite \
     -mem "$client_memory_mb" -generateSuite -class "$target_class" \
-    -projectCP "$resource_classes:$bin_dir:$compile_cp" -seed "$seed" \
+    -projectCP "$bin_dir:$compile_cp" -seed "$seed" \
     -Dalgorithm=STANDARD_GA -Dcriterion=LINE:BRANCH -Dclient_on_thread="$client_on_thread" \
     -Dstopping_condition=MaxTime -Dsearch_budget="$budget" -Dshow_progress=false \
     -Doutput_variables=TARGET_CLASS,criterion,Coverage,LineCoverage,BranchCoverage \

@@ -1,0 +1,44 @@
+{
+  "schema_version": "2.0",
+  "report_type": "validation",
+  "round": 2,
+  "created_at": "2026-09-19T17:49:40Z",
+  "project": "Chart",
+  "bug_id": 11,
+  "algorithm": "STANDARD_GA",
+  "seed": 20260918,
+  "test_code_dir": "GenericAlgorithm/TestCode/Chart_11",
+  "status": "complete",
+  "validations": [
+    {
+      "project": "Chart",
+      "bug_id": 11,
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "subject_version": "buggy",
+      "test_class": "org.jfree.chart.util.ShapeUtilities_ESTest",
+      "execution_seconds": 1,
+      "tests_run": 57,
+      "passed_tests": 57,
+      "failures": 0,
+      "test_execution": "PASS",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "project": "Chart",
+      "bug_id": 11,
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "subject_version": "fixed",
+      "test_class": "org.jfree.chart.util.ShapeUtilities_ESTest",
+      "execution_seconds": 2,
+      "tests_run": 57,
+      "passed_tests": 57,
+      "failures": 0,
+      "test_execution": "PASS",
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

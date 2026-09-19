@@ -56,6 +56,10 @@ archive_previous_run "$result_dir"
 mkdir -p "$result_dir"
 temp_root=$(mktemp -d "/tmp/evosuite-validation-${project}-${bug_id}.XXXXXX")
 cleanup() { rm -rf "$temp_root"; }; trap cleanup EXIT INT TERM
+suite_root="$temp_root/suite-source"
+mkdir -p "$suite_root"
+# Snapshot once. Both revisions compile exactly these bytes; TestCode is never edited.
+cp -R "$test_root/." "$suite_root/"
 jsonl="$temp_root/validations.jsonl"; : > "$jsonl"
 infrastructure_failed=0
 
@@ -68,7 +72,7 @@ write_unavailable_rows() {
       --argjson seed "$seed" --arg version "$version" --arg test_class "$test_class" \
       --arg state "$state" --arg error "$message" \
       '{project:$project,bug_id:$bug_id,algorithm:$algorithm,seed:$seed,subject_version:$version,test_class:$test_class,execution_seconds:0,tests_run:null,passed_tests:null,failures:null,test_execution:"NOT_RUN",status:$state,error:$error}' >> "$jsonl"
-  done < <(find "$test_root" -type f -name '*_ESTest.java' | sort)
+  done < <(find "$suite_root" -type f -name '*_ESTest.java' | sort)
 }
 
 validate_version() {
@@ -83,15 +87,16 @@ validate_version() {
     write_unavailable_rows "$version" compile_failed "$(tail -20 "$setup_output")"; infrastructure_failed=1; return
   fi
   bin_relative=$("$defects4j_bin" export -w "$workspace" -p dir.bin.classes 2>>"$setup_output")
-  compile_cp=$("$defects4j_bin" export -w "$workspace" -p cp.compile 2>>"$setup_output")
+  compile_cp=$("$defects4j_bin" export -w "$workspace" -p cp.test 2>>"$setup_output")
   clean_cp=''; old_ifs=$IFS; IFS=:
   for entry in $compile_cp; do
+    if [[ ! -e "$entry" && -e "$workspace/$entry" ]]; then entry="$workspace/$entry"; fi
     [[ -e "$entry" ]] || continue
     [[ -z "$clean_cp" ]] && clean_cp=$entry || clean_cp="$clean_cp:$entry"
   done
   IFS=$old_ifs; compile_cp=$clean_cp; bin_dir="$workspace/$bin_relative"
   compiled_tests="$temp_root/compiled-$version"; test_sources="$temp_root/test-sources-$version.txt"
-  mkdir -p "$compiled_tests"; find "$test_root" -type f -name '*.java' | sort > "$test_sources"
+  mkdir -p "$compiled_tests"; find "$suite_root" -type f -name '*.java' | sort > "$test_sources"
   if ! "$JAVA_HOME/bin/javac" -cp "$bin_dir:$compile_cp:$evosuite_jar" -d "$compiled_tests" @"$test_sources" >>"$setup_output" 2>&1; then
     write_unavailable_rows "$version" test_compile_failed "$(tail -20 "$setup_output")"; infrastructure_failed=1; return
   fi
@@ -116,7 +121,7 @@ validate_version() {
       --argjson seconds "$seconds" --argjson tests_run "$tests_run" --argjson passed_tests "$passed_tests" \
       --argjson failures "$failures" --arg execution "$execution" --arg state "$state" --arg error "$error" \
       '{project:$project,bug_id:$bug_id,algorithm:$algorithm,seed:$seed,subject_version:$version,test_class:$test_class,execution_seconds:$seconds,tests_run:$tests_run,passed_tests:$passed_tests,failures:$failures,test_execution:$execution,status:$state,error:(if $error=="" then null else $error end)}' >> "$jsonl"
-  done < <(find "$test_root" -type f -name '*_ESTest.java' | sort)
+  done < <(find "$suite_root" -type f -name '*_ESTest.java' | sort)
 }
 
 # Both calls use the same immutable TestCode directory from Round 1.
@@ -133,13 +138,23 @@ jq -r '["project","bug_id","algorithm","seed","subject_version","test_class","ex
 
 buggy_result=$(jq -r 'if ([.validations[]|select(.subject_version=="buggy" and .test_execution=="NOT_RUN")]|length)>0 then "NOT_AVAILABLE" elif any(.validations[]; .subject_version=="buggy" and .test_execution=="FAIL") then "FAIL" elif any(.validations[]; .subject_version=="buggy" and .test_execution=="PASS") then "PASS" else "NOT_AVAILABLE" end' "$result_dir/result.json")
 fixed_result=$(jq -r 'if ([.validations[]|select(.subject_version=="fixed" and .test_execution=="NOT_RUN")]|length)>0 then "NOT_AVAILABLE" elif any(.validations[]; .subject_version=="fixed" and .test_execution=="FAIL") then "FAIL" elif any(.validations[]; .subject_version=="fixed" and .test_execution=="PASS") then "PASS" else "NOT_AVAILABLE" end' "$result_dir/result.json")
-if [[ "$buggy_result" == FAIL && "$fixed_result" == PASS ]]; then
-  bug_detected=true; summary_status=defect
-  defect=$(jq -r '[.validations[]|select(.subject_version=="buggy" and .test_execution=="FAIL")|.error]|map(select(.!=null))|join("\n---\n")' "$result_dir/result.json")
-elif [[ "$buggy_result" == NOT_AVAILABLE || "$fixed_result" == NOT_AVAILABLE ]]; then
+same_test_counts=$(jq -r '
+  [.validations[]|select(.subject_version=="buggy")|{test_class,tests_run}] as $buggy |
+  [.validations[]|select(.subject_version=="fixed")|{test_class,tests_run}] as $fixed |
+  (($buggy|length)>0 and ($buggy|length)==($fixed|length) and
+   all($buggy[]; . as $b | ($b.tests_run!=null and any($fixed[]; .test_class==$b.test_class and .tests_run==$b.tests_run))))
+' "$result_dir/result.json")
+if [[ "$buggy_result" == NOT_AVAILABLE || "$fixed_result" == NOT_AVAILABLE ]]; then
   bug_detected=not_available; summary_status=not_available; defect=''
-else
+elif [[ "$same_test_counts" != true ]]; then
+  bug_detected=false; summary_status=inconclusive; defect=''
+elif [[ "$buggy_result" == FAIL && "$fixed_result" == PASS ]]; then
+  bug_detected=true; summary_status=pass
+  defect=$(jq -r '[.validations[]|select(.subject_version=="buggy" and .test_execution=="FAIL")|.error]|map(select(.!=null))|join("\n---\n")' "$result_dir/result.json")
+elif [[ "$buggy_result" == PASS && "$fixed_result" == PASS ]]; then
   bug_detected=false; summary_status=pass; defect=''
+else
+  bug_detected=false; summary_status=inconclusive; defect=''
 fi
 jq -n --arg project "$project" --argjson bug_id "$bug_id" --arg algorithm "$algorithm" --argjson seed "$seed" \
   --arg buggy "$buggy_result" --arg fixed "$fixed_result" --arg bug_detected "$bug_detected" \

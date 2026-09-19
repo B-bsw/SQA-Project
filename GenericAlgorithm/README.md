@@ -44,9 +44,9 @@ failed test. `TestCode` counts bugs that have a generated `*_ESTest.java` file.
 | Done | Project | Resource bugs | Round 1 (OK/reports) | TestCode bugs | Round 2 (OK/reports) | Status |
 |:---:|---|---:|---:|---:|---:|---|
 | ✅ | Chart | 26 | 26/26 | 26 | 21/26 | Both rounds complete; 5 Round 2 reports failed |
-| ✅ | Cli | 39 | 38/39 | 39 | 25/39 | Both rounds complete; 1 Round 1 and 14 Round 2 reports failed |
+| ⬜ | Cli | 39 | 38/39 | 39 | 25/39 | Both rounds complete; 1 Round 1 and 14 Round 2 reports failed |
 | ⬜ | Closure | 174 | 0/0 | 0 | 0/0 | Resource ready; not started |
-| ✅ | Codec | 18 | 17/18 | 18 | 11/18 | Both rounds complete; 1 Round 1 and 7 Round 2 reports failed |
+| ⬜ | Codec | 18 | 17/18 | 18 | 11/18 | Both rounds complete; 1 Round 1 and 7 Round 2 reports failed |
 | ⬜ | Collections | 28 | 0/0 | 0 | 0/0 | Resource ready; not started |
 | ⬜ | Compress | 47 | 0/0 | 0 | 0/0 | Resource ready; not started |
 | ⬜ | Csv | 16 | 0/0 | 0 | 0/0 | Resource ready; not started |
@@ -90,5 +90,6 @@ that EvoSuite repaired the bug.
 
 Round 1 generates one EvoSuite suite. Round 2 runs the exact files from
 `TestCode/Project_ID` against both buggy and fixed revisions. A buggy failure
-followed by a fixed pass produces `status=defect`; other completed pairs produce
-`status=pass`. See the [script guide](Code/README.md) for schemas and commands.
+followed by a fixed pass produces `bug_detected=true` and `status=pass`.
+`PASS/PASS` is `pass`; `FAIL/FAIL` and `PASS/FAIL` are `inconclusive`. See the
+[script guide](Code/README.md) for schemas and commands.

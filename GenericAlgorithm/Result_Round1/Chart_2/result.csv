@@ -1,0 +1,2 @@
+"project","bug_id","algorithm","seed","search_budget_seconds","target_class","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
+"Chart",2,"STANDARD_GA",20260918,60,"org.jfree.data.general.DatasetUtilities",90,113,"PASS",70.04,64.11,"ok",""

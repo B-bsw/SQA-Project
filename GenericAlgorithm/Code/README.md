@@ -37,9 +37,17 @@ Output:
   per-bug detection decision
 
 `passed_tests` is `tests_run - failures`. The suite detects the defect only for
-`buggy=FAIL` and `fixed=PASS`. That result uses `status=defect` and includes the
-buggy failure in `defect`. Other complete pairs use `status=pass`; incomplete
-execution uses `status=not_available`. Coverage never decides defect detection.
+`buggy=FAIL` and `fixed=PASS`. That result uses `bug_detected=true`,
+`status=pass`, and includes the buggy failure in `defect`. `PASS/PASS` is also
+`status=pass`; `FAIL/FAIL`, `PASS/FAIL`, or unequal test counts are
+`status=inconclusive`. Incomplete execution uses `status=not_available`.
+Coverage never decides defect detection.
+
+Round 2 snapshots TestCode once before either checkout. Buggy and fixed use
+separate checkout directories, separate `cp.test` dependencies, and separate
+compiled-test directories. Nothing generated or compiled for one revision is
+reused as compiled input for the other; only the identical Java test sources
+are shared.
 
 ## Aggregate and summarize
 

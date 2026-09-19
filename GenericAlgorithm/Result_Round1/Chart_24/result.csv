@@ -1,0 +1,2 @@
+"project","bug_id","algorithm","seed","search_budget_seconds","target_class","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
+"Chart",24,"STANDARD_GA",20260918,60,"org.jfree.chart.renderer.GrayPaintScale",5,8,"PASS",100.00,100.00,"ok",""

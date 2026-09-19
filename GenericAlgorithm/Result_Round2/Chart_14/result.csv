@@ -1,0 +1,41 @@
+"project","bug_id","algorithm","seed","subject_version","test_class","execution_seconds","tests_run","passed_tests","failures","test_execution","status","error"
+"Chart",14,"STANDARD_GA",20260918,"buggy","org.jfree.chart.plot.CategoryPlot_ESTest",2,146,146,0,"PASS","ok",""
+"Chart",14,"STANDARD_GA",20260918,"buggy","org.jfree.chart.plot.XYPlot_ESTest",6,147,147,0,"PASS","ok",""
+"Chart",14,"STANDARD_GA",20260918,"fixed","org.jfree.chart.plot.CategoryPlot_ESTest",4,146,142,4,"FAIL","test_failed","4) test128(org.jfree.chart.plot.CategoryPlot_ESTest)
+java.lang.AssertionError: Expecting exception: NullPointerException
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.jfree.chart.plot.CategoryPlot_ESTest.test128(CategoryPlot_ESTest.java:1413)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+FAILURES!!!
+Tests run: 146,  Failures: 4"
+"Chart",14,"STANDARD_GA",20260918,"fixed","org.jfree.chart.plot.XYPlot_ESTest",5,147,143,4,"FAIL","test_failed","4) test133(org.jfree.chart.plot.XYPlot_ESTest)
+java.lang.AssertionError: Expecting exception: NullPointerException
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.jfree.chart.plot.XYPlot_ESTest.test133(XYPlot_ESTest.java:1548)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+FAILURES!!!
+Tests run: 147,  Failures: 4"

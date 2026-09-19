@@ -1,0 +1,28 @@
+{
+  "schema_version": "2.0",
+  "report_type": "generation",
+  "round": 1,
+  "created_at": "2026-09-19T17:42:06Z",
+  "project": "Chart",
+  "bug_id": 24,
+  "resource_dir": "Resoucre/Chart_24",
+  "test_code_dir": "GenericAlgorithm/TestCode/Chart_24",
+  "algorithm": "STANDARD_GA",
+  "status": "ok",
+  "targets": [
+    {
+      "source_file": "Resoucre/Chart_24/org/jfree/chart/renderer/GrayPaintScale.java",
+      "target_class": "org.jfree.chart.renderer.GrayPaintScale",
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "search_budget_seconds": 60,
+      "generation_seconds": 5,
+      "generated_test_methods": 8,
+      "test_execution": "PASS",
+      "line_coverage_percent": 100.00,
+      "branch_coverage_percent": 100.00,
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

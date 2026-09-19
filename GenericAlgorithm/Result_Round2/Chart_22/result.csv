@@ -1,0 +1,21 @@
+"project","bug_id","algorithm","seed","subject_version","test_class","execution_seconds","tests_run","passed_tests","failures","test_execution","status","error"
+"Chart",22,"STANDARD_GA",20260918,"buggy","org.jfree.data.KeyedObjects2D_ESTest",2,19,19,0,"PASS","ok",""
+"Chart",22,"STANDARD_GA",20260918,"fixed","org.jfree.data.KeyedObjects2D_ESTest",2,19,17,2,"FAIL","test_failed","	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertFalse(Assert.java:64)
+	at org.junit.Assert.assertFalse(Assert.java:74)
+	at org.jfree.data.KeyedObjects2D_ESTest.test04(KeyedObjects2D_ESTest.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+FAILURES!!!
+Tests run: 19,  Failures: 2"

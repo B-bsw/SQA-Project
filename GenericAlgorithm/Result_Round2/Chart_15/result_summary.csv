@@ -1,0 +1,2 @@
+"project","bug_id","algorithm","seed","buggy_result","fixed_result","bug_detected","status","defect"
+"Chart",15,"STANDARD_GA",20260918,"PASS","FAIL",false,"inconclusive",""

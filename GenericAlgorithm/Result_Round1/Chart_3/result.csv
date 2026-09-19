@@ -1,0 +1,2 @@
+"project","bug_id","algorithm","seed","search_budget_seconds","target_class","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
+"Chart",3,"STANDARD_GA",20260918,60,"org.jfree.data.time.TimeSeries",80,56,"PASS",90.26,80.82,"ok",""

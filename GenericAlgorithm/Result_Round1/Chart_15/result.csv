@@ -1,0 +1,2 @@
+"project","bug_id","algorithm","seed","search_budget_seconds","target_class","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
+"Chart",15,"STANDARD_GA",20260918,60,"org.jfree.chart.plot.PiePlot",100,117,"PASS",50.85,50.64,"ok",""
