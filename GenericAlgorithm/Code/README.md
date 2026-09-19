@@ -16,3 +16,12 @@ Round 2 runs the latest generated suite against the fixed Defects4J revision:
 Round 2 JSON and CSV reports are saved under `GenericAlgorithm/Result_Round2`.
 Both scripts embed errors in reports and do not retain `.log` or Markdown files.
 Running either round again replaces that project's previous output.
+
+Collect all per-bug reports into root-level JSON and CSV files:
+
+    ./collect_results.sh 1
+    ./collect_results.sh 2
+    ./collect_results.sh all
+
+The aggregate files are `result_round1.json/csv` and `result_round2.json/csv`.
+Running the collector again atomically replaces the previous aggregate files.

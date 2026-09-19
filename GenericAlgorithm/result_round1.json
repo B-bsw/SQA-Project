@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0",
+  "round": 1,
+  "generated_at": "2026-09-19T11:58:58Z",
+  "summary": {
+    "subjects": 6,
+    "successful_subjects": 6,
+    "failed_subjects": 0,
+    "total_targets": 6,
+    "generated_test_methods": 457,
+    "passed_targets": 6,
+    "failed_targets": 0,
+    "mean_line_coverage_percent": 67.95,
+    "mean_branch_coverage_percent": 66.47
+  },
+  "subjects": [
+    {
+      "schema_version": "1.0",
+      "round": 1,
+      "subject_version": "buggy",
+      "created_at": "2026-09-19T11:46:20Z",
+      "project": "Chart",
+      "bug_id": 1,
+      "resource_dir": "Resoucre/Chart_1",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_1",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_1/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java",
+          "target_class": "org.jfree.chart.renderer.category.AbstractCategoryItemRenderer",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "client_memory_mb": 2048,
+          "client_on_thread": true,
+          "search_budget_seconds": 60,
+          "generation_seconds": 98,
+          "generated_test_methods": 61,
+          "test_execution": "PASS",
+          "line_coverage_percent": 48.78,
+          "branch_coverage_percent": 47.45,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 1,
+      "subject_version": "buggy",
+      "created_at": "2026-09-19T11:46:13Z",
+      "project": "Chart",
+      "bug_id": 2,
+      "resource_dir": "Resoucre/Chart_2",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_2",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_2/org/jfree/data/general/DatasetUtilities.java",
+          "target_class": "org.jfree.data.general.DatasetUtilities",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "client_memory_mb": 2048,
+          "client_on_thread": false,
+          "search_budget_seconds": 60,
+          "generation_seconds": 81,
+          "generated_test_methods": 114,
+          "test_execution": "PASS",
+          "line_coverage_percent": 72.03,
+          "branch_coverage_percent": 66.61,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 1,
+      "subject_version": "buggy",
+      "created_at": "2026-09-19T11:51:41Z",
+      "project": "Chart",
+      "bug_id": 3,
+      "resource_dir": "Resoucre/Chart_3",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_3",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_3/org/jfree/data/time/TimeSeries.java",
+          "target_class": "org.jfree.data.time.TimeSeries",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "client_memory_mb": 2048,
+          "client_on_thread": false,
+          "search_budget_seconds": 60,
+          "generation_seconds": 77,
+          "generated_test_methods": 61,
+          "test_execution": "PASS",
+          "line_coverage_percent": 91.32,
+          "branch_coverage_percent": 84.02,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 1,
+      "subject_version": "buggy",
+      "created_at": "2026-09-19T11:52:45Z",
+      "project": "Chart",
+      "bug_id": 4,
+      "resource_dir": "Resoucre/Chart_4",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_4",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_4/org/jfree/chart/plot/XYPlot.java",
+          "target_class": "org.jfree.chart.plot.XYPlot",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "client_memory_mb": 2048,
+          "client_on_thread": false,
+          "search_budget_seconds": 60,
+          "generation_seconds": 133,
+          "generated_test_methods": 177,
+          "test_execution": "PASS",
+          "line_coverage_percent": 56.49,
+          "branch_coverage_percent": 47.82,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 1,
+      "subject_version": "buggy",
+      "created_at": "2026-09-19T11:52:05Z",
+      "project": "Chart",
+      "bug_id": 5,
+      "resource_dir": "Resoucre/Chart_5",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_5",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_5/org/jfree/data/xy/XYSeries.java",
+          "target_class": "org.jfree.data.xy.XYSeries",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "client_memory_mb": 2048,
+          "client_on_thread": false,
+          "search_budget_seconds": 60,
+          "generation_seconds": 73,
+          "generated_test_methods": 38,
+          "test_execution": "PASS",
+          "line_coverage_percent": 97.67,
+          "branch_coverage_percent": 100.00,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 1,
+      "subject_version": "buggy",
+      "created_at": "2026-09-19T11:52:01Z",
+      "project": "Chart",
+      "bug_id": 6,
+      "resource_dir": "Resoucre/Chart_6",
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_6",
+      "algorithm": "STANDARD_GA",
+      "status": "ok",
+      "targets": [
+        {
+          "source_file": "Resoucre/Chart_6/org/jfree/chart/util/ShapeList.java",
+          "target_class": "org.jfree.chart.util.ShapeList",
+          "algorithm": "STANDARD_GA",
+          "seed": 20260918,
+          "client_memory_mb": 2048,
+          "client_on_thread": false,
+          "search_budget_seconds": 60,
+          "generation_seconds": 66,
+          "generated_test_methods": 6,
+          "test_execution": "PASS",
+          "line_coverage_percent": 41.38,
+          "branch_coverage_percent": 52.94,
+          "status": "ok",
+          "error": null
+        }
+      ]
+    }
+  ]
+}
