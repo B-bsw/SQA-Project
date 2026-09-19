@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "round": 2,
+  "subject_version": "fixed",
+  "created_at": "2026-09-19T12:49:19Z",
+  "project": "Chart",
+  "bug_id": 25,
+  "test_code_dir": "GenericAlgorithm/TestCode/Chart_25",
+  "status": "ok",
+  "tests": [
+    {
+      "test_class": "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest",
+      "execution_seconds": 1,
+      "tests_run": 12,
+      "failures": 0,
+      "test_execution": "PASS",
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

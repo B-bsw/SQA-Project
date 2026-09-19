@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "round": 1,
+  "subject_version": "buggy",
+  "created_at": "2026-09-19T12:37:23Z",
+  "project": "Chart",
+  "bug_id": 19,
+  "resource_dir": "Resoucre/Chart_19",
+  "test_code_dir": "GenericAlgorithm/TestCode/Chart_19",
+  "algorithm": "STANDARD_GA",
+  "status": "ok",
+  "targets": [
+    {
+      "source_file": "Resoucre/Chart_19/org/jfree/chart/plot/CategoryPlot.java",
+      "target_class": "org.jfree.chart.plot.CategoryPlot",
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "client_memory_mb": 2048,
+      "client_on_thread": true,
+      "search_budget_seconds": 60,
+      "generation_seconds": 118,
+      "generated_test_methods": 140,
+      "test_execution": "PASS",
+      "line_coverage_percent": 71.30,
+      "branch_coverage_percent": 61.72,
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

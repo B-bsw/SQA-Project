@@ -1,0 +1,20 @@
+"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
+"Chart",22,"fixed","GenericAlgorithm/TestCode/Chart_22","org.jfree.data.KeyedObjects2D_ESTest",1,17,2,"FAIL","test_failed","java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at org.junit.Assert.assertFalse(Assert.java:75)
+	at org.jfree.data.KeyedObjects2D_ESTest.test02(KeyedObjects2D_ESTest.java:58)
+2) test15(org.jfree.data.KeyedObjects2D_ESTest)
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:374)
+	at java.base/java.util.ArrayList.get(ArrayList.java:459)
+	at org.jfree.data.KeyedObjects2D.getColumnKey(KeyedObjects2D.java:174)
+	at org.jfree.data.KeyedObjects2D.removeColumn(KeyedObjects2D.java:382)
+	at org.jfree.data.KeyedObjects2D_ESTest.test15(KeyedObjects2D_ESTest.java:251)
+
+FAILURES!!!
+Tests run: 17,  Failures: 2"
