@@ -1,2 +1,0 @@
-"project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
-"Cli",17,"Resoucre/Cli_17","GenericAlgorithm/TestCode/Cli_17","STANDARD_GA",20260918,60,"org.apache.commons.cli.PosixParser","Resoucre/Cli_17/org/apache/commons/cli/PosixParser.java",66,8,"PASS",95.52,91.11,"ok",""

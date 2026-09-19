@@ -71,14 +71,24 @@ GenericAlgorithm/
 ├── TestCode/             # Generated EvoSuite Java tests by Project_ID
 ├── Result_Round1/        # Per-bug buggy-version JSON/CSV reports
 ├── Result_Round2/        # Per-bug fixed-version JSON/CSV reports
-├── result_round1.json    # Aggregated Round 1 results
-├── result_round1.csv
-├── result_round2.json    # Aggregated Round 2 results
-├── result_round2.csv
-├── summary.json          # Compact per-project overview
-└── summary.csv
+└── summary_result/       # All aggregate reports and summaries
+    ├── result_round1.json
+    ├── result_round1.csv
+    ├── result_round2.json
+    ├── result_round2.csv
+    ├── result_summary.json
+    ├── result_summary.csv
+    ├── summary.json
+    └── summary.csv
 ```
 
 Round 2 success means that a test generated from the buggy version also passes
 on the fixed version. It is a fixed-version compatibility result, not a claim
 that EvoSuite repaired the bug.
+
+## Detection workflow
+
+Round 1 generates one EvoSuite suite. Round 2 runs the exact files from
+`TestCode/Project_ID` against both buggy and fixed revisions. A buggy failure
+followed by a fixed pass produces `status=defect`; other completed pairs produce
+`status=pass`. See the [script guide](Code/README.md) for schemas and commands.

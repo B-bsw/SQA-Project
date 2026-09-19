@@ -1,0 +1,34 @@
+{
+  "schema_version": "2.0",
+  "projects": [
+    {
+      "project": "Chart",
+      "bugs": 1,
+      "generation_ok": 1,
+      "generation_percent": 100,
+      "generated_test_methods": 55,
+      "mean_line_coverage_percent": 43.38,
+      "mean_branch_coverage_percent": 43.8,
+      "buggy_pass": 1,
+      "buggy_fail": 0,
+      "fixed_pass": 1,
+      "fixed_fail": 0,
+      "defects": 0,
+      "passes": 1,
+      "not_available": 0
+    }
+  ],
+  "overall": {
+    "project": "ALL",
+    "bugs": 1,
+    "generation_ok": 1,
+    "generated_test_methods": 55,
+    "buggy_pass": 1,
+    "buggy_fail": 0,
+    "fixed_pass": 1,
+    "fixed_fail": 0,
+    "defects": 0,
+    "passes": 1,
+    "not_available": 0
+  }
+}

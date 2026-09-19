@@ -1,119 +1,77 @@
 #!/usr/bin/env bash
+# Aggregate per-bug reports without modifying them.
 # Usage: collect_results.sh 1 | 2 | all
 set -euo pipefail
-
-if [[ $# -ne 1 || ! "$1" =~ ^(1|2|all)$ ]]; then
-  echo "Usage: $0 1 | 2 | all" >&2
-  exit 2
-fi
-
+if [[ $# -ne 1 || ! "$1" =~ ^(1|2|all)$ ]]; then echo "Usage: $0 1 | 2 | all" >&2; exit 2; fi
 code_dir=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 ga_root=$(cd "$code_dir/.." && pwd)
+summary_root="$ga_root/summary_result"
+mkdir -p "$summary_root"
+source "$code_dir/report_helpers.sh"
 command -v jq >/dev/null || { echo "jq is required." >&2; exit 2; }
 
 collect_round1() {
-  local source_dir="$ga_root/Result_Round1"
-  local output_json="$ga_root/result_round1.json"
-  local output_csv="$ga_root/result_round1.csv"
-  local temp_json temp_csv generated_at
-  local files=()
-  while IFS= read -r file; do files+=("$file"); done \
-    < <(find "$source_dir" -mindepth 2 -maxdepth 2 -type f -name result.json | sort)
-  generated_at=$(date -u +%Y-%m-%dT%H:%M:%SZ)
-  temp_json=$(mktemp "$ga_root/.result_round1.json.XXXXXX")
-  temp_csv=$(mktemp "$ga_root/.result_round1.csv.XXXXXX")
+  local files=() file output_json="$summary_root/result_round1.json" output_csv="$summary_root/result_round1.csv"
+  local temp_json temp_csv
+  while IFS= read -r file; do files+=("$file"); done < <(find "$ga_root/Result_Round1" -mindepth 2 -maxdepth 2 -name result.json -type f | sort)
+  temp_json=$(mktemp "$summary_root/.result_round1.json.XXXXXX"); temp_csv=$(mktemp "$summary_root/.result_round1.csv.XXXXXX")
   if [[ ${#files[@]} -eq 0 ]]; then
-    jq -n --arg generated_at "$generated_at" \
-      '{schema_version:"1.0",round:1,generated_at:$generated_at,summary:{subjects:0,successful_subjects:0,failed_subjects:0,total_targets:0,generated_test_methods:0,passed_targets:0,failed_targets:0,mean_line_coverage_percent:null,mean_branch_coverage_percent:null},subjects:[]}' > "$temp_json"
+    jq -n '{schema_version:"2.0",report_type:"generation",subjects:[]}' > "$temp_json"
   else
-    jq -s --arg generated_at "$generated_at" '
-      sort_by(.project,.bug_id) as $subjects |
-      [$subjects[].targets[]?] as $targets |
-      {
-        schema_version:"1.0",
-        round:1,
-        generated_at:$generated_at,
-        summary:{
-          subjects:($subjects|length),
-          successful_subjects:([$subjects[]|select(.status=="ok")]|length),
-          failed_subjects:([$subjects[]|select(.status!="ok")]|length),
-          total_targets:($targets|length),
-          generated_test_methods:([$targets[].generated_test_methods]|add // 0),
-          passed_targets:([$targets[]|select(.test_execution=="PASS")]|length),
-          failed_targets:([$targets[]|select(.status!="ok")]|length),
-          mean_line_coverage_percent:([$targets[].line_coverage_percent|select(.!=null)]|if length==0 then null else (add/length*100|round)/100 end),
-          mean_branch_coverage_percent:([$targets[].branch_coverage_percent|select(.!=null)]|if length==0 then null else (add/length*100|round)/100 end)
-        },
-        subjects:$subjects
-      }' "${files[@]}" > "$temp_json"
+    jq -s '{schema_version:"2.0",report_type:"generation",subjects:sort_by(.project,.bug_id)}' "${files[@]}" > "$temp_json"
   fi
-  jq -r '
-    ["project","bug_id","subject_status","target_class","source_file","algorithm","seed","search_budget_seconds","client_memory_mb","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","target_status","error"],
-    (.subjects[] as $s |
-      if ($s.targets|length)==0 then
-        [$s.project,$s.bug_id,$s.status,"","","","","","","",0,"NOT_RUN","","","",($s.error//"")]
-      else
-        $s.targets[] as $t |
-        [$s.project,$s.bug_id,$s.status,$t.target_class,$t.source_file,$t.algorithm,$t.seed,$t.search_budget_seconds,($t.client_memory_mb//""),$t.generation_seconds,$t.generated_test_methods,$t.test_execution,($t.line_coverage_percent//""),($t.branch_coverage_percent//""),$t.status,($t.error//"")]
-      end) | @csv' "$temp_json" > "$temp_csv"
-  mv "$temp_json" "$output_json"
-  mv "$temp_csv" "$output_csv"
-  echo "Round 1: $output_json" >&2
-  echo "Round 1: $output_csv" >&2
+  jq -r '["project","bug_id","algorithm","seed","search_budget_seconds","target_class","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"],
+    (.subjects[] as $s | if (($s.targets//[])|length)==0 then
+      [$s.project,$s.bug_id,($s.algorithm//""),"","","","",0,"NOT_RUN","","",$s.status,($s.error//"")]
+    else $s.targets[] as $t | [$s.project,$s.bug_id,$t.algorithm,$t.seed,$t.search_budget_seconds,$t.target_class,$t.generation_seconds,$t.generated_test_methods,$t.test_execution,($t.line_coverage_percent//""),($t.branch_coverage_percent//""),$t.status,($t.error//"")] end) | @csv' "$temp_json" > "$temp_csv"
+  archive_existing "$output_json" "$output_csv"; mv "$temp_json" "$output_json"; mv "$temp_csv" "$output_csv"
+  echo "Round 1: $output_json" >&2; echo "Round 1: $output_csv" >&2
 }
 
 collect_round2() {
-  local source_dir="$ga_root/Result_Round2"
-  local output_json="$ga_root/result_round2.json"
-  local output_csv="$ga_root/result_round2.csv"
-  local temp_json temp_csv generated_at
-  local files=()
-  while IFS= read -r file; do files+=("$file"); done \
-    < <(find "$source_dir" -mindepth 2 -maxdepth 2 -type f -name result.json | sort)
-  generated_at=$(date -u +%Y-%m-%dT%H:%M:%SZ)
-  temp_json=$(mktemp "$ga_root/.result_round2.json.XXXXXX")
-  temp_csv=$(mktemp "$ga_root/.result_round2.csv.XXXXXX")
+  local files=() summaries=() file output_json="$summary_root/result_round2.json" output_csv="$summary_root/result_round2.csv"
+  local summary_json="$summary_root/result_summary.json" summary_csv="$summary_root/result_summary.csv" temp_json temp_csv temp_summary_json temp_summary_csv temp_explicit
+  while IFS= read -r file; do files+=("$file"); done < <(find "$ga_root/Result_Round2" -mindepth 2 -maxdepth 2 -name result.json -type f | sort)
+  while IFS= read -r file; do summaries+=("$file"); done < <(find "$ga_root/Result_Round2" -mindepth 2 -maxdepth 2 -name result_summary.json -type f | sort)
+  temp_json=$(mktemp "$summary_root/.result_round2.json.XXXXXX"); temp_csv=$(mktemp "$summary_root/.result_round2.csv.XXXXXX")
+  temp_summary_json=$(mktemp "$summary_root/.result_summary.json.XXXXXX"); temp_summary_csv=$(mktemp "$summary_root/.result_summary.csv.XXXXXX")
+  temp_explicit=$(mktemp "$summary_root/.result_summary.explicit.XXXXXX")
   if [[ ${#files[@]} -eq 0 ]]; then
-    jq -n --arg generated_at "$generated_at" \
-      '{schema_version:"1.0",round:2,generated_at:$generated_at,summary:{subjects:0,successful_subjects:0,failed_subjects:0,total_test_classes:0,tests_run:0,failures:0,passed_test_classes:0,failed_test_classes:0},subjects:[]}' > "$temp_json"
+    jq -n '{schema_version:"2.0",report_type:"validation",subjects:[]}' > "$temp_json"
   else
-    jq -s --arg generated_at "$generated_at" '
-      sort_by(.project,.bug_id) as $subjects |
-      [$subjects[].tests[]?] as $tests |
-      {
-        schema_version:"1.0",
-        round:2,
-        generated_at:$generated_at,
-        summary:{
-          subjects:($subjects|length),
-          successful_subjects:([$subjects[]|select(.status=="ok")]|length),
-          failed_subjects:([$subjects[]|select(.status!="ok")]|length),
-          total_test_classes:($tests|length),
-          tests_run:([$tests[].tests_run]|add // 0),
-          failures:([$tests[].failures]|add // 0),
-          passed_test_classes:([$tests[]|select(.test_execution=="PASS")]|length),
-          failed_test_classes:([$tests[]|select(.status!="ok")]|length)
-        },
-        subjects:$subjects
-      }' "${files[@]}" > "$temp_json"
+    jq -s --slurpfile generation "$summary_root/result_round1.json" '
+      ($generation[0].subjects) as $generations |
+      map(. as $s | ([$generations[]|select(.project==$s.project and .bug_id==$s.bug_id)][0]//{}) as $g |
+      .validations = ((.validations // .tests // []) | map(
+      . + {project:(.project//$s.project),bug_id:(.bug_id//$s.bug_id),algorithm:(.algorithm//$s.algorithm//$g.targets[0].algorithm),seed:(.seed//$s.seed//$g.targets[0].seed),subject_version:(.subject_version//$s.subject_version//"fixed"),passed_tests:(.passed_tests // (if (.tests_run|type)=="number" and (.failures|type)=="number" then .tests_run-.failures else null end))}))) |
+      {schema_version:"2.0",report_type:"validation",subjects:sort_by(.project,.bug_id)}' "${files[@]}" > "$temp_json"
   fi
-  jq -r '
-    ["project","bug_id","subject_status","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","test_status","error"],
-    (.subjects[] as $s |
-      if ($s.tests|length)==0 then
-        [$s.project,$s.bug_id,$s.status,$s.subject_version,$s.test_code_dir,"","",0,0,"NOT_RUN","",($s.error//"")]
-      else
-        $s.tests[] as $t |
-        [$s.project,$s.bug_id,$s.status,$s.subject_version,$s.test_code_dir,$t.test_class,$t.execution_seconds,$t.tests_run,$t.failures,$t.test_execution,$t.status,($t.error//"")]
-      end) | @csv' "$temp_json" > "$temp_csv"
-  mv "$temp_json" "$output_json"
-  mv "$temp_csv" "$output_csv"
-  echo "Round 2: $output_json" >&2
-  echo "Round 2: $output_csv" >&2
+  jq -r '["project","bug_id","algorithm","seed","subject_version","test_class","execution_seconds","tests_run","passed_tests","failures","test_execution","status","error"],
+    (.subjects[] as $s | if (($s.validations//[])|length)==0 then
+      [$s.project,$s.bug_id,($s.algorithm//""),($s.seed//""),($s.subject_version//""),"",0,"","","","NOT_RUN",$s.status,($s.error//"")]
+    else $s.validations[] | [.project,.bug_id,(.algorithm//""),(.seed//""),.subject_version,.test_class,.execution_seconds,.tests_run,.passed_tests,.failures,.test_execution,.status,(.error//"")] end) | @csv' "$temp_json" > "$temp_csv"
+
+  if [[ ${#summaries[@]} -eq 0 ]]; then jq -n '[]' > "$temp_explicit"; else jq -s '.' "${summaries[@]}" > "$temp_explicit"; fi
+  jq -n --slurpfile validation "$temp_json" --slurpfile explicit "$temp_explicit" '
+    ($explicit[0]) as $known |
+    [$validation[0].subjects[] as $s |
+      select(any($known[]; .project==$s.project and .bug_id==$s.bug_id)|not) |
+      ([$s.validations[]|select(.subject_version=="fixed")]) as $fixed |
+      {project:$s.project,bug_id:$s.bug_id,
+       algorithm:($s.algorithm//$s.validations[0].algorithm),seed:($s.seed//$s.validations[0].seed),
+       buggy_result:"NOT_AVAILABLE",
+       fixed_result:(if ($fixed|length)==0 or any($fixed[];.test_execution=="NOT_RUN") then "NOT_AVAILABLE" elif any($fixed[];.test_execution=="FAIL") then "FAIL" elif any($fixed[];.test_execution=="PASS") then "PASS" else "NOT_AVAILABLE" end),
+       bug_detected:"not_available",status:"not_available",defect:null}
+    ] as $legacy |
+    {schema_version:"2.0",report_type:"bug_detection",results:(($known+$legacy)|sort_by(.project,.bug_id))}' > "$temp_summary_json"
+  rm -f "$temp_explicit"
+  jq -r '["project","bug_id","algorithm","seed","buggy_result","fixed_result","bug_detected","status","defect"],
+    (.results[] | [.project,.bug_id,.algorithm,.seed,.buggy_result,.fixed_result,.bug_detected,.status,(.defect//"")]) | @csv' "$temp_summary_json" > "$temp_summary_csv"
+  archive_existing "$output_json" "$output_csv" "$summary_json" "$summary_csv"
+  mv "$temp_json" "$output_json"; mv "$temp_csv" "$output_csv"
+  mv "$temp_summary_json" "$summary_json"; mv "$temp_summary_csv" "$summary_csv"
+  echo "Round 2: $output_json" >&2; echo "Round 2: $output_csv" >&2
+  echo "Summary: $summary_json" >&2; echo "Summary: $summary_csv" >&2
 }
 
-case "$1" in
-  1) collect_round1 ;;
-  2) collect_round2 ;;
-  all) collect_round1; collect_round2 ;;
-esac
+case "$1" in 1) collect_round1 ;; 2) collect_round2 ;; all) collect_round1; collect_round2 ;; esac

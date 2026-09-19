@@ -1,5 +1,0 @@
-"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
-"Cli",16,"fixed","GenericAlgorithm/TestCode/Cli_16","org.apache.commons.cli2.option.GroupImpl_ESTest",1,27,0,"PASS","ok",""
-"Cli",16,"fixed","GenericAlgorithm/TestCode/Cli_16","org.apache.commons.cli2.Option_ESTest",0,1,0,"PASS","ok",""
-"Cli",16,"fixed","GenericAlgorithm/TestCode/Cli_16","org.apache.commons.cli2.option.OptionImpl_ESTest",2,13,0,"PASS","ok",""
-"Cli",16,"fixed","GenericAlgorithm/TestCode/Cli_16","org.apache.commons.cli2.commandline.WriteableCommandLineImpl_ESTest",1,31,0,"PASS","ok",""

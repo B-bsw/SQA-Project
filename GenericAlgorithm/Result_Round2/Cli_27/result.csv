@@ -1,2 +1,0 @@
-"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
-"Cli",27,"fixed","GenericAlgorithm/TestCode/Cli_27","org.apache.commons.cli.OptionGroup_ESTest",1,7,0,"PASS","ok",""

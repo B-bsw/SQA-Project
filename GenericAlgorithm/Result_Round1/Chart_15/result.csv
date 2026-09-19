@@ -1,2 +1,0 @@
-"project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
-"Chart",15,"Resoucre/Chart_15","GenericAlgorithm/TestCode/Chart_15","STANDARD_GA",20260918,60,"org.jfree.chart.plot.PiePlot","Resoucre/Chart_15/org/jfree/chart/plot/PiePlot.java",106,107,"PASS",83.57,69.67,"ok",""

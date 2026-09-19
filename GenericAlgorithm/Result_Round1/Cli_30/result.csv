@@ -1,3 +1,0 @@
-"project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
-"Cli",30,"Resoucre/Cli_30","GenericAlgorithm/TestCode/Cli_30","STANDARD_GA",20260918,60,"org.apache.commons.cli.DefaultParser","Resoucre/Cli_30/org/apache/commons/cli/DefaultParser.java",67,13,"PASS",55.98,41.21,"ok",""
-"Cli",30,"Resoucre/Cli_30","GenericAlgorithm/TestCode/Cli_30","STANDARD_GA",20260918,60,"org.apache.commons.cli.Parser","Resoucre/Cli_30/org/apache/commons/cli/Parser.java",70,16,"PASS",84.62,75.32,"ok",""

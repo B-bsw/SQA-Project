@@ -1,2 +1,0 @@
-"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
-"Chart",12,"fixed","GenericAlgorithm/TestCode/Chart_12","org.jfree.chart.plot.MultiplePiePlot_ESTest",1,28,0,"PASS","ok",""

@@ -1,2 +1,0 @@
-"project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
-"Cli",29,"Resoucre/Cli_29","GenericAlgorithm/TestCode/Cli_29","STANDARD_GA",20260918,60,"org.apache.commons.cli.Util","Resoucre/Cli_29/org/apache/commons/cli/Util.java",5,7,"PASS",100.00,100.00,"ok",""

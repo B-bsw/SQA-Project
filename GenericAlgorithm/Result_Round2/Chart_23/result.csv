@@ -1,2 +1,0 @@
-"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
-"Chart",23,"fixed","GenericAlgorithm/TestCode/Chart_23","org.jfree.chart.renderer.category.MinMaxCategoryRenderer_ESTest",2,17,0,"PASS","ok",""

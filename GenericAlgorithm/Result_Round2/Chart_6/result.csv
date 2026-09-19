@@ -1,2 +1,0 @@
-"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
-"Chart",6,"fixed","GenericAlgorithm/TestCode/Chart_6","org.jfree.chart.util.ShapeList_ESTest",1,6,0,"PASS","ok",""

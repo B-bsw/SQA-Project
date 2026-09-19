@@ -1,2 +1,0 @@
-"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
-"Codec",10,"fixed","GenericAlgorithm/TestCode/Codec_10","org.apache.commons.codec.language.Caverphone_ESTest",1,5,0,"PASS","ok",""
