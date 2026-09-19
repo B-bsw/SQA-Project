@@ -11,7 +11,7 @@ JSON and CSV reports are saved in
 
 Round 2 runs the latest generated suite against the fixed Defects4J revision:
 
-    ./run_fixed_test.sh Chart 1
+    ./run_evosuite_test_fixed.sh Chart 1
 
 Round 2 JSON and CSV reports are saved under `GenericAlgorithm/Result_Round2`.
 Both scripts embed errors in reports and do not retain `.log` or Markdown files.
