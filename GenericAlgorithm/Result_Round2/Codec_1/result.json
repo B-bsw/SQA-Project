@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "round": 2,
+  "subject_version": "fixed",
+  "created_at": "2026-09-19T13:40:14Z",
+  "project": "Codec",
+  "bug_id": 1,
+  "test_code_dir": "GenericAlgorithm/TestCode/Codec_1",
+  "status": "ok",
+  "tests": [
+    {
+      "test_class": "org.apache.commons.codec.language.Caverphone_ESTest",
+      "execution_seconds": 1,
+      "tests_run": 5,
+      "failures": 0,
+      "test_execution": "PASS",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "test_class": "org.apache.commons.codec.language.DoubleMetaphone_ESTest",
+      "execution_seconds": 1,
+      "tests_run": 75,
+      "failures": 0,
+      "test_execution": "PASS",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "test_class": "org.apache.commons.codec.language.Metaphone_ESTest",
+      "execution_seconds": 1,
+      "tests_run": 32,
+      "failures": 0,
+      "test_execution": "PASS",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "test_class": "org.apache.commons.codec.language.SoundexUtils_ESTest",
+      "execution_seconds": 1,
+      "tests_run": 6,
+      "failures": 0,
+      "test_execution": "PASS",
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "round": 1,
+  "subject_version": "buggy",
+  "created_at": "2026-09-19T13:39:22Z",
+  "project": "Codec",
+  "bug_id": 16,
+  "resource_dir": "Resoucre/Codec_16",
+  "test_code_dir": "GenericAlgorithm/TestCode/Codec_16",
+  "algorithm": "STANDARD_GA",
+  "status": "ok",
+  "targets": [
+    {
+      "source_file": "Resoucre/Codec_16/org/apache/commons/codec/binary/Base32.java",
+      "target_class": "org.apache.commons.codec.binary.Base32",
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "client_memory_mb": 2048,
+      "client_on_thread": true,
+      "search_budget_seconds": 60,
+      "generation_seconds": 15,
+      "generated_test_methods": 19,
+      "test_execution": "PASS",
+      "line_coverage_percent": 100.00,
+      "branch_coverage_percent": 100.00,
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

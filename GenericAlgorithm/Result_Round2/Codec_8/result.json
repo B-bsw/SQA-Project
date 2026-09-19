@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "round": 2,
+  "subject_version": "fixed",
+  "project": "Codec",
+  "bug_id": 8,
+  "test_code_dir": "GenericAlgorithm/TestCode/Codec_8",
+  "status": "test_compile_failed",
+  "error": "  symbol:   method setInitialBuffer(byte[],int,int)\n  location: variable base64_0 of type Base64\n/Users/bb/Desktop/class/SQA/SQA-Project/GenericAlgorithm/TestCode/Codec_8/Base64_ESTest.java:293: error: cannot find symbol\n      base64_0.setInitialBuffer(byteArray0, (-420), (byte)0);\n              ^\n  symbol:   method setInitialBuffer(byte[],int,byte)\n  location: variable base64_0 of type Base64\n/Users/bb/Desktop/class/SQA/SQA-Project/GenericAlgorithm/TestCode/Codec_8/Base64_ESTest.java:300: error: cannot find symbol\n      base64_0.setInitialBuffer((byte[]) null, 2078, (-531));\n              ^\n  symbol:   method setInitialBuffer(byte[],int,int)\n  location: variable base64_0 of type Base64\n/Users/bb/Desktop/class/SQA/SQA-Project/GenericAlgorithm/TestCode/Codec_8/Base64_ESTest.java:328: error: cannot find symbol\n      base64_0.setInitialBuffer(byteArray0, 41, 1);\n              ^\n  symbol:   method setInitialBuffer(byte[],int,int)\n  location: variable base64_0 of type Base64\nNote: /Users/bb/Desktop/class/SQA/SQA-Project/GenericAlgorithm/TestCode/Codec_8/Base64_ESTest.java uses or overrides a deprecated API.\nNote: Recompile with -Xlint:deprecation for details.\n5 errors",
+  "tests": []
+}

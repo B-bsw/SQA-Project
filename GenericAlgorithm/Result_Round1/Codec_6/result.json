@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "round": 1,
+  "subject_version": "buggy",
+  "created_at": "2026-09-19T13:34:01Z",
+  "project": "Codec",
+  "bug_id": 6,
+  "resource_dir": "Resoucre/Codec_6",
+  "test_code_dir": "GenericAlgorithm/TestCode/Codec_6",
+  "algorithm": "STANDARD_GA",
+  "status": "ok",
+  "targets": [
+    {
+      "source_file": "Resoucre/Codec_6/org/apache/commons/codec/binary/Base64InputStream.java",
+      "target_class": "org.apache.commons.codec.binary.Base64InputStream",
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "client_memory_mb": 2048,
+      "client_on_thread": true,
+      "search_budget_seconds": 60,
+      "generation_seconds": 67,
+      "generated_test_methods": 10,
+      "test_execution": "PASS",
+      "line_coverage_percent": 100.00,
+      "branch_coverage_percent": 93.75,
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

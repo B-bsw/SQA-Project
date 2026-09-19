@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "round": 1,
+  "subject_version": "buggy",
+  "created_at": "2026-09-19T13:32:46Z",
+  "project": "Codec",
+  "bug_id": 4,
+  "resource_dir": "Resoucre/Codec_4",
+  "test_code_dir": "GenericAlgorithm/TestCode/Codec_4",
+  "algorithm": "STANDARD_GA",
+  "status": "ok",
+  "targets": [
+    {
+      "source_file": "Resoucre/Codec_4/org/apache/commons/codec/binary/Base64.java",
+      "target_class": "org.apache.commons.codec.binary.Base64",
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "client_memory_mb": 2048,
+      "client_on_thread": true,
+      "search_budget_seconds": 60,
+      "generation_seconds": 69,
+      "generated_test_methods": 15,
+      "test_execution": "PASS",
+      "line_coverage_percent": 63.44,
+      "branch_coverage_percent": 51.78,
+      "status": "ok",
+      "error": null
+    }
+  ]
+}
