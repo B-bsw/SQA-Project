@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "round": 1,
+  "subject_version": "buggy",
+  "created_at": "2026-09-19T13:06:51Z",
+  "project": "Cli",
+  "bug_id": 17,
+  "resource_dir": "Resoucre/Cli_17",
+  "test_code_dir": "GenericAlgorithm/TestCode/Cli_17",
+  "algorithm": "STANDARD_GA",
+  "status": "ok",
+  "targets": [
+    {
+      "source_file": "Resoucre/Cli_17/org/apache/commons/cli/PosixParser.java",
+      "target_class": "org.apache.commons.cli.PosixParser",
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "client_memory_mb": 2048,
+      "client_on_thread": true,
+      "search_budget_seconds": 60,
+      "generation_seconds": 66,
+      "generated_test_methods": 8,
+      "test_execution": "PASS",
+      "line_coverage_percent": 95.52,
+      "branch_coverage_percent": 91.11,
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

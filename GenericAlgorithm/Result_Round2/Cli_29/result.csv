@@ -1,0 +1,20 @@
+"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
+"Cli",29,"fixed","GenericAlgorithm/TestCode/Cli_29","org.apache.commons.cli.Util_ESTest",1,7,2,"FAIL","test_failed","20:25:51.922 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Util
+20:25:51.967 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/Util
+20:25:51.968 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Util
+.E.E.....
+Time: 0.47
+There were 2 failures:
+1) test0(org.apache.commons.cli.Util_ESTest)
+org.junit.ComparisonFailure: expected:<!`0^jt[]> but was:<!`0^jt[""]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.apache.commons.cli.Util_ESTest.test0(Util_ESTest.java:21)
+2) test1(org.apache.commons.cli.Util_ESTest)
+org.junit.ComparisonFailure: expected:<[]> but was:<[""]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.apache.commons.cli.Util_ESTest.test1(Util_ESTest.java:27)
+
+FAILURES!!!
+Tests run: 7,  Failures: 2"

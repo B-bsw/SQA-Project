@@ -1,0 +1,21 @@
+"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
+"Cli",34,"fixed","GenericAlgorithm/TestCode/Cli_34","org.apache.commons.cli.Option_ESTest",1,51,1,"FAIL","test_failed","20:26:10.100 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.Option
+20:26:10.100 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.Option'.
+20:26:10.100 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Option
+20:26:10.103 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/Option
+20:26:10.103 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field UNINITIALIZED
+20:26:10.103 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field UNLIMITED_VALUES
+20:26:10.103 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Option
+...........................................20:26:10.134 [main] INFO org.evosuite.runtime.thread.ThreadStopper - Found new thread
+E........
+Time: 0.524
+There was 1 failure:
+1) test20(org.apache.commons.cli.Option_ESTest)
+org.junit.ComparisonFailure: expected:<...option:   [ARG] ::  []]> but was:<...option:   [ARG] ::  [:: class java.lang.String ]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.apache.commons.cli.Option_ESTest.test20(Option_ESTest.java:202)
+
+FAILURES!!!
+Tests run: 51,  Failures: 1"
+"Cli",34,"fixed","GenericAlgorithm/TestCode/Cli_34","org.apache.commons.cli.OptionBuilder_ESTest",1,18,0,"PASS","ok",""

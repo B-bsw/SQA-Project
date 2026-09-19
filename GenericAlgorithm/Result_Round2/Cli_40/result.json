@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "round": 2,
+  "subject_version": "fixed",
+  "created_at": "2026-09-19T13:26:30Z",
+  "project": "Cli",
+  "bug_id": 40,
+  "test_code_dir": "GenericAlgorithm/TestCode/Cli_40",
+  "status": "failed",
+  "tests": [
+    {
+      "test_class": "org.apache.commons.cli.TypeHandler_ESTest",
+      "execution_seconds": 1,
+      "tests_run": 12,
+      "failures": 1,
+      "test_execution": "FAIL",
+      "status": "test_failed",
+      "error": "20:26:30.139 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.TypeHandler\n20:26:30.140 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.Options\n20:26:30.140 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.Options'.\n20:26:30.140 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Options\n20:26:30.141 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/Options\n20:26:30.141 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Options\n.........E...20:26:30.153 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: P(4W5\u007fETfz:oGk\n20:26:30.153 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'P(4W5\u007fETfz:oGk'.\n20:26:30.153 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'P(4W5\u007fETfz:oGk.class' should be in target project, but could not be found!\n\nTime: 0.467\nThere was 1 failure:\n1) test03(org.apache.commons.cli.TypeHandler_ESTest)\norg.apache.commons.cli.ParseException: Unable to handle the class: class java.lang.Integer\n\tat org.apache.commons.cli.TypeHandler.createValue(TypeHandler.java:103)\n\tat org.apache.commons.cli.TypeHandler_ESTest.test03(TypeHandler_ESTest.java:65)\n\nFAILURES!!!\nTests run: 12,  Failures: 1"
+    }
+  ]
+}

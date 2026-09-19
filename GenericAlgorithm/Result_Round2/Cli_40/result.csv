@@ -1,0 +1,20 @@
+"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
+"Cli",40,"fixed","GenericAlgorithm/TestCode/Cli_40","org.apache.commons.cli.TypeHandler_ESTest",1,12,1,"FAIL","test_failed","20:26:30.139 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.TypeHandler
+20:26:30.140 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.Options
+20:26:30.140 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.Options'.
+20:26:30.140 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Options
+20:26:30.141 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/Options
+20:26:30.141 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Options
+.........E...20:26:30.153 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: P(4W5ETfz:oGk
+20:26:30.153 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'P(4W5ETfz:oGk'.
+20:26:30.153 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'P(4W5ETfz:oGk.class' should be in target project, but could not be found!
+
+Time: 0.467
+There was 1 failure:
+1) test03(org.apache.commons.cli.TypeHandler_ESTest)
+org.apache.commons.cli.ParseException: Unable to handle the class: class java.lang.Integer
+	at org.apache.commons.cli.TypeHandler.createValue(TypeHandler.java:103)
+	at org.apache.commons.cli.TypeHandler_ESTest.test03(TypeHandler_ESTest.java:65)
+
+FAILURES!!!
+Tests run: 12,  Failures: 1"

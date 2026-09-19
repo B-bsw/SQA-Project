@@ -1,0 +1,2 @@
+"project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
+"Cli",40,"Resoucre/Cli_40","GenericAlgorithm/TestCode/Cli_40","STANDARD_GA",20260918,60,"org.apache.commons.cli.TypeHandler","Resoucre/Cli_40/org/apache/commons/cli/TypeHandler.java",65,12,"PASS",82.22,72.41,"ok",""

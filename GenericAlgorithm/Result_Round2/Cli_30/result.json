@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "round": 2,
+  "subject_version": "fixed",
+  "created_at": "2026-09-19T13:25:58Z",
+  "project": "Cli",
+  "bug_id": 30,
+  "test_code_dir": "GenericAlgorithm/TestCode/Cli_30",
+  "status": "failed",
+  "tests": [
+    {
+      "test_class": "org.apache.commons.cli.DefaultParser_ESTest",
+      "execution_seconds": 1,
+      "tests_run": 13,
+      "failures": 1,
+      "test_execution": "FAIL",
+      "status": "test_failed",
+      "error": "20:25:57.079 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field UNLIMITED_VALUES\n20:25:57.079 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Option\n20:25:57.079 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.Util\n20:25:57.079 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.Util'.\n20:25:57.079 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Util\n20:25:57.082 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/Util\n20:25:57.082 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Util\n.............E\nTime: 0.524\nThere was 1 failure:\n1) test09(org.apache.commons.cli.DefaultParser_ESTest)\norg.apache.commons.cli.UnrecognizedOptionException: Default option wasn't defined\n\tat org.apache.commons.cli.DefaultParser.handleProperties(DefaultParser.java:153)\n\tat org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:127)\n\tat org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:75)\n\tat org.apache.commons.cli.DefaultParser_ESTest.test09(DefaultParser_ESTest.java:158)\n\nFAILURES!!!\nTests run: 13,  Failures: 1"
+    },
+    {
+      "test_class": "org.apache.commons.cli.Parser_ESTest",
+      "execution_seconds": 1,
+      "tests_run": 16,
+      "failures": 1,
+      "test_execution": "FAIL",
+      "status": "test_failed",
+      "error": "20:25:58.182 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field UNLIMITED_VALUES\n20:25:58.183 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Option\n20:25:58.183 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.Util\n20:25:58.183 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.Util'.\n20:25:58.184 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Util\n20:25:58.184 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/Util\n20:25:58.184 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Util\n...E.............\nTime: 0.536\nThere was 1 failure:\n1) test07(org.apache.commons.cli.Parser_ESTest)\norg.apache.commons.cli.UnrecognizedOptionException: Default option wasn't defined\n\tat org.apache.commons.cli.Parser.processProperties(Parser.java:266)\n\tat org.apache.commons.cli.Parser.parse(Parser.java:241)\n\tat org.apache.commons.cli.Parser.parse(Parser.java:103)\n\tat org.apache.commons.cli.Parser_ESTest.test07(Parser_ESTest.java:181)\n\nFAILURES!!!\nTests run: 16,  Failures: 1"
+    }
+  ]
+}

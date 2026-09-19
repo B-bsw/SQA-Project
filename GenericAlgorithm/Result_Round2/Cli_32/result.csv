@@ -1,0 +1,20 @@
+"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
+"Cli",32,"fixed","GenericAlgorithm/TestCode/Cli_32","org.apache.commons.cli.HelpFormatter_ESTest",1,39,7,"FAIL","test_failed","	at org.apache.commons.cli.HelpFormatter_ESTest.test09(HelpFormatter_ESTest.java:146)
+5) test08(org.apache.commons.cli.HelpFormatter_ESTest)
+java.lang.AssertionError: Expecting exception: StringIndexOutOfBoundsException
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.apache.commons.cli.HelpFormatter_ESTest.test08(HelpFormatter_ESTest.java:130)
+6) test24(org.apache.commons.cli.HelpFormatter_ESTest)
+java.lang.AssertionError: expected:<35> but was:<39>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at org.apache.commons.cli.HelpFormatter_ESTest.test24(HelpFormatter_ESTest.java:358)
+7) test04(org.apache.commons.cli.HelpFormatter_ESTest)
+java.lang.AssertionError: Expecting exception: StringIndexOutOfBoundsException
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.apache.commons.cli.HelpFormatter_ESTest.test04(HelpFormatter_ESTest.java:83)
+
+FAILURES!!!
+Tests run: 39,  Failures: 7"
