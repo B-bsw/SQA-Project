@@ -1,18 +1,20 @@
-# EvoSuite GA runners
+# EvoSuite STANDARD_GA two-round workflow
 
-Single Resource bug:
+Round 1 generates and runs tests against buggy Java sources from Resource:
 
     ./run_evosuite_test.sh Chart 1 60
 
-Multiple selected bugs:
+Generated JUnit source is saved in `GenericAlgorithm/TestCode/Chart_1/<run-id>`.
+JSON and CSV reports are saved in
+`GenericAlgorithm/Result_Round1/Chart_1/<run-id>`.
 
-    ./run_evosuite_multiple.sh --budget 60 Chart 1 Cli 2 Codec 1
+Round 2 runs the latest generated suite against the fixed Defects4J revision:
 
-Every Resource bug:
+    ./run_fixed_test.sh Chart 1
 
-    ./run_evosuite_multiple.sh --budget 60 --all
+To choose an older generated suite:
 
-The scripts read Java files only from `Resoucre/Project_BugId`, use EvoSuite
-`STANDARD_GA`, and create a fresh folder under `GenericAlgorithm/Result` for
-every run. `result.json` and `report.md` are written under `Result`; generated
-EvoSuite JUnit source is written under `TestCode`. No `.log` files are retained.
+    ./run_fixed_test.sh Chart 1 <test-run-id>
+
+Round 2 JSON and CSV reports are saved under `GenericAlgorithm/Result_Round2`.
+Both scripts embed errors in reports and do not retain `.log` or Markdown files.

@@ -12,7 +12,7 @@ ga_root=$(cd "$code_dir/.." && pwd); repo_root=$(cd "$ga_root/.." && pwd)
 resource_root=${RESOURCE_ROOT:-$repo_root/Resoucre}
 defects4j_bin=${DEFECTS4J_BIN:-/Users/bb/Desktop/class/sqa/defects4j/framework/bin/defects4j}
 java11_home=${JAVA11_HOME:-/Users/bb/.sdkman/candidates/java/11.0.31-amzn}
-evosuite_jar=${EVOSUITE_JAR:-$ga_root/evosuite-1.2.0.jar}
+evosuite_jar=${EVOSUITE_JAR:-$code_dir/evosuite-1.2.0.jar}
 seed=${SEED:-20260918}
 command -v jq >/dev/null || { echo "jq is required." >&2; exit 2; }
 for file in "$defects4j_bin" "$java11_home/bin/java" "$evosuite_jar"; do
@@ -32,9 +32,9 @@ java_count=$(find "$resource_dir" -type f -name '*.java' | wc -l | tr -d ' ')
 [[ "$java_count" -gt 0 ]] || { echo "No Java files in $resource_dir" >&2; exit 2; }
 
 run_id=$(date -u +%Y%m%dT%H%M%SZ)-$$
-result_parent=${RESULT_PARENT:-$ga_root/Result/${project}_${bug_id}}
+result_parent=${RESULT_PARENT:-$ga_root/Result_Round1/${project}_${bug_id}}
 result_dir=${RESULT_DIR:-$result_parent/$run_id}
-test_root=${TEST_DIR:-$ga_root/TestCase/${project}_${bug_id}/$run_id}
+test_root=${TEST_DIR:-$ga_root/TestCode/${project}_${bug_id}/$run_id}
 mkdir -p "$result_dir" "$test_root"
 temp_root=$(mktemp -d "/tmp/evosuite-ga-${project}-${bug_id}.XXXXXX")
 cleanup() { rm -rf "$temp_root"; }; trap cleanup EXIT INT TERM
@@ -44,9 +44,8 @@ write_setup_failure() {
   local state=$1
   jq -n --arg project "$project" --argjson bug_id "$bug_id" --arg state "$state" \
     --arg error "$(tail -20 "$setup_output")" \
-    '{schema_version:"1.0",project:$project,bug_id:$bug_id,algorithm:"STANDARD_GA",status:$state,error:$error,targets:[]}' > "$result_dir/result.json"
+    '{schema_version:"1.0",round:1,subject_version:"buggy",project:$project,bug_id:$bug_id,algorithm:"STANDARD_GA",status:$state,error:$error,targets:[]}' > "$result_dir/result.json"
   jq -r '["project","bug_id","algorithm","target_class","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"], [.project,.bug_id,.algorithm,"",0,"NOT_RUN","","",.status,.error] | @csv' "$result_dir/result.json" > "$result_dir/result.csv"
-  printf '# EvoSuite GA result\n\n%s for %s-%s. Details are in result.json.\n' "$state" "$project" "$bug_id" > "$result_dir/report.md"
   printf '%s\n' "$result_dir"; exit 1
 }
 
@@ -122,14 +121,7 @@ created_at=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 jq -s --arg run_id "$run_id" --arg created_at "$created_at" --arg project "$project" \
   --argjson bug_id "$bug_id" --arg resource_dir "${resource_dir#"$repo_root/"}" \
   --arg test_code_dir "${test_root#"$repo_root/"}" \
-  '{schema_version:"1.0",run_id:$run_id,created_at:$created_at,project:$project,bug_id:$bug_id,resource_dir:$resource_dir,test_code_dir:$test_code_dir,algorithm:"STANDARD_GA",status:(if all(.[];.status=="ok") then "ok" else "failed" end),targets:.}' "$jsonl" > "$result_dir/result.json"
+  '{schema_version:"1.0",round:1,subject_version:"buggy",run_id:$run_id,created_at:$created_at,project:$project,bug_id:$bug_id,resource_dir:$resource_dir,test_code_dir:$test_code_dir,algorithm:"STANDARD_GA",status:(if all(.[];.status=="ok") then "ok" else "failed" end),targets:.}' "$jsonl" > "$result_dir/result.json"
 jq -r '["run_id","project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"], (.targets[] as $t | [.run_id,.project,.bug_id,.resource_dir,.test_code_dir,$t.algorithm,$t.seed,$t.search_budget_seconds,$t.target_class,$t.source_file,$t.generation_seconds,$t.generated_test_methods,$t.test_execution,($t.line_coverage_percent//""),($t.branch_coverage_percent//""),$t.status,($t.error//"")]) | @csv' "$result_dir/result.json" > "$result_dir/result.csv"
-jq -r '"# EvoSuite STANDARD_GA result","",
-  "- Run: "+.run_id,"- Subject: "+.project+"-"+(.bug_id|tostring),
-  "- Resource: "+.resource_dir,"- Generated tests: "+.test_code_dir,"- Status: "+.status,
-  "- Targets: "+(.targets|length|tostring),"- Test methods: "+([.targets[].generated_test_methods]|add//0|tostring),"",
-  "| Target | Tests | Execution | Line % | Branch % | Status |",
-  "| --- | ---: | --- | ---: | ---: | --- |",
-  (.targets[]|"| "+.target_class+" | "+(.generated_test_methods|tostring)+" | "+.test_execution+" | "+(.line_coverage_percent//"N/A"|tostring)+" | "+(.branch_coverage_percent//"N/A"|tostring)+" | "+.status+" |")' "$result_dir/result.json" > "$result_dir/report.md"
 printf '%s\n' "$result_dir"
 [[ $(jq -r '.status' "$result_dir/result.json") == ok ]]
