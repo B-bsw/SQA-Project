@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "round": 2,
   "subject_version": "fixed",
-  "created_at": "2026-09-19T11:28:31Z",
+  "created_at": "2026-09-19T11:47:10Z",
   "project": "Chart",
   "bug_id": 1,
   "test_code_dir": "GenericAlgorithm/TestCode/Chart_1",
@@ -10,8 +10,8 @@
   "tests": [
     {
       "test_class": "org.jfree.chart.renderer.category.AbstractCategoryItemRenderer_ESTest",
-      "execution_seconds": 1,
-      "tests_run": 5,
+      "execution_seconds": 5,
+      "tests_run": 61,
       "failures": 0,
       "test_execution": "PASS",
       "status": "ok",

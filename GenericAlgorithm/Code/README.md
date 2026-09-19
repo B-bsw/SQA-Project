@@ -4,9 +4,8 @@ Round 1 generates and runs tests against buggy Java sources from Resource:
 
     ./run_evosuite_test.sh Chart 1 60
 
-Generated JUnit source is saved in `GenericAlgorithm/TestCode/Chart_1`.
-Inside that directory, EvoSuite preserves the Java package path and writes
-both `*_ESTest.java` and `*_ESTest_scaffolding.java`.
+Generated JUnit source is saved directly in `GenericAlgorithm/TestCode/Chart_1`
+as `*_ESTest.java` and `*_ESTest_scaffolding.java`.
 JSON and CSV reports are saved in
 `GenericAlgorithm/Result_Round1/Chart_1`.
 

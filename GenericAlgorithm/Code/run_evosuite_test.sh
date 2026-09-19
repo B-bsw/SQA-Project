@@ -78,16 +78,22 @@ jsonl="$temp_root/results.jsonl"; : > "$jsonl"
 while IFS= read -r source; do
   package=$(awk '/^[[:space:]]*package[[:space:]]+/ {gsub(/[;\r]/,"",$2); print $2; exit}' "$source")
   class_name=$(basename "$source" .java); target_class=${package:+$package.}$class_name
-  target_slug=${target_class//[^A-Za-z0-9_]/_}; target_tests="$test_root/$target_slug"
+  client_on_thread=false
+  if rg -q '(^|[[:space:]])abstract[[:space:]]+class[[:space:]]' "$source"; then
+    client_on_thread=true
+  fi
+  target_slug=${target_class//[^A-Za-z0-9_]/_}
+  target_tests="$temp_root/generated-$target_slug"
   evo_report="$temp_root/report-$target_slug"; generated_output="$temp_root/generate-$target_slug.txt"
   mkdir -p "$target_tests" "$evo_report"
   echo "[$project-$bug_id] STANDARD_GA $target_class" >&2
   started=$(date +%s); set +e
-  "$JAVA_HOME/bin/java" ${EVOSUITE_JAVA_OPTS:--Xmx2g} -jar "$evosuite_jar" \
+  "$JAVA_HOME/bin/java" ${EVOSUITE_JAVA_OPTS:--Xmx2g} \
+    -cp "$evosuite_jar:$resource_classes:$compile_cp" org.evosuite.EvoSuite \
     -mem "$client_memory_mb" \
     -generateSuite -class "$target_class" -projectCP "$resource_classes:$bin_dir:$compile_cp" \
     -seed "$seed" -Dalgorithm=STANDARD_GA -Dcriterion=LINE:BRANCH \
-    -Dclient_on_thread=true \
+    -Dclient_on_thread="$client_on_thread" \
     -Dstopping_condition=MaxTime -Dsearch_budget="$budget" -Dshow_progress=false \
     -Doutput_variables=TARGET_CLASS,criterion,Coverage,LineCoverage,BranchCoverage \
     -Dtest_dir="$target_tests" -Dreport_dir="$evo_report" >"$generated_output" 2>&1
@@ -115,14 +121,31 @@ while IFS= read -r source; do
     else execution=PASS; state=ok; fi
     error=$(tail -20 "$test_output")
   fi
+  # Keep the public TestCode layout flat: TestCode/Project_Bug/*.java
+  # EvoSuite itself generates package directories, so copy only the generated
+  # Java files out of that temporary tree after generation.
+  if [[ "$test_methods" -gt 0 ]]; then
+    while IFS= read -r generated_source; do
+      generated_name=$(basename "$generated_source")
+      if [[ -e "$test_root/$generated_name" ]]; then
+        echo "Duplicate generated test filename: $generated_name" >&2
+        state=duplicate_test_filename
+        execution=FAIL
+        error="Duplicate generated test filename: $generated_name"
+        break
+      fi
+      cp "$generated_source" "$test_root/$generated_name"
+    done < <(find "$target_tests" -type f -name '*.java' | sort)
+  fi
   [[ "$state" == ok ]] && error=''
   relative_source=${source#"$repo_root/"}
   jq -n --arg source "$relative_source" --arg target "$target_class" --argjson seed "$seed" \
     --argjson budget "$budget" --argjson seconds "$elapsed" --argjson methods "$test_methods" \
     --argjson line "$line_coverage" --argjson branch "$branch_coverage" \
     --arg execution "$execution" --arg state "$state" --arg error "$error" \
+    --argjson client_on_thread "$client_on_thread" \
     --argjson client_memory_mb "$client_memory_mb" \
-    '{source_file:$source,target_class:$target,algorithm:"STANDARD_GA",seed:$seed,client_memory_mb:$client_memory_mb,search_budget_seconds:$budget,generation_seconds:$seconds,generated_test_methods:$methods,test_execution:$execution,line_coverage_percent:$line,branch_coverage_percent:$branch,status:$state,error:(if $error=="" then null else $error end)}' >> "$jsonl"
+    '{source_file:$source,target_class:$target,algorithm:"STANDARD_GA",seed:$seed,client_memory_mb:$client_memory_mb,client_on_thread:$client_on_thread,search_budget_seconds:$budget,generation_seconds:$seconds,generated_test_methods:$methods,test_execution:$execution,line_coverage_percent:$line,branch_coverage_percent:$branch,status:$state,error:(if $error=="" then null else $error end)}' >> "$jsonl"
 done < "$source_list"
 
 created_at=$(date -u +%Y-%m-%dT%H:%M:%SZ)
