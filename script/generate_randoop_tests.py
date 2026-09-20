@@ -144,12 +144,13 @@ def find_defects4j_bin() -> Optional[str]:
 def try_fast_javac_compile(
     project_info: dict,
     workspace_dir: Path,
-    build_base_dir: Path
+    build_base_dir: Path,
+    data_dir: Optional[Path] = None
 ) -> Optional[Path]:
     """
     พยายามคอมไพล์ .java ของโปรเจกต์นั้นทันทีด้วย javac เข้าไปที่ BuildClasses/<project_name>
     1. ลองคอมไพล์แบบ Standalone
-    2. ลองคอมไพล์โดยดึง classpath จาก data/<Project>1buggy (classes + jars)
+    2. ลองคอมไพล์โดยดึง classpath จาก data_dir/<Project>1buggy (classes + jars)
     3. ลองดึง jars จาก defects4j/framework/projects/<Prefix>/lib/
     """
     proj_name = project_info["project_name"]
@@ -164,10 +165,14 @@ def try_fast_javac_compile(
         return target_build_dir.resolve()
 
     prefix = proj_name.split("_")[0]
-    candidate_data_dirs = [
-        workspace_dir / "data" / f"{prefix}1buggy",
-        workspace_dir / "data" / f"{prefix}_1_buggy",
-        workspace_dir / "data" / f"{prefix}1fixed",
+    candidate_data_dirs = []
+    if data_dir and data_dir.is_dir():
+        candidate_data_dirs += [
+            data_dir / f"{prefix}1buggy",
+            data_dir / f"{prefix}_1_buggy",
+            data_dir / f"{prefix}1fixed",
+        ]
+    candidate_data_dirs += [
         Path.home() / "defect4j" / "Code" / f"{prefix}1buggy",
         Path.home() / "defect4j" / "Code" / f"{prefix}_1_buggy",
     ]
@@ -312,13 +317,14 @@ def resolve_project_classes_dir(
     workspace_dir: Path,
     custom_classes_dir: Optional[str] = None,
     project_info: Optional[dict] = None,
-    auto_compile: bool = True
+    auto_compile: bool = True,
+    data_dir: Optional[Path] = None
 ) -> Optional[Path]:
     """
     ค้นหาโฟลเดอร์ที่เก็บ .class ที่คอมไพล์แล้วของโปรเจกต์นั้น:
     1. Custom dir ที่ผู้ใช้ระบุผ่าน --classes-dir
     2. BuildClasses/<Project> (ที่เคยคอมไพล์ไว้แล้ว - ไม่มี space)
-    3. data/<ProjectName><BugNum>buggy/...
+    3. data_dir/<ProjectName><BugNum>buggy/... (หากระบุ --data-dir)
     4. ~/defect4j/Code/<ProjectName><BugNum>buggy/...
     5. target/classes หรือ build/classes ใน CWD
     6. หากไม่พบและ auto_compile=True:
@@ -361,9 +367,13 @@ def resolve_project_classes_dir(
         Path("target") / "test-classes"
     ]
 
+    # สร้าง candidate_roots โดยใส่ data_dir ที่ผู้ใช้ระบุก่อน (ถ้ามี)
     candidate_roots = [
         workspace_dir / "BuildClasses",
-        workspace_dir / "data",
+    ]
+    if data_dir and data_dir.is_dir():
+        candidate_roots.append(data_dir)
+    candidate_roots += [
         Path.home() / "defect4j" / "Code",
         Path("/tmp/sqa_d4j_work"),
         workspace_dir / "Feedback-Directed Random Test Generation" / "Code",
@@ -386,7 +396,7 @@ def resolve_project_classes_dir(
             return target.resolve()
 
     if auto_compile and project_info:
-        compiled_path = try_fast_javac_compile(project_info, workspace_dir, build_base)
+        compiled_path = try_fast_javac_compile(project_info, workspace_dir, build_base, data_dir=data_dir)
         if compiled_path:
             return compiled_path
 
@@ -622,7 +632,8 @@ def find_effective_class_root(classes_dir: Path, primary_package: str) -> Path:
 
 def collect_project_classpath_entries(
     project_name: str,
-    workspace_dir: Path
+    workspace_dir: Path,
+    data_dir: Optional[Path] = None
 ) -> List[str]:
     """
     รวบรวม dependency JARs และ classpath ที่จำเป็นสำหรับโปรเจกต์
@@ -650,17 +661,15 @@ def collect_project_classpath_entries(
             if s not in extra_cps:
                 extra_cps.append(s)
 
-    # 3. JARs ใน data/<prefix>1buggy
-    for data_dir in [
-        workspace_dir / "data" / f"{prefix}1buggy",
-        workspace_dir / "data" / f"{prefix}_1_buggy",
-        workspace_dir / "data" / f"{prefix}1fixed"
-    ]:
-        if data_dir.is_dir():
-            for jar in data_dir.glob("**/*.jar"):
-                s = str(jar)
-                if s not in extra_cps:
-                    extra_cps.append(s)
+    # 3. JARs ใน data_dir (หากระบุ)
+    if data_dir and data_dir.is_dir():
+        for variant in [f"{prefix}1buggy", f"{prefix}_1_buggy", f"{prefix}1fixed"]:
+            candidate = data_dir / variant
+            if candidate.is_dir():
+                for jar in candidate.glob("**/*.jar"):
+                    s = str(jar)
+                    if s not in extra_cps:
+                        extra_cps.append(s)
 
     # 4. หากมีใน /tmp/sqa_d4j_work/<project>_buggy
     tmp_work = Path("/tmp/sqa_d4j_work") / f"{project_name}_buggy"
@@ -687,7 +696,8 @@ def run_randoop_for_project(
     jvm_max_memory: str = "3000m",
     workspace_dir: Optional[Path] = None,
     dry_run: bool = False,
-    quiet: bool = False
+    quiet: bool = False,
+    data_dir: Optional[Path] = None
 ) -> Tuple[bool, str, List[str]]:
     """
     ดำเนินการรัน Randoop gentests สำหรับโปรเจกต์ที่กำหนด:
@@ -766,7 +776,7 @@ def run_randoop_for_project(
         return False, f"ไม่สามารถสร้างไฟล์ classlist.txt ได้: {e}", []
 
     # 2. เตรียม Classpath พร้อมรวบรวม dependency JARs
-    extra_cps = collect_project_classpath_entries(proj_name, workspace_dir)
+    extra_cps = collect_project_classpath_entries(proj_name, workspace_dir, data_dir=data_dir)
     all_cps = [str(exec_jar), str(exec_classes)] + extra_cps
     classpath_str = os.pathsep.join(all_cps)
 
@@ -922,6 +932,12 @@ def main():
     parser.add_argument("--output-dir", help="โฟลเดอร์ปลายทางสำหรับจัดเก็บ Test Code")
     parser.add_argument("--resource-dir", help="โฟลเดอร์ต้นทางที่เก็บ Source Code (ค่าเริ่มต้น: Resoucre)")
     parser.add_argument("--state-file", help="พาธไฟล์บันทึก Memory State (ค่าเริ่มต้น: Feedback-Directed Random Test Generation/generation_state.json)")
+    parser.add_argument(
+        "--data-dir",
+        default=os.environ.get("D4J_DATA_DIR", ""),
+        help="โฟลเดอร์ที่เก็บโค้ด Defects4J ที่ checkout แล้ว เช่น data/ หรือ /home/user/d4j_code "
+             "(ค่าเริ่มต้น: ค่าจาก env var D4J_DATA_DIR; ถ้าไม่ระบุจะข้ามไปใช้ defects4j auto-checkout)",
+    )
     parser.add_argument("--overwrite", action="store_true", help="บังคับสร้างเทสต์ใหม่ แม้เคยทำเสร็จแล้ว")
     parser.add_argument("--status", action="store_true", help="แสดงรายงานสถานะความคืบหน้าปัจจุบันแล้วหยุดทำงาน")
     parser.add_argument("--reset-state", action="store_true", help="ล้างข้อมูล Memory State ทั้งหมดเริ่มต้นใหม่")
@@ -938,7 +954,16 @@ def main():
 
     # 1. กำหนดค่าเส้นทางโฟลเดอร์
     resource_dir = Path(args.resource_dir) if args.resource_dir else (workspace_dir / "Resoucre")
-    
+
+    # data_dir: ผู้ใช้ระบุผ่าน --data-dir หรือ env var D4J_DATA_DIR; ถ้าไม่ระบุให้เป็น None (ใช้ fallback)
+    data_dir: Optional[Path] = None
+    if args.data_dir:
+        _dd = Path(args.data_dir)
+        if _dd.is_dir():
+            data_dir = _dd.resolve()
+        else:
+            print(f"⚠️ Warning: --data-dir '{args.data_dir}' ไม่ใช่โฟลเดอร์ที่มีอยู่ - ข้ามไป")
+
     if args.output_dir:
         test_code_base = Path(args.output_dir)
     else:
@@ -958,6 +983,7 @@ def main():
     print(f"📂 Workspace:    {workspace_dir}")
     print(f"📂 Resource Dir: {resource_dir}")
     print(f"📂 Output Base:  {test_code_base}")
+    print(f"📂 Data Dir:     {data_dir if data_dir else '(ไม่ระบุ - ใช้ defects4j auto-checkout เป็น fallback)'}")
     print(f"🧠 State File:   {state_file}")
     print(f"⏱️ Time Limit:   {args.time_limit} วินาที / โปรเจกต์")
     print(f"📦 Randoop JAR:  {randoop_jar if randoop_jar else '❌ ไม่พบไฟล์ JAR'}")
@@ -1030,7 +1056,8 @@ def main():
             workspace_dir=workspace_dir,
             custom_classes_dir=args.classes_dir,
             project_info=proj,
-            auto_compile=not args.no_auto_compile
+            auto_compile=not args.no_auto_compile,
+            data_dir=data_dir
         )
 
         if not classes_dir:
@@ -1061,7 +1088,8 @@ def main():
             tests_per_file=args.tests_per_file,
             jvm_max_memory=args.jvm_memory,
             workspace_dir=workspace_dir,
-            dry_run=args.dry_run
+            dry_run=args.dry_run,
+            data_dir=data_dir
         )
 
         if success:

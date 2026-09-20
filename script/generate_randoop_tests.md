@@ -2,16 +2,18 @@
 
 สคริปต์นี้ถูกออกแบบมาเพื่อนำ Source Code ในโฟลเดอร์ **`Resoucre/`** (รองรับทั้ง 840+ โฟลเดอร์โปรเจกต์ เช่น `Codec_1`, `Chart_1` ฯลฯ) มาสร้างชุดทดสอบ **JUnit Test Suite** อัตโนมัติด้วยเครื่องมือ **Randoop (Feedback-Directed Random Test Generation)** แล้วจัดเก็บผลลัพธ์ลงในโฟลเดอร์ **`Feedback-Directed Random Test Generation/TestCode/<Project>_buggy/`**
 
+> ✅ **สคริปต์รันได้บนทุกเครื่อง** — ไม่ต้องมีโฟลเดอร์ `data/` ในเครื่อง สามารถระบุ path ของ Defects4J code ผ่าน `--data-dir` หรือ environment variable `D4J_DATA_DIR` หรือปล่อยให้ระบบ auto-checkout อัตโนมัติ
+
 ---
 
 ## 📌 สารบัญ
-1. [ภาพรวมการทำงานและระบบ Memory State](#1-ภาพรวมการทำงานและระบบ-memory-state)
-2. [รูปแบบคำสั่ง Randoop Gentests](#2-รูปแบบคำสั่ง-randoop-gentests)
-3. [การค้นหาและจัดการ Classpath (Compiled Classes)](#3-การค้นหาและจัดการ-classpath-compiled-classes)
-4. [ตำแหน่งไฟล์ Randoop JAR](#4-ตำแหน่งไฟล์-randoop-jar)
-5. [วิธีรันคำสั่ง (Usage Examples)](#5-วิธีรันคำสั่ง-usage-examples)
-6. [พารามิเตอร์ทั้งหมด (CLI Arguments)](#6-พารามิเตอร์ทั้งหมด-cli-arguments)
-7. [การทำงานร่วมกับ Defect4J และการแก้ปัญหาที่พบบ่อย](#7-การทำงานร่วมกับ-defect4j-และการแก้ปัญหาที่พบบ่อย)
+1. [ภาพรวมการทำงานและระบบ Memory State](#1-ภาพรวม)
+2. [รูปแบบคำสั่ง Randoop Gentests](#2-รูปแบบคำสั่ง)
+3. [การค้นหาและจัดการ Classpath (Compiled Classes)](#3-classpath)
+4. [ตำแหน่งไฟล์ Randoop JAR](#4-randoop-jar)
+5. [วิธีรันคำสั่ง (Usage Examples)](#5-usage-examples)
+6. [พารามิเตอร์ทั้งหมด (CLI Arguments)](#6-cli-arguments)
+7. [การทำงานร่วมกับ Defect4J และการแก้ปัญหาที่พบบ่อย](#7-defect4j)
 
 ---
 
@@ -21,35 +23,32 @@
 
 ```mermaid
 flowchart TD
-    Start([เริ่มทำงาน]) --> LoadState[1. โหลด Memory State จาก generation_state.json]
-    LoadState --> FindJar[2. ตรวจสอบไฟล์ randoop-all-4.3.4.jar]
-    FindJar --> IndexDisk[3. In-Memory Pre-Indexing ตรวจหา Test เดิมในดิสก์]
-    IndexDisk --> SyncState[4. Pre-Run Sync: ซิงค์ Test ที่มีอยู่เดิมเข้า Memory]
-    SyncState --> ScanRes[5. สแกน Resoucre/ รวบรวม Class และ Package ของแต่ละโฟลเดอร์]
-    
-    ScanRes --> SortPriority[6. Priority Sorting: จัดคิวทำโปรเจกต์ขนาดเล็กก่อน]
-    SortPriority --> LoopProj{วนซ้ำทีละโฟลเดอร์โปรเจกต์}
-    
-    LoopProj -- ตรวจสอบสถานะ --> CheckMem{เคยทำเสร็จแล้วใน Memory หรือไม่?}
-    CheckMem -- เคยทำแล้ว & ไม่ได้ใส่ --overwrite --> Skip[ข้ามทันที SKIP ประหยัดเวลา]
-    CheckMem -- ยังไม่เคยทำ หรือใส่ --overwrite --> ResolveCP[7. ค้นหาโฟลเดอร์ Compiled Classes target/classes]
-    
-    ResolveCP --> CheckCP{พบ .class หรือไม่?}
-    CheckCP -- ไม่พบ --> RecordFail[บันทึก FAILED_MISSING_CLASSES และข้าม]
-    CheckCP -- พบ --> GenClassList[8. สร้าง classlist_<Project>.txt ชั่วคราว]
-    
-    GenClassList --> RunRandoop[9. รัน Randoop gentests ผ่าน subprocess]
-    RunRandoop --> CheckResult{ผลลัพธ์จาก Randoop}
-    
-    CheckResult -- สำเร็จ --> SaveState[10. บันทึกผลลัพธ์และ Memory State: COMPLETED]
-    CheckResult -- ล้มเหลว --> SaveFail[บันทึกสถานะ: FAILED]
-    
-    Skip --> NextProj[โปรเจกต์ถัดไป]
+    Start([เริ่มทำงาน]) --> LoadState[1. โหลด Memory State]
+    LoadState --> FindJar[2. ตรวจสอบ randoop-all-4.3.4.jar]
+    FindJar --> IndexDisk[3. Pre-Indexing ตรวจหา Test เดิมในดิสก์]
+    IndexDisk --> SyncState[4. Sync Test ที่มีอยู่เดิมเข้า Memory]
+    SyncState --> ScanRes[5. สแกน Resoucre/ รวบรวม Class]
+    ScanRes --> SortPriority[6. Priority Sorting: เล็กก่อน]
+    SortPriority --> LoopProj{วนซ้ำทีละโปรเจกต์}
+    LoopProj --> CheckMem{เคยทำเสร็จใน Memory?}
+    CheckMem -- ใช่ ไม่ใส่ overwrite --> Skip[SKIP]
+    CheckMem -- ไม่ใช่ --> ResolveCP[7. ค้นหา Compiled Classes]
+    ResolveCP --> CheckCP{พบ .class?}
+    CheckCP -- ไม่พบ --> AutoCompile[Auto-Compile: javac หรือ d4j checkout]
+    AutoCompile --> CheckCP2{สำเร็จ?}
+    CheckCP2 -- ไม่ --> RecordFail[บันทึก FAILED]
+    CheckCP2 -- ใช่ --> GenClassList
+    CheckCP -- พบ --> GenClassList[8. สร้าง classlist.txt]
+    GenClassList --> RunRandoop[9. รัน Randoop gentests]
+    RunRandoop --> CheckResult{ผลลัพธ์?}
+    CheckResult -- สำเร็จ --> SaveState[10. บันทึก COMPLETED]
+    CheckResult -- ล้มเหลว --> SaveFail[บันทึก FAILED]
+    Skip --> NextProj[ถัดไป]
     RecordFail --> NextProj
     SaveState --> NextProj
     SaveFail --> NextProj
     NextProj --> LoopProj
-    LoopProj -- ครบทุกโปรเจกต์ --> Finish([เสร็จสิ้น พร้อมสรุปรายงาน])
+    LoopProj -- ครบทุกโปรเจกต์ --> Finish([เสร็จสิ้น])
 ```
 
 ---
@@ -59,40 +58,53 @@ flowchart TD
 สคริปต์จะประกอบและรันคำสั่ง Randoop gentests ตามรูปแบบมาตรฐาน:
 
 ```bash
-java -Xmx3000m -cp "<randoop.jar>;<classes_dir>" randoop.main.Main gentests \
-     --classlist=<classlist.txt> \
-     --junit-package-name=<package_name> \
-     --junit-output-dir=<output_dir> \
-     --time-limit=<seconds> \
+java -Xmx3000m -cp RANDOOP_JAR;CLASSES_DIR randoop.main.Main gentests \
+     --classlist=classlist.txt \
+     --junit-package-name=PACKAGE \
+     --junit-output-dir=OUTPUT_DIR \
+     --time-limit=SECONDS \
      --testsperfile=500
 ```
 
-- **`--classlist`**: สคริปต์จะดึง Fully Qualified Class Name (FQCN) ของทุกไฟล์ `.java` ในโฟลเดอร์โปรเจกต์นั้นมารวมในไฟล์ข้อความชั่วคราว
-- **`--junit-package-name`**: กำหนดชื่อ Package ของไฟล์ทดสอบตาม Package ของคลาสที่ถูกทดสอบ
-- **`--junit-output-dir`**: ชี้ไปยังโฟลเดอร์ `Feedback-Directed Random Test Generation/TestCode/<Project>_buggy/`
+- **`--classlist`**: FQCN ของทุกไฟล์ `.java` ในโปรเจกต์ รวมในไฟล์ข้อความชั่วคราว
+- **`--junit-package-name`**: Package ของไฟล์ทดสอบตาม Package ของคลาสที่ถูกทดสอบ
+- **`--junit-output-dir`**: `Feedback-Directed Random Test Generation/TestCode/<Project>_buggy/`
 - **`--time-limit`**: ระยะเวลาสร้างชุดทดสอบ (ค่าเริ่มต้น: 60 วินาที)
 
 ---
 
 ## 3. การค้นหาและจัดการ Classpath (Compiled Classes & Auto-Compile)
 
-Randoop ต้องการ **Bytecode (.class)** ที่คอมไพล์แล้วในการสร้างเทสต์ สคริปต์มีระบบ **Auto-Discovery & On-The-Fly Compilation** หลายระดับ (Multi-Tier):
+Randoop ต้องการ **Bytecode (.class)** ที่คอมไพล์แล้วในการสร้างเทสต์ สคริปต์มีระบบ **Auto-Discovery & On-The-Fly Compilation** หลายระดับ (Multi-Tier) และ**ไม่ขึ้นกับ path ใด path หนึ่ง**:
 
-1. **ลำดับการค้นหาอัตโนมัติ (Tier 1)**:
-   - ตรวจสอบใน `BuildClasses/<ProjectName>` (โฟลเดอร์แคชที่สคริปต์คอมไพล์ไว้)
-   - `data/<ProjectName><BugNum>buggy/target/classes` (เช่น `Codec_1` ค้นหาที่ `data/Codec1buggy/target/classes`)
-   - `data/<ProjectName><BugNum>buggy/build/classes`
-   - `data/<ProjectName><BugNum>buggy/classes`
-   - `~/defect4j/Code/<ProjectName><BugNum>buggy/...` หรือ `Code/<ProjectName><BugNum>buggy/...`
-2. **ระบบ On-the-Fly Fast Javac Auto-Compile (Tier 2)**:
-   - หากโปรเจกต์ไม่มี `.class` ในโฟลเดอร์ `data/` (เช่น `Mockito_2`, `Mockito_12`) สคริปต์จะคอมไพล์ไฟล์ `.java` ใน `Resoucre/<Project>` แบบทันทีด้วย `javac` โดยดึง classpath จาก base bug (เช่น `Mockito1buggy`) แล้วบันทึกไว้ใน `BuildClasses/<Project>` เพื่อให้พร้อมใช้ทันที
-3. **ระบบ Defect4J Auto-Checkout & Compile (Tier 3)**:
-   - หากคลาสต้องการ dependencies ซับซ้อนและมี `defects4j` ใน PATH / `~/defect4j` สคริปต์สามารถสั่ง checkout และ compile บั๊กเวอร์ชันนั้นๆ แบบอัตโนมัติ
-4. **การระบุตำแหน่งเองผ่าน CLI**:
-   - สามารถระบุได้โดยตรงผ่าน `--classes-dir` หรือ `-cp`:
-     ```bash
-     python script/generate_randoop_tests.py --project Codec_1 --classes-dir data/Codec1buggy/target/classes
-     ```
+### ลำดับการค้นหา (Fallback Chain)
+
+| ลำดับ | ที่ค้นหา | หมายเหตุ |
+| :---: | :--- | :--- |
+| 1 | `--classes-dir` ที่ผู้ใช้ระบุผ่าน CLI | ความสำคัญสูงสุด |
+| 2 | `BuildClasses/<ProjectName>/` | แคชถาวรในโปรเจกต์ ไม่มีช่องว่าง |
+| 3 | `--data-dir/<ProjectName>1buggy/target/classes` | กำหนดผ่าน `--data-dir` หรือ `D4J_DATA_DIR` |
+| 4 | `~/defect4j/Code/<ProjectName>1buggy/...` | Linux/Mac standard path |
+| 5 | `/tmp/sqa_d4j_work/` | temp จาก checkout ครั้งก่อน |
+| 6 | Auto-compile ด้วย `javac` | คอมไพล์ทันที บันทึกใน `BuildClasses/` |
+| 7 | `defects4j checkout` + `defects4j compile` | Tier สุดท้าย ต้องมี `defects4j` ใน PATH |
+
+> **ไม่ต้องมีโฟลเดอร์ `data/` ในโปรเจกต์** — ถ้าไม่ระบุ `--data-dir` สคริปต์จะข้ามไปที่ Tier 6-7 อัตโนมัติ
+
+### การระบุ Data Directory
+
+```bash
+# วิธีที่ 1: ผ่าน CLI argument
+python script/generate_randoop_tests.py --data-dir /path/to/defects4j_projects
+
+# วิธีที่ 2: ผ่าน Environment Variable
+# Linux/Mac:
+export D4J_DATA_DIR=/path/to/defects4j_projects
+# Windows:
+set D4J_DATA_DIR=C:\defects4j_projects
+
+python script/generate_randoop_tests.py
+```
 
 ---
 
@@ -100,51 +112,63 @@ Randoop ต้องการ **Bytecode (.class)** ที่คอมไพล�
 
 1. สคริปต์รองรับการค้นหาไฟล์ `randoop-all-4.3.4.jar` อัตโนมัติจากตำแหน่งต่อไปนี้:
    - ค่าเริ่มต้นหลักภายในโปรเจกต์: `Feedback-Directed Random Test Generation/Configuration/randoop-all-4.3.4.jar`
-   - ระบุผ่าน CLI พารามิเตอร์: `--randoop-jar <path_to_jar>`
+   - ระบุผ่าน CLI พารามิเตอร์: `--randoop-jar PATH`
    - ค่าเริ่มต้นสำรองบน Windows: `C:\randoop\randoop-all-4.3.4.jar`
-2. **Space-Safe Staging**: หากพาธโฟลเดอร์มีช่องว่าง (เช่น `Feedback-Directed Random Test Generation`) สคริปต์จะทำการ Stage ไปรันในไดเรกทอรีชั่วคราวที่ไม่มีเว้นวรรค (เช่น `/tmp/sqa_randoop/`) โดยอัตโนมัติ เพื่อป้องกันไม่ให้ Sub-JVM ของ Randoop แตก Command Classpath แล้วคัดลอกไฟล์ผลลัพธ์ `.java` กลับมาให้โดยอัตโนมัติ
+2. **Space-Safe Staging**: หากพาธโฟลเดอร์มีช่องว่าง สคริปต์จะทำการ Stage ไปรันในไดเรกทอรีชั่วคราว (เช่น `/tmp/sqa_randoop/`) โดยอัตโนมัติ แล้วคัดลอกไฟล์ผลลัพธ์ `.java` กลับมาให้
 
 ---
 
 ## 5. วิธีรันคำสั่ง (Usage Examples)
 
 ### 5.1 ทดสอบจำลองคำสั่งก่อนรันจริง (Dry-Run Mode)
-แสดงคำสั่งและโครงสร้างคลาสของ 5 โปรเจกต์แรกโดยยังไม่รัน Java:
 ```bash
 python script/generate_randoop_tests.py --dry-run -n 5
 ```
 
-### 5.2 รันเฉพาะโปรเจกต์ที่ต้องการ (เช่น Codec_1 หรือ Mockito_2)
+### 5.2 รันเฉพาะโปรเจกต์ที่ต้องการ
 ```bash
 python script/generate_randoop_tests.py --project Mockito_2 --time-limit 60
 ```
 
 ### 5.3 รันโดยระบุตำแหน่งโฟลเดอร์ Compiled Classes เอง
 ```bash
-python script/generate_randoop_tests.py --project Codec_1 -cp data/Codec1buggy/target/classes
+python script/generate_randoop_tests.py --project Codec_1 -cp /path/to/Codec1buggy/target/classes
 ```
 
-### 5.4 ตรวจสอบสถานะความคืบหน้าของทุกโปรเจกต์ (`--status`)
+### 5.4 ตรวจสอบสถานะความคืบหน้า
 ```bash
 python script/generate_randoop_tests.py --status
 ```
 
-### 5.5 รันแบบกำหนดจำนวนโปรเจกต์ต่อรอบ (`-n` หรือ `--limit`)
+### 5.5 รันแบบกำหนดจำนวนโปรเจกต์ต่อรอบ
 ```bash
 python script/generate_randoop_tests.py -n 10 --time-limit 30
 ```
 
-### 5.6 บังคับสร้างใหม่ทั้งหมดทับของเดิม (`--overwrite`)
+### 5.6 บังคับสร้างใหม่ทับของเดิม
 ```bash
 python script/generate_randoop_tests.py --project Codec_1 --overwrite
 ```
 
-### 5.7 ล้าง Memory State เริ่มต้นใหม่ (`--reset-state`)
+### 5.7 ล้าง Memory State เริ่มต้นใหม่
 ```bash
 python script/generate_randoop_tests.py --reset-state
 ```
 
-### 5.8 การรันบน WSL / Linux ผ่าน Bash Wrapper
+### 5.8 รันบนเครื่องอื่น ระบุโฟลเดอร์ data ที่แตกต่างออกไป (`--data-dir`)
+```bash
+# เครื่อง A: data อยู่ที่ D:\d4j_projects
+python script/generate_randoop_tests.py --data-dir D:\d4j_projects
+
+# เครื่อง B: ไม่มี data folder เลย ระบบจะ auto-checkout จาก defects4j
+python script/generate_randoop_tests.py
+
+# เครื่อง C (Linux): ตั้ง env var ถาวร
+export D4J_DATA_DIR=~/defect4j_projects
+python script/generate_randoop_tests.py -n 20
+```
+
+### 5.9 การรันบน WSL / Linux ผ่าน Bash Wrapper
 ```bash
 bash script/generate_randoop_tests.sh -n 10 --time-limit 60
 ```
@@ -160,6 +184,8 @@ bash script/generate_randoop_tests.sh -n 10 --time-limit 60
 | `--classes-dir` | `-cp` | Auto-detect | ตำแหน่งโฟลเดอร์ compiled `.class` (เช่น `target/classes` หรือ `build/classes`) |
 | `--randoop-jar` | - | Auto-detect | พาธไฟล์ `randoop-all-4.3.4.jar` |
 | `--output-dir` | - | `Feedback-Directed.../TestCode` | โฟลเดอร์ปลายทางสำหรับจัดเก็บ Test Code |
+| `--resource-dir` | - | `Resoucre/` | โฟลเดอร์ต้นทางที่เก็บ Source Code ของโปรเจกต์ |
+| `--data-dir` | - | `D4J_DATA_DIR` env / None | **[ใหม่]** โฟลเดอร์ที่เก็บโค้ด Defects4J ที่ checkout แล้ว ถ้าไม่ระบุจะใช้ defects4j auto-checkout |
 | `--limit` | `-n` | `None` | จำกัดจำนวนโปรเจกต์ที่จะประมวลผลในรอบนี้ |
 | `--status` | - | `False` | แสดงรายงานความคืบหน้า (Completed/Pending/Failed) แล้วหยุดทำงาน |
 | `--dry-run` | - | `False` | โหมดจำลอง แสดงคำสั่งโดยไม่เรียกใช้งาน Java จริง |
@@ -167,25 +193,34 @@ bash script/generate_randoop_tests.sh -n 10 --time-limit 60
 | `--reset-state` | - | `False` | ล้างข้อมูล Memory State ทั้งหมดเริ่มต้นใหม่ |
 | `--sort-by-size` | - | `True` | จัดคิวทำโปรเจกต์ขนาดเล็กก่อน (Smallest first, ค่าเริ่มต้น) |
 | `--no-sort-by-size` | - | `False` | ปิดการจัดเรียงตามขนาด (ใช้ลำดับโฟลเดอร์เดิม) |
-| `--no-auto-compile` | - | `False` | ปิดการ Auto-compile `.class` อัตโนมัติ (บังคับใช้เฉพาะโฟลเดอร์ที่มีอยู่แล้ว) |
+| `--no-auto-compile` | - | `False` | ปิดการ Auto-compile `.class` อัตโนมัติ |
 | `--skip-missing` | - | `False` | ข้ามโปรเจกต์ที่ไม่พบคลาส `.class` โดยไม่บันทึกเป็น FAILED |
 | `--tests-per-file` | - | `500` | จำนวนเทสต์สูงสุดต่อ 1 ไฟล์ JUnit |
 | `--jvm-memory` | - | `3000m` | ขนาดหน่วยความจำ JVM สูงสุด (เช่น `3000m` หรือ `4g`) |
+| `--state-file` | - | Auto | พาธไฟล์บันทึก Memory State |
 
 ---
 
 ## 7. การทำงานร่วมกับ Defect4J และการแก้ปัญหาที่พบบ่อย
 
-### 💡 การคอมไพล์คลาสอัตโนมัติ (Automatic On-The-Fly Compilation):
-- สคริปต์เวอร์ชันล่าสุดจะตรวจจับคลาสที่ยังไม่มี `.class` อัตโนมัติ และทำการคอมไพล์ผ่าน `javac` (โดยอิง JAR dependencies จาก `data/<Project>1buggy/target/dependency`) และจัดเก็บไว้ใน `BuildClasses/<Project>` ทันที ทำให้สามารถรันกับโปรเจกต์ใดๆ ใน 843 โฟลเดอร์ได้โดยตรงโดยไม่ต้องสลับไปคอมไพล์ทีละตัว
+### รันได้บนทุกเครื่อง (Portability)
 
-### ⚠️ กรณีแจ้งเตือน `[MISSING CLASSES] ไม่พบโฟลเดอร์ compiled .class`:
+สคริปต์ **ไม่ผูกกับโฟลเดอร์ `data/`** แล้ว ระบบจะค้นหา `.class` ตามลำดับดังนี้:
+
+1. **มีโฟลเดอร์ data อยู่แล้ว** — ระบุผ่าน `--data-dir PATH` หรือ set env `D4J_DATA_DIR`
+2. **ไม่มีโฟลเดอร์ data** — ระบบจะพยายาม auto-compile จาก Source ใน `Resoucre/` ก่อน จากนั้นใช้ `defects4j checkout` + compile อัตโนมัติ (ต้องมี `defects4j` ใน PATH)
+3. **ผลลัพธ์ถูกแคชไว้** ใน `BuildClasses/<Project>/` เสมอ ทำให้รันครั้งต่อไปเร็วกว่า
+
+### การคอมไพล์คลาสอัตโนมัติ (Automatic On-The-Fly Compilation)
+- สคริปต์จะตรวจจับคลาสที่ยังไม่มี `.class` อัตโนมัติ และทำการคอมไพล์ผ่าน `javac` โดยอิง JAR dependencies จาก `--data-dir/<Project>1buggy/target/dependency` และจัดเก็บไว้ใน `BuildClasses/<Project>` ทันที
+
+### กรณีแจ้งเตือน `[MISSING CLASSES] ไม่พบโฟลเดอร์ compiled .class`
 - หากปิด auto-compile หรือคอมไพล์ล้มเหลว สามารถแก้ไขได้โดย:
-  1. เข้าไปยังโฟลเดอร์โปรเจกต์นั้นใน `data/` (เช่น `cd data/Codec1buggy`)
-  2. รันคำสั่ง `defects4j compile` เพื่อให้เกิดโฟลเดอร์ `target/classes` หรือ `build/classes`
+  1. ระบุ path โฟลเดอร์ที่เก็บโค้ดไว้ผ่าน `--data-dir PATH`
+  2. หรือเข้าไปยังโฟลเดอร์โปรเจกต์นั้น แล้วรันคำสั่ง `defects4j compile`
   3. สั่งรันสคริปต์อีกครั้ง สคริปต์จะตรวจพบโฟลเดอร์ `.class` อัตโนมัติ
 
-### ⚠️ กรณีเจอข้อผิดพลาด `OutOfMemoryError` ในคลาสขนาดใหญ่:
+### กรณีเจอข้อผิดพลาด `OutOfMemoryError` ในคลาสขนาดใหญ่
 - สามารถเพิ่มขนาด Heap Memory ของ JVM ผ่านพารามิเตอร์ `--jvm-memory`:
   ```bash
   python script/generate_randoop_tests.py --project Chart_1 --jvm-memory 4g
