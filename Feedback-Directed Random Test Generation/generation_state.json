@@ -182,5 +182,546 @@
     "time_limit": 60,
     "status": "COMPLETED",
     "timestamp": "2026-09-18T11:19:21.548713"
+  },
+  "Chart_1": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_1_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart1buggy/build",
+    "classes_tested": [
+      "org.jfree.chart.renderer.category.AbstractCategoryItemRenderer"
+    ],
+    "generated_tests": [
+      "org/jfree/chart/renderer/category/RegressionTest0.java",
+      "org/jfree/chart/renderer/category/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T22:11:51.523343"
+  },
+  "Chart_2": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_2_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart2buggy/build",
+    "classes_tested": [
+      "org.jfree.data.general.DatasetUtilities"
+    ],
+    "generated_tests": [
+      "org/jfree/data/general/ErrorTest0.java",
+      "org/jfree/data/general/RegressionTest6.java",
+      "org/jfree/data/general/RegressionTest7.java",
+      "org/jfree/data/general/RegressionTest0.java",
+      "org/jfree/data/general/ErrorTest.java",
+      "org/jfree/data/general/RegressionTest1.java",
+      "org/jfree/data/general/RegressionTest2.java",
+      "org/jfree/data/general/RegressionTest3.java",
+      "org/jfree/data/general/RegressionTest4.java",
+      "org/jfree/data/general/RegressionTest5.java",
+      "org/jfree/data/general/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T22:42:05.237382"
+  },
+  "Chart_3": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_3_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart3buggy/build",
+    "classes_tested": [
+      "org.jfree.data.time.TimeSeries"
+    ],
+    "generated_tests": [
+      "org/jfree/data/time/RegressionTest6.java",
+      "org/jfree/data/time/RegressionTest7.java",
+      "org/jfree/data/time/RegressionTest0.java",
+      "org/jfree/data/time/RegressionTest1.java",
+      "org/jfree/data/time/RegressionTest2.java",
+      "org/jfree/data/time/RegressionTest3.java",
+      "org/jfree/data/time/RegressionTest4.java",
+      "org/jfree/data/time/RegressionTest5.java",
+      "org/jfree/data/time/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T22:43:14.780257"
+  },
+  "Chart_4": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_4_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart4buggy/build",
+    "classes_tested": [
+      "org.jfree.chart.plot.XYPlot"
+    ],
+    "generated_tests": [
+      "org/jfree/chart/plot/ErrorTest0.java",
+      "org/jfree/chart/plot/ErrorTest1.java",
+      "org/jfree/chart/plot/RegressionTest0.java",
+      "org/jfree/chart/plot/ErrorTest.java",
+      "org/jfree/chart/plot/RegressionTest1.java",
+      "org/jfree/chart/plot/RegressionTest2.java",
+      "org/jfree/chart/plot/RegressionTest3.java",
+      "org/jfree/chart/plot/RegressionTest4.java",
+      "org/jfree/chart/plot/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T22:44:22.438506"
+  },
+  "Chart_5": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_5_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart5buggy/build",
+    "classes_tested": [
+      "org.jfree.data.xy.XYSeries"
+    ],
+    "generated_tests": [
+      "org/jfree/data/xy/RegressionTest0.java",
+      "org/jfree/data/xy/RegressionTest1.java",
+      "org/jfree/data/xy/RegressionTest2.java",
+      "org/jfree/data/xy/RegressionTest3.java",
+      "org/jfree/data/xy/RegressionTest4.java",
+      "org/jfree/data/xy/RegressionTest5.java",
+      "org/jfree/data/xy/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T22:45:29.822637"
+  },
+  "Chart_6": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_6_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart6buggy/build",
+    "classes_tested": [
+      "org.jfree.chart.util.ShapeList"
+    ],
+    "generated_tests": [
+      "org/jfree/chart/util/ErrorTest0.java",
+      "org/jfree/chart/util/ErrorTest1.java",
+      "org/jfree/chart/util/RegressionTest0.java",
+      "org/jfree/chart/util/ErrorTest.java",
+      "org/jfree/chart/util/RegressionTest1.java",
+      "org/jfree/chart/util/RegressionTest2.java",
+      "org/jfree/chart/util/RegressionTest3.java",
+      "org/jfree/chart/util/RegressionTest4.java",
+      "org/jfree/chart/util/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T22:46:37.187313"
+  },
+  "Chart_7": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_7_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart7buggy/build",
+    "classes_tested": [
+      "org.jfree.data.time.TimePeriodValues"
+    ],
+    "generated_tests": [
+      "org/jfree/data/time/RegressionTest6.java",
+      "org/jfree/data/time/RegressionTest7.java",
+      "org/jfree/data/time/RegressionTest0.java",
+      "org/jfree/data/time/RegressionTest1.java",
+      "org/jfree/data/time/RegressionTest2.java",
+      "org/jfree/data/time/RegressionTest3.java",
+      "org/jfree/data/time/RegressionTest4.java",
+      "org/jfree/data/time/RegressionTest5.java",
+      "org/jfree/data/time/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T22:47:46.914492"
+  },
+  "Chart_8": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_8_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart8buggy/build",
+    "classes_tested": [
+      "org.jfree.data.time.Week"
+    ],
+    "generated_tests": [
+      "org/jfree/data/time/RegressionTest0.java",
+      "org/jfree/data/time/RegressionTest1.java",
+      "org/jfree/data/time/RegressionTest2.java",
+      "org/jfree/data/time/RegressionTest3.java",
+      "org/jfree/data/time/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T22:48:54.517648"
+  },
+  "Chart_9": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_9_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart9buggy/build",
+    "classes_tested": [
+      "org.jfree.data.time.TimeSeries"
+    ],
+    "generated_tests": [
+      "org/jfree/data/time/ErrorTest0.java",
+      "org/jfree/data/time/RegressionTest0.java",
+      "org/jfree/data/time/ErrorTest.java",
+      "org/jfree/data/time/RegressionTest1.java",
+      "org/jfree/data/time/RegressionTest2.java",
+      "org/jfree/data/time/RegressionTest3.java",
+      "org/jfree/data/time/RegressionTest4.java",
+      "org/jfree/data/time/RegressionTest5.java",
+      "org/jfree/data/time/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T22:50:01.503583"
+  },
+  "Chart_10": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_10_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart10buggy/build",
+    "classes_tested": [
+      "org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator"
+    ],
+    "generated_tests": [
+      "org/jfree/chart/imagemap/RegressionTest6.java",
+      "org/jfree/chart/imagemap/RegressionTest0.java",
+      "org/jfree/chart/imagemap/RegressionTest1.java",
+      "org/jfree/chart/imagemap/RegressionTest2.java",
+      "org/jfree/chart/imagemap/RegressionTest3.java",
+      "org/jfree/chart/imagemap/RegressionTest4.java",
+      "org/jfree/chart/imagemap/RegressionTest5.java",
+      "org/jfree/chart/imagemap/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T22:51:09.419710"
+  },
+  "Chart_11": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_11_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart11buggy/build",
+    "classes_tested": [
+      "org.jfree.chart.util.ShapeUtilities"
+    ],
+    "generated_tests": [
+      "org/jfree/chart/util/RegressionTest6.java",
+      "org/jfree/chart/util/RegressionTest7.java",
+      "org/jfree/chart/util/RegressionTest0.java",
+      "org/jfree/chart/util/RegressionTest1.java",
+      "org/jfree/chart/util/RegressionTest2.java",
+      "org/jfree/chart/util/RegressionTest3.java",
+      "org/jfree/chart/util/RegressionTest4.java",
+      "org/jfree/chart/util/RegressionTest5.java",
+      "org/jfree/chart/util/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T22:52:16.497398"
+  },
+  "Chart_12": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_12_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart12buggy/build",
+    "classes_tested": [
+      "org.jfree.chart.plot.MultiplePiePlot"
+    ],
+    "generated_tests": [
+      "org/jfree/chart/plot/ErrorTest0.java",
+      "org/jfree/chart/plot/ErrorTest1.java",
+      "org/jfree/chart/plot/RegressionTest0.java",
+      "org/jfree/chart/plot/ErrorTest.java",
+      "org/jfree/chart/plot/RegressionTest1.java",
+      "org/jfree/chart/plot/RegressionTest2.java",
+      "org/jfree/chart/plot/RegressionTest3.java",
+      "org/jfree/chart/plot/RegressionTest4.java",
+      "org/jfree/chart/plot/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T22:53:23.650444"
+  },
+  "Chart_13": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_13_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart13buggy/build",
+    "classes_tested": [
+      "org.jfree.chart.block.BorderArrangement"
+    ],
+    "generated_tests": [
+      "org/jfree/chart/block/ErrorTest0.java",
+      "org/jfree/chart/block/RegressionTest6.java",
+      "org/jfree/chart/block/RegressionTest7.java",
+      "org/jfree/chart/block/ErrorTest1.java",
+      "org/jfree/chart/block/RegressionTest0.java",
+      "org/jfree/chart/block/ErrorTest.java",
+      "org/jfree/chart/block/RegressionTest1.java",
+      "org/jfree/chart/block/RegressionTest2.java",
+      "org/jfree/chart/block/RegressionTest3.java",
+      "org/jfree/chart/block/ErrorTest2.java",
+      "org/jfree/chart/block/RegressionTest4.java",
+      "org/jfree/chart/block/RegressionTest5.java",
+      "org/jfree/chart/block/RegressionTest.java",
+      "org/jfree/chart/block/ErrorTest3.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T22:54:32.318678"
+  },
+  "Chart_14": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_14_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart14buggy/build",
+    "classes_tested": [
+      "org.jfree.chart.plot.CategoryPlot",
+      "org.jfree.chart.plot.XYPlot"
+    ],
+    "generated_tests": [
+      "org/jfree/chart/plot/ErrorTest0.java",
+      "org/jfree/chart/plot/RegressionTest0.java",
+      "org/jfree/chart/plot/ErrorTest.java",
+      "org/jfree/chart/plot/RegressionTest1.java",
+      "org/jfree/chart/plot/RegressionTest2.java",
+      "org/jfree/chart/plot/RegressionTest3.java",
+      "org/jfree/chart/plot/RegressionTest4.java",
+      "org/jfree/chart/plot/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T22:55:39.761941"
+  },
+  "Chart_15": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_15_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart15buggy/build",
+    "classes_tested": [
+      "org.jfree.chart.plot.PiePlot"
+    ],
+    "generated_tests": [
+      "org/jfree/chart/plot/ErrorTest0.java",
+      "org/jfree/chart/plot/RegressionTest0.java",
+      "org/jfree/chart/plot/ErrorTest.java",
+      "org/jfree/chart/plot/RegressionTest1.java",
+      "org/jfree/chart/plot/RegressionTest2.java",
+      "org/jfree/chart/plot/RegressionTest3.java",
+      "org/jfree/chart/plot/RegressionTest4.java",
+      "org/jfree/chart/plot/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T22:56:48.962471"
+  },
+  "Chart_16": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_16_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart16buggy/build",
+    "classes_tested": [
+      "org.jfree.data.category.DefaultIntervalCategoryDataset"
+    ],
+    "generated_tests": [
+      "org/jfree/data/category/ErrorTest0.java",
+      "org/jfree/data/category/RegressionTest6.java",
+      "org/jfree/data/category/RegressionTest7.java",
+      "org/jfree/data/category/ErrorTest1.java",
+      "org/jfree/data/category/RegressionTest0.java",
+      "org/jfree/data/category/ErrorTest.java",
+      "org/jfree/data/category/RegressionTest1.java",
+      "org/jfree/data/category/RegressionTest2.java",
+      "org/jfree/data/category/RegressionTest3.java",
+      "org/jfree/data/category/RegressionTest4.java",
+      "org/jfree/data/category/RegressionTest5.java",
+      "org/jfree/data/category/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T22:58:00.970538"
+  },
+  "Chart_17": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_17_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart17buggy/build",
+    "classes_tested": [
+      "org.jfree.data.time.TimeSeries"
+    ],
+    "generated_tests": [
+      "org/jfree/data/time/ErrorTest0.java",
+      "org/jfree/data/time/RegressionTest6.java",
+      "org/jfree/data/time/RegressionTest7.java",
+      "org/jfree/data/time/RegressionTest0.java",
+      "org/jfree/data/time/ErrorTest.java",
+      "org/jfree/data/time/RegressionTest1.java",
+      "org/jfree/data/time/RegressionTest2.java",
+      "org/jfree/data/time/RegressionTest3.java",
+      "org/jfree/data/time/RegressionTest4.java",
+      "org/jfree/data/time/RegressionTest5.java",
+      "org/jfree/data/time/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T22:59:08.796230"
+  },
+  "Chart_18": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_18_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart18buggy/build",
+    "classes_tested": [
+      "org.jfree.data.DefaultKeyedValues2D",
+      "org.jfree.data.DefaultKeyedValues"
+    ],
+    "generated_tests": [
+      "org/jfree/data/RegressionTest6.java",
+      "org/jfree/data/RegressionTest7.java",
+      "org/jfree/data/RegressionTest0.java",
+      "org/jfree/data/RegressionTest1.java",
+      "org/jfree/data/RegressionTest2.java",
+      "org/jfree/data/RegressionTest3.java",
+      "org/jfree/data/RegressionTest4.java",
+      "org/jfree/data/RegressionTest5.java",
+      "org/jfree/data/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T23:00:16.847661"
+  },
+  "Chart_19": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_19_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart19buggy/build",
+    "classes_tested": [
+      "org.jfree.chart.plot.CategoryPlot"
+    ],
+    "generated_tests": [
+      "org/jfree/chart/plot/ErrorTest0.java",
+      "org/jfree/chart/plot/RegressionTest0.java",
+      "org/jfree/chart/plot/ErrorTest.java",
+      "org/jfree/chart/plot/RegressionTest1.java",
+      "org/jfree/chart/plot/RegressionTest2.java",
+      "org/jfree/chart/plot/RegressionTest3.java",
+      "org/jfree/chart/plot/RegressionTest4.java",
+      "org/jfree/chart/plot/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T23:01:26.852180"
+  },
+  "Chart_20": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_20_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart20buggy/build",
+    "classes_tested": [
+      "org.jfree.chart.plot.ValueMarker"
+    ],
+    "generated_tests": [
+      "org/jfree/chart/plot/ErrorTest0.java",
+      "org/jfree/chart/plot/ErrorTest1.java",
+      "org/jfree/chart/plot/RegressionTest0.java",
+      "org/jfree/chart/plot/ErrorTest.java",
+      "org/jfree/chart/plot/RegressionTest1.java",
+      "org/jfree/chart/plot/RegressionTest2.java",
+      "org/jfree/chart/plot/RegressionTest3.java",
+      "org/jfree/chart/plot/ErrorTest2.java",
+      "org/jfree/chart/plot/RegressionTest4.java",
+      "org/jfree/chart/plot/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T23:02:33.785231"
+  },
+  "Chart_21": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_21_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart21buggy/build",
+    "classes_tested": [
+      "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset"
+    ],
+    "generated_tests": [
+      "org/jfree/data/statistics/ErrorTest0.java",
+      "org/jfree/data/statistics/RegressionTest6.java",
+      "org/jfree/data/statistics/RegressionTest7.java",
+      "org/jfree/data/statistics/RegressionTest0.java",
+      "org/jfree/data/statistics/ErrorTest.java",
+      "org/jfree/data/statistics/RegressionTest1.java",
+      "org/jfree/data/statistics/RegressionTest2.java",
+      "org/jfree/data/statistics/RegressionTest3.java",
+      "org/jfree/data/statistics/RegressionTest8.java",
+      "org/jfree/data/statistics/RegressionTest4.java",
+      "org/jfree/data/statistics/RegressionTest5.java",
+      "org/jfree/data/statistics/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T23:03:41.083133"
+  },
+  "Chart_22": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_22_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart22buggy/build",
+    "classes_tested": [
+      "org.jfree.data.KeyedObjects2D"
+    ],
+    "generated_tests": [
+      "org/jfree/data/ErrorTest0.java",
+      "org/jfree/data/RegressionTest6.java",
+      "org/jfree/data/RegressionTest0.java",
+      "org/jfree/data/ErrorTest.java",
+      "org/jfree/data/RegressionTest1.java",
+      "org/jfree/data/RegressionTest2.java",
+      "org/jfree/data/RegressionTest3.java",
+      "org/jfree/data/RegressionTest4.java",
+      "org/jfree/data/RegressionTest5.java",
+      "org/jfree/data/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T23:04:52.452605"
+  },
+  "Chart_23": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_23_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart23buggy/build",
+    "classes_tested": [
+      "org.jfree.chart.renderer.category.MinMaxCategoryRenderer"
+    ],
+    "generated_tests": [
+      "org/jfree/chart/renderer/category/ErrorTest0.java",
+      "org/jfree/chart/renderer/category/RegressionTest0.java",
+      "org/jfree/chart/renderer/category/ErrorTest.java",
+      "org/jfree/chart/renderer/category/RegressionTest1.java",
+      "org/jfree/chart/renderer/category/RegressionTest2.java",
+      "org/jfree/chart/renderer/category/RegressionTest3.java",
+      "org/jfree/chart/renderer/category/RegressionTest4.java",
+      "org/jfree/chart/renderer/category/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T23:06:00.165632"
+  },
+  "Chart_24": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_24_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart24buggy/build",
+    "classes_tested": [
+      "org.jfree.chart.renderer.GrayPaintScale"
+    ],
+    "generated_tests": [
+      "org/jfree/chart/renderer/ErrorTest0.java",
+      "org/jfree/chart/renderer/ErrorTest1.java",
+      "org/jfree/chart/renderer/RegressionTest0.java",
+      "org/jfree/chart/renderer/ErrorTest.java",
+      "org/jfree/chart/renderer/RegressionTest1.java",
+      "org/jfree/chart/renderer/RegressionTest2.java",
+      "org/jfree/chart/renderer/RegressionTest3.java",
+      "org/jfree/chart/renderer/ErrorTest2.java",
+      "org/jfree/chart/renderer/RegressionTest4.java",
+      "org/jfree/chart/renderer/RegressionTest5.java",
+      "org/jfree/chart/renderer/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T23:07:05.975663"
+  },
+  "Chart_25": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_25_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart25buggy/build",
+    "classes_tested": [
+      "org.jfree.chart.renderer.category.StatisticalBarRenderer"
+    ],
+    "generated_tests": [
+      "org/jfree/chart/renderer/category/ErrorTest0.java",
+      "org/jfree/chart/renderer/category/RegressionTest0.java",
+      "org/jfree/chart/renderer/category/ErrorTest.java",
+      "org/jfree/chart/renderer/category/RegressionTest1.java",
+      "org/jfree/chart/renderer/category/RegressionTest2.java",
+      "org/jfree/chart/renderer/category/RegressionTest3.java",
+      "org/jfree/chart/renderer/category/RegressionTest4.java",
+      "org/jfree/chart/renderer/category/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T23:08:13.662770"
+  },
+  "Chart_26": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Chart_26_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/data/Chart26buggy/build",
+    "classes_tested": [
+      "org.jfree.chart.axis.Axis"
+    ],
+    "generated_tests": [
+      "org/jfree/chart/axis/RegressionTest0.java",
+      "org/jfree/chart/axis/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-20T23:09:14.640872"
   }
 }
