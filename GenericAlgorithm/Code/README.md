@@ -3,13 +3,14 @@
 ## Round 1: generate the test suite
 
 ```bash
-./run_evosuite_test.sh Chart 1 60
-./run_evosuite_test.sh Lang 1,2,3 60
+./run_evosuite_test.sh Chart 1 120
+./run_evosuite_test.sh Lang 1,2,3 120
 ```
 
 EvoSuite generates tests from the buggy revision. Output:
 
-- `TestCode/Project_ID/*_ESTest.java`
+- `TestCode/Project_ID/<package>/*_ESTest.java`
+- `TestCode/Project_ID/evosuite-tests.tar.bz2`
 - `Result_Round1/Project_ID/result.json`
 - `Result_Round1/Project_ID/result.csv`
 
@@ -23,7 +24,8 @@ generation succeeded; it is not a buggy/fixed validation result.
 ./run_evosuite_test_fixed.sh Lang 1,2,3
 ```
 
-The script takes the existing TestCode once, then runs it on both revisions:
+The script takes the archive created by Round 1 and passes that exact same file
+to `defects4j test -s` on both revisions:
 
 ```text
 EvoSuite suite ──┬── buggy (Project-IDb) ── PASS/FAIL
@@ -43,11 +45,9 @@ Output:
 `status=inconclusive`. Incomplete execution uses `status=not_available`.
 Coverage never decides defect detection.
 
-Round 2 snapshots TestCode once before either checkout. Buggy and fixed use
-separate checkout directories, separate `cp.test` dependencies, and separate
-compiled-test directories. Nothing generated or compiled for one revision is
-reused as compiled input for the other; only the identical Java test sources
-are shared.
+Buggy and fixed use separate checkout/build directories. Defects4J compiles the
+test archive against each revision's own dependencies. No compiled classes are
+shared across revisions, and Round 2 never invokes EvoSuite generation.
 
 ## Aggregate and summarize
 

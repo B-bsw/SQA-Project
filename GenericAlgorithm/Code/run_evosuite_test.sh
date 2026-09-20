@@ -7,7 +7,7 @@ if [[ $# -lt 2 || $# -gt 3 ]]; then
   echo "Usage: $0 PROJECT BUG_ID_OR_LIST [BUDGET_SECONDS]" >&2
   exit 2
 fi
-project=$1; bug_spec=$(printf '%s' "$2" | tr -d '[:space:]'); budget=${3:-60}
+project=$1; bug_spec=$(printf '%s' "$2" | tr -d '[:space:]'); budget=${3:-120}
 bug_spec=${bug_spec#\[}; bug_spec=${bug_spec%\]}
 IFS=, read -r -a bug_ids <<< "$bug_spec"
 [[ ${#bug_ids[@]} -gt 0 ]] || { echo "BUG_ID list must not be empty." >&2; exit 2; }
@@ -100,11 +100,11 @@ while IFS= read -r source; do
   generated_output="$temp_root/generate-$target_slug.txt"; mkdir -p "$target_tests" "$evo_report"
   echo "[$project-$bug_id] STANDARD_GA $target_class" >&2
   started=$(date +%s); set +e
-  "$JAVA_HOME/bin/java" ${EVOSUITE_JAVA_OPTS:--Xmx2g} \
-    -cp "$evosuite_jar:$bin_dir:$compile_cp" org.evosuite.EvoSuite \
-    -mem "$client_memory_mb" -generateSuite -class "$target_class" \
+  "$JAVA_HOME/bin/java" ${EVOSUITE_JAVA_OPTS:--Xmx2g} -jar "$evosuite_jar" \
+    -mem "$client_memory_mb" -class "$target_class" \
     -projectCP "$bin_dir:$compile_cp" -seed "$seed" \
-    -Dalgorithm=STANDARD_GA -Dcriterion=LINE:BRANCH -Dclient_on_thread="$client_on_thread" \
+    -criterion LINE:BRANCH -generateSuite \
+    -Dalgorithm=STANDARD_GA -Dlocal_search_rate=0 -Dclient_on_thread="$client_on_thread" \
     -Dstopping_condition=MaxTime -Dsearch_budget="$budget" -Dshow_progress=false \
     -Doutput_variables=TARGET_CLASS,criterion,Coverage,LineCoverage,BranchCoverage \
     -Dtest_dir="$target_tests" -Dreport_dir="$evo_report" >"$generated_output" 2>&1
@@ -119,9 +119,11 @@ while IFS= read -r source; do
   if [[ $generation_rc -eq 0 && "$test_methods" -gt 0 ]]; then execution=PASS; state=ok; error=''; fi
   if [[ "$test_methods" -gt 0 ]]; then
     while IFS= read -r generated_source; do
-      generated_name=$(basename "$generated_source")
-      if [[ -e "$test_root/$generated_name" ]]; then state=duplicate_test_filename; execution=FAIL; error="Duplicate generated test filename: $generated_name"; break; fi
-      cp "$generated_source" "$test_root/$generated_name"
+      generated_relative=${generated_source#"$target_tests/"}
+      generated_destination="$test_root/$generated_relative"
+      mkdir -p "$(dirname "$generated_destination")"
+      if [[ -e "$generated_destination" ]]; then state=duplicate_test_filename; execution=FAIL; error="Duplicate generated test path: $generated_relative"; break; fi
+      cp "$generated_source" "$generated_destination"
     done < <(find "$target_tests" -type f -name '*.java' | sort)
   fi
   relative_source=${source#"$repo_root/"}
@@ -131,6 +133,14 @@ while IFS= read -r source; do
     --arg execution "$execution" --arg state "$state" --arg error "$error" \
     '{source_file:$source,target_class:$target,algorithm:"STANDARD_GA",seed:$seed,search_budget_seconds:$budget,generation_seconds:$seconds,generated_test_methods:$methods,test_execution:$execution,line_coverage_percent:$line,branch_coverage_percent:$branch,status:$state,error:(if $error=="" then null else $error end)}' >> "$jsonl"
 done < "$source_list"
+
+# Archive the package tree itself (org/, com/, ...), never an evosuite-tests/
+# wrapper. Defects4J receives this exact archive in both Round 2 validations.
+archive_test_count=$(find "$test_root" -type f -name '*_ESTest.java' | wc -l | tr -d ' ')
+if [[ "$archive_test_count" -gt 0 ]]; then
+  tar -cjf "$temp_root/evosuite-tests.tar.bz2" -C "$test_root" .
+  cp "$temp_root/evosuite-tests.tar.bz2" "$test_root/evosuite-tests.tar.bz2"
+fi
 
 created_at=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 jq -s --arg created_at "$created_at" --arg project "$project" --argjson bug_id "$bug_id" \
