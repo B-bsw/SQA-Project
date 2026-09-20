@@ -1,2 +1,0 @@
-"project","bug_id","algorithm","seed","search_budget_seconds","target_class","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
-"Chart",25,"STANDARD_GA",20260918,60,"org.jfree.chart.renderer.category.StatisticalBarRenderer",73,12,"PASS",28.74,22.47,"ok",""

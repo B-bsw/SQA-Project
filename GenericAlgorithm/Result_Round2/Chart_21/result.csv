@@ -1,3 +1,0 @@
-"project","bug_id","algorithm","seed","subject_version","test_class","execution_seconds","tests_run","passed_tests","failures","test_execution","status","error"
-"Chart",21,"STANDARD_GA",20260918,"buggy","org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset_ESTest",1,45,45,0,"PASS","ok",""
-"Chart",21,"STANDARD_GA",20260918,"fixed","org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset_ESTest",1,45,45,0,"PASS","ok",""

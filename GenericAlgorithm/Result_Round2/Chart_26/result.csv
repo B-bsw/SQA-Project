@@ -1,3 +1,0 @@
-"project","bug_id","algorithm","seed","subject_version","test_class","execution_seconds","tests_run","passed_tests","failures","test_execution","status","error"
-"Chart",26,"STANDARD_GA",20260918,"buggy","org.jfree.chart.axis.Axis_ESTest",2,50,50,0,"PASS","ok",""
-"Chart",26,"STANDARD_GA",20260918,"fixed","org.jfree.chart.axis.Axis_ESTest",2,50,50,0,"PASS","ok",""

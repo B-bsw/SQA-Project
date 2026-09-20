@@ -1,3 +1,0 @@
-"project","bug_id","algorithm","seed","subject_version","test_class","execution_seconds","tests_run","passed_tests","failures","test_execution","status","error"
-"Chart",2,"STANDARD_GA",20260918,"buggy","org.jfree.data.general.DatasetUtilities_ESTest",2,113,113,0,"PASS","ok",""
-"Chart",2,"STANDARD_GA",20260918,"fixed","org.jfree.data.general.DatasetUtilities_ESTest",3,113,113,0,"PASS","ok",""

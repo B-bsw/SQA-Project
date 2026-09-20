@@ -1,3 +1,0 @@
-"project","bug_id","algorithm","seed","subject_version","test_class","execution_seconds","tests_run","passed_tests","failures","test_execution","status","error"
-"Chart",13,"STANDARD_GA",20260918,"buggy","org.jfree.chart.block.BorderArrangement_ESTest",2,14,14,0,"PASS","ok",""
-"Chart",13,"STANDARD_GA",20260918,"fixed","org.jfree.chart.block.BorderArrangement_ESTest",1,14,14,0,"PASS","ok",""

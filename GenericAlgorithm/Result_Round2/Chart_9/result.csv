@@ -1,3 +1,0 @@
-"project","bug_id","algorithm","seed","subject_version","test_class","execution_seconds","tests_run","passed_tests","failures","test_execution","status","error"
-"Chart",9,"STANDARD_GA",20260918,"buggy","org.jfree.data.time.TimeSeries_ESTest",2,53,53,0,"PASS","ok",""
-"Chart",9,"STANDARD_GA",20260918,"fixed","org.jfree.data.time.TimeSeries_ESTest",2,53,53,0,"PASS","ok",""
