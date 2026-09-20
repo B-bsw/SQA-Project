@@ -521,9 +521,23 @@
   "JacksonDatabind_39/com/fasterxml/jackson/databind/deser/std/NullifyingDeserializer.java": {
     "project": "JacksonDatabind_39",
     "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_39/com/fasterxml/jackson/databind/deser/std/NullifyingDeserializer.java",
-    "status": "FAILED",
-    "error": "คีย์ API ทั้งหมดในระบบโควต้าหมดแล้ว หรือไม่สามารถเชื่อมต่อได้",
-    "updated_at": "2026-09-18T09:48:11.916848"
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/JacksonDatabind_39_buggy/NullifyingDeserializerTest.java",
+    "file_size_bytes": 7139,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 36.06,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1184,
+      "completion_tokens": 4096,
+      "total_tokens": 5280
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 30856,
+      "daily_remaining_tokens": 169144
+    },
+    "updated_at": "2026-09-19T11:14:09.450878"
   },
   "Chart_1/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java": {
     "project": "Chart_1",
@@ -1200,8 +1214,1548 @@
   "Cli_20/org/apache/commons/cli/PosixParser.java": {
     "project": "Cli_20",
     "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_20/org/apache/commons/cli/PosixParser.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_20_buggy/PosixParserTest.java",
+    "file_size_bytes": 8347,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 160.01,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4035,
+      "completion_tokens": 18334,
+      "total_tokens": 22369
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 22369,
+      "daily_remaining_tokens": 177631
+    },
+    "updated_at": "2026-09-19T10:57:14.471342"
+  },
+  "Cli_21/org/apache/commons/cli2/WriteableCommandLine.java": {
+    "project": "Cli_21",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_21/org/apache/commons/cli2/WriteableCommandLine.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_21_buggy/WriteableCommandLineTest.java",
+    "file_size_bytes": 8995,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 56.4,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1795,
+      "completion_tokens": 7342,
+      "total_tokens": 9137
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 9137,
+      "daily_remaining_tokens": 190863
+    },
+    "updated_at": "2026-09-19T10:58:12.910705"
+  },
+  "Cli_21/org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java": {
+    "project": "Cli_21",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_21/org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_21_buggy/WriteableCommandLineImplTest.java",
+    "file_size_bytes": 16618,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 411.67,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3783,
+      "completion_tokens": 49680,
+      "total_tokens": 53463
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 53463,
+      "daily_remaining_tokens": 146537
+    },
+    "updated_at": "2026-09-19T11:05:06.616703"
+  },
+  "Mockito_21/org/mockito/internal/creation/instance/ConstructorInstantiator.java": {
+    "project": "Mockito_21",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_21/org/mockito/internal/creation/instance/ConstructorInstantiator.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Mockito_21_buggy/ConstructorInstantiatorTest.java",
+    "file_size_bytes": 3963,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 24.64,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1135,
+      "completion_tokens": 3013,
+      "total_tokens": 4148
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 13285,
+      "daily_remaining_tokens": 186715
+    },
+    "updated_at": "2026-09-19T11:14:36.122684"
+  },
+  "Mockito_9/org/mockito/internal/stubbing/answers/CallsRealMethods.java": {
+    "project": "Mockito_9",
+    "source_file": "E:/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_9/org/mockito/internal/stubbing/answers/CallsRealMethods.java",
+    "status": "COMPLETED",
+    "test_file": "E:/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Mockito_9_buggy/CallsRealMethodsTest.java",
+    "file_size_bytes": 3625,
+    "category": "small",
+    "effective_lines": 10,
+    "raw_lines": 38,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 11.4,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1170,
+      "completion_tokens": 1407,
+      "total_tokens": 2577
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 33433,
+      "daily_remaining_tokens": 166567
+    },
+    "updated_at": "2026-09-20T01:38:45.072671"
+  },
+  "Compress_42/org/apache/commons/compress/archivers/zip/UnixStat.java": {
+    "project": "Compress_42",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_42/org/apache/commons/compress/archivers/zip/UnixStat.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Compress_42_buggy/UnixStatTest.java",
+    "file_size_bytes": 2664,
+    "category": "small",
+    "effective_lines": 10,
+    "raw_lines": 67,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 15.73,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1316,
+      "completion_tokens": 1328,
+      "total_tokens": 2644
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 36077,
+      "daily_remaining_tokens": 163923
+    },
+    "updated_at": "2026-09-19T11:40:17.102787"
+  },
+  "Cli_5/org/apache/commons/cli/Util.java": {
+    "project": "Cli_5",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_5/org/apache/commons/cli/Util.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_5_buggy/UtilTest.java",
+    "file_size_bytes": 2255,
+    "category": "small",
+    "effective_lines": 25,
+    "raw_lines": 67,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 8.28,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1321,
+      "completion_tokens": 1057,
+      "total_tokens": 2378
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 18311,
+      "daily_remaining_tokens": 181689
+    },
+    "updated_at": "2026-09-19T11:40:27.497492"
+  },
+  "Math_14/org/apache/commons/math3/optim/nonlinear/vector/Weight.java": {
+    "project": "Math_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_14/org/apache/commons/math3/optim/nonlinear/vector/Weight.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Math_14_buggy/WeightTest.java",
+    "file_size_bytes": 5152,
+    "category": "small",
+    "effective_lines": 25,
+    "raw_lines": 71,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 17.44,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1507,
+      "completion_tokens": 2500,
+      "total_tokens": 4007
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 62749,
+      "daily_remaining_tokens": 137251
+    },
+    "updated_at": "2026-09-19T11:40:46.971168"
+  },
+  "Mockito_19/org/mockito/internal/configuration/injection/filter/FinalMockCandidateFilter.java": {
+    "project": "Mockito_19",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_19/org/mockito/internal/configuration/injection/filter/FinalMockCandidateFilter.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Mockito_19_buggy/FinalMockCandidateFilterTest.java",
+    "file_size_bytes": 3345,
+    "category": "small",
+    "effective_lines": 30,
+    "raw_lines": 48,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 21.44,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1171,
+      "completion_tokens": 2500,
+      "total_tokens": 3671
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 66420,
+      "daily_remaining_tokens": 133580
+    },
+    "updated_at": "2026-09-19T11:42:33.315179"
+  },
+  "Time_26/org/joda/time/field/LenientDateTimeField.java": {
+    "project": "Time_26",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_26/org/joda/time/field/LenientDateTimeField.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T11:44:43.002809"
+  },
+  "Cli_29/org/apache/commons/cli/Util.java": {
+    "project": "Cli_29",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Cli_29/org/apache/commons/cli/Util.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Cli_29_buggy/UtilTest.java",
+    "file_size_bytes": 2090,
+    "category": "small",
+    "effective_lines": 33,
+    "raw_lines": 77,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 8.21,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1361,
+      "completion_tokens": 992,
+      "total_tokens": 2353
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 70616,
+      "daily_remaining_tokens": 129384
+    },
+    "updated_at": "2026-09-19T11:44:51.244443"
+  },
+  "Lang_28/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java": {
+    "project": "Lang_28",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_28/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Lang_28_buggy/NumericE.java",
+    "file_size_bytes": 290,
+    "category": "small",
+    "effective_lines": 34,
+    "raw_lines": 68,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 26.41,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1399,
+      "completion_tokens": 2500,
+      "total_tokens": 3899
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 29929,
+      "daily_remaining_tokens": 170071
+    },
+    "updated_at": "2026-09-19T11:45:51.284176"
+  },
+  "Collections_17/org/apache/commons/collections/functors/EqualPredicate.java": {
+    "project": "Collections_17",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_17/org/apache/commons/collections/functors/EqualPredicate.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Collections_17_buggy/EqualPredicateTest.java",
+    "file_size_bytes": 5573,
+    "category": "small",
+    "effective_lines": 35,
+    "raw_lines": 121,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 15.89,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1881,
+      "completion_tokens": 2198,
+      "total_tokens": 4079
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 74547,
+      "daily_remaining_tokens": 125453
+    },
+    "updated_at": "2026-09-19T11:46:09.196505"
+  },
+  "Mockito_38/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java": {
+    "project": "Mockito_38",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_38/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Mockito_38_buggy/ArgumentMatchingToolTest.java",
+    "file_size_bytes": 3327,
+    "category": "small",
+    "effective_lines": 36,
+    "raw_lines": 50,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 22.12,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1183,
+      "completion_tokens": 2500,
+      "total_tokens": 3683
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 33612,
+      "daily_remaining_tokens": 166388
+    },
+    "updated_at": "2026-09-19T11:47:34.779568"
+  },
+  "JxPath_15/org/apache/commons/jxpath/ri/axes/UnionContext.java": {
+    "project": "JxPath_15",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_15/org/apache/commons/jxpath/ri/axes/UnionContext.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T11:49:39.058100"
+  },
+  "Jsoup_92/org/jsoup/parser/ParseSettings.java": {
+    "project": "Jsoup_92",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_92/org/jsoup/parser/ParseSettings.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Jsoup_92_buggy/ParseSettingsTest.java",
+    "file_size_bytes": 6231,
+    "category": "small",
+    "effective_lines": 38,
+    "raw_lines": 75,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 17.14,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1262,
+      "completion_tokens": 2500,
+      "total_tokens": 3762
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 82269,
+      "daily_remaining_tokens": 117731
+    },
+    "updated_at": "2026-09-19T11:49:56.227226"
+  },
+  "Math_35/org/apache/commons/math3/genetics/ElitisticListPopulation.java": {
+    "project": "Math_35",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_35/org/apache/commons/math3/genetics/ElitisticListPopulation.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T11:51:52.406037"
+  },
+  "Collections_14/org/apache/commons/collections/map/CaseInsensitiveMap.java": {
+    "project": "Collections_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_14/org/apache/commons/collections/map/CaseInsensitiveMap.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Collections_14_buggy/CaseInsensitiveMapTest.java",
+    "file_size_bytes": 5707,
+    "category": "small",
+    "effective_lines": 39,
+    "raw_lines": 153,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 18.89,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 2557,
+      "completion_tokens": 2500,
+      "total_tokens": 5057
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 87965,
+      "daily_remaining_tokens": 112035
+    },
+    "updated_at": "2026-09-19T11:52:11.322673"
+  },
+  "Compress_33/org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStream.java": {
+    "project": "Compress_33",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_33/org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStream.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Compress_33_buggy/DeflateCompressorInputStreamTest.java",
+    "file_size_bytes": 5594,
+    "category": "small",
+    "effective_lines": 40,
+    "raw_lines": 106,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 18.93,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1717,
+      "completion_tokens": 2500,
+      "total_tokens": 4217
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 64204,
+      "daily_remaining_tokens": 135796
+    },
+    "updated_at": "2026-09-19T11:52:32.286050"
+  },
+  "Lang_64/org/apache/commons/lang/enums/ValuedEnum.java": {
+    "project": "Lang_64",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_64/org/apache/commons/lang/enums/ValuedEnum.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Lang_64_buggy/ValuedEnumTest.java",
+    "file_size_bytes": 3619,
+    "category": "small",
+    "effective_lines": 40,
+    "raw_lines": 210,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 21.84,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 3452,
+      "completion_tokens": 2500,
+      "total_tokens": 5952
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 48173,
+      "daily_remaining_tokens": 151827
+    },
+    "updated_at": "2026-09-19T11:52:56.150218"
+  },
+  "JacksonDatabind_105/com/fasterxml/jackson/databind/deser/std/JdkDeserializers.java": {
+    "project": "JacksonDatabind_105",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_105/com/fasterxml/jackson/databind/deser/std/JdkDeserializers.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/JacksonDatabind_105_buggy/JdkDeserializersTest.java",
+    "file_size_bytes": 3465,
+    "category": "small",
+    "effective_lines": 41,
+    "raw_lines": 51,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 21.53,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1194,
+      "completion_tokens": 2500,
+      "total_tokens": 3694
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 90612,
+      "daily_remaining_tokens": 109388
+    },
+    "updated_at": "2026-09-19T11:53:19.701953"
+  },
+  "Jsoup_56/org/jsoup/nodes/DocumentType.java": {
+    "project": "Jsoup_56",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_56/org/jsoup/nodes/DocumentType.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Jsoup_56_buggy/DocumentTypeTest.java",
+    "file_size_bytes": 5282,
+    "category": "small",
+    "effective_lines": 42,
+    "raw_lines": 72,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 18.21,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1455,
+      "completion_tokens": 2500,
+      "total_tokens": 3955
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 94567,
+      "daily_remaining_tokens": 105433
+    },
+    "updated_at": "2026-09-19T11:55:19.891890"
+  },
+  "Gson_6/com/google/gson/internal/bind/JsonAdapterAnnotationTypeAdapterFactory.java": {
+    "project": "Gson_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_6/com/google/gson/internal/bind/JsonAdapterAnnotationTypeAdapterFactory.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Gson_6_buggy/JsonAdapterAnnotationTypeAdapterFactoryTest.java",
+    "file_size_bytes": 248,
+    "category": "small",
+    "effective_lines": 42,
+    "raw_lines": 70,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 23.71,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1761,
+      "completion_tokens": 2500,
+      "total_tokens": 4261
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 96181,
+      "daily_remaining_tokens": 103819
+    },
+    "updated_at": "2026-09-19T11:55:45.634763"
+  },
+  "Compress_44/org/apache/commons/compress/utils/ChecksumCalculatingInputStream.java": {
+    "project": "Compress_44",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_44/org/apache/commons/compress/utils/ChecksumCalculatingInputStream.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Compress_44_buggy/ChecksumCalculatingInputStreamTest.java",
+    "file_size_bytes": 5693,
+    "category": "small",
+    "effective_lines": 42,
+    "raw_lines": 99,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 17.93,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1609,
+      "completion_tokens": 2500,
+      "total_tokens": 4109
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 72268,
+      "daily_remaining_tokens": 127732
+    },
+    "updated_at": "2026-09-19T11:56:05.596728"
+  },
+  "Lang_19/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java": {
+    "project": "Lang_19",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_19/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Lang_19_buggy/NumericEntityUnescaperTest.java",
+    "file_size_bytes": 4283,
+    "category": "small",
+    "effective_lines": 43,
+    "raw_lines": 84,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 21.74,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1588,
+      "completion_tokens": 2500,
+      "total_tokens": 4088
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 56216,
+      "daily_remaining_tokens": 143784
+    },
+    "updated_at": "2026-09-19T11:56:29.371417"
+  },
+  "Closure_165/com/google/javascript/rhino/jstype/RecordTypeBuilder.java": {
+    "project": "Closure_165",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_165/com/google/javascript/rhino/jstype/RecordTypeBuilder.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T11:58:19.544967"
+  },
+  "Lang_4/org/apache/commons/lang3/text/translate/LookupTranslator.java": {
+    "project": "Lang_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_4/org/apache/commons/lang3/text/translate/LookupTranslator.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Lang_4_buggy/LookupTranslatorTest.java",
+    "file_size_bytes": 5325,
+    "category": "small",
+    "effective_lines": 44,
+    "raw_lines": 85,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 21.52,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1633,
+      "completion_tokens": 2500,
+      "total_tokens": 4133
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 103071,
+      "daily_remaining_tokens": 96929
+    },
+    "updated_at": "2026-09-19T11:58:41.090352"
+  },
+  "Mockito_31/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java": {
+    "project": "Mockito_31",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_31/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T12:00:43.672921"
+  },
+  "JacksonDatabind_111/com/fasterxml/jackson/databind/deser/std/AtomicReferenceDeserializer.java": {
+    "project": "JacksonDatabind_111",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_111/com/fasterxml/jackson/databind/deser/std/AtomicReferenceDeserializer.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/JacksonDatabind_111_buggy/AtomicReferenceDeserializerTest.java",
+    "file_size_bytes": 2974,
+    "category": "small",
+    "effective_lines": 45,
+    "raw_lines": 72,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 22.08,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1395,
+      "completion_tokens": 2500,
+      "total_tokens": 3895
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 108664,
+      "daily_remaining_tokens": 91336
+    },
+    "updated_at": "2026-09-19T12:01:05.773963"
+  },
+  "JacksonDatabind_49/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java": {
+    "project": "JacksonDatabind_49",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_49/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T12:03:02.550633"
+  },
+  "JacksonDatabind_25/com/fasterxml/jackson/databind/module/SimpleAbstractTypeResolver.java": {
+    "project": "JacksonDatabind_25",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_25/com/fasterxml/jackson/databind/module/SimpleAbstractTypeResolver.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/JacksonDatabind_25_buggy/SimpleAbstractTypeResolverTest.java",
+    "file_size_bytes": 2961,
+    "category": "small",
+    "effective_lines": 45,
+    "raw_lines": 90,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 21.72,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1870,
+      "completion_tokens": 2500,
+      "total_tokens": 4370
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 89182,
+      "daily_remaining_tokens": 110818
+    },
+    "updated_at": "2026-09-19T12:03:24.302318"
+  },
+  "Mockito_37/org/mockito/internal/stubbing/answers/AnswersValidator.java": {
+    "project": "Mockito_37",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_37/org/mockito/internal/stubbing/answers/AnswersValidator.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Mockito_37_buggy/AnswersValidatorTest.java",
+    "file_size_bytes": 2995,
+    "category": "small",
+    "effective_lines": 46,
+    "raw_lines": 65,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 20.73,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1379,
+      "completion_tokens": 2500,
+      "total_tokens": 3879
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 72639,
+      "daily_remaining_tokens": 127361
+    },
+    "updated_at": "2026-09-19T12:03:47.063416"
+  },
+  "Mockito_30/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java": {
+    "project": "Mockito_30",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_30/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T12:05:48.943758"
+  },
+  "Jsoup_86/org/jsoup/nodes/Comment.java": {
+    "project": "Jsoup_86",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_86/org/jsoup/nodes/Comment.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Jsoup_86_buggy/CommentTest.java",
+    "file_size_bytes": 6422,
+    "category": "small",
+    "effective_lines": 47,
+    "raw_lines": 85,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 18.23,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1439,
+      "completion_tokens": 2500,
+      "total_tokens": 3939
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 119453,
+      "daily_remaining_tokens": 80547
+    },
+    "updated_at": "2026-09-19T12:06:07.202448"
+  },
+  "Mockito_25/org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java": {
+    "project": "Mockito_25",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_25/org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T12:08:07.585560"
+  },
+  "Jsoup_52/org/jsoup/nodes/XmlDeclaration.java": {
+    "project": "Jsoup_52",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_52/org/jsoup/nodes/XmlDeclaration.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Jsoup_52_buggy/XmlDeclarationTest.java",
+    "file_size_bytes": 3834,
+    "category": "small",
+    "effective_lines": 49,
+    "raw_lines": 78,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 20.76,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1331,
+      "completion_tokens": 2500,
+      "total_tokens": 3831
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 125286,
+      "daily_remaining_tokens": 74714
+    },
+    "updated_at": "2026-09-19T12:08:28.369301"
+  },
+  "Math_4/org/apache/commons/math3/geometry/euclidean/threed/SubLine.java": {
+    "project": "Math_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_4/org/apache/commons/math3/geometry/euclidean/threed/SubLine.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Math_4_buggy/SubLineTest.java",
+    "file_size_bytes": 996,
+    "category": "small",
+    "effective_lines": 49,
+    "raw_lines": 142,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 22.81,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 2719,
+      "completion_tokens": 2500,
+      "total_tokens": 5219
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 103236,
+      "daily_remaining_tokens": 96764
+    },
+    "updated_at": "2026-09-19T12:08:53.205636"
+  },
+  "Lang_6/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java": {
+    "project": "Lang_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_6/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T12:11:04.687972"
+  },
+  "Closure_28/com/google/javascript/jscomp/InlineCostEstimator.java": {
+    "project": "Closure_28",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_28/com/google/javascript/jscomp/InlineCostEstimator.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T12:13:17.475582"
+  },
+  "Math_70/org/apache/commons/math/analysis/solvers/BisectionSolver.java": {
+    "project": "Math_70",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_70/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Math_70_buggy/BisectionSolverTest.java",
+    "file_size_bytes": 2877,
+    "category": "small",
+    "effective_lines": 53,
+    "raw_lines": 109,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 23.5,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1918,
+      "completion_tokens": 2500,
+      "total_tokens": 4418
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 137281,
+      "daily_remaining_tokens": 62719
+    },
+    "updated_at": "2026-09-19T12:14:12.012636"
+  },
+  "Mockito_32/org/mockito/internal/configuration/SpyAnnotationEngine.java": {
+    "project": "Mockito_32",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_32/org/mockito/internal/configuration/SpyAnnotationEngine.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Mockito_32_buggy/SpyAnnotationEngineTest.java",
+    "file_size_bytes": 3394,
+    "category": "small",
+    "effective_lines": 54,
+    "raw_lines": 68,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 23.35,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1553,
+      "completion_tokens": 2500,
+      "total_tokens": 4053
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 138184,
+      "daily_remaining_tokens": 61816
+    },
+    "updated_at": "2026-09-19T12:14:37.393585"
+  },
+  "Mockito_26/org/mockito/internal/util/Primitives.java": {
+    "project": "Mockito_26",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_26/org/mockito/internal/util/Primitives.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Mockito_26_buggy/PrimitivesTest.java",
+    "file_size_bytes": 5695,
+    "category": "small",
+    "effective_lines": 55,
+    "raw_lines": 68,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 16.55,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1670,
+      "completion_tokens": 2500,
+      "total_tokens": 4170
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 116251,
+      "daily_remaining_tokens": 83749
+    },
+    "updated_at": "2026-09-19T12:14:55.964200"
+  },
+  "Mockito_28/org/mockito/internal/configuration/DefaultInjectionEngine.java": {
+    "project": "Mockito_28",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_28/org/mockito/internal/configuration/DefaultInjectionEngine.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T12:17:07.449191"
+  },
+  "JxPath_18/org/apache/commons/jxpath/ri/axes/AttributeContext.java": {
+    "project": "JxPath_18",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_18/org/apache/commons/jxpath/ri/axes/AttributeContext.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T12:19:03.425009"
+  },
+  "Compress_40/org/apache/commons/compress/utils/BitInputStream.java": {
+    "project": "Compress_40",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_40/org/apache/commons/compress/utils/BitInputStream.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Compress_40_buggy/BitInputStreamTest.java",
+    "file_size_bytes": 1413,
+    "category": "small",
+    "effective_lines": 57,
+    "raw_lines": 110,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 23.01,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 2069,
+      "completion_tokens": 2500,
+      "total_tokens": 4569
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 150672,
+      "daily_remaining_tokens": 49328
+    },
+    "updated_at": "2026-09-19T12:19:57.486558"
+  },
+  "Lang_17/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java": {
+    "project": "Lang_17",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_17/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Lang_17_buggy/CharSequenceTranslatorTest.java",
+    "file_size_bytes": 270,
+    "category": "small",
+    "effective_lines": 57,
+    "raw_lines": 131,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 27.92,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 2269,
+      "completion_tokens": 2500,
+      "total_tokens": 4769
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 151775,
+      "daily_remaining_tokens": 48225
+    },
+    "updated_at": "2026-09-19T12:20:27.436474"
+  },
+  "JacksonDatabind_10/com/fasterxml/jackson/databind/ser/AnyGetterWriter.java": {
+    "project": "JacksonDatabind_10",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_10/com/fasterxml/jackson/databind/ser/AnyGetterWriter.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/JacksonDatabind_10_buggy/AnyGetterWriterTest.java",
+    "file_size_bytes": 2668,
+    "category": "small",
+    "effective_lines": 58,
+    "raw_lines": 84,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 20.57,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1689,
+      "completion_tokens": 2500,
+      "total_tokens": 4189
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 112317,
+      "daily_remaining_tokens": 87683
+    },
+    "updated_at": "2026-09-19T12:21:15.648402"
+  },
+  "Codec_12/org/apache/commons/codec/binary/BaseNCodecInputStream.java": {
+    "project": "Codec_12",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_12/org/apache/commons/codec/binary/BaseNCodecInputStream.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Codec_12_buggy/BaseNCodecInputStreamTest.java",
+    "file_size_bytes": 1877,
+    "category": "small",
+    "effective_lines": 58,
+    "raw_lines": 158,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 23.86,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 2448,
+      "completion_tokens": 2500,
+      "total_tokens": 4948
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 156723,
+      "daily_remaining_tokens": 43277
+    },
+    "updated_at": "2026-09-19T12:22:07.451873"
+  },
+  "Math_84/org/apache/commons/math/optimization/direct/MultiDirectional.java": {
+    "project": "Math_84",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_84/org/apache/commons/math/optimization/direct/MultiDirectional.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T12:24:09.034898"
+  },
+  "Csv_2/org/apache/commons/csv/CSVRecord.java": {
+    "project": "Csv_2",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_2/org/apache/commons/csv/CSVRecord.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Csv_2_buggy/CSVRecordTest.java",
+    "file_size_bytes": 5203,
+    "category": "small",
+    "effective_lines": 59,
+    "raw_lines": 167,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 18.47,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 2251,
+      "completion_tokens": 2500,
+      "total_tokens": 4751
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 138819,
+      "daily_remaining_tokens": 61181
+    },
+    "updated_at": "2026-09-19T12:24:27.526025"
+  },
+  "Jsoup_44/org/jsoup/parser/TreeBuilder.java": {
+    "project": "Jsoup_44",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_44/org/jsoup/parser/TreeBuilder.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T12:26:43.810579"
+  },
+  "JacksonDatabind_93/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java": {
+    "project": "JacksonDatabind_93",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_93/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T12:29:09.503395"
+  },
+  "JacksonDatabind_94/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java": {
+    "project": "JacksonDatabind_94",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_94/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T12:31:30.993624"
+  },
+  "Codec_6/org/apache/commons/codec/binary/Base64InputStream.java": {
+    "project": "Codec_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_6/org/apache/commons/codec/binary/Base64InputStream.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Codec_6_buggy/Base64InputStreamTest.java",
+    "file_size_bytes": 1950,
+    "category": "small",
+    "effective_lines": 60,
+    "raw_lines": 190,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 23.42,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 3196,
+      "completion_tokens": 2500,
+      "total_tokens": 5696
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 136589,
+      "daily_remaining_tokens": 63411
+    },
+    "updated_at": "2026-09-19T12:31:54.436719"
+  },
+  "Mockito_17/org/mockito/internal/creation/MockSettingsImpl.java": {
+    "project": "Mockito_17",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_17/org/mockito/internal/creation/MockSettingsImpl.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Mockito_17_buggy/MockSettingsImplTest.java",
+    "file_size_bytes": 2782,
+    "category": "small",
+    "effective_lines": 61,
+    "raw_lines": 80,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 22.56,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1456,
+      "completion_tokens": 2500,
+      "total_tokens": 3956
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 178152,
+      "daily_remaining_tokens": 21848
+    },
+    "updated_at": "2026-09-19T12:32:19.023181"
+  },
+  "JacksonDatabind_34/com/fasterxml/jackson/databind/ser/std/NumberSerializer.java": {
+    "project": "JacksonDatabind_34",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_34/com/fasterxml/jackson/databind/ser/std/NumberSerializer.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/JacksonDatabind_34_buggy/NumberSerializerTest.java",
+    "file_size_bytes": 1027,
+    "category": "small",
+    "effective_lines": 61,
+    "raw_lines": 88,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 22.43,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1816,
+      "completion_tokens": 2500,
+      "total_tokens": 4316
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 156905,
+      "daily_remaining_tokens": 43095
+    },
+    "updated_at": "2026-09-19T12:33:12.705610"
+  },
+  "Gson_8/com/google/gson/internal/UnsafeAllocator.java": {
+    "project": "Gson_8",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_8/com/google/gson/internal/UnsafeAllocator.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Gson_8_buggy/UnsafeAllocatorTest.java",
+    "file_size_bytes": 7224,
+    "category": "small",
+    "effective_lines": 61,
+    "raw_lines": 110,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 20.74,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 2056,
+      "completion_tokens": 2500,
+      "total_tokens": 4556
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 141145,
+      "daily_remaining_tokens": 58855
+    },
+    "updated_at": "2026-09-19T12:33:35.510393"
+  },
+  "Jsoup_21/org/jsoup/select/CombiningEvaluator.java": {
+    "project": "Jsoup_21",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_21/org/jsoup/select/CombiningEvaluator.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Jsoup_21_buggy/CombiningEvaluatorTest.java",
+    "file_size_bytes": 2371,
+    "category": "small",
+    "effective_lines": 62,
+    "raw_lines": 83,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 22.47,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1326,
+      "completion_tokens": 2500,
+      "total_tokens": 3826
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 181978,
+      "daily_remaining_tokens": 18022
+    },
+    "updated_at": "2026-09-19T12:34:00.025416"
+  },
+  "Jsoup_69/org/jsoup/nodes/FormElement.java": {
+    "project": "Jsoup_69",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_69/org/jsoup/nodes/FormElement.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Jsoup_69_buggy/FormElementTest.java",
+    "file_size_bytes": 2578,
+    "category": "small",
+    "effective_lines": 62,
+    "raw_lines": 108,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 23.25,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1925,
+      "completion_tokens": 2500,
+      "total_tokens": 4425
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 184040,
+      "daily_remaining_tokens": 15960
+    },
+    "updated_at": "2026-09-19T12:34:25.308446"
+  },
+  "JacksonDatabind_79/com/fasterxml/jackson/databind/introspect/ObjectIdInfo.java": {
+    "project": "JacksonDatabind_79",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_79/com/fasterxml/jackson/databind/introspect/ObjectIdInfo.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/JacksonDatabind_79_buggy/ObjectIdInfoTest.java",
+    "file_size_bytes": 5723,
+    "category": "small",
+    "effective_lines": 63,
+    "raw_lines": 84,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 17.95,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1835,
+      "completion_tokens": 2500,
+      "total_tokens": 4335
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 161240,
+      "daily_remaining_tokens": 38760
+    },
+    "updated_at": "2026-09-19T12:34:45.367974"
+  },
+  "Jsoup_28/org/jsoup/parser/Parser.java": {
+    "project": "Jsoup_28",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_28/org/jsoup/parser/Parser.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Jsoup_28_buggy/ParserTest.java",
+    "file_size_bytes": 6275,
+    "category": "small",
+    "effective_lines": 63,
+    "raw_lines": 164,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 18.87,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 2755,
+      "completion_tokens": 2500,
+      "total_tokens": 5255
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 146400,
+      "daily_remaining_tokens": 53600
+    },
+    "updated_at": "2026-09-19T12:35:06.290488"
+  },
+  "Codec_8/org/apache/commons/codec/binary/Base64InputStream.java": {
+    "project": "Codec_8",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_8/org/apache/commons/codec/binary/Base64InputStream.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Codec_8_buggy/Base64InputStreamTest.java",
+    "file_size_bytes": 4152,
+    "category": "small",
+    "effective_lines": 64,
+    "raw_lines": 192,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 19.62,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 3202,
+      "completion_tokens": 2500,
+      "total_tokens": 5702
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 189742,
+      "daily_remaining_tokens": 10258
+    },
+    "updated_at": "2026-09-19T12:36:01.085280"
+  },
+  "Closure_174/com/google/javascript/jscomp/JsAst.java": {
+    "project": "Closure_174",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_174/com/google/javascript/jscomp/JsAst.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Closure_174_buggy/JsAstTest.java",
+    "file_size_bytes": 2160,
+    "category": "small",
+    "effective_lines": 66,
+    "raw_lines": 109,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 22.88,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1833,
+      "completion_tokens": 2500,
+      "total_tokens": 4333
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 165573,
+      "daily_remaining_tokens": 34427
+    },
+    "updated_at": "2026-09-19T12:36:26.017349"
+  },
+  "Jsoup_42/org/jsoup/nodes/FormElement.java": {
+    "project": "Jsoup_42",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_42/org/jsoup/nodes/FormElement.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Jsoup_42_buggy/FormElementTest.java",
+    "file_size_bytes": 3700,
+    "category": "small",
+    "effective_lines": 66,
+    "raw_lines": 113,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 23.52,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1929,
+      "completion_tokens": 2500,
+      "total_tokens": 4429
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 170002,
+      "daily_remaining_tokens": 29998
+    },
+    "updated_at": "2026-09-19T12:38:28.538601"
+  },
+  "Jsoup_93/org/jsoup/nodes/FormElement.java": {
+    "project": "Jsoup_93",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_93/org/jsoup/nodes/FormElement.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Jsoup_93_buggy/FormElementTest.java",
+    "file_size_bytes": 1981,
+    "category": "small",
+    "effective_lines": 67,
+    "raw_lines": 114,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 23.19,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 1969,
+      "completion_tokens": 2500,
+      "total_tokens": 4469
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 198640,
+      "daily_remaining_tokens": 1360
+    },
+    "updated_at": "2026-09-19T12:39:56.998359"
+  },
+  "Compress_26/org/apache/commons/compress/utils/IOUtils.java": {
+    "project": "Compress_26",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_26/org/apache/commons/compress/utils/IOUtils.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Compress_26_buggy/IOUtilsTest.java",
+    "file_size_bytes": 4224,
+    "category": "small",
+    "effective_lines": 67,
+    "raw_lines": 192,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 22.12,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 2790,
+      "completion_tokens": 2500,
+      "total_tokens": 5290
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 175292,
+      "daily_remaining_tokens": 24708
+    },
+    "updated_at": "2026-09-19T12:40:21.152404"
+  },
+  "Jsoup_58/org/jsoup/Jsoup.java": {
+    "project": "Jsoup_58",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_58/org/jsoup/Jsoup.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Jsoup_58_buggy/JsoupTest.java",
+    "file_size_bytes": 4838,
+    "category": "small",
+    "effective_lines": 68,
+    "raw_lines": 253,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 19.32,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 4514,
+      "completion_tokens": 2500,
+      "total_tokens": 7014
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 162312,
+      "daily_remaining_tokens": 37688
+    },
+    "updated_at": "2026-09-19T12:40:42.501812"
+  },
+  "Closure_143/com/google/javascript/jscomp/RemoveConstantExpressions.java": {
+    "project": "Closure_143",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_143/com/google/javascript/jscomp/RemoveConstantExpressions.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Closure_143_buggy/RemoveConstantExpressionsTest.java",
+    "file_size_bytes": 1771,
+    "category": "small",
+    "effective_lines": 70,
+    "raw_lines": 135,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 25.02,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 2132,
+      "completion_tokens": 2500,
+      "total_tokens": 4632
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 201210,
+      "daily_remaining_tokens": -1210
+    },
+    "updated_at": "2026-09-19T12:41:09.559954"
+  },
+  "Mockito_5/org/mockito/internal/verification/VerificationOverTimeImpl.java": {
+    "project": "Mockito_5",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_5/org/mockito/internal/verification/VerificationOverTimeImpl.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T12:42:43.442151"
+  },
+  "Math_6/org/apache/commons/math3/optim/BaseOptimizer.java": {
+    "project": "Math_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_6/org/apache/commons/math3/optim/BaseOptimizer.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Math_6_buggy/BaseOptimizerTest.java",
+    "file_size_bytes": 4221,
+    "category": "small",
+    "effective_lines": 70,
+    "raw_lines": 231,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 21.03,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 3230,
+      "completion_tokens": 2500,
+      "total_tokens": 5730
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 186079,
+      "daily_remaining_tokens": 13921
+    },
+    "updated_at": "2026-09-19T12:43:04.497806"
+  },
+  "Math_30/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java": {
+    "project": "Math_30",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_30/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Math_30_buggy/MannWhitneyUTestTest.java",
+    "file_size_bytes": 5282,
+    "category": "small",
+    "effective_lines": 70,
+    "raw_lines": 234,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 18.07,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 3951,
+      "completion_tokens": 2500,
+      "total_tokens": 6451
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 173820,
+      "daily_remaining_tokens": 26180
+    },
+    "updated_at": "2026-09-19T12:43:24.613766"
+  },
+  "JacksonCore_16/com/fasterxml/jackson/core/util/JsonParserSequence.java": {
+    "project": "JacksonCore_16",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonCore_16/com/fasterxml/jackson/core/util/JsonParserSequence.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T12:44:33.779674"
+  },
+  "Mockito_23/org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java": {
+    "project": "Mockito_23",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_23/org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T12:45:34.351739"
+  },
+  "Mockito_17/org/mockito/internal/util/MockUtil.java": {
+    "project": "Mockito_17",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_17/org/mockito/internal/util/MockUtil.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T12:46:33.420672"
+  },
+  "Jsoup_26/org/jsoup/safety/Cleaner.java": {
+    "project": "Jsoup_26",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_26/org/jsoup/safety/Cleaner.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Jsoup_26_buggy/CleanerTest.java",
+    "file_size_bytes": 5809,
+    "category": "small",
+    "effective_lines": 72,
+    "raw_lines": 129,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 19.21,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 2501,
+      "completion_tokens": 2500,
+      "total_tokens": 5001
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 193110,
+      "daily_remaining_tokens": 6890
+    },
+    "updated_at": "2026-09-19T12:46:53.273990"
+  },
+  "Mockito_19/org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java": {
+    "project": "Mockito_19",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_19/org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java",
+    "status": "FAILED",
+    "error": "Failed after 1 retries: ไม่ได้รับเนื้อหาโค้ดจากเซิร์ฟเวอร์ (Empty response) อาจเกิดจากการประมวลผลล้มเหลวหรือตัดการเชื่อมต่อก่อนเริ่มส่ง",
+    "updated_at": "2026-09-19T12:47:23.327325"
+  },
+  "Math_95/org/apache/commons/math/distribution/FDistributionImpl.java": {
+    "project": "Math_95",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_95/org/apache/commons/math/distribution/FDistributionImpl.java",
+    "status": "LIMIT_REACHED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Math_95_buggy/FDistributionImplTest.java",
+    "file_size_bytes": 5960,
+    "category": "small",
+    "effective_lines": 72,
+    "raw_lines": 194,
+    "max_tokens_allocated": 2500,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 17.35,
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 3182,
+      "completion_tokens": 2500,
+      "total_tokens": 5682
+    },
+    "model_quota": {
+      "daily_quota_tokens": 200000,
+      "daily_usage_tokens": 204108,
+      "daily_remaining_tokens": -4108
+    },
+    "updated_at": "2026-09-19T12:47:40.710902"
+  },
+  "Collections_11/org/apache/commons/collections/keyvalue/MultiKey.java": {
+    "project": "Collections_11",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_11/org/apache/commons/collections/keyvalue/MultiKey.java",
     "status": "FAILED",
     "error": "คีย์ API ทั้งหมดในระบบโควต้าหมดแล้ว หรือไม่สามารถเชื่อมต่อได้",
-    "updated_at": "2026-09-18T11:14:03.919205"
+    "updated_at": "2026-09-19T12:47:42.747986"
+  },
+  "Math_4/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java": {
+    "project": "Math_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_4/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Claude-sonnet-5/TestCode/Math_4_buggy/SubLineTest.java",
+    "file_size_bytes": 996,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-19T12:49:34.748546"
   }
 }
