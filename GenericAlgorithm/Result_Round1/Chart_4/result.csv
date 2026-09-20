@@ -1,2 +1,0 @@
-"project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
-"Chart",4,"Resoucre/Chart_4","GenericAlgorithm/TestCode/Chart_4","STANDARD_GA",20260918,60,"org.jfree.chart.plot.XYPlot","Resoucre/Chart_4/org/jfree/chart/plot/XYPlot.java",133,177,"PASS",56.49,47.82,"ok",""

@@ -1,2 +1,0 @@
-"project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
-"Cli",12,"Resoucre/Cli_12","GenericAlgorithm/TestCode/Cli_12","STANDARD_GA",20260918,60,"org.apache.commons.cli.GnuParser","Resoucre/Cli_12/org/apache/commons/cli/GnuParser.java",10,4,"PASS",100.00,100.00,"ok",""

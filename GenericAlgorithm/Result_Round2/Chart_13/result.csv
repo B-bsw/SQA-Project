@@ -1,2 +1,0 @@
-"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
-"Chart",13,"fixed","GenericAlgorithm/TestCode/Chart_13","org.jfree.chart.block.BorderArrangement_ESTest",1,15,0,"PASS","ok",""

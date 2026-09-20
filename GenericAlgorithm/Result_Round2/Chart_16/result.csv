@@ -1,2 +1,0 @@
-"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
-"Chart",16,"fixed","GenericAlgorithm/TestCode/Chart_16","org.jfree.data.category.DefaultIntervalCategoryDataset_ESTest",2,49,0,"PASS","ok",""

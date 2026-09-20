@@ -1,2 +1,0 @@
-"project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
-"Chart",13,"Resoucre/Chart_13","GenericAlgorithm/TestCode/Chart_13","STANDARD_GA",20260918,60,"org.jfree.chart.block.BorderArrangement","Resoucre/Chart_13/org/jfree/chart/block/BorderArrangement.java",72,15,"PASS",62.88,63.11,"ok",""

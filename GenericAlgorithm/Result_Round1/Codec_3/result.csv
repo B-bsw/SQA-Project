@@ -1,2 +1,0 @@
-"project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
-"Codec",3,"Resoucre/Codec_3","GenericAlgorithm/TestCode/Codec_3","STANDARD_GA",20260918,60,"org.apache.commons.codec.language.DoubleMetaphone","Resoucre/Codec_3/org/apache/commons/codec/language/DoubleMetaphone.java",82,76,"PASS",89.09,80.36,"ok",""

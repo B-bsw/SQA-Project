@@ -1,2 +1,0 @@
-"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
-"Codec",17,"fixed","GenericAlgorithm/TestCode/Codec_17","org.apache.commons.codec.binary.StringUtils_ESTest",1,23,0,"PASS","ok",""

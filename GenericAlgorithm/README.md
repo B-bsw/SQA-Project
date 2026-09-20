@@ -1,84 +1,64 @@
-# Generic Algorithm — EvoSuite (STANDARD_GA)
+# Generic Algorithm — EvoSuite
 
-This directory contains the EvoSuite genetic-algorithm experiment for the 17
-Defects4J projects. Buggy source files are read from `../Resoucre`, generated
-tests are written to `TestCode`, and machine-readable results are written to
-`Result_Round1` and `Result_Round2`.
+ทดลองสร้าง test ด้วย EvoSuite `STANDARD_GA` จาก Defects4J buggy revision แล้ว
+นำ generated tests ชุดเดียวกันไปรันกับทั้ง buggy และ fixed revision
 
-## Workflow
-
-1. **Round 1:** generate EvoSuite tests from the buggy (`b`) revision and run
-   them against that same revision.
-2. **Round 2:** compile and run the Round 1 tests against the fixed (`f`)
-   revision.
-3. **Collect:** combine every per-bug JSON report.
-4. **Summarize:** show a compact per-project overview and coverage.
+## ใช้งาน
 
 ```bash
 cd GenericAlgorithm/Code
+./run_evosuite_ga.sh Chart 1 1 120
+./collect_ga_reports.sh 1
+./merge_round_reports.sh
 
-# One bug
-./run_evosuite_test.sh Chart 1 60
-./run_evosuite_test_fixed.sh Chart 1
-
-# Multiple bugs (two concurrent processes by default)
-./run_evosuite_test.sh Lang 1,2,3 60
-./run_evosuite_test_fixed.sh Lang 1,2,3
-
-# Aggregate and summarize existing results
-./collect_results.sh all
-./summarize_results.sh
+# รันหลาย target พร้อมกันและรวม report อัตโนมัติ
+./run_evosuite_ga.sh Chart 1,2,3 1 120
 ```
 
-Use `MAX_PARALLEL=4` before a multi-bug command to change concurrency. EvoSuite
-can use up to 2 GB per process by default, so choose this value according to the
-available memory.
+Arguments ของสคริปต์หลัก:
 
-## Project checklist
+```text
+run_evosuite_ga.sh PROJECT BUG_ID[,BUG_ID...] RESULT_ROUND [BUDGET_SECONDS]
+```
 
-Status snapshot: 2026-09-19. `Round 1` and `Round 2` show
-**successful reports / reports produced**. A project is marked complete when a
-report exists for every Resource bug, even if individual reports contain a
-failed test. `TestCode` counts bugs that have a generated `*_ESTest.java` file.
+ตัวอย่าง Round 2:
 
-| Done | Project | Resource bugs | Round 1 (OK/reports) | TestCode bugs | Round 2 (OK/reports) | Status |
-|:---:|---|---:|---:|---:|---:|---|
-| ✅ | Chart | 26 | 26/26 | 26 | 21/26 | Both rounds complete; 5 Round 2 reports failed |
-| ✅ | Cli | 39 | 38/39 | 39 | 25/39 | Both rounds complete; 1 Round 1 and 14 Round 2 reports failed |
-| ⬜ | Closure | 174 | 0/0 | 0 | 0/0 | Resource ready; not started |
-| ✅ | Codec | 18 | 17/18 | 18 | 11/18 | Both rounds complete; 1 Round 1 and 7 Round 2 reports failed |
-| ⬜ | Collections | 28 | 0/0 | 0 | 0/0 | Resource ready; not started |
-| ⬜ | Compress | 47 | 0/0 | 0 | 0/0 | Resource ready; not started |
-| ⬜ | Csv | 16 | 0/0 | 0 | 0/0 | Resource ready; not started |
-| ⬜ | Gson | 18 | 0/0 | 0 | 0/0 | Resource ready; not started |
-| ⬜ | JacksonCore | 26 | 0/0 | 0 | 0/0 | Resource ready; not started |
-| ⬜ | JacksonDatabind | 110 | 0/0 | 0 | 0/0 | Resource ready; not started |
-| ⬜ | JacksonXml | 6 | 0/0 | 0 | 0/0 | Resource ready; not started |
-| ⬜ | Jsoup | 93 | 0/0 | 0 | 0/0 | Resource ready; not started |
-| ⬜ | JxPath | 22 | 0/0 | 0 | 0/0 | Resource ready; not started |
-| ⬜ | Lang | 61 | 0/0 | 0 | 0/0 | Resource ready; not started |
-| ⬜ | Math | 106 | 0/0 | 0 | 0/0 | Resource ready; not started |
-| ⬜ | Mockito | 38 | 0/0 | 0 | 0/0 | Resource ready; not started |
-| ⬜ | Time | 26 | 0/0 | 0 | 0/0 | Resource ready; not started |
-| **3/17** | **TOTAL** | **854** | **81/83** | **83** | **57/83** | **83/854 bugs have reports for both rounds** |
+```bash
+./run_evosuite_ga.sh Chart 1 2 120
+./collect_ga_reports.sh 2
+```
 
-## Output layout
+## โครงสร้าง
 
 ```text
 GenericAlgorithm/
-├── Code/                 # Executable scripts and evosuite-1.2.0.jar
-├── Configuration/        # EvoSuite configuration
-├── TestCode/             # Generated EvoSuite Java tests by Project_ID
-├── Result_Round1/        # Per-bug buggy-version JSON/CSV reports
-├── Result_Round2/        # Per-bug fixed-version JSON/CSV reports
-├── result_round1.json    # Aggregated Round 1 results
-├── result_round1.csv
-├── result_round2.json    # Aggregated Round 2 results
-├── result_round2.csv
-├── summary.json          # Compact per-project overview
-└── summary.csv
+├── Code/
+│   ├── run_evosuite_ga.sh
+│   ├── collect_ga_reports.sh
+│   ├── merge_round_reports.sh
+│   ├── evosuite-1.2.0.jar
+│   └── README.md
+├── TestCode/
+│   ├── Chart_1/                 generated Java ของ Chart-1
+│   └── Chart_2/                 generated Java ของ Chart-2
+├── Result_Round1/
+│   ├── Chart_1/result.csv
+│   ├── Chart_1/result.json
+│   └── report.csv
+└── Result_Round2/
+    ├── Chart_1/result.csv
+    ├── Chart_1/result.json
+    └── report.csv
 ```
 
-Round 2 success means that a test generated from the buggy version also passes
-on the fixed version. It is a fixed-version compatibility result, not a claim
-that EvoSuite repaired the bug.
+รายงานรวมของทั้งสอง round อยู่ที่:
+
+```text
+GenericAlgorithm/report.csv
+```
+
+checkout, build, log และ `evosuite-tests.tar.bz2` ถูกสร้างใน `/tmp` เท่านั้น
+และลบอัตโนมัติเมื่อจบงาน สิ่งที่เก็บใน `TestCode/PROJECT_BUG` จึงมีเฉพาะ
+generated `.java` files
+
+รายละเอียด workflow และ report schema อยู่ใน [Code/README.md](Code/README.md)

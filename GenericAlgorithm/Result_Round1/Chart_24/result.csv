@@ -1,2 +1,0 @@
-"project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
-"Chart",24,"Resoucre/Chart_24","GenericAlgorithm/TestCode/Chart_24","STANDARD_GA",20260918,60,"org.jfree.chart.renderer.GrayPaintScale","Resoucre/Chart_24/org/jfree/chart/renderer/GrayPaintScale.java",7,8,"PASS",100.00,100.00,"ok",""

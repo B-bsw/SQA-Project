@@ -1,2 +1,0 @@
-"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
-"Cli",15,"fixed","GenericAlgorithm/TestCode/Cli_15","org.apache.commons.cli2.commandline.WriteableCommandLineImpl_ESTest",1,27,0,"PASS","ok",""

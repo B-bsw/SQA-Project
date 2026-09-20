@@ -1,30 +1,58 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2026-09-20T16:31:42Z",
   "round": 1,
-  "subject_version": "buggy",
-  "created_at": "2026-09-19T11:46:20Z",
   "project": "Chart",
   "bug_id": 1,
-  "resource_dir": "Resoucre/Chart_1",
-  "test_code_dir": "GenericAlgorithm/TestCode/Chart_1",
-  "algorithm": "STANDARD_GA",
-  "status": "ok",
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 4,
+  "coverage": 9.46,
+  "line_cov": 9.06,
+  "branch_cov": 9.85,
+  "total_goals": 848,
+  "covered_goals": 79,
+  "lines": 66,
+  "covered_lines": 52,
+  "total_branches": 242,
+  "covered_branches": 24,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
   "targets": [
     {
-      "source_file": "Resoucre/Chart_1/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java",
       "target_class": "org.jfree.chart.renderer.category.AbstractCategoryItemRenderer",
-      "algorithm": "STANDARD_GA",
-      "seed": 20260918,
-      "client_memory_mb": 2048,
-      "client_on_thread": true,
-      "search_budget_seconds": 60,
-      "generation_seconds": 98,
-      "generated_test_methods": 61,
-      "test_execution": "PASS",
-      "line_coverage_percent": 48.78,
-      "branch_coverage_percent": 47.45,
-      "status": "ok",
-      "error": null
+      "generation_result": "PASS",
+      "generation_seconds": 67,
+      "tests": 4,
+      "coverage": 9.46,
+      "line_cov": 9.06,
+      "branch_cov": 9.85,
+      "total_goals": 848,
+      "covered_goals": 79,
+      "lines": 66,
+      "covered_lines": 52,
+      "total_branches": 242,
+      "covered_branches": 24,
+      "total_methods": 66,
+      "covered_methods": 7,
+      "branchless_methods": 32,
+      "covered_branchless_methods": 3
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
     }
   ]
 }

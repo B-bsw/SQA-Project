@@ -1,2 +1,0 @@
-"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
-"Chart",20,"fixed","GenericAlgorithm/TestCode/Chart_20","org.jfree.chart.plot.ValueMarker_ESTest",2,5,0,"PASS","ok",""

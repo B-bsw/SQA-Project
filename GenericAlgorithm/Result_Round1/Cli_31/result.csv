@@ -1,4 +1,0 @@
-"project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
-"Cli",31,"Resoucre/Cli_31","GenericAlgorithm/TestCode/Cli_31","STANDARD_GA",20260918,60,"org.apache.commons.cli.HelpFormatter","Resoucre/Cli_31/org/apache/commons/cli/HelpFormatter.java",84,38,"PASS",100.00,93.51,"ok",""
-"Cli",31,"Resoucre/Cli_31","GenericAlgorithm/TestCode/Cli_31","STANDARD_GA",20260918,60,"org.apache.commons.cli.Option","Resoucre/Cli_31/org/apache/commons/cli/Option.java",70,51,"PASS",98.28,99.11,"ok",""
-"Cli",31,"Resoucre/Cli_31","GenericAlgorithm/TestCode/Cli_31","STANDARD_GA",20260918,60,"org.apache.commons.cli.OptionBuilder","Resoucre/Cli_31/org/apache/commons/cli/OptionBuilder.java",65,17,"PASS",96.72,100.00,"ok",""

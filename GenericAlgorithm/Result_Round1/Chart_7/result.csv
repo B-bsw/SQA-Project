@@ -1,2 +1,0 @@
-"project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
-"Chart",7,"Resoucre/Chart_7","GenericAlgorithm/TestCode/Chart_7","STANDARD_GA",20260918,60,"org.jfree.data.time.TimePeriodValues","Resoucre/Chart_7/org/jfree/data/time/TimePeriodValues.java",70,25,"PASS",98.74,100.00,"ok",""

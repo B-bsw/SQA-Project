@@ -1,2 +1,0 @@
-"project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
-"Chart",23,"Resoucre/Chart_23","GenericAlgorithm/TestCode/Chart_23","STANDARD_GA",20260918,60,"org.jfree.chart.renderer.category.MinMaxCategoryRenderer","Resoucre/Chart_23/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java",71,17,"PASS",41.55,38.10,"ok",""
