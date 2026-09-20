@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "round": 1,
+  "subject_version": "buggy",
+  "created_at": "2026-09-19T13:14:46Z",
+  "project": "Cli",
+  "bug_id": 29,
+  "resource_dir": "Resoucre/Cli_29",
+  "test_code_dir": "GenericAlgorithm/TestCode/Cli_29",
+  "algorithm": "STANDARD_GA",
+  "status": "ok",
+  "targets": [
+    {
+      "source_file": "Resoucre/Cli_29/org/apache/commons/cli/Util.java",
+      "target_class": "org.apache.commons.cli.Util",
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "client_memory_mb": 2048,
+      "client_on_thread": true,
+      "search_budget_seconds": 60,
+      "generation_seconds": 5,
+      "generated_test_methods": 7,
+      "test_execution": "PASS",
+      "line_coverage_percent": 100.00,
+      "branch_coverage_percent": 100.00,
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

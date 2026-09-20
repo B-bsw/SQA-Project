@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "round": 2,
+  "subject_version": "fixed",
+  "created_at": "2026-09-19T13:25:46Z",
+  "project": "Cli",
+  "bug_id": 27,
+  "test_code_dir": "GenericAlgorithm/TestCode/Cli_27",
+  "status": "ok",
+  "tests": [
+    {
+      "test_class": "org.apache.commons.cli.OptionGroup_ESTest",
+      "execution_seconds": 1,
+      "tests_run": 7,
+      "failures": 0,
+      "test_execution": "PASS",
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

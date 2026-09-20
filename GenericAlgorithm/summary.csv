@@ -1,0 +1,5 @@
+"project","total_bugs","round1_passed","round1_percent","generated_test_methods","mean_line_coverage_percent","mean_branch_coverage_percent","round2_run","round2_passed","round2_percent","fixed_tests_run","fixed_test_failures"
+"Chart",26,26,100,1514,80.12,76.54,26,21,80.77,1514,14
+"Cli",39,38,97.44,982,93,89.41,39,25,64.1,982,62
+"Codec",18,17,94.44,639,92.81,89.32,18,11,61.11,586,8
+"ALL",83,81,97.59,3135,89.42,85.86,83,57,68.67,3082,84

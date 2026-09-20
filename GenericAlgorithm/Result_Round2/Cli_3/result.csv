@@ -1,0 +1,20 @@
+"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
+"Cli",3,"fixed","GenericAlgorithm/TestCode/Cli_3","org.apache.commons.cli.TypeHandler_ESTest",1,6,1,"FAIL","test_failed","19:54:28.041 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class '91(GR:DpD4/rI.class' should be in target project, but could not be found!
+Unable to find: 91(GR:DpD4.rI
+E.19:54:28.043 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: F1$NFi,WI1
+19:54:28.043 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'F1$NFi,WI1'.
+19:54:28.044 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'F1$NFi,WI1.class' should be in target project, but could not be found!
+Unable to find: F1$NFi,WI1
+.
+Time: 0.542
+There was 1 failure:
+1) test3(org.apache.commons.cli.TypeHandler_ESTest)
+java.lang.AssertionError: expected null, but was:<91(GR:DpD4.rI>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotNull(Assert.java:756)
+	at org.junit.Assert.assertNull(Assert.java:738)
+	at org.junit.Assert.assertNull(Assert.java:748)
+	at org.apache.commons.cli.TypeHandler_ESTest.test3(TypeHandler_ESTest.java:48)
+
+FAILURES!!!
+Tests run: 6,  Failures: 1"

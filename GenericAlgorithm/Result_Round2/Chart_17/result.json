@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "round": 2,
+  "subject_version": "fixed",
+  "created_at": "2026-09-19T12:48:21Z",
+  "project": "Chart",
+  "bug_id": 17,
+  "test_code_dir": "GenericAlgorithm/TestCode/Chart_17",
+  "status": "failed",
+  "tests": [
+    {
+      "test_class": "org.jfree.data.time.TimeSeries_ESTest",
+      "execution_seconds": 2,
+      "tests_run": 52,
+      "failures": 1,
+      "test_execution": "FAIL",
+      "status": "test_failed",
+      "error": "19:48:20.672 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/jfree/data/xy/MatrixSeriesCollection\n19:48:20.673 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/jfree/data/xy/MatrixSeriesCollection\n19:48:20.673 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.jfree.data.xy.MatrixSeriesCollection\n.org.jfree.data.time.TimeSeries.add(TimeSeries.java:500)\n<evosuite>.<evosuite>(<evosuite>)\n<evosuite>.<evosuite>(<evosuite>)\n..............E.....org.jfree.data.time.TimeSeries.add(TimeSeries.java:500)\n<evosuite>.<evosuite>(<evosuite>)\n<evosuite>.<evosuite>(<evosuite>)\n...............................\nTime: 0.788\nThere was 1 failure:\n1) test45(org.jfree.data.time.TimeSeries_ESTest)\njava.lang.AssertionError: Expecting exception: IllegalArgumentException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.jfree.data.time.TimeSeries_ESTest.test45(TimeSeries_ESTest.java:597)\n\nFAILURES!!!\nTests run: 52,  Failures: 1"
+    }
+  ]
+}

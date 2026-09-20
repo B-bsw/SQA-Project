@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "round": 2,
+  "subject_version": "fixed",
+  "created_at": "2026-09-19T13:40:48Z",
+  "project": "Codec",
+  "bug_id": 13,
+  "test_code_dir": "GenericAlgorithm/TestCode/Codec_13",
+  "status": "failed",
+  "tests": [
+    {
+      "test_class": "org.apache.commons.codec.language.DoubleMetaphone_ESTest",
+      "execution_seconds": 1,
+      "tests_run": 74,
+      "failures": 2,
+      "test_execution": "FAIL",
+      "status": "test_failed",
+      "error": "20:40:46.469 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.codec.binary.StringUtils'.\n20:40:46.470 [Time-limited test] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/codec/binary/StringUtils\n20:40:46.473 [Time-limited test] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/codec/binary/StringUtils\n20:40:46.474 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.codec.binary, 628086197\n20:40:46.474 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.codec.binary.StringUtils\n...........E....E..........................................................\nTime: 0.538\nThere were 2 failures:\n1) test46(org.apache.commons.codec.language.DoubleMetaphone_ESTest)\njava.lang.AssertionError: Expecting exception: NullPointerException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.apache.commons.codec.language.DoubleMetaphone_ESTest.test46(DoubleMetaphone_ESTest.java:383)\n2) test44(org.apache.commons.codec.language.DoubleMetaphone_ESTest)\njava.lang.AssertionError: Expecting exception: NullPointerException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.apache.commons.codec.language.DoubleMetaphone_ESTest.test44(DoubleMetaphone_ESTest.java:364)\n\nFAILURES!!!\nTests run: 74,  Failures: 2"
+    },
+    {
+      "test_class": "org.apache.commons.codec.binary.StringUtils_ESTest",
+      "execution_seconds": 2,
+      "tests_run": 16,
+      "failures": 0,
+      "test_execution": "PASS",
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

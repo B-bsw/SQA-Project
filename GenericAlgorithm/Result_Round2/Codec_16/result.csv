@@ -1,0 +1,20 @@
+"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
+"Codec",16,"fixed","GenericAlgorithm/TestCode/Codec_16","org.apache.commons.codec.binary.Base32_ESTest",1,19,1,"FAIL","test_failed","20:40:59.985 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.codec.Charsets
+20:40:59.986 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.codec.binary.Base32
+20:40:59.986 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.codec.binary.Base32'.
+20:40:59.987 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/codec/binary/Base32
+20:40:59.993 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/codec/binary/Base32
+20:40:59.993 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.codec.binary.Base32
+...................E
+Time: 0.554
+There was 1 failure:
+1) test09(org.apache.commons.codec.binary.Base32_ESTest)
+java.lang.AssertionError: expected:<8> but was:<7>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at org.apache.commons.codec.binary.Base32_ESTest.test09(Base32_ESTest.java:116)
+
+FAILURES!!!
+Tests run: 19,  Failures: 1"

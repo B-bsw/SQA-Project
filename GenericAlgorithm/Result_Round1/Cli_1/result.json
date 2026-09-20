@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "round": 1,
+  "subject_version": "buggy",
+  "created_at": "2026-09-19T12:51:20Z",
+  "project": "Cli",
+  "bug_id": 1,
+  "resource_dir": "Resoucre/Cli_1",
+  "test_code_dir": "GenericAlgorithm/TestCode/Cli_1",
+  "algorithm": "STANDARD_GA",
+  "status": "ok",
+  "targets": [
+    {
+      "source_file": "Resoucre/Cli_1/org/apache/commons/cli/CommandLine.java",
+      "target_class": "org.apache.commons.cli.CommandLine",
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "client_memory_mb": 2048,
+      "client_on_thread": true,
+      "search_budget_seconds": 60,
+      "generation_seconds": 8,
+      "generated_test_methods": 16,
+      "test_execution": "PASS",
+      "line_coverage_percent": 100.00,
+      "branch_coverage_percent": 100.00,
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

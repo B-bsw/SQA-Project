@@ -1,0 +1,20 @@
+"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
+"Codec",11,"fixed","GenericAlgorithm/TestCode/Codec_11","org.apache.commons.codec.net.QuotedPrintableCodec_ESTest",1,17,2,"FAIL","test_failed","Time: 0.505
+There were 2 failures:
+1) test01(org.apache.commons.codec.net.QuotedPrintableCodec_ESTest)
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 2
+	at org.apache.commons.codec.net.QuotedPrintableCodec.getUnsignedOctet(QuotedPrintableCodec.java:137)
+	at org.apache.commons.codec.net.QuotedPrintableCodec.encodeQuotedPrintable(QuotedPrintableCodec.java:220)
+	at org.apache.commons.codec.net.QuotedPrintableCodec_ESTest.test01(QuotedPrintableCodec_ESTest.java:39)
+2) test07(org.apache.commons.codec.net.QuotedPrintableCodec_ESTest)
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 2
+	at org.apache.commons.codec.net.QuotedPrintableCodec.getUnsignedOctet(QuotedPrintableCodec.java:137)
+	at org.apache.commons.codec.net.QuotedPrintableCodec.encodeQuotedPrintable(QuotedPrintableCodec.java:220)
+	at org.apache.commons.codec.net.QuotedPrintableCodec.encode(QuotedPrintableCodec.java:297)
+	at org.apache.commons.codec.net.QuotedPrintableCodec.encode(QuotedPrintableCodec.java:470)
+	at org.apache.commons.codec.net.QuotedPrintableCodec.encode(QuotedPrintableCodec.java:341)
+	at org.apache.commons.codec.net.QuotedPrintableCodec.encode(QuotedPrintableCodec.java:407)
+	at org.apache.commons.codec.net.QuotedPrintableCodec_ESTest.test07(QuotedPrintableCodec_ESTest.java:100)
+
+FAILURES!!!
+Tests run: 17,  Failures: 2"

@@ -1,0 +1,2 @@
+"project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
+"Chart",12,"Resoucre/Chart_12","GenericAlgorithm/TestCode/Chart_12","STANDARD_GA",20260918,60,"org.jfree.chart.plot.MultiplePiePlot","Resoucre/Chart_12/org/jfree/chart/plot/MultiplePiePlot.java",80,28,"PASS",96.32,94.79,"ok",""

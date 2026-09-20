@@ -1,0 +1,2 @@
+"project","bug_id","resource_dir","test_code_dir","algorithm","seed","search_budget_seconds","target_class","source_file","generation_seconds","generated_test_methods","test_execution","line_coverage_percent","branch_coverage_percent","status","error"
+"Chart",20,"Resoucre/Chart_20","GenericAlgorithm/TestCode/Chart_20","STANDARD_GA",20260918,60,"org.jfree.chart.plot.ValueMarker","Resoucre/Chart_20/org/jfree/chart/plot/ValueMarker.java",68,5,"PASS",95.45,92.31,"ok",""

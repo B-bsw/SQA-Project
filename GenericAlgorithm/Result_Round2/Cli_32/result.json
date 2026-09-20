@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "round": 2,
+  "subject_version": "fixed",
+  "created_at": "2026-09-19T13:26:04Z",
+  "project": "Cli",
+  "bug_id": 32,
+  "test_code_dir": "GenericAlgorithm/TestCode/Cli_32",
+  "status": "failed",
+  "tests": [
+    {
+      "test_class": "org.apache.commons.cli.HelpFormatter_ESTest",
+      "execution_seconds": 1,
+      "tests_run": 39,
+      "failures": 7,
+      "test_execution": "FAIL",
+      "status": "test_failed",
+      "error": "\tat org.apache.commons.cli.HelpFormatter_ESTest.test09(HelpFormatter_ESTest.java:146)\n5) test08(org.apache.commons.cli.HelpFormatter_ESTest)\njava.lang.AssertionError: Expecting exception: StringIndexOutOfBoundsException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.apache.commons.cli.HelpFormatter_ESTest.test08(HelpFormatter_ESTest.java:130)\n6) test24(org.apache.commons.cli.HelpFormatter_ESTest)\njava.lang.AssertionError: expected:<35> but was:<39>\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat org.apache.commons.cli.HelpFormatter_ESTest.test24(HelpFormatter_ESTest.java:358)\n7) test04(org.apache.commons.cli.HelpFormatter_ESTest)\njava.lang.AssertionError: Expecting exception: StringIndexOutOfBoundsException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.apache.commons.cli.HelpFormatter_ESTest.test04(HelpFormatter_ESTest.java:83)\n\nFAILURES!!!\nTests run: 39,  Failures: 7"
+    }
+  ]
+}

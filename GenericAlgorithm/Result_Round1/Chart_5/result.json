@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "round": 1,
+  "subject_version": "buggy",
+  "created_at": "2026-09-19T11:52:05Z",
+  "project": "Chart",
+  "bug_id": 5,
+  "resource_dir": "Resoucre/Chart_5",
+  "test_code_dir": "GenericAlgorithm/TestCode/Chart_5",
+  "algorithm": "STANDARD_GA",
+  "status": "ok",
+  "targets": [
+    {
+      "source_file": "Resoucre/Chart_5/org/jfree/data/xy/XYSeries.java",
+      "target_class": "org.jfree.data.xy.XYSeries",
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "client_memory_mb": 2048,
+      "client_on_thread": false,
+      "search_budget_seconds": 60,
+      "generation_seconds": 73,
+      "generated_test_methods": 38,
+      "test_execution": "PASS",
+      "line_coverage_percent": 97.67,
+      "branch_coverage_percent": 100.00,
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

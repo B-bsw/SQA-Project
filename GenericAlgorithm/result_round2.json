@@ -1,0 +1,1930 @@
+{
+  "schema_version": "1.0",
+  "round": 2,
+  "generated_at": "2026-09-19T13:47:29Z",
+  "summary": {
+    "subjects": 83,
+    "successful_subjects": 57,
+    "failed_subjects": 26,
+    "total_test_classes": 102,
+    "tests_run": 3082,
+    "failures": 84,
+    "passed_test_classes": 75,
+    "failed_test_classes": 27
+  },
+  "subjects": [
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T11:47:10Z",
+      "project": "Chart",
+      "bug_id": 1,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_1",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.chart.renderer.category.AbstractCategoryItemRenderer_ESTest",
+          "execution_seconds": 5,
+          "tests_run": 61,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T11:47:14Z",
+      "project": "Chart",
+      "bug_id": 2,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_2",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.data.general.DatasetUtilities_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 114,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T11:56:17Z",
+      "project": "Chart",
+      "bug_id": 3,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_3",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.data.time.TimeSeries_ESTest",
+          "execution_seconds": 3,
+          "tests_run": 61,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T11:56:22Z",
+      "project": "Chart",
+      "bug_id": 4,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_4",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.jfree.chart.plot.XYPlot_ESTest",
+          "execution_seconds": 3,
+          "tests_run": 177,
+          "failures": 1,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "18:56:21.690 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.jfree.chart.urls.StandardXYZURLGenerator'.\n18:56:21.691 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/jfree/chart/urls/StandardXYZURLGenerator\n18:56:21.691 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/jfree/chart/urls/StandardXYZURLGenerator\n18:56:21.691 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.jfree.chart.urls.XYZURLGenerator\n18:56:21.691 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.jfree.chart.urls.XYZURLGenerator'.\n18:56:21.691 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.jfree.chart.urls.XYZURLGenerator\n18:56:21.691 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.jfree.chart.urls.StandardXYZURLGenerator\n.......................................................................18:56:22.021 [main] INFO org.evosuite.runtime.thread.ThreadStopper - Found new thread\n18:56:22.021 [main] INFO org.evosuite.runtime.thread.ThreadStopper - Found new thread\n..............................E...........................................................................\nTime: 2.46\nThere was 1 failure:\n1) test076(org.jfree.chart.plot.XYPlot_ESTest)\njava.lang.AssertionError: Expecting exception: NullPointerException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.jfree.chart.plot.XYPlot_ESTest.test076(XYPlot_ESTest.java:1007)\n\nFAILURES!!!\nTests run: 177,  Failures: 1"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T11:56:22Z",
+      "project": "Chart",
+      "bug_id": 5,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_5",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.data.xy.XYSeries_ESTest",
+          "execution_seconds": 2,
+          "tests_run": 38,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T11:56:23Z",
+      "project": "Chart",
+      "bug_id": 6,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_6",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.chart.util.ShapeList_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 6,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:16:42Z",
+      "project": "Chart",
+      "bug_id": 7,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_7",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.data.time.TimePeriodValues_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 25,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:16:42Z",
+      "project": "Chart",
+      "bug_id": 8,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_8",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.data.time.Week_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 31,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:16:57Z",
+      "project": "Chart",
+      "bug_id": 9,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_9",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.data.time.TimeSeries_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 47,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:16:56Z",
+      "project": "Chart",
+      "bug_id": 10,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_10",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 1,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:17:47Z",
+      "project": "Chart",
+      "bug_id": 11,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_11",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.chart.util.ShapeUtilities_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 60,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:17:47Z",
+      "project": "Chart",
+      "bug_id": 12,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_12",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.chart.plot.MultiplePiePlot_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 28,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:18:01Z",
+      "project": "Chart",
+      "bug_id": 13,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_13",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.chart.block.BorderArrangement_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 15,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:24:44Z",
+      "project": "Chart",
+      "bug_id": 14,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_14",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.jfree.chart.plot.CategoryPlot_ESTest",
+          "execution_seconds": 5,
+          "tests_run": 137,
+          "failures": 4,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "1) test135(org.jfree.chart.plot.CategoryPlot_ESTest)\njava.lang.AssertionError: Expecting exception: NullPointerException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.jfree.chart.plot.CategoryPlot_ESTest.test135(CategoryPlot_ESTest.java:1531)\n2) test024(org.jfree.chart.plot.CategoryPlot_ESTest)\njava.lang.AssertionError: Expecting exception: NullPointerException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.jfree.chart.plot.CategoryPlot_ESTest.test024(CategoryPlot_ESTest.java:363)\n3) test031(org.jfree.chart.plot.CategoryPlot_ESTest)\njava.lang.AssertionError: Expecting exception: NullPointerException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.jfree.chart.plot.CategoryPlot_ESTest.test031(CategoryPlot_ESTest.java:440)\n4) test123(org.jfree.chart.plot.CategoryPlot_ESTest)\njava.lang.AssertionError: Expecting exception: NullPointerException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.jfree.chart.plot.CategoryPlot_ESTest.test123(CategoryPlot_ESTest.java:1408)\n\nFAILURES!!!\nTests run: 137,  Failures: 4"
+        },
+        {
+          "test_class": "org.jfree.chart.plot.XYPlot_ESTest",
+          "execution_seconds": 4,
+          "tests_run": 156,
+          "failures": 4,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "1) test134(org.jfree.chart.plot.XYPlot_ESTest)\njava.lang.AssertionError: Expecting exception: NullPointerException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.jfree.chart.plot.XYPlot_ESTest.test134(XYPlot_ESTest.java:1633)\n2) test042(org.jfree.chart.plot.XYPlot_ESTest)\njava.lang.AssertionError: Expecting exception: NullPointerException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.jfree.chart.plot.XYPlot_ESTest.test042(XYPlot_ESTest.java:615)\n3) test036(org.jfree.chart.plot.XYPlot_ESTest)\njava.lang.AssertionError: Expecting exception: NullPointerException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.jfree.chart.plot.XYPlot_ESTest.test036(XYPlot_ESTest.java:545)\n4) test103(org.jfree.chart.plot.XYPlot_ESTest)\njava.lang.AssertionError: Expecting exception: NullPointerException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.jfree.chart.plot.XYPlot_ESTest.test103(XYPlot_ESTest.java:1288)\n\nFAILURES!!!\nTests run: 156,  Failures: 4"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:48:06Z",
+      "project": "Chart",
+      "bug_id": 15,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_15",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.chart.plot.PiePlot_ESTest",
+          "execution_seconds": 2,
+          "tests_run": 107,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:48:06Z",
+      "project": "Chart",
+      "bug_id": 16,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_16",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.data.category.DefaultIntervalCategoryDataset_ESTest",
+          "execution_seconds": 2,
+          "tests_run": 49,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:48:21Z",
+      "project": "Chart",
+      "bug_id": 17,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_17",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.jfree.data.time.TimeSeries_ESTest",
+          "execution_seconds": 2,
+          "tests_run": 52,
+          "failures": 1,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "19:48:20.672 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/jfree/data/xy/MatrixSeriesCollection\n19:48:20.673 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/jfree/data/xy/MatrixSeriesCollection\n19:48:20.673 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.jfree.data.xy.MatrixSeriesCollection\n.org.jfree.data.time.TimeSeries.add(TimeSeries.java:500)\n<evosuite>.<evosuite>(<evosuite>)\n<evosuite>.<evosuite>(<evosuite>)\n..............E.....org.jfree.data.time.TimeSeries.add(TimeSeries.java:500)\n<evosuite>.<evosuite>(<evosuite>)\n<evosuite>.<evosuite>(<evosuite>)\n...............................\nTime: 0.788\nThere was 1 failure:\n1) test45(org.jfree.data.time.TimeSeries_ESTest)\njava.lang.AssertionError: Expecting exception: IllegalArgumentException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.jfree.data.time.TimeSeries_ESTest.test45(TimeSeries_ESTest.java:597)\n\nFAILURES!!!\nTests run: 52,  Failures: 1"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:48:22Z",
+      "project": "Chart",
+      "bug_id": 18,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_18",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.jfree.data.DefaultKeyedValues_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 23,
+          "failures": 2,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "19:48:20.342 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/jfree/chart/util/SortOrder\n19:48:20.342 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.jfree.chart.util.SortOrder\n.......E.............E...\nTime: 0.798\nThere were 2 failures:\n1) test09(org.jfree.data.DefaultKeyedValues_ESTest)\norg.jfree.data.UnknownKeyException: The key (493) is not recognised.\n\tat org.jfree.data.DefaultKeyedValues.removeValue(DefaultKeyedValues.java:333)\n\tat org.jfree.data.DefaultKeyedValues_ESTest.test09(DefaultKeyedValues_ESTest.java:115)\n2) test11(org.jfree.data.DefaultKeyedValues_ESTest)\njava.lang.AssertionError: expected:<1> but was:<0>\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat org.jfree.data.DefaultKeyedValues_ESTest.test11(DefaultKeyedValues_ESTest.java:135)\n\nFAILURES!!!\nTests run: 23,  Failures: 2"
+        },
+        {
+          "test_class": "org.jfree.data.DefaultKeyedValues2D_ESTest",
+          "execution_seconds": 2,
+          "tests_run": 26,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:48:37Z",
+      "project": "Chart",
+      "bug_id": 19,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_19",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.chart.plot.CategoryPlot_ESTest",
+          "execution_seconds": 3,
+          "tests_run": 140,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:48:37Z",
+      "project": "Chart",
+      "bug_id": 20,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_20",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.chart.plot.ValueMarker_ESTest",
+          "execution_seconds": 2,
+          "tests_run": 5,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:48:51Z",
+      "project": "Chart",
+      "bug_id": 21,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_21",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 45,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:48:51Z",
+      "project": "Chart",
+      "bug_id": 22,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_22",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.jfree.data.KeyedObjects2D_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 17,
+          "failures": 2,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertFalse(Assert.java:65)\n\tat org.junit.Assert.assertFalse(Assert.java:75)\n\tat org.jfree.data.KeyedObjects2D_ESTest.test02(KeyedObjects2D_ESTest.java:58)\n2) test15(org.jfree.data.KeyedObjects2D_ESTest)\njava.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1\n\tat java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)\n\tat java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)\n\tat java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)\n\tat java.base/java.util.Objects.checkIndex(Objects.java:374)\n\tat java.base/java.util.ArrayList.get(ArrayList.java:459)\n\tat org.jfree.data.KeyedObjects2D.getColumnKey(KeyedObjects2D.java:174)\n\tat org.jfree.data.KeyedObjects2D.removeColumn(KeyedObjects2D.java:382)\n\tat org.jfree.data.KeyedObjects2D_ESTest.test15(KeyedObjects2D_ESTest.java:251)\n\nFAILURES!!!\nTests run: 17,  Failures: 2"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:49:06Z",
+      "project": "Chart",
+      "bug_id": 23,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_23",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.chart.renderer.category.MinMaxCategoryRenderer_ESTest",
+          "execution_seconds": 2,
+          "tests_run": 17,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:49:05Z",
+      "project": "Chart",
+      "bug_id": 24,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_24",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.chart.renderer.GrayPaintScale_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 8,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:49:19Z",
+      "project": "Chart",
+      "bug_id": 25,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_25",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.chart.renderer.category.StatisticalBarRenderer_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 12,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:49:20Z",
+      "project": "Chart",
+      "bug_id": 26,
+      "test_code_dir": "GenericAlgorithm/TestCode/Chart_26",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.jfree.chart.axis.Axis_ESTest",
+          "execution_seconds": 2,
+          "tests_run": 56,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:54:21Z",
+      "project": "Cli",
+      "bug_id": 1,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_1",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.CommandLine_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 16,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:54:21Z",
+      "project": "Cli",
+      "bug_id": 2,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_2",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.PosixParser_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 8,
+          "failures": 2,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "Time: 0.542\nThere were 2 failures:\n1) test2(org.apache.commons.cli.PosixParser_ESTest)\njava.lang.AssertionError: expected:<2> but was:<3>\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat org.apache.commons.cli.PosixParser_ESTest.test2(PosixParser_ESTest.java:61)\n2) test1(org.apache.commons.cli.PosixParser_ESTest)\njava.lang.AssertionError: expected:<3> but was:<2>\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat org.apache.commons.cli.PosixParser_ESTest.test1(PosixParser_ESTest.java:44)\n\nFAILURES!!!\nTests run: 8,  Failures: 2"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:54:28Z",
+      "project": "Cli",
+      "bug_id": 3,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_3",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.TypeHandler_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 6,
+          "failures": 1,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "19:54:28.041 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class '91(GR:DpD4/rI.class' should be in target project, but could not be found!\nUnable to find: 91(GR:DpD4.rI\nE.19:54:28.043 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: F1\u007f$NFi,WI1\n19:54:28.043 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'F1\u007f$NFi,WI1'.\n19:54:28.044 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'F1\u007f$NFi,WI1.class' should be in target project, but could not be found!\nUnable to find: F1\u007f$NFi,WI1\n.\nTime: 0.542\nThere was 1 failure:\n1) test3(org.apache.commons.cli.TypeHandler_ESTest)\njava.lang.AssertionError: expected null, but was:<91(GR:DpD4.rI>\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotNull(Assert.java:756)\n\tat org.junit.Assert.assertNull(Assert.java:738)\n\tat org.junit.Assert.assertNull(Assert.java:748)\n\tat org.apache.commons.cli.TypeHandler_ESTest.test3(TypeHandler_ESTest.java:48)\n\nFAILURES!!!\nTests run: 6,  Failures: 1"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:54:28Z",
+      "project": "Cli",
+      "bug_id": 4,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_4",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.Parser_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 12,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:58:24Z",
+      "project": "Cli",
+      "bug_id": 5,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_5",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.Util_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 6,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:58:24Z",
+      "project": "Cli",
+      "bug_id": 7,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_7",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli2.builder.PatternBuilder_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 14,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:58:30Z",
+      "project": "Cli",
+      "bug_id": 8,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_8",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.HelpFormatter_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 35,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T12:58:31Z",
+      "project": "Cli",
+      "bug_id": 9,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_9",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.Parser_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 17,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:24:46Z",
+      "project": "Cli",
+      "bug_id": 10,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_10",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.Parser_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 13,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:24:46Z",
+      "project": "Cli",
+      "bug_id": 11,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_11",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.HelpFormatter_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 35,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:24:54Z",
+      "project": "Cli",
+      "bug_id": 12,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_12",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.GnuParser_ESTest",
+          "execution_seconds": 2,
+          "tests_run": 4,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:24:56Z",
+      "project": "Cli",
+      "bug_id": 13,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_13",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli2.option.ArgumentImpl_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 24,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        },
+        {
+          "test_class": "org.apache.commons.cli2.WriteableCommandLine_ESTest",
+          "execution_seconds": 0,
+          "tests_run": 1,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        },
+        {
+          "test_class": "org.apache.commons.cli2.commandline.WriteableCommandLineImpl_ESTest",
+          "execution_seconds": 2,
+          "tests_run": 25,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:25:02Z",
+      "project": "Cli",
+      "bug_id": 14,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_14",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli2.option.GroupImpl_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 25,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:25:03Z",
+      "project": "Cli",
+      "bug_id": 15,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_15",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli2.commandline.WriteableCommandLineImpl_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 27,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:25:11Z",
+      "project": "Cli",
+      "bug_id": 16,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_16",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli2.option.GroupImpl_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 27,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        },
+        {
+          "test_class": "org.apache.commons.cli2.Option_ESTest",
+          "execution_seconds": 0,
+          "tests_run": 1,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        },
+        {
+          "test_class": "org.apache.commons.cli2.option.OptionImpl_ESTest",
+          "execution_seconds": 2,
+          "tests_run": 13,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        },
+        {
+          "test_class": "org.apache.commons.cli2.commandline.WriteableCommandLineImpl_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 31,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:25:10Z",
+      "project": "Cli",
+      "bug_id": 17,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_17",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.PosixParser_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 8,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:25:18Z",
+      "project": "Cli",
+      "bug_id": 18,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_18",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.PosixParser_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 10,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:25:18Z",
+      "project": "Cli",
+      "bug_id": 19,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_19",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.PosixParser_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 8,
+          "failures": 1,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "20:25:17.614 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Option\n20:25:17.614 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.Util\n20:25:17.614 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.Util'.\n20:25:17.615 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Util\n20:25:17.617 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/Util\n20:25:17.617 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Util\n...E.....\nTime: 0.52\nThere was 1 failure:\n1) test2(org.apache.commons.cli.PosixParser_ESTest)\njava.lang.AssertionError: expected:<0> but was:<1>\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat org.apache.commons.cli.PosixParser_ESTest.test2(PosixParser_ESTest.java:55)\n\nFAILURES!!!\nTests run: 8,  Failures: 1"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:25:25Z",
+      "project": "Cli",
+      "bug_id": 20,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_20",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.PosixParser_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 9,
+          "failures": 1,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "20:25:24.729 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/Option\n20:25:24.729 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field UNINITIALIZED\n20:25:24.729 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field UNLIMITED_VALUES\n20:25:24.729 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Option\n20:25:24.729 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.Util\n20:25:24.729 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.Util'.\n20:25:24.730 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Util\n20:25:24.732 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/Util\n20:25:24.732 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Util\n..E.......\nTime: 0.508\nThere was 1 failure:\n1) test7(org.apache.commons.cli.PosixParser_ESTest)\njava.lang.AssertionError: Expecting exception: NullPointerException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.apache.commons.cli.PosixParser_ESTest.test7(PosixParser_ESTest.java:126)\n\nFAILURES!!!\nTests run: 9,  Failures: 1"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:25:26Z",
+      "project": "Cli",
+      "bug_id": 21,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_21",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli2.option.GroupImpl_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 24,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        },
+        {
+          "test_class": "org.apache.commons.cli2.WriteableCommandLine_ESTest",
+          "execution_seconds": 0,
+          "tests_run": 1,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        },
+        {
+          "test_class": "org.apache.commons.cli2.commandline.WriteableCommandLineImpl_ESTest",
+          "execution_seconds": 2,
+          "tests_run": 30,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:25:32Z",
+      "project": "Cli",
+      "bug_id": 22,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_22",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.PosixParser_ESTest",
+          "execution_seconds": 2,
+          "tests_run": 9,
+          "failures": 3,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "java.lang.AssertionError: expected:<251> but was:<250>\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat org.apache.commons.cli.PosixParser_ESTest.test7(PosixParser_ESTest.java:128)\n2) test8(org.apache.commons.cli.PosixParser_ESTest)\njava.lang.NullPointerException\n\tat org.apache.commons.cli.PosixParser.flatten(PosixParser.java:110)\n\tat org.apache.commons.cli.Parser.parse(Parser.java:161)\n\tat org.apache.commons.cli.Parser.parse(Parser.java:102)\n\tat org.apache.commons.cli.PosixParser_ESTest.test8(PosixParser_ESTest.java:142)\n3) test1(org.apache.commons.cli.PosixParser_ESTest)\njava.lang.NullPointerException\n\tat org.apache.commons.cli.PosixParser.flatten(PosixParser.java:110)\n\tat org.apache.commons.cli.PosixParser_ESTest.test1(PosixParser_ESTest.java:48)\n\nFAILURES!!!\nTests run: 9,  Failures: 3"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:25:33Z",
+      "project": "Cli",
+      "bug_id": 23,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_23",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.HelpFormatter_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 37,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:25:39Z",
+      "project": "Cli",
+      "bug_id": 24,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_24",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.HelpFormatter_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 38,
+          "failures": 2,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "\n......E...\nTime: 0.732\nThere were 2 failures:\n1) test10(org.apache.commons.cli.HelpFormatter_ESTest)\njava.lang.AssertionError: Expecting exception: IllegalStateException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.apache.commons.cli.HelpFormatter_ESTest.test10(HelpFormatter_ESTest.java:175)\n2) test05(org.apache.commons.cli.HelpFormatter_ESTest)\njava.lang.NegativeArraySizeException: -1\n\tat java.base/java.lang.AbstractStringBuilder.<init>(AbstractStringBuilder.java:86)\n\tat java.base/java.lang.StringBuffer.<init>(StringBuffer.java:144)\n\tat org.apache.commons.cli.HelpFormatter.createPadding(HelpFormatter.java:921)\n\tat org.apache.commons.cli.HelpFormatter.renderWrappedText(HelpFormatter.java:830)\n\tat org.apache.commons.cli.HelpFormatter.renderOptions(HelpFormatter.java:787)\n\tat org.apache.commons.cli.HelpFormatter_ESTest.test05(HelpFormatter_ESTest.java:104)\n\nFAILURES!!!\nTests run: 38,  Failures: 2"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:25:40Z",
+      "project": "Cli",
+      "bug_id": 25,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_25",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.HelpFormatter_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 36,
+          "failures": 2,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "Time: 0.677\nThere were 2 failures:\n1) test06(org.apache.commons.cli.HelpFormatter_ESTest)\njava.lang.AssertionError: expected:<37467> but was:<53>\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat org.apache.commons.cli.HelpFormatter_ESTest.test06(HelpFormatter_ESTest.java:112)\n2) test08(org.apache.commons.cli.HelpFormatter_ESTest)\njava.lang.AssertionError: expected:<3862> but was:<45>\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat org.apache.commons.cli.HelpFormatter_ESTest.test08(HelpFormatter_ESTest.java:140)\n\nFAILURES!!!\nTests run: 36,  Failures: 2"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:25:45Z",
+      "project": "Cli",
+      "bug_id": 26,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_26",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.OptionBuilder_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 17,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:25:46Z",
+      "project": "Cli",
+      "bug_id": 27,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_27",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.OptionGroup_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 7,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:25:51Z",
+      "project": "Cli",
+      "bug_id": 28,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_28",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.Parser_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 14,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:25:52Z",
+      "project": "Cli",
+      "bug_id": 29,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_29",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.Util_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 7,
+          "failures": 2,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "20:25:51.922 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Util\n20:25:51.967 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/Util\n20:25:51.968 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Util\n.E.E.....\nTime: 0.47\nThere were 2 failures:\n1) test0(org.apache.commons.cli.Util_ESTest)\norg.junit.ComparisonFailure: expected:<!`0^jt[]> but was:<!`0^jt[\"]>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat org.apache.commons.cli.Util_ESTest.test0(Util_ESTest.java:21)\n2) test1(org.apache.commons.cli.Util_ESTest)\norg.junit.ComparisonFailure: expected:<[]> but was:<[\"]>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat org.apache.commons.cli.Util_ESTest.test1(Util_ESTest.java:27)\n\nFAILURES!!!\nTests run: 7,  Failures: 2"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:25:58Z",
+      "project": "Cli",
+      "bug_id": 30,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_30",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.DefaultParser_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 13,
+          "failures": 1,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "20:25:57.079 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field UNLIMITED_VALUES\n20:25:57.079 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Option\n20:25:57.079 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.Util\n20:25:57.079 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.Util'.\n20:25:57.079 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Util\n20:25:57.082 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/Util\n20:25:57.082 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Util\n.............E\nTime: 0.524\nThere was 1 failure:\n1) test09(org.apache.commons.cli.DefaultParser_ESTest)\norg.apache.commons.cli.UnrecognizedOptionException: Default option wasn't defined\n\tat org.apache.commons.cli.DefaultParser.handleProperties(DefaultParser.java:153)\n\tat org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:127)\n\tat org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:75)\n\tat org.apache.commons.cli.DefaultParser_ESTest.test09(DefaultParser_ESTest.java:158)\n\nFAILURES!!!\nTests run: 13,  Failures: 1"
+        },
+        {
+          "test_class": "org.apache.commons.cli.Parser_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 16,
+          "failures": 1,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "20:25:58.182 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field UNLIMITED_VALUES\n20:25:58.183 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Option\n20:25:58.183 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.Util\n20:25:58.183 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.Util'.\n20:25:58.184 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Util\n20:25:58.184 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/Util\n20:25:58.184 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Util\n...E.............\nTime: 0.536\nThere was 1 failure:\n1) test07(org.apache.commons.cli.Parser_ESTest)\norg.apache.commons.cli.UnrecognizedOptionException: Default option wasn't defined\n\tat org.apache.commons.cli.Parser.processProperties(Parser.java:266)\n\tat org.apache.commons.cli.Parser.parse(Parser.java:241)\n\tat org.apache.commons.cli.Parser.parse(Parser.java:103)\n\tat org.apache.commons.cli.Parser_ESTest.test07(Parser_ESTest.java:181)\n\nFAILURES!!!\nTests run: 16,  Failures: 1"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:26:00Z",
+      "project": "Cli",
+      "bug_id": 31,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_31",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.HelpFormatter_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 38,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        },
+        {
+          "test_class": "org.apache.commons.cli.Option_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 51,
+          "failures": 36,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat org.apache.commons.cli.Option_ESTest.test22(Option_ESTest.java:241)\n35) test25(org.apache.commons.cli.Option_ESTest)\njava.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat org.apache.commons.cli.Option_ESTest.test25(Option_ESTest.java:271)\n36) test24(org.apache.commons.cli.Option_ESTest)\njava.lang.AssertionError: expected:<arg> but was:<null>\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:120)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat org.apache.commons.cli.Option_ESTest.test24(Option_ESTest.java:262)\n\nFAILURES!!!\nTests run: 51,  Failures: 36"
+        },
+        {
+          "test_class": "org.apache.commons.cli.OptionBuilder_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 17,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:26:04Z",
+      "project": "Cli",
+      "bug_id": 32,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_32",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.HelpFormatter_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 39,
+          "failures": 7,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "\tat org.apache.commons.cli.HelpFormatter_ESTest.test09(HelpFormatter_ESTest.java:146)\n5) test08(org.apache.commons.cli.HelpFormatter_ESTest)\njava.lang.AssertionError: Expecting exception: StringIndexOutOfBoundsException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.apache.commons.cli.HelpFormatter_ESTest.test08(HelpFormatter_ESTest.java:130)\n6) test24(org.apache.commons.cli.HelpFormatter_ESTest)\njava.lang.AssertionError: expected:<35> but was:<39>\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat org.apache.commons.cli.HelpFormatter_ESTest.test24(HelpFormatter_ESTest.java:358)\n7) test04(org.apache.commons.cli.HelpFormatter_ESTest)\njava.lang.AssertionError: Expecting exception: StringIndexOutOfBoundsException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.apache.commons.cli.HelpFormatter_ESTest.test04(HelpFormatter_ESTest.java:83)\n\nFAILURES!!!\nTests run: 39,  Failures: 7"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:26:07Z",
+      "project": "Cli",
+      "bug_id": 33,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_33",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.HelpFormatter_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 40,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:26:11Z",
+      "project": "Cli",
+      "bug_id": 34,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_34",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.Option_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 51,
+          "failures": 1,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "20:26:10.100 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.Option\n20:26:10.100 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.Option'.\n20:26:10.100 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Option\n20:26:10.103 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/Option\n20:26:10.103 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field UNINITIALIZED\n20:26:10.103 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field UNLIMITED_VALUES\n20:26:10.103 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Option\n...........................................20:26:10.134 [main] INFO org.evosuite.runtime.thread.ThreadStopper - Found new thread\nE........\nTime: 0.524\nThere was 1 failure:\n1) test20(org.apache.commons.cli.Option_ESTest)\norg.junit.ComparisonFailure: expected:<...option:   [ARG] ::  []]> but was:<...option:   [ARG] ::  [:: class java.lang.String ]]>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat org.apache.commons.cli.Option_ESTest.test20(Option_ESTest.java:202)\n\nFAILURES!!!\nTests run: 51,  Failures: 1"
+        },
+        {
+          "test_class": "org.apache.commons.cli.OptionBuilder_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 18,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:26:13Z",
+      "project": "Cli",
+      "bug_id": 35,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_35",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.Options_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 19,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:26:18Z",
+      "project": "Cli",
+      "bug_id": 36,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_36",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.OptionGroup_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 8,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        },
+        {
+          "test_class": "org.apache.commons.cli.Options_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 20,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:26:19Z",
+      "project": "Cli",
+      "bug_id": 37,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_37",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.DefaultParser_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 17,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:26:24Z",
+      "project": "Cli",
+      "bug_id": 38,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_38",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.DefaultParser_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 15,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:26:25Z",
+      "project": "Cli",
+      "bug_id": 39,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_39",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.TypeHandler_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 13,
+          "failures": 1,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "20:26:25.443 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.OptionGroup\n20:26:25.443 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.OptionGroup'.\n20:26:25.443 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/OptionGroup\n20:26:25.444 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/OptionGroup\n20:26:25.444 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.OptionGroup\n..E.......20:26:25.456 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: &oQl]QB(-tR8\n20:26:25.456 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class '&oQl]QB(-tR8'.\n20:26:25.457 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class '&oQl]QB(-tR8.class' should be in target project, but could not be found!\n....\nTime: 0.49\nThere was 1 failure:\n1) test06(org.apache.commons.cli.TypeHandler_ESTest)\norg.apache.commons.cli.ParseException: Unable to find file: Not yet implemented\n\tat org.apache.commons.cli.TypeHandler.openFile(TypeHandler.java:242)\n\tat org.apache.commons.cli.TypeHandler.createValue(TypeHandler.java:92)\n\tat org.apache.commons.cli.TypeHandler_ESTest.test06(TypeHandler_ESTest.java:101)\n\nFAILURES!!!\nTests run: 13,  Failures: 1"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:26:30Z",
+      "project": "Cli",
+      "bug_id": 40,
+      "test_code_dir": "GenericAlgorithm/TestCode/Cli_40",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.cli.TypeHandler_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 12,
+          "failures": 1,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "20:26:30.139 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.TypeHandler\n20:26:30.140 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.Options\n20:26:30.140 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.Options'.\n20:26:30.140 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Options\n20:26:30.141 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/Options\n20:26:30.141 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Options\n.........E...20:26:30.153 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: P(4W5\u007fETfz:oGk\n20:26:30.153 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'P(4W5\u007fETfz:oGk'.\n20:26:30.153 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'P(4W5\u007fETfz:oGk.class' should be in target project, but could not be found!\n\nTime: 0.467\nThere was 1 failure:\n1) test03(org.apache.commons.cli.TypeHandler_ESTest)\norg.apache.commons.cli.ParseException: Unable to handle the class: class java.lang.Integer\n\tat org.apache.commons.cli.TypeHandler.createValue(TypeHandler.java:103)\n\tat org.apache.commons.cli.TypeHandler_ESTest.test03(TypeHandler_ESTest.java:65)\n\nFAILURES!!!\nTests run: 12,  Failures: 1"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:40:14Z",
+      "project": "Codec",
+      "bug_id": 1,
+      "test_code_dir": "GenericAlgorithm/TestCode/Codec_1",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.codec.language.Caverphone_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 5,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        },
+        {
+          "test_class": "org.apache.commons.codec.language.DoubleMetaphone_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 75,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        },
+        {
+          "test_class": "org.apache.commons.codec.language.Metaphone_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 32,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        },
+        {
+          "test_class": "org.apache.commons.codec.language.SoundexUtils_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 6,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:40:11Z",
+      "project": "Codec",
+      "bug_id": 2,
+      "test_code_dir": "GenericAlgorithm/TestCode/Codec_2",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.codec.binary.Base64_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 40,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:40:16Z",
+      "project": "Codec",
+      "bug_id": 3,
+      "test_code_dir": "GenericAlgorithm/TestCode/Codec_3",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.codec.language.DoubleMetaphone_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 76,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:40:21Z",
+      "project": "Codec",
+      "bug_id": 4,
+      "test_code_dir": "GenericAlgorithm/TestCode/Codec_4",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.codec.binary.Base64_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 15,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:40:22Z",
+      "project": "Codec",
+      "bug_id": 5,
+      "test_code_dir": "GenericAlgorithm/TestCode/Codec_5",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.codec.binary.Base64_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 43,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:40:27Z",
+      "project": "Codec",
+      "bug_id": 6,
+      "test_code_dir": "GenericAlgorithm/TestCode/Codec_6",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.codec.binary.Base64InputStream_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 10,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:40:28Z",
+      "project": "Codec",
+      "bug_id": 7,
+      "test_code_dir": "GenericAlgorithm/TestCode/Codec_7",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.codec.binary.Base64_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 43,
+          "failures": 1,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "20:40:28.187 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.codec.BinaryDecoder'.\n20:40:28.188 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.codec.BinaryDecoder\n20:40:28.188 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.codec.binary.Base64\n20:40:28.188 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.codec.binary.Base64'.\n20:40:28.189 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/codec/binary/Base64\n20:40:28.194 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/codec/binary/Base64\n20:40:28.195 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.codec.binary.Base64\n...........................................E\nTime: 0.515\nThere was 1 failure:\n1) test41(org.apache.commons.codec.binary.Base64_ESTest)\norg.junit.ComparisonFailure: expected:<AAA=[\r\n]> but was:<AAA=[]>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat org.apache.commons.codec.binary.Base64_ESTest.test41(Base64_ESTest.java:429)\n\nFAILURES!!!\nTests run: 43,  Failures: 1"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "project": "Codec",
+      "bug_id": 8,
+      "test_code_dir": "GenericAlgorithm/TestCode/Codec_8",
+      "status": "test_compile_failed",
+      "error": "  symbol:   method setInitialBuffer(byte[],int,int)\n  location: variable base64_0 of type Base64\n/Users/bb/Desktop/class/SQA/SQA-Project/GenericAlgorithm/TestCode/Codec_8/Base64_ESTest.java:293: error: cannot find symbol\n      base64_0.setInitialBuffer(byteArray0, (-420), (byte)0);\n              ^\n  symbol:   method setInitialBuffer(byte[],int,byte)\n  location: variable base64_0 of type Base64\n/Users/bb/Desktop/class/SQA/SQA-Project/GenericAlgorithm/TestCode/Codec_8/Base64_ESTest.java:300: error: cannot find symbol\n      base64_0.setInitialBuffer((byte[]) null, 2078, (-531));\n              ^\n  symbol:   method setInitialBuffer(byte[],int,int)\n  location: variable base64_0 of type Base64\n/Users/bb/Desktop/class/SQA/SQA-Project/GenericAlgorithm/TestCode/Codec_8/Base64_ESTest.java:328: error: cannot find symbol\n      base64_0.setInitialBuffer(byteArray0, 41, 1);\n              ^\n  symbol:   method setInitialBuffer(byte[],int,int)\n  location: variable base64_0 of type Base64\nNote: /Users/bb/Desktop/class/SQA/SQA-Project/GenericAlgorithm/TestCode/Codec_8/Base64_ESTest.java uses or overrides a deprecated API.\nNote: Recompile with -Xlint:deprecation for details.\n5 errors",
+      "tests": []
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:40:34Z",
+      "project": "Codec",
+      "bug_id": 9,
+      "test_code_dir": "GenericAlgorithm/TestCode/Codec_9",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.codec.binary.Base64_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 38,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:40:38Z",
+      "project": "Codec",
+      "bug_id": 10,
+      "test_code_dir": "GenericAlgorithm/TestCode/Codec_10",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.codec.language.Caverphone_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 5,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:40:40Z",
+      "project": "Codec",
+      "bug_id": 11,
+      "test_code_dir": "GenericAlgorithm/TestCode/Codec_11",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.codec.net.QuotedPrintableCodec_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 17,
+          "failures": 2,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "Time: 0.505\nThere were 2 failures:\n1) test01(org.apache.commons.codec.net.QuotedPrintableCodec_ESTest)\njava.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 2\n\tat org.apache.commons.codec.net.QuotedPrintableCodec.getUnsignedOctet(QuotedPrintableCodec.java:137)\n\tat org.apache.commons.codec.net.QuotedPrintableCodec.encodeQuotedPrintable(QuotedPrintableCodec.java:220)\n\tat org.apache.commons.codec.net.QuotedPrintableCodec_ESTest.test01(QuotedPrintableCodec_ESTest.java:39)\n2) test07(org.apache.commons.codec.net.QuotedPrintableCodec_ESTest)\njava.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 2\n\tat org.apache.commons.codec.net.QuotedPrintableCodec.getUnsignedOctet(QuotedPrintableCodec.java:137)\n\tat org.apache.commons.codec.net.QuotedPrintableCodec.encodeQuotedPrintable(QuotedPrintableCodec.java:220)\n\tat org.apache.commons.codec.net.QuotedPrintableCodec.encode(QuotedPrintableCodec.java:297)\n\tat org.apache.commons.codec.net.QuotedPrintableCodec.encode(QuotedPrintableCodec.java:470)\n\tat org.apache.commons.codec.net.QuotedPrintableCodec.encode(QuotedPrintableCodec.java:341)\n\tat org.apache.commons.codec.net.QuotedPrintableCodec.encode(QuotedPrintableCodec.java:407)\n\tat org.apache.commons.codec.net.QuotedPrintableCodec_ESTest.test07(QuotedPrintableCodec_ESTest.java:100)\n\nFAILURES!!!\nTests run: 17,  Failures: 2"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:40:45Z",
+      "project": "Codec",
+      "bug_id": 12,
+      "test_code_dir": "GenericAlgorithm/TestCode/Codec_12",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.codec.binary.BaseNCodecInputStream_ESTest",
+          "execution_seconds": 2,
+          "tests_run": 9,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:40:48Z",
+      "project": "Codec",
+      "bug_id": 13,
+      "test_code_dir": "GenericAlgorithm/TestCode/Codec_13",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.codec.language.DoubleMetaphone_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 74,
+          "failures": 2,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "20:40:46.469 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.codec.binary.StringUtils'.\n20:40:46.470 [Time-limited test] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/codec/binary/StringUtils\n20:40:46.473 [Time-limited test] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/codec/binary/StringUtils\n20:40:46.474 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.codec.binary, 628086197\n20:40:46.474 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.codec.binary.StringUtils\n...........E....E..........................................................\nTime: 0.538\nThere were 2 failures:\n1) test46(org.apache.commons.codec.language.DoubleMetaphone_ESTest)\njava.lang.AssertionError: Expecting exception: NullPointerException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.apache.commons.codec.language.DoubleMetaphone_ESTest.test46(DoubleMetaphone_ESTest.java:383)\n2) test44(org.apache.commons.codec.language.DoubleMetaphone_ESTest)\njava.lang.AssertionError: Expecting exception: NullPointerException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.apache.commons.codec.language.DoubleMetaphone_ESTest.test44(DoubleMetaphone_ESTest.java:364)\n\nFAILURES!!!\nTests run: 74,  Failures: 2"
+        },
+        {
+          "test_class": "org.apache.commons.codec.binary.StringUtils_ESTest",
+          "execution_seconds": 2,
+          "tests_run": 16,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:40:54Z",
+      "project": "Codec",
+      "bug_id": 14,
+      "test_code_dir": "GenericAlgorithm/TestCode/Codec_14",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "Lang_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 1,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        },
+        {
+          "test_class": "org.apache.commons.codec.language.bm.PhoneticEngine_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 7,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        },
+        {
+          "test_class": "Rule_ESTest",
+          "execution_seconds": 2,
+          "tests_run": 1,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:40:53Z",
+      "project": "Codec",
+      "bug_id": 15,
+      "test_code_dir": "GenericAlgorithm/TestCode/Codec_15",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.codec.language.Soundex_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 9,
+          "failures": 1,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "20:40:53.321 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/codec/language/SoundexUtils\n20:40:53.322 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/codec/language/SoundexUtils\n20:40:53.322 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.codec.language.SoundexUtils\n20:40:53.322 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.codec.language.Soundex\n20:40:53.322 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.codec.language.Soundex'.\n20:40:53.323 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/codec/language/Soundex\n20:40:53.326 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/codec/language/Soundex\n20:40:53.326 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.codec.language.Soundex\n......E...\nTime: 0.517\nThere was 1 failure:\n1) test7(org.apache.commons.codec.language.Soundex_ESTest)\norg.junit.ComparisonFailure: expected:<W[20]0> but was:<W[32]0>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat org.apache.commons.codec.language.Soundex_ESTest.test7(Soundex_ESTest.java:96)\n\nFAILURES!!!\nTests run: 9,  Failures: 1"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:41:00Z",
+      "project": "Codec",
+      "bug_id": 16,
+      "test_code_dir": "GenericAlgorithm/TestCode/Codec_16",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.codec.binary.Base32_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 19,
+          "failures": 1,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "20:40:59.985 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.codec.Charsets\n20:40:59.986 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.codec.binary.Base32\n20:40:59.986 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.codec.binary.Base32'.\n20:40:59.987 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/codec/binary/Base32\n20:40:59.993 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/codec/binary/Base32\n20:40:59.993 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.codec.binary.Base32\n...................E\nTime: 0.554\nThere was 1 failure:\n1) test09(org.apache.commons.codec.binary.Base32_ESTest)\njava.lang.AssertionError: expected:<8> but was:<7>\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat org.apache.commons.codec.binary.Base32_ESTest.test09(Base32_ESTest.java:116)\n\nFAILURES!!!\nTests run: 19,  Failures: 1"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:41:00Z",
+      "project": "Codec",
+      "bug_id": 17,
+      "test_code_dir": "GenericAlgorithm/TestCode/Codec_17",
+      "status": "ok",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.codec.binary.StringUtils_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 23,
+          "failures": 0,
+          "test_execution": "PASS",
+          "status": "ok",
+          "error": null
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "round": 2,
+      "subject_version": "fixed",
+      "created_at": "2026-09-19T13:41:06Z",
+      "project": "Codec",
+      "bug_id": 18,
+      "test_code_dir": "GenericAlgorithm/TestCode/Codec_18",
+      "status": "failed",
+      "tests": [
+        {
+          "test_class": "org.apache.commons.codec.binary.StringUtils_ESTest",
+          "execution_seconds": 1,
+          "tests_run": 22,
+          "failures": 1,
+          "test_execution": "FAIL",
+          "status": "test_failed",
+          "error": "20:41:06.018 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/codec/Charsets\n20:41:06.018 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/codec/Charsets\n20:41:06.019 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.codec, -907626822\n20:41:06.019 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.codec.Charsets\n20:41:06.019 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.codec.binary.CharSequenceUtils\n20:41:06.019 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.codec.binary.CharSequenceUtils'.\n20:41:06.020 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/codec/binary/CharSequenceUtils\n20:41:06.020 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/codec/binary/CharSequenceUtils\n20:41:06.020 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.codec.binary.CharSequenceUtils\n..............E........\nTime: 0.498\nThere was 1 failure:\n1) test04(org.apache.commons.codec.binary.StringUtils_ESTest)\njava.lang.AssertionError: Expecting exception: StringIndexOutOfBoundsException\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.apache.commons.codec.binary.StringUtils_ESTest.test04(StringUtils_ESTest.java:54)\n\nFAILURES!!!\nTests run: 22,  Failures: 1"
+        }
+      ]
+    }
+  ]
+}

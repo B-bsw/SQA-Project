@@ -1,0 +1,20 @@
+"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
+"Cli",25,"fixed","GenericAlgorithm/TestCode/Cli_25","org.apache.commons.cli.HelpFormatter_ESTest",1,36,2,"FAIL","test_failed","Time: 0.677
+There were 2 failures:
+1) test06(org.apache.commons.cli.HelpFormatter_ESTest)
+java.lang.AssertionError: expected:<37467> but was:<53>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at org.apache.commons.cli.HelpFormatter_ESTest.test06(HelpFormatter_ESTest.java:112)
+2) test08(org.apache.commons.cli.HelpFormatter_ESTest)
+java.lang.AssertionError: expected:<3862> but was:<45>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at org.apache.commons.cli.HelpFormatter_ESTest.test08(HelpFormatter_ESTest.java:140)
+
+FAILURES!!!
+Tests run: 36,  Failures: 2"

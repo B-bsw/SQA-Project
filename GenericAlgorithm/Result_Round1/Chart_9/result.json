@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "round": 1,
+  "subject_version": "buggy",
+  "created_at": "2026-09-19T12:04:11Z",
+  "project": "Chart",
+  "bug_id": 9,
+  "resource_dir": "Resoucre/Chart_9",
+  "test_code_dir": "GenericAlgorithm/TestCode/Chart_9",
+  "algorithm": "STANDARD_GA",
+  "status": "ok",
+  "targets": [
+    {
+      "source_file": "Resoucre/Chart_9/org/jfree/data/time/TimeSeries.java",
+      "target_class": "org.jfree.data.time.TimeSeries",
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "client_memory_mb": 2048,
+      "client_on_thread": false,
+      "search_budget_seconds": 60,
+      "generation_seconds": 74,
+      "generated_test_methods": 47,
+      "test_execution": "PASS",
+      "line_coverage_percent": 93.77,
+      "branch_coverage_percent": 92.11,
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

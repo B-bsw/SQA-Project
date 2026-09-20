@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "round": 1,
+  "subject_version": "buggy",
+  "created_at": "2026-09-19T12:07:41Z",
+  "project": "Chart",
+  "bug_id": 11,
+  "resource_dir": "Resoucre/Chart_11",
+  "test_code_dir": "GenericAlgorithm/TestCode/Chart_11",
+  "algorithm": "STANDARD_GA",
+  "status": "ok",
+  "targets": [
+    {
+      "source_file": "Resoucre/Chart_11/org/jfree/chart/util/ShapeUtilities.java",
+      "target_class": "org.jfree.chart.util.ShapeUtilities",
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "client_memory_mb": 2048,
+      "client_on_thread": false,
+      "search_budget_seconds": 60,
+      "generation_seconds": 74,
+      "generated_test_methods": 60,
+      "test_execution": "PASS",
+      "line_coverage_percent": 96.94,
+      "branch_coverage_percent": 95.93,
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

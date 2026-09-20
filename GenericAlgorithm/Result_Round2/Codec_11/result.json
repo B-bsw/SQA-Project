@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "round": 2,
+  "subject_version": "fixed",
+  "created_at": "2026-09-19T13:40:40Z",
+  "project": "Codec",
+  "bug_id": 11,
+  "test_code_dir": "GenericAlgorithm/TestCode/Codec_11",
+  "status": "failed",
+  "tests": [
+    {
+      "test_class": "org.apache.commons.codec.net.QuotedPrintableCodec_ESTest",
+      "execution_seconds": 1,
+      "tests_run": 17,
+      "failures": 2,
+      "test_execution": "FAIL",
+      "status": "test_failed",
+      "error": "Time: 0.505\nThere were 2 failures:\n1) test01(org.apache.commons.codec.net.QuotedPrintableCodec_ESTest)\njava.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 2\n\tat org.apache.commons.codec.net.QuotedPrintableCodec.getUnsignedOctet(QuotedPrintableCodec.java:137)\n\tat org.apache.commons.codec.net.QuotedPrintableCodec.encodeQuotedPrintable(QuotedPrintableCodec.java:220)\n\tat org.apache.commons.codec.net.QuotedPrintableCodec_ESTest.test01(QuotedPrintableCodec_ESTest.java:39)\n2) test07(org.apache.commons.codec.net.QuotedPrintableCodec_ESTest)\njava.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 2\n\tat org.apache.commons.codec.net.QuotedPrintableCodec.getUnsignedOctet(QuotedPrintableCodec.java:137)\n\tat org.apache.commons.codec.net.QuotedPrintableCodec.encodeQuotedPrintable(QuotedPrintableCodec.java:220)\n\tat org.apache.commons.codec.net.QuotedPrintableCodec.encode(QuotedPrintableCodec.java:297)\n\tat org.apache.commons.codec.net.QuotedPrintableCodec.encode(QuotedPrintableCodec.java:470)\n\tat org.apache.commons.codec.net.QuotedPrintableCodec.encode(QuotedPrintableCodec.java:341)\n\tat org.apache.commons.codec.net.QuotedPrintableCodec.encode(QuotedPrintableCodec.java:407)\n\tat org.apache.commons.codec.net.QuotedPrintableCodec_ESTest.test07(QuotedPrintableCodec_ESTest.java:100)\n\nFAILURES!!!\nTests run: 17,  Failures: 2"
+    }
+  ]
+}

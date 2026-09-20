@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "round": 2,
+  "subject_version": "fixed",
+  "created_at": "2026-09-19T13:41:00Z",
+  "project": "Codec",
+  "bug_id": 16,
+  "test_code_dir": "GenericAlgorithm/TestCode/Codec_16",
+  "status": "failed",
+  "tests": [
+    {
+      "test_class": "org.apache.commons.codec.binary.Base32_ESTest",
+      "execution_seconds": 1,
+      "tests_run": 19,
+      "failures": 1,
+      "test_execution": "FAIL",
+      "status": "test_failed",
+      "error": "20:40:59.985 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.codec.Charsets\n20:40:59.986 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.codec.binary.Base32\n20:40:59.986 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.codec.binary.Base32'.\n20:40:59.987 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/codec/binary/Base32\n20:40:59.993 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/codec/binary/Base32\n20:40:59.993 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.codec.binary.Base32\n...................E\nTime: 0.554\nThere was 1 failure:\n1) test09(org.apache.commons.codec.binary.Base32_ESTest)\njava.lang.AssertionError: expected:<8> but was:<7>\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat org.apache.commons.codec.binary.Base32_ESTest.test09(Base32_ESTest.java:116)\n\nFAILURES!!!\nTests run: 19,  Failures: 1"
+    }
+  ]
+}

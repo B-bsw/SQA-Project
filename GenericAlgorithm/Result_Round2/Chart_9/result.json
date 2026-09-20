@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "round": 2,
+  "subject_version": "fixed",
+  "created_at": "2026-09-19T12:16:57Z",
+  "project": "Chart",
+  "bug_id": 9,
+  "test_code_dir": "GenericAlgorithm/TestCode/Chart_9",
+  "status": "ok",
+  "tests": [
+    {
+      "test_class": "org.jfree.data.time.TimeSeries_ESTest",
+      "execution_seconds": 1,
+      "tests_run": 47,
+      "failures": 0,
+      "test_execution": "PASS",
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

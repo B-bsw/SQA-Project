@@ -1,0 +1,20 @@
+"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
+"Chart",4,"fixed","GenericAlgorithm/TestCode/Chart_4","org.jfree.chart.plot.XYPlot_ESTest",3,177,1,"FAIL","test_failed","18:56:21.690 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.jfree.chart.urls.StandardXYZURLGenerator'.
+18:56:21.691 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/jfree/chart/urls/StandardXYZURLGenerator
+18:56:21.691 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/jfree/chart/urls/StandardXYZURLGenerator
+18:56:21.691 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.jfree.chart.urls.XYZURLGenerator
+18:56:21.691 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.jfree.chart.urls.XYZURLGenerator'.
+18:56:21.691 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.jfree.chart.urls.XYZURLGenerator
+18:56:21.691 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.jfree.chart.urls.StandardXYZURLGenerator
+.......................................................................18:56:22.021 [main] INFO org.evosuite.runtime.thread.ThreadStopper - Found new thread
+18:56:22.021 [main] INFO org.evosuite.runtime.thread.ThreadStopper - Found new thread
+..............................E...........................................................................
+Time: 2.46
+There was 1 failure:
+1) test076(org.jfree.chart.plot.XYPlot_ESTest)
+java.lang.AssertionError: Expecting exception: NullPointerException
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.jfree.chart.plot.XYPlot_ESTest.test076(XYPlot_ESTest.java:1007)
+
+FAILURES!!!
+Tests run: 177,  Failures: 1"

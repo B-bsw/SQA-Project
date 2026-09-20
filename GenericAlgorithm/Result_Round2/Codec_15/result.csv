@@ -1,0 +1,20 @@
+"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
+"Codec",15,"fixed","GenericAlgorithm/TestCode/Codec_15","org.apache.commons.codec.language.Soundex_ESTest",1,9,1,"FAIL","test_failed","20:40:53.321 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/codec/language/SoundexUtils
+20:40:53.322 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/codec/language/SoundexUtils
+20:40:53.322 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.codec.language.SoundexUtils
+20:40:53.322 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.codec.language.Soundex
+20:40:53.322 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.codec.language.Soundex'.
+20:40:53.323 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/codec/language/Soundex
+20:40:53.326 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/codec/language/Soundex
+20:40:53.326 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.codec.language.Soundex
+......E...
+Time: 0.517
+There was 1 failure:
+1) test7(org.apache.commons.codec.language.Soundex_ESTest)
+org.junit.ComparisonFailure: expected:<W[20]0> but was:<W[32]0>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.apache.commons.codec.language.Soundex_ESTest.test7(Soundex_ESTest.java:96)
+
+FAILURES!!!
+Tests run: 9,  Failures: 1"

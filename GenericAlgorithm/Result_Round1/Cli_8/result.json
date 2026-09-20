@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "round": 1,
+  "subject_version": "buggy",
+  "created_at": "2026-09-19T12:56:50Z",
+  "project": "Cli",
+  "bug_id": 8,
+  "resource_dir": "Resoucre/Cli_8",
+  "test_code_dir": "GenericAlgorithm/TestCode/Cli_8",
+  "algorithm": "STANDARD_GA",
+  "status": "ok",
+  "targets": [
+    {
+      "source_file": "Resoucre/Cli_8/org/apache/commons/cli/HelpFormatter.java",
+      "target_class": "org.apache.commons.cli.HelpFormatter",
+      "algorithm": "STANDARD_GA",
+      "seed": 20260918,
+      "client_memory_mb": 2048,
+      "client_on_thread": true,
+      "search_budget_seconds": 60,
+      "generation_seconds": 72,
+      "generated_test_methods": 35,
+      "test_execution": "PASS",
+      "line_coverage_percent": 100.00,
+      "branch_coverage_percent": 94.81,
+      "status": "ok",
+      "error": null
+    }
+  ]
+}

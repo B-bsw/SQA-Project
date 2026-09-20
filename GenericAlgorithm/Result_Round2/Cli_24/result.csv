@@ -1,0 +1,20 @@
+"project","bug_id","subject_version","test_code_dir","test_class","execution_seconds","tests_run","failures","test_execution","status","error"
+"Cli",24,"fixed","GenericAlgorithm/TestCode/Cli_24","org.apache.commons.cli.HelpFormatter_ESTest",1,38,2,"FAIL","test_failed","
+......E...
+Time: 0.732
+There were 2 failures:
+1) test10(org.apache.commons.cli.HelpFormatter_ESTest)
+java.lang.AssertionError: Expecting exception: IllegalStateException
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.apache.commons.cli.HelpFormatter_ESTest.test10(HelpFormatter_ESTest.java:175)
+2) test05(org.apache.commons.cli.HelpFormatter_ESTest)
+java.lang.NegativeArraySizeException: -1
+	at java.base/java.lang.AbstractStringBuilder.<init>(AbstractStringBuilder.java:86)
+	at java.base/java.lang.StringBuffer.<init>(StringBuffer.java:144)
+	at org.apache.commons.cli.HelpFormatter.createPadding(HelpFormatter.java:921)
+	at org.apache.commons.cli.HelpFormatter.renderWrappedText(HelpFormatter.java:830)
+	at org.apache.commons.cli.HelpFormatter.renderOptions(HelpFormatter.java:787)
+	at org.apache.commons.cli.HelpFormatter_ESTest.test05(HelpFormatter_ESTest.java:104)
+
+FAILURES!!!
+Tests run: 38,  Failures: 2"
