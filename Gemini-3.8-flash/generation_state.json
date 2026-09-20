@@ -1433,9 +1433,23 @@
   "Closure_100/com/google/javascript/jscomp/CheckGlobalThis.java": {
     "project": "Closure_100",
     "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_100/com/google/javascript/jscomp/CheckGlobalThis.java",
-    "status": "FAILED",
-    "error": "Gateway TTFT Timeout",
-    "updated_at": "2026-09-18T11:02:18.461245"
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_100_buggy/CheckGlobalThisTest.java",
+    "file_size_bytes": 11088,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 15.39,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2125,
+      "completion_tokens": 3188,
+      "total_tokens": 5313
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 240657,
+      "daily_remaining_tokens": 109343
+    },
+    "updated_at": "2026-09-18T13:31:39.400718"
   },
   "Closure_101/com/google/javascript/jscomp/CommandLineRunner.java": {
     "project": "Closure_101",
@@ -1503,9 +1517,23 @@
   "Closure_103/com/google/javascript/jscomp/DisambiguateProperties.java": {
     "project": "Closure_103",
     "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_103/com/google/javascript/jscomp/DisambiguateProperties.java",
-    "status": "FAILED",
-    "error": "Gateway TTFT Timeout",
-    "updated_at": "2026-09-18T11:09:35.149902"
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_103_buggy/DisambiguatePropertiesTest.java",
+    "file_size_bytes": 20603,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 64.39,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7333,
+      "completion_tokens": 5811,
+      "total_tokens": 19139
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 247121,
+      "daily_remaining_tokens": 102879
+    },
+    "updated_at": "2026-09-18T13:32:45.850326"
   },
   "Closure_104/com/google/javascript/rhino/jstype/UnionType.java": {
     "project": "Closure_104",
@@ -1653,5 +1681,3947 @@
       "daily_remaining_tokens": 89323
     },
     "updated_at": "2026-09-18T11:22:02.397400"
+  },
+  "Closure_11/com/google/javascript/jscomp/TypeCheck.java": {
+    "project": "Closure_11",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_11/com/google/javascript/jscomp/TypeCheck.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_11_buggy/TypeCheckTest.java",
+    "file_size_bytes": 19018,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 67.5,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 14439,
+      "completion_tokens": 5340,
+      "total_tokens": 26544
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 289116,
+      "daily_remaining_tokens": 60884
+    },
+    "updated_at": "2026-09-18T11:23:11.926222"
+  },
+  "Closure_110/com/google/javascript/jscomp/ScopedAliases.java": {
+    "project": "Closure_110",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_110/com/google/javascript/jscomp/ScopedAliases.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_110_buggy/ScopedAliasesTest.java",
+    "file_size_bytes": 10594,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 58.59,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4734,
+      "completion_tokens": 3194,
+      "total_tokens": 10073
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 226707,
+      "daily_remaining_tokens": 123293
+    },
+    "updated_at": "2026-09-18T11:24:12.548760"
+  },
+  "Closure_110/com/google/javascript/rhino/Node.java": {
+    "project": "Closure_110",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_110/com/google/javascript/rhino/Node.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_110_buggy/NodeTest.java",
+    "file_size_bytes": 26523,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 47.98,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 6630
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-18T11:25:02.592795"
+  },
+  "Closure_111/com/google/javascript/jscomp/type/ClosureReverseAbstractInterpreter.java": {
+    "project": "Closure_111",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_111/com/google/javascript/jscomp/type/ClosureReverseAbstractInterpreter.java",
+    "status": "FAILED",
+    "error": "Gateway TTFT Timeout",
+    "updated_at": "2026-09-19T11:01:44.406768"
+  },
+  "Closure_112/com/google/javascript/jscomp/TypeInference.java": {
+    "project": "Closure_112",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_112/com/google/javascript/jscomp/TypeInference.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_112_buggy/TypeInferenceTest.java",
+    "file_size_bytes": 18205,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 39.05,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 12302,
+      "completion_tokens": 5383,
+      "total_tokens": 19293
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 271556,
+      "daily_remaining_tokens": 78444
+    },
+    "updated_at": "2026-09-18T13:41:20.298487"
+  },
+  "Closure_113/com/google/javascript/jscomp/ProcessClosurePrimitives.java": {
+    "project": "Closure_113",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_113/com/google/javascript/jscomp/ProcessClosurePrimitives.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_113_buggy/ProcessClosurePrimitivesTest.java",
+    "file_size_bytes": 18271,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 52.68,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 9011,
+      "completion_tokens": 4939,
+      "total_tokens": 17164
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 278832,
+      "daily_remaining_tokens": 71168
+    },
+    "updated_at": "2026-09-18T13:42:15.019707"
+  },
+  "Closure_114/com/google/javascript/jscomp/NameAnalyzer.java": {
+    "project": "Closure_114",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_114/com/google/javascript/jscomp/NameAnalyzer.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_114_buggy/NameAnalyzerTest.java",
+    "file_size_bytes": 16601,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 45.15,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 11472,
+      "completion_tokens": 4722,
+      "total_tokens": 18018
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 297776,
+      "daily_remaining_tokens": 52224
+    },
+    "updated_at": "2026-09-18T13:43:02.198166"
+  },
+  "Closure_115/com/google/javascript/jscomp/FunctionInjector.java": {
+    "project": "Closure_115",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_115/com/google/javascript/jscomp/FunctionInjector.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_115_buggy/FunctionInjectorTest.java",
+    "file_size_bytes": 25887,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 45.64,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5798,
+      "completion_tokens": 6920,
+      "total_tokens": 14503
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 292893,
+      "daily_remaining_tokens": 57107
+    },
+    "updated_at": "2026-09-18T13:44:50.219433"
+  },
+  "Closure_116/com/google/javascript/jscomp/FunctionInjector.java": {
+    "project": "Closure_116",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_116/com/google/javascript/jscomp/FunctionInjector.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_116_buggy/FunctionInjectorTest.java",
+    "file_size_bytes": 25654,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 49.88,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5685,
+      "completion_tokens": 6979,
+      "total_tokens": 15340
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 290958,
+      "daily_remaining_tokens": 59042
+    },
+    "updated_at": "2026-09-18T13:45:42.145277"
+  },
+  "Closure_117/com/google/javascript/jscomp/TypeValidator.java": {
+    "project": "Closure_117",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_117/com/google/javascript/jscomp/TypeValidator.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_117_buggy/TypeValidatorTest.java",
+    "file_size_bytes": 33569,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 68.43,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6379,
+      "completion_tokens": 9475,
+      "total_tokens": 18068
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 309176,
+      "daily_remaining_tokens": 40824
+    },
+    "updated_at": "2026-09-18T13:48:53.313184"
+  },
+  "Closure_118/com/google/javascript/jscomp/DisambiguateProperties.java": {
+    "project": "Closure_118",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_118/com/google/javascript/jscomp/DisambiguateProperties.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_118_buggy/DisambiguatePropertiesTest.java",
+    "file_size_bytes": 23097,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 47.34,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8570,
+      "completion_tokens": 6525,
+      "total_tokens": 17959
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 38925,
+      "daily_remaining_tokens": 311075
+    },
+    "updated_at": "2026-09-19T11:04:32.503607"
+  },
+  "Closure_119/com/google/javascript/jscomp/GlobalNamespace.java": {
+    "project": "Closure_119",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_119/com/google/javascript/jscomp/GlobalNamespace.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_119_buggy/GlobalNamespaceTest.java",
+    "file_size_bytes": 19627,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 33.97,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8258,
+      "completion_tokens": 5659,
+      "total_tokens": 14905
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 318522,
+      "daily_remaining_tokens": 31478
+    },
+    "updated_at": "2026-09-18T13:53:00.183107"
+  },
+  "Closure_12/com/google/javascript/jscomp/MaybeReachingVariableUse.java": {
+    "project": "Closure_12",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_12/com/google/javascript/jscomp/MaybeReachingVariableUse.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_12_buggy/MaybeReachingVariableUseTest.java",
+    "file_size_bytes": 19059,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 58.22,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3213,
+      "completion_tokens": 5524,
+      "total_tokens": 13861
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 331395,
+      "daily_remaining_tokens": 18605
+    },
+    "updated_at": "2026-09-18T13:57:01.451791"
+  },
+  "Closure_120/com/google/javascript/jscomp/ReferenceCollectingCallback.java": {
+    "project": "Closure_120",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_120/com/google/javascript/jscomp/ReferenceCollectingCallback.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_120_buggy/ReferenceCollectingCallbackTest.java",
+    "file_size_bytes": 5508,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 64.98,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 1377
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-18T14:00:09.148890"
+  },
+  "Closure_121/com/google/javascript/jscomp/InlineVariables.java": {
+    "project": "Closure_121",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_121/com/google/javascript/jscomp/InlineVariables.java",
+    "status": "FAILED",
+    "error": "Gateway TTFT Timeout",
+    "updated_at": "2026-09-19T11:08:35.880930"
+  },
+  "Closure_122/com/google/javascript/jscomp/parsing/IRFactory.java": {
+    "project": "Closure_122",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_122/com/google/javascript/jscomp/parsing/IRFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_122_buggy/IRFactoryTest.java",
+    "file_size_bytes": 39152,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 71.82,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 13557,
+      "completion_tokens": 11014,
+      "total_tokens": 28248
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 361786,
+      "daily_remaining_tokens": -11786
+    },
+    "updated_at": "2026-09-18T14:06:24.726089"
+  },
+  "Closure_123/com/google/javascript/jscomp/CodeGenerator.java": {
+    "project": "Closure_123",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_123/com/google/javascript/jscomp/CodeGenerator.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_123_buggy/CodeGeneratorTest.java",
+    "file_size_bytes": 27098,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 92.48,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 9409,
+      "completion_tokens": 8108,
+      "total_tokens": 28062
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 64123,
+      "daily_remaining_tokens": 285877
+    },
+    "updated_at": "2026-09-19T11:10:08.392708"
+  },
+  "Jsoup_91/org/jsoup/UncheckedIOException.java": {
+    "project": "Jsoup_91",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_91/org/jsoup/UncheckedIOException.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_91_buggy/UncheckedIOExceptionTest.java",
+    "file_size_bytes": 3233,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 19.31,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 646,
+      "completion_tokens": 695,
+      "total_tokens": 2936
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 63874,
+      "daily_remaining_tokens": 286126
+    },
+    "updated_at": "2026-09-19T11:14:06.857316"
+  },
+  "Mockito_19/org/mockito/internal/configuration/injection/filter/MockCandidateFilter.java": {
+    "project": "Mockito_19",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_19/org/mockito/internal/configuration/injection/filter/MockCandidateFilter.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_19_buggy/MockCandidateFilterTest.java",
+    "file_size_bytes": 10763,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 18.07,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 686,
+      "completion_tokens": 2296,
+      "total_tokens": 4249
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 43119,
+      "daily_remaining_tokens": 306881
+    },
+    "updated_at": "2026-09-19T11:14:26.956709"
+  },
+  "Mockito_2/org/mockito/internal/util/Timer.java": {
+    "project": "Mockito_2",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_2/org/mockito/internal/util/Timer.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_2_buggy/TimerTest.java",
+    "file_size_bytes": 3155,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 14.63,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 723,
+      "completion_tokens": 792,
+      "total_tokens": 3148
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 46254,
+      "daily_remaining_tokens": 303746
+    },
+    "updated_at": "2026-09-19T11:14:43.612752"
+  },
+  "Mockito_12/org/mockito/internal/util/reflection/GenericMaster.java": {
+    "project": "Mockito_12",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_12/org/mockito/internal/util/reflection/GenericMaster.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_12_buggy/GenericMasterTest.java",
+    "file_size_bytes": 3805,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 19.98,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 780,
+      "completion_tokens": 903,
+      "total_tokens": 3283
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 65562,
+      "daily_remaining_tokens": 284438
+    },
+    "updated_at": "2026-09-19T11:40:30.738057"
+  },
+  "Mockito_19/org/mockito/internal/configuration/injection/filter/TypeBasedCandidateFilter.java": {
+    "project": "Mockito_19",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_19/org/mockito/internal/configuration/injection/filter/TypeBasedCandidateFilter.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_19_buggy/TypeBasedCandidateFilterTest.java",
+    "file_size_bytes": 10294,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 29.71,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 806,
+      "completion_tokens": 2383,
+      "total_tokens": 6105
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 50726,
+      "daily_remaining_tokens": 299274
+    },
+    "updated_at": "2026-09-19T11:41:19.392603"
+  },
+  "Mockito_29/org/mockito/internal/matchers/Same.java": {
+    "project": "Mockito_29",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_29/org/mockito/internal/matchers/Same.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_29_buggy/SameTest.java",
+    "file_size_bytes": 6391,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 31.0,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 850,
+      "completion_tokens": 1419,
+      "total_tokens": 4739
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 43465,
+      "daily_remaining_tokens": 306535
+    },
+    "updated_at": "2026-09-19T11:41:52.421566"
+  },
+  "Mockito_22/org/mockito/internal/matchers/Equality.java": {
+    "project": "Mockito_22",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_22/org/mockito/internal/matchers/Equality.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_22_buggy/EqualityTest.java",
+    "file_size_bytes": 12419,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 22.17,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 951,
+      "completion_tokens": 3506,
+      "total_tokens": 5528
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 69490,
+      "daily_remaining_tokens": 280510
+    },
+    "updated_at": "2026-09-19T11:42:16.613214"
+  },
+  "Jsoup_16/org/jsoup/nodes/DocumentType.java": {
+    "project": "Jsoup_16",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_16/org/jsoup/nodes/DocumentType.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_16_buggy/DocumentTypeTest.java",
+    "file_size_bytes": 5687,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 13.13,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 924,
+      "completion_tokens": 1398,
+      "total_tokens": 3021
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 44873,
+      "daily_remaining_tokens": 305127
+    },
+    "updated_at": "2026-09-19T11:42:31.771635"
+  },
+  "JxPath_7/org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java": {
+    "project": "JxPath_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_7/org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_7_buggy/CoreOperationRelationalExpressionTest.java",
+    "file_size_bytes": 3438,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 57.96,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 895,
+      "completion_tokens": 794,
+      "total_tokens": 3732
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 51542,
+      "daily_remaining_tokens": 298458
+    },
+    "updated_at": "2026-09-19T11:43:31.761008"
+  },
+  "JxPath_9/org/apache/commons/jxpath/ri/compiler/CoreOperationEqual.java": {
+    "project": "JxPath_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_9/org/apache/commons/jxpath/ri/compiler/CoreOperationEqual.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_9_buggy/CoreOperationEqualTest.java",
+    "file_size_bytes": 5570,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 28.08,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 916,
+      "completion_tokens": 1318,
+      "total_tokens": 5475
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 46470,
+      "daily_remaining_tokens": 303530
+    },
+    "updated_at": "2026-09-19T11:44:01.866451"
+  },
+  "JxPath_9/org/apache/commons/jxpath/ri/compiler/CoreOperationNotEqual.java": {
+    "project": "JxPath_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_9/org/apache/commons/jxpath/ri/compiler/CoreOperationNotEqual.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_9_buggy/CoreOperationNotEqualTest.java",
+    "file_size_bytes": 4659,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 39.29,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 919,
+      "completion_tokens": 1131,
+      "total_tokens": 7082
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 75501,
+      "daily_remaining_tokens": 274499
+    },
+    "updated_at": "2026-09-19T11:44:43.183939"
+  },
+  "Jsoup_40/org/jsoup/nodes/DocumentType.java": {
+    "project": "Jsoup_40",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_40/org/jsoup/nodes/DocumentType.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_40_buggy/DocumentTypeTest.java",
+    "file_size_bytes": 5564,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 17.45,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 967,
+      "completion_tokens": 1423,
+      "total_tokens": 4032
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 48206,
+      "daily_remaining_tokens": 301794
+    },
+    "updated_at": "2026-09-19T11:45:02.657970"
+  },
+  "Mockito_15/org/mockito/internal/configuration/injection/FinalMockCandidateFilter.java": {
+    "project": "Mockito_15",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_15/org/mockito/internal/configuration/injection/FinalMockCandidateFilter.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_15_buggy/FinalMockCandidateFilterTest.java",
+    "file_size_bytes": 4594,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 18.37,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 901,
+      "completion_tokens": 1080,
+      "total_tokens": 3927
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 53426,
+      "daily_remaining_tokens": 296574
+    },
+    "updated_at": "2026-09-19T11:45:23.053917"
+  },
+  "Mockito_19/org/mockito/internal/configuration/injection/filter/NameBasedCandidateFilter.java": {
+    "project": "Mockito_19",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_19/org/mockito/internal/configuration/injection/filter/NameBasedCandidateFilter.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_19_buggy/NameBasedCandidateFilterTest.java",
+    "file_size_bytes": 10129,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 46.63,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 977,
+      "completion_tokens": 2317,
+      "total_tokens": 8746
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 79215,
+      "daily_remaining_tokens": 270785
+    },
+    "updated_at": "2026-09-19T11:47:12.043647"
+  },
+  "JacksonDatabind_9/com/fasterxml/jackson/databind/ser/std/StdKeySerializer.java": {
+    "project": "JacksonDatabind_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_9/com/fasterxml/jackson/databind/ser/std/StdKeySerializer.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_9_buggy/StdKeySerializerTest.java",
+    "file_size_bytes": 10676,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 71.89,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 947,
+      "completion_tokens": 2430,
+      "total_tokens": 10534
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 57098,
+      "daily_remaining_tokens": 292902
+    },
+    "updated_at": "2026-09-19T11:48:25.960761"
+  },
+  "Mockito_11/org/mockito/internal/creation/DelegatingMethod.java": {
+    "project": "Mockito_11",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_11/org/mockito/internal/creation/DelegatingMethod.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_11_buggy/DelegatingMethodTest.java",
+    "file_size_bytes": 8988,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 18.67,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 967,
+      "completion_tokens": 2079,
+      "total_tokens": 4670
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 56150,
+      "daily_remaining_tokens": 293850
+    },
+    "updated_at": "2026-09-19T11:48:46.655823"
+  },
+  "JxPath_7/org/apache/commons/jxpath/ri/compiler/CoreOperationLessThan.java": {
+    "project": "JxPath_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_7/org/apache/commons/jxpath/ri/compiler/CoreOperationLessThan.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_7_buggy/CoreOperationLessThanTest.java",
+    "file_size_bytes": 7416,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 29.85,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 979,
+      "completion_tokens": 1761,
+      "total_tokens": 5854
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 52185,
+      "daily_remaining_tokens": 297815
+    },
+    "updated_at": "2026-09-19T11:49:18.536084"
+  },
+  "JxPath_7/org/apache/commons/jxpath/ri/compiler/CoreOperationGreaterThan.java": {
+    "project": "JxPath_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_7/org/apache/commons/jxpath/ri/compiler/CoreOperationGreaterThan.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_7_buggy/CoreOperationGreaterThanTest.java",
+    "file_size_bytes": 11213,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 32.7,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 979,
+      "completion_tokens": 2639,
+      "total_tokens": 6868
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 80631,
+      "daily_remaining_tokens": 269369
+    },
+    "updated_at": "2026-09-19T11:49:53.268657"
+  },
+  "JxPath_7/org/apache/commons/jxpath/ri/compiler/CoreOperationLessThanOrEqual.java": {
+    "project": "JxPath_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_7/org/apache/commons/jxpath/ri/compiler/CoreOperationLessThanOrEqual.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_7_buggy/CoreOperationLessThanOrEqualTest.java",
+    "file_size_bytes": 10051,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 26.54,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 986,
+      "completion_tokens": 2320,
+      "total_tokens": 5840
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 55781,
+      "daily_remaining_tokens": 294219
+    },
+    "updated_at": "2026-09-19T11:50:21.831692"
+  },
+  "JxPath_7/org/apache/commons/jxpath/ri/compiler/CoreOperationGreaterThanOrEqual.java": {
+    "project": "JxPath_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_7/org/apache/commons/jxpath/ri/compiler/CoreOperationGreaterThanOrEqual.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_7_buggy/CoreOperationGreaterThanOrEqualTest.java",
+    "file_size_bytes": 13378,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 69.46,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 986,
+      "completion_tokens": 3100,
+      "total_tokens": 7251
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 61777,
+      "daily_remaining_tokens": 288223
+    },
+    "updated_at": "2026-09-19T11:51:33.316507"
+  },
+  "JacksonDatabind_39/com/fasterxml/jackson/databind/deser/std/NullifyingDeserializer.java": {
+    "project": "JacksonDatabind_39",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_39/com/fasterxml/jackson/databind/deser/std/NullifyingDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_39_buggy/NullifyingDeserializerTest.java",
+    "file_size_bytes": 15965,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 63.09,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 982,
+      "completion_tokens": 3597,
+      "total_tokens": 9743
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 58814,
+      "daily_remaining_tokens": 291186
+    },
+    "updated_at": "2026-09-19T11:52:38.432937"
+  },
+  "Mockito_21/org/mockito/internal/creation/instance/ConstructorInstantiator.java": {
+    "project": "Mockito_21",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_21/org/mockito/internal/creation/instance/ConstructorInstantiator.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_21_buggy/ConstructorInstantiatorTest.java",
+    "file_size_bytes": 6545,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 24.1,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 971,
+      "completion_tokens": 1484,
+      "total_tokens": 4092
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 81473,
+      "daily_remaining_tokens": 268527
+    },
+    "updated_at": "2026-09-19T11:53:04.562097"
+  },
+  "Mockito_38/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java": {
+    "project": "Mockito_38",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_38/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_38_buggy/ArgumentMatchingToolTest.java",
+    "file_size_bytes": 8875,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 26.77,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 983,
+      "completion_tokens": 2148,
+      "total_tokens": 5783
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 59030,
+      "daily_remaining_tokens": 290970
+    },
+    "updated_at": "2026-09-19T11:53:33.358853"
+  },
+  "Mockito_9/org/mockito/internal/stubbing/answers/CallsRealMethods.java": {
+    "project": "Mockito_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_9/org/mockito/internal/stubbing/answers/CallsRealMethods.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_9_buggy/CallsRealMethodsTest.java",
+    "file_size_bytes": 5455,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 22.31,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 999,
+      "completion_tokens": 1149,
+      "total_tokens": 3787
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 62399,
+      "daily_remaining_tokens": 287601
+    },
+    "updated_at": "2026-09-19T11:53:57.693712"
+  },
+  "Mockito_19/org/mockito/internal/configuration/injection/filter/FinalMockCandidateFilter.java": {
+    "project": "Mockito_19",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_19/org/mockito/internal/configuration/injection/filter/FinalMockCandidateFilter.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_19_buggy/FinalMockCandidateFilterTest.java",
+    "file_size_bytes": 6014,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 23.64,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 969,
+      "completion_tokens": 1381,
+      "total_tokens": 3968
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 57618,
+      "daily_remaining_tokens": 292382
+    },
+    "updated_at": "2026-09-19T11:54:23.357362"
+  },
+  "JacksonDatabind_105/com/fasterxml/jackson/databind/deser/std/JdkDeserializers.java": {
+    "project": "JacksonDatabind_105",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_105/com/fasterxml/jackson/databind/deser/std/JdkDeserializers.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_105_buggy/JdkDeserializersTest.java",
+    "file_size_bytes": 7461,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 18.83,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 999,
+      "completion_tokens": 1876,
+      "total_tokens": 4224
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 84060,
+      "daily_remaining_tokens": 265940
+    },
+    "updated_at": "2026-09-19T11:54:44.217190"
+  },
+  "Compress_42/org/apache/commons/compress/archivers/zip/UnixStat.java": {
+    "project": "Compress_42",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_42/org/apache/commons/compress/archivers/zip/UnixStat.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Compress_42_buggy/UnixStatTest.java",
+    "file_size_bytes": 5754,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 21.74,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1086,
+      "completion_tokens": 1704,
+      "total_tokens": 4813
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 61191,
+      "daily_remaining_tokens": 288809
+    },
+    "updated_at": "2026-09-19T11:55:07.979688"
+  },
+  "Jsoup_92/org/jsoup/parser/ParseSettings.java": {
+    "project": "Jsoup_92",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_92/org/jsoup/parser/ParseSettings.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_92_buggy/ParseSettingsTest.java",
+    "file_size_bytes": 6271,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 16.35,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1038,
+      "completion_tokens": 1453,
+      "total_tokens": 3841
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 64601,
+      "daily_remaining_tokens": 285399
+    },
+    "updated_at": "2026-09-19T11:55:26.361018"
+  },
+  "Mockito_37/org/mockito/internal/stubbing/answers/AnswersValidator.java": {
+    "project": "Mockito_37",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_37/org/mockito/internal/stubbing/answers/AnswersValidator.java",
+    "status": "FAILED",
+    "error": "Gateway TTFT Timeout",
+    "updated_at": "2026-09-19T11:59:30.013553"
+  },
+  "Jsoup_56/org/jsoup/nodes/DocumentType.java": {
+    "project": "Jsoup_56",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_56/org/jsoup/nodes/DocumentType.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_56_buggy/DocumentTypeTest.java",
+    "file_size_bytes": 7397,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 26.86,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1187,
+      "completion_tokens": 1749,
+      "total_tokens": 4766
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 68017,
+      "daily_remaining_tokens": 281983
+    },
+    "updated_at": "2026-09-19T11:59:56.894887"
+  },
+  "Jsoup_21/org/jsoup/select/CombiningEvaluator.java": {
+    "project": "Jsoup_21",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_21/org/jsoup/select/CombiningEvaluator.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_21_buggy/CombiningEvaluatorTest.java",
+    "file_size_bytes": 12137,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 25.48,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1139,
+      "completion_tokens": 3086,
+      "total_tokens": 6292
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 67023,
+      "daily_remaining_tokens": 282977
+    },
+    "updated_at": "2026-09-19T12:00:24.400200"
+  },
+  "Jsoup_52/org/jsoup/nodes/XmlDeclaration.java": {
+    "project": "Jsoup_52",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_52/org/jsoup/nodes/XmlDeclaration.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_52_buggy/XmlDeclarationTest.java",
+    "file_size_bytes": 6891,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 18.69,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1108,
+      "completion_tokens": 1705,
+      "total_tokens": 4335
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 89591,
+      "daily_remaining_tokens": 260409
+    },
+    "updated_at": "2026-09-19T12:00:45.112770"
+  },
+  "Jsoup_79/org/jsoup/nodes/LeafNode.java": {
+    "project": "Jsoup_79",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_79/org/jsoup/nodes/LeafNode.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_79_buggy/LeafNodeTest.java",
+    "file_size_bytes": 7345,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 25.57,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1143,
+      "completion_tokens": 1813,
+      "total_tokens": 5663
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 69913,
+      "daily_remaining_tokens": 280087
+    },
+    "updated_at": "2026-09-19T12:01:12.711986"
+  },
+  "JacksonDatabind_111/com/fasterxml/jackson/databind/deser/std/AtomicReferenceDeserializer.java": {
+    "project": "JacksonDatabind_111",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_111/com/fasterxml/jackson/databind/deser/std/AtomicReferenceDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_111_buggy/AtomicReferenceDeserializerTest.java",
+    "file_size_bytes": 8668,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 14.99,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1105,
+      "completion_tokens": 1941,
+      "total_tokens": 4010
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 75175,
+      "daily_remaining_tokens": 274825
+    },
+    "updated_at": "2026-09-19T12:01:29.729034"
+  },
+  "Lang_28/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java": {
+    "project": "Lang_28",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_28/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Lang_28_buggy/NumericEntityUnescaperTest.java",
+    "file_size_bytes": 9803,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 25.72,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1159,
+      "completion_tokens": 2310,
+      "total_tokens": 6025
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 70981,
+      "daily_remaining_tokens": 279019
+    },
+    "updated_at": "2026-09-19T12:01:57.481068"
+  },
+  "Mockito_17/org/mockito/internal/creation/MockSettingsImpl.java": {
+    "project": "Mockito_17",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_17/org/mockito/internal/creation/MockSettingsImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_17_buggy/MockSettingsImplTest.java",
+    "file_size_bytes": 7410,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 20.54,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1164,
+      "completion_tokens": 1609,
+      "total_tokens": 4494
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 92563,
+      "daily_remaining_tokens": 257437
+    },
+    "updated_at": "2026-09-19T12:02:20.053158"
+  },
+  "Jsoup_86/org/jsoup/nodes/Comment.java": {
+    "project": "Jsoup_86",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_86/org/jsoup/nodes/Comment.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_86_buggy/CommentTest.java",
+    "file_size_bytes": 7692,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 23.66,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1194,
+      "completion_tokens": 1815,
+      "total_tokens": 4263
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 71469,
+      "daily_remaining_tokens": 278531
+    },
+    "updated_at": "2026-09-19T12:02:45.744887"
+  },
+  "JxPath_15/org/apache/commons/jxpath/ri/axes/UnionContext.java": {
+    "project": "JxPath_15",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_15/org/apache/commons/jxpath/ri/axes/UnionContext.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_15_buggy/UnionContextTest.java",
+    "file_size_bytes": 14650,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 37.74,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1141,
+      "completion_tokens": 3601,
+      "total_tokens": 8159
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 82370,
+      "daily_remaining_tokens": 267630
+    },
+    "updated_at": "2026-09-19T12:03:25.589491"
+  },
+  "Jsoup_44/org/jsoup/parser/TreeBuilder.java": {
+    "project": "Jsoup_44",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_44/org/jsoup/parser/TreeBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_44_buggy/TreeBuilderTest.java",
+    "file_size_bytes": 11322,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 43.87,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1185,
+      "completion_tokens": 2700,
+      "total_tokens": 5219
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 73644,
+      "daily_remaining_tokens": 276356
+    },
+    "updated_at": "2026-09-19T12:04:11.488933"
+  },
+  "JacksonDatabind_49/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java": {
+    "project": "JacksonDatabind_49",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_49/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_49_buggy/WritableObjectIdTest.java",
+    "file_size_bytes": 18558,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 68.17,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1190,
+      "completion_tokens": 4472,
+      "total_tokens": 13599
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 104441,
+      "daily_remaining_tokens": 245559
+    },
+    "updated_at": "2026-09-19T12:05:21.684739"
+  },
+  "Math_14/org/apache/commons/math3/optim/nonlinear/vector/Weight.java": {
+    "project": "Math_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_14/org/apache/commons/math3/optim/nonlinear/vector/Weight.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Math_14_buggy/WeightTest.java",
+    "file_size_bytes": 5739,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 19.46,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1209,
+      "completion_tokens": 1564,
+      "total_tokens": 4256
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 74471,
+      "daily_remaining_tokens": 275529
+    },
+    "updated_at": "2026-09-19T12:05:43.170440"
+  },
+  "Mockito_26/org/mockito/internal/util/Primitives.java": {
+    "project": "Mockito_26",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_26/org/mockito/internal/util/Primitives.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_26_buggy/PrimitivesTest.java",
+    "file_size_bytes": 13795,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 44.79,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1304,
+      "completion_tokens": 3390,
+      "total_tokens": 6268
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 85221,
+      "daily_remaining_tokens": 264779
+    },
+    "updated_at": "2026-09-19T12:06:29.992257"
+  },
+  "Time_26/org/joda/time/field/LenientDateTimeField.java": {
+    "project": "Time_26",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_26/org/joda/time/field/LenientDateTimeField.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Time_26_buggy/LenientDateTimeFieldTest.java",
+    "file_size_bytes": 9021,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 43.4,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1264,
+      "completion_tokens": 2609,
+      "total_tokens": 7465
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 79775,
+      "daily_remaining_tokens": 270225
+    },
+    "updated_at": "2026-09-19T12:07:15.422422"
+  },
+  "Closure_28/com/google/javascript/jscomp/InlineCostEstimator.java": {
+    "project": "Closure_28",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_28/com/google/javascript/jscomp/InlineCostEstimator.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_28_buggy/InlineCostEstimatorTest.java",
+    "file_size_bytes": 4624,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 53.07,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1300,
+      "completion_tokens": 1289,
+      "total_tokens": 7135
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 103639,
+      "daily_remaining_tokens": 246361
+    },
+    "updated_at": "2026-09-19T12:08:10.555523"
+  },
+  "Gson_6/com/google/gson/internal/bind/JsonAdapterAnnotationTypeAdapterFactory.java": {
+    "project": "Gson_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_6/com/google/gson/internal/bind/JsonAdapterAnnotationTypeAdapterFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Gson_6_buggy/JsonAdapterAnnotationTypeAdapterFactoryTest.java",
+    "file_size_bytes": 8075,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 23.96,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1254,
+      "completion_tokens": 1942,
+      "total_tokens": 5309
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 78297,
+      "daily_remaining_tokens": 271703
+    },
+    "updated_at": "2026-09-19T12:08:36.541316"
+  },
+  "Mockito_32/org/mockito/internal/configuration/SpyAnnotationEngine.java": {
+    "project": "Mockito_32",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_32/org/mockito/internal/configuration/SpyAnnotationEngine.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_32_buggy/SpyAnnotationEngineTest.java",
+    "file_size_bytes": 7076,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 22.45,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1212,
+      "completion_tokens": 1729,
+      "total_tokens": 5409
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 89056,
+      "daily_remaining_tokens": 260944
+    },
+    "updated_at": "2026-09-19T12:09:01.015934"
+  },
+  "Lang_19/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java": {
+    "project": "Lang_19",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_19/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Lang_19_buggy/NumericEntityUnescaperTest.java",
+    "file_size_bytes": 9026,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 26.88,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1318,
+      "completion_tokens": 2200,
+      "total_tokens": 4679
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 80862,
+      "daily_remaining_tokens": 269138
+    },
+    "updated_at": "2026-09-19T12:09:29.917798"
+  },
+  "JacksonDatabind_10/com/fasterxml/jackson/databind/ser/AnyGetterWriter.java": {
+    "project": "JacksonDatabind_10",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_10/com/fasterxml/jackson/databind/ser/AnyGetterWriter.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_10_buggy/AnyGetterWriterTest.java",
+    "file_size_bytes": 15751,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 72.88,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1301,
+      "completion_tokens": 3560,
+      "total_tokens": 15700
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 114793,
+      "daily_remaining_tokens": 235207
+    },
+    "updated_at": "2026-09-19T12:10:44.820069"
+  },
+  "Compress_44/org/apache/commons/compress/utils/ChecksumCalculatingInputStream.java": {
+    "project": "Compress_44",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_44/org/apache/commons/compress/utils/ChecksumCalculatingInputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Compress_44_buggy/ChecksumCalculatingInputStreamTest.java",
+    "file_size_bytes": 9887,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 19.52,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1325,
+      "completion_tokens": 2302,
+      "total_tokens": 5134
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 81318,
+      "daily_remaining_tokens": 268682
+    },
+    "updated_at": "2026-09-19T12:11:06.366215"
+  },
+  "JxPath_18/org/apache/commons/jxpath/ri/axes/AttributeContext.java": {
+    "project": "JxPath_18",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_18/org/apache/commons/jxpath/ri/axes/AttributeContext.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_18_buggy/AttributeContextTest.java",
+    "file_size_bytes": 13040,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 50.19,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1300,
+      "completion_tokens": 3042,
+      "total_tokens": 8171
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 94759,
+      "daily_remaining_tokens": 255241
+    },
+    "updated_at": "2026-09-19T12:11:58.585422"
+  },
+  "JacksonDatabind_79/com/fasterxml/jackson/databind/introspect/ObjectIdInfo.java": {
+    "project": "JacksonDatabind_79",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_79/com/fasterxml/jackson/databind/introspect/ObjectIdInfo.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_79_buggy/ObjectIdInfoTest.java",
+    "file_size_bytes": 11375,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 32.46,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1304,
+      "completion_tokens": 2692,
+      "total_tokens": 5350
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 85051,
+      "daily_remaining_tokens": 264949
+    },
+    "updated_at": "2026-09-19T12:12:33.072561"
+  },
+  "Lang_4/org/apache/commons/lang3/text/translate/LookupTranslator.java": {
+    "project": "Lang_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_4/org/apache/commons/lang3/text/translate/LookupTranslator.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Lang_4_buggy/LookupTranslatorTest.java",
+    "file_size_bytes": 9224,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 22.76,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1333,
+      "completion_tokens": 2118,
+      "total_tokens": 5022
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 108976,
+      "daily_remaining_tokens": 241024
+    },
+    "updated_at": "2026-09-19T12:12:57.861385"
+  },
+  "JacksonDatabind_84/com/fasterxml/jackson/databind/type/ResolvedRecursiveType.java": {
+    "project": "JacksonDatabind_84",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_84/com/fasterxml/jackson/databind/type/ResolvedRecursiveType.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_84_buggy/ResolvedRecursiveTypeTest.java",
+    "file_size_bytes": 13317,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 40.84,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1334,
+      "completion_tokens": 3196,
+      "total_tokens": 8724
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 88535,
+      "daily_remaining_tokens": 261465
+    },
+    "updated_at": "2026-09-19T12:13:40.728174"
+  },
+  "JacksonDatabind_86/com/fasterxml/jackson/databind/type/ResolvedRecursiveType.java": {
+    "project": "JacksonDatabind_86",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_86/com/fasterxml/jackson/databind/type/ResolvedRecursiveType.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_86_buggy/ResolvedRecursiveTypeTest.java",
+    "file_size_bytes": 9194,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 29.85,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1334,
+      "completion_tokens": 2163,
+      "total_tokens": 7110
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 98040,
+      "daily_remaining_tokens": 251960
+    },
+    "updated_at": "2026-09-19T12:14:12.602538"
+  },
+  "Mockito_31/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java": {
+    "project": "Mockito_31",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_31/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_31_buggy/ReturnsSmartNullsTest.java",
+    "file_size_bytes": 7161,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 23.01,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1316,
+      "completion_tokens": 1615,
+      "total_tokens": 5442
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 89139,
+      "daily_remaining_tokens": 260861
+    },
+    "updated_at": "2026-09-19T12:14:37.645974"
+  },
+  "Mockito_30/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java": {
+    "project": "Mockito_30",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_30/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_30_buggy/ReturnsSmartNullsTest.java",
+    "file_size_bytes": 7171,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 29.08,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1355,
+      "completion_tokens": 1640,
+      "total_tokens": 5395
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 112800,
+      "daily_remaining_tokens": 237200
+    },
+    "updated_at": "2026-09-19T12:15:08.753063"
+  },
+  "Compress_33/org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStream.java": {
+    "project": "Compress_33",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_33/org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Compress_33_buggy/DeflateCompressorInputStreamTest.java",
+    "file_size_bytes": 12068,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 26.18,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1373,
+      "completion_tokens": 2985,
+      "total_tokens": 6183
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 90524,
+      "daily_remaining_tokens": 259476
+    },
+    "updated_at": "2026-09-19T12:15:36.954673"
+  },
+  "JacksonDatabind_34/com/fasterxml/jackson/databind/ser/std/NumberSerializer.java": {
+    "project": "JacksonDatabind_34",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_34/com/fasterxml/jackson/databind/ser/std/NumberSerializer.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_34_buggy/NumberSerializerTest.java",
+    "file_size_bytes": 16168,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 49.24,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1383,
+      "completion_tokens": 3564,
+      "total_tokens": 11252
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 105679,
+      "daily_remaining_tokens": 244321
+    },
+    "updated_at": "2026-09-19T12:16:28.220129"
+  },
+  "Closure_174/com/google/javascript/jscomp/JsAst.java": {
+    "project": "Closure_174",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_174/com/google/javascript/jscomp/JsAst.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_174_buggy/JsAstTest.java",
+    "file_size_bytes": 6954,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 37.44,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1449,
+      "completion_tokens": 1906,
+      "total_tokens": 8030
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 94658,
+      "daily_remaining_tokens": 255342
+    },
+    "updated_at": "2026-09-19T12:17:07.685181"
+  },
+  "Closure_165/com/google/javascript/rhino/jstype/RecordTypeBuilder.java": {
+    "project": "Closure_165",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_165/com/google/javascript/rhino/jstype/RecordTypeBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_165_buggy/RecordTypeBuilderTest.java",
+    "file_size_bytes": 9440,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 43.15,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1489,
+      "completion_tokens": 2390,
+      "total_tokens": 6909
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 117309,
+      "daily_remaining_tokens": 232691
+    },
+    "updated_at": "2026-09-19T12:17:52.856618"
+  },
+  "JacksonDatabind_16/com/fasterxml/jackson/databind/introspect/AnnotationMap.java": {
+    "project": "JacksonDatabind_16",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_16/com/fasterxml/jackson/databind/introspect/AnnotationMap.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_16_buggy/AnnotationMapTest.java",
+    "file_size_bytes": 10499,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 21.09,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1393,
+      "completion_tokens": 2666,
+      "total_tokens": 5878
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 94577,
+      "daily_remaining_tokens": 255423
+    },
+    "updated_at": "2026-09-19T12:18:15.973747"
+  },
+  "Jsoup_31/org/jsoup/parser/XmlTreeBuilder.java": {
+    "project": "Jsoup_31",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_31/org/jsoup/parser/XmlTreeBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_31_buggy/XmlTreeBuilderTest.java",
+    "file_size_bytes": 14389,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 54.98,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1448,
+      "completion_tokens": 3741,
+      "total_tokens": 11276
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 101259,
+      "daily_remaining_tokens": 248741
+    },
+    "updated_at": "2026-09-19T12:20:13.306105"
+  },
+  "JacksonDatabind_25/com/fasterxml/jackson/databind/module/SimpleAbstractTypeResolver.java": {
+    "project": "JacksonDatabind_25",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_25/com/fasterxml/jackson/databind/module/SimpleAbstractTypeResolver.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_25_buggy/SimpleAbstractTypeResolverTest.java",
+    "file_size_bytes": 7060,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 29.84,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1456,
+      "completion_tokens": 1624,
+      "total_tokens": 6461
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 120740,
+      "daily_remaining_tokens": 229260
+    },
+    "updated_at": "2026-09-19T12:20:45.169849"
+  },
+  "Mockito_17/org/mockito/internal/util/MockUtil.java": {
+    "project": "Mockito_17",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_17/org/mockito/internal/util/MockUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_17_buggy/MockUtilTest.java",
+    "file_size_bytes": 9414,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 18.17,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1474,
+      "completion_tokens": 2293,
+      "total_tokens": 4834
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 109348,
+      "daily_remaining_tokens": 240652
+    },
+    "updated_at": "2026-09-19T12:22:05.703785"
+  },
+  "Math_70/org/apache/commons/math/analysis/solvers/BisectionSolver.java": {
+    "project": "Math_70",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_70/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Math_70_buggy/BisectionSolverTest.java",
+    "file_size_bytes": 9468,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 22.69,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1502,
+      "completion_tokens": 2519,
+      "total_tokens": 5856
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 101028,
+      "daily_remaining_tokens": 248972
+    },
+    "updated_at": "2026-09-19T12:22:30.419208"
+  },
+  "JxPath_8/org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java": {
+    "project": "JxPath_8",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_8/org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_8_buggy/CoreOperationRelationalExpressionTest.java",
+    "file_size_bytes": 18565,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 57.39,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1252,
+      "completion_tokens": 4564,
+      "total_tokens": 12766
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 111959,
+      "daily_remaining_tokens": 238041
+    },
+    "updated_at": "2026-09-19T12:27:31.170216"
+  },
+  "Mockito_34/org/mockito/internal/invocation/InvocationMatcher.java": {
+    "project": "Mockito_34",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_34/org/mockito/internal/invocation/InvocationMatcher.java",
+    "status": "FAILED",
+    "error": "Gateway TTFT Timeout",
+    "updated_at": "2026-09-19T12:31:34.516727"
+  },
+  "Mockito_25/org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java": {
+    "project": "Mockito_25",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_25/org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_25_buggy/ReturnsDeepStubsTest.java",
+    "file_size_bytes": 6555,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 34.07,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1488,
+      "completion_tokens": 1489,
+      "total_tokens": 5957
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 118380,
+      "daily_remaining_tokens": 231620
+    },
+    "updated_at": "2026-09-19T12:32:08.609759"
+  },
+  "JxPath_11/org/apache/commons/jxpath/ri/model/jdom/JDOMAttributeIterator.java": {
+    "project": "JxPath_11",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_11/org/apache/commons/jxpath/ri/model/jdom/JDOMAttributeIterator.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_11_buggy/JDOMAttributeIteratorTest.java",
+    "file_size_bytes": 11044,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 37.29,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1461,
+      "completion_tokens": 2640,
+      "total_tokens": 8194
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 138329,
+      "daily_remaining_tokens": 211671
+    },
+    "updated_at": "2026-09-19T12:32:47.931085"
+  },
+  "JxPath_10/org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java": {
+    "project": "JxPath_10",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_10/org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_10_buggy/CoreOperationRelationalExpressionTest.java",
+    "file_size_bytes": 17353,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 84.78,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1525,
+      "completion_tokens": 4277,
+      "total_tokens": 13739
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 137557,
+      "daily_remaining_tokens": 212443
+    },
+    "updated_at": "2026-09-19T12:36:15.449578"
+  },
+  "Gson_8/com/google/gson/internal/UnsafeAllocator.java": {
+    "project": "Gson_8",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_8/com/google/gson/internal/UnsafeAllocator.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Gson_8_buggy/UnsafeAllocatorTest.java",
+    "file_size_bytes": 7201,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 21.06,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1544,
+      "completion_tokens": 1695,
+      "total_tokens": 4142
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 138378,
+      "daily_remaining_tokens": 211622
+    },
+    "updated_at": "2026-09-19T12:36:38.557843"
+  },
+  "Collections_17/org/apache/commons/collections/functors/EqualPredicate.java": {
+    "project": "Collections_17",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_17/org/apache/commons/collections/functors/EqualPredicate.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Collections_17_buggy/EqualPredicateTest.java",
+    "file_size_bytes": 11400,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 33.62,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1551,
+      "completion_tokens": 2655,
+      "total_tokens": 6907
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 122662,
+      "daily_remaining_tokens": 227338
+    },
+    "updated_at": "2026-09-19T12:37:14.598086"
+  },
+  "JacksonDatabind_43/com/fasterxml/jackson/databind/deser/impl/ObjectIdValueProperty.java": {
+    "project": "JacksonDatabind_43",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_43/com/fasterxml/jackson/databind/deser/impl/ObjectIdValueProperty.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_43_buggy/ObjectIdValuePropertyTest.java",
+    "file_size_bytes": 17541,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 68.25,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1503,
+      "completion_tokens": 4025,
+      "total_tokens": 15162
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 136045,
+      "daily_remaining_tokens": 213955
+    },
+    "updated_at": "2026-09-19T12:38:24.915774"
+  },
+  "Compress_40/org/apache/commons/compress/utils/BitInputStream.java": {
+    "project": "Compress_40",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_40/org/apache/commons/compress/utils/BitInputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Compress_40_buggy/BitInputStreamTest.java",
+    "file_size_bytes": 8614,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 35.27,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1591,
+      "completion_tokens": 2485,
+      "total_tokens": 6584
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 136204,
+      "daily_remaining_tokens": 213796
+    },
+    "updated_at": "2026-09-19T12:39:02.219453"
+  },
+  "JxPath_17/org/apache/commons/jxpath/ri/model/jdom/JDOMAttributeIterator.java": {
+    "project": "JxPath_17",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_17/org/apache/commons/jxpath/ri/model/jdom/JDOMAttributeIterator.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_17_buggy/JDOMAttributeIteratorTest.java",
+    "file_size_bytes": 12021,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 30.42,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1492,
+      "completion_tokens": 2821,
+      "total_tokens": 7256
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 144731,
+      "daily_remaining_tokens": 205269
+    },
+    "updated_at": "2026-09-19T12:39:34.702988"
+  },
+  "Closure_143/com/google/javascript/jscomp/RemoveConstantExpressions.java": {
+    "project": "Closure_143",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_143/com/google/javascript/jscomp/RemoveConstantExpressions.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_143_buggy/RemoveConstantExpressionsTest.java",
+    "file_size_bytes": 7795,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 30.16,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1583,
+      "completion_tokens": 2134,
+      "total_tokens": 7403
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 127364,
+      "daily_remaining_tokens": 222636
+    },
+    "updated_at": "2026-09-19T12:40:06.899709"
+  },
+  "JacksonDatabind_13/com/fasterxml/jackson/databind/deser/impl/ObjectIdValueProperty.java": {
+    "project": "JacksonDatabind_13",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_13/com/fasterxml/jackson/databind/deser/impl/ObjectIdValueProperty.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_13_buggy/ObjectIdValuePropertyTest.java",
+    "file_size_bytes": 19317,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 49.44,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1542,
+      "completion_tokens": 4393,
+      "total_tokens": 10896
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 152684,
+      "daily_remaining_tokens": 197316
+    },
+    "updated_at": "2026-09-19T12:42:59.338484"
+  },
+  "Mockito_28/org/mockito/internal/configuration/DefaultInjectionEngine.java": {
+    "project": "Mockito_28",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_28/org/mockito/internal/configuration/DefaultInjectionEngine.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_28_buggy/DefaultInjectionEngineTest.java",
+    "file_size_bytes": 7809,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 22.45,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1562,
+      "completion_tokens": 1808,
+      "total_tokens": 5228
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 128906,
+      "daily_remaining_tokens": 221094
+    },
+    "updated_at": "2026-09-19T12:43:23.826178"
+  },
+  "Jsoup_69/org/jsoup/nodes/FormElement.java": {
+    "project": "Jsoup_69",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_69/org/jsoup/nodes/FormElement.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_69_buggy/FormElementTest.java",
+    "file_size_bytes": 15665,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 27.49,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1575,
+      "completion_tokens": 4006,
+      "total_tokens": 6663
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 138590,
+      "daily_remaining_tokens": 211410
+    },
+    "updated_at": "2026-09-19T12:43:53.365447"
+  },
+  "Codec_1/org/apache/commons/codec/language/SoundexUtils.java": {
+    "project": "Codec_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_1/org/apache/commons/codec/language/SoundexUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Codec_1_buggy/SoundexUtilsTest.java",
+    "file_size_bytes": 8198,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 32.34,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1769,
+      "completion_tokens": 2107,
+      "total_tokens": 5871
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 139567,
+      "daily_remaining_tokens": 210433
+    },
+    "updated_at": "2026-09-19T12:44:27.747493"
+  },
+  "Mockito_27/org/mockito/internal/util/MockUtil.java": {
+    "project": "Mockito_27",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_27/org/mockito/internal/util/MockUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_27_buggy/MockUtilTest.java",
+    "file_size_bytes": 10817,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 63.09,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 2704
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-19T12:45:32.872873"
+  },
+  "Jsoup_42/org/jsoup/nodes/FormElement.java": {
+    "project": "Jsoup_42",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_42/org/jsoup/nodes/FormElement.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_42_buggy/FormElementTest.java",
+    "file_size_bytes": 17834,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 30.36,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1581,
+      "completion_tokens": 4598,
+      "total_tokens": 7316
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 134364,
+      "daily_remaining_tokens": 215636
+    },
+    "updated_at": "2026-09-19T12:46:05.279891"
+  },
+  "Jsoup_1/org/jsoup/nodes/Document.java": {
+    "project": "Jsoup_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_1/org/jsoup/nodes/Document.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_1_buggy/DocumentTest.java",
+    "file_size_bytes": 9254,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 27.59,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1708,
+      "completion_tokens": 2315,
+      "total_tokens": 5074
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 142582,
+      "daily_remaining_tokens": 207418
+    },
+    "updated_at": "2026-09-19T12:46:34.912854"
+  },
+  "JacksonDatabind_38/com/fasterxml/jackson/databind/type/CollectionType.java": {
+    "project": "JacksonDatabind_38",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_38/com/fasterxml/jackson/databind/type/CollectionType.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_38_buggy/CollectionTypeTest.java",
+    "file_size_bytes": 7948,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 31.61,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1617,
+      "completion_tokens": 1828,
+      "total_tokens": 5918
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 143490,
+      "daily_remaining_tokens": 206510
+    },
+    "updated_at": "2026-09-19T12:47:08.560451"
+  },
+  "Jsoup_93/org/jsoup/nodes/FormElement.java": {
+    "project": "Jsoup_93",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_93/org/jsoup/nodes/FormElement.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_93_buggy/FormElementTest.java",
+    "file_size_bytes": 11398,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 37.09,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1610,
+      "completion_tokens": 2923,
+      "total_tokens": 6122
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 153845,
+      "daily_remaining_tokens": 196155
+    },
+    "updated_at": "2026-09-19T12:47:47.686401"
+  },
+  "JacksonDatabind_111/com/fasterxml/jackson/databind/deser/impl/ObjectIdValueProperty.java": {
+    "project": "JacksonDatabind_111",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_111/com/fasterxml/jackson/databind/deser/impl/ObjectIdValueProperty.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_111_buggy/ObjectIdValuePropertyTest.java",
+    "file_size_bytes": 17654,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 75.83,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1639,
+      "completion_tokens": 4035,
+      "total_tokens": 14474
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 156005,
+      "daily_remaining_tokens": 193995
+    },
+    "updated_at": "2026-09-19T12:50:05.908210"
+  },
+  "Mockito_33/org/mockito/internal/invocation/InvocationMatcher.java": {
+    "project": "Mockito_33",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_33/org/mockito/internal/invocation/InvocationMatcher.java",
+    "status": "FAILED",
+    "error": "Gateway TTFT Timeout",
+    "updated_at": "2026-09-19T12:58:11.215555"
+  },
+  "JacksonDatabind_109/com/fasterxml/jackson/databind/ser/std/NumberSerializer.java": {
+    "project": "JacksonDatabind_109",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_109/com/fasterxml/jackson/databind/ser/std/NumberSerializer.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_109_buggy/NumberSerializerTest.java",
+    "file_size_bytes": 17115,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 54.59,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1664,
+      "completion_tokens": 4000,
+      "total_tokens": 11571
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 157323,
+      "daily_remaining_tokens": 192677
+    },
+    "updated_at": "2026-09-19T12:59:05.834560"
+  },
+  "JacksonDatabind_95/com/fasterxml/jackson/databind/type/TypeParser.java": {
+    "project": "JacksonDatabind_95",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_95/com/fasterxml/jackson/databind/type/TypeParser.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_95_buggy/TypeParserTest.java",
+    "file_size_bytes": 12315,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 65.33,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1640,
+      "completion_tokens": 2928,
+      "total_tokens": 12718
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 167661,
+      "daily_remaining_tokens": 182339
+    },
+    "updated_at": "2026-09-19T13:00:13.194458"
+  },
+  "Math_35/org/apache/commons/math3/genetics/ElitisticListPopulation.java": {
+    "project": "Math_35",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_35/org/apache/commons/math3/genetics/ElitisticListPopulation.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Math_35_buggy/ElitisticListPopulationTest.java",
+    "file_size_bytes": 7568,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 28.15,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1661,
+      "completion_tokens": 2076,
+      "total_tokens": 6360
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 162036,
+      "daily_remaining_tokens": 187964
+    },
+    "updated_at": "2026-09-19T13:00:43.372783"
+  },
+  "JacksonDatabind_93/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java": {
+    "project": "JacksonDatabind_93",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_93/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_93_buggy/SubTypeValidatorTest.java",
+    "file_size_bytes": 12604,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 69.04,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1757,
+      "completion_tokens": 2898,
+      "total_tokens": 13252
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 173362,
+      "daily_remaining_tokens": 176638
+    },
+    "updated_at": "2026-09-19T13:01:54.438376"
+  },
+  "Jsoup_52/org/jsoup/parser/XmlTreeBuilder.java": {
+    "project": "Jsoup_52",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_52/org/jsoup/parser/XmlTreeBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_52_buggy/XmlTreeBuilderTest.java",
+    "file_size_bytes": 9620,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 71.45,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 2405
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-19T13:03:07.917045"
+  },
+  "JxPath_6/org/apache/commons/jxpath/ri/compiler/CoreOperationCompare.java": {
+    "project": "JxPath_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_6/org/apache/commons/jxpath/ri/compiler/CoreOperationCompare.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_6_buggy/CoreOperationCompareTest.java",
+    "file_size_bytes": 19846,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 87.73,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1712,
+      "completion_tokens": 4885,
+      "total_tokens": 14711
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 174124,
+      "daily_remaining_tokens": 175876
+    },
+    "updated_at": "2026-09-19T13:05:38.005623"
+  },
+  "JxPath_9/org/apache/commons/jxpath/ri/compiler/CoreOperationCompare.java": {
+    "project": "JxPath_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_9/org/apache/commons/jxpath/ri/compiler/CoreOperationCompare.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_9_buggy/CoreOperationCompareTest.java",
+    "file_size_bytes": 29088,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 88.8,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1709,
+      "completion_tokens": 6910,
+      "total_tokens": 18539
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 183304,
+      "daily_remaining_tokens": 166696
+    },
+    "updated_at": "2026-09-19T13:07:08.835306"
+  },
+  "Csv_1/org/apache/commons/csv/ExtendedBufferedReader.java": {
+    "project": "Csv_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_1/org/apache/commons/csv/ExtendedBufferedReader.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Csv_1_buggy/ExtendedBufferedReaderTest.java",
+    "file_size_bytes": 11853,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 27.85,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1793,
+      "completion_tokens": 2946,
+      "total_tokens": 6399
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 166191,
+      "daily_remaining_tokens": 183809
+    },
+    "updated_at": "2026-09-19T13:07:38.711295"
+  },
+  "JacksonDatabind_111/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java": {
+    "project": "JacksonDatabind_111",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_111/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_111_buggy/ObjectIdReferencePropertyTest.java",
+    "file_size_bytes": 20394,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 45.92,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1705,
+      "completion_tokens": 4675,
+      "total_tokens": 10998
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 178463,
+      "daily_remaining_tokens": 171537
+    },
+    "updated_at": "2026-09-19T13:08:26.664033"
+  },
+  "Mockito_24/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java": {
+    "project": "Mockito_24",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_24/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_24_buggy/ReturnsEmptyValuesTest.java",
+    "file_size_bytes": 17908,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 51.86,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1771,
+      "completion_tokens": 4179,
+      "total_tokens": 11360
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 184744,
+      "daily_remaining_tokens": 165256
+    },
+    "updated_at": "2026-09-19T13:10:20.898303"
+  },
+  "Mockito_18/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java": {
+    "project": "Mockito_18",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_18/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_18_buggy/ReturnsEmptyValuesTest.java",
+    "file_size_bytes": 16782,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 50.98,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1773,
+      "completion_tokens": 3950,
+      "total_tokens": 11939
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 185784,
+      "daily_remaining_tokens": 164216
+    },
+    "updated_at": "2026-09-19T13:12:14.237895"
+  },
+  "Gson_17/com/google/gson/DefaultDateTypeAdapter.java": {
+    "project": "Gson_17",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_17/com/google/gson/DefaultDateTypeAdapter.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Gson_17_buggy/DefaultDateTypeAdapterTest.java",
+    "file_size_bytes": 8194,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 21.35,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1860,
+      "completion_tokens": 2171,
+      "total_tokens": 6060
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 178266,
+      "daily_remaining_tokens": 171734
+    },
+    "updated_at": "2026-09-19T13:12:37.616075"
+  },
+  "JacksonCore_16/com/fasterxml/jackson/core/util/JsonParserSequence.java": {
+    "project": "JacksonCore_16",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonCore_16/com/fasterxml/jackson/core/util/JsonParserSequence.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_16_buggy/JsonParserSequenceTest.java",
+    "file_size_bytes": 17116,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 46.67,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1696,
+      "completion_tokens": 4244,
+      "total_tokens": 10716
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 190050,
+      "daily_remaining_tokens": 159950
+    },
+    "updated_at": "2026-09-19T13:13:26.316319"
+  },
+  "JacksonDatabind_35/com/fasterxml/jackson/databind/jsontype/impl/AsWrapperTypeDeserializer.java": {
+    "project": "JacksonDatabind_35",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_35/com/fasterxml/jackson/databind/jsontype/impl/AsWrapperTypeDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_35_buggy/AsWrapperTypeDeserializerTest.java",
+    "file_size_bytes": 13605,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 84.95,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1772,
+      "completion_tokens": 3184,
+      "total_tokens": 14663
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 186324,
+      "daily_remaining_tokens": 163676
+    },
+    "updated_at": "2026-09-19T13:14:53.293388"
+  },
+  "JxPath_2/org/apache/commons/jxpath/ri/compiler/Expression.java": {
+    "project": "JxPath_2",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_2/org/apache/commons/jxpath/ri/compiler/Expression.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_2_buggy/ExpressionTest.java",
+    "file_size_bytes": 13642,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 43.31,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1682,
+      "completion_tokens": 3079,
+      "total_tokens": 9663
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 189231,
+      "daily_remaining_tokens": 160769
+    },
+    "updated_at": "2026-09-19T13:15:38.634280"
+  },
+  "Mockito_14/org/mockito/internal/MockHandler.java": {
+    "project": "Mockito_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_14/org/mockito/internal/MockHandler.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_14_buggy/MockHandlerTest.java",
+    "file_size_bytes": 15742,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 66.62,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1687,
+      "completion_tokens": 3414,
+      "total_tokens": 13620
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 198894,
+      "daily_remaining_tokens": 151106
+    },
+    "updated_at": "2026-09-19T13:17:47.612881"
+  },
+  "JacksonDatabind_97/com/fasterxml/jackson/databind/node/POJONode.java": {
+    "project": "JacksonDatabind_97",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_97/com/fasterxml/jackson/databind/node/POJONode.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_97_buggy/POJONodeTest.java",
+    "file_size_bytes": 16071,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 48.64,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1740,
+      "completion_tokens": 4189,
+      "total_tokens": 10335
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 186952,
+      "daily_remaining_tokens": 163048
+    },
+    "updated_at": "2026-09-19T13:18:38.283612"
+  },
+  "Jsoup_18/org/jsoup/parser/CharacterReader.java": {
+    "project": "Jsoup_18",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_18/org/jsoup/parser/CharacterReader.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_18_buggy/CharacterReaderTest.java",
+    "file_size_bytes": 16387,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 31.78,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1895,
+      "completion_tokens": 3901,
+      "total_tokens": 8136
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 192465,
+      "daily_remaining_tokens": 157535
+    },
+    "updated_at": "2026-09-19T13:19:12.090400"
+  },
+  "Mockito_16/org/mockito/internal/MockitoCore.java": {
+    "project": "Mockito_16",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_16/org/mockito/internal/MockitoCore.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_16_buggy/MockitoCoreTest.java",
+    "file_size_bytes": 7145,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 33.9,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1858,
+      "completion_tokens": 1841,
+      "total_tokens": 8010
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 189385,
+      "daily_remaining_tokens": 160615
+    },
+    "updated_at": "2026-09-19T13:19:48.014349"
+  },
+  "Lang_6/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java": {
+    "project": "Lang_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_6/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Lang_6_buggy/CharSequenceTranslatorTest.java",
+    "file_size_bytes": 7202,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 24.0,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1752,
+      "completion_tokens": 1592,
+      "total_tokens": 5632
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 196007,
+      "daily_remaining_tokens": 153993
+    },
+    "updated_at": "2026-09-19T13:20:14.048082"
+  },
+  "JacksonDatabind_94/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java": {
+    "project": "JacksonDatabind_94",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_94/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_94_buggy/SubTypeValidatorTest.java",
+    "file_size_bytes": 13943,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 65.74,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1345,
+      "completion_tokens": 3107,
+      "total_tokens": 13910
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 202547,
+      "daily_remaining_tokens": 147453
+    },
+    "updated_at": "2026-09-19T13:26:23.780510"
+  },
+  "Jsoup_23/org/jsoup/parser/CharacterReader.java": {
+    "project": "Jsoup_23",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_23/org/jsoup/parser/CharacterReader.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_23_buggy/CharacterReaderTest.java",
+    "file_size_bytes": 16263,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 30.57,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1914,
+      "completion_tokens": 3828,
+      "total_tokens": 7342
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 203319,
+      "daily_remaining_tokens": 146681
+    },
+    "updated_at": "2026-09-19T13:26:56.378914"
+  },
+  "JxPath_20/org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java": {
+    "project": "JxPath_20",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_20/org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_20_buggy/CoreOperationRelationalExpressionTest.java",
+    "file_size_bytes": 19893,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 74.23,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1808,
+      "completion_tokens": 4768,
+      "total_tokens": 17417
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 208625,
+      "daily_remaining_tokens": 141375
+    },
+    "updated_at": "2026-09-19T13:28:12.640466"
+  },
+  "Closure_144/com/google/javascript/rhino/jstype/FunctionBuilder.java": {
+    "project": "Closure_144",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_144/com/google/javascript/rhino/jstype/FunctionBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_144_buggy/FunctionBuilderTest.java",
+    "file_size_bytes": 12734,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 49.67,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1866,
+      "completion_tokens": 3097,
+      "total_tokens": 10711
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 214776,
+      "daily_remaining_tokens": 135224
+    },
+    "updated_at": "2026-09-19T13:29:04.342817"
+  },
+  "Math_84/org/apache/commons/math/optimization/direct/MultiDirectional.java": {
+    "project": "Math_84",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_84/org/apache/commons/math/optimization/direct/MultiDirectional.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Math_84_buggy/MultiDirectionalTest.java",
+    "file_size_bytes": 12667,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 31.09,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1711,
+      "completion_tokens": 3254,
+      "total_tokens": 7132
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 200221,
+      "daily_remaining_tokens": 149779
+    },
+    "updated_at": "2026-09-19T13:29:37.461464"
+  },
+  "Jsoup_56/org/jsoup/parser/XmlTreeBuilder.java": {
+    "project": "Jsoup_56",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_56/org/jsoup/parser/XmlTreeBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_56_buggy/XmlTreeBuilderTest.java",
+    "file_size_bytes": 16645,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 26.47,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1847,
+      "completion_tokens": 4206,
+      "total_tokens": 7354
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 209073,
+      "daily_remaining_tokens": 140927
+    },
+    "updated_at": "2026-09-19T13:30:05.955657"
+  },
+  "Jsoup_30/org/jsoup/safety/Cleaner.java": {
+    "project": "Jsoup_30",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_30/org/jsoup/safety/Cleaner.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_30_buggy/CleanerTest.java",
+    "file_size_bytes": 8609,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 27.58,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1761,
+      "completion_tokens": 2172,
+      "total_tokens": 5128
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 202912,
+      "daily_remaining_tokens": 147088
+    },
+    "updated_at": "2026-09-19T13:30:35.568365"
+  },
+  "JxPath_17/org/apache/commons/jxpath/ri/model/dom/DOMAttributeIterator.java": {
+    "project": "JxPath_17",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_17/org/apache/commons/jxpath/ri/model/dom/DOMAttributeIterator.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_17_buggy/DOMAttributeIteratorTest.java",
+    "file_size_bytes": 14706,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 50.44,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1867,
+      "completion_tokens": 3511,
+      "total_tokens": 10536
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 219564,
+      "daily_remaining_tokens": 130436
+    },
+    "updated_at": "2026-09-19T13:31:28.041579"
+  },
+  "Csv_2/org/apache/commons/csv/CSVRecord.java": {
+    "project": "Csv_2",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_2/org/apache/commons/csv/CSVRecord.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Csv_2_buggy/CSVRecordTest.java",
+    "file_size_bytes": 14193,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 30.48,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1847,
+      "completion_tokens": 3713,
+      "total_tokens": 7836
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 205890,
+      "daily_remaining_tokens": 144110
+    },
+    "updated_at": "2026-09-19T13:32:00.544019"
+  },
+  "JxPath_11/org/apache/commons/jxpath/ri/model/dom/DOMAttributeIterator.java": {
+    "project": "JxPath_11",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_11/org/apache/commons/jxpath/ri/model/dom/DOMAttributeIterator.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_11_buggy/DOMAttributeIteratorTest.java",
+    "file_size_bytes": 12435,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 57.92,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1873,
+      "completion_tokens": 2964,
+      "total_tokens": 12684
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 220456,
+      "daily_remaining_tokens": 129544
+    },
+    "updated_at": "2026-09-19T13:33:00.494923"
+  },
+  "Lang_17/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java": {
+    "project": "Lang_17",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_17/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Lang_17_buggy/CharSequenceTranslatorTest.java",
+    "file_size_bytes": 10059,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 33.77,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1790,
+      "completion_tokens": 2279,
+      "total_tokens": 5295
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 207012,
+      "daily_remaining_tokens": 142988
+    },
+    "updated_at": "2026-09-19T13:33:36.300631"
+  },
+  "Mockito_23/org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java": {
+    "project": "Mockito_23",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_23/org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_23_buggy/ReturnsDeepStubsTest.java",
+    "file_size_bytes": 11226,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 51.7,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1802,
+      "completion_tokens": 2487,
+      "total_tokens": 11483
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 225889,
+      "daily_remaining_tokens": 124111
+    },
+    "updated_at": "2026-09-19T13:34:30.028892"
+  },
+  "JacksonDatabind_38/com/fasterxml/jackson/databind/type/MapType.java": {
+    "project": "JacksonDatabind_38",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_38/com/fasterxml/jackson/databind/type/MapType.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_38_buggy/MapTypeTest.java",
+    "file_size_bytes": 13433,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 25.62,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1935,
+      "completion_tokens": 3397,
+      "total_tokens": 7150
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 210764,
+      "daily_remaining_tokens": 139236
+    },
+    "updated_at": "2026-09-19T13:34:57.680441"
+  },
+  "Jsoup_77/org/jsoup/parser/XmlTreeBuilder.java": {
+    "project": "Jsoup_77",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_77/org/jsoup/parser/XmlTreeBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_77_buggy/XmlTreeBuilderTest.java",
+    "file_size_bytes": 6079,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 17.58,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 1519
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-19T13:36:17.617221"
+  },
+  "Jsoup_26/org/jsoup/safety/Cleaner.java": {
+    "project": "Jsoup_26",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_26/org/jsoup/safety/Cleaner.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_26_buggy/CleanerTest.java",
+    "file_size_bytes": 10558,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 30.04,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1808,
+      "completion_tokens": 2622,
+      "total_tokens": 6849
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 225544,
+      "daily_remaining_tokens": 124456
+    },
+    "updated_at": "2026-09-19T13:36:49.683757"
+  },
+  "Jsoup_92/org/jsoup/parser/XmlTreeBuilder.java": {
+    "project": "Jsoup_92",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_92/org/jsoup/parser/XmlTreeBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_92_buggy/XmlTreeBuilderTest.java",
+    "file_size_bytes": 13826,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 47.17,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1936,
+      "completion_tokens": 3595,
+      "total_tokens": 7303
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 216249,
+      "daily_remaining_tokens": 133751
+    },
+    "updated_at": "2026-09-19T13:37:38.884815"
+  },
+  "Collections_14/org/apache/commons/collections/map/CaseInsensitiveMap.java": {
+    "project": "Collections_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_14/org/apache/commons/collections/map/CaseInsensitiveMap.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Collections_14_buggy/CaseInsensitiveMapTest.java",
+    "file_size_bytes": 11462,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 16.51,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1914,
+      "completion_tokens": 2914,
+      "total_tokens": 4995
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 217604,
+      "daily_remaining_tokens": 132396
+    },
+    "updated_at": "2026-09-19T13:37:57.429991"
+  },
+  "Jsoup_80/org/jsoup/parser/XmlTreeBuilder.java": {
+    "project": "Jsoup_80",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_80/org/jsoup/parser/XmlTreeBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_80_buggy/XmlTreeBuilderTest.java",
+    "file_size_bytes": 18698,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 49.49,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1926,
+      "completion_tokens": 4779,
+      "total_tokens": 8607
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 214393,
+      "daily_remaining_tokens": 135607
+    },
+    "updated_at": "2026-09-19T13:38:48.949125"
+  },
+  "Closure_62/com/google/javascript/jscomp/LightweightMessageFormatter.java": {
+    "project": "Closure_62",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_62/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_62_buggy/LightweightMessageFormatterTest.java",
+    "file_size_bytes": 11363,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 14.75,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1965,
+      "completion_tokens": 2935,
+      "total_tokens": 4900
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 228025,
+      "daily_remaining_tokens": 121975
+    },
+    "updated_at": "2026-09-19T13:39:05.726128"
+  },
+  "Mockito_20/org/mockito/internal/creation/bytebuddy/ByteBuddyMockMaker.java": {
+    "project": "Mockito_20",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_20/org/mockito/internal/creation/bytebuddy/ByteBuddyMockMaker.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_20_buggy/ByteBuddyMockMakerTest.java",
+    "file_size_bytes": 13259,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 69.17,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1783,
+      "completion_tokens": 2780,
+      "total_tokens": 9230
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 223707,
+      "daily_remaining_tokens": 126293
+    },
+    "updated_at": "2026-09-19T13:40:16.927055"
+  },
+  "Mockito_13/org/mockito/internal/MockHandler.java": {
+    "project": "Mockito_13",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_13/org/mockito/internal/MockHandler.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_13_buggy/MockHandlerTest.java",
+    "file_size_bytes": 11602,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 54.73,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1535,
+      "completion_tokens": 2476,
+      "total_tokens": 11227
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 229133,
+      "daily_remaining_tokens": 120867
+    },
+    "updated_at": "2026-09-19T13:47:15.692634"
+  },
+  "Codec_12/org/apache/commons/codec/binary/BaseNCodecInputStream.java": {
+    "project": "Codec_12",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_12/org/apache/commons/codec/binary/BaseNCodecInputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Codec_12_buggy/BaseNCodecInputStreamTest.java",
+    "file_size_bytes": 13339,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 34.87,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1933,
+      "completion_tokens": 3420,
+      "total_tokens": 8631
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 244446,
+      "daily_remaining_tokens": 105554
+    },
+    "updated_at": "2026-09-19T13:47:52.626834"
+  },
+  "JacksonDatabind_72/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java": {
+    "project": "JacksonDatabind_72",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_72/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_72_buggy/InnerClassPropertyTest.java",
+    "file_size_bytes": 24824,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 31.72,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1605,
+      "completion_tokens": 5765,
+      "total_tokens": 8180
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 256483,
+      "daily_remaining_tokens": 93517
+    },
+    "updated_at": "2026-09-19T13:54:28.712662"
+  },
+  "Gson_1/com/google/gson/TypeInfoFactory.java": {
+    "project": "Gson_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_1/com/google/gson/TypeInfoFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Gson_1_buggy/TypeInfoFactoryTest.java",
+    "file_size_bytes": 10977,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 28.77,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1991,
+      "completion_tokens": 2673,
+      "total_tokens": 6585
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 228502,
+      "daily_remaining_tokens": 121498
+    },
+    "updated_at": "2026-09-19T13:54:59.523541"
+  },
+  "JacksonDatabind_46/com/fasterxml/jackson/databind/type/ReferenceType.java": {
+    "project": "JacksonDatabind_46",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_46/com/fasterxml/jackson/databind/type/ReferenceType.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_46_buggy/ReferenceTypeTest.java",
+    "file_size_bytes": 13329,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 28.97,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1875,
+      "completion_tokens": 3094,
+      "total_tokens": 7023
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 262287,
+      "daily_remaining_tokens": 87713
+    },
+    "updated_at": "2026-09-19T13:55:30.555930"
+  },
+  "Compress_2/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java": {
+    "project": "Compress_2",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_2/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Compress_2_buggy/ArArchiveInputStreamTest.java",
+    "file_size_bytes": 15701,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 30.69,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1983,
+      "completion_tokens": 4436,
+      "total_tokens": 8055
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 252186,
+      "daily_remaining_tokens": 97814
+    },
+    "updated_at": "2026-09-19T13:56:03.421266"
+  },
+  "Mockito_3/org/mockito/internal/invocation/InvocationMatcher.java": {
+    "project": "Mockito_3",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_3/org/mockito/internal/invocation/InvocationMatcher.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_3_buggy/InvocationMatcherTest.java",
+    "file_size_bytes": 18959,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 53.02,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1898,
+      "completion_tokens": 4255,
+      "total_tokens": 9278
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 264951,
+      "daily_remaining_tokens": 85049
+    },
+    "updated_at": "2026-09-19T13:56:58.508872"
+  },
+  "Math_12/org/apache/commons/math3/random/BitsStreamGenerator.java": {
+    "project": "Math_12",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_12/org/apache/commons/math3/random/BitsStreamGenerator.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Math_12_buggy/BitsStreamGeneratorTest.java",
+    "file_size_bytes": 14775,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 33.5,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2112,
+      "completion_tokens": 3989,
+      "total_tokens": 8233
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 234814,
+      "daily_remaining_tokens": 115186
+    },
+    "updated_at": "2026-09-19T13:57:34.063866"
+  },
+  "Collections_23/org/apache/commons/collections4/trie/UnmodifiableTrie.java": {
+    "project": "Collections_23",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_23/org/apache/commons/collections4/trie/UnmodifiableTrie.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Collections_23_buggy/UnmodifiableTrieTest.java",
+    "file_size_bytes": 23306,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 69.33,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2000,
+      "completion_tokens": 5575,
+      "total_tokens": 15399
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 275632,
+      "daily_remaining_tokens": 74368
+    },
+    "updated_at": "2026-09-19T13:58:45.468783"
+  },
+  "Closure_13/com/google/javascript/jscomp/PeepholeOptimizationsPass.java": {
+    "project": "Closure_13",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_13/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_13_buggy/PeepholeOptimizationsPassTest.java",
+    "file_size_bytes": 11753,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 45.61,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1658,
+      "completion_tokens": 2839,
+      "total_tokens": 8950
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 264999,
+      "daily_remaining_tokens": 85001
+    },
+    "updated_at": "2026-09-19T14:04:34.857208"
+  },
+  "JacksonDatabind_111/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java": {
+    "project": "JacksonDatabind_111",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_111/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_111_buggy/SetterlessPropertyTest.java",
+    "file_size_bytes": 19118,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 73.47,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1969,
+      "completion_tokens": 4320,
+      "total_tokens": 15905
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 276451,
+      "daily_remaining_tokens": 73549
+    },
+    "updated_at": "2026-09-19T14:08:51.516153"
+  },
+  "JacksonDatabind_45/com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase.java": {
+    "project": "JacksonDatabind_45",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_45/com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_45_buggy/DateTimeSerializerBaseTest.java",
+    "file_size_bytes": 27811,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 35.35,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1870,
+      "completion_tokens": 6019,
+      "total_tokens": 8760
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 282554,
+      "daily_remaining_tokens": 67446
+    },
+    "updated_at": "2026-09-19T14:09:29.095711"
+  },
+  "Collections_24/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java": {
+    "project": "Collections_24",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_24/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Collections_24_buggy/UnmodifiableBoundedCollectionTest.java",
+    "file_size_bytes": 11008,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 21.29,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1909,
+      "completion_tokens": 2475,
+      "total_tokens": 5896
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 243934,
+      "daily_remaining_tokens": 106066
+    },
+    "updated_at": "2026-09-19T14:09:52.641854"
+  },
+  "Jsoup_20/org/jsoup/helper/DataUtil.java": {
+    "project": "Jsoup_20",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_20/org/jsoup/helper/DataUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_20_buggy/DataUtilTest.java",
+    "file_size_bytes": 14021,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 27.17,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2019,
+      "completion_tokens": 3574,
+      "total_tokens": 7056
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 291453,
+      "daily_remaining_tokens": 58547
+    },
+    "updated_at": "2026-09-19T14:10:22.127084"
+  },
+  "Jsoup_28/org/jsoup/parser/Parser.java": {
+    "project": "Jsoup_28",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_28/org/jsoup/parser/Parser.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_28_buggy/ParserTest.java",
+    "file_size_bytes": 10833,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 26.26,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2032,
+      "completion_tokens": 2706,
+      "total_tokens": 6689
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 273524,
+      "daily_remaining_tokens": 76476
+    },
+    "updated_at": "2026-09-19T14:10:50.691231"
+  },
+  "Mockito_19/org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java": {
+    "project": "Mockito_19",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_19/org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_19_buggy/PropertyAndSetterInjectionTest.java",
+    "file_size_bytes": 9510,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 25.45,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1917,
+      "completion_tokens": 2222,
+      "total_tokens": 6441
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 288124,
+      "daily_remaining_tokens": 61876
+    },
+    "updated_at": "2026-09-19T14:11:18.323187"
+  },
+  "Closure_99/com/google/javascript/jscomp/CheckGlobalThis.java": {
+    "project": "Closure_99",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_99/com/google/javascript/jscomp/CheckGlobalThis.java",
+    "status": "FAILED",
+    "error": "Gateway TTFT Timeout",
+    "updated_at": "2026-09-19T14:19:27.178621"
+  },
+  "Gson_9/com/google/gson/internal/bind/JsonTreeWriter.java": {
+    "project": "Gson_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_9/com/google/gson/internal/bind/JsonTreeWriter.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Gson_9_buggy/JsonTreeWriterTest.java",
+    "file_size_bytes": 13696,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 43.97,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2103,
+      "completion_tokens": 3582,
+      "total_tokens": 7512
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 286440,
+      "daily_remaining_tokens": 63560
+    },
+    "updated_at": "2026-09-19T14:20:11.353682"
+  },
+  "JacksonDatabind_3/com/fasterxml/jackson/databind/deser/std/StringArrayDeserializer.java": {
+    "project": "JacksonDatabind_3",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_3/com/fasterxml/jackson/databind/deser/std/StringArrayDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_3_buggy/StringArrayDeserializerTest.java",
+    "file_size_bytes": 18964,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 61.02,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2070,
+      "completion_tokens": 4427,
+      "total_tokens": 12755
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 263094,
+      "daily_remaining_tokens": 86906
+    },
+    "updated_at": "2026-09-19T14:22:15.072507"
+  },
+  "Mockito_5/org/mockito/internal/verification/VerificationOverTimeImpl.java": {
+    "project": "Mockito_5",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_5/org/mockito/internal/verification/VerificationOverTimeImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_5_buggy/VerificationOverTimeImplTest.java",
+    "file_size_bytes": 11844,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 28.08,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1840,
+      "completion_tokens": 2810,
+      "total_tokens": 7112
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 311436,
+      "daily_remaining_tokens": 38564
+    },
+    "updated_at": "2026-09-19T14:22:45.373058"
+  },
+  "Mockito_14/org/mockito/internal/MockitoCore.java": {
+    "project": "Mockito_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_14/org/mockito/internal/MockitoCore.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_14_buggy/MockitoCoreTest.java",
+    "file_size_bytes": 11668,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 42.59,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2106,
+      "completion_tokens": 2839,
+      "total_tokens": 7833
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 300253,
+      "daily_remaining_tokens": 49747
+    },
+    "updated_at": "2026-09-19T14:23:30.293675"
+  },
+  "JacksonCore_13/com/fasterxml/jackson/core/json/JsonGeneratorImpl.java": {
+    "project": "JacksonCore_13",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonCore_13/com/fasterxml/jackson/core/json/JsonGeneratorImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_13_buggy/JsonGeneratorImplTest.java",
+    "file_size_bytes": 17389,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 47.9,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2008,
+      "completion_tokens": 4112,
+      "total_tokens": 11441
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 311269,
+      "daily_remaining_tokens": 38731
+    },
+    "updated_at": "2026-09-19T14:24:20.352165"
+  },
+  "Closure_147/com/google/javascript/jscomp/CheckGlobalThis.java": {
+    "project": "Closure_147",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_147/com/google/javascript/jscomp/CheckGlobalThis.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_147_buggy/CheckGlobalThisTest.java",
+    "file_size_bytes": 17674,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 21.33,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2250,
+      "completion_tokens": 4562,
+      "total_tokens": 6812
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 263648,
+      "daily_remaining_tokens": 86352
+    },
+    "updated_at": "2026-09-19T14:24:44.554064"
+  },
+  "Jsoup_27/org/jsoup/helper/DataUtil.java": {
+    "project": "Jsoup_27",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_27/org/jsoup/helper/DataUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_27_buggy/DataUtilTest.java",
+    "file_size_bytes": 10764,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 29.21,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2095,
+      "completion_tokens": 2796,
+      "total_tokens": 7083
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 316057,
+      "daily_remaining_tokens": 33943
+    },
+    "updated_at": "2026-09-19T14:25:16.784511"
+  },
+  "Math_4/org/apache/commons/math3/geometry/euclidean/threed/SubLine.java": {
+    "project": "Math_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_4/org/apache/commons/math3/geometry/euclidean/threed/SubLine.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Math_4_buggy/SubLineTest.java",
+    "file_size_bytes": 12333,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 26.6,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2071,
+      "completion_tokens": 4120,
+      "total_tokens": 7401
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 304766,
+      "daily_remaining_tokens": 45234
+    },
+    "updated_at": "2026-09-19T14:25:45.537623"
+  },
+  "Closure_47/com/google/javascript/jscomp/SourceMap.java": {
+    "project": "Closure_47",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_47/com/google/javascript/jscomp/SourceMap.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_47_buggy/SourceMapTest.java",
+    "file_size_bytes": 15268,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 96.23,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2151,
+      "completion_tokens": 4352,
+      "total_tokens": 16621
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 322569,
+      "daily_remaining_tokens": 27431
+    },
+    "updated_at": "2026-09-19T14:27:24.018835"
+  },
+  "Csv_3/org/apache/commons/csv/Lexer.java": {
+    "project": "Csv_3",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_3/org/apache/commons/csv/Lexer.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Csv_3_buggy/LexerTest.java",
+    "file_size_bytes": 20081,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 76.92,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2140,
+      "completion_tokens": 4950,
+      "total_tokens": 18051
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 281699,
+      "daily_remaining_tokens": 68301
+    },
+    "updated_at": "2026-09-19T14:28:43.098534"
+  },
+  "Closure_91/com/google/javascript/jscomp/CheckGlobalThis.java": {
+    "project": "Closure_91",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_91/com/google/javascript/jscomp/CheckGlobalThis.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_91_buggy/CheckGlobalThisTest.java",
+    "file_size_bytes": 22423,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 86.16,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2286,
+      "completion_tokens": 6183,
+      "total_tokens": 18478
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 332343,
+      "daily_remaining_tokens": 17657
+    },
+    "updated_at": "2026-09-19T14:30:11.383532"
+  },
+  "JacksonDatabind_4/com/fasterxml/jackson/databind/deser/std/StringArrayDeserializer.java": {
+    "project": "JacksonDatabind_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_4/com/fasterxml/jackson/databind/deser/std/StringArrayDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_4_buggy/StringArrayDeserializerTest.java",
+    "file_size_bytes": 21777,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 41.4,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2124,
+      "completion_tokens": 5007,
+      "total_tokens": 8390
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 311946,
+      "daily_remaining_tokens": 38054
+    },
+    "updated_at": "2026-09-19T14:30:54.922370"
+  },
+  "JxPath_13/org/apache/commons/jxpath/ri/NamespaceResolver.java": {
+    "project": "JxPath_13",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_13/org/apache/commons/jxpath/ri/NamespaceResolver.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_13_buggy/NamespaceResolverTest.java",
+    "file_size_bytes": 15858,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 43.82,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2083,
+      "completion_tokens": 3650,
+      "total_tokens": 9246
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 321697,
+      "daily_remaining_tokens": 28303
+    },
+    "updated_at": "2026-09-19T14:31:40.886717"
+  },
+  "JacksonDatabind_85/com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase.java": {
+    "project": "JacksonDatabind_85",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_85/com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_85_buggy/DateTimeSerializerBaseTest.java",
+    "file_size_bytes": 25915,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 81.0,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2032,
+      "completion_tokens": 5623,
+      "total_tokens": 19227
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 329914,
+      "daily_remaining_tokens": 20086
+    },
+    "updated_at": "2026-09-19T14:35:04.675412"
+  },
+  "Math_22/org/apache/commons/math3/distribution/UniformRealDistribution.java": {
+    "project": "Math_22",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_22/org/apache/commons/math3/distribution/UniformRealDistribution.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Math_22_buggy/UniformRealDistributionTest.java",
+    "file_size_bytes": 16440,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 29.11,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2170,
+      "completion_tokens": 4272,
+      "total_tokens": 7511
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 325695,
+      "daily_remaining_tokens": 24305
+    },
+    "updated_at": "2026-09-19T14:35:35.892371"
+  },
+  "JacksonCore_7/com/fasterxml/jackson/core/json/JsonWriteContext.java": {
+    "project": "JacksonCore_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonCore_7/com/fasterxml/jackson/core/json/JsonWriteContext.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_7_buggy/JsonWriteContextTest.java",
+    "file_size_bytes": 15283,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 55.84,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2229,
+      "completion_tokens": 3578,
+      "total_tokens": 9263
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 287426,
+      "daily_remaining_tokens": 62574
+    },
+    "updated_at": "2026-09-19T14:36:33.849174"
+  },
+  "Mockito_1/org/mockito/internal/invocation/InvocationMatcher.java": {
+    "project": "Mockito_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_1/org/mockito/internal/invocation/InvocationMatcher.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_1_buggy/InvocationMatcherTest.java",
+    "file_size_bytes": 26784,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 70.27,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2139,
+      "completion_tokens": 5941,
+      "total_tokens": 14946
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 343749,
+      "daily_remaining_tokens": 6251
+    },
+    "updated_at": "2026-09-19T14:37:46.224549"
+  },
+  "Compress_26/org/apache/commons/compress/utils/IOUtils.java": {
+    "project": "Compress_26",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_26/org/apache/commons/compress/utils/IOUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Compress_26_buggy/IOUtilsTest.java",
+    "file_size_bytes": 13518,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 27.74,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2235,
+      "completion_tokens": 3521,
+      "total_tokens": 6811
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 325153,
+      "daily_remaining_tokens": 24847
+    },
+    "updated_at": "2026-09-19T14:38:16.233188"
+  },
+  "Mockito_10/org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java": {
+    "project": "Mockito_10",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_10/org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_10_buggy/ReturnsDeepStubsTest.java",
+    "file_size_bytes": 14279,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 56.52,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2081,
+      "completion_tokens": 3116,
+      "total_tokens": 9897
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 334523,
+      "daily_remaining_tokens": 15477
+    },
+    "updated_at": "2026-09-19T14:39:14.959552"
+  },
+  "Math_103/org/apache/commons/math/distribution/NormalDistributionImpl.java": {
+    "project": "Math_103",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_103/org/apache/commons/math/distribution/NormalDistributionImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Math_103_buggy/NormalDistributionImplTest.java",
+    "file_size_bytes": 10734,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 30.07,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 2683
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-19T14:40:19.020481"
+  },
+  "Compress_4/org/apache/commons/compress/changes/ChangeSetPerformer.java": {
+    "project": "Compress_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_4/org/apache/commons/compress/changes/ChangeSetPerformer.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Compress_4_buggy/ChangeSetPerformerTest.java",
+    "file_size_bytes": 18271,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 53.4,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2112,
+      "completion_tokens": 4268,
+      "total_tokens": 12550
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 342373,
+      "daily_remaining_tokens": 7627
+    },
+    "updated_at": "2026-09-19T14:41:14.666579"
+  },
+  "Closure_129/com/google/javascript/jscomp/PrepareAst.java": {
+    "project": "Closure_129",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_129/com/google/javascript/jscomp/PrepareAst.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_129_buggy/PrepareAstTest.java",
+    "file_size_bytes": 11968,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 24.01,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1673,
+      "completion_tokens": 3448,
+      "total_tokens": 6422
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 342625,
+      "daily_remaining_tokens": 7375
+    },
+    "updated_at": "2026-09-19T14:45:42.265596"
+  },
+  "Jsoup_58/org/jsoup/safety/Cleaner.java": {
+    "project": "Jsoup_58",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_58/org/jsoup/safety/Cleaner.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_58_buggy/CleanerTest.java",
+    "file_size_bytes": 11487,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 28.07,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2153,
+      "completion_tokens": 2864,
+      "total_tokens": 7467
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 298396,
+      "daily_remaining_tokens": 51604
+    },
+    "updated_at": "2026-09-19T14:46:12.448681"
+  },
+  "Jsoup_31/org/jsoup/parser/Token.java": {
+    "project": "Jsoup_31",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_31/org/jsoup/parser/Token.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_31_buggy/TokenTest.java",
+    "file_size_bytes": 15497,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 28.12,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2081,
+      "completion_tokens": 3960,
+      "total_tokens": 7761
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 350753,
+      "daily_remaining_tokens": -753
+    },
+    "updated_at": "2026-09-19T14:46:43.082033"
+  },
+  "Jsoup_73/org/jsoup/helper/W3CDom.java": {
+    "project": "Jsoup_73",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_73/org/jsoup/helper/W3CDom.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_73_buggy/W3CDomTest.java",
+    "file_size_bytes": 11334,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 59.53,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2243,
+      "completion_tokens": 3089,
+      "total_tokens": 9540
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 358067,
+      "daily_remaining_tokens": -8067
+    },
+    "updated_at": "2026-09-19T14:47:44.737288"
+  },
+  "Math_21/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java": {
+    "project": "Math_21",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_21/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Math_21_buggy/RectangularCholeskyDecompositionTest.java",
+    "file_size_bytes": 8175,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 43.99,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2241,
+      "completion_tokens": 2326,
+      "total_tokens": 7048
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 337516,
+      "daily_remaining_tokens": 12484
+    },
+    "updated_at": "2026-09-19T14:48:30.853649"
+  },
+  "JacksonDatabind_88/com/fasterxml/jackson/databind/jsontype/impl/ClassNameIdResolver.java": {
+    "project": "JacksonDatabind_88",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_88/com/fasterxml/jackson/databind/jsontype/impl/ClassNameIdResolver.java",
+    "status": "FAILED",
+    "error": "Gateway TTFT Timeout",
+    "updated_at": "2026-09-19T14:52:34.307561"
+  },
+  "Closure_51/com/google/javascript/jscomp/CodeConsumer.java": {
+    "project": "Closure_51",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_51/com/google/javascript/jscomp/CodeConsumer.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Closure_51_buggy/CodeConsumerTest.java",
+    "file_size_bytes": 15582,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 20.03,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2518,
+      "completion_tokens": 3947,
+      "total_tokens": 6581
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 307705,
+      "daily_remaining_tokens": 42295
+    },
+    "updated_at": "2026-09-19T14:52:54.515528"
+  },
+  "Jsoup_28/org/jsoup/nodes/Entities.java": {
+    "project": "Jsoup_28",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_28/org/jsoup/nodes/Entities.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_28_buggy/EntitiesTest.java",
+    "file_size_bytes": 10810,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 53.22,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2379,
+      "completion_tokens": 2770,
+      "total_tokens": 12030
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 352846,
+      "daily_remaining_tokens": -2846
+    },
+    "updated_at": "2026-09-19T14:53:50.205474"
+  },
+  "Jsoup_54/org/jsoup/helper/W3CDom.java": {
+    "project": "Jsoup_54",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_54/org/jsoup/helper/W3CDom.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_54_buggy/W3CDomTest.java",
+    "file_size_bytes": 12188,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 48.44,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2268,
+      "completion_tokens": 3269,
+      "total_tokens": 8912
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 320865,
+      "daily_remaining_tokens": 29135
+    },
+    "updated_at": "2026-09-19T14:54:41.053130"
+  },
+  "Csv_6/org/apache/commons/csv/CSVRecord.java": {
+    "project": "Csv_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_6/org/apache/commons/csv/CSVRecord.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Csv_6_buggy/CSVRecordTest.java",
+    "file_size_bytes": 18424,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 32.01,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2304,
+      "completion_tokens": 4774,
+      "total_tokens": 8432
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 325922,
+      "daily_remaining_tokens": 24078
+    },
+    "updated_at": "2026-09-19T14:55:15.492910"
+  },
+  "Mockito_36/org/mockito/internal/invocation/Invocation.java": {
+    "project": "Mockito_36",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_36/org/mockito/internal/invocation/Invocation.java",
+    "status": "FAILED",
+    "error": "Gateway TTFT Timeout",
+    "updated_at": "2026-09-19T14:57:18.264578"
+  },
+  "JacksonDatabind_111/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java": {
+    "project": "JacksonDatabind_111",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_111/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java",
+    "status": "COMPLETED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_111_buggy/MethodPropertyTest.java",
+    "file_size_bytes": 28008,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 59.04,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2004,
+      "completion_tokens": 6353,
+      "total_tokens": 13550
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 347265,
+      "daily_remaining_tokens": 2735
+    },
+    "updated_at": "2026-09-19T14:59:17.851440"
+  },
+  "Csv_9/org/apache/commons/csv/CSVRecord.java": {
+    "project": "Csv_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_9/org/apache/commons/csv/CSVRecord.java",
+    "status": "FAILED",
+    "error": "คีย์ API ทั้งหมดในระบบโควต้าหมดแล้ว หรือไม่สามารถเชื่อมต่อได้",
+    "updated_at": "2026-09-19T14:59:21.241422"
+  },
+  "Math_4/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java": {
+    "project": "Math_4",
+    "source_file": "E:/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_4/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java",
+    "status": "COMPLETED",
+    "test_file": "E:/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/Math_4_buggy/SubLineTest.java",
+    "file_size_bytes": 12333,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T21:09:23.109237"
   }
 }
