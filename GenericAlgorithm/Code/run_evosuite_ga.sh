@@ -177,10 +177,15 @@ while IFS= read -r target_class; do
   mkdir -p "$generated" "$statistics_dir"
   echo "[$project_target round $round] EvoSuite STANDARD_GA: $target_class" >&2
   started=$(date +%s)
+  project_classpath="$buggy_checkout/$bin_relative:$clean_cp"
   set +e
-  java ${EVOSUITE_JAVA_OPTS:--Xmx2g} -jar "$evosuite_jar" \
+  # EvoSuite 1.2.0's ComputeClassWriter uses the JVM classloader while
+  # instrumenting some legacy projects. Put the subject on both the JVM
+  # classpath and projectCP so referenced classes (for example Chart's Range)
+  # remain visible during bytecode frame computation.
+  java ${EVOSUITE_JAVA_OPTS:--Xmx2g} -cp "$evosuite_jar:$project_classpath" org.evosuite.EvoSuite \
     -mem "$client_memory_mb" -class "$target_class" \
-    -projectCP "$buggy_checkout/$bin_relative:$clean_cp" -seed "$seed" \
+    -projectCP "$project_classpath" -seed "$seed" \
     -criterion LINE:BRANCH -generateSuite -Dalgorithm=STANDARD_GA \
     -Dlocal_search_rate=0 -Dclient_on_thread=true \
     -Dstopping_condition=MaxTime -Dsearch_budget="$budget" \

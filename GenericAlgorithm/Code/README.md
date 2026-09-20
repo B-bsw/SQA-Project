@@ -37,6 +37,10 @@ MAX_PARALLEL=4 ./run_evosuite_ga.sh Chart 1,2,3,4 1 120
 Java ถูกตั้งเป็น `11.0.31-amzn` ผ่าน SDKMAN ภายในสคริปต์ ค่า default คือ
 budget 120 วินาทีและ seed `20260918`
 
+สคริปต์ใส่ compiled subject classes ไว้ทั้งใน JVM classpath และ EvoSuite
+`projectCP` เพื่อรองรับการ instrument dependency ของโปรเจกต์เก่า เช่น
+`org.jfree.data.Range` ใน Chart-26
+
 Batch mode จะรวม `Result_RoundN/report.csv` ให้อัตโนมัติเมื่อทุก target จบ
 EvoSuite ใช้ memory สูงสุดประมาณ 2 GB ต่อ process จึงควรกำหนด
 `MAX_PARALLEL` ให้เหมาะกับ RAM
