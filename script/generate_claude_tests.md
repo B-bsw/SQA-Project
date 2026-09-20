@@ -147,13 +147,26 @@ python script/generate_claude_tests.py --reset-state
 python script/generate_claude_tests.py --project Codec_1 -v
 ```
 
+### 5.9 รันตาม Greedy Batch Strategy แบ่งตาม Phase (`--phase`)
+```bash
+# รันเฉพาะ Phase 1 (Day 1–4: ไฟล์เล็ก/กลาง ~754 ไฟล์ กิน token ต่ำ ได้เทสทันที)
+python script/generate_claude_tests.py --phase 1
+
+# รันเฉพาะ Phase 2 (Day 5–8: ไฟล์ขนาดใหญ่ ~302 ไฟล์ โควต้า 6,000 tokens)
+python script/generate_claude_tests.py --phase 2
+```
+
 ---
 
 ## 6. พารามิเตอร์ทั้งหมด (CLI Arguments)
 
 | Argument | ชนิด | ค่าเริ่มต้น | คำอธิบาย |
 | :--- | :--- | :--- | :--- |
-| `--status` | flag | `False` | แสดงรายงานความคืบหน้าปัจจุบัน (Completed/Pending/Failed) และสถานะคีย์ทั้งหมด |
+| `--phase` | string | `all` | เลือกรอบการรัน Greedy Batch: `1` (Phase 1: ไฟล์เล็ก/กลาง ~754 ไฟล์), `2` (Phase 2: ไฟล์ใหญ่ ~302 ไฟล์), `all` (ทุกไฟล์เรียงเล็กไปใหญ่) |
+| `--max-tokens` | int | `None` | กำหนด max_tokens คงที่สำหรับทุกไฟล์ (ค่าเริ่มต้น: 8192 ซึ่งเป็นเพดานสูงสุดเต็มพิกัดของ Claude Sonnet 5) |
+| `--skip-limits` | flag | `False` | ข้ามไฟล์ที่เคยติดสถานะ LIMIT_REACHED (โดยค่าเริ่มต้น สคริปต์จะทำการ Auto-retry ไฟล์ที่ชนลิมิตให้อัตโนมัติด้วยเพดาน 8,192 tokens) |
+| `--retry-limits` | flag | `True` | รันซ่อมไฟล์ที่เคยติดสถานะ LIMIT_REACHED (เปิดใช้งานเป็นค่าเริ่มต้นเสมอ) |
+| `--status` | flag | `False` | แสดงรายงานความคืบหน้าปัจจุบัน (Completed/Limit Reached/Pending/Failed) และสถานะคีย์ทั้งหมด |
 | `--reset-state` | flag | `False` | ล้างประวัติ Memory State เริ่มต้นใหม่ |
 | `--state-file` | string | `Claude-sonnet-5/generation_state.json` | กำหนดตำแหน่งไฟล์บันทึกสถานะ Memory |
 | `--project`, `-p` | string | `None` | ระบุชื่อโปรเจกต์ เช่น `Codec_1`, `Chart_1` (ไม่ระบุ = ทุกโปรเจกต์) |
@@ -165,15 +178,30 @@ python script/generate_claude_tests.py --project Codec_1 -v
 | `--dry-run` | flag | `False` | โหมดจำลอง แสดงรายการไฟล์และ Prompt โดยไม่ยิง API |
 | `--model` | string | `claude-sonnet-5` | โมเดลที่ต้องการเรียกใช้ |
 | `--timeout` | int | `60` | เวลา Timeout สูงสุดต่อ Request (วินาที) ตัดจบและ Failover คีย์เร็วขึ้น |
-| `--sort-by-size` | flag | `True` | จัดเรียงคิวงานตามขนาดไฟล์ (Smallest first) ทำไฟล์เล็กก่อนไฟล์ใหญ่ (เปิดเป็นค่าเริ่มต้น) |
-| `--no-sort-by-size` | flag | `False` | ปิดการจัดเรียงตามขนาดไฟล์ (เรียงตามลำดับโฟลเดอร์เดิม) |
 | `--limit`, `-n` | int | `None` | จำกัดจำนวนไฟล์ที่จะประมวลผลในรอบนี้ (เช่น `-n 10` ทำ 10 ไฟล์แรก) |
 | `--no-auto-compact`| flag | `False` | ปิดระบบย่อโค้ดอัตโนมัติ (ตัด Javadoc/Comments) สำหรับคลาสขนาดใหญ่ |
 | `--check-quota` | flag | `False` | ตรวจสอบโควต้าคงเหลือจริง (Real-time Token Quota) ของทุก API Key จากเซิร์ฟเวอร์ KKU |
 
 ---
 
-## 7. ข้อควรระวังและระบบความปลอดภัยของโค้ด
+## 7. กลยุทธ์จัดการ Token และเพิ่ม Code Coverage
+
+### 1. ปลดล็อก Max Tokens เต็มพิกัด 8,192 Tokens
+- **ตั้งเพดาน `max_tokens: 8192` สำหรับทุกไฟล์ ทุกขนาด**: โมเดล Claude Sonnet 5 รองรับ Output สูงสุด 8,192 tokens
+- **ไม่เสียโควต้าโดยเปล่าประโยชน์**: เซิร์ฟเวอร์ KKU GenAI คิดโควต้าตามจำนวน Token ที่โมเดลสร้างขึ้นจริง (`usage.completion_tokens`) ไฟล์เล็กที่ใช้เพียง 1,500–3,000 tokens จะถูกตัดโควต้าเท่าที่ใช้จริงเท่านั้น
+- **ป้องกันโค้ดขาดตอน 100%**: ช่วยให้ Test Suite ขนาดใหญ่ที่มี 10–20 test cases สามารถปิดคลาสด้วย `}` ได้อย่างสมบูรณ์ ไม่ถูกตัดทอนค้างคาอีกต่อไป
+
+### 2. Auto-Retry สำหรับไฟล์ที่ชนลิมิต (LIMIT_REACHED)
+- สคริปต์จะตรวจสอบความสมบูรณ์ของไฟล์ Test (ต้องมี `@Test` และปิดท้ายด้วย `}`)
+- ไฟล์ที่เคยติด Token Limit หรือไฟล์บนดิสก์ที่ถูกตัดทอนขาดตอน จะถูก **นำมาเจนใหม่อัตโนมัติ (Auto-Retry)** ด้วยเพดาน 8,192 tokens โดยที่ผู้ใช้ไม่ต้องใส่คำสั่งพิเศษใดๆ
+
+### 3. Proactive Compact (รักษา Branch Coverage 100%)
+- สำหรับคลาสขนาดใหญ่ (> 500 บรรทัด) สคริปต์จะตัดเฉพาะ Comments, Javadoc และบรรทัดว่างออก ช่วยลดขนาดลงได้ 30–50%
+- **คง Method Body และ Logic ไว้ครบถ้วน 100%** (ไม่ตัดทิ้ง) เพื่อให้ Claude มองเห็นทุกเงื่อนไข `if-else` / `switch` / `loop` ทำให้เขียน White-box Test Case ได้ Branch Coverage สูงสุด
+
+---
+
+## 8. ข้อควรระวังและระบบความปลอดภัยของโค้ด
 
 1. **ใช้เฉพาะโค้ดที่ได้รับจาก Response เท่านั้น**: สคริปต์จะสกัดโค้ด Java จากข้อความที่ได้จากโมเดล Claude Sonnet 5 จริงๆ เท่านั้น ไม่มีการ fabricate, mock หรือสร้างโค้ดทดแทนเองเด็ดขาด
 2. **Auto Markdown Fence Stripping**: สคริปต์รองรับทั้ง Response ที่ส่งมาเป็น Java ล้วน และ Response ที่ครอบด้วย markdown code block (```` ```java ... ``` ````) โดยจะตัด fence ออกให้เหลือเฉพาะโค้ด Java แท้ที่พร้อม compile

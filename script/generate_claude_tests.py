@@ -214,12 +214,52 @@ class KeyManager:
 # ==========================================
 # 3. ระบบ Memory & State Management
 # ==========================================
+def is_valid_complete_java_test(file_path) -> bool:
+    """
+    ตรวจสอบว่าไฟล์ Test บนดิสก์เป็นโค้ด Java ที่สมบูรณ์หรือไม่
+    - มีไฟล์อยู่จริงและขนาด > 100 bytes
+    - ปิดท้าย Class ด้วย '}' (ไม่ถูกตัดทอนขาดตอนกลางคัน)
+    - มี @Test หรือ class Test
+    """
+    if not file_path:
+        return False
+    try:
+        p = Path(file_path)
+        if not p.is_file() or p.stat().st_size < 100:
+            return False
+        with open(p, "r", encoding="utf-8", errors="replace") as f:
+            content = f.read().strip()
+        if not content.endswith("}"):
+            return False
+        if "@Test" not in content and "class" not in content:
+            return False
+        return True
+    except Exception:
+        return False
+
+
 def load_state(state_file_path: Path) -> dict:
-    """โหลดประวัติการทำงานจากไฟล์ generation_state.json"""
+    """โหลดประวัติการทำงานจากไฟล์ generation_state.json พร้อม normalize สถานะที่ติด Token Limit"""
     if state_file_path.is_file():
         try:
             with open(state_file_path, "r", encoding="utf-8") as f:
-                return json.load(f)
+                data = json.load(f)
+                # Auto-normalize: ปรับสถานะไฟล์ที่ติด finish_reason=length หรือไฟล์บนดิสก์ขาดตอนให้เป็น LIMIT_REACHED
+                changed = False
+                for k, v in data.items():
+                    if isinstance(v, dict):
+                        if v.get("finish_reason") == "length" and v.get("status") == "COMPLETED":
+                            v["status"] = "LIMIT_REACHED"
+                            changed = True
+                        elif v.get("status") == "COMPLETED":
+                            tf = v.get("test_file")
+                            if tf and Path(tf).is_file() and not is_valid_complete_java_test(tf):
+                                v["status"] = "LIMIT_REACHED"
+                                v["finish_reason"] = "length"
+                                changed = True
+                if changed:
+                    save_state(state_file_path, data)
+                return data
         except Exception as e:
             print(f"⚠️ Warning: ไม่สามารถอ่าน State file ({e}) จะเริ่มสร้าง State ใหม่")
     return {}
@@ -322,6 +362,53 @@ def compact_java_source(source_code: str) -> str:
     return '\n'.join(lines)
 
 
+def classify_java_class(source_code: str, filename: str) -> dict:
+    """
+    วิเคราะห์ความซับซ้อนและขนาดของคลาส Java เพื่อจัดกลุ่ม:
+    - ทุกขนาดได้รับเพดาน Token สูงสุดที่โมเดล Claude Sonnet 5 รองรับ (max_tokens = 8,192)
+      เนื่องจาก KKU GenAI คิดโควต้าตามจำนวน Token ที่โมเดลตอบออกมาจริง (Actual Generated Tokens)
+      การเปิดเพดานเต็ม 8,192 จึงไม่เสียโควต้าโดยเปล่าประโยชน์ และป้องกันปัญหาโค้ดขาดตอน 100%
+    - Small (< 150 บรรทัด หรือ DTO / Utility): max_tokens = 8192
+    - Medium (150–500 บรรทัด): max_tokens = 8192
+    - Large (> 500 บรรทัด): max_tokens = 8192 (ใช้ Proactive Compact ตัด Comments/Javadoc แต่คง Method Body ไว้ครบ 100%)
+    """
+    compacted = compact_java_source(source_code)
+    effective_lines = len([l for l in compacted.splitlines() if l.strip()])
+    raw_lines = len(source_code.splitlines())
+    
+    base_name = Path(filename).stem
+    is_dto = bool(re.search(r'(DTO|VO|Model|Data|Event|Bean|Info)$', base_name, re.IGNORECASE))
+    is_util = bool(re.search(r'(Utils?|Helper|Constants?)$', base_name, re.IGNORECASE))
+    
+    if effective_lines < 150 or is_dto or is_util:
+        category = "small"
+        max_tokens = 8192
+        desc = "ไฟล์ขนาดเล็ก / DTO / Utility (< 150 บรรทัด)"
+        label = "SMALL"
+    elif 150 <= effective_lines <= 500:
+        category = "medium"
+        max_tokens = 8192
+        desc = "ไฟล์ขนาดกลาง (150–500 บรรทัด)"
+        label = "MEDIUM"
+    else:
+        category = "large"
+        max_tokens = 8192
+        desc = "ไฟล์ขนาดใหญ่ (> 500 บรรทัด)"
+        label = "LARGE"
+        
+    return {
+        "category": category,
+        "label": label,
+        "effective_lines": effective_lines,
+        "raw_lines": raw_lines,
+        "max_tokens": max_tokens,
+        "desc": desc,
+        "is_dto": is_dto,
+        "is_util": is_util,
+        "compacted_code": compacted
+    }
+
+
 # ==========================================
 # 5. ฟังก์ชันตรวจสอบ Token / Quota Exhaustion & Size Errors
 # ==========================================
@@ -409,9 +496,10 @@ def call_single_api_stream(
     base_url: str = "https://gen.ai.kku.ac.th/api/v1",
     model: str = "claude-sonnet-5",
     timeout: int = 60,
-    max_retries: int = 1,
+    max_retries: int = 3,
     retry_delay: int = 4,
-    show_stream: bool = False
+    show_stream: bool = False,
+    max_tokens: int = 8192
 ) -> dict:
     """
     ยิง Request ไปยัง KKU GenAI แบบ Streaming (SSE)
@@ -429,13 +517,14 @@ def call_single_api_stream(
         "messages": [
             {
                 "role": "system",
-                "content": "คุณคือวิศวกรทดสอบซอฟต์แวร์ที่เชี่ยวชาญ JUnit และ code coverage ตอบเป็นโค้ด Java ทั้งไฟล์เท่านั้น ไม่มีคำอธิบายก่อน/หลังโค้ด ไม่มี markdown fence"
+                "content": "คุณคือวิศวกรทดสอบซอฟต์แวร์ที่เชี่ยวชาญ JUnit และ code coverage ตอบเป็นโค้ด Java ทั้งไฟล์เท่านั้น ไม่มีคำอธิบายก่อน/หลังโค้ด ไม่มี markdown fence ข้อกำหนดสำคัญสูงสุด: ต้องเขียนโค้ด Test Suite ให้ครบถ้วนสมบูรณ์ตั้งแต่ต้นจนจบ ปิด Class ด้วย '}' เสมอ ห้ามหยุดเขียนกลางคันหรือปล่อยให้โค้ดขาดตอนเด็ดขาด หากคลาสมี method จำนวนมาก ให้เน้นเขียน test ครอบคลุม branch สำคัญอย่างกระชับ ไม่เขียน boilerplate ซ้ำซ้อน เพื่อให้ได้ไฟล์ Java ที่จบสมบูรณ์ 100%"
             },
             {
                 "role": "user",
                 "content": prompt
             }
         ],
+        "max_tokens": max_tokens,
         "stream": True
     }
     
@@ -673,7 +762,8 @@ def call_claude_api_with_rotation(
     base_url: str = "https://gen.ai.kku.ac.th/api/v1",
     model: str = "claude-sonnet-5",
     timeout: int = 60,
-    show_stream: bool = False
+    show_stream: bool = False,
+    max_tokens: int = 8192
 ) -> dict:
     """
     ยิง API พร้อมระบบ Multi-Key Rotation & Auto-Failover:
@@ -701,7 +791,8 @@ def call_claude_api_with_rotation(
             base_url=base_url,
             model=model,
             timeout=timeout,
-            show_stream=show_stream
+            show_stream=show_stream,
+            max_tokens=max_tokens
         )
         last_res = res
         
@@ -848,6 +939,18 @@ def sync_existing_tests_to_memory(tasks: list, state_data: dict, state_file: Pat
         found_file = find_existing_test_file(target_dir, src_path, recorded_path, test_index)
 
         if found_file:
+            # ตรวจสอบว่าไฟล์บนดิสก์เป็นโค้ด Java ที่สมบูรณ์จริงหรือไม่ (ปิดด้วย '}')
+            if not is_valid_complete_java_test(found_file):
+                # หากไฟล์ไม่สมบูรณ์ (ถูกตัดทอนขาดตอน) ปรับสถานะเป็น LIMIT_REACHED เพื่อรอการ Re-run
+                if entry.get("status") != "LIMIT_REACHED":
+                    entry["status"] = "LIMIT_REACHED"
+                    entry["finish_reason"] = "length"
+                    state_data[task_id] = entry
+                continue
+
+            if entry.get("finish_reason") == "length" or entry.get("status") == "LIMIT_REACHED":
+                # คงสถานะ LIMIT_REACHED ไว้ ห้ามเขียนทับเป็น COMPLETED
+                continue
             if entry.get("status") != "COMPLETED":
                 state_data[task_id] = {
                     "project": task["project_name"],
@@ -859,7 +962,7 @@ def sync_existing_tests_to_memory(tasks: list, state_data: dict, state_file: Pat
                     "updated_at": datetime.now().isoformat()
                 }
                 synced_count += 1
-                print(f"  🔍 [SYNC: MANUAL] ตรวจพบไฟล์ Test ที่ทำไว้แล้วภายนอก: {task_id} -> {found_file.name} (ซิงค์เข้า Memory เรียบร้อย)")
+                print(f"  🔍 [SYNC: MANUAL] ตรวจพบไฟล์ Test ที่สมบูรณ์ภายนอก: {task_id} -> {found_file.name} (ซิงค์เข้า Memory เรียบร้อย)")
 
     if synced_count > 0:
         save_state(state_file, state_data)
@@ -933,6 +1036,7 @@ def print_memory_status(state_file: Path, tasks: list, key_manager: KeyManager):
     print("================================================================================")
     
     completed_count = 0
+    limit_reached_count = 0
     failed_count = 0
     pending_count = 0
     
@@ -940,20 +1044,25 @@ def print_memory_status(state_file: Path, tasks: list, key_manager: KeyManager):
         task_id = task["task_id"]
         entry = state_data.get(task_id)
         
-        if entry and entry.get("status") == "COMPLETED":
+        if entry and entry.get("status") == "COMPLETED" and entry.get("finish_reason") != "length":
             completed_count += 1
             test_file = entry.get("test_file", "N/A")
-            print(f"  ✅ [COMPLETED] {task_id} -> {test_file}")
+            print(f"  ✅ [COMPLETED]     {task_id} -> {test_file}")
+        elif entry and (entry.get("status") == "LIMIT_REACHED" or entry.get("finish_reason") == "length"):
+            limit_reached_count += 1
+            tok = entry.get("max_tokens_allocated", entry.get("usage", {}).get("completion_tokens", "Limit"))
+            test_file = entry.get("test_file", "N/A")
+            print(f"  ⚠️ [LIMIT_REACHED] {task_id} -> {test_file} (ชนลิมิต {tok} tokens)")
         elif entry and entry.get("status") == "FAILED":
             failed_count += 1
             err = entry.get("error", "Unknown error")
-            print(f"  ❌ [FAILED]    {task_id} -> Error: {err}")
+            print(f"  ❌ [FAILED]        {task_id} -> Error: {err}")
         else:
             pending_count += 1
-            print(f"  ⏳ [PENDING]   {task_id}")
+            print(f"  ⏳ [PENDING]       {task_id}")
             
     print("--------------------------------------------------------------------------------")
-    print(f"รวมทั้งหมด: {len(tasks)} | สำเร็จ: {completed_count} | ล้มเหลว: {failed_count} | คงเหลือ: {pending_count}")
+    print(f"รวมทั้งหมด: {len(tasks)} | สำเร็จ: {completed_count} | ชนลิมิต: {limit_reached_count} | ล้มเหลว: {failed_count} | คงเหลือ: {pending_count}")
     print("================================================================================\n")
 
 
@@ -992,10 +1101,14 @@ def main():
                         help="เวลา Timeout สูงสุดต่อ Request (วินาที, ค่าเริ่มต้น: 60)")
     parser.add_argument("--no-auto-compact", action="store_true", default=False,
                         help="ปิดการทำงานของ Auto-compact โค้ดสำหรับคลาสขนาดใหญ่")
-    parser.add_argument("--sort-by-size", action="store_true", default=True,
-                        help="จัดเรียงคิวงานตามขนาดไฟล์จากน้อยไปมาก (Smallest first, ค่าเริ่มต้น: เปิดใช้งาน)")
-    parser.add_argument("--no-sort-by-size", dest="sort_by_size", action="store_false",
-                        help="ปิดการจัดเรียงคิวงานตามขนาดไฟล์ (ใช้ลำดับโฟลเดอร์เดิม)")
+    parser.add_argument("--phase", type=str, choices=["1", "2", "all"], default="all",
+                        help="เลือกรอบการรันตาม Greedy Batch Strategy: '1' (Phase 1, Day 1-4: ไฟล์ขนาดเล็กและกลาง ~700 ไฟล์), '2' (Phase 2, Day 5-8: ไฟล์ขนาดใหญ่ ~290 ไฟล์), 'all' (รันทุกไฟล์เรียงตามลำดับจากเล็กไปใหญ่, ค่าเริ่มต้น: all)")
+    parser.add_argument("--max-tokens", type=int, default=None,
+                        help="กำหนด max_tokens คงที่สำหรับทุกไฟล์ (ค่าเริ่มต้น: 8192 ซึ่งเป็นเพดานสูงสุดเต็มพิกัดของ Claude Sonnet 5)")
+    parser.add_argument("--skip-limits", action="store_true", default=False,
+                        help="ข้ามไฟล์ที่เคยติดสถานะ LIMIT_REACHED (โดยค่าเริ่มต้น สคริปต์จะทำการ Auto-retry ไฟล์ที่ชนลิมิตให้อัตโนมัติด้วยเพดาน 8,192 tokens)")
+    parser.add_argument("--retry-limits", action="store_true", default=True,
+                        help="รันซ่อมไฟล์ที่เคยติดสถานะ LIMIT_REACHED (เปิดใช้งานเป็นค่าเริ่มต้นเสมอ)")
     parser.add_argument("--limit", "-n", type=int, default=None,
                         help="จำกัดจำนวนไฟล์ที่จะประมวลผลในรอบนี้ (เช่น -n 10)")
     parser.add_argument("--check-quota", action="store_true", default=False,
@@ -1101,23 +1214,65 @@ def main():
                     except Exception:
                         file_size = 0
                     
+                    try:
+                        with open(j_file, "r", encoding="utf-8", errors="replace") as f_src:
+                            content = f_src.read()
+                        class_info = classify_java_class(content, fname)
+                    except Exception:
+                        class_info = {
+                            "category": "medium",
+                            "label": "MEDIUM",
+                            "effective_lines": file_size // 40,
+                            "raw_lines": file_size // 40,
+                            "max_tokens": 8192,
+                            "desc": "ไฟล์ขนาดกลาง",
+                            "is_dto": False,
+                            "is_util": False,
+                            "compacted_code": ""
+                        }
+
                     tasks.append({
                         "task_id": task_id,
                         "project_name": p_dir.name,
                         "target_proj_dir": target_proj_dir,
                         "source_file": j_file,
                         "rel_src_path": rel_src_path,
-                        "file_size": file_size
+                        "file_size": file_size,
+                        "class_info": class_info,
+                        "category": class_info["category"],
+                        "effective_lines": class_info["effective_lines"],
+                        "raw_lines": class_info["raw_lines"]
                     })
 
     scan_elapsed = time.time() - t_scan_start
     sys.stdout.write(f"\r  ✅ สแกนครบ {len(project_dirs):,} โฟลเดอร์ | รวบรวมได้ {len(tasks):,} ไฟล์ Java (ใช้เวลา {scan_elapsed:.2f}s)\n")
     sys.stdout.flush()
 
-    # จัดเรียงคิวงานตามขนาดไฟล์ หากเปิดใช้งาน --sort-by-size (เปิดใช้งานเป็นค่าเริ่มต้น)
-    if args.sort_by_size:
-        tasks.sort(key=lambda x: x["file_size"])
-        print("⚡ [PRIORITY] จัดลำดับประมวลผล: ทำงานจากไฟล์ขนาดเล็กไปใหญ่ (Smallest first)")
+    # 1. จัดเรียงคิวงานตาม Greedy Batch Strategy เสมอ: ทำงานจากไฟล์ขนาดเล็กไปใหญ่ (Smallest first)
+    tasks.sort(key=lambda x: (x["effective_lines"], x["file_size"]))
+    print("⚡ [GREEDY BATCH] จัดลำดับประมวลผล: ทำงานจากไฟล์ขนาดเล็กไปใหญ่ (Smallest first) เพื่อประหยัด Token สูงสุด")
+
+    # 2. จัดกลุ่มและแยก Phase
+    p1_tasks = [t for t in tasks if t["category"] in ["small", "medium"]]
+    p2_tasks = [t for t in tasks if t["category"] == "large"]
+    
+    print("\n================================================================================")
+    print("📊 การกระจายงานตาม Greedy Batch Strategy (Phase Distribution)")
+    print("================================================================================")
+    print(f"• Phase 1 (Day 1–4): {len(p1_tasks):,} ไฟล์ (ไฟล์เล็ก/กลาง < 500 บรรทัด | Token ต่ำ 2,500–4,096)")
+    print(f"• Phase 2 (Day 5–8): {len(p2_tasks):,} ไฟล์ (ไฟล์ขนาดใหญ่ > 500 บรรทัด | โควต้า 6,000 tokens)")
+    print(f"• รวมทั้งสิ้น:        {len(tasks):,} ไฟล์")
+    print("================================================================================")
+
+    # 3. กรองงานตามตัวเลือก --phase
+    if args.phase == "1":
+        tasks = p1_tasks
+        print(f"🎯 [RUN PHASE 1] เลือกรันเฉพาะกลุ่มไฟล์ขนาดเล็กและกลาง ({len(tasks):,} ไฟล์)")
+    elif args.phase == "2":
+        tasks = p2_tasks
+        print(f"🎯 [RUN PHASE 2] เลือกรันเฉพาะกลุ่มไฟล์ขนาดใหญ่ ({len(tasks):,} ไฟล์)")
+    else:
+        print(f"🎯 [RUN ALL PHASES] รันทุกโปรเจกต์ตามลำดับ Greedy ({len(tasks):,} ไฟล์: Phase 1 ก่อนแล้วตามด้วย Phase 2)")
 
     # หากมีการจำกัดจำนวนงานด้วย --limit / -n
     if args.limit and args.limit > 0:
@@ -1151,6 +1306,7 @@ def main():
     stats = {
         "total": len(tasks),
         "success": 0,
+        "limit_reached": 0,
         "skipped": 0,
         "failed": 0
     }
@@ -1165,37 +1321,62 @@ def main():
             file_basename = src_path.name
             expected_test_filename = f"{src_path.stem}Test.java"
             target_file_path = target_dir / expected_test_filename
+            class_info = task.get("class_info") or {}
 
-            print(f"\n[{idx}/{len(tasks)}] 📦 Project: {proj_name} | 📄 File: {file_basename}")
+            # กำหนด max_tokens (ค่าเริ่มต้น: 8192 เต็มพิกัดของโมเดล Claude Sonnet 5)
+            target_max_tokens = args.max_tokens if args.max_tokens else class_info.get("max_tokens", 8192)
+            category_badge = f"[{class_info.get('label', 'UNKNOWN')} | {class_info.get('effective_lines', 0)} lines | {target_max_tokens:,} max_tokens]"
+
+            print(f"\n[{idx}/{len(tasks)}] 📦 Project: {proj_name} | 📄 File: {file_basename} {category_badge}")
 
             # ตรวจสอบจาก Memory State และไฟล์จริงบนดิสก์เพื่อ Skip (ใช้ In-Memory Index O(1))
             entry = state_data.get(task_id, {})
-            is_completed_in_memory = (entry.get("status") == "COMPLETED")
+            is_completed_in_memory = (entry.get("status") == "COMPLETED" and entry.get("finish_reason") != "length")
+            is_limit_reached_in_memory = (entry.get("status") == "LIMIT_REACHED" or entry.get("finish_reason") == "length")
             
-            # ค้นหาไฟล์จริงบนดิสก์
+            # ค้นหาไฟล์จริงบนดิสก์ และตรวจสอบความสมบูรณ์ของโค้ด (ปิดด้วย '}' และมี @Test)
             actual_disk_file = find_existing_test_file(target_dir, src_path, entry.get("test_file"), test_index=test_index)
-            output_file_exists = actual_disk_file is not None
+            is_disk_file_valid = is_valid_complete_java_test(actual_disk_file) if actual_disk_file else False
 
-            if not args.overwrite and (is_completed_in_memory or output_file_exists):
+            if not args.overwrite:
                 display_file_name = actual_disk_file.name if actual_disk_file else (Path(entry.get("test_file", "")).name if entry.get("test_file") else expected_test_filename)
                 completed_time = entry.get("updated_at", "ก่อนหน้า")
-                print(f"  ⏭️ [MEMORY: SKIP] ข้าม: ไฟล์นี้สร้างสำเร็จแล้ว ({display_file_name}) เมื่อ {completed_time}")
-                print(f"     (หากต้องการสร้างใหม่ให้ระบุ --overwrite)")
-                stats["skipped"] += 1
-                
-                # หากมีไฟล์จริงบนดิสก์แต่ยังไม่ได้บันทึกลง Memory ให้ซิงค์ทันที
-                if not is_completed_in_memory and actual_disk_file:
+
+                # 1. หากไฟล์เคยติด Token Limit หรือไฟล์บนดิสก์ถูกตัดทอนขาดตอน (ไม่จบด้วย '}')
+                if is_limit_reached_in_memory or (actual_disk_file and not is_disk_file_valid):
+                    if args.skip_limits:
+                        print(f"  ⏭️ [MEMORY: SKIP] ข้าม: ไฟล์นี้เคยรันแล้วแต่ติด Token Limit ({display_file_name}) เมื่อ {completed_time}")
+                        stats["limit_reached"] += 1
+                        continue
+                    else:
+                        print(f"  🔄 [AUTO-RETRY LIMIT] รันซ่อมไฟล์ที่เคยติด Token Limit / โค้ดขาดตอน ({display_file_name}) ด้วยเพดาน Token เต็มพิกัด ({target_max_tokens:,} tokens)")
+
+                # 2. หากทำสำเร็จแล้วใน Memory และไฟล์บนดิสก์สมบูรณ์ (ปิดด้วย '}')
+                elif is_completed_in_memory and is_disk_file_valid:
+                    print(f"  ⏭️ [MEMORY: SKIP] ข้าม: ไฟล์นี้สร้างสำเร็จและสมบูรณ์แล้ว ({display_file_name}) เมื่อ {completed_time}")
+                    print(f"     (หากต้องการสร้างใหม่ให้ระบุ --overwrite)")
+                    stats["skipped"] += 1
+                    continue
+
+                # 3. หากมีไฟล์บนดิสก์และตรวจสอบแล้วว่าโค้ดสมบูรณ์
+                elif actual_disk_file and is_disk_file_valid:
+                    print(f"  ⏭️ [DISK: SKIP] ข้าม: ตรวจพบไฟล์ที่สมบูรณ์แล้วบนดิสก์ ({display_file_name})")
+                    stats["skipped"] += 1
                     state_data[task_id] = {
                         "project": proj_name,
                         "source_file": src_path.as_posix(),
                         "status": "COMPLETED",
                         "test_file": actual_disk_file.as_posix(),
                         "file_size_bytes": actual_disk_file.stat().st_size,
-                        "note": "MANUAL_DETECTED",
+                        "category": class_info.get("category", "unknown"),
+                        "effective_lines": class_info.get("effective_lines", 0),
+                        "raw_lines": class_info.get("raw_lines", 0),
+                        "max_tokens_allocated": target_max_tokens,
+                        "note": "DISK_VALID_DETECTED",
                         "updated_at": datetime.now().isoformat()
                     }
                     save_state(state_file, state_data)
-                continue
+                    continue
 
             # อ่าน Source Code จาก Resoucre
             try:
@@ -1214,31 +1395,33 @@ def main():
                 save_state(state_file, state_data)
                 continue
 
-            # 1. ทำ Pre-compact โค้ดล่วงหน้าก่อนส่ง API (Proactive Compact) สำหรับคลาสขนาดใหญ่
+            # 1. ทำ Proactive Compact โค้ดล่วงหน้าก่อนส่ง API สำหรับคลาสขนาดใหญ่ (> 500 บรรทัด) หรือคลาสที่มีคอมเมนต์ยาว
+            # ตัดเฉพาะ Comments และ Javadoc เพื่อลดขนาด Token ลง 30-50% แต่คง Method Body และ Logic ไว้ครบ 100% (เพื่อ Branch Coverage สูงสุด)
             code_to_send = source_code
-            if not args.no_auto_compact and len(source_code) > 20000:
-                compacted = compact_java_source(source_code)
+            if not args.no_auto_compact and (class_info.get("category") == "large" or len(source_code) > 20000):
+                compacted = class_info.get("compacted_code") or compact_java_source(source_code)
                 saved = len(source_code) - len(compacted)
                 if saved > 0:
                     code_to_send = compacted
-                    print(f"  ⚡ [PRE-COMPACT] คลาสขนาดใหญ่ ({len(source_code):,} chars) ย่อโค้ดล่วงหน้าก่อนส่ง (ลดลง {saved:,} chars)")
+                    print(f"  ⚡ [PROACTIVE COMPACT] คลาสขนาดใหญ่ ({len(source_code):,} chars) ตัด Comments/Javadoc (ลดลง {saved:,} chars) คง Method Body และ Logic ครบ 100%")
 
             # สร้าง Prompt
             full_prompt = build_prompt(prompt_template, code_to_send)
 
             if args.dry_run:
                 print(f"  [DRY-RUN] เป้าหมาย: {target_file_path}")
-                print(f"  [DRY-RUN] ขนาด Source Code: {len(code_to_send)} ตัวอักษร, Prompt: {len(full_prompt)} ตัวอักษร")
+                print(f"  [DRY-RUN] ขนาด Source Code: {len(code_to_send)} ตัวอักษร, Prompt: {len(full_prompt)} ตัวอักษร | Dynamic max_tokens: {target_max_tokens}")
                 stats["success"] += 1
                 continue
 
-            # ยิง Request ไปยัง Claude API พร้อมระบบสลับคีย์และ Streaming
+            # ยิง Request ไปยัง Claude API พร้อมระบบสลับคีย์และ Streaming (Dynamic Token Sizing)
             api_result = call_claude_api_with_rotation(
                 key_manager=key_manager,
                 prompt=full_prompt,
                 model=args.model,
                 timeout=args.timeout,
-                show_stream=args.show_stream
+                show_stream=args.show_stream,
+                max_tokens=target_max_tokens
             )
 
             # 🛑 กรณีที่ล้มเหลว และอาจเกิดจากขนาดคลาสใหญ่เกินไป (Payload Too Large หรือ Timeout จากไฟล์ขนาดใหญ่)
@@ -1259,7 +1442,8 @@ def main():
                             prompt=compacted_prompt,
                             model=args.model,
                             timeout=args.timeout,
-                            show_stream=args.show_stream
+                            show_stream=args.show_stream,
+                            max_tokens=target_max_tokens
                         )
 
             # 🛑 กรณี Token / Quota หมดทุกคีย์แล้ว -> หยุดรันทันที!
@@ -1300,9 +1484,10 @@ def main():
             raw_content = api_result["content"]
             finish_reason = api_result.get("finish_reason", "stop")
             elapsed = api_result.get("elapsed", 0)
+            is_limit_reached = (finish_reason == "length")
             
-            if finish_reason == "length":
-                print(f"  ⚠️ Warning: Response สิ้นสุดเพราะติด Token Output Limit (finish_reason=length)")
+            if is_limit_reached:
+                print(f"  ⚠️ [LIMIT REACTION] ไฟล์นี้สร้างโค้ดจนชนเพดาน Token Output ({target_max_tokens:,} tokens) โค้ดที่ได้อาจไม่ครบถ้วน!")
 
             # สกัด Java Test Code จาก Response (ใช้เฉพาะโค้ดที่ได้จากการยิงมาเท่านั้น)
             extracted_code = extract_java_code(raw_content)
@@ -1315,6 +1500,10 @@ def main():
                     "source_file": src_path.as_posix(),
                     "status": "FAILED",
                     "error": "Extracted Java code is empty or incomplete",
+                    "category": class_info.get("category", "unknown"),
+                    "effective_lines": class_info.get("effective_lines", 0),
+                    "raw_lines": class_info.get("raw_lines", 0),
+                    "max_tokens_allocated": target_max_tokens,
                     "updated_at": datetime.now().isoformat()
                 }
                 save_state(state_file, state_data)
@@ -1331,15 +1520,25 @@ def main():
 
             file_size = final_output_path.stat().st_size
             print(f"  💾 บันทึกไฟล์เรียบร้อย: {final_output_path} ({file_size:,} bytes)")
-            stats["success"] += 1
+            
+            # กำหนดสถานะตาม finish_reason: หากชนขีดจำกัด token ให้บันทึกเป็น LIMIT_REACHED
+            status_val = "LIMIT_REACHED" if is_limit_reached else "COMPLETED"
+            if is_limit_reached:
+                stats["limit_reached"] += 1
+            else:
+                stats["success"] += 1
 
             # บันทึกลง Memory State ทันที
             state_data[task_id] = {
                 "project": proj_name,
                 "source_file": src_path.as_posix(),
-                "status": "COMPLETED",
+                "status": status_val,
                 "test_file": final_output_path.as_posix(),
                 "file_size_bytes": file_size,
+                "category": class_info.get("category", "unknown"),
+                "effective_lines": class_info.get("effective_lines", 0),
+                "raw_lines": class_info.get("raw_lines", 0),
+                "max_tokens_allocated": target_max_tokens,
                 "used_key": api_result.get("used_key_masked"),
                 "elapsed_seconds": round(elapsed, 2),
                 "finish_reason": finish_reason,
@@ -1364,11 +1563,13 @@ def main():
     print("\n================================================================================")
     print("📊 สรุปผลการประมวลผล (Summary Report)")
     print("================================================================================")
-    print(f"• ทั้งหมด (Total):     {stats['total']}")
-    print(f"• สำเร็จ (Success):   {stats['success']}")
-    print(f"• ข้ามไป (Skipped):   {stats['skipped']} (มีใน Memory หรือไฟล์เดิมสมบูรณ์)")
-    print(f"• ล้มเหลว (Failed):    {stats['failed']}")
-    print(f"🔑 สถานะคีย์:         {len(key_manager.get_active_keys())}/{key_manager.total_count} คีย์ยังใช้งานได้")
+    print(f"• ทั้งหมด (Total):         {stats['total']}")
+    print(f"• สำเร็จ (Success):       {stats['success']}")
+    if stats["limit_reached"] > 0:
+        print(f"• ชนลิมิต (Limit Reached): {stats['limit_reached']} (ติด finish_reason=length บันทึกสถานะ LIMIT_REACHED)")
+    print(f"• ข้ามไป (Skipped):       {stats['skipped']} (มีใน Memory หรือไฟล์เดิมสมบูรณ์)")
+    print(f"• ล้มเหลว (Failed):        {stats['failed']}")
+    print(f"🔑 สถานะคีย์:             {len(key_manager.get_active_keys())}/{key_manager.total_count} คีย์ยังใช้งานได้")
     print(f"📄 Memory State บันทึกไว้ที่: {state_file}")
     print("================================================================================")
     print("✨ เสร็จสิ้นกระบวนการ!")
