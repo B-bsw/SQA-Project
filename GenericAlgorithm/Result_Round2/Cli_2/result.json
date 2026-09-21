@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2026-09-21T07:58:02Z",
+  "round": 2,
+  "project": "Cli",
+  "bug_id": 2,
+  "seed": 20260918,
+  "budget": 120,
+  "tests": 8,
+  "coverage": 95.2,
+  "line_cov": 97.06,
+  "branch_cov": 93.33,
+  "total_goals": 113,
+  "covered_goals": 108,
+  "lines": 8,
+  "covered_lines": 66,
+  "total_branches": 42,
+  "covered_branches": 39,
+  "buggy_result": "FAIL",
+  "buggy_fails": 1,
+  "fixed_result": "FAIL",
+  "fixed_fails": 1,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.cli.PosixParser",
+      "generation_result": "PASS",
+      "generation_seconds": 126,
+      "tests": 8,
+      "coverage": 95.20,
+      "line_cov": 97.06,
+      "branch_cov": 93.33,
+      "total_goals": 113,
+      "covered_goals": 108,
+      "lines": 8,
+      "covered_lines": 66,
+      "total_branches": 42,
+      "covered_branches": 39,
+      "total_methods": 8,
+      "covered_methods": 8,
+      "branchless_methods": 3,
+      "covered_branchless_methods": 3
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "FAIL",
+      "failures": 1
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 1
+    }
+  ]
+}

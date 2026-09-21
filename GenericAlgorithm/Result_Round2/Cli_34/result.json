@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2026-09-21T08:42:14Z",
+  "round": 2,
+  "project": "Cli",
+  "bug_id": 34,
+  "seed": 20260918,
+  "budget": 120,
+  "tests": 68,
+  "coverage": 98.52,
+  "line_cov": 97.49,
+  "branch_cov": 99.56,
+  "total_goals": 309,
+  "covered_goals": 303,
+  "lines": 64,
+  "covered_lines": 172,
+  "total_branches": 92,
+  "covered_branches": 91,
+  "buggy_result": "FAIL",
+  "buggy_fails": 2,
+  "fixed_result": "FAIL",
+  "fixed_fails": 2,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.cli.Option",
+      "generation_result": "PASS",
+      "generation_seconds": 131,
+      "tests": 50,
+      "coverage": 98.68,
+      "line_cov": 98.26,
+      "branch_cov": 99.11,
+      "total_goals": 227,
+      "covered_goals": 223,
+      "lines": 44,
+      "covered_lines": 113,
+      "total_branches": 88,
+      "covered_branches": 87,
+      "total_methods": 44,
+      "covered_methods": 44,
+      "branchless_methods": 24,
+      "covered_branchless_methods": 24
+    },
+    {
+      "target_class": "org.apache.commons.cli.OptionBuilder",
+      "generation_result": "PASS",
+      "generation_seconds": 125,
+      "tests": 18,
+      "coverage": 98.36,
+      "line_cov": 96.72,
+      "branch_cov": 100.00,
+      "total_goals": 82,
+      "covered_goals": 80,
+      "lines": 20,
+      "covered_lines": 59,
+      "total_branches": 4,
+      "covered_branches": 4,
+      "total_methods": 19,
+      "covered_methods": 19,
+      "branchless_methods": 17,
+      "covered_branchless_methods": 17
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "FAIL",
+      "failures": 2
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 2
+    }
+  ]
+}

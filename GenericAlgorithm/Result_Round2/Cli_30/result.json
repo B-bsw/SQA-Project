@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2026-09-21T08:32:50Z",
+  "round": 2,
+  "project": "Cli",
+  "bug_id": 30,
+  "seed": 20260918,
+  "budget": 120,
+  "tests": 31,
+  "coverage": 73.71,
+  "line_cov": 79.5,
+  "branch_cov": 67.93,
+  "total_goals": 530,
+  "covered_goals": 371,
+  "lines": 37,
+  "covered_lines": 221,
+  "total_branches": 230,
+  "covered_branches": 140,
+  "buggy_result": "FAIL",
+  "buggy_fails": 2,
+  "fixed_result": "FAIL",
+  "fixed_fails": 2,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.cli.DefaultParser",
+      "generation_result": "PASS",
+      "generation_seconds": 130,
+      "tests": 16,
+      "coverage": 61.15,
+      "line_cov": 69.57,
+      "branch_cov": 52.73,
+      "total_goals": 349,
+      "covered_goals": 215,
+      "lines": 24,
+      "covered_lines": 128,
+      "total_branches": 160,
+      "covered_branches": 83,
+      "total_methods": 24,
+      "covered_methods": 19,
+      "branchless_methods": 5,
+      "covered_branchless_methods": 4
+    },
+    {
+      "target_class": "org.apache.commons.cli.Parser",
+      "generation_result": "PASS",
+      "generation_seconds": 131,
+      "tests": 15,
+      "coverage": 86.27,
+      "line_cov": 89.42,
+      "branch_cov": 83.12,
+      "total_goals": 181,
+      "covered_goals": 156,
+      "lines": 13,
+      "covered_lines": 93,
+      "total_branches": 70,
+      "covered_branches": 57,
+      "total_methods": 13,
+      "covered_methods": 13,
+      "branchless_methods": 7,
+      "covered_branchless_methods": 7
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "FAIL",
+      "failures": 2
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 2
+    }
+  ]
+}

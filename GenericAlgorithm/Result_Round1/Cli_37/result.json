@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2026-09-21T07:52:55Z",
+  "round": 1,
+  "project": "Cli",
+  "bug_id": 37,
+  "seed": 20260918,
+  "budget": 120,
+  "tests": 12,
+  "coverage": 51.98,
+  "line_cov": 58.29,
+  "branch_cov": 45.66,
+  "total_goals": 360,
+  "covered_goals": 188,
+  "lines": 24,
+  "covered_lines": 109,
+  "total_branches": 168,
+  "covered_branches": 75,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.cli.DefaultParser",
+      "generation_result": "PASS",
+      "generation_seconds": 128,
+      "tests": 12,
+      "coverage": 51.98,
+      "line_cov": 58.29,
+      "branch_cov": 45.66,
+      "total_goals": 360,
+      "covered_goals": 188,
+      "lines": 24,
+      "covered_lines": 109,
+      "total_branches": 168,
+      "covered_branches": 75,
+      "total_methods": 24,
+      "covered_methods": 18,
+      "branchless_methods": 5,
+      "covered_branchless_methods": 4
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}
