@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2026-09-21T07:38:15Z",
+  "round": 1,
+  "project": "Cli",
+  "bug_id": 26,
+  "seed": 20260918,
+  "budget": 120,
+  "tests": 17,
+  "coverage": 98.31,
+  "line_cov": 96.61,
+  "branch_cov": 100,
+  "total_goals": 80,
+  "covered_goals": 78,
+  "lines": 20,
+  "covered_lines": 57,
+  "total_branches": 4,
+  "covered_branches": 4,
+  "buggy_result": "FAIL",
+  "buggy_fails": 1,
+  "fixed_result": "FAIL",
+  "fixed_fails": 1,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.cli.OptionBuilder",
+      "generation_result": "PASS",
+      "generation_seconds": 125,
+      "tests": 17,
+      "coverage": 98.31,
+      "line_cov": 96.61,
+      "branch_cov": 100.00,
+      "total_goals": 80,
+      "covered_goals": 78,
+      "lines": 20,
+      "covered_lines": 57,
+      "total_branches": 4,
+      "covered_branches": 4,
+      "total_methods": 19,
+      "covered_methods": 19,
+      "branchless_methods": 17,
+      "covered_branchless_methods": 17
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "FAIL",
+      "failures": 1
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 1
+    }
+  ]
+}
