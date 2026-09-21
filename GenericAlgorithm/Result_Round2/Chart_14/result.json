@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2026-09-20T18:01:59Z",
+  "round": 2,
+  "project": "Chart",
+  "bug_id": 14,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 300,
+  "coverage": 57.78,
+  "line_cov": 61.69,
+  "branch_cov": 54.02,
+  "total_goals": 4330,
+  "covered_goals": 2483,
+  "lines": 373,
+  "covered_lines": 1632,
+  "total_branches": 1438,
+  "covered_branches": 680,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "FAIL",
+  "fixed_fails": 6,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "org.jfree.chart.plot.CategoryPlot",
+      "generation_result": "PASS",
+      "generation_seconds": 119,
+      "tests": 141,
+      "coverage": 68.14,
+      "line_cov": 72.49,
+      "branch_cov": 64.10,
+      "total_goals": 1887,
+      "covered_goals": 1305,
+      "lines": 173,
+      "covered_lines": 851,
+      "total_branches": 626,
+      "covered_branches": 373,
+      "total_methods": 173,
+      "covered_methods": 167,
+      "branchless_methods": 87,
+      "covered_branchless_methods": 84
+    },
+    {
+      "target_class": "org.jfree.chart.plot.XYPlot",
+      "generation_result": "PASS",
+      "generation_seconds": 135,
+      "tests": 159,
+      "coverage": 47.41,
+      "line_cov": 50.88,
+      "branch_cov": 43.94,
+      "total_goals": 2443,
+      "covered_goals": 1178,
+      "lines": 200,
+      "covered_lines": 781,
+      "total_branches": 812,
+      "covered_branches": 307,
+      "total_methods": 200,
+      "covered_methods": 178,
+      "branchless_methods": 96,
+      "covered_branchless_methods": 92
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 6
+    }
+  ]
+}

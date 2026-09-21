@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2026-09-20T17:00:16Z",
+  "round": 1,
+  "project": "Chart",
+  "bug_id": 18,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 50,
+  "coverage": 98.4,
+  "line_cov": 99.31,
+  "branch_cov": 97.48,
+  "total_goals": 416,
+  "covered_goals": 410,
+  "lines": 45,
+  "covered_lines": 264,
+  "total_branches": 124,
+  "covered_branches": 120,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "FAIL",
+  "fixed_fails": 2,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "org.jfree.data.DefaultKeyedValues",
+      "generation_result": "PASS",
+      "generation_seconds": 68,
+      "tests": 24,
+      "coverage": 99.21,
+      "line_cov": 100.00,
+      "branch_cov": 98.41,
+      "total_goals": 185,
+      "covered_goals": 184,
+      "lines": 22,
+      "covered_lines": 122,
+      "total_branches": 52,
+      "covered_branches": 51,
+      "total_methods": 22,
+      "covered_methods": 22,
+      "branchless_methods": 11,
+      "covered_branchless_methods": 11
+    },
+    {
+      "target_class": "org.jfree.data.DefaultKeyedValues2D",
+      "generation_result": "PASS",
+      "generation_seconds": 69,
+      "tests": 26,
+      "coverage": 97.58,
+      "line_cov": 98.61,
+      "branch_cov": 96.55,
+      "total_goals": 231,
+      "covered_goals": 226,
+      "lines": 23,
+      "covered_lines": 142,
+      "total_branches": 72,
+      "covered_branches": 69,
+      "total_methods": 23,
+      "covered_methods": 23,
+      "branchless_methods": 15,
+      "covered_branchless_methods": 15
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 2
+    }
+  ]
+}

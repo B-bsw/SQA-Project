@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2026-09-20T17:50:54Z",
+  "round": 2,
+  "project": "Chart",
+  "bug_id": 5,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 41,
+  "coverage": 98.84,
+  "line_cov": 97.67,
+  "branch_cov": 100,
+  "total_goals": 275,
+  "covered_goals": 269,
+  "lines": 34,
+  "covered_lines": 168,
+  "total_branches": 80,
+  "covered_branches": 80,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "FAIL",
+  "fixed_fails": 1,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "org.jfree.data.xy.XYSeries",
+      "generation_result": "PASS",
+      "generation_seconds": 73,
+      "tests": 41,
+      "coverage": 98.84,
+      "line_cov": 97.67,
+      "branch_cov": 100.00,
+      "total_goals": 275,
+      "covered_goals": 269,
+      "lines": 34,
+      "covered_lines": 168,
+      "total_branches": 80,
+      "covered_branches": 80,
+      "total_methods": 34,
+      "covered_methods": 34,
+      "branchless_methods": 23,
+      "covered_branchless_methods": 23
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 1
+    }
+  ]
+}
