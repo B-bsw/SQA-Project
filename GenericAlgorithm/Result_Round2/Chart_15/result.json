@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2026-09-20T18:00:12Z",
+  "round": 2,
+  "project": "Chart",
+  "bug_id": 15,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 99,
+  "coverage": 70.98,
+  "line_cov": 77.17,
+  "branch_cov": 64.78,
+  "total_goals": 1217,
+  "covered_goals": 891,
+  "lines": 114,
+  "covered_lines": 639,
+  "total_branches": 312,
+  "covered_branches": 177,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "FAIL",
+  "fixed_fails": 1,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "org.jfree.chart.plot.PiePlot",
+      "generation_result": "PASS",
+      "generation_seconds": 101,
+      "tests": 99,
+      "coverage": 70.98,
+      "line_cov": 77.17,
+      "branch_cov": 64.78,
+      "total_goals": 1217,
+      "covered_goals": 891,
+      "lines": 114,
+      "covered_lines": 639,
+      "total_branches": 312,
+      "covered_branches": 177,
+      "total_methods": 114,
+      "covered_methods": 111,
+      "branchless_methods": 77,
+      "covered_branchless_methods": 75
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 1
+    }
+  ]
+}
