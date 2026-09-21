@@ -4033,5 +4033,258 @@
     "time_limit": 60,
     "status": "COMPLETED",
     "timestamp": "2026-09-21T15:29:52.409621"
+  },
+  "Closure_161": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_161_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Closure_161",
+    "classes_tested": [
+      "com.google.javascript.jscomp.PeepholeFoldConstants"
+    ],
+    "generated_tests": [
+      "com/google/javascript/jscomp/RegressionTest0.java",
+      "com/google/javascript/jscomp/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-21T15:35:41.824705"
+  },
+  "Closure_162": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_162_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Closure_162",
+    "classes_tested": [
+      "com.google.javascript.jscomp.ScopedAliases",
+      "com.google.javascript.jscomp.Scope"
+    ],
+    "generated_tests": [
+      "com/google/javascript/jscomp/ErrorTest0.java",
+      "com/google/javascript/jscomp/RegressionTest0.java",
+      "com/google/javascript/jscomp/ErrorTest.java",
+      "com/google/javascript/jscomp/RegressionTest1.java",
+      "com/google/javascript/jscomp/RegressionTest2.java",
+      "com/google/javascript/jscomp/RegressionTest3.java",
+      "com/google/javascript/jscomp/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-21T15:36:58.841763"
+  },
+  "Closure_163": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_163_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Closure_163",
+    "classes_tested": [
+      "com.google.javascript.jscomp.AnalyzePrototypeProperties",
+      "com.google.javascript.jscomp.CrossModuleMethodMotion"
+    ],
+    "generated_tests": [
+      "com/google/javascript/jscomp/RegressionTest0.java",
+      "com/google/javascript/jscomp/RegressionTest1.java",
+      "com/google/javascript/jscomp/RegressionTest2.java",
+      "com/google/javascript/jscomp/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-21T15:38:17.512130"
+  },
+  "Closure_164": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_164_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Closure_164",
+    "classes_tested": [
+      "com.google.javascript.rhino.jstype.ArrowType"
+    ],
+    "generated_tests": [
+      "com/google/javascript/rhino/jstype/RegressionTest0.java",
+      "com/google/javascript/rhino/jstype/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-21T15:39:36.200542"
+  },
+  "Closure_165": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_165_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Closure_165",
+    "classes_tested": [
+      "com.google.javascript.rhino.jstype.RecordTypeBuilder",
+      "com.google.javascript.rhino.jstype.RecordType",
+      "com.google.javascript.rhino.jstype.JSTypeRegistry",
+      "com.google.javascript.rhino.jstype.ObjectType"
+    ],
+    "generated_tests": [
+      "com/google/javascript/rhino/jstype/RegressionTest0.java",
+      "com/google/javascript/rhino/jstype/RegressionTest1.java",
+      "com/google/javascript/rhino/jstype/RegressionTest2.java",
+      "com/google/javascript/rhino/jstype/RegressionTest3.java",
+      "com/google/javascript/rhino/jstype/RegressionTest4.java",
+      "com/google/javascript/rhino/jstype/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-21T15:41:23.597195"
+  },
+  "Closure_167": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_167_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Closure_167",
+    "classes_tested": [
+      "com.google.javascript.rhino.jstype.JSType",
+      "com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter"
+    ],
+    "generated_tests": [
+      "com/google/javascript/rhino/jstype/RegressionTest6.java",
+      "com/google/javascript/rhino/jstype/RegressionTest7.java",
+      "com/google/javascript/rhino/jstype/RegressionTest0.java",
+      "com/google/javascript/rhino/jstype/RegressionTest1.java",
+      "com/google/javascript/rhino/jstype/RegressionTest2.java",
+      "com/google/javascript/rhino/jstype/RegressionTest3.java",
+      "com/google/javascript/rhino/jstype/RegressionTest8.java",
+      "com/google/javascript/rhino/jstype/RegressionTest4.java",
+      "com/google/javascript/rhino/jstype/RegressionTest5.java",
+      "com/google/javascript/rhino/jstype/RegressionTest.java",
+      "com/google/javascript/rhino/jstype/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-21T15:43:37.122608"
+  },
+  "Closure_168": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_168_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Closure_168",
+    "classes_tested": [
+      "com.google.javascript.jscomp.TypedScopeCreator"
+    ],
+    "generated_tests": [
+      "com/google/javascript/jscomp/RegressionTest0.java",
+      "com/google/javascript/jscomp/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-21T15:44:51.543377"
+  },
+  "Closure_170": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_170_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Closure_170",
+    "classes_tested": [
+      "com.google.javascript.jscomp.FlowSensitiveInlineVariables"
+    ],
+    "generated_tests": [
+      "com/google/javascript/jscomp/RegressionTest0.java",
+      "com/google/javascript/jscomp/RegressionTest1.java",
+      "com/google/javascript/jscomp/RegressionTest2.java",
+      "com/google/javascript/jscomp/RegressionTest3.java",
+      "com/google/javascript/jscomp/RegressionTest4.java",
+      "com/google/javascript/jscomp/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-21T15:46:50.416609"
+  },
+  "Closure_171": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_171_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Closure_171",
+    "classes_tested": [
+      "com.google.javascript.jscomp.TypedScopeCreator",
+      "com.google.javascript.jscomp.TypeInference"
+    ],
+    "generated_tests": [
+      "com/google/javascript/jscomp/RegressionTest0.java",
+      "com/google/javascript/jscomp/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-21T15:48:05.948830"
+  },
+  "Closure_172": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_172_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Closure_172",
+    "classes_tested": [
+      "com.google.javascript.jscomp.TypedScopeCreator"
+    ],
+    "generated_tests": [
+      "com/google/javascript/jscomp/RegressionTest0.java",
+      "com/google/javascript/jscomp/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-21T15:49:25.193955"
+  },
+  "Closure_174": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_174_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Closure_174",
+    "classes_tested": [
+      "com.google.javascript.jscomp.ScopedAliases",
+      "com.google.javascript.jscomp.NodeUtil",
+      "com.google.javascript.jscomp.JsAst"
+    ],
+    "generated_tests": [
+      "com/google/javascript/jscomp/ErrorTest0.java",
+      "com/google/javascript/jscomp/RegressionTest0.java",
+      "com/google/javascript/jscomp/ErrorTest.java",
+      "com/google/javascript/jscomp/RegressionTest1.java",
+      "com/google/javascript/jscomp/RegressionTest2.java",
+      "com/google/javascript/jscomp/RegressionTest3.java",
+      "com/google/javascript/jscomp/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-21T15:53:47.629263"
+  },
+  "Closure_169": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_169_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Closure_169",
+    "classes_tested": [
+      "com.google.javascript.rhino.jstype.RecordType",
+      "com.google.javascript.rhino.jstype.JSType",
+      "com.google.javascript.rhino.jstype.UnionType",
+      "com.google.javascript.rhino.jstype.ArrowType"
+    ],
+    "generated_tests": [
+      "com/google/javascript/rhino/jstype/RegressionTest0.java",
+      "com/google/javascript/rhino/jstype/RegressionTest1.java",
+      "com/google/javascript/rhino/jstype/RegressionTest2.java",
+      "com/google/javascript/rhino/jstype/RegressionTest3.java",
+      "com/google/javascript/rhino/jstype/RegressionTest4.java",
+      "com/google/javascript/rhino/jstype/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-21T16:01:26.513694"
+  },
+  "Closure_166": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_166_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Closure_166",
+    "classes_tested": [
+      "com.google.javascript.rhino.jstype.PrototypeObjectType"
+    ],
+    "generated_tests": [
+      "com/google/javascript/rhino/jstype/RegressionTest6.java",
+      "com/google/javascript/rhino/jstype/RegressionTest7.java",
+      "com/google/javascript/rhino/jstype/RegressionTest0.java",
+      "com/google/javascript/rhino/jstype/RegressionTest1.java",
+      "com/google/javascript/rhino/jstype/RegressionTest2.java",
+      "com/google/javascript/rhino/jstype/RegressionTest3.java",
+      "com/google/javascript/rhino/jstype/RegressionTest4.java",
+      "com/google/javascript/rhino/jstype/RegressionTest5.java",
+      "com/google/javascript/rhino/jstype/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-21T16:05:17.006861"
+  },
+  "Closure_173": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_173_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Closure_173",
+    "classes_tested": [
+      "com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax",
+      "com.google.javascript.jscomp.CodeGenerator"
+    ],
+    "generated_tests": [
+      "com/google/javascript/jscomp/RegressionTest0.java",
+      "com/google/javascript/jscomp/RegressionTest1.java",
+      "com/google/javascript/jscomp/RegressionTest2.java",
+      "com/google/javascript/jscomp/RegressionTest3.java",
+      "com/google/javascript/jscomp/RegressionTest4.java",
+      "com/google/javascript/jscomp/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-21T16:07:58.591901"
   }
 }
