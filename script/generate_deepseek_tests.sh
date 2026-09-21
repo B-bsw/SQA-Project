@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
 # ==============================================================================
-# Script wrapper สำหรับรัน generate_claude_tests.py บน WSL / Linux / Git Bash
+# Script wrapper สำหรับรัน generate_deepseek_tests.py บน WSL / Linux / Git Bash
 # ==============================================================================
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 WORKSPACE_DIR="$(dirname "$SCRIPT_DIR")"
 
-# เรียกใช้ Python 3
+# ตรวจสอบคำสั่ง Python 3
 if command -v python3 &>/dev/null; then
     PYTHON_CMD="python3"
 elif command -v python &>/dev/null; then
@@ -17,4 +17,4 @@ else
     exit 1
 fi
 
-"$PYTHON_CMD" "$SCRIPT_DIR/generate_claude_tests.py" "$@"
+"$PYTHON_CMD" "$SCRIPT_DIR/generate_deepseek_tests.py" "$@"
