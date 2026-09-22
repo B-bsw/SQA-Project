@@ -9275,7 +9275,7 @@
     "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_29/org/apache/commons/compress/archivers/dump/DumpArchiveInputStream.java",
     "status": "FAILED",
     "error": "Gateway TTFT Timeout",
-    "updated_at": "2026-09-22T23:43:23.075822"
+    "updated_at": "2026-09-23T00:15:23.937985"
   },
   "Compress_12/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java": {
     "project": "Compress_12",
@@ -9463,8 +9463,1741 @@
   "Compress_17/org/apache/commons/compress/archivers/tar/TarUtils.java": {
     "project": "Compress_17",
     "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_17/org/apache/commons/compress/archivers/tar/TarUtils.java",
-    "status": "FAILED",
-    "error": "คีย์ API ทั้งหมดในระบบโควต้าหมดแล้ว หรือไม่สามารถเชื่อมต่อได้",
-    "updated_at": "2026-09-22T23:52:04.711628"
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_17_buggy/TarUtilsTest.java",
+    "file_size_bytes": 16660,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 34.43,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3803,
+      "completion_tokens": 4774,
+      "total_tokens": 10191
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 23121,
+      "daily_remaining_tokens": 326879
+    },
+    "updated_at": "2026-09-23T00:15:58.396951"
+  },
+  "Compress_31/org/apache/commons/compress/archivers/tar/TarUtils.java": {
+    "project": "Compress_31",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_31/org/apache/commons/compress/archivers/tar/TarUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_31_buggy/TarUtilsTest.java",
+    "file_size_bytes": 18683,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 36.49,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3749,
+      "completion_tokens": 5419,
+      "total_tokens": 10447
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 31507,
+      "daily_remaining_tokens": 318493
+    },
+    "updated_at": "2026-09-23T00:16:36.391354"
+  },
+  "Compress_27/org/apache/commons/compress/archivers/tar/TarUtils.java": {
+    "project": "Compress_27",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_27/org/apache/commons/compress/archivers/tar/TarUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_27_buggy/TarUtilsTest.java",
+    "file_size_bytes": 15014,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 31.48,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3782,
+      "completion_tokens": 4421,
+      "total_tokens": 9736
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 32045,
+      "daily_remaining_tokens": 317955
+    },
+    "updated_at": "2026-09-23T00:17:09.403965"
+  },
+  "Compress_29/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java": {
+    "project": "Compress_29",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_29/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_29_buggy/TarArchiveInputStreamTest.java",
+    "file_size_bytes": 22574,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 71.54,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3995,
+      "completion_tokens": 6134,
+      "total_tokens": 13248
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 44365,
+      "daily_remaining_tokens": 305635
+    },
+    "updated_at": "2026-09-23T00:19:52.895413"
+  },
+  "Compress_24/org/apache/commons/compress/archivers/tar/TarUtils.java": {
+    "project": "Compress_24",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_24/org/apache/commons/compress/archivers/tar/TarUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_24_buggy/TarUtilsTest.java",
+    "file_size_bytes": 13770,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 38.7,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3812,
+      "completion_tokens": 4148,
+      "total_tokens": 9278
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 39506,
+      "daily_remaining_tokens": 310494
+    },
+    "updated_at": "2026-09-23T00:20:33.106421"
+  },
+  "Compress_32/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java": {
+    "project": "Compress_32",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_32/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_32_buggy/TarArchiveInputStreamTest.java",
+    "file_size_bytes": 29223,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 110.15,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4009,
+      "completion_tokens": 7899,
+      "total_tokens": 17267
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 47779,
+      "daily_remaining_tokens": 302221
+    },
+    "updated_at": "2026-09-23T00:22:24.782342"
+  },
+  "Compress_29/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java": {
+    "project": "Compress_29",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_29/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_29_buggy/TarArchiveOutputStreamTest.java",
+    "file_size_bytes": 24610,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 69.7,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4818,
+      "completion_tokens": 6588,
+      "total_tokens": 12500
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 51082,
+      "daily_remaining_tokens": 298918
+    },
+    "updated_at": "2026-09-23T00:23:36.004291"
+  },
+  "Compress_37/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java": {
+    "project": "Compress_37",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_37/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_37_buggy/TarArchiveInputStreamTest.java",
+    "file_size_bytes": 26729,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 55.11,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4334,
+      "completion_tokens": 7313,
+      "total_tokens": 13398
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 51586,
+      "daily_remaining_tokens": 298414
+    },
+    "updated_at": "2026-09-23T00:26:03.114809"
+  },
+  "Compress_42/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java": {
+    "project": "Compress_42",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_42/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_42_buggy/ZipArchiveEntryTest.java",
+    "file_size_bytes": 25802,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 77.25,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4468,
+      "completion_tokens": 6762,
+      "total_tokens": 13032
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 55452,
+      "daily_remaining_tokens": 294548
+    },
+    "updated_at": "2026-09-23T00:27:21.886545"
+  },
+  "Compress_4/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java": {
+    "project": "Compress_4",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_4/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_4_buggy/ZipArchiveOutputStreamTest.java",
+    "file_size_bytes": 19112,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 44.39,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4957,
+      "completion_tokens": 4654,
+      "total_tokens": 11071
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 61059,
+      "daily_remaining_tokens": 288941
+    },
+    "updated_at": "2026-09-23T00:28:07.818474"
+  },
+  "Compress_30/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java": {
+    "project": "Compress_30",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_30/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_30_buggy/BZip2CompressorInputStreamTest.java",
+    "file_size_bytes": 13571,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 43.23,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8418,
+      "completion_tokens": 3761,
+      "total_tokens": 16306
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 70905,
+      "daily_remaining_tokens": 279095
+    },
+    "updated_at": "2026-09-23T00:28:52.589627"
+  },
+  "Compress_22/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java": {
+    "project": "Compress_22",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_22/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_22_buggy/BZip2CompressorInputStreamTest.java",
+    "file_size_bytes": 8692,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 40.03,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8513,
+      "completion_tokens": 2495,
+      "total_tokens": 14218
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 64053,
+      "daily_remaining_tokens": 285947
+    },
+    "updated_at": "2026-09-23T00:29:34.131401"
+  },
+  "Compress_10/org/apache/commons/compress/archivers/zip/ZipFile.java": {
+    "project": "Compress_10",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_10/org/apache/commons/compress/archivers/zip/ZipFile.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_10_buggy/ZipFileTest.java",
+    "file_size_bytes": 30663,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 91.08,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5641,
+      "completion_tokens": 8649,
+      "total_tokens": 15229
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 68879,
+      "daily_remaining_tokens": 281121
+    },
+    "updated_at": "2026-09-23T00:31:06.737027"
+  },
+  "Compress_38/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java": {
+    "project": "Compress_38",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_38/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_38_buggy/TarArchiveEntryTest.java",
+    "file_size_bytes": 23286,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 50.84,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5718,
+      "completion_tokens": 6559,
+      "total_tokens": 14509
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 74108,
+      "daily_remaining_tokens": 275892
+    },
+    "updated_at": "2026-09-23T00:31:59.090577"
+  },
+  "Compress_25/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": {
+    "project": "Compress_25",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_25/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_25_buggy/ZipArchiveInputStreamTest.java",
+    "file_size_bytes": 23019,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 73.82,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6907,
+      "completion_tokens": 6184,
+      "total_tokens": 20142
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 86920,
+      "daily_remaining_tokens": 263080
+    },
+    "updated_at": "2026-09-23T00:33:14.431227"
+  },
+  "Compress_29/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": {
+    "project": "Compress_29",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_29/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_29_buggy/ZipArchiveInputStreamTest.java",
+    "file_size_bytes": 20691,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 34.11,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6916,
+      "completion_tokens": 5431,
+      "total_tokens": 13178
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 74021,
+      "daily_remaining_tokens": 275979
+    },
+    "updated_at": "2026-09-23T00:33:50.067620"
+  },
+  "Compress_36/org/apache/commons/compress/archivers/sevenz/SevenZFile.java": {
+    "project": "Compress_36",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_36/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_36_buggy/SevenZFileTest.java",
+    "file_size_bytes": 29854,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 101.46,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 9199,
+      "completion_tokens": 8675,
+      "total_tokens": 21121
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 89061,
+      "daily_remaining_tokens": 260939
+    },
+    "updated_at": "2026-09-23T00:35:33.060025"
+  },
+  "Compress_41/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": {
+    "project": "Compress_41",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_41/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_41_buggy/ZipArchiveInputStreamTest.java",
+    "file_size_bytes": 21275,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 55.44,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7186,
+      "completion_tokens": 5973,
+      "total_tokens": 17435
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 89311,
+      "daily_remaining_tokens": 260689
+    },
+    "updated_at": "2026-09-23T00:36:30.019483"
+  },
+  "Compress_43/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java": {
+    "project": "Compress_43",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_43/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_43_buggy/ZipArchiveOutputStreamTest.java",
+    "file_size_bytes": 23500,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 67.36,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10881,
+      "completion_tokens": 5787,
+      "total_tokens": 18244
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 98113,
+      "daily_remaining_tokens": 251887
+    },
+    "updated_at": "2026-09-23T00:37:38.904290"
+  },
+  "Jsoup_84/org/jsoup/helper/W3CDom.java": {
+    "project": "Jsoup_84",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_84/org/jsoup/helper/W3CDom.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_84_buggy/W3CDomTest.java",
+    "file_size_bytes": 11286,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 35.55,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2323,
+      "completion_tokens": 3170,
+      "total_tokens": 7351
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 93165,
+      "daily_remaining_tokens": 256835
+    },
+    "updated_at": "2026-09-23T00:38:16.844773"
+  },
+  "Jsoup_36/org/jsoup/helper/DataUtil.java": {
+    "project": "Jsoup_36",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_36/org/jsoup/helper/DataUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_36_buggy/DataUtilTest.java",
+    "file_size_bytes": 11860,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 39.34,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 2966
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-23T00:38:57.706777"
+  },
+  "Jsoup_34/org/jsoup/parser/CharacterReader.java": {
+    "project": "Jsoup_34",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_34/org/jsoup/parser/CharacterReader.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_34_buggy/CharacterReaderTest.java",
+    "file_size_bytes": 6919,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 22.01,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 1729
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-23T00:39:21.235394"
+  },
+  "Jsoup_58/org/jsoup/parser/Parser.java": {
+    "project": "Jsoup_58",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_58/org/jsoup/parser/Parser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_58_buggy/ParserTest.java",
+    "file_size_bytes": 10746,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 20.92,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2484,
+      "completion_tokens": 2665,
+      "total_tokens": 5938
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 79128,
+      "daily_remaining_tokens": 270872
+    },
+    "updated_at": "2026-09-23T00:39:43.693219"
+  },
+  "Jsoup_14/org/jsoup/parser/Tokeniser.java": {
+    "project": "Jsoup_14",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_14/org/jsoup/parser/Tokeniser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_14_buggy/TokeniserTest.java",
+    "file_size_bytes": 18959,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 36.72,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2458,
+      "completion_tokens": 4544,
+      "total_tokens": 8970
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 100277,
+      "daily_remaining_tokens": 249723
+    },
+    "updated_at": "2026-09-23T00:40:21.938248"
+  },
+  "Jsoup_23/org/jsoup/parser/Tokeniser.java": {
+    "project": "Jsoup_23",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_23/org/jsoup/parser/Tokeniser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_23_buggy/TokeniserTest.java",
+    "file_size_bytes": 17707,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 88.13,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2532,
+      "completion_tokens": 4299,
+      "total_tokens": 14893
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 99928,
+      "daily_remaining_tokens": 250072
+    },
+    "updated_at": "2026-09-23T00:41:51.596755"
+  },
+  "Jsoup_39/org/jsoup/helper/DataUtil.java": {
+    "project": "Jsoup_39",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_39/org/jsoup/helper/DataUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_39_buggy/DataUtilTest.java",
+    "file_size_bytes": 15142,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 30.45,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2546,
+      "completion_tokens": 3856,
+      "total_tokens": 7817
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 104354,
+      "daily_remaining_tokens": 245646
+    },
+    "updated_at": "2026-09-23T00:42:23.584702"
+  },
+  "Jsoup_25/org/jsoup/parser/Tag.java": {
+    "project": "Jsoup_25",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_25/org/jsoup/parser/Tag.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_25_buggy/TagTest.java",
+    "file_size_bytes": 11842,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 30.64,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2932,
+      "completion_tokens": 3068,
+      "total_tokens": 7411
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 85750,
+      "daily_remaining_tokens": 264250
+    },
+    "updated_at": "2026-09-23T00:42:55.767373"
+  },
+  "Jsoup_28/org/jsoup/parser/Tokeniser.java": {
+    "project": "Jsoup_28",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_28/org/jsoup/parser/Tokeniser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_28_buggy/TokeniserTest.java",
+    "file_size_bytes": 1567,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 14.55,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 392
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-23T00:43:11.844537"
+  },
+  "Jsoup_74/org/jsoup/helper/StringUtil.java": {
+    "project": "Jsoup_74",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_74/org/jsoup/helper/StringUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_74_buggy/StringUtilTest.java",
+    "file_size_bytes": 14464,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 51.22,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2881,
+      "completion_tokens": 3686,
+      "total_tokens": 10435
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 102301,
+      "daily_remaining_tokens": 247699
+    },
+    "updated_at": "2026-09-23T00:44:04.582221"
+  },
+  "Jsoup_21/org/jsoup/select/QueryParser.java": {
+    "project": "Jsoup_21",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_21/org/jsoup/select/QueryParser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_21_buggy/QueryParserTest.java",
+    "file_size_bytes": 16650,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 34.22,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3075,
+      "completion_tokens": 4055,
+      "total_tokens": 9651
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 112590,
+      "daily_remaining_tokens": 237410
+    },
+    "updated_at": "2026-09-23T00:44:40.320857"
+  },
+  "Jsoup_50/org/jsoup/helper/DataUtil.java": {
+    "project": "Jsoup_50",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_50/org/jsoup/helper/DataUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_50_buggy/DataUtilTest.java",
+    "file_size_bytes": 12950,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 39.03,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 3237
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-23T00:45:20.865897"
+  },
+  "Jsoup_7/org/jsoup/nodes/Document.java": {
+    "project": "Jsoup_7",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_7/org/jsoup/nodes/Document.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_7_buggy/DocumentTest.java",
+    "file_size_bytes": 16040,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 55.81,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2879,
+      "completion_tokens": 3821,
+      "total_tokens": 8596
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 106905,
+      "daily_remaining_tokens": 243095
+    },
+    "updated_at": "2026-09-23T00:46:18.198678"
+  },
+  "Jsoup_2/org/jsoup/parser/Parser.java": {
+    "project": "Jsoup_2",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_2/org/jsoup/parser/Parser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_2_buggy/ParserTest.java",
+    "file_size_bytes": 14038,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 38.96,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3123,
+      "completion_tokens": 3756,
+      "total_tokens": 9767
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 108200,
+      "daily_remaining_tokens": 241800
+    },
+    "updated_at": "2026-09-23T00:46:58.686691"
+  },
+  "Jsoup_46/org/jsoup/nodes/Entities.java": {
+    "project": "Jsoup_46",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_46/org/jsoup/nodes/Entities.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_46_buggy/EntitiesTest.java",
+    "file_size_bytes": 10573,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 42.19,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2978,
+      "completion_tokens": 2715,
+      "total_tokens": 8307
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 118376,
+      "daily_remaining_tokens": 231624
+    },
+    "updated_at": "2026-09-23T00:47:42.390650"
+  },
+  "Jsoup_47/org/jsoup/nodes/Entities.java": {
+    "project": "Jsoup_47",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_47/org/jsoup/nodes/Entities.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_47_buggy/EntitiesTest.java",
+    "file_size_bytes": 9431,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 28.84,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3004,
+      "completion_tokens": 2379,
+      "total_tokens": 7560
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 91899,
+      "daily_remaining_tokens": 258101
+    },
+    "updated_at": "2026-09-23T00:48:12.757835"
+  },
+  "Jsoup_56/org/jsoup/parser/Token.java": {
+    "project": "Jsoup_56",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_56/org/jsoup/parser/Token.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_56_buggy/TokenTest.java",
+    "file_size_bytes": 17414,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 49.73,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2858,
+      "completion_tokens": 4285,
+      "total_tokens": 9807
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 114816,
+      "daily_remaining_tokens": 235184
+    },
+    "updated_at": "2026-09-23T00:49:04.015401"
+  },
+  "Jsoup_3/org/jsoup/parser/Parser.java": {
+    "project": "Jsoup_3",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_3/org/jsoup/parser/Parser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_3_buggy/ParserTest.java",
+    "file_size_bytes": 20608,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 59.21,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3238,
+      "completion_tokens": 5021,
+      "total_tokens": 9768
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 115080,
+      "daily_remaining_tokens": 234920
+    },
+    "updated_at": "2026-09-23T00:50:04.750743"
+  },
+  "Jsoup_63/org/jsoup/parser/Tokeniser.java": {
+    "project": "Jsoup_63",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_63/org/jsoup/parser/Tokeniser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_63_buggy/TokeniserTest.java",
+    "file_size_bytes": 20517,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 38.58,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3134,
+      "completion_tokens": 5001,
+      "total_tokens": 10211
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 125973,
+      "daily_remaining_tokens": 224027
+    },
+    "updated_at": "2026-09-23T00:50:44.871042"
+  },
+  "Jsoup_57/org/jsoup/nodes/Attributes.java": {
+    "project": "Jsoup_57",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_57/org/jsoup/nodes/Attributes.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_57_buggy/AttributesTest.java",
+    "file_size_bytes": 20345,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 41.99,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3094,
+      "completion_tokens": 5087,
+      "total_tokens": 10440
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 100162,
+      "daily_remaining_tokens": 249838
+    },
+    "updated_at": "2026-09-23T00:51:28.391501"
+  },
+  "Jsoup_87/org/jsoup/parser/Tag.java": {
+    "project": "Jsoup_87",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_87/org/jsoup/parser/Tag.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_87_buggy/TagTest.java",
+    "file_size_bytes": 13263,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 58.33,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3583,
+      "completion_tokens": 3329,
+      "total_tokens": 12241
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 124393,
+      "daily_remaining_tokens": 225607
+    },
+    "updated_at": "2026-09-23T00:52:28.252071"
+  },
+  "Jsoup_59/org/jsoup/parser/Token.java": {
+    "project": "Jsoup_59",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_59/org/jsoup/parser/Token.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_59_buggy/TokenTest.java",
+    "file_size_bytes": 13524,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 25.14,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2932,
+      "completion_tokens": 3481,
+      "total_tokens": 7669
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 121240,
+      "daily_remaining_tokens": 228760
+    },
+    "updated_at": "2026-09-23T00:52:54.921073"
+  },
+  "Jsoup_58/org/jsoup/Jsoup.java": {
+    "project": "Jsoup_58",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_58/org/jsoup/Jsoup.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_58_buggy/JsoupTest.java",
+    "file_size_bytes": 12223,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 48.81,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3248,
+      "completion_tokens": 3109,
+      "total_tokens": 9821
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 133718,
+      "daily_remaining_tokens": 216282
+    },
+    "updated_at": "2026-09-23T00:53:45.243509"
+  },
+  "Jsoup_52/org/jsoup/helper/DataUtil.java": {
+    "project": "Jsoup_52",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_52/org/jsoup/helper/DataUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_52_buggy/DataUtilTest.java",
+    "file_size_bytes": 21220,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 62.67,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3402,
+      "completion_tokens": 5664,
+      "total_tokens": 10055
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 107958,
+      "daily_remaining_tokens": 242042
+    },
+    "updated_at": "2026-09-23T00:54:49.434965"
+  },
+  "Jsoup_51/org/jsoup/parser/CharacterReader.java": {
+    "project": "Jsoup_51",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_51/org/jsoup/parser/CharacterReader.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_51_buggy/CharacterReaderTest.java",
+    "file_size_bytes": 21141,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 47.27,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3513,
+      "completion_tokens": 5161,
+      "total_tokens": 10987
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 130051,
+      "daily_remaining_tokens": 219949
+    },
+    "updated_at": "2026-09-23T00:55:38.262995"
+  },
+  "Jsoup_92/org/jsoup/parser/Token.java": {
+    "project": "Jsoup_92",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_92/org/jsoup/parser/Token.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_92_buggy/TokenTest.java",
+    "file_size_bytes": 19363,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 53.54,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3064,
+      "completion_tokens": 4944,
+      "total_tokens": 11158
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 131142,
+      "daily_remaining_tokens": 218858
+    },
+    "updated_at": "2026-09-23T00:56:33.327725"
+  },
+  "Jsoup_5/org/jsoup/parser/Parser.java": {
+    "project": "Jsoup_5",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_5/org/jsoup/parser/Parser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_5_buggy/ParserTest.java",
+    "file_size_bytes": 17235,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 37.23,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3421,
+      "completion_tokens": 4263,
+      "total_tokens": 9017
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 139271,
+      "daily_remaining_tokens": 210729
+    },
+    "updated_at": "2026-09-23T00:57:12.081808"
+  },
+  "Jsoup_78/org/jsoup/helper/DataUtil.java": {
+    "project": "Jsoup_78",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_78/org/jsoup/helper/DataUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_78_buggy/DataUtilTest.java",
+    "file_size_bytes": 17020,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 51.58,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3519,
+      "completion_tokens": 4467,
+      "total_tokens": 9289
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 116258,
+      "daily_remaining_tokens": 233742
+    },
+    "updated_at": "2026-09-23T00:58:05.205559"
+  },
+  "Jsoup_82/org/jsoup/helper/DataUtil.java": {
+    "project": "Jsoup_82",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_82/org/jsoup/helper/DataUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_82_buggy/DataUtilTest.java",
+    "file_size_bytes": 17015,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 34.48,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3542,
+      "completion_tokens": 4389,
+      "total_tokens": 9852
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 137590,
+      "daily_remaining_tokens": 212410
+    },
+    "updated_at": "2026-09-23T00:58:41.246210"
+  },
+  "Jsoup_53/org/jsoup/parser/TokenQueue.java": {
+    "project": "Jsoup_53",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_53/org/jsoup/parser/TokenQueue.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_53_buggy/TokenQueueTest.java",
+    "file_size_bytes": 18817,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 33.16,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3642,
+      "completion_tokens": 4611,
+      "total_tokens": 9840
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 137832,
+      "daily_remaining_tokens": 212168
+    },
+    "updated_at": "2026-09-23T00:59:15.961716"
+  },
+  "Jsoup_81/org/jsoup/helper/DataUtil.java": {
+    "project": "Jsoup_81",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_81/org/jsoup/helper/DataUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_81_buggy/DataUtilTest.java",
+    "file_size_bytes": 19170,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 58.09,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3605,
+      "completion_tokens": 4923,
+      "total_tokens": 9751
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 147689,
+      "daily_remaining_tokens": 202311
+    },
+    "updated_at": "2026-09-23T01:00:15.622950"
+  },
+  "Jsoup_29/org/jsoup/nodes/Document.java": {
+    "project": "Jsoup_29",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_29/org/jsoup/nodes/Document.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_29_buggy/DocumentTest.java",
+    "file_size_bytes": 15597,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 31.59,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3473,
+      "completion_tokens": 3816,
+      "total_tokens": 8601
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 123556,
+      "daily_remaining_tokens": 226444
+    },
+    "updated_at": "2026-09-23T01:00:48.752982"
+  },
+  "Jsoup_60/org/jsoup/parser/TokenQueue.java": {
+    "project": "Jsoup_60",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_60/org/jsoup/parser/TokenQueue.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_60_buggy/TokenQueueTest.java",
+    "file_size_bytes": 19114,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 29.58,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3709,
+      "completion_tokens": 4705,
+      "total_tokens": 9202
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 144871,
+      "daily_remaining_tokens": 205129
+    },
+    "updated_at": "2026-09-23T01:01:19.861367"
+  },
+  "Jsoup_8/org/jsoup/nodes/Node.java": {
+    "project": "Jsoup_8",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_8/org/jsoup/nodes/Node.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_8_buggy/NodeTest.java",
+    "file_size_bytes": 20372,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 79.72,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3966,
+      "completion_tokens": 5313,
+      "total_tokens": 13650
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 149895,
+      "daily_remaining_tokens": 200105
+    },
+    "updated_at": "2026-09-23T01:02:41.112245"
+  },
+  "Jsoup_3/org/jsoup/parser/Tag.java": {
+    "project": "Jsoup_3",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_3/org/jsoup/parser/Tag.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_3_buggy/TagTest.java",
+    "file_size_bytes": 13482,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 40.65,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3915,
+      "completion_tokens": 3565,
+      "total_tokens": 11755
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 158221,
+      "daily_remaining_tokens": 191779
+    },
+    "updated_at": "2026-09-23T01:03:23.296189"
+  },
+  "Jsoup_60/org/jsoup/select/QueryParser.java": {
+    "project": "Jsoup_60",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_60/org/jsoup/select/QueryParser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_60_buggy/QueryParserTest.java",
+    "file_size_bytes": 18315,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 44.87,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4392,
+      "completion_tokens": 4519,
+      "total_tokens": 12572
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 134816,
+      "daily_remaining_tokens": 215184
+    },
+    "updated_at": "2026-09-23T01:04:09.711746"
+  },
+  "Jsoup_75/org/jsoup/nodes/Attributes.java": {
+    "project": "Jsoup_75",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_75/org/jsoup/nodes/Attributes.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_75_buggy/AttributesTest.java",
+    "file_size_bytes": 22199,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 46.06,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4019,
+      "completion_tokens": 5484,
+      "total_tokens": 11005
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 155088,
+      "daily_remaining_tokens": 194912
+    },
+    "updated_at": "2026-09-23T01:04:57.313563"
+  },
+  "Jsoup_71/org/jsoup/select/QueryParser.java": {
+    "project": "Jsoup_71",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_71/org/jsoup/select/QueryParser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_71_buggy/QueryParserTest.java",
+    "file_size_bytes": 16114,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 33.72,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4427,
+      "completion_tokens": 4028,
+      "total_tokens": 9580
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 155104,
+      "daily_remaining_tokens": 194896
+    },
+    "updated_at": "2026-09-23T01:05:32.554676"
+  },
+  "Jsoup_72/org/jsoup/parser/CharacterReader.java": {
+    "project": "Jsoup_72",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_72/org/jsoup/parser/CharacterReader.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_72_buggy/CharacterReaderTest.java",
+    "file_size_bytes": 22452,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 63.25,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4335,
+      "completion_tokens": 5505,
+      "total_tokens": 12100
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 166046,
+      "daily_remaining_tokens": 183954
+    },
+    "updated_at": "2026-09-23T01:06:37.359061"
+  },
+  "Jsoup_92/org/jsoup/nodes/Attributes.java": {
+    "project": "Jsoup_92",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_92/org/jsoup/nodes/Attributes.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_92_buggy/AttributesTest.java",
+    "file_size_bytes": 20299,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 72.11,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4104,
+      "completion_tokens": 5076,
+      "total_tokens": 12977
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 144132,
+      "daily_remaining_tokens": 205868
+    },
+    "updated_at": "2026-09-23T01:07:50.994388"
+  },
+  "Jsoup_83/org/jsoup/parser/CharacterReader.java": {
+    "project": "Jsoup_83",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_83/org/jsoup/parser/CharacterReader.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_83_buggy/CharacterReaderTest.java",
+    "file_size_bytes": 18180,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 41.16,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4422,
+      "completion_tokens": 4373,
+      "total_tokens": 10759
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 164345,
+      "daily_remaining_tokens": 185655
+    },
+    "updated_at": "2026-09-23T01:08:33.708949"
+  },
+  "Jsoup_10/org/jsoup/nodes/Node.java": {
+    "project": "Jsoup_10",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_10/org/jsoup/nodes/Node.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_10_buggy/NodeTest.java",
+    "file_size_bytes": 28479,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 81.71,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4348,
+      "completion_tokens": 7065,
+      "total_tokens": 17022
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 171001,
+      "daily_remaining_tokens": 178999
+    },
+    "updated_at": "2026-09-23T01:09:56.993465"
+  },
+  "Jsoup_91/org/jsoup/parser/CharacterReader.java": {
+    "project": "Jsoup_91",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_91/org/jsoup/parser/CharacterReader.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_91_buggy/CharacterReaderTest.java",
+    "file_size_bytes": 21198,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 42.21,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4642,
+      "completion_tokens": 5071,
+      "total_tokens": 11333
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 175119,
+      "daily_remaining_tokens": 174881
+    },
+    "updated_at": "2026-09-23T01:10:40.744050"
+  },
+  "Jsoup_19/org/jsoup/safety/Whitelist.java": {
+    "project": "Jsoup_19",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_19/org/jsoup/safety/Whitelist.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_19_buggy/WhitelistTest.java",
+    "file_size_bytes": 14718,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 53.61,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4773,
+      "completion_tokens": 3762,
+      "total_tokens": 12726
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 153061,
+      "daily_remaining_tokens": 196939
+    },
+    "updated_at": "2026-09-23T01:11:35.900762"
+  },
+  "Jsoup_22/org/jsoup/select/Elements.java": {
+    "project": "Jsoup_22",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_22/org/jsoup/select/Elements.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_22_buggy/ElementsTest.java",
+    "file_size_bytes": 3035,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 10.9,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 758
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-23T01:11:48.318893"
+  },
+  "Jsoup_13/org/jsoup/nodes/Node.java": {
+    "project": "Jsoup_13",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_13/org/jsoup/nodes/Node.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_13_buggy/NodeTest.java",
+    "file_size_bytes": 30527,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 83.97,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5245,
+      "completion_tokens": 7753,
+      "total_tokens": 14251
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 179643,
+      "daily_remaining_tokens": 170357
+    },
+    "updated_at": "2026-09-23T01:13:13.805673"
+  },
+  "Jsoup_11/org/jsoup/select/Selector.java": {
+    "project": "Jsoup_11",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_11/org/jsoup/select/Selector.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_11_buggy/SelectorTest.java",
+    "file_size_bytes": 16977,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 30.64,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5110,
+      "completion_tokens": 4445,
+      "total_tokens": 10807
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 184306,
+      "daily_remaining_tokens": 165694
+    },
+    "updated_at": "2026-09-23T01:13:45.973793"
+  },
+  "Jsoup_12/org/jsoup/select/Selector.java": {
+    "project": "Jsoup_12",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_12/org/jsoup/select/Selector.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_12_buggy/SelectorTest.java",
+    "file_size_bytes": 20649,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 38.48,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5333,
+      "completion_tokens": 5448,
+      "total_tokens": 12465
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 161335,
+      "daily_remaining_tokens": 188665
+    },
+    "updated_at": "2026-09-23T01:14:25.973647"
+  },
+  "Jsoup_71/org/jsoup/select/Evaluator.java": {
+    "project": "Jsoup_71",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_71/org/jsoup/select/Evaluator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_71_buggy/EvaluatorTest.java",
+    "file_size_bytes": 34057,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 59.64,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5545,
+      "completion_tokens": 8958,
+      "total_tokens": 17062
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 179443,
+      "daily_remaining_tokens": 170557
+    },
+    "updated_at": "2026-09-23T01:15:27.125814"
+  },
+  "Jsoup_22/org/jsoup/nodes/Node.java": {
+    "project": "Jsoup_22",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_22/org/jsoup/nodes/Node.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_22_buggy/NodeTest.java",
+    "file_size_bytes": 28783,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 62.3,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5729,
+      "completion_tokens": 7386,
+      "total_tokens": 15248
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 193638,
+      "daily_remaining_tokens": 156362
+    },
+    "updated_at": "2026-09-23T01:16:30.946429"
+  },
+  "Jsoup_49/org/jsoup/nodes/Node.java": {
+    "project": "Jsoup_49",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_49/org/jsoup/nodes/Node.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_49_buggy/NodeTest.java",
+    "file_size_bytes": 5954,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 24.88,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 1488
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-23T01:16:57.346546"
+  },
+  "Jsoup_33/org/jsoup/parser/HtmlTreeBuilder.java": {
+    "project": "Jsoup_33",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_33/org/jsoup/parser/HtmlTreeBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_33_buggy/HtmlTreeBuilderTest.java",
+    "file_size_bytes": 25965,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 41.71,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5944,
+      "completion_tokens": 6565,
+      "total_tokens": 13770
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 173421,
+      "daily_remaining_tokens": 176579
+    },
+    "updated_at": "2026-09-23T01:17:40.573827"
+  },
+  "Jsoup_45/org/jsoup/parser/HtmlTreeBuilder.java": {
+    "project": "Jsoup_45",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_45/org/jsoup/parser/HtmlTreeBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_45_buggy/HtmlTreeBuilderTest.java",
+    "file_size_bytes": 25465,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 48.91,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6088,
+      "completion_tokens": 6517,
+      "total_tokens": 13958
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 190842,
+      "daily_remaining_tokens": 159158
+    },
+    "updated_at": "2026-09-23T01:18:31.012540"
+  },
+  "Jsoup_65/org/jsoup/parser/HtmlTreeBuilder.java": {
+    "project": "Jsoup_65",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_65/org/jsoup/parser/HtmlTreeBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_65_buggy/HtmlTreeBuilderTest.java",
+    "file_size_bytes": 17946,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 45.3,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 4488
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-23T01:19:17.840346"
+  },
+  "Jsoup_63/org/jsoup/parser/HtmlTreeBuilder.java": {
+    "project": "Jsoup_63",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_63/org/jsoup/parser/HtmlTreeBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_63_buggy/HtmlTreeBuilderTest.java",
+    "file_size_bytes": 30025,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 67.65,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6256,
+      "completion_tokens": 7633,
+      "total_tokens": 18210
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 190370,
+      "daily_remaining_tokens": 159630
+    },
+    "updated_at": "2026-09-23T01:21:57.382204"
+  },
+  "Jsoup_67/org/jsoup/parser/HtmlTreeBuilder.java": {
+    "project": "Jsoup_67",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_67/org/jsoup/parser/HtmlTreeBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_67_buggy/HtmlTreeBuilderTest.java",
+    "file_size_bytes": 613,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 16.03,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 153
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-23T01:22:14.930715"
+  },
+  "Jsoup_87/org/jsoup/parser/HtmlTreeBuilder.java": {
+    "project": "Jsoup_87",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_87/org/jsoup/parser/HtmlTreeBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_87_buggy/HtmlTreeBuilderTest.java",
+    "file_size_bytes": 23773,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 41.94,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6270,
+      "completion_tokens": 6122,
+      "total_tokens": 13550
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 205055,
+      "daily_remaining_tokens": 144945
+    },
+    "updated_at": "2026-09-23T01:22:58.387521"
+  },
+  "Jsoup_92/org/jsoup/parser/HtmlTreeBuilder.java": {
+    "project": "Jsoup_92",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_92/org/jsoup/parser/HtmlTreeBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_92_buggy/HtmlTreeBuilderTest.java",
+    "file_size_bytes": 31122,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 99.99,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6267,
+      "completion_tokens": 7876,
+      "total_tokens": 18630
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 201684,
+      "daily_remaining_tokens": 148316
+    },
+    "updated_at": "2026-09-23T01:24:39.897597"
+  },
+  "Jsoup_68/org/jsoup/parser/HtmlTreeBuilder.java": {
+    "project": "Jsoup_68",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_68/org/jsoup/parser/HtmlTreeBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_68_buggy/HtmlTreeBuilderTest.java",
+    "file_size_bytes": 32856,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 52.44,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6293,
+      "completion_tokens": 8003,
+      "total_tokens": 15601
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 201650,
+      "daily_remaining_tokens": 148350
+    },
+    "updated_at": "2026-09-23T01:25:33.859920"
+  },
+  "Jsoup_3/org/jsoup/nodes/Element.java": {
+    "project": "Jsoup_3",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_3/org/jsoup/nodes/Element.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_3_buggy/ElementTest.java",
+    "file_size_bytes": 27482,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 54.49,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4052,
+      "completion_tokens": 6869,
+      "total_tokens": 13357
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 202846,
+      "daily_remaining_tokens": 147154
+    },
+    "updated_at": "2026-09-23T01:26:29.874321"
+  },
+  "Jsoup_48/org/jsoup/helper/HttpConnection.java": {
+    "project": "Jsoup_48",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_48/org/jsoup/helper/HttpConnection.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_48_buggy/HttpConnectionTest.java",
+    "file_size_bytes": 20174,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 69.25,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7723,
+      "completion_tokens": 5087,
+      "total_tokens": 16217
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 220114,
+      "daily_remaining_tokens": 129886
+    },
+    "updated_at": "2026-09-23T01:27:40.644439"
+  },
+  "Jsoup_22/org/jsoup/nodes/Element.java": {
+    "project": "Jsoup_22",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_22/org/jsoup/nodes/Element.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_22_buggy/ElementTest.java",
+    "file_size_bytes": 25744,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 47.01,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 6436
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-23T01:28:29.170485"
+  },
+  "Jsoup_32/org/jsoup/nodes/Element.java": {
+    "project": "Jsoup_32",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_32/org/jsoup/nodes/Element.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_32_buggy/ElementTest.java",
+    "file_size_bytes": 24391,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 45.38,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5225,
+      "completion_tokens": 6159,
+      "total_tokens": 12484
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 212829,
+      "daily_remaining_tokens": 137171
+    },
+    "updated_at": "2026-09-23T01:29:16.071431"
+  },
+  "Jsoup_37/org/jsoup/nodes/Element.java": {
+    "project": "Jsoup_37",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_37/org/jsoup/nodes/Element.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_37_buggy/ElementTest.java",
+    "file_size_bytes": 34966,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 97.94,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5289,
+      "completion_tokens": 8970,
+      "total_tokens": 15770
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 216180,
+      "daily_remaining_tokens": 133820
+    },
+    "updated_at": "2026-09-23T01:30:55.528405"
+  },
+  "Jsoup_41/org/jsoup/nodes/Element.java": {
+    "project": "Jsoup_41",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_41/org/jsoup/nodes/Element.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_41_buggy/ElementTest.java",
+    "file_size_bytes": 22537,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 46.57,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 5634
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-23T01:31:43.630787"
+  },
+  "Jsoup_43/org/jsoup/nodes/Element.java": {
+    "project": "Jsoup_43",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_43/org/jsoup/nodes/Element.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_43_buggy/ElementTest.java",
+    "file_size_bytes": 26924,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 47.21,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 6731
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-23T01:32:32.374329"
+  },
+  "Jsoup_90/org/jsoup/helper/HttpConnection.java": {
+    "project": "Jsoup_90",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_90/org/jsoup/helper/HttpConnection.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_90_buggy/HttpConnectionTest.java",
+    "file_size_bytes": 27015,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 42.22,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 9831,
+      "completion_tokens": 6513,
+      "total_tokens": 17539
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 229268,
+      "daily_remaining_tokens": 120732
+    },
+    "updated_at": "2026-09-23T01:33:16.110229"
   }
 }
