@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-22T15:03:23Z",
+  "round": 1,
+  "project": "Closure",
+  "bug_id": 89,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 44,
+  "coverage": 22.41,
+  "line_cov": 26.72,
+  "branch_cov": 18.49,
+  "total_goals": 1335,
+  "covered_goals": 344,
+  "lines": 75,
+  "covered_lines": 199,
+  "total_branches": 620,
+  "covered_branches": 130,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "com.google.javascript.jscomp.CollapseProperties",
+      "generation_result": "PASS",
+      "generation_seconds": 76,
+      "tests": 3,
+      "coverage": 5.34,
+      "line_cov": 6.80,
+      "branch_cov": 3.88,
+      "total_goals": 541,
+      "covered_goals": 30,
+      "lines": 23,
+      "covered_lines": 21,
+      "total_branches": 226,
+      "covered_branches": 8,
+      "total_methods": 24,
+      "covered_methods": 4,
+      "branchless_methods": 6,
+      "covered_branchless_methods": 1
+    },
+    {
+      "target_class": "com.google.javascript.jscomp.GlobalNamespace",
+      "generation_result": "PASS",
+      "generation_seconds": 114,
+      "tests": 41,
+      "coverage": 39.47,
+      "line_cov": 46.63,
+      "branch_cov": 33.09,
+      "total_goals": 794,
+      "covered_goals": 314,
+      "lines": 52,
+      "covered_lines": 178,
+      "total_branches": 394,
+      "covered_branches": 122,
+      "total_methods": 48,
+      "covered_methods": 38,
+      "branchless_methods": 14,
+      "covered_branchless_methods": 13
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}

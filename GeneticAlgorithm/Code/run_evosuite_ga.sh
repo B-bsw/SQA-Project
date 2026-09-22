@@ -186,15 +186,19 @@ while IFS= read -r target_class; do
   # instrumenting some legacy projects. Put the subject on both the JVM
   # classpath and projectCP so referenced classes (for example Chart's Range)
   # remain visible during bytecode frame computation.
-  java ${EVOSUITE_JAVA_OPTS:--Xmx2g} -cp "$evosuite_jar:$project_classpath" org.evosuite.EvoSuite \
-    -mem "$client_memory_mb" -class "$target_class" \
-    -projectCP "$project_classpath" -seed "$seed" \
-    -criterion LINE:BRANCH -generateSuite -Dalgorithm=STANDARD_GA \
-    -Dlocal_search_rate=0 -Dclient_on_thread=true \
-    -Dstopping_condition=MaxTime -Dsearch_budget="$budget" \
-    -Dshow_progress=false \
-    -Doutput_variables=TARGET_CLASS,criterion,Coverage,Total_Goals,Covered_Goals,LineCoverage,Lines,Covered_Lines,BranchCoverage,Total_Branches,Covered_Branches,Total_Methods,Covered_Methods,Branchless_Methods,Covered_Branchless_Methods \
-    -Dtest_dir="$generated" -Dreport_dir="$statistics_dir" >"$generation_log" 2>&1
+  # Some EvoSuite mocks create working-directory placeholders such as
+  # .tmp_file_needed_by_mock_of_FileHandler. Run EvoSuite inside temp_root so
+  # those artifacts are removed by the cleanup trap instead of leaking here.
+  (cd "$temp_root" && \
+    java ${EVOSUITE_JAVA_OPTS:--Xmx2g} -cp "$evosuite_jar:$project_classpath" org.evosuite.EvoSuite \
+      -mem "$client_memory_mb" -class "$target_class" \
+      -projectCP "$project_classpath" -seed "$seed" \
+      -criterion LINE:BRANCH -generateSuite -Dalgorithm=STANDARD_GA \
+      -Dlocal_search_rate=0 -Dclient_on_thread=true \
+      -Dstopping_condition=MaxTime -Dsearch_budget="$budget" \
+      -Dshow_progress=false \
+      -Doutput_variables=TARGET_CLASS,criterion,Coverage,Total_Goals,Covered_Goals,LineCoverage,Lines,Covered_Lines,BranchCoverage,Total_Branches,Covered_Branches,Total_Methods,Covered_Methods,Branchless_Methods,Covered_Branchless_Methods \
+      -Dtest_dir="$generated" -Dreport_dir="$statistics_dir") >"$generation_log" 2>&1
   generation_rc=$?
   set -e
   seconds=$(( $(date +%s) - started ))

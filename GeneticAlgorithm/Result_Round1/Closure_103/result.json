@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-22T15:11:29Z",
+  "round": 1,
+  "project": "Closure",
+  "bug_id": 103,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 23,
+  "coverage": 29.88,
+  "line_cov": 30.62,
+  "branch_cov": 29.15,
+  "total_goals": 1432,
+  "covered_goals": 436,
+  "lines": 102,
+  "covered_lines": 229,
+  "total_branches": 648,
+  "covered_branches": 192,
+  "buggy_result": "FAIL",
+  "buggy_fails": 2,
+  "fixed_result": "FAIL",
+  "fixed_fails": 2,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "com.google.javascript.jscomp.ControlFlowAnalysis",
+      "generation_result": "PASS",
+      "generation_seconds": 91,
+      "tests": 15,
+      "coverage": 35.80,
+      "line_cov": 30.32,
+      "branch_cov": 41.28,
+      "total_goals": 766,
+      "covered_goals": 272,
+      "lines": 42,
+      "covered_lines": 114,
+      "total_branches": 370,
+      "covered_branches": 154,
+      "total_methods": 44,
+      "covered_methods": 21,
+      "branchless_methods": 20,
+      "covered_branchless_methods": 7
+    },
+    {
+      "target_class": "com.google.javascript.jscomp.DisambiguateProperties",
+      "generation_result": "PASS",
+      "generation_seconds": 85,
+      "tests": 8,
+      "coverage": 23.96,
+      "line_cov": 30.91,
+      "branch_cov": 17.01,
+      "total_goals": 666,
+      "covered_goals": 164,
+      "lines": 60,
+      "covered_lines": 115,
+      "total_branches": 278,
+      "covered_branches": 38,
+      "total_methods": 56,
+      "covered_methods": 32,
+      "branchless_methods": 16,
+      "covered_branchless_methods": 12
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "FAIL",
+      "failures": 2
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 2
+    }
+  ]
+}
