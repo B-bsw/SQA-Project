@@ -2827,11 +2827,11 @@
   },
   "Closure_83": {
     "status": "FAILED",
-    "error": "Randoop ออกจากระบบด้วยรหัส 254\nNo argument is allowed: hi!\n --charset VAL                          : Input and output charset for all files\n                                          . By default, we accept UTF-8 as input\n                                           and output US_ASCII\n --closure_entry_point VAL              : Entry points to the program. Must be g",
+    "error": "Randoop ออกจากระบบด้วยรหัส 254\nstderr (ท้าย 20 บรรทัด):\n\tat com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:257)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:55)\n\tat randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:64)\n\tat randoop.util.ReflectionExecutor.executeReflectionCodeUnThreaded(ReflectionExecutor.java:205)\n\tat randoop.util.ReflectionExecutor.executeReflectionCode(ReflectionExecutor.java:136)\n\tat randoop.operation.MethodCall.execute(MethodCall.java:186)\n\tat randoop.operation.TypedOperation.execute(TypedOperation.java:406)\n\tat randoop.sequence.Statement.execute(Statement.java:164)\n\tat randoop.sequence.ExecutableSequence.executeStatement(ExecutableSequence.java:419)\n\tat randoop.sequence.ExecutableSequence.execute(ExecutableSequence.java:311)\n\tat randoop.sequence.ExecutableSequence.execute(ExecutableSequence.java:240)\n\tat randoop.generation.ForwardGenerator.step(ForwardGenerator.java:236)\n\tat randoop.generation.AbstractGenerator.createAndClassifySequences(AbstractGenerator.java:299)\n\tat randoop.main.GenTests.handle(GenTests.java:570)\n\tat randoop.main.Main.nonStaticMain(Main.java:69)\n\tat randoop.main.Main.main(Main.java:31)\nstdout (ท้าย 9 บรรทัด):\nRandoop for Java version 4.3.4.\n\nWill try to generate tests for 1 classes.\nPUBLIC MEMBERS=10\nExplorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;\n    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;\n    sideEffectFreeMethods: 1115, runtimePrimitivesSeen: 38)\n\nProgress update: steps=1, test inputs generated=0, failing inputs=0      (2026-09-22T16:54:21.854Z     36.4M used)",
     "classes": [
       "com.google.javascript.jscomp.CommandLineRunner"
     ],
-    "timestamp": "2026-09-21T13:51:48.386576"
+    "timestamp": "2026-09-22T09:55:13.731649"
   },
   "Closure_84": {
     "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_84_buggy",
@@ -3085,12 +3085,18 @@
     "timestamp": "2026-09-21T14:11:26.643054"
   },
   "Closure_101": {
-    "status": "FAILED",
-    "error": "Randoop ออกจากระบบด้วยรหัส 254\nNo argument is allowed: \n --charset VAL                          : Input charset for all files.\n --compilation_level [WHITESPACE_ONLY   : Specifies the compilation level to\n | SIMPLE_OPTIMIZATIONS | ADVANCED_OPTI : use. Options: WHITESPACE_ONLY,\n MIZATIONS]                             : SIMPLE_OPTIMIZATIONS, ADVANCED_OPTIMIZ",
-    "classes": [
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_101_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Closure_101",
+    "classes_tested": [
       "com.google.javascript.jscomp.CommandLineRunner"
     ],
-    "timestamp": "2026-09-21T14:11:39.192894"
+    "generated_tests": [
+      "com/google/javascript/jscomp/RegressionTest.java",
+      "com/google/javascript/jscomp/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:52:06.928683"
   },
   "Closure_102": {
     "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_102_buggy",
@@ -3176,11 +3182,11 @@
   },
   "Closure_107": {
     "status": "FAILED",
-    "error": "Randoop ออกจากระบบด้วยรหัส 254\njava.lang.NullPointerException\n\tat com.google.common.base.Preconditions.checkNotNull(Preconditions.java:192)\n\tat com.google.javascript.jscomp.CommandLineRunner.getDefaultExterns(CommandLineRunner.java:952)\n\tat com.google.javascript.jscomp.CommandLineRunner.createExterns(CommandLineRunner.java:879)\n\tat com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:736)",
+    "error": "Randoop ออกจากระบบด้วยรหัส 254\nstderr (ท้าย 20 บรรทัด):\n\tat com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:372)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:55)\n\tat randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:64)\n\tat randoop.util.ReflectionExecutor.executeReflectionCodeUnThreaded(ReflectionExecutor.java:205)\n\tat randoop.util.ReflectionExecutor.executeReflectionCode(ReflectionExecutor.java:136)\n\tat randoop.operation.MethodCall.execute(MethodCall.java:186)\n\tat randoop.operation.TypedOperation.execute(TypedOperation.java:406)\n\tat randoop.sequence.Statement.execute(Statement.java:164)\n\tat randoop.sequence.ExecutableSequence.executeStatement(ExecutableSequence.java:419)\n\tat randoop.sequence.ExecutableSequence.execute(ExecutableSequence.java:311)\n\tat randoop.sequence.ExecutableSequence.execute(ExecutableSequence.java:240)\n\tat randoop.generation.ForwardGenerator.step(ForwardGenerator.java:236)\n\tat randoop.generation.AbstractGenerator.createAndClassifySequences(AbstractGenerator.java:299)\n\tat randoop.main.GenTests.handle(GenTests.java:570)\n\tat randoop.main.Main.nonStaticMain(Main.java:69)\n\tat randoop.main.Main.main(Main.java:31)\nstdout (ท้าย 9 บรรทัด):\nRandoop for Java version 4.3.4.\n\nWill try to generate tests for 1 classes.\nPUBLIC MEMBERS=10\nExplorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;\n    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;\n    sideEffectFreeMethods: 1115, runtimePrimitivesSeen: 38)\n\nProgress update: steps=1, test inputs generated=0, failing inputs=0      (2026-09-22T16:56:13.207Z     37.9M used)",
     "classes": [
       "com.google.javascript.jscomp.CommandLineRunner"
     ],
-    "timestamp": "2026-09-21T14:18:29.024487"
+    "timestamp": "2026-09-22T09:57:12.761519"
   },
   "Closure_108": {
     "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_108_buggy",
@@ -3852,15 +3858,23 @@
     "timestamp": "2026-09-21T15:17:27.232755"
   },
   "Closure_149": {
-    "status": "FAILED",
-    "error": "Randoop ออกจากระบบด้วยรหัส 254\nNo argument is allowed: \n --charset VAL                          : Input and output charset for all\n                                          files. By default, we accept UTF-8 as\n                                          input and output US_ASCII\n --compilation_level [WHITESPACE_ONLY   : Specifies the compilation level to",
-    "classes": [
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_149_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Closure_149",
+    "classes_tested": [
       "com.google.javascript.jscomp.AbstractCommandLineRunner",
+      "com.google.javascript.jscomp.CommandLineRunner",
       "com.google.javascript.jscomp.Compiler",
-      "com.google.javascript.jscomp.CompilerOptions",
-      "com.google.javascript.jscomp.CommandLineRunner"
+      "com.google.javascript.jscomp.CompilerOptions"
     ],
-    "timestamp": "2026-09-21T15:17:45.203025"
+    "generated_tests": [
+      "com/google/javascript/jscomp/ErrorTest.java",
+      "com/google/javascript/jscomp/ErrorTest0.java",
+      "com/google/javascript/jscomp/RegressionTest.java",
+      "com/google/javascript/jscomp/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:01:14.551795"
   },
   "Closure_150": {
     "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_150_buggy",
@@ -3878,11 +3892,11 @@
   },
   "Closure_151": {
     "status": "FAILED",
-    "error": "Randoop ออกจากระบบด้วยรหัส 254\nNo argument is allowed: hi!\n --charset VAL                          : Input and output charset for all\n                                          files. By default, we accept UTF-8 as\n                                          input and output US_ASCII\n --compilation_level [WHITESPACE_ONLY   : Specifies the compilation level to",
+    "error": "Randoop ออกจากระบบด้วยรหัส 254\nstderr (ท้าย 20 บรรทัด):\n\tat com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:249)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:55)\n\tat randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:64)\n\tat randoop.util.ReflectionExecutor.executeReflectionCodeUnThreaded(ReflectionExecutor.java:205)\n\tat randoop.util.ReflectionExecutor.executeReflectionCode(ReflectionExecutor.java:136)\n\tat randoop.operation.MethodCall.execute(MethodCall.java:186)\n\tat randoop.operation.TypedOperation.execute(TypedOperation.java:406)\n\tat randoop.sequence.Statement.execute(Statement.java:164)\n\tat randoop.sequence.ExecutableSequence.executeStatement(ExecutableSequence.java:419)\n\tat randoop.sequence.ExecutableSequence.execute(ExecutableSequence.java:311)\n\tat randoop.sequence.ExecutableSequence.execute(ExecutableSequence.java:240)\n\tat randoop.generation.ForwardGenerator.step(ForwardGenerator.java:236)\n\tat randoop.generation.AbstractGenerator.createAndClassifySequences(AbstractGenerator.java:299)\n\tat randoop.main.GenTests.handle(GenTests.java:570)\n\tat randoop.main.Main.nonStaticMain(Main.java:69)\n\tat randoop.main.Main.main(Main.java:31)\nstdout (ท้าย 9 บรรทัด):\nRandoop for Java version 4.3.4.\n\nWill try to generate tests for 1 classes.\nPUBLIC MEMBERS=10\nExplorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;\n    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;\n    sideEffectFreeMethods: 1115, runtimePrimitivesSeen: 38)\n\nProgress update: steps=1, test inputs generated=0, failing inputs=0      (2026-09-22T16:52:47.768Z     36.7M used)",
     "classes": [
       "com.google.javascript.jscomp.CommandLineRunner"
     ],
-    "timestamp": "2026-09-21T15:19:10.090218"
+    "timestamp": "2026-09-22T09:53:39.026909"
   },
   "Closure_152": {
     "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_152_buggy",
@@ -3993,14 +4007,20 @@
     "timestamp": "2026-09-21T15:26:55.733988"
   },
   "Closure_158": {
-    "status": "FAILED",
-    "error": "Randoop ออกจากระบบด้วยรหัส 254\njava.lang.NullPointerException: in is null\n\tat java.base/java.util.zip.ZipInputStream.<init>(ZipInputStream.java:104)\n\tat java.base/java.util.zip.ZipInputStream.<init>(ZipInputStream.java:83)\n\tat com.google.javascript.jscomp.CommandLineRunner.getDefaultExterns(CommandLineRunner.java:665)\n\tat com.google.javascript.jscomp.CommandLineRunner.createExterns(CommandLineRunner.java:601)",
-    "classes": [
-      "com.google.javascript.jscomp.DiagnosticGroups",
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_158_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Closure_158",
+    "classes_tested": [
       "com.google.javascript.jscomp.AbstractCommandLineRunner",
-      "com.google.javascript.jscomp.CommandLineRunner"
+      "com.google.javascript.jscomp.CommandLineRunner",
+      "com.google.javascript.jscomp.DiagnosticGroups"
     ],
-    "timestamp": "2026-09-21T15:27:14.013920"
+    "generated_tests": [
+      "com/google/javascript/jscomp/RegressionTest.java",
+      "com/google/javascript/jscomp/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:59:16.964700"
   },
   "Closure_159": {
     "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Closure_159_buggy",
@@ -4706,5 +4726,1331 @@
       "org.mockito.internal.MockitoCore"
     ],
     "timestamp": "2026-09-22T08:58:03.382358"
+  },
+  "Time_15": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_15_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_15",
+    "classes_tested": [
+      "org.joda.time.field.FieldUtils"
+    ],
+    "generated_tests": [
+      "org/joda/time/field/RegressionTest.java",
+      "org/joda/time/field/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:07:14.210268"
+  },
+  "Time_10": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_10_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_10",
+    "classes_tested": [
+      "org.joda.time.base.BaseSingleFieldPeriod"
+    ],
+    "generated_tests": [
+      "org/joda/time/base/RegressionTest.java",
+      "org/joda/time/base/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:08:45.731835"
+  },
+  "Time_14": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_14_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_14",
+    "classes_tested": [
+      "org.joda.time.chrono.BasicMonthOfYearDateTimeField"
+    ],
+    "generated_tests": [
+      "org/joda/time/chrono/RegressionTest.java",
+      "org/joda/time/chrono/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:10:16.596337"
+  },
+  "Time_24": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_24_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_24",
+    "classes_tested": [
+      "org.joda.time.format.DateTimeParserBucket"
+    ],
+    "generated_tests": [
+      "org/joda/time/format/RegressionTest.java",
+      "org/joda/time/format/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:11:48.217109"
+  },
+  "Time_22": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_22_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_22",
+    "classes_tested": [
+      "org.joda.time.base.BasePeriod"
+    ],
+    "generated_tests": [
+      "org/joda/time/base/RegressionTest.java",
+      "org/joda/time/base/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:13:19.046092"
+  },
+  "Time_11": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_11_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_11",
+    "classes_tested": [
+      "org.joda.time.tz.ZoneInfoCompiler"
+    ],
+    "generated_tests": [
+      "org/joda/time/tz/ErrorTest.java",
+      "org/joda/time/tz/ErrorTest0.java",
+      "org/joda/time/tz/RegressionTest.java",
+      "org/joda/time/tz/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:14:53.387399"
+  },
+  "Time_16": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_16_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_16",
+    "classes_tested": [
+      "org.joda.time.format.DateTimeFormatter"
+    ],
+    "generated_tests": [
+      "org/joda/time/format/RegressionTest.java",
+      "org/joda/time/format/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:16:25.496304"
+  },
+  "Time_7": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_7_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_7",
+    "classes_tested": [
+      "org.joda.time.format.DateTimeFormatter"
+    ],
+    "generated_tests": [
+      "org/joda/time/format/RegressionTest.java",
+      "org/joda/time/format/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:17:58.371350"
+  },
+  "Time_4": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_4_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_4",
+    "classes_tested": [
+      "org.joda.time.Partial"
+    ],
+    "generated_tests": [
+      "org/joda/time/RegressionTest.java",
+      "org/joda/time/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:19:30.624324"
+  },
+  "Time_18": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_18_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_18",
+    "classes_tested": [
+      "org.joda.time.chrono.GJChronology"
+    ],
+    "generated_tests": [
+      "org/joda/time/chrono/RegressionTest.java",
+      "org/joda/time/chrono/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:21:02.981779"
+  },
+  "Time_6": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_6_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_6",
+    "classes_tested": [
+      "org.joda.time.chrono.GJChronology"
+    ],
+    "generated_tests": [
+      "org/joda/time/chrono/RegressionTest.java",
+      "org/joda/time/chrono/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:22:36.714108"
+  },
+  "Time_1": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_1_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_1",
+    "classes_tested": [
+      "org.joda.time.Partial",
+      "org.joda.time.field.UnsupportedDurationField"
+    ],
+    "generated_tests": [
+      "org/joda/time/RegressionTest.java",
+      "org/joda/time/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:24:10.113585"
+  },
+  "Time_2": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_2_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_2",
+    "classes_tested": [
+      "org.joda.time.Partial",
+      "org.joda.time.field.UnsupportedDurationField"
+    ],
+    "generated_tests": [
+      "org/joda/time/RegressionTest.java",
+      "org/joda/time/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:25:44.328170"
+  },
+  "Time_25": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_25_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_25",
+    "classes_tested": [
+      "org.joda.time.DateTimeZone"
+    ],
+    "generated_tests": [
+      "org/joda/time/RegressionTest.java",
+      "org/joda/time/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:27:19.416917"
+  },
+  "Time_23": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_23_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_23",
+    "classes_tested": [
+      "org.joda.time.DateTimeZone"
+    ],
+    "generated_tests": [
+      "org/joda/time/RegressionTest.java",
+      "org/joda/time/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:28:57.446250"
+  },
+  "Time_19": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_19_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_19",
+    "classes_tested": [
+      "org.joda.time.DateTimeZone"
+    ],
+    "generated_tests": [
+      "org/joda/time/RegressionTest.java",
+      "org/joda/time/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:30:35.253843"
+  },
+  "Time_17": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_17_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_17",
+    "classes_tested": [
+      "org.joda.time.DateTimeZone"
+    ],
+    "generated_tests": [
+      "org/joda/time/RegressionTest.java",
+      "org/joda/time/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:32:15.310851"
+  },
+  "Time_9": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_9_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_9",
+    "classes_tested": [
+      "org.joda.time.DateTimeZone"
+    ],
+    "generated_tests": [
+      "org/joda/time/RegressionTest.java",
+      "org/joda/time/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:33:58.423053"
+  },
+  "Time_3": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_3_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_3",
+    "classes_tested": [
+      "org.joda.time.MutableDateTime"
+    ],
+    "generated_tests": [
+      "org/joda/time/RegressionTest.java",
+      "org/joda/time/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:35:37.242803"
+  },
+  "Time_8": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_8_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_8",
+    "classes_tested": [
+      "org.joda.time.DateTimeZone"
+    ],
+    "generated_tests": [
+      "org/joda/time/RegressionTest.java",
+      "org/joda/time/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:37:22.883386"
+  },
+  "Time_27": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_27_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_27",
+    "classes_tested": [
+      "org.joda.time.format.PeriodFormatterBuilder"
+    ],
+    "generated_tests": [
+      "org/joda/time/format/RegressionTest.java",
+      "org/joda/time/format/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:39:03.590055"
+  },
+  "Time_13": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_13_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_13",
+    "classes_tested": [
+      "org.joda.time.format.PeriodFormatterBuilder"
+    ],
+    "generated_tests": [
+      "org/joda/time/format/RegressionTest.java",
+      "org/joda/time/format/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:40:43.702555"
+  },
+  "Time_5": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_5_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_5",
+    "classes_tested": [
+      "org.joda.time.Period"
+    ],
+    "generated_tests": [
+      "org/joda/time/RegressionTest.java",
+      "org/joda/time/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:42:22.123443"
+  },
+  "Time_26": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_26_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_26",
+    "classes_tested": [
+      "org.joda.time.DateTimeZone",
+      "org.joda.time.chrono.ZonedChronology",
+      "org.joda.time.field.LenientDateTimeField"
+    ],
+    "generated_tests": [
+      "org/joda/time/RegressionTest.java",
+      "org/joda/time/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:43:58.730460"
+  },
+  "Time_20": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_20_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_20",
+    "classes_tested": [
+      "org.joda.time.format.DateTimeFormatterBuilder"
+    ],
+    "generated_tests": [
+      "org/joda/time/format/RegressionTest.java",
+      "org/joda/time/format/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:45:40.068001"
+  },
+  "Time_12": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Time_12_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Time_12",
+    "classes_tested": [
+      "org.joda.time.LocalDate",
+      "org.joda.time.LocalDateTime"
+    ],
+    "generated_tests": [
+      "org/joda/time/RegressionTest.java",
+      "org/joda/time/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:47:24.796564"
+  },
+  "Codec_12": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Codec_12_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Codec_12",
+    "classes_tested": [
+      "org.apache.commons.codec.binary.BaseNCodecInputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/codec/binary/RegressionTest.java",
+      "org/apache/commons/codec/binary/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:51:25.471952"
+  },
+  "Codec_10": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Codec_10_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Codec_10",
+    "classes_tested": [
+      "org.apache.commons.codec.language.Caverphone"
+    ],
+    "generated_tests": [
+      "org/apache/commons/codec/language/RegressionTest.java",
+      "org/apache/commons/codec/language/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:52:33.869669"
+  },
+  "Codec_6": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Codec_6_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Codec_6",
+    "classes_tested": [
+      "org.apache.commons.codec.binary.Base64InputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/codec/binary/RegressionTest.java",
+      "org/apache/commons/codec/binary/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:53:42.053449"
+  },
+  "Codec_15": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Codec_15_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Codec_15",
+    "classes_tested": [
+      "org.apache.commons.codec.language.Soundex"
+    ],
+    "generated_tests": [
+      "org/apache/commons/codec/language/RegressionTest.java",
+      "org/apache/commons/codec/language/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:54:53.577234"
+  },
+  "Codec_11": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Codec_11_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Codec_11",
+    "classes_tested": [
+      "org.apache.commons.codec.net.QuotedPrintableCodec"
+    ],
+    "generated_tests": [
+      "org/apache/commons/codec/net/RegressionTest.java",
+      "org/apache/commons/codec/net/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:56:03.333595"
+  },
+  "Codec_18": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Codec_18_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Codec_18",
+    "classes_tested": [
+      "org.apache.commons.codec.binary.StringUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/codec/binary/RegressionTest.java",
+      "org/apache/commons/codec/binary/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:57:18.711855"
+  },
+  "Codec_17": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Codec_17_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Codec_17",
+    "classes_tested": [
+      "org.apache.commons.codec.binary.StringUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/codec/binary/RegressionTest.java",
+      "org/apache/commons/codec/binary/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:58:38.643454"
+  },
+  "Codec_16": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Codec_16_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Codec_16",
+    "classes_tested": [
+      "org.apache.commons.codec.binary.Base32"
+    ],
+    "generated_tests": [
+      "org/apache/commons/codec/binary/RegressionTest.java",
+      "org/apache/commons/codec/binary/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T09:59:53.671847"
+  },
+  "Codec_2": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Codec_2_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Codec_2",
+    "classes_tested": [
+      "org.apache.commons.codec.binary.Base64"
+    ],
+    "generated_tests": [
+      "org/apache/commons/codec/binary/RegressionTest.java",
+      "org/apache/commons/codec/binary/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:01:01.907209"
+  },
+  "Codec_3": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Codec_3_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Codec_3",
+    "classes_tested": [
+      "org.apache.commons.codec.language.DoubleMetaphone"
+    ],
+    "generated_tests": [
+      "org/apache/commons/codec/language/ErrorTest.java",
+      "org/apache/commons/codec/language/ErrorTest0.java",
+      "org/apache/commons/codec/language/RegressionTest.java",
+      "org/apache/commons/codec/language/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:02:10.466493"
+  },
+  "Codec_4": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Codec_4_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Codec_4",
+    "classes_tested": [
+      "org.apache.commons.codec.binary.Base64"
+    ],
+    "generated_tests": [
+      "org/apache/commons/codec/binary/RegressionTest.java",
+      "org/apache/commons/codec/binary/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:03:22.156379"
+  },
+  "Collections_17": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_17_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_17",
+    "classes_tested": [
+      "org.apache.commons.collections.functors.EqualPredicate"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections/functors/RegressionTest.java",
+      "org/apache/commons/collections/functors/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:03:27.799899"
+  },
+  "Codec_9": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Codec_9_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Codec_9",
+    "classes_tested": [
+      "org.apache.commons.codec.binary.Base64"
+    ],
+    "generated_tests": [
+      "org/apache/commons/codec/binary/RegressionTest.java",
+      "org/apache/commons/codec/binary/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:04:32.040074"
+  },
+  "Collections_14": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_14_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_14",
+    "classes_tested": [
+      "org.apache.commons.collections.map.CaseInsensitiveMap"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections/map/RegressionTest.java",
+      "org/apache/commons/collections/map/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:04:54.574415"
+  },
+  "Codec_5": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Codec_5_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Codec_5",
+    "classes_tested": [
+      "org.apache.commons.codec.binary.Base64"
+    ],
+    "generated_tests": [
+      "org/apache/commons/codec/binary/RegressionTest.java",
+      "org/apache/commons/codec/binary/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:05:40.355745"
+  },
+  "Collections_23": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_23_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_23",
+    "classes_tested": [
+      "org.apache.commons.collections4.trie.UnmodifiableTrie"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections4/trie/RegressionTest.java",
+      "org/apache/commons/collections4/trie/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:06:19.265056"
+  },
+  "Codec_7": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Codec_7_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Codec_7",
+    "classes_tested": [
+      "org.apache.commons.codec.binary.Base64"
+    ],
+    "generated_tests": [
+      "org/apache/commons/codec/binary/RegressionTest.java",
+      "org/apache/commons/codec/binary/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:06:49.124706"
+  },
+  "Collections_24": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_24_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_24",
+    "classes_tested": [
+      "org.apache.commons.collections4.collection.UnmodifiableBoundedCollection"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections4/collection/RegressionTest.java",
+      "org/apache/commons/collections4/collection/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:07:47.477522"
+  },
+  "Codec_8": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Codec_8_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Codec_8",
+    "classes_tested": [
+      "org.apache.commons.codec.binary.Base64",
+      "org.apache.commons.codec.binary.Base64InputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/codec/binary/RegressionTest.java",
+      "org/apache/commons/codec/binary/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:07:59.933025"
+  },
+  "Collections_11": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_11_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_11",
+    "classes_tested": [
+      "org.apache.commons.collections.keyvalue.MultiKey"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections/keyvalue/RegressionTest.java",
+      "org/apache/commons/collections/keyvalue/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:08:53.090357"
+  },
+  "Codec_13": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Codec_13_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Codec_13",
+    "classes_tested": [
+      "org.apache.commons.codec.binary.StringUtils",
+      "org.apache.commons.codec.language.DoubleMetaphone"
+    ],
+    "generated_tests": [
+      "org/apache/commons/codec/binary/ErrorTest.java",
+      "org/apache/commons/codec/binary/ErrorTest0.java",
+      "org/apache/commons/codec/binary/RegressionTest.java",
+      "org/apache/commons/codec/binary/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:09:12.314748"
+  },
+  "Codec_14": {
+    "status": "FAILED",
+    "error": "Randoop ออกจากระบบด้วยรหัส 1\nstdout (ท้าย 12 บรรทัด):\nRandoop for Java version 4.3.4.\n\nCould not load class org.apache.commons.codec.language.bm.Lang: Unable to load class \"org.apache.commons.codec.language.bm.Lang\" due to exception: java.lang.IllegalArgumentException: Unable to resolve required resource: org/apache/commons/codec/language/bm/ash_languages.txt\nClasspath:\n/tmp/sqa_randoop/jars/Codec_14/randoop-all-4.3.4.jar\n/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Codec_14\n/tmp/sqa_d4j_work/Codec_14_buggy/target/classes\n/home/face/defect4j/defects4j/framework/projects/Codec/lib/junit/junit/4.12/junit-4.12.jar\n/home/face/defect4j/defects4j/framework/projects/Codec/lib/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar\n/home/face/defect4j/defects4j/framework/projects/Codec/lib/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar\n/home/face/defect4j/defects4j/framework/projects/Codec/lib/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar\n/tmp/sqa_d4j_work/Codec_14_buggy/src/main/resources/commons-lang3-3.8.1.jar",
+    "classes": [
+      "org.apache.commons.codec.language.bm.Lang",
+      "org.apache.commons.codec.language.bm.PhoneticEngine",
+      "org.apache.commons.codec.language.bm.Rule"
+    ],
+    "timestamp": "2026-09-22T10:09:22.212011"
+  },
+  "Collections_26": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_26_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_26",
+    "classes_tested": [
+      "org.apache.commons.collections4.keyvalue.MultiKey"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections4/keyvalue/RegressionTest.java",
+      "org/apache/commons/collections4/keyvalue/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:10:12.349702"
+  },
+  "Collections_8": {
+    "status": "FAILED",
+    "error": "Randoop ออกจากระบบด้วยรหัส 1\nstdout (ท้าย 20 บรรทัด):\n/home/face/defect4j/defects4j/framework/projects/Collections/lib/junit/junit/4.10/junit-4.10.jar\n/home/face/defect4j/defects4j/framework/projects/Collections/lib/junit/junit/4.12/junit-4.12.jar\n/home/face/defect4j/defects4j/framework/projects/Collections/lib/junit/junit/4.11/junit-4.11.jar\n/home/face/defect4j/defects4j/framework/projects/Collections/lib/junit/junit/4.3.1/junit-4.3.1.jar\n/home/face/defect4j/defects4j/framework/projects/Collections/lib/junit/junit/4.8.2/junit-4.8.2.jar\n/home/face/defect4j/defects4j/framework/projects/Collections/lib/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar\n/home/face/defect4j/defects4j/framework/projects/Collections/lib/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar\n/home/face/defect4j/defects4j/framework/projects/Collections/lib/org/objenesis/objenesis/1.2/objenesis-1.2.jar\n/home/face/defect4j/defects4j/framework/projects/Collections/lib/org/objenesis/objenesis/2.6/objenesis-2.6.jar\n/home/face/defect4j/defects4j/framework/projects/Collections/lib/org/objenesis/objenesis/2.2/objenesis-2.2.jar\n/home/face/defect4j/defects4j/framework/projects/Collections/lib/org/objenesis/objenesis/1.3/objenesis-1.3.jar\n/home/face/defect4j/defects4j/framework/projects/Collections/lib/org/easymock/easymock/3.2/easymock-3.2.jar\n/home/face/defect4j/defects4j/framework/projects/Collections/lib/org/easymock/easymock/3.1/easymock-3.1.jar\n/home/face/defect4j/defects4j/framework/projects/Collections/lib/org/easymock/easymock/2.0/easymock-2.0.jar\n/home/face/defect4j/defects4j/framework/projects/Collections/lib/org/easymock/easymock/3.5/easymock-3.5.jar\n/home/face/defect4j/defects4j/framework/projects/Collections/lib/org/easymock/easymock/3.4/easymock-3.4.jar\n/home/face/defect4j/defects4j/framework/projects/Collections/lib/org/easymock/easymock/3.5.1/easymock-3.5.1.jar\n/home/face/defect4j/defects4j/framework/projects/Collections/lib/org/easymock/easymock/2.5.2/easymock-2.5.2.jar\n/home/face/defect4j/defects4j/framework/projects/Collections/lib/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar\n/home/face/defect4j/defects4j/framework/projects/Collections/lib/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar",
+    "classes": [
+      "org.apache.commons.collections.buffer.UnboundedFifoBuffer"
+    ],
+    "timestamp": "2026-09-22T10:24:51.149345"
+  },
+  "JxPath_15": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_15_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_15",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.axes.UnionContext"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/axes/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/axes/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:25:54.548066"
+  },
+  "Collections_5": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_5_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_5",
+    "classes_tested": [
+      "org.apache.commons.collections.list.SetUniqueList"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections/list/RegressionTest0.java",
+      "org/apache/commons/collections/list/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:26:17.308272"
+  },
+  "JxPath_18": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_18_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_18",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.axes.AttributeContext"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/axes/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/axes/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:27:10.367177"
+  },
+  "Collections_15": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_15_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_15",
+    "classes_tested": [
+      "org.apache.commons.collections.list.SetUniqueList"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections/list/RegressionTest0.java",
+      "org/apache/commons/collections/list/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:27:42.587446"
+  },
+  "JxPath_8": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_8_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_8",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:28:25.398093"
+  },
+  "Collections_16": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_16_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_16",
+    "classes_tested": [
+      "org.apache.commons.collections.list.SetUniqueList"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections/list/RegressionTest0.java",
+      "org/apache/commons/collections/list/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:29:11.396204"
+  },
+  "JxPath_10": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_10_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_10",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:29:41.247987"
+  },
+  "Collections_18": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_18_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_18",
+    "classes_tested": [
+      "org.apache.commons.collections.set.ListOrderedSet"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections/set/ErrorTest.java",
+      "org/apache/commons/collections/set/RegressionTest0.java",
+      "org/apache/commons/collections/set/ErrorTest0.java",
+      "org/apache/commons/collections/set/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:30:42.061139"
+  },
+  "JxPath_6": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_6_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_6",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationCompare"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:30:55.657281"
+  },
+  "Collections_19": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_19_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_19",
+    "classes_tested": [
+      "org.apache.commons.collections.list.SetUniqueList"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections/list/RegressionTest0.java",
+      "org/apache/commons/collections/list/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:32:10.278889"
+  },
+  "JxPath_2": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_2_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_2",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.compiler.Expression"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:32:10.069736"
+  },
+  "JxPath_20": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_20_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_20",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:33:24.729121"
+  },
+  "Collections_21": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_21_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_21",
+    "classes_tested": [
+      "org.apache.commons.collections4.list.SetUniqueList"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections4/list/RegressionTest0.java",
+      "org/apache/commons/collections4/list/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:33:36.665168"
+  },
+  "JxPath_9": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_9_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_9",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationCompare",
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationEqual",
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationNotEqual"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:34:40.416040"
+  },
+  "Collections_4": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_4_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_4",
+    "classes_tested": [
+      "org.apache.commons.collections.map.MultiValueMap"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections/map/RegressionTest0.java",
+      "org/apache/commons/collections/map/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:35:03.621237"
+  },
+  "JxPath_3": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_3_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_3",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.beans.NullPropertyPointer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/beans/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/beans/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:35:55.674654"
+  },
+  "Collections_10": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_10_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_10",
+    "classes_tested": [
+      "org.apache.commons.collections.map.MultiValueMap"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections/map/RegressionTest0.java",
+      "org/apache/commons/collections/map/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:36:28.078204"
+  },
+  "JxPath_21": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_21_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_21",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.beans.PropertyPointer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/beans/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/beans/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:37:10.835440"
+  },
+  "Collections_27": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_27_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_27",
+    "classes_tested": [
+      "org.apache.commons.collections4.map.MultiValueMap"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections4/map/RegressionTest0.java",
+      "org/apache/commons/collections4/map/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:37:55.004726"
+  },
+  "JxPath_7": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_7_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_7",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationGreaterThan",
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationGreaterThanOrEqual",
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationLessThan",
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationLessThanOrEqual",
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:38:25.464382"
+  },
+  "Collections_22": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_22_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_22",
+    "classes_tested": [
+      "org.apache.commons.collections4.map.ListOrderedMap"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections4/map/RegressionTest0.java",
+      "org/apache/commons/collections4/map/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:39:20.609776"
+  },
+  "JxPath_11": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_11_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_11",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.dom.DOMAttributeIterator",
+      "org.apache.commons.jxpath.ri.model.jdom.JDOMAttributeIterator"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:39:38.926427"
+  },
+  "Collections_20": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_20_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_20",
+    "classes_tested": [
+      "org.apache.commons.collections.list.TreeList"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections/list/RegressionTest0.java",
+      "org/apache/commons/collections/list/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:40:47.979178"
+  },
+  "JxPath_17": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_17_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_17",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.dom.DOMAttributeIterator",
+      "org.apache.commons.jxpath.ri.model.jdom.JDOMAttributeIterator"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:40:55.716059"
+  },
+  "JxPath_5": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_5_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_5",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.NodePointer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:42:13.373622"
+  },
+  "Collections_1": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_1_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_1",
+    "classes_tested": [
+      "org.apache.commons.collections.map.Flat3Map"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections/map/ErrorTest.java",
+      "org/apache/commons/collections/map/RegressionTest0.java",
+      "org/apache/commons/collections/map/ErrorTest0.java",
+      "org/apache/commons/collections/map/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:42:22.428837"
+  },
+  "JxPath_12": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_12_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_12",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:43:33.778412"
+  },
+  "Collections_6": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_6_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_6",
+    "classes_tested": [
+      "org.apache.commons.collections.map.Flat3Map"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections/map/ErrorTest.java",
+      "org/apache/commons/collections/map/RegressionTest0.java",
+      "org/apache/commons/collections/map/ErrorTest0.java",
+      "org/apache/commons/collections/map/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:43:52.660942"
+  },
+  "JxPath_14": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_14_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_14",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.compiler.CoreFunction"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:44:52.479591"
+  },
+  "Collections_3": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_3_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_3",
+    "classes_tested": [
+      "org.apache.commons.collections.CollectionUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections/ErrorTest.java",
+      "org/apache/commons/collections/RegressionTest0.java",
+      "org/apache/commons/collections/ErrorTest0.java",
+      "org/apache/commons/collections/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:45:30.935712"
+  },
+  "JxPath_22": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_22_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_22",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:46:13.510795"
+  },
+  "Collections_2": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_2_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_2",
+    "classes_tested": [
+      "org.apache.commons.collections.ExtendedProperties"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections/RegressionTest0.java",
+      "org/apache/commons/collections/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:46:35.784383"
+  },
+  "Collections_7": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_7_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_7",
+    "classes_tested": [
+      "org.apache.commons.collections.ExtendedProperties"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections/RegressionTest0.java",
+      "org/apache/commons/collections/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:47:39.486221"
+  },
+  "JxPath_13": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_13_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_13",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.NamespaceResolver",
+      "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:47:31.547773"
+  },
+  "Collections_9": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_9_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_9",
+    "classes_tested": [
+      "org.apache.commons.collections.ExtendedProperties"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections/RegressionTest0.java",
+      "org/apache/commons/collections/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:48:43.725661"
+  },
+  "JxPath_1": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_1_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_1",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer",
+      "org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:48:50.716063"
+  },
+  "Collections_12": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_12_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_12",
+    "classes_tested": [
+      "org.apache.commons.collections.ExtendedProperties"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections/RegressionTest0.java",
+      "org/apache/commons/collections/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:49:47.608058"
+  },
+  "JxPath_4": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_4_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_4",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer",
+      "org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:50:08.275781"
+  },
+  "Collections_13": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_13_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_13",
+    "classes_tested": [
+      "org.apache.commons.collections.ExtendedProperties"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections/RegressionTest0.java",
+      "org/apache/commons/collections/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:50:51.416842"
+  },
+  "JxPath_19": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_19_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_19",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer",
+      "org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:51:30.722563"
+  },
+  "Collections_25": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_25_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_25",
+    "classes_tested": [
+      "org.apache.commons.collections4.IteratorUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections4/RegressionTest0.java",
+      "org/apache/commons/collections4/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:52:21.359898"
+  },
+  "JxPath_16": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_16_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_16",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer",
+      "org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:52:51.514661"
+  },
+  "Collections_28": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Collections_28_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Collections_28",
+    "classes_tested": [
+      "org.apache.commons.collections4.trie.AbstractPatriciaTrie"
+    ],
+    "generated_tests": [
+      "org/apache/commons/collections4/trie/RegressionTest0.java",
+      "org/apache/commons/collections4/trie/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:53:54.874150"
   }
 }
