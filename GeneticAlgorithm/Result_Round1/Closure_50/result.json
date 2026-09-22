@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-22T11:42:22Z",
+  "round": 1,
+  "project": "Closure",
+  "bug_id": 50,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 4,
+  "coverage": 9.36,
+  "line_cov": 10.75,
+  "branch_cov": 7.97,
+  "total_goals": 558,
+  "covered_goals": 53,
+  "lines": 15,
+  "covered_lines": 33,
+  "total_branches": 248,
+  "covered_branches": 19,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "com.google.javascript.jscomp.PeepholeReplaceKnownMethods",
+      "generation_result": "PASS",
+      "generation_seconds": 71,
+      "tests": 4,
+      "coverage": 9.36,
+      "line_cov": 10.75,
+      "branch_cov": 7.97,
+      "total_goals": 558,
+      "covered_goals": 53,
+      "lines": 15,
+      "covered_lines": 33,
+      "total_branches": 248,
+      "covered_branches": 19,
+      "total_methods": 15,
+      "covered_methods": 6,
+      "branchless_methods": 3,
+      "covered_branchless_methods": 1
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}

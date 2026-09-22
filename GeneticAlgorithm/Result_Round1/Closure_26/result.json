@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-22T11:14:11Z",
+  "round": 1,
+  "project": "Closure",
+  "bug_id": 26,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 7,
+  "coverage": 56.52,
+  "line_cov": 60.95,
+  "branch_cov": 52.08,
+  "total_goals": 153,
+  "covered_goals": 85,
+  "lines": 17,
+  "covered_lines": 64,
+  "total_branches": 40,
+  "covered_branches": 18,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "com.google.javascript.jscomp.ProcessCommonJSModules",
+      "generation_result": "PASS",
+      "generation_seconds": 71,
+      "tests": 7,
+      "coverage": 56.52,
+      "line_cov": 60.95,
+      "branch_cov": 52.08,
+      "total_goals": 153,
+      "covered_goals": 85,
+      "lines": 17,
+      "covered_lines": 64,
+      "total_branches": 40,
+      "covered_branches": 18,
+      "total_methods": 16,
+      "covered_methods": 14,
+      "branchless_methods": 8,
+      "covered_branchless_methods": 7
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}

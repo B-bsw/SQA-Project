@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-22T11:28:49Z",
+  "round": 1,
+  "project": "Closure",
+  "bug_id": 37,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 33,
+  "coverage": 44.72,
+  "line_cov": 40.89,
+  "branch_cov": 45.1,
+  "total_goals": 1524,
+  "covered_goals": 516,
+  "lines": 132,
+  "covered_lines": 247,
+  "total_branches": 636,
+  "covered_branches": 252,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "com.google.javascript.jscomp.NodeTraversal",
+      "generation_result": "PASS",
+      "generation_seconds": 92,
+      "tests": 25,
+      "coverage": 62.89,
+      "line_cov": 65.20,
+      "branch_cov": 53.68,
+      "total_goals": 363,
+      "covered_goals": 213,
+      "lines": 50,
+      "covered_lines": 148,
+      "total_branches": 110,
+      "covered_branches": 53,
+      "total_methods": 50,
+      "covered_methods": 41,
+      "branchless_methods": 26,
+      "covered_branchless_methods": 20
+    },
+    {
+      "target_class": "com.google.javascript.jscomp.parsing.IRFactory",
+      "generation_result": "PASS",
+      "generation_seconds": 85,
+      "tests": 8,
+      "coverage": 26.55,
+      "line_cov": 16.58,
+      "branch_cov": 36.52,
+      "total_goals": 1161,
+      "covered_goals": 303,
+      "lines": 82,
+      "covered_lines": 99,
+      "total_branches": 526,
+      "covered_branches": 199,
+      "total_methods": 80,
+      "covered_methods": 24,
+      "branchless_methods": 38,
+      "covered_branchless_methods": 7
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}

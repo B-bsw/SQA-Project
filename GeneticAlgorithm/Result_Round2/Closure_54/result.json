@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-22T12:59:04Z",
+  "round": 2,
+  "project": "Closure",
+  "bug_id": 54,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 63,
+  "coverage": 40.89,
+  "line_cov": 45.28,
+  "branch_cov": 36.58,
+  "total_goals": 2140,
+  "covered_goals": 705,
+  "lines": 119,
+  "covered_lines": 429,
+  "total_branches": 938,
+  "covered_branches": 245,
+  "buggy_result": "NOT_RUN",
+  "buggy_fails": null,
+  "fixed_result": "NOT_RUN",
+  "fixed_fails": null,
+  "verdict": "NOT_AVAILABLE",
+  "targets": [
+    {
+      "target_class": "com.google.javascript.jscomp.TypedScopeCreator",
+      "generation_result": "PASS",
+      "generation_seconds": 76,
+      "tests": 5,
+      "coverage": 13.56,
+      "line_cov": 17.44,
+      "branch_cov": 9.69,
+      "total_goals": 1397,
+      "covered_goals": 194,
+      "lines": 57,
+      "covered_lines": 132,
+      "total_branches": 624,
+      "covered_branches": 53,
+      "total_methods": 53,
+      "covered_methods": 22,
+      "branchless_methods": 16,
+      "covered_branchless_methods": 9
+    },
+    {
+      "target_class": "com.google.javascript.rhino.jstype.FunctionType",
+      "generation_result": "PASS",
+      "generation_seconds": 104,
+      "tests": 58,
+      "coverage": 68.22,
+      "line_cov": 73.11,
+      "branch_cov": 63.47,
+      "total_goals": 743,
+      "covered_goals": 511,
+      "lines": 62,
+      "covered_lines": 297,
+      "total_branches": 314,
+      "covered_branches": 192,
+      "total_methods": 60,
+      "covered_methods": 58,
+      "branchless_methods": 20,
+      "covered_branchless_methods": 20
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "NOT_RUN",
+      "failures": null
+    },
+    {
+      "subject": "fixed",
+      "result": "NOT_RUN",
+      "failures": null
+    }
+  ]
+}

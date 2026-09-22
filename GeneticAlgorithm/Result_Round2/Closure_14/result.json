@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-22T12:12:50Z",
+  "round": 2,
+  "project": "Closure",
+  "bug_id": 14,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 25,
+  "coverage": 41.79,
+  "line_cov": 38.56,
+  "branch_cov": 46.49,
+  "total_goals": 815,
+  "covered_goals": 347,
+  "lines": 45,
+  "covered_lines": 155,
+  "total_branches": 392,
+  "covered_branches": 182,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "com.google.javascript.jscomp.ControlFlowAnalysis",
+      "generation_result": "PASS",
+      "generation_seconds": 88,
+      "tests": 25,
+      "coverage": 41.79,
+      "line_cov": 38.56,
+      "branch_cov": 46.49,
+      "total_goals": 815,
+      "covered_goals": 347,
+      "lines": 45,
+      "covered_lines": 155,
+      "total_branches": 392,
+      "covered_branches": 182,
+      "total_methods": 47,
+      "covered_methods": 29,
+      "branchless_methods": 21,
+      "covered_branchless_methods": 10
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}

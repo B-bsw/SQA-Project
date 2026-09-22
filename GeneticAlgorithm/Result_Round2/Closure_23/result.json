@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-22T12:22:08Z",
+  "round": 2,
+  "project": "Closure",
+  "bug_id": 23,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 28,
+  "coverage": 15.53,
+  "line_cov": 8.05,
+  "branch_cov": 23,
+  "total_goals": 1770,
+  "covered_goals": 304,
+  "lines": 35,
+  "covered_lines": 55,
+  "total_branches": 1086,
+  "covered_branches": 249,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "com.google.javascript.jscomp.PeepholeFoldConstants",
+      "generation_result": "PASS",
+      "generation_seconds": 87,
+      "tests": 28,
+      "coverage": 15.53,
+      "line_cov": 8.05,
+      "branch_cov": 23.00,
+      "total_goals": 1770,
+      "covered_goals": 304,
+      "lines": 35,
+      "covered_lines": 55,
+      "total_branches": 1086,
+      "covered_branches": 249,
+      "total_methods": 35,
+      "covered_methods": 11,
+      "branchless_methods": 1,
+      "covered_branchless_methods": 1
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}
