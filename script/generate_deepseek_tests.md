@@ -237,6 +237,8 @@ python3 script/run_deepseek_parallel.py --workers 2 --projects Cli Chart --dry-r
 
 ไฟล์สถานะของ launcher อยู่ที่ `Deepseek-flash-v4/state/<กลุ่ม>.json` และบัญชี token อยู่ที่ `Deepseek-flash-v4/budget/key-<fingerprint>.json` โดยไม่บันทึกคีย์จริงในชื่อไฟล์ เมื่อเริ่มใช้ครั้งแรก launcher คัดลอกสถานะเดิมจาก `generation_state.json` ไปยัง state ของแต่ละกลุ่มที่ยังไม่มีไฟล์อยู่ ผลลัพธ์ Java เดิมบนดิสก์ยังถูกใช้ตรวจการข้ามงาน
 
+ระหว่างรัน launcher จะรวม state ของทุกกลุ่มกลับเข้า `Deepseek-flash-v4/generation_state.json` ทุก 10 วินาที หลัง worker จบแต่ละกลุ่ม และก่อนโปรแกรมออกหรือถูกยกเลิกด้วย Ctrl+C โดยใช้รายการที่มี `updated_at` ใหม่กว่า จึงยังใช้ global state กับ generator แบบเดิมและคำสั่ง resume ได้
+
 หาก worker หยุดเพราะงบหรือโควต้าหมด กลุ่มที่ยังค้างจะถูกรันต่อเมื่อเรียกคำสั่งเดิมอีกครั้ง การที่ generator จบรอบหมายถึงสร้างไฟล์แล้วเท่านั้น; การคอมไพล์และรัน JUnit ยังต้องตรวจแยก
 
 ---

@@ -55,6 +55,28 @@ def seed_project_states(output_dir: Path, groups: list[str]) -> None:
             save_atomic_json(target, entries)
 
 
+def prefer_newer(current: dict | None, candidate: dict) -> bool:
+    """Prefer the state entry written most recently by a worker."""
+    if current is None:
+        return True
+    return str(candidate.get("updated_at", "")) >= str(current.get("updated_at", ""))
+
+
+def sync_global_state(output_dir: Path) -> bool:
+    """Mirror every worker shard into the state used by the original generator."""
+    global_file = output_dir / "generation_state.json"
+    combined = load_state(global_file, read_only=True)
+    changed = False
+    for shard in sorted((output_dir / "state").glob("*.json")):
+        for task_id, entry in load_state(shard, read_only=True).items():
+            if combined.get(task_id) != entry and prefer_newer(combined.get(task_id), entry):
+                combined[task_id] = entry
+                changed = True
+    if changed:
+        save_atomic_json(global_file, combined)
+    return changed
+
+
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description="Run DeepSeek project groups in parallel")
     parser.add_argument("--projects", nargs="+", metavar="NAME",
@@ -106,10 +128,25 @@ def main(argv=None) -> int:
     active_lock = threading.Lock()
     output_lock = threading.Lock()
     results = {}
+    stop_sync = threading.Event()
+    refresh_sync = threading.Event()
+    sync_failed = threading.Event()
 
     def say(message: str):
         with output_lock:
             print(message, flush=True)
+
+    def mirror_progress():
+        while True:
+            refresh_sync.wait(timeout=10)
+            refresh_sync.clear()
+            try:
+                sync_global_state(output_dir)
+            except (OSError, RuntimeError, ValueError) as exc:
+                sync_failed.set()
+                say(f"Could not update generation_state.json: {exc}")
+            if stop_sync.is_set():
+                return
 
     def run_worker(slot: int):
         while True:
@@ -138,21 +175,32 @@ def main(argv=None) -> int:
                     active.pop(slot, None)
             results[group] = code
             say(f"[key #{slot}] {group} exited with code {code}")
+            refresh_sync.set()
             if code != 0:
                 # Code 3 means the key's daily budget or server quota was exhausted.
                 return
 
-    with ThreadPoolExecutor(max_workers=args.workers) as pool:
-        futures = [pool.submit(run_worker, slot) for slot in range(1, args.workers + 1)]
-        try:
-            for future in as_completed(futures):
-                future.result()
-        except KeyboardInterrupt:
-            with active_lock:
-                for process in active.values():
-                    process.terminate()
-            say("Interrupted; active generators were stopped. Run the same command to resume.")
-            return 130
+    sync_thread = threading.Thread(target=mirror_progress, daemon=True)
+    sync_thread.start()
+    try:
+        with ThreadPoolExecutor(max_workers=args.workers) as pool:
+            futures = [pool.submit(run_worker, slot) for slot in range(1, args.workers + 1)]
+            try:
+                for future in as_completed(futures):
+                    future.result()
+            except KeyboardInterrupt:
+                with active_lock:
+                    for process in active.values():
+                        process.terminate()
+                say("Interrupted; active generators were stopped. Run the same command to resume.")
+                return 130
+    finally:
+        stop_sync.set()
+        refresh_sync.set()
+        sync_thread.join()
+
+    if sync_failed.is_set():
+        return 1
 
     unfinished = [group for group in groups if results.get(group) != 0]
     if unfinished:
