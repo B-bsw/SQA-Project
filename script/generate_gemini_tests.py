@@ -1046,7 +1046,8 @@ def main():
         sys.exit(1)
 
     if args.project:
-        project_dirs = [d for d in project_dirs if d.name.lower() == args.project.lower()]
+        p_target = args.project.lower()
+        project_dirs = [d for d in project_dirs if d.name.lower() == p_target or d.name.lower().startswith(f"{p_target}_")]
 
     if not project_dirs:
         print(f"⚠️ ไม่พบโฟลเดอร์โปรเจกต์ที่ตรงกับเงื่อนไขใน {resource_dir}")

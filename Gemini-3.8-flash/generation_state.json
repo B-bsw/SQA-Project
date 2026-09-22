@@ -1742,9 +1742,11 @@
   "Closure_111/com/google/javascript/jscomp/type/ClosureReverseAbstractInterpreter.java": {
     "project": "Closure_111",
     "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_111/com/google/javascript/jscomp/type/ClosureReverseAbstractInterpreter.java",
-    "status": "FAILED",
-    "error": "Gateway TTFT Timeout",
-    "updated_at": "2026-09-19T11:01:44.406768"
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_111_buggy/ClosureReverseAbstractInterpreterTest.java",
+    "file_size_bytes": 8378,
+    "note": "MANUAL_SYNTHESIS",
+    "updated_at": "2026-09-20T21:48:45.300187"
   },
   "Closure_112/com/google/javascript/jscomp/TypeInference.java": {
     "project": "Closure_112",
@@ -1953,9 +1955,11 @@
   "Closure_121/com/google/javascript/jscomp/InlineVariables.java": {
     "project": "Closure_121",
     "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_121/com/google/javascript/jscomp/InlineVariables.java",
-    "status": "FAILED",
-    "error": "Gateway TTFT Timeout",
-    "updated_at": "2026-09-19T11:08:35.880930"
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_121_buggy/InlineVariablesTest.java",
+    "file_size_bytes": 4363,
+    "note": "MANUAL_SYNTHESIS",
+    "updated_at": "2026-09-20T21:49:01.478286"
   },
   "Closure_122/com/google/javascript/jscomp/parsing/IRFactory.java": {
     "project": "Closure_122",
@@ -2590,9 +2594,11 @@
   "Mockito_37/org/mockito/internal/stubbing/answers/AnswersValidator.java": {
     "project": "Mockito_37",
     "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_37/org/mockito/internal/stubbing/answers/AnswersValidator.java",
-    "status": "FAILED",
-    "error": "Gateway TTFT Timeout",
-    "updated_at": "2026-09-19T11:59:30.013553"
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_37_buggy/AnswersValidatorTest.java",
+    "file_size_bytes": 11418,
+    "note": "MANUAL_SYNTHESIS",
+    "updated_at": "2026-09-20T21:46:24.151097"
   },
   "Jsoup_56/org/jsoup/nodes/DocumentType.java": {
     "project": "Jsoup_56",
@@ -3374,9 +3380,11 @@
   "Mockito_34/org/mockito/internal/invocation/InvocationMatcher.java": {
     "project": "Mockito_34",
     "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_34/org/mockito/internal/invocation/InvocationMatcher.java",
-    "status": "FAILED",
-    "error": "Gateway TTFT Timeout",
-    "updated_at": "2026-09-19T12:31:34.516727"
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_34_buggy/InvocationMatcherTest.java",
+    "file_size_bytes": 14023,
+    "note": "MANUAL_SYNTHESIS",
+    "updated_at": "2026-09-20T21:46:42.280100"
   },
   "Mockito_25/org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java": {
     "project": "Mockito_25",
@@ -3774,9 +3782,11 @@
   "Mockito_33/org/mockito/internal/invocation/InvocationMatcher.java": {
     "project": "Mockito_33",
     "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_33/org/mockito/internal/invocation/InvocationMatcher.java",
-    "status": "FAILED",
-    "error": "Gateway TTFT Timeout",
-    "updated_at": "2026-09-19T12:58:11.215555"
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_33_buggy/InvocationMatcherTest.java",
+    "file_size_bytes": 15107,
+    "note": "MANUAL_SYNTHESIS",
+    "updated_at": "2026-09-20T21:46:58.974672"
   },
   "JacksonDatabind_109/com/fasterxml/jackson/databind/ser/std/NumberSerializer.java": {
     "project": "JacksonDatabind_109",
@@ -4945,9 +4955,11 @@
   "Closure_99/com/google/javascript/jscomp/CheckGlobalThis.java": {
     "project": "Closure_99",
     "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_99/com/google/javascript/jscomp/CheckGlobalThis.java",
-    "status": "FAILED",
-    "error": "Gateway TTFT Timeout",
-    "updated_at": "2026-09-19T14:19:27.178621"
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_99_buggy/CheckGlobalThisTest.java",
+    "file_size_bytes": 11957,
+    "note": "MANUAL_SYNTHESIS",
+    "updated_at": "2026-09-20T21:47:33.284114"
   },
   "Gson_9/com/google/gson/internal/bind/JsonTreeWriter.java": {
     "project": "Gson_9",
@@ -4971,25 +4983,12 @@
     "updated_at": "2026-09-19T14:20:11.353682"
   },
   "JacksonDatabind_3/com/fasterxml/jackson/databind/deser/std/StringArrayDeserializer.java": {
-    "project": "JacksonDatabind_3",
-    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_3/com/fasterxml/jackson/databind/deser/std/StringArrayDeserializer.java",
     "status": "COMPLETED",
-    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_3_buggy/StringArrayDeserializerTest.java",
-    "file_size_bytes": 18964,
-    "used_key": "sk_tPXl1...eDZcy7",
-    "elapsed_seconds": 61.02,
-    "finish_reason": "stop",
-    "usage": {
-      "prompt_tokens": 2070,
-      "completion_tokens": 4427,
-      "total_tokens": 12755
-    },
-    "model_quota": {
-      "daily_quota_tokens": 350000,
-      "daily_usage_tokens": 263094,
-      "daily_remaining_tokens": 86906
-    },
-    "updated_at": "2026-09-19T14:22:15.072507"
+    "project": "JacksonDatabind_3",
+    "source_file": "com/fasterxml/jackson/databind/deser/std/StringArrayDeserializer.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_3_buggy/StringArrayDeserializerTest.java",
+    "timestamp": "2026-09-21T00:46:07.632783",
+    "note": "MANUAL_DETECTED"
   },
   "Mockito_5/org/mockito/internal/verification/VerificationOverTimeImpl.java": {
     "project": "Mockito_5",
@@ -5492,9 +5491,11 @@
   "JacksonDatabind_88/com/fasterxml/jackson/databind/jsontype/impl/ClassNameIdResolver.java": {
     "project": "JacksonDatabind_88",
     "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_88/com/fasterxml/jackson/databind/jsontype/impl/ClassNameIdResolver.java",
-    "status": "FAILED",
-    "error": "Gateway TTFT Timeout",
-    "updated_at": "2026-09-19T14:52:34.307561"
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_88_buggy/ClassNameIdResolverTest.java",
+    "file_size_bytes": 6888,
+    "note": "MANUAL_SYNTHESIS",
+    "updated_at": "2026-09-20T21:47:53.249643"
   },
   "Closure_51/com/google/javascript/jscomp/CodeConsumer.java": {
     "project": "Closure_51",
@@ -5583,9 +5584,11 @@
   "Mockito_36/org/mockito/internal/invocation/Invocation.java": {
     "project": "Mockito_36",
     "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Mockito_36/org/mockito/internal/invocation/Invocation.java",
-    "status": "FAILED",
-    "error": "Gateway TTFT Timeout",
-    "updated_at": "2026-09-19T14:57:18.264578"
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_36_buggy/InvocationTest.java",
+    "file_size_bytes": 12180,
+    "note": "MANUAL_SYNTHESIS",
+    "updated_at": "2026-09-20T21:48:11.991996"
   },
   "JacksonDatabind_111/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java": {
     "project": "JacksonDatabind_111",
@@ -5611,9 +5614,11 @@
   "Csv_9/org/apache/commons/csv/CSVRecord.java": {
     "project": "Csv_9",
     "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_9/org/apache/commons/csv/CSVRecord.java",
-    "status": "FAILED",
-    "error": "คีย์ API ทั้งหมดในระบบโควต้าหมดแล้ว หรือไม่สามารถเชื่อมต่อได้",
-    "updated_at": "2026-09-19T14:59:21.241422"
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Csv_9_buggy/CSVRecordTest.java",
+    "file_size_bytes": 13363,
+    "note": "MANUAL_SYNTHESIS",
+    "updated_at": "2026-09-20T21:45:24.358787"
   },
   "Math_4/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java": {
     "project": "Math_4",
@@ -5623,5 +5628,3843 @@
     "file_size_bytes": 12333,
     "note": "MANUAL_DETECTED",
     "updated_at": "2026-09-20T21:09:23.109237"
+  },
+  "Jsoup_85/org/jsoup/nodes/Attribute.java": {
+    "project": "Jsoup_85",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_85/org/jsoup/nodes/Attribute.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_85_buggy/AttributeTest.java",
+    "file_size_bytes": 5526,
+    "note": "MANUAL_SYNTHESIS",
+    "updated_at": "2026-09-20T21:49:26.548007"
+  },
+  "Jsoup_88/org/jsoup/nodes/Attribute.java": {
+    "project": "Jsoup_88",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_88/org/jsoup/nodes/Attribute.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_88_buggy/AttributeTest.java",
+    "file_size_bytes": 5742,
+    "note": "MANUAL_SYNTHESIS",
+    "updated_at": "2026-09-20T21:49:47.734657"
+  },
+  "Jsoup_89/org/jsoup/nodes/Attribute.java": {
+    "project": "Jsoup_89",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_89/org/jsoup/nodes/Attribute.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_89_buggy/AttributeTest.java",
+    "file_size_bytes": 5742,
+    "note": "MANUAL_SYNTHESIS",
+    "updated_at": "2026-09-20T21:49:47.734691"
+  },
+  "Math_95/org/apache/commons/math/distribution/FDistributionImpl.java": {
+    "project": "Math_95",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_95/org/apache/commons/math/distribution/FDistributionImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_95_buggy/FDistributionImplTest.java",
+    "file_size_bytes": 6302,
+    "note": "MANUAL_SYNTHESIS",
+    "updated_at": "2026-09-20T21:50:00.735334"
+  },
+  "Closure_8/com/google/javascript/jscomp/CollapseVariableDeclarations.java": {
+    "project": "Closure_8",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_8/com/google/javascript/jscomp/CollapseVariableDeclarations.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_8_buggy/CollapseVariableDeclarationsTest.java",
+    "file_size_bytes": 3422,
+    "note": "MANUAL_SYNTHESIS",
+    "updated_at": "2026-09-20T21:50:13.267373"
+  },
+  "Lang_1/org/apache/commons/lang3/math/NumberUtils.java": {
+    "project": "Lang_1",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Lang_1/org/apache/commons/lang3/math/NumberUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_1_buggy/NumberUtilsTest.java",
+    "file_size_bytes": 27266,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 51.92,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6127,
+      "completion_tokens": 8486,
+      "total_tokens": 15953
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 364986,
+      "daily_remaining_tokens": -14986
+    },
+    "updated_at": "2026-09-20T21:59:31.196050"
+  },
+  "Closure_175/com/google/javascript/jscomp/FunctionInjector.java": {
+    "project": "Closure_175",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_175/com/google/javascript/jscomp/FunctionInjector.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_175_buggy/FunctionInjectorTest.java",
+    "file_size_bytes": 20676,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 44.11,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5685,
+      "completion_tokens": 5656,
+      "total_tokens": 13185
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 359150,
+      "daily_remaining_tokens": -9150
+    },
+    "updated_at": "2026-09-20T22:06:53.207872"
+  },
+  "Closure_176/com/google/javascript/jscomp/TypeInference.java": {
+    "project": "Closure_176",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_176/com/google/javascript/jscomp/TypeInference.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_176_buggy/TypeInferenceTest.java",
+    "file_size_bytes": 18206,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:11:51.000000"
+  },
+  "Codec_1/org/apache/commons/codec/language/Metaphone.java": {
+    "project": "Codec_1",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_1/org/apache/commons/codec/language/Metaphone.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_1_buggy/MetaphoneTest.java",
+    "file_size_bytes": 3594,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.333605"
+  },
+  "Codec_2/org/apache/commons/codec/binary/Base64.java": {
+    "project": "Codec_2",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_2/org/apache/commons/codec/binary/Base64.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_2_buggy/Base64Test.java",
+    "file_size_bytes": 4990,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.333709"
+  },
+  "Codec_3/org/apache/commons/codec/language/DoubleMetaphone.java": {
+    "project": "Codec_3",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_3/org/apache/commons/codec/language/DoubleMetaphone.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_3_buggy/DoubleMetaphoneTest.java",
+    "file_size_bytes": 25292,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.333788"
+  },
+  "Codec_4/org/apache/commons/codec/binary/Base64.java": {
+    "project": "Codec_4",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_4/org/apache/commons/codec/binary/Base64.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_4_buggy/Base64Test.java",
+    "file_size_bytes": 4990,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.333829"
+  },
+  "Codec_5/org/apache/commons/codec/binary/Base64.java": {
+    "project": "Codec_5",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_5/org/apache/commons/codec/binary/Base64.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_5_buggy/Base64Test.java",
+    "file_size_bytes": 4990,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.333879"
+  },
+  "Codec_6/org/apache/commons/codec/binary/Base64InputStream.java": {
+    "project": "Codec_6",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_6/org/apache/commons/codec/binary/Base64InputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_6_buggy/Base64InputStreamTest.java",
+    "file_size_bytes": 2998,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.333916"
+  },
+  "Codec_7/org/apache/commons/codec/binary/Base64.java": {
+    "project": "Codec_7",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_7/org/apache/commons/codec/binary/Base64.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_7_buggy/Base64Test.java",
+    "file_size_bytes": 4990,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.333953"
+  },
+  "Codec_8/org/apache/commons/codec/binary/Base64InputStream.java": {
+    "project": "Codec_8",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_8/org/apache/commons/codec/binary/Base64InputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_8_buggy/Base64InputStreamTest.java",
+    "file_size_bytes": 2998,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.333990"
+  },
+  "Codec_8/org/apache/commons/codec/binary/Base64.java": {
+    "project": "Codec_8",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_8/org/apache/commons/codec/binary/Base64.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_8_buggy/Base64Test.java",
+    "file_size_bytes": 4990,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.334025"
+  },
+  "Codec_9/org/apache/commons/codec/binary/Base64.java": {
+    "project": "Codec_9",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_9/org/apache/commons/codec/binary/Base64.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_9_buggy/Base64Test.java",
+    "file_size_bytes": 4990,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.334065"
+  },
+  "Codec_10/org/apache/commons/codec/language/Caverphone.java": {
+    "project": "Codec_10",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_10/org/apache/commons/codec/language/Caverphone.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_10_buggy/CaverphoneTest.java",
+    "file_size_bytes": 23425,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.334114"
+  },
+  "Codec_11/org/apache/commons/codec/net/QuotedPrintableCodec.java": {
+    "project": "Codec_11",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_11/org/apache/commons/codec/net/QuotedPrintableCodec.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_11_buggy/QuotedPrintableCodecTest.java",
+    "file_size_bytes": 3867,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.334150"
+  },
+  "Codec_13/org/apache/commons/codec/binary/StringUtils.java": {
+    "project": "Codec_13",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_13/org/apache/commons/codec/binary/StringUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_13_buggy/StringUtilsTest.java",
+    "file_size_bytes": 3108,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.334192"
+  },
+  "Codec_13/org/apache/commons/codec/language/DoubleMetaphone.java": {
+    "project": "Codec_13",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_13/org/apache/commons/codec/language/DoubleMetaphone.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_13_buggy/DoubleMetaphoneTest.java",
+    "file_size_bytes": 25292,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.334240"
+  },
+  "Codec_14/org/apache/commons/codec/language/bm/Rule.java": {
+    "project": "Codec_14",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_14/org/apache/commons/codec/language/bm/Rule.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_14_buggy/RuleTest.java",
+    "file_size_bytes": 2034,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.334278"
+  },
+  "Codec_14/org/apache/commons/codec/language/bm/PhoneticEngine.java": {
+    "project": "Codec_14",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_14/org/apache/commons/codec/language/bm/PhoneticEngine.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_14_buggy/PhoneticEngineTest.java",
+    "file_size_bytes": 1498,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.334307"
+  },
+  "Codec_14/org/apache/commons/codec/language/bm/Lang.java": {
+    "project": "Codec_14",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_14/org/apache/commons/codec/language/bm/Lang.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_14_buggy/LangTest.java",
+    "file_size_bytes": 988,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.334341"
+  },
+  "Codec_15/org/apache/commons/codec/language/Soundex.java": {
+    "project": "Codec_15",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_15/org/apache/commons/codec/language/Soundex.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_15_buggy/SoundexTest.java",
+    "file_size_bytes": 2588,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.334381"
+  },
+  "Codec_16/org/apache/commons/codec/binary/Base32.java": {
+    "project": "Codec_16",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_16/org/apache/commons/codec/binary/Base32.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_16_buggy/Base32Test.java",
+    "file_size_bytes": 3140,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.334418"
+  },
+  "Codec_17/org/apache/commons/codec/binary/StringUtils.java": {
+    "project": "Codec_17",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_17/org/apache/commons/codec/binary/StringUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_17_buggy/StringUtilsTest.java",
+    "file_size_bytes": 4126,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.334455"
+  },
+  "Codec_18/org/apache/commons/codec/binary/StringUtils.java": {
+    "project": "Codec_18",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Codec_18/org/apache/commons/codec/binary/StringUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Codec_18_buggy/StringUtilsTest.java",
+    "file_size_bytes": 4126,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:16:51.334492"
+  },
+  "Collections_1/org/apache/commons/collections/map/Flat3Map.java": {
+    "project": "Collections_1",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_1/org/apache/commons/collections/map/Flat3Map.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_1_buggy/Flat3MapTest.java",
+    "file_size_bytes": 5997,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:31:47.094317"
+  },
+  "Collections_2/org/apache/commons/collections/ExtendedProperties.java": {
+    "project": "Collections_2",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_2/org/apache/commons/collections/ExtendedProperties.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_2_buggy/ExtendedPropertiesTest.java",
+    "file_size_bytes": 5013,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:31:47.094520"
+  },
+  "Collections_3/org/apache/commons/collections/CollectionUtils.java": {
+    "project": "Collections_3",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_3/org/apache/commons/collections/CollectionUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_3_buggy/CollectionUtilsTest.java",
+    "file_size_bytes": 5289,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:31:47.094663"
+  },
+  "Collections_4/org/apache/commons/collections/map/MultiValueMap.java": {
+    "project": "Collections_4",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_4/org/apache/commons/collections/map/MultiValueMap.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_4_buggy/MultiValueMapTest.java",
+    "file_size_bytes": 4071,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:31:47.094799"
+  },
+  "Collections_5/org/apache/commons/collections/list/SetUniqueList.java": {
+    "project": "Collections_5",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_5/org/apache/commons/collections/list/SetUniqueList.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_5_buggy/SetUniqueListTest.java",
+    "file_size_bytes": 4193,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:31:47.094942"
+  },
+  "Collections_6/org/apache/commons/collections/map/Flat3Map.java": {
+    "project": "Collections_6",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_6/org/apache/commons/collections/map/Flat3Map.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_6_buggy/Flat3MapTest.java",
+    "file_size_bytes": 5997,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:31:47.095073"
+  },
+  "Collections_7/org/apache/commons/collections/ExtendedProperties.java": {
+    "project": "Collections_7",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_7/org/apache/commons/collections/ExtendedProperties.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_7_buggy/ExtendedPropertiesTest.java",
+    "file_size_bytes": 5013,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:31:47.095197"
+  },
+  "Collections_8/org/apache/commons/collections/buffer/UnboundedFifoBuffer.java": {
+    "project": "Collections_8",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_8/org/apache/commons/collections/buffer/UnboundedFifoBuffer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_8_buggy/UnboundedFifoBufferTest.java",
+    "file_size_bytes": 3353,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:31:47.095313"
+  },
+  "Collections_9/org/apache/commons/collections/ExtendedProperties.java": {
+    "project": "Collections_9",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_9/org/apache/commons/collections/ExtendedProperties.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_9_buggy/ExtendedPropertiesTest.java",
+    "file_size_bytes": 5013,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:31:47.095433"
+  },
+  "Collections_10/org/apache/commons/collections/map/MultiValueMap.java": {
+    "project": "Collections_10",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_10/org/apache/commons/collections/map/MultiValueMap.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_10_buggy/MultiValueMapTest.java",
+    "file_size_bytes": 4071,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:31:47.095549"
+  },
+  "Collections_11/org/apache/commons/collections/keyvalue/MultiKey.java": {
+    "project": "Collections_11",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_11/org/apache/commons/collections/keyvalue/MultiKey.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_11_buggy/MultiKeyTest.java",
+    "file_size_bytes": 3334,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:31:47.095681"
+  },
+  "Collections_12/org/apache/commons/collections/ExtendedProperties.java": {
+    "project": "Collections_12",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_12/org/apache/commons/collections/ExtendedProperties.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_12_buggy/ExtendedPropertiesTest.java",
+    "file_size_bytes": 5013,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:31:47.095809"
+  },
+  "Collections_13/org/apache/commons/collections/ExtendedProperties.java": {
+    "project": "Collections_13",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_13/org/apache/commons/collections/ExtendedProperties.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_13_buggy/ExtendedPropertiesTest.java",
+    "file_size_bytes": 5013,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:31:47.095945"
+  },
+  "Collections_25/org/apache/commons/collections4/IteratorUtils.java": {
+    "project": "Collections_25",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_25/org/apache/commons/collections4/IteratorUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_25_buggy/IteratorUtilsTest.java",
+    "file_size_bytes": 5696,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:35:50.530411"
+  },
+  "Collections_26/org/apache/commons/collections4/keyvalue/MultiKey.java": {
+    "project": "Collections_26",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_26/org/apache/commons/collections4/keyvalue/MultiKey.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_26_buggy/MultiKeyTest.java",
+    "file_size_bytes": 3519,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:35:50.530500"
+  },
+  "Collections_27/org/apache/commons/collections4/map/MultiValueMap.java": {
+    "project": "Collections_27",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_27/org/apache/commons/collections4/map/MultiValueMap.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_27_buggy/MultiValueMapTest.java",
+    "file_size_bytes": 4061,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:35:50.530559"
+  },
+  "Collections_28/org/apache/commons/collections4/trie/AbstractPatriciaTrie.java": {
+    "project": "Collections_28",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_28/org/apache/commons/collections4/trie/AbstractPatriciaTrie.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_28_buggy/AbstractPatriciaTrieTest.java",
+    "file_size_bytes": 7277,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T22:35:50.530628"
+  },
+  "Compress_1/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java": {
+    "project": "Compress_1",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_1/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_1_buggy/CpioArchiveOutputStreamTest.java",
+    "file_size_bytes": 7257,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T23:23:16.712582"
+  },
+  "Compress_46/org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestamp.java": {
+    "project": "Compress_46",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_46/org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestamp.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_46_buggy/X5455_ExtendedTimestampTest.java",
+    "file_size_bytes": 6856,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T23:27:47.319708"
+  },
+  "Compress_47/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": {
+    "project": "Compress_47",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_47/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_47_buggy/ZipArchiveInputStreamTest.java",
+    "file_size_bytes": 6416,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T23:27:47.319934"
+  },
+  "Compress_45/org/apache/commons/compress/archivers/tar/TarUtils.java": {
+    "project": "Compress_45",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_45/org/apache/commons/compress/archivers/tar/TarUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_45_buggy/TarUtilsTest.java",
+    "file_size_bytes": 5967,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T23:33:15.094602"
+  },
+  "Csv_10/org/apache/commons/csv/CSVPrinter.java": {
+    "project": "Csv_10",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Csv_10/org/apache/commons/csv/CSVPrinter.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Csv_10_buggy/CSVPrinterTest.java",
+    "file_size_bytes": 4960,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T23:35:37.972097"
+  },
+  "Csv_11/org/apache/commons/csv/CSVParser.java": {
+    "project": "Csv_11",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Csv_11/org/apache/commons/csv/CSVParser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Csv_11_buggy/CSVParserTest.java",
+    "file_size_bytes": 4416,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T23:35:37.972348"
+  },
+  "Csv_12/org/apache/commons/csv/CSVFormat.java": {
+    "project": "Csv_12",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Csv_12/org/apache/commons/csv/CSVFormat.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Csv_12_buggy/CSVFormatTest.java",
+    "file_size_bytes": 4497,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T23:35:37.972518"
+  },
+  "Csv_13/org/apache/commons/csv/CSVPrinter.java": {
+    "project": "Csv_13",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Csv_13/org/apache/commons/csv/CSVPrinter.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Csv_13_buggy/CSVPrinterTest.java",
+    "file_size_bytes": 4960,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T23:35:37.972659"
+  },
+  "Csv_13/org/apache/commons/csv/CSVFormat.java": {
+    "project": "Csv_13",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Csv_13/org/apache/commons/csv/CSVFormat.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Csv_13_buggy/CSVFormatTest.java",
+    "file_size_bytes": 4497,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T23:35:37.972793"
+  },
+  "Csv_14/org/apache/commons/csv/CSVFormat.java": {
+    "project": "Csv_14",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Csv_14/org/apache/commons/csv/CSVFormat.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Csv_14_buggy/CSVFormatTest.java",
+    "file_size_bytes": 4497,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T23:35:37.972937"
+  },
+  "Csv_15/org/apache/commons/csv/CSVFormat.java": {
+    "project": "Csv_15",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Csv_15/org/apache/commons/csv/CSVFormat.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Csv_15_buggy/CSVFormatTest.java",
+    "file_size_bytes": 4497,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T23:35:37.973058"
+  },
+  "Csv_16/org/apache/commons/csv/CSVParser.java": {
+    "project": "Csv_16",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Csv_16/org/apache/commons/csv/CSVParser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Csv_16_buggy/CSVParserTest.java",
+    "file_size_bytes": 4416,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-20T23:35:37.973178"
+  },
+  "Gson_18/com/google/gson/internal/$Gson$Types.java": {
+    "status": "COMPLETED",
+    "project": "Gson_18",
+    "source_file": "com/google/gson/internal/$Gson$Types.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Gson_18_buggy/$Gson$TypesTest.java",
+    "timestamp": "2026-09-20T23:45:28.647971",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_1/com/fasterxml/jackson/core/io/NumberInput.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_1",
+    "source_file": "com/fasterxml/jackson/core/io/NumberInput.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_1_buggy/NumberInputTest.java",
+    "timestamp": "2026-09-20T23:50:42.044018",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_1/com/fasterxml/jackson/core/util/TextBuffer.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_1",
+    "source_file": "com/fasterxml/jackson/core/util/TextBuffer.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_1_buggy/TextBufferTest.java",
+    "timestamp": "2026-09-20T23:50:42.044018",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_2/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_2",
+    "source_file": "com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_2_buggy/ReaderBasedJsonParserTest.java",
+    "timestamp": "2026-09-20T23:50:42.044018",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_2/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_2",
+    "source_file": "com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_2_buggy/UTF8StreamJsonParserTest.java",
+    "timestamp": "2026-09-20T23:50:42.044018",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_3/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_3",
+    "source_file": "com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_3_buggy/UTF8StreamJsonParserTest.java",
+    "timestamp": "2026-09-20T23:50:42.044018",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_4/com/fasterxml/jackson/core/util/TextBuffer.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_4",
+    "source_file": "com/fasterxml/jackson/core/util/TextBuffer.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_4_buggy/TextBufferTest.java",
+    "timestamp": "2026-09-20T23:50:42.044018",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_5/com/fasterxml/jackson/core/JsonPointer.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_5",
+    "source_file": "com/fasterxml/jackson/core/JsonPointer.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_5_buggy/JsonPointerTest.java",
+    "timestamp": "2026-09-20T23:50:42.044018",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_6/com/fasterxml/jackson/core/JsonPointer.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_6",
+    "source_file": "com/fasterxml/jackson/core/JsonPointer.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_6_buggy/JsonPointerTest.java",
+    "timestamp": "2026-09-20T23:50:42.044018",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_17/com/fasterxml/jackson/core/json/UTF8JsonGenerator.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_17",
+    "source_file": "com/fasterxml/jackson/core/json/UTF8JsonGenerator.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_17_buggy/UTF8JsonGeneratorTest.java",
+    "timestamp": "2026-09-21T00:42:49.362570",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_18/com/fasterxml/jackson/core/base/GeneratorBase.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_18",
+    "source_file": "com/fasterxml/jackson/core/base/GeneratorBase.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_18_buggy/GeneratorBaseTest.java",
+    "timestamp": "2026-09-21T00:42:49.362570",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_18/com/fasterxml/jackson/core/json/UTF8JsonGenerator.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_18",
+    "source_file": "com/fasterxml/jackson/core/json/UTF8JsonGenerator.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_18_buggy/UTF8JsonGeneratorTest.java",
+    "timestamp": "2026-09-21T00:42:49.362570",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_18/com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_18",
+    "source_file": "com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_18_buggy/WriterBasedJsonGeneratorTest.java",
+    "timestamp": "2026-09-21T00:42:49.362570",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_19/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_19",
+    "source_file": "com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_19_buggy/ReaderBasedJsonParserTest.java",
+    "timestamp": "2026-09-21T00:42:49.362570",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_19/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_19",
+    "source_file": "com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_19_buggy/UTF8StreamJsonParserTest.java",
+    "timestamp": "2026-09-21T00:42:49.362570",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_20/com/fasterxml/jackson/core/JsonGenerator.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_20",
+    "source_file": "com/fasterxml/jackson/core/JsonGenerator.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_20_buggy/JsonGeneratorTest.java",
+    "timestamp": "2026-09-21T00:42:49.362570",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_21/com/fasterxml/jackson/core/filter/FilteringParserDelegate.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_21",
+    "source_file": "com/fasterxml/jackson/core/filter/FilteringParserDelegate.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_21_buggy/FilteringParserDelegateTest.java",
+    "timestamp": "2026-09-21T00:42:49.362570",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_22/com/fasterxml/jackson/core/filter/FilteringParserDelegate.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_22",
+    "source_file": "com/fasterxml/jackson/core/filter/FilteringParserDelegate.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_22_buggy/FilteringParserDelegateTest.java",
+    "timestamp": "2026-09-21T00:42:49.362570",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_23/com/fasterxml/jackson/core/util/DefaultPrettyPrinter.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_23",
+    "source_file": "com/fasterxml/jackson/core/util/DefaultPrettyPrinter.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_23_buggy/DefaultPrettyPrinterTest.java",
+    "timestamp": "2026-09-21T00:42:49.362570",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_24/com/fasterxml/jackson/core/base/ParserMinimalBase.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_24",
+    "source_file": "com/fasterxml/jackson/core/base/ParserMinimalBase.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_24_buggy/ParserMinimalBaseTest.java",
+    "timestamp": "2026-09-21T00:42:49.362570",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_24/com/fasterxml/jackson/core/base/ParserBase.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_24",
+    "source_file": "com/fasterxml/jackson/core/base/ParserBase.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_24_buggy/ParserBaseTest.java",
+    "timestamp": "2026-09-21T00:42:49.362570",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_25/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_25",
+    "source_file": "com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_25_buggy/ReaderBasedJsonParserTest.java",
+    "timestamp": "2026-09-21T00:42:49.362570",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonCore_26/com/fasterxml/jackson/core/json/async/NonBlockingJsonParser.java": {
+    "status": "COMPLETED",
+    "project": "JacksonCore_26",
+    "source_file": "com/fasterxml/jackson/core/json/async/NonBlockingJsonParser.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_26_buggy/NonBlockingJsonParserTest.java",
+    "timestamp": "2026-09-21T00:42:49.362570",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonDatabind_1/com/fasterxml/jackson/databind/ser/BeanPropertyWriter.java": {
+    "status": "COMPLETED",
+    "project": "JacksonDatabind_1",
+    "source_file": "com/fasterxml/jackson/databind/ser/BeanPropertyWriter.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_1_buggy/BeanPropertyWriterTest.java",
+    "timestamp": "2026-09-21T00:46:07.632783",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonDatabind_2/com/fasterxml/jackson/databind/util/TokenBuffer.java": {
+    "status": "COMPLETED",
+    "project": "JacksonDatabind_2",
+    "source_file": "com/fasterxml/jackson/databind/util/TokenBuffer.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_2_buggy/TokenBufferTest.java",
+    "timestamp": "2026-09-21T00:46:07.632783",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonDatabind_112/com/fasterxml/jackson/databind/deser/std/StringCollectionDeserializer.java": {
+    "status": "COMPLETED",
+    "project": "JacksonDatabind_112",
+    "source_file": "com/fasterxml/jackson/databind/deser/std/StringCollectionDeserializer.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_112_buggy/StringCollectionDeserializerTest.java",
+    "timestamp": "2026-09-21T01:12:35.810221",
+    "note": "MANUAL_DETECTED"
+  },
+  "JxPath_1/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java": {
+    "status": "COMPLETED",
+    "project": "JxPath_1",
+    "source_file": "org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_1_buggy/DOMNodePointerTest.java",
+    "timestamp": "2026-09-21T01:24:27.767930",
+    "note": "MANUAL_DETECTED"
+  },
+  "JxPath_1/org/apache/commons/jxpath/ri/model/jdom/JDOMNodePointer.java": {
+    "status": "COMPLETED",
+    "project": "JxPath_1",
+    "source_file": "org/apache/commons/jxpath/ri/model/jdom/JDOMNodePointer.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_1_buggy/JDOMNodePointerTest.java",
+    "timestamp": "2026-09-21T01:24:27.767930",
+    "note": "MANUAL_DETECTED"
+  },
+  "JxPath_21/org/apache/commons/jxpath/ri/model/beans/PropertyPointer.java": {
+    "status": "COMPLETED",
+    "project": "JxPath_21",
+    "source_file": "org/apache/commons/jxpath/ri/model/beans/PropertyPointer.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_21_buggy/PropertyPointerTest.java",
+    "timestamp": "2026-09-21T01:25:21.446799",
+    "note": "MANUAL_DETECTED"
+  },
+  "JxPath_22/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java": {
+    "status": "COMPLETED",
+    "project": "JxPath_22",
+    "source_file": "org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_22_buggy/DOMNodePointerTest.java",
+    "timestamp": "2026-09-21T01:25:21.446799",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_29/org/apache/commons/lang3/SystemUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_29",
+    "source_file": "org/apache/commons/lang3/SystemUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_29_buggy/SystemUtilsTest.java",
+    "timestamp": "2026-09-21T01:27:55.331251",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_30/org/apache/commons/lang3/StringUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_30",
+    "source_file": "org/apache/commons/lang3/StringUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_30_buggy/StringUtilsTest.java",
+    "timestamp": "2026-09-21T01:27:55.331251",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_31/org/apache/commons/lang3/StringUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_31",
+    "source_file": "org/apache/commons/lang3/StringUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_31_buggy/StringUtilsTest.java",
+    "timestamp": "2026-09-21T01:27:55.331251",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_32/org/apache/commons/lang3/builder/HashCodeBuilder.java": {
+    "status": "COMPLETED",
+    "project": "Lang_32",
+    "source_file": "org/apache/commons/lang3/builder/HashCodeBuilder.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_32_buggy/HashCodeBuilderTest.java",
+    "timestamp": "2026-09-21T01:27:55.331251",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_33/org/apache/commons/lang3/ClassUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_33",
+    "source_file": "org/apache/commons/lang3/ClassUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_33_buggy/ClassUtilsTest.java",
+    "timestamp": "2026-09-21T01:27:55.331251",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_34/org/apache/commons/lang3/builder/ToStringStyle.java": {
+    "status": "COMPLETED",
+    "project": "Lang_34",
+    "source_file": "org/apache/commons/lang3/builder/ToStringStyle.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_34_buggy/ToStringStyleTest.java",
+    "timestamp": "2026-09-21T01:27:55.331251",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_35/org/apache/commons/lang3/ArrayUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_35",
+    "source_file": "org/apache/commons/lang3/ArrayUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_35_buggy/ArrayUtilsTest.java",
+    "timestamp": "2026-09-21T01:27:55.331251",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_36/org/apache/commons/lang3/math/NumberUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_36",
+    "source_file": "org/apache/commons/lang3/math/NumberUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_36_buggy/NumberUtilsTest.java",
+    "timestamp": "2026-09-21T01:27:55.331251",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_37/org/apache/commons/lang3/ArrayUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_37",
+    "source_file": "org/apache/commons/lang3/ArrayUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_37_buggy/ArrayUtilsTest.java",
+    "timestamp": "2026-09-21T01:27:55.331251",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_38/org/apache/commons/lang3/time/FastDateFormat.java": {
+    "status": "COMPLETED",
+    "project": "Lang_38",
+    "source_file": "org/apache/commons/lang3/time/FastDateFormat.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_38_buggy/FastDateFormatTest.java",
+    "timestamp": "2026-09-21T01:27:55.331251",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_39/org/apache/commons/lang3/StringUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_39",
+    "source_file": "org/apache/commons/lang3/StringUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_39_buggy/StringUtilsTest.java",
+    "timestamp": "2026-09-21T01:27:55.331251",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_40/org/apache/commons/lang/StringUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_40",
+    "source_file": "org/apache/commons/lang/StringUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_40_buggy/StringUtilsTest.java",
+    "timestamp": "2026-09-21T01:28:09.912579",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_41/org/apache/commons/lang/ClassUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_41",
+    "source_file": "org/apache/commons/lang/ClassUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_41_buggy/ClassUtilsTest.java",
+    "timestamp": "2026-09-21T01:28:09.912579",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_42/org/apache/commons/lang/Entities.java": {
+    "status": "COMPLETED",
+    "project": "Lang_42",
+    "source_file": "org/apache/commons/lang/Entities.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_42_buggy/EntitiesTest.java",
+    "timestamp": "2026-09-21T01:28:09.912579",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_43/org/apache/commons/lang/text/ExtendedMessageFormat.java": {
+    "status": "COMPLETED",
+    "project": "Lang_43",
+    "source_file": "org/apache/commons/lang/text/ExtendedMessageFormat.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_43_buggy/ExtendedMessageFormatTest.java",
+    "timestamp": "2026-09-21T01:28:09.912579",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_44/org/apache/commons/lang/NumberUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_44",
+    "source_file": "org/apache/commons/lang/NumberUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_44_buggy/NumberUtilsTest.java",
+    "timestamp": "2026-09-21T01:28:09.912579",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_45/org/apache/commons/lang/WordUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_45",
+    "source_file": "org/apache/commons/lang/WordUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_45_buggy/WordUtilsTest.java",
+    "timestamp": "2026-09-21T01:28:09.912579",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_46/org/apache/commons/lang/StringEscapeUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_46",
+    "source_file": "org/apache/commons/lang/StringEscapeUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_46_buggy/StringEscapeUtilsTest.java",
+    "timestamp": "2026-09-21T01:28:09.912579",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_47/org/apache/commons/lang/text/StrBuilder.java": {
+    "status": "COMPLETED",
+    "project": "Lang_47",
+    "source_file": "org/apache/commons/lang/text/StrBuilder.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_47_buggy/StrBuilderTest.java",
+    "timestamp": "2026-09-21T01:28:09.912579",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_49/org/apache/commons/lang/math/Fraction.java": {
+    "status": "COMPLETED",
+    "project": "Lang_49",
+    "source_file": "org/apache/commons/lang/math/Fraction.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_49_buggy/FractionTest.java",
+    "timestamp": "2026-09-21T01:28:09.912579",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_50/org/apache/commons/lang/time/FastDateFormat.java": {
+    "status": "COMPLETED",
+    "project": "Lang_50",
+    "source_file": "org/apache/commons/lang/time/FastDateFormat.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_50_buggy/FastDateFormatTest.java",
+    "timestamp": "2026-09-21T01:28:09.912579",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_51/org/apache/commons/lang/BooleanUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_51",
+    "source_file": "org/apache/commons/lang/BooleanUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_51_buggy/BooleanUtilsTest.java",
+    "timestamp": "2026-09-21T01:28:09.912579",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_52/org/apache/commons/lang/StringEscapeUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_52",
+    "source_file": "org/apache/commons/lang/StringEscapeUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_52_buggy/StringEscapeUtilsTest.java",
+    "timestamp": "2026-09-21T01:28:09.912579",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_53/org/apache/commons/lang/time/DateUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_53",
+    "source_file": "org/apache/commons/lang/time/DateUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_53_buggy/DateUtilsTest.java",
+    "timestamp": "2026-09-21T01:28:23.654304",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_54/org/apache/commons/lang/LocaleUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_54",
+    "source_file": "org/apache/commons/lang/LocaleUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_54_buggy/LocaleUtilsTest.java",
+    "timestamp": "2026-09-21T01:28:23.654304",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_55/org/apache/commons/lang/time/StopWatch.java": {
+    "status": "COMPLETED",
+    "project": "Lang_55",
+    "source_file": "org/apache/commons/lang/time/StopWatch.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_55_buggy/StopWatchTest.java",
+    "timestamp": "2026-09-21T01:28:23.654304",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_56/org/apache/commons/lang/time/FastDateFormat.java": {
+    "status": "COMPLETED",
+    "project": "Lang_56",
+    "source_file": "org/apache/commons/lang/time/FastDateFormat.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_56_buggy/FastDateFormatTest.java",
+    "timestamp": "2026-09-21T01:28:23.654304",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_57/org/apache/commons/lang/LocaleUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_57",
+    "source_file": "org/apache/commons/lang/LocaleUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_57_buggy/LocaleUtilsTest.java",
+    "timestamp": "2026-09-21T01:28:23.654304",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_58/org/apache/commons/lang/math/NumberUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_58",
+    "source_file": "org/apache/commons/lang/math/NumberUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_58_buggy/NumberUtilsTest.java",
+    "timestamp": "2026-09-21T01:28:23.654304",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_59/org/apache/commons/lang/text/StrBuilder.java": {
+    "status": "COMPLETED",
+    "project": "Lang_59",
+    "source_file": "org/apache/commons/lang/text/StrBuilder.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_59_buggy/StrBuilderTest.java",
+    "timestamp": "2026-09-21T01:28:23.654304",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_60/org/apache/commons/lang/text/StrBuilder.java": {
+    "status": "COMPLETED",
+    "project": "Lang_60",
+    "source_file": "org/apache/commons/lang/text/StrBuilder.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_60_buggy/StrBuilderTest.java",
+    "timestamp": "2026-09-21T01:28:23.654304",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_61/org/apache/commons/lang/text/StrBuilder.java": {
+    "status": "COMPLETED",
+    "project": "Lang_61",
+    "source_file": "org/apache/commons/lang/text/StrBuilder.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_61_buggy/StrBuilderTest.java",
+    "timestamp": "2026-09-21T01:28:23.654304",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_62/org/apache/commons/lang/Entities.java": {
+    "status": "COMPLETED",
+    "project": "Lang_62",
+    "source_file": "org/apache/commons/lang/Entities.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_62_buggy/EntitiesTest.java",
+    "timestamp": "2026-09-21T01:28:23.654304",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_63/org/apache/commons/lang/time/DurationFormatUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_63",
+    "source_file": "org/apache/commons/lang/time/DurationFormatUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_63_buggy/DurationFormatUtilsTest.java",
+    "timestamp": "2026-09-21T01:28:23.654304",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_64/org/apache/commons/lang/enums/ValuedEnum.java": {
+    "status": "COMPLETED",
+    "project": "Lang_64",
+    "source_file": "org/apache/commons/lang/enums/ValuedEnum.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_64_buggy/ValuedEnumTest.java",
+    "timestamp": "2026-09-21T01:28:23.654304",
+    "note": "MANUAL_DETECTED"
+  },
+  "Lang_65/org/apache/commons/lang/time/DateUtils.java": {
+    "status": "COMPLETED",
+    "project": "Lang_65",
+    "source_file": "org/apache/commons/lang/time/DateUtils.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_65_buggy/DateUtilsTest.java",
+    "timestamp": "2026-09-21T01:28:23.654304",
+    "note": "MANUAL_DETECTED"
+  },
+  "Math_1/org/apache/commons/math3/fraction/Fraction.java": {
+    "status": "COMPLETED",
+    "project": "Math_1",
+    "source_file": "org/apache/commons/math3/fraction/Fraction.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_1_buggy/FractionTest.java",
+    "timestamp": "2026-09-21T01:30:52.384977",
+    "note": "MANUAL_DETECTED"
+  },
+  "Math_1/org/apache/commons/math3/fraction/BigFraction.java": {
+    "status": "COMPLETED",
+    "project": "Math_1",
+    "source_file": "org/apache/commons/math3/fraction/BigFraction.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_1_buggy/BigFractionTest.java",
+    "timestamp": "2026-09-21T01:30:52.384977",
+    "note": "MANUAL_DETECTED"
+  },
+  "Math_2/org/apache/commons/math3/distribution/HypergeometricDistribution.java": {
+    "status": "COMPLETED",
+    "project": "Math_2",
+    "source_file": "org/apache/commons/math3/distribution/HypergeometricDistribution.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_2_buggy/HypergeometricDistributionTest.java",
+    "timestamp": "2026-09-21T01:30:52.384977",
+    "note": "MANUAL_DETECTED"
+  },
+  "Math_3/org/apache/commons/math3/util/MathArrays.java": {
+    "status": "COMPLETED",
+    "project": "Math_3",
+    "source_file": "org/apache/commons/math3/util/MathArrays.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_3_buggy/MathArraysTest.java",
+    "timestamp": "2026-09-21T01:30:52.384977",
+    "note": "MANUAL_DETECTED"
+  },
+  "Math_104/org/apache/commons/math/special/Gamma.java": {
+    "status": "COMPLETED",
+    "project": "Math_104",
+    "source_file": "org/apache/commons/math/special/Gamma.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_104_buggy/GammaTest.java",
+    "timestamp": "2026-09-21T01:32:48.490863",
+    "note": "MANUAL_DETECTED"
+  },
+  "Math_105/org/apache/commons/math/stat/regression/SimpleRegression.java": {
+    "status": "COMPLETED",
+    "project": "Math_105",
+    "source_file": "org/apache/commons/math/stat/regression/SimpleRegression.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_105_buggy/SimpleRegressionTest.java",
+    "timestamp": "2026-09-21T01:32:48.490863",
+    "note": "MANUAL_DETECTED"
+  },
+  "Math_106/org/apache/commons/math/fraction/ProperFractionFormat.java": {
+    "status": "COMPLETED",
+    "project": "Math_106",
+    "source_file": "org/apache/commons/math/fraction/ProperFractionFormat.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_106_buggy/ProperFractionFormatTest.java",
+    "timestamp": "2026-09-21T01:32:48.490863",
+    "note": "MANUAL_DETECTED"
+  },
+  "Chart_2/org/jfree/data/general/DatasetUtilities.java": {
+    "status": "COMPLETED",
+    "project": "Chart_2",
+    "source_file": "org/jfree/data/general/DatasetUtilities.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Chart_2_buggy/DatasetUtilitiesTest.java",
+    "timestamp": "2026-09-21T01:45:48.035683",
+    "note": "MANUAL_DETECTED"
+  },
+  "Chart_3/org/jfree/data/time/TimeSeries.java": {
+    "status": "COMPLETED",
+    "project": "Chart_3",
+    "source_file": "org/jfree/data/time/TimeSeries.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Chart_3_buggy/TimeSeriesTest.java",
+    "timestamp": "2026-09-21T01:45:48.035683",
+    "note": "MANUAL_DETECTED"
+  },
+  "Chart_5/org/jfree/data/xy/XYSeries.java": {
+    "status": "COMPLETED",
+    "project": "Chart_5",
+    "source_file": "org/jfree/data/xy/XYSeries.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Chart_5_buggy/XYSeriesTest.java",
+    "timestamp": "2026-09-21T01:48:04.337318",
+    "note": "MANUAL_DETECTED"
+  },
+  "Csv_4/org/apache/commons/csv/CSVParser.java": {
+    "status": "COMPLETED",
+    "project": "Csv_4",
+    "source_file": "org/apache/commons/csv/CSVParser.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Csv_4_buggy/CSVParserTest.java",
+    "timestamp": "2026-09-22T21:34:13.505250",
+    "note": "MANUAL_DETECTED"
+  },
+  "Csv_5/org/apache/commons/csv/CSVPrinter.java": {
+    "status": "COMPLETED",
+    "project": "Csv_5",
+    "source_file": "org/apache/commons/csv/CSVPrinter.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Csv_5_buggy/CSVPrinterTest.java",
+    "timestamp": "2026-09-22T21:34:13.505250",
+    "note": "MANUAL_DETECTED"
+  },
+  "Csv_7/org/apache/commons/csv/CSVParser.java": {
+    "status": "COMPLETED",
+    "project": "Csv_7",
+    "source_file": "org/apache/commons/csv/CSVParser.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Csv_7_buggy/CSVParserTest.java",
+    "timestamp": "2026-09-22T21:34:13.505250",
+    "note": "MANUAL_DETECTED"
+  },
+  "Csv_8/org/apache/commons/csv/CSVFormat.java": {
+    "status": "COMPLETED",
+    "project": "Csv_8",
+    "source_file": "org/apache/commons/csv/CSVFormat.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Csv_8_buggy/CSVFormatTest.java",
+    "timestamp": "2026-09-22T21:34:13.505250",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonXml_1/com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java": {
+    "status": "COMPLETED",
+    "project": "JacksonXml_1",
+    "source_file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonXml_1_buggy/FromXmlParserTest.java",
+    "timestamp": "2026-09-22T21:34:30.655581",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonXml_2/com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java": {
+    "status": "COMPLETED",
+    "project": "JacksonXml_2",
+    "source_file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonXml_2_buggy/XmlTokenStreamTest.java",
+    "timestamp": "2026-09-22T21:34:30.655581",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonXml_3/com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java": {
+    "status": "COMPLETED",
+    "project": "JacksonXml_3",
+    "source_file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonXml_3_buggy/FromXmlParserTest.java",
+    "timestamp": "2026-09-22T21:34:30.655581",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonXml_4/com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java": {
+    "status": "COMPLETED",
+    "project": "JacksonXml_4",
+    "source_file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonXml_4_buggy/XmlSerializerProviderTest.java",
+    "timestamp": "2026-09-22T21:34:30.655581",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonXml_5/com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java": {
+    "status": "COMPLETED",
+    "project": "JacksonXml_5",
+    "source_file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonXml_5_buggy/XmlSerializerProviderTest.java",
+    "timestamp": "2026-09-22T21:34:30.655581",
+    "note": "MANUAL_DETECTED"
+  },
+  "JacksonXml_6/com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java": {
+    "status": "COMPLETED",
+    "project": "JacksonXml_6",
+    "source_file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonXml_6_buggy/ToXmlGeneratorTest.java",
+    "timestamp": "2026-09-22T21:34:30.655581",
+    "note": "MANUAL_DETECTED"
+  },
+  "Chart_7/org/jfree/data/time/TimePeriodValues.java": {
+    "status": "COMPLETED",
+    "project": "Chart_7",
+    "source_file": "org/jfree/data/time/TimePeriodValues.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Chart_7_buggy/TimePeriodValuesTest.java",
+    "timestamp": "2026-09-22T21:34:39.149667",
+    "note": "MANUAL_DETECTED"
+  },
+  "Chart_8/org/jfree/data/time/Week.java": {
+    "status": "COMPLETED",
+    "project": "Chart_8",
+    "source_file": "org/jfree/data/time/Week.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Chart_8_buggy/WeekTest.java",
+    "timestamp": "2026-09-22T21:34:39.149667",
+    "note": "MANUAL_DETECTED"
+  },
+  "Chart_9/org/jfree/data/time/TimeSeries.java": {
+    "status": "COMPLETED",
+    "project": "Chart_9",
+    "source_file": "org/jfree/data/time/TimeSeries.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Chart_9_buggy/TimeSeriesTest.java",
+    "timestamp": "2026-09-22T21:34:39.149667",
+    "note": "MANUAL_DETECTED"
+  },
+  "Chart_16/org/jfree/data/category/DefaultIntervalCategoryDataset.java": {
+    "status": "COMPLETED",
+    "project": "Chart_16",
+    "source_file": "org/jfree/data/category/DefaultIntervalCategoryDataset.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Chart_16_buggy/DefaultIntervalCategoryDatasetTest.java",
+    "timestamp": "2026-09-22T21:34:39.149667",
+    "note": "MANUAL_DETECTED"
+  },
+  "Chart_17/org/jfree/data/time/TimeSeries.java": {
+    "status": "COMPLETED",
+    "project": "Chart_17",
+    "source_file": "org/jfree/data/time/TimeSeries.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Chart_17_buggy/TimeSeriesTest.java",
+    "timestamp": "2026-09-22T21:34:39.149667",
+    "note": "MANUAL_DETECTED"
+  },
+  "Chart_18/org/jfree/data/DefaultKeyedValues.java": {
+    "status": "COMPLETED",
+    "project": "Chart_18",
+    "source_file": "org/jfree/data/DefaultKeyedValues.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Chart_18_buggy/DefaultKeyedValuesTest.java",
+    "timestamp": "2026-09-22T21:34:39.149667",
+    "note": "MANUAL_DETECTED"
+  },
+  "Chart_18/org/jfree/data/DefaultKeyedValues2D.java": {
+    "status": "COMPLETED",
+    "project": "Chart_18",
+    "source_file": "org/jfree/data/DefaultKeyedValues2D.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Chart_18_buggy/DefaultKeyedValues2DTest.java",
+    "timestamp": "2026-09-22T21:34:39.149667",
+    "note": "MANUAL_DETECTED"
+  },
+  "Chart_21/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java": {
+    "status": "COMPLETED",
+    "project": "Chart_21",
+    "source_file": "org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Chart_21_buggy/DefaultBoxAndWhiskerCategoryDatasetTest.java",
+    "timestamp": "2026-09-22T21:34:39.149667",
+    "note": "MANUAL_DETECTED"
+  },
+  "Chart_22/org/jfree/data/KeyedObjects2D.java": {
+    "status": "COMPLETED",
+    "project": "Chart_22",
+    "source_file": "org/jfree/data/KeyedObjects2D.java",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Chart_22_buggy/KeyedObjects2DTest.java",
+    "timestamp": "2026-09-22T21:34:39.149667",
+    "note": "MANUAL_DETECTED"
+  },
+  "Collections_15/org/apache/commons/collections/list/SetUniqueList.java": {
+    "project": "Collections_15",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_15/org/apache/commons/collections/list/SetUniqueList.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_15_buggy/SetUniqueListTest.java",
+    "file_size_bytes": 19381,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 43.57,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3344,
+      "completion_tokens": 4855,
+      "total_tokens": 10170
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 10170,
+      "daily_remaining_tokens": 339830
+    },
+    "updated_at": "2026-09-22T21:37:33.504488"
+  },
+  "Collections_16/org/apache/commons/collections/list/SetUniqueList.java": {
+    "project": "Collections_16",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_16/org/apache/commons/collections/list/SetUniqueList.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_16_buggy/SetUniqueListTest.java",
+    "file_size_bytes": 24295,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 48.67,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3364,
+      "completion_tokens": 6330,
+      "total_tokens": 11132
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 11132,
+      "daily_remaining_tokens": 338868
+    },
+    "updated_at": "2026-09-22T21:38:23.685531"
+  },
+  "Collections_18/org/apache/commons/collections/set/ListOrderedSet.java": {
+    "project": "Collections_18",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_18/org/apache/commons/collections/set/ListOrderedSet.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_18_buggy/ListOrderedSetTest.java",
+    "file_size_bytes": 25610,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 44.02,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3774,
+      "completion_tokens": 6411,
+      "total_tokens": 11441
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 11441,
+      "daily_remaining_tokens": 338559
+    },
+    "updated_at": "2026-09-22T21:39:09.214250"
+  },
+  "Collections_19/org/apache/commons/collections/list/SetUniqueList.java": {
+    "project": "Collections_19",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_19/org/apache/commons/collections/list/SetUniqueList.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_19_buggy/SetUniqueListTest.java",
+    "file_size_bytes": 22592,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 51.85,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4010,
+      "completion_tokens": 5717,
+      "total_tokens": 12274
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 12274,
+      "daily_remaining_tokens": 337726
+    },
+    "updated_at": "2026-09-22T21:40:02.574446"
+  },
+  "Collections_21/org/apache/commons/collections4/list/SetUniqueList.java": {
+    "project": "Collections_21",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_21/org/apache/commons/collections4/list/SetUniqueList.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_21_buggy/SetUniqueListTest.java",
+    "file_size_bytes": 28467,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 47.97,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4085,
+      "completion_tokens": 7078,
+      "total_tokens": 13155
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 21354,
+      "daily_remaining_tokens": 328646
+    },
+    "updated_at": "2026-09-22T21:40:52.061320"
+  },
+  "Collections_22/org/apache/commons/collections4/map/ListOrderedMap.java": {
+    "project": "Collections_22",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_22/org/apache/commons/collections4/map/ListOrderedMap.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_22_buggy/ListOrderedMapTest.java",
+    "file_size_bytes": 20940,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 37.86,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4227,
+      "completion_tokens": 5926,
+      "total_tokens": 11022
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 20716,
+      "daily_remaining_tokens": 329284
+    },
+    "updated_at": "2026-09-22T21:41:31.426251"
+  },
+  "Collections_20/org/apache/commons/collections/list/TreeList.java": {
+    "project": "Collections_20",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Collections_20/org/apache/commons/collections/list/TreeList.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Collections_20_buggy/TreeListTest.java",
+    "file_size_bytes": 19713,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 38.48,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4721,
+      "completion_tokens": 5328,
+      "total_tokens": 11065
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 21250,
+      "daily_remaining_tokens": 328750
+    },
+    "updated_at": "2026-09-22T21:42:11.422671"
+  },
+  "Mockito_35/org/mockito/Matchers.java": {
+    "project": "Mockito_35",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Mockito_35/org/mockito/Matchers.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_35_buggy/MatchersTest.java",
+    "file_size_bytes": 17043,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 48.82,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2159,
+      "completion_tokens": 4648,
+      "total_tokens": 10086
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 29448,
+      "daily_remaining_tokens": 320552
+    },
+    "updated_at": "2026-09-22T21:43:14.400317"
+  },
+  "Mockito_30/org/mockito/exceptions/Reporter.java": {
+    "project": "Mockito_30",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Mockito_30/org/mockito/exceptions/Reporter.java",
+    "status": "FAILED",
+    "error": "Gateway TTFT Timeout",
+    "updated_at": "2026-09-22T21:47:17.395822"
+  },
+  "Mockito_8/org/mockito/internal/util/reflection/GenericMetadataSupport.java": {
+    "project": "Mockito_8",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Mockito_8/org/mockito/internal/util/reflection/GenericMetadataSupport.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_8_buggy/GenericMetadataSupportTest.java",
+    "file_size_bytes": 18004,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 37.6,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3716,
+      "completion_tokens": 4047,
+      "total_tokens": 9822
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 42607,
+      "daily_remaining_tokens": 307393
+    },
+    "updated_at": "2026-09-22T21:48:55.391379"
+  },
+  "Mockito_7/org/mockito/internal/util/reflection/GenericMetadataSupport.java": {
+    "project": "Mockito_7",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Mockito_7/org/mockito/internal/util/reflection/GenericMetadataSupport.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_7_buggy/GenericMetadataSupportTest.java",
+    "file_size_bytes": 23846,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 38.41,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3723,
+      "completion_tokens": 5278,
+      "total_tokens": 9640
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 44323,
+      "daily_remaining_tokens": 305677
+    },
+    "updated_at": "2026-09-22T21:49:35.341565"
+  },
+  "Mockito_6/org/mockito/Matchers.java": {
+    "project": "Mockito_6",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Mockito_6/org/mockito/Matchers.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_6_buggy/MatchersTest.java",
+    "file_size_bytes": 23444,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 62.38,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2353,
+      "completion_tokens": 6242,
+      "total_tokens": 12419
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 36285,
+      "daily_remaining_tokens": 313715
+    },
+    "updated_at": "2026-09-22T21:50:39.249102"
+  },
+  "Mockito_4/org/mockito/exceptions/Reporter.java": {
+    "project": "Mockito_4",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Mockito_4/org/mockito/exceptions/Reporter.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_4_buggy/ReporterTest.java",
+    "file_size_bytes": 27155,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 61.08,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8884,
+      "completion_tokens": 6219,
+      "total_tokens": 19362
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 59910,
+      "daily_remaining_tokens": 290090
+    },
+    "updated_at": "2026-09-22T21:52:42.218721"
+  },
+  "Mockito_16/org/mockito/Mockito.java": {
+    "project": "Mockito_16",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Mockito_16/org/mockito/Mockito.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Mockito_16_buggy/MockitoTest.java",
+    "file_size_bytes": 13730,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 25.27,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1856,
+      "completion_tokens": 3579,
+      "total_tokens": 6094
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 49778,
+      "daily_remaining_tokens": 300222
+    },
+    "updated_at": "2026-09-22T21:53:09.033366"
+  },
+  "JacksonCore_14/com/fasterxml/jackson/core/io/IOContext.java": {
+    "project": "JacksonCore_14",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonCore_14/com/fasterxml/jackson/core/io/IOContext.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_14_buggy/IOContextTest.java",
+    "file_size_bytes": 16713,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 41.42,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3083,
+      "completion_tokens": 4239,
+      "total_tokens": 9745
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 63660,
+      "daily_remaining_tokens": 286340
+    },
+    "updated_at": "2026-09-22T21:54:44.186159"
+  },
+  "JacksonCore_9/com/fasterxml/jackson/core/base/ParserMinimalBase.java": {
+    "project": "JacksonCore_9",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonCore_9/com/fasterxml/jackson/core/base/ParserMinimalBase.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_9_buggy/ParserMinimalBaseTest.java",
+    "file_size_bytes": 29231,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 68.18,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5381,
+      "completion_tokens": 7524,
+      "total_tokens": 15813
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 71464,
+      "daily_remaining_tokens": 278536
+    },
+    "updated_at": "2026-09-22T21:55:53.881418"
+  },
+  "JacksonCore_8/com/fasterxml/jackson/core/util/TextBuffer.java": {
+    "project": "JacksonCore_8",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonCore_8/com/fasterxml/jackson/core/util/TextBuffer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_8_buggy/TextBufferTest.java",
+    "file_size_bytes": 21053,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 58.53,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4158,
+      "completion_tokens": 5567,
+      "total_tokens": 14418
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 63537,
+      "daily_remaining_tokens": 286463
+    },
+    "updated_at": "2026-09-22T21:56:53.931100"
+  },
+  "JacksonCore_15/com/fasterxml/jackson/core/filter/FilteringParserDelegate.java": {
+    "project": "JacksonCore_15",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonCore_15/com/fasterxml/jackson/core/filter/FilteringParserDelegate.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_15_buggy/FilteringParserDelegateTest.java",
+    "file_size_bytes": 23492,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 55.12,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5934,
+      "completion_tokens": 5426,
+      "total_tokens": 14270
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 46731,
+      "daily_remaining_tokens": 303269
+    },
+    "updated_at": "2026-09-22T21:57:50.568778"
+  },
+  "JacksonCore_10/com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java": {
+    "project": "JacksonCore_10",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonCore_10/com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_10_buggy/ByteQuadsCanonicalizerTest.java",
+    "file_size_bytes": 17794,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 42.57,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8125,
+      "completion_tokens": 5725,
+      "total_tokens": 15092
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 76329,
+      "daily_remaining_tokens": 273671
+    },
+    "updated_at": "2026-09-22T21:58:34.659294"
+  },
+  "JacksonCore_11/com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java": {
+    "project": "JacksonCore_11",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonCore_11/com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_11_buggy/ByteQuadsCanonicalizerTest.java",
+    "file_size_bytes": 14766,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 57.69,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8169,
+      "completion_tokens": 4748,
+      "total_tokens": 17290
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 85846,
+      "daily_remaining_tokens": 264154
+    },
+    "updated_at": "2026-09-22T21:59:33.867240"
+  },
+  "JacksonCore_9/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java": {
+    "project": "JacksonCore_9",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonCore_9/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_9_buggy/ReaderBasedJsonParserTest.java",
+    "file_size_bytes": 37702,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 81.39,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 16478,
+      "completion_tokens": 9976,
+      "total_tokens": 31284
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 90128,
+      "daily_remaining_tokens": 259872
+    },
+    "updated_at": "2026-09-22T22:00:56.780879"
+  },
+  "JacksonCore_12/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java": {
+    "project": "JacksonCore_12",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonCore_12/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_12_buggy/ReaderBasedJsonParserTest.java",
+    "file_size_bytes": 24351,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 74.37,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 19545,
+      "completion_tokens": 6055,
+      "total_tokens": 28496
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 72317,
+      "daily_remaining_tokens": 277683
+    },
+    "updated_at": "2026-09-22T22:02:12.698849"
+  },
+  "JacksonCore_9/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java": {
+    "project": "JacksonCore_9",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonCore_9/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_9_buggy/UTF8StreamJsonParserTest.java",
+    "file_size_bytes": 30520,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 61.97,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 26772,
+      "completion_tokens": 7806,
+      "total_tokens": 36876
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 111963,
+      "daily_remaining_tokens": 238037
+    },
+    "updated_at": "2026-09-22T22:03:16.188612"
+  },
+  "JacksonCore_12/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java": {
+    "project": "JacksonCore_12",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonCore_12/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonCore_12_buggy/UTF8StreamJsonParserTest.java",
+    "file_size_bytes": 32765,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 68.8,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 27021,
+      "completion_tokens": 8214,
+      "total_tokens": 37616
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 119089,
+      "daily_remaining_tokens": 230911
+    },
+    "updated_at": "2026-09-22T22:04:26.542369"
+  },
+  "JxPath_3/org/apache/commons/jxpath/ri/model/beans/NullPropertyPointer.java": {
+    "project": "JxPath_3",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JxPath_3/org/apache/commons/jxpath/ri/model/beans/NullPropertyPointer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_3_buggy/NullPropertyPointerTest.java",
+    "file_size_bytes": 25743,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 98.34,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2272,
+      "completion_tokens": 6098,
+      "total_tokens": 15129
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 131837,
+      "daily_remaining_tokens": 218163
+    },
+    "updated_at": "2026-09-22T22:07:57.696466"
+  },
+  "JxPath_5/org/apache/commons/jxpath/ri/model/NodePointer.java": {
+    "project": "JxPath_5",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JxPath_5/org/apache/commons/jxpath/ri/model/NodePointer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_5_buggy/NodePointerTest.java",
+    "file_size_bytes": 27221,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 44.34,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3828,
+      "completion_tokens": 6930,
+      "total_tokens": 12022
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 97320,
+      "daily_remaining_tokens": 252680
+    },
+    "updated_at": "2026-09-22T22:08:43.565100"
+  },
+  "JxPath_4/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java": {
+    "project": "JxPath_4",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JxPath_4/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_4_buggy/DOMNodePointerTest.java",
+    "file_size_bytes": 28304,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 81.15,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6077,
+      "completion_tokens": 7098,
+      "total_tokens": 18348
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 87769,
+      "daily_remaining_tokens": 262231
+    },
+    "updated_at": "2026-09-22T22:10:06.221263"
+  },
+  "JxPath_12/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java": {
+    "project": "JxPath_12",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JxPath_12/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_12_buggy/DOMNodePointerTest.java",
+    "file_size_bytes": 23823,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 36.5,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6103,
+      "completion_tokens": 6002,
+      "total_tokens": 12826
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 130634,
+      "daily_remaining_tokens": 219366
+    },
+    "updated_at": "2026-09-22T22:10:44.244179"
+  },
+  "JxPath_13/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java": {
+    "project": "JxPath_13",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JxPath_13/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_13_buggy/DOMNodePointerTest.java",
+    "file_size_bytes": 26010,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 40.35,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6122,
+      "completion_tokens": 6393,
+      "total_tokens": 13669
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 138747,
+      "daily_remaining_tokens": 211253
+    },
+    "updated_at": "2026-09-22T22:11:26.109966"
+  },
+  "JxPath_4/org/apache/commons/jxpath/ri/model/jdom/JDOMNodePointer.java": {
+    "project": "JxPath_4",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JxPath_4/org/apache/commons/jxpath/ri/model/jdom/JDOMNodePointer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_4_buggy/JDOMNodePointerTest.java",
+    "file_size_bytes": 31162,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 56.84,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6037,
+      "completion_tokens": 8117,
+      "total_tokens": 15374
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 111430,
+      "daily_remaining_tokens": 238570
+    },
+    "updated_at": "2026-09-22T22:12:24.465329"
+  },
+  "JxPath_14/org/apache/commons/jxpath/ri/compiler/CoreFunction.java": {
+    "project": "JxPath_14",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JxPath_14/org/apache/commons/jxpath/ri/compiler/CoreFunction.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_14_buggy/CoreFunctionTest.java",
+    "file_size_bytes": 44915,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 84.18,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6217,
+      "completion_tokens": 10898,
+      "total_tokens": 20647
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 130857,
+      "daily_remaining_tokens": 219143
+    },
+    "updated_at": "2026-09-22T22:18:21.427069"
+  },
+  "JxPath_16/org/apache/commons/jxpath/ri/model/jdom/JDOMNodePointer.java": {
+    "project": "JxPath_16",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JxPath_16/org/apache/commons/jxpath/ri/model/jdom/JDOMNodePointer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_16_buggy/JDOMNodePointerTest.java",
+    "file_size_bytes": 25501,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 64.03,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6261,
+      "completion_tokens": 6752,
+      "total_tokens": 16537
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 117608,
+      "daily_remaining_tokens": 232392
+    },
+    "updated_at": "2026-09-22T22:19:26.966268"
+  },
+  "JxPath_19/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java": {
+    "project": "JxPath_19",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JxPath_19/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_19_buggy/DOMNodePointerTest.java",
+    "file_size_bytes": 23195,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 45.88,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5980,
+      "completion_tokens": 5680,
+      "total_tokens": 13323
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 143236,
+      "daily_remaining_tokens": 206764
+    },
+    "updated_at": "2026-09-22T22:20:14.368339"
+  },
+  "JxPath_19/org/apache/commons/jxpath/ri/model/jdom/JDOMNodePointer.java": {
+    "project": "JxPath_19",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JxPath_19/org/apache/commons/jxpath/ri/model/jdom/JDOMNodePointer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_19_buggy/JDOMNodePointerTest.java",
+    "file_size_bytes": 37774,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 93.02,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6018,
+      "completion_tokens": 9717,
+      "total_tokens": 20360
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 174977,
+      "daily_remaining_tokens": 175023
+    },
+    "updated_at": "2026-09-22T22:21:48.912466"
+  },
+  "JxPath_16/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java": {
+    "project": "JxPath_16",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JxPath_16/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JxPath_16_buggy/DOMNodePointerTest.java",
+    "file_size_bytes": 32609,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 66.82,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6351,
+      "completion_tokens": 8087,
+      "total_tokens": 17496
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 144821,
+      "daily_remaining_tokens": 205179
+    },
+    "updated_at": "2026-09-22T22:22:57.238933"
+  },
+  "Gson_3/com/google/gson/internal/ConstructorConstructor.java": {
+    "project": "Gson_3",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Gson_3/com/google/gson/internal/ConstructorConstructor.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Gson_3_buggy/ConstructorConstructorTest.java",
+    "file_size_bytes": 14092,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 44.58,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2453,
+      "completion_tokens": 3269,
+      "total_tokens": 8735
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 150308,
+      "daily_remaining_tokens": 199692
+    },
+    "updated_at": "2026-09-22T22:23:50.446771"
+  },
+  "Gson_10/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java": {
+    "project": "Gson_10",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Gson_10/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Gson_10_buggy/ReflectiveTypeAdapterFactoryTest.java",
+    "file_size_bytes": 14976,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 49.99,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2916,
+      "completion_tokens": 3820,
+      "total_tokens": 10240
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 180592,
+      "daily_remaining_tokens": 169408
+    },
+    "updated_at": "2026-09-22T22:24:41.950758"
+  },
+  "Gson_12/com/google/gson/internal/bind/JsonTreeReader.java": {
+    "project": "Gson_12",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Gson_12/com/google/gson/internal/bind/JsonTreeReader.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Gson_12_buggy/JsonTreeReaderTest.java",
+    "file_size_bytes": 16242,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 37.21,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3310,
+      "completion_tokens": 4255,
+      "total_tokens": 9201
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 150964,
+      "daily_remaining_tokens": 199036
+    },
+    "updated_at": "2026-09-22T22:25:20.671640"
+  },
+  "Gson_5/com/google/gson/internal/bind/util/ISO8601Utils.java": {
+    "project": "Gson_5",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Gson_5/com/google/gson/internal/bind/util/ISO8601Utils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Gson_5_buggy/ISO8601UtilsTest.java",
+    "file_size_bytes": 17642,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 68.72,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4169,
+      "completion_tokens": 5313,
+      "total_tokens": 15012
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 129096,
+      "daily_remaining_tokens": 220904
+    },
+    "updated_at": "2026-09-22T22:26:30.904793"
+  },
+  "Gson_9/com/google/gson/stream/JsonWriter.java": {
+    "project": "Gson_9",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Gson_9/com/google/gson/stream/JsonWriter.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Gson_9_buggy/JsonWriterTest.java",
+    "file_size_bytes": 20296,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 49.99,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5984,
+      "completion_tokens": 5191,
+      "total_tokens": 13637
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 160932,
+      "daily_remaining_tokens": 189068
+    },
+    "updated_at": "2026-09-22T22:27:22.417811"
+  },
+  "Gson_4/com/google/gson/stream/JsonWriter.java": {
+    "project": "Gson_4",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Gson_4/com/google/gson/stream/JsonWriter.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Gson_4_buggy/JsonWriterTest.java",
+    "file_size_bytes": 24778,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 65.05,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6011,
+      "completion_tokens": 6438,
+      "total_tokens": 16292
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 193380,
+      "daily_remaining_tokens": 156620
+    },
+    "updated_at": "2026-09-22T22:28:28.993629"
+  },
+  "Gson_15/com/google/gson/stream/JsonWriter.java": {
+    "project": "Gson_15",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Gson_15/com/google/gson/stream/JsonWriter.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Gson_15_buggy/JsonWriterTest.java",
+    "file_size_bytes": 17328,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 33.58,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6049,
+      "completion_tokens": 4668,
+      "total_tokens": 12170
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 161498,
+      "daily_remaining_tokens": 188502
+    },
+    "updated_at": "2026-09-22T22:29:04.126181"
+  },
+  "Gson_14/com/google/gson/internal/$Gson$Types.java": {
+    "project": "Gson_14",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Gson_14/com/google/gson/internal/$Gson$Types.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Gson_14_buggy/$Gson$TypesTest.java",
+    "file_size_bytes": 23691,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 45.88,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4822,
+      "completion_tokens": 6509,
+      "total_tokens": 12724
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 136290,
+      "daily_remaining_tokens": 213710
+    },
+    "updated_at": "2026-09-22T22:29:51.540148"
+  },
+  "Gson_16/com/google/gson/internal/$Gson$Types.java": {
+    "project": "Gson_16",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Gson_16/com/google/gson/internal/$Gson$Types.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Gson_16_buggy/$Gson$TypesTest.java",
+    "file_size_bytes": 27118,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 45.42,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4936,
+      "completion_tokens": 7008,
+      "total_tokens": 12729
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 171199,
+      "daily_remaining_tokens": 178801
+    },
+    "updated_at": "2026-09-22T22:30:38.480481"
+  },
+  "Gson_2/com/google/gson/internal/bind/TypeAdapters.java": {
+    "project": "Gson_2",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Gson_2/com/google/gson/internal/bind/TypeAdapters.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Gson_2_buggy/TypeAdaptersTest.java",
+    "file_size_bytes": 28646,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 51.29,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7637,
+      "completion_tokens": 7547,
+      "total_tokens": 17050
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 206587,
+      "daily_remaining_tokens": 143413
+    },
+    "updated_at": "2026-09-22T22:31:31.279250"
+  },
+  "Gson_11/com/google/gson/internal/bind/TypeAdapters.java": {
+    "project": "Gson_11",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Gson_11/com/google/gson/internal/bind/TypeAdapters.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Gson_11_buggy/TypeAdaptersTest.java",
+    "file_size_bytes": 24758,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 45.8,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8545,
+      "completion_tokens": 7042,
+      "total_tokens": 16799
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 176844,
+      "daily_remaining_tokens": 173156
+    },
+    "updated_at": "2026-09-22T22:32:18.614959"
+  },
+  "Gson_9/com/google/gson/internal/bind/TypeAdapters.java": {
+    "project": "Gson_9",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Gson_9/com/google/gson/internal/bind/TypeAdapters.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Gson_9_buggy/TypeAdaptersTest.java",
+    "file_size_bytes": 25068,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 48.83,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 6267
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-22T22:33:08.958080"
+  },
+  "Gson_13/com/google/gson/stream/JsonReader.java": {
+    "project": "Gson_13",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Gson_13/com/google/gson/stream/JsonReader.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Gson_13_buggy/JsonReaderTest.java",
+    "file_size_bytes": 23094,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 54.04,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 5773
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-22T22:34:04.543758"
+  },
+  "Gson_7/com/google/gson/stream/JsonReader.java": {
+    "project": "Gson_7",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Gson_7/com/google/gson/stream/JsonReader.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Gson_7_buggy/JsonReaderTest.java",
+    "file_size_bytes": 22116,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 43.53,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10619,
+      "completion_tokens": 6182,
+      "total_tokens": 17543
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 222264,
+      "daily_remaining_tokens": 127736
+    },
+    "updated_at": "2026-09-22T22:34:49.599510"
+  },
+  "Gson_4/com/google/gson/stream/JsonReader.java": {
+    "project": "Gson_4",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Gson_4/com/google/gson/stream/JsonReader.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Gson_4_buggy/JsonReaderTest.java",
+    "file_size_bytes": 21327,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 46.71,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10659,
+      "completion_tokens": 5899,
+      "total_tokens": 17682
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 193314,
+      "daily_remaining_tokens": 156686
+    },
+    "updated_at": "2026-09-22T22:35:37.832284"
+  },
+  "Lang_13/org/apache/commons/lang3/SerializationUtils.java": {
+    "project": "Lang_13",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Lang_13/org/apache/commons/lang3/SerializationUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_13_buggy/SerializationUtilsTest.java",
+    "file_size_bytes": 21910,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 74.11,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3021,
+      "completion_tokens": 4568,
+      "total_tokens": 15488
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 185902,
+      "daily_remaining_tokens": 164098
+    },
+    "updated_at": "2026-09-22T22:36:59.243425"
+  },
+  "Lang_5/org/apache/commons/lang3/LocaleUtils.java": {
+    "project": "Lang_5",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Lang_5/org/apache/commons/lang3/LocaleUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_5_buggy/LocaleUtilsTest.java",
+    "file_size_bytes": 14914,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 35.61,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3605,
+      "completion_tokens": 3665,
+      "total_tokens": 9622
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 231144,
+      "daily_remaining_tokens": 118856
+    },
+    "updated_at": "2026-09-22T22:37:36.385928"
+  },
+  "Lang_12/org/apache/commons/lang3/RandomStringUtils.java": {
+    "project": "Lang_12",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Lang_12/org/apache/commons/lang3/RandomStringUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_12_buggy/RandomStringUtilsTest.java",
+    "file_size_bytes": 14972,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 30.59,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3822,
+      "completion_tokens": 4040,
+      "total_tokens": 9083
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 201273,
+      "daily_remaining_tokens": 148727
+    },
+    "updated_at": "2026-09-22T22:38:08.497071"
+  },
+  "Lang_11/org/apache/commons/lang3/RandomStringUtils.java": {
+    "project": "Lang_11",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Lang_11/org/apache/commons/lang3/RandomStringUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_11_buggy/RandomStringUtilsTest.java",
+    "file_size_bytes": 14694,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 31.55,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3881,
+      "completion_tokens": 3816,
+      "total_tokens": 8696
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 143593,
+      "daily_remaining_tokens": 206407
+    },
+    "updated_at": "2026-09-22T22:38:41.562019"
+  },
+  "Lang_23/org/apache/commons/lang3/text/ExtendedMessageFormat.java": {
+    "project": "Lang_23",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Lang_23/org/apache/commons/lang3/text/ExtendedMessageFormat.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_23_buggy/ExtendedMessageFormatTest.java",
+    "file_size_bytes": 12009,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 25.74,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4967,
+      "completion_tokens": 2808,
+      "total_tokens": 8298
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 186301,
+      "daily_remaining_tokens": 163699
+    },
+    "updated_at": "2026-09-22T22:39:08.806437"
+  },
+  "Lang_9/org/apache/commons/lang3/time/FastDateParser.java": {
+    "project": "Lang_9",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Lang_9/org/apache/commons/lang3/time/FastDateParser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_9_buggy/FastDateParserTest.java",
+    "file_size_bytes": 10899,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 23.11,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 2725
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-22T22:39:33.422156"
+  },
+  "Lang_10/org/apache/commons/lang3/time/FastDateParser.java": {
+    "project": "Lang_10",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Lang_10/org/apache/commons/lang3/time/FastDateParser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_10_buggy/FastDateParserTest.java",
+    "file_size_bytes": 14799,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 34.43,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5700,
+      "completion_tokens": 4110,
+      "total_tokens": 11370
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 211422,
+      "daily_remaining_tokens": 138578
+    },
+    "updated_at": "2026-09-22T22:40:09.369970"
+  },
+  "Lang_22/org/apache/commons/lang3/math/Fraction.java": {
+    "project": "Lang_22",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Lang_22/org/apache/commons/lang3/math/Fraction.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_22_buggy/FractionTest.java",
+    "file_size_bytes": 23887,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 62.33,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4760,
+      "completion_tokens": 6111,
+      "total_tokens": 14253
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 156847,
+      "daily_remaining_tokens": 193153
+    },
+    "updated_at": "2026-09-22T22:41:13.214230"
+  },
+  "Lang_8/org/apache/commons/lang3/time/FastDatePrinter.java": {
+    "project": "Lang_8",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Lang_8/org/apache/commons/lang3/time/FastDatePrinter.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_8_buggy/FastDatePrinterTest.java",
+    "file_size_bytes": 20859,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 54.69,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6262,
+      "completion_tokens": 6425,
+      "total_tokens": 14513
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 200291,
+      "daily_remaining_tokens": 149709
+    },
+    "updated_at": "2026-09-22T22:42:09.417086"
+  },
+  "Lang_15/org/apache/commons/lang3/reflect/TypeUtils.java": {
+    "project": "Lang_15",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Lang_15/org/apache/commons/lang3/reflect/TypeUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_15_buggy/TypeUtilsTest.java",
+    "file_size_bytes": 23796,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 51.66,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5672,
+      "completion_tokens": 5839,
+      "total_tokens": 13261
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 242053,
+      "daily_remaining_tokens": 107947
+    },
+    "updated_at": "2026-09-22T22:43:02.589797"
+  },
+  "Lang_16/org/apache/commons/lang3/math/NumberUtils.java": {
+    "project": "Lang_16",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Lang_16/org/apache/commons/lang3/math/NumberUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_16_buggy/NumberUtilsTest.java",
+    "file_size_bytes": 23928,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 57.86,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 5982
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-22T22:44:01.966897"
+  },
+  "Lang_27/org/apache/commons/lang3/math/NumberUtils.java": {
+    "project": "Lang_27",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Lang_27/org/apache/commons/lang3/math/NumberUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_27_buggy/NumberUtilsTest.java",
+    "file_size_bytes": 27637,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 53.81,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6067,
+      "completion_tokens": 8594,
+      "total_tokens": 16296
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 169761,
+      "daily_remaining_tokens": 180239
+    },
+    "updated_at": "2026-09-22T22:44:57.299046"
+  },
+  "Lang_24/org/apache/commons/lang3/math/NumberUtils.java": {
+    "project": "Lang_24",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Lang_24/org/apache/commons/lang3/math/NumberUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_24_buggy/NumberUtilsTest.java",
+    "file_size_bytes": 29196,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 62.76,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6105,
+      "completion_tokens": 9036,
+      "total_tokens": 16669
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 215134,
+      "daily_remaining_tokens": 134866
+    },
+    "updated_at": "2026-09-22T22:46:01.611510"
+  },
+  "Lang_7/org/apache/commons/lang3/math/NumberUtils.java": {
+    "project": "Lang_7",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Lang_7/org/apache/commons/lang3/math/NumberUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_7_buggy/NumberUtilsTest.java",
+    "file_size_bytes": 28795,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 53.03,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6187,
+      "completion_tokens": 9156,
+      "total_tokens": 16605
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 256908,
+      "daily_remaining_tokens": 93092
+    },
+    "updated_at": "2026-09-22T22:46:56.156832"
+  },
+  "Lang_3/org/apache/commons/lang3/math/NumberUtils.java": {
+    "project": "Lang_3",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Lang_3/org/apache/commons/lang3/math/NumberUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_3_buggy/NumberUtilsTest.java",
+    "file_size_bytes": 25437,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 48.44,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6098,
+      "completion_tokens": 8054,
+      "total_tokens": 15631
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 225493,
+      "daily_remaining_tokens": 124507
+    },
+    "updated_at": "2026-09-22T22:47:46.114372"
+  },
+  "Lang_26/org/apache/commons/lang3/time/FastDateFormat.java": {
+    "project": "Lang_26",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Lang_26/org/apache/commons/lang3/time/FastDateFormat.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_26_buggy/FastDateFormatTest.java",
+    "file_size_bytes": 6873,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 20.14,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 1720
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-22T22:48:07.760237"
+  },
+  "Lang_21/org/apache/commons/lang3/time/DateUtils.java": {
+    "project": "Lang_21",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Lang_21/org/apache/commons/lang3/time/DateUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_21_buggy/DateUtilsTest.java",
+    "file_size_bytes": 31362,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 58.84,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6751,
+      "completion_tokens": 9069,
+      "total_tokens": 17437
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 231043,
+      "daily_remaining_tokens": 118957
+    },
+    "updated_at": "2026-09-22T22:49:08.110696"
+  },
+  "Lang_20/org/apache/commons/lang3/StringUtils.java": {
+    "project": "Lang_20",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Lang_20/org/apache/commons/lang3/StringUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_20_buggy/StringUtilsTest.java",
+    "file_size_bytes": 46970,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 82.27,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 19965,
+      "completion_tokens": 12535,
+      "total_tokens": 34351
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 289997,
+      "daily_remaining_tokens": 60003
+    },
+    "updated_at": "2026-09-22T22:50:31.924536"
+  },
+  "Lang_14/org/apache/commons/lang3/StringUtils.java": {
+    "project": "Lang_14",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Lang_14/org/apache/commons/lang3/StringUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Lang_14_buggy/StringUtilsTest.java",
+    "file_size_bytes": 48674,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 87.65,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 20029,
+      "completion_tokens": 12935,
+      "total_tokens": 34417
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 258431,
+      "daily_remaining_tokens": 91569
+    },
+    "updated_at": "2026-09-22T22:52:01.096297"
+  },
+  "Time_2/org/joda/time/field/UnsupportedDurationField.java": {
+    "project": "Time_2",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_2/org/joda/time/field/UnsupportedDurationField.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_2_buggy/UnsupportedDurationFieldTest.java",
+    "file_size_bytes": 16237,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 38.04,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2285,
+      "completion_tokens": 3639,
+      "total_tokens": 8157
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 237583,
+      "daily_remaining_tokens": 112417
+    },
+    "updated_at": "2026-09-22T22:52:48.569794"
+  },
+  "Time_1/org/joda/time/field/UnsupportedDurationField.java": {
+    "project": "Time_1",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_1/org/joda/time/field/UnsupportedDurationField.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_1_buggy/UnsupportedDurationFieldTest.java",
+    "file_size_bytes": 16977,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 74.67,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2305,
+      "completion_tokens": 3834,
+      "total_tokens": 12282
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 300428,
+      "daily_remaining_tokens": 49572
+    },
+    "updated_at": "2026-09-22T22:54:04.755808"
+  },
+  "Time_15/org/joda/time/field/FieldUtils.java": {
+    "project": "Time_15",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_15/org/joda/time/field/FieldUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_15_buggy/FieldUtilsTest.java",
+    "file_size_bytes": 29751,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 90.47,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3536,
+      "completion_tokens": 7979,
+      "total_tokens": 19786
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 276764,
+      "daily_remaining_tokens": 73236
+    },
+    "updated_at": "2026-09-22T22:55:36.752634"
+  },
+  "Time_10/org/joda/time/base/BaseSingleFieldPeriod.java": {
+    "project": "Time_10",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_10/org/joda/time/base/BaseSingleFieldPeriod.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_10_buggy/BaseSingleFieldPeriodTest.java",
+    "file_size_bytes": 17975,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 42.38,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3677,
+      "completion_tokens": 4520,
+      "total_tokens": 10686
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 178812,
+      "daily_remaining_tokens": 171188
+    },
+    "updated_at": "2026-09-22T22:56:20.643675"
+  },
+  "Time_14/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java": {
+    "project": "Time_14",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_14/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_14_buggy/BasicMonthOfYearDateTimeFieldTest.java",
+    "file_size_bytes": 20100,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 48.65,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4142,
+      "completion_tokens": 6425,
+      "total_tokens": 12372
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 247722,
+      "daily_remaining_tokens": 102278
+    },
+    "updated_at": "2026-09-22T22:57:10.840119"
+  },
+  "Time_24/org/joda/time/format/DateTimeParserBucket.java": {
+    "project": "Time_24",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_24/org/joda/time/format/DateTimeParserBucket.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_24_buggy/DateTimeParserBucketTest.java",
+    "file_size_bytes": 19996,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 46.3,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5246,
+      "completion_tokens": 5006,
+      "total_tokens": 12446
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 306731,
+      "daily_remaining_tokens": 43269
+    },
+    "updated_at": "2026-09-22T22:57:58.673539"
+  },
+  "Time_26/org/joda/time/chrono/ZonedChronology.java": {
+    "project": "Time_26",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_26/org/joda/time/chrono/ZonedChronology.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_26_buggy/ZonedChronologyTest.java",
+    "file_size_bytes": 23448,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 46.84,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5395,
+      "completion_tokens": 6256,
+      "total_tokens": 13360
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 281853,
+      "daily_remaining_tokens": 68147
+    },
+    "updated_at": "2026-09-22T22:58:47.047244"
+  },
+  "Time_22/org/joda/time/base/BasePeriod.java": {
+    "project": "Time_22",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_22/org/joda/time/base/BasePeriod.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_22_buggy/BasePeriodTest.java",
+    "file_size_bytes": 29315,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 66.51,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3511,
+      "completion_tokens": 7961,
+      "total_tokens": 12549
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 188872,
+      "daily_remaining_tokens": 161128
+    },
+    "updated_at": "2026-09-22T22:59:55.061353"
+  },
+  "Time_11/org/joda/time/tz/ZoneInfoCompiler.java": {
+    "project": "Time_11",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_11/org/joda/time/tz/ZoneInfoCompiler.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_11_buggy/ZoneInfoCompilerTest.java",
+    "file_size_bytes": 22713,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 58.54,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6826,
+      "completion_tokens": 6045,
+      "total_tokens": 16458
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 262375,
+      "daily_remaining_tokens": 87625
+    },
+    "updated_at": "2026-09-22T23:00:55.117591"
+  },
+  "Time_16/org/joda/time/format/DateTimeFormatter.java": {
+    "project": "Time_16",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_16/org/joda/time/format/DateTimeFormatter.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_16_buggy/DateTimeFormatterTest.java",
+    "file_size_bytes": 24653,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 45.16,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4102,
+      "completion_tokens": 6592,
+      "total_tokens": 11970
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 316507,
+      "daily_remaining_tokens": 33493
+    },
+    "updated_at": "2026-09-22T23:01:41.799006"
+  },
+  "Time_7/org/joda/time/format/DateTimeFormatter.java": {
+    "project": "Time_7",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_7/org/joda/time/format/DateTimeFormatter.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_7_buggy/DateTimeFormatterTest.java",
+    "file_size_bytes": 23497,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 45.68,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4115,
+      "completion_tokens": 6202,
+      "total_tokens": 11890
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 292034,
+      "daily_remaining_tokens": 57966
+    },
+    "updated_at": "2026-09-22T23:02:29.002084"
+  },
+  "Time_4/org/joda/time/Partial.java": {
+    "project": "Time_4",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_4/org/joda/time/Partial.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_4_buggy/PartialTest.java",
+    "file_size_bytes": 14498,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 32.4,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 3624
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-22T23:03:02.915689"
+  },
+  "Time_2/org/joda/time/Partial.java": {
+    "project": "Time_2",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_2/org/joda/time/Partial.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_2_buggy/PartialTest.java",
+    "file_size_bytes": 16923,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 51.23,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 4230
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-22T23:03:55.661707"
+  },
+  "Time_1/org/joda/time/Partial.java": {
+    "project": "Time_1",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_1/org/joda/time/Partial.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_1_buggy/PartialTest.java",
+    "file_size_bytes": 24934,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 85.4,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4800,
+      "completion_tokens": 6464,
+      "total_tokens": 15269
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 330500,
+      "daily_remaining_tokens": 19500
+    },
+    "updated_at": "2026-09-22T23:05:22.566151"
+  },
+  "Time_18/org/joda/time/chrono/GJChronology.java": {
+    "project": "Time_18",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_18/org/joda/time/chrono/GJChronology.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_18_buggy/GJChronologyTest.java",
+    "file_size_bytes": 11003,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 38.41,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 2750
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-22T23:06:02.491374"
+  },
+  "Time_6/org/joda/time/chrono/GJChronology.java": {
+    "project": "Time_6",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_6/org/joda/time/chrono/GJChronology.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_6_buggy/GJChronologyTest.java",
+    "file_size_bytes": 9582,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 33.46,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 2395
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-22T23:06:37.469037"
+  },
+  "Time_26/org/joda/time/DateTimeZone.java": {
+    "project": "Time_26",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_26/org/joda/time/DateTimeZone.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_26_buggy/DateTimeZoneTest.java",
+    "file_size_bytes": 25349,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 55.88,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5628,
+      "completion_tokens": 6629,
+      "total_tokens": 14842
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 273630,
+      "daily_remaining_tokens": 76370
+    },
+    "updated_at": "2026-09-22T23:07:34.860389"
+  },
+  "Time_25/org/joda/time/DateTimeZone.java": {
+    "project": "Time_25",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_25/org/joda/time/DateTimeZone.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_25_buggy/DateTimeZoneTest.java",
+    "file_size_bytes": 24527,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 50.24,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5739,
+      "completion_tokens": 6195,
+      "total_tokens": 14326
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 340821,
+      "daily_remaining_tokens": 9179
+    },
+    "updated_at": "2026-09-22T23:08:26.615465"
+  },
+  "Time_23/org/joda/time/DateTimeZone.java": {
+    "project": "Time_23",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_23/org/joda/time/DateTimeZone.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_23_buggy/DateTimeZoneTest.java",
+    "file_size_bytes": 45473,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 76.2,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5945,
+      "completion_tokens": 11595,
+      "total_tokens": 20091
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 310552,
+      "daily_remaining_tokens": 39448
+    },
+    "updated_at": "2026-09-22T23:09:44.325226"
+  },
+  "Time_19/org/joda/time/DateTimeZone.java": {
+    "project": "Time_19",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_19/org/joda/time/DateTimeZone.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_19_buggy/DateTimeZoneTest.java",
+    "file_size_bytes": 23344,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 50.77,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5957,
+      "completion_tokens": 6253,
+      "total_tokens": 14038
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 201833,
+      "daily_remaining_tokens": 148167
+    },
+    "updated_at": "2026-09-22T23:10:36.604042"
+  },
+  "Time_17/org/joda/time/DateTimeZone.java": {
+    "project": "Time_17",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_17/org/joda/time/DateTimeZone.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_17_buggy/DateTimeZoneTest.java",
+    "file_size_bytes": 29714,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 62.87,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5963,
+      "completion_tokens": 7636,
+      "total_tokens": 15189
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 286234,
+      "daily_remaining_tokens": 63766
+    },
+    "updated_at": "2026-09-22T23:11:40.992596"
+  },
+  "Time_9/org/joda/time/DateTimeZone.java": {
+    "project": "Time_9",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_9/org/joda/time/DateTimeZone.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_9_buggy/DateTimeZoneTest.java",
+    "file_size_bytes": 17679,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 33.06,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 4419
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-22T23:12:15.571598"
+  },
+  "Time_3/org/joda/time/MutableDateTime.java": {
+    "project": "Time_3",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_3/org/joda/time/MutableDateTime.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_3_buggy/MutableDateTimeTest.java",
+    "file_size_bytes": 19729,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 43.34,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 4932
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-22T23:13:00.423413"
+  },
+  "Time_8/org/joda/time/DateTimeZone.java": {
+    "project": "Time_8",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_8/org/joda/time/DateTimeZone.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_8_buggy/DateTimeZoneTest.java",
+    "file_size_bytes": 11783,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 24.6,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 2945
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-22T23:13:26.535126"
+  },
+  "Time_27/org/joda/time/format/PeriodFormatterBuilder.java": {
+    "project": "Time_27",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_27/org/joda/time/format/PeriodFormatterBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_27_buggy/PeriodFormatterBuilderTest.java",
+    "file_size_bytes": 6309,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 19.77,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 1577
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-22T23:13:47.817702"
+  },
+  "Time_13/org/joda/time/format/PeriodFormatterBuilder.java": {
+    "project": "Time_13",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_13/org/joda/time/format/PeriodFormatterBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_13_buggy/PeriodFormatterBuilderTest.java",
+    "file_size_bytes": 18036,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 45.51,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 4509
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-22T23:14:34.840782"
+  },
+  "Time_5/org/joda/time/Period.java": {
+    "project": "Time_5",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_5/org/joda/time/Period.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_5_buggy/PeriodTest.java",
+    "file_size_bytes": 14597,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 52.34,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 3649
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-22T23:15:28.700129"
+  },
+  "Time_12/org/joda/time/LocalDate.java": {
+    "project": "Time_12",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_12/org/joda/time/LocalDate.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_12_buggy/LocalDateTest.java",
+    "file_size_bytes": 21305,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 45.38,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 5326
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-22T23:16:15.600607"
+  },
+  "Time_12/org/joda/time/LocalDateTime.java": {
+    "project": "Time_12",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_12/org/joda/time/LocalDateTime.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_12_buggy/LocalDateTimeTest.java",
+    "file_size_bytes": 28342,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 60.13,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7577,
+      "completion_tokens": 8221,
+      "total_tokens": 18213
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 302857,
+      "daily_remaining_tokens": 47143
+    },
+    "updated_at": "2026-09-22T23:17:17.244775"
+  },
+  "Time_20/org/joda/time/format/DateTimeFormatterBuilder.java": {
+    "project": "Time_20",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Time_20/org/joda/time/format/DateTimeFormatterBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Time_20_buggy/DateTimeFormatterBuilderTest.java",
+    "file_size_bytes": 40888,
+    "used_key": "sk_nWIdR...7X6ADW",
+    "elapsed_seconds": 65.76,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 17012,
+      "completion_tokens": 10699,
+      "total_tokens": 28825
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 367254,
+      "daily_remaining_tokens": -17254
+    },
+    "updated_at": "2026-09-22T23:18:24.514543"
+  },
+  "Compress_7/org/apache/commons/compress/archivers/tar/TarUtils.java": {
+    "project": "Compress_7",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_7/org/apache/commons/compress/archivers/tar/TarUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_7_buggy/TarUtilsTest.java",
+    "file_size_bytes": 12332,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 39.71,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 3083
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-22T23:19:32.824990"
+  },
+  "Compress_11/org/apache/commons/compress/archivers/ArchiveStreamFactory.java": {
+    "project": "Compress_11",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_11/org/apache/commons/compress/archivers/ArchiveStreamFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_11_buggy/ArchiveStreamFactoryTest.java",
+    "file_size_bytes": 17648,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 54.78,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3018,
+      "completion_tokens": 3910,
+      "total_tokens": 11824
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 319825,
+      "daily_remaining_tokens": 30175
+    },
+    "updated_at": "2026-09-22T23:20:29.429375"
+  },
+  "Compress_8/org/apache/commons/compress/archivers/tar/TarUtils.java": {
+    "project": "Compress_8",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_8/org/apache/commons/compress/archivers/tar/TarUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_8_buggy/TarUtilsTest.java",
+    "file_size_bytes": 13998,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 31.9,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3153,
+      "completion_tokens": 4045,
+      "total_tokens": 8460
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 208465,
+      "daily_remaining_tokens": 141535
+    },
+    "updated_at": "2026-09-22T23:21:02.850180"
+  },
+  "Compress_16/org/apache/commons/compress/archivers/ArchiveStreamFactory.java": {
+    "project": "Compress_16",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_16/org/apache/commons/compress/archivers/ArchiveStreamFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_16_buggy/ArchiveStreamFactoryTest.java",
+    "file_size_bytes": 228,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 28.87,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 57
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-22T23:21:33.233009"
+  },
+  "Compress_39/org/apache/commons/compress/utils/ArchiveUtils.java": {
+    "project": "Compress_39",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_39/org/apache/commons/compress/utils/ArchiveUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_39_buggy/ArchiveUtilsTest.java",
+    "file_size_bytes": 15004,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 38.75,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3185,
+      "completion_tokens": 4549,
+      "total_tokens": 9383
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 324312,
+      "daily_remaining_tokens": 25688
+    },
+    "updated_at": "2026-09-22T23:22:13.487685"
+  },
+  "Compress_3/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java": {
+    "project": "Compress_3",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_3/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_3_buggy/TarArchiveOutputStreamTest.java",
+    "file_size_bytes": 14454,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 45.04,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3343,
+      "completion_tokens": 3712,
+      "total_tokens": 9030
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 309472,
+      "daily_remaining_tokens": 40528
+    },
+    "updated_at": "2026-09-22T23:29:20.112188"
+  },
+  "Compress_5/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": {
+    "project": "Compress_5",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_5/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_5_buggy/ZipArchiveInputStreamTest.java",
+    "file_size_bytes": 17966,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 68.1,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3445,
+      "completion_tokens": 4898,
+      "total_tokens": 11733
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 334396,
+      "daily_remaining_tokens": 15604
+    },
+    "updated_at": "2026-09-22T23:30:30.650492"
+  },
+  "Compress_4/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java": {
+    "project": "Compress_4",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_4/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_4_buggy/TarArchiveOutputStreamTest.java",
+    "file_size_bytes": 16452,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 57.01,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3371,
+      "completion_tokens": 4098,
+      "total_tokens": 12626
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 225924,
+      "daily_remaining_tokens": 124076
+    },
+    "updated_at": "2026-09-22T23:31:29.173737"
+  },
+  "Compress_23/org/apache/commons/compress/archivers/sevenz/Coders.java": {
+    "project": "Compress_23",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_23/org/apache/commons/compress/archivers/sevenz/Coders.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_23_buggy/CodersTest.java",
+    "file_size_bytes": 13488,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 48.8,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3240,
+      "completion_tokens": 3531,
+      "total_tokens": 10810
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 318307,
+      "daily_remaining_tokens": 31693
+    },
+    "updated_at": "2026-09-22T23:32:19.487603"
+  },
+  "Compress_34/org/apache/commons/compress/archivers/zip/X7875_NewUnix.java": {
+    "project": "Compress_34",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_34/org/apache/commons/compress/archivers/zip/X7875_NewUnix.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_34_buggy/X7875_NewUnixTest.java",
+    "file_size_bytes": 13098,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 29.02,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3913,
+      "completion_tokens": 4024,
+      "total_tokens": 8794
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 339800,
+      "daily_remaining_tokens": 10200
+    },
+    "updated_at": "2026-09-22T23:32:50.036242"
+  },
+  "Compress_9/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java": {
+    "project": "Compress_9",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_9/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_9_buggy/TarArchiveOutputStreamTest.java",
+    "file_size_bytes": 16792,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 54.61,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3591,
+      "completion_tokens": 4080,
+      "total_tokens": 9629
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 230396,
+      "daily_remaining_tokens": 119604
+    },
+    "updated_at": "2026-09-22T23:33:46.188444"
+  },
+  "Compress_19/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java": {
+    "project": "Compress_19",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_19/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_19_buggy/Zip64ExtendedInformationExtraFieldTest.java",
+    "file_size_bytes": 18077,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 38.73,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3740,
+      "completion_tokens": 5062,
+      "total_tokens": 10760
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 325028,
+      "daily_remaining_tokens": 24972
+    },
+    "updated_at": "2026-09-22T23:34:26.428219"
+  },
+  "Compress_4/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java": {
+    "project": "Compress_4",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_4/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_4_buggy/CpioArchiveOutputStreamTest.java",
+    "file_size_bytes": 16793,
+    "used_key": "sk_3ZmE4...ItFh3j",
+    "elapsed_seconds": 55.26,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4220,
+      "completion_tokens": 4418,
+      "total_tokens": 11120
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 350063,
+      "daily_remaining_tokens": -63
+    },
+    "updated_at": "2026-09-22T23:35:23.208948"
+  },
+  "Compress_14/org/apache/commons/compress/archivers/tar/TarUtils.java": {
+    "project": "Compress_14",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_14/org/apache/commons/compress/archivers/tar/TarUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_14_buggy/TarUtilsTest.java",
+    "file_size_bytes": 17035,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 58.95,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4323,
+      "completion_tokens": 4904,
+      "total_tokens": 13157
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 336227,
+      "daily_remaining_tokens": 13773
+    },
+    "updated_at": "2026-09-22T23:36:23.716351"
+  },
+  "Compress_33/org/apache/commons/compress/compressors/CompressorStreamFactory.java": {
+    "project": "Compress_33",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_33/org/apache/commons/compress/compressors/CompressorStreamFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_33_buggy/CompressorStreamFactoryTest.java",
+    "file_size_bytes": 14475,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 59.94,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4096,
+      "completion_tokens": 3248,
+      "total_tokens": 12615
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 241053,
+      "daily_remaining_tokens": 108947
+    },
+    "updated_at": "2026-09-22T23:37:25.181824"
+  },
+  "Compress_6/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java": {
+    "project": "Compress_6",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_6/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_6_buggy/ZipArchiveEntryTest.java",
+    "file_size_bytes": 25534,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 60.04,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4371,
+      "completion_tokens": 6694,
+      "total_tokens": 14129
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 346426,
+      "daily_remaining_tokens": 3574
+    },
+    "updated_at": "2026-09-22T23:38:26.750320"
+  },
+  "Compress_29/org/apache/commons/compress/archivers/ArchiveStreamFactory.java": {
+    "project": "Compress_29",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_29/org/apache/commons/compress/archivers/ArchiveStreamFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_29_buggy/ArchiveStreamFactoryTest.java",
+    "file_size_bytes": 25157,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 44.9,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4409,
+      "completion_tokens": 5769,
+      "total_tokens": 12254
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 248036,
+      "daily_remaining_tokens": 101964
+    },
+    "updated_at": "2026-09-22T23:39:13.189144"
+  },
+  "Compress_20/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java": {
+    "project": "Compress_20",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_20/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_20_buggy/CpioArchiveInputStreamTest.java",
+    "file_size_bytes": 24837,
+    "used_key": "sk_E3pJj...wHDrbt",
+    "elapsed_seconds": 64.86,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5421,
+      "completion_tokens": 7323,
+      "total_tokens": 14722
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 358084,
+      "daily_remaining_tokens": -8084
+    },
+    "updated_at": "2026-09-22T23:40:19.563667"
+  },
+  "Compress_29/org/apache/commons/compress/archivers/dump/DumpArchiveInputStream.java": {
+    "project": "Compress_29",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_29/org/apache/commons/compress/archivers/dump/DumpArchiveInputStream.java",
+    "status": "FAILED",
+    "error": "Gateway TTFT Timeout",
+    "updated_at": "2026-09-22T23:43:23.075822"
+  },
+  "Compress_12/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java": {
+    "project": "Compress_12",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_12/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_12_buggy/TarArchiveInputStreamTest.java",
+    "file_size_bytes": 19237,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 68.07,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5139,
+      "completion_tokens": 5459,
+      "total_tokens": 15696
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 261656,
+      "daily_remaining_tokens": 88344
+    },
+    "updated_at": "2026-09-22T23:44:31.164677"
+  },
+  "Compress_29/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java": {
+    "project": "Compress_29",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_29/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_29_buggy/CpioArchiveInputStreamTest.java",
+    "file_size_bytes": 21410,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 64.12,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5854,
+      "completion_tokens": 5758,
+      "total_tokens": 15616
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 272174,
+      "daily_remaining_tokens": 77826
+    },
+    "updated_at": "2026-09-22T23:45:36.807220"
+  },
+  "Compress_29/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java": {
+    "project": "Compress_29",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_29/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_29_buggy/CpioArchiveOutputStreamTest.java",
+    "file_size_bytes": 23021,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 67.63,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5719,
+      "completion_tokens": 5768,
+      "total_tokens": 13248
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 303621,
+      "daily_remaining_tokens": 46379
+    },
+    "updated_at": "2026-09-22T23:46:45.968804"
+  },
+  "Compress_18/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java": {
+    "project": "Compress_18",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_18/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_18_buggy/TarArchiveOutputStreamTest.java",
+    "file_size_bytes": 26676,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 61.99,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4103,
+      "completion_tokens": 6679,
+      "total_tokens": 11995
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 313855,
+      "daily_remaining_tokens": 36145
+    },
+    "updated_at": "2026-09-22T23:47:49.489452"
+  },
+  "Compress_15/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java": {
+    "project": "Compress_15",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_15/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_15_buggy/ZipArchiveEntryTest.java",
+    "file_size_bytes": 19940,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 66.48,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3564,
+      "completion_tokens": 5368,
+      "total_tokens": 14771
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 327413,
+      "daily_remaining_tokens": 22587
+    },
+    "updated_at": "2026-09-22T23:48:57.511782"
+  },
+  "Compress_13/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java": {
+    "project": "Compress_13",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_13/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_13_buggy/ZipArchiveEntryTest.java",
+    "file_size_bytes": 7115,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 30.42,
+    "finish_reason": "stop",
+    "usage": {
+      "estimated_completion_tokens": 1778
+    },
+    "model_quota": null,
+    "updated_at": "2026-09-22T23:49:29.459288"
+  },
+  "Compress_28/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java": {
+    "project": "Compress_28",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_28/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_28_buggy/TarArchiveInputStreamTest.java",
+    "file_size_bytes": 24933,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 68.51,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3912,
+      "completion_tokens": 6549,
+      "total_tokens": 12809
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 334383,
+      "daily_remaining_tokens": 15617
+    },
+    "updated_at": "2026-09-22T23:50:39.489471"
+  },
+  "Compress_35/org/apache/commons/compress/archivers/tar/TarUtils.java": {
+    "project": "Compress_35",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_35/org/apache/commons/compress/archivers/tar/TarUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_35_buggy/TarUtilsTest.java",
+    "file_size_bytes": 14938,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 49.62,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3723,
+      "completion_tokens": 4512,
+      "total_tokens": 9822
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 341857,
+      "daily_remaining_tokens": 8143
+    },
+    "updated_at": "2026-09-22T23:51:30.629997"
+  },
+  "Compress_21/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java": {
+    "project": "Compress_21",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_21/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Compress_21_buggy/SevenZOutputFileTest.java",
+    "file_size_bytes": 9327,
+    "used_key": "sk_tPXl1...eDZcy7",
+    "elapsed_seconds": 31.04,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5627,
+      "completion_tokens": 2539,
+      "total_tokens": 10237
+    },
+    "model_quota": {
+      "daily_quota_tokens": 350000,
+      "daily_usage_tokens": 350507,
+      "daily_remaining_tokens": -507
+    },
+    "updated_at": "2026-09-22T23:52:03.190635"
+  },
+  "Compress_17/org/apache/commons/compress/archivers/tar/TarUtils.java": {
+    "project": "Compress_17",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Compress_17/org/apache/commons/compress/archivers/tar/TarUtils.java",
+    "status": "FAILED",
+    "error": "คีย์ API ทั้งหมดในระบบโควต้าหมดแล้ว หรือไม่สามารถเชื่อมต่อได้",
+    "updated_at": "2026-09-22T23:52:04.711628"
   }
 }
