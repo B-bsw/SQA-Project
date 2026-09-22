@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-22T17:33:35Z",
+  "round": 2,
+  "project": "Closure",
+  "bug_id": 134,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 10,
+  "coverage": 18.29,
+  "line_cov": 22.92,
+  "branch_cov": 13.66,
+  "total_goals": 1454,
+  "covered_goals": 225,
+  "lines": 74,
+  "covered_lines": 162,
+  "total_branches": 604,
+  "covered_branches": 54,
+  "buggy_result": "FAIL",
+  "buggy_fails": 2,
+  "fixed_result": "FAIL",
+  "fixed_fails": 2,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "com.google.javascript.jscomp.AmbiguateProperties",
+      "generation_result": "PASS",
+      "generation_seconds": 79,
+      "tests": 6,
+      "coverage": 25.89,
+      "line_cov": 31.64,
+      "branch_cov": 20.13,
+      "total_goals": 410,
+      "covered_goals": 111,
+      "lines": 38,
+      "covered_lines": 81,
+      "total_branches": 140,
+      "covered_branches": 27,
+      "total_methods": 35,
+      "covered_methods": 13,
+      "branchless_methods": 14,
+      "covered_branchless_methods": 4
+    },
+    {
+      "target_class": "com.google.javascript.jscomp.TypedScopeCreator",
+      "generation_result": "PASS",
+      "generation_seconds": 75,
+      "tests": 4,
+      "coverage": 10.69,
+      "line_cov": 14.19,
+      "branch_cov": 7.19,
+      "total_goals": 1044,
+      "covered_goals": 114,
+      "lines": 36,
+      "covered_lines": 81,
+      "total_branches": 464,
+      "covered_branches": 27,
+      "total_methods": 32,
+      "covered_methods": 16,
+      "branchless_methods": 9,
+      "covered_branchless_methods": 7
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "FAIL",
+      "failures": 2
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 2
+    }
+  ]
+}

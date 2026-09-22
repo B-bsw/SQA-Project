@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-22T17:30:37Z",
+  "round": 2,
+  "project": "Closure",
+  "bug_id": 131,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 105,
+  "coverage": 83.92,
+  "line_cov": 86.73,
+  "branch_cov": 80.78,
+  "total_goals": 420,
+  "covered_goals": 346,
+  "lines": 3,
+  "covered_lines": 98,
+  "total_branches": 306,
+  "covered_branches": 247,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "com.google.javascript.rhino.TokenStream",
+      "generation_result": "PASS",
+      "generation_seconds": 99,
+      "tests": 105,
+      "coverage": 83.92,
+      "line_cov": 86.73,
+      "branch_cov": 80.78,
+      "total_goals": 420,
+      "covered_goals": 346,
+      "lines": 3,
+      "covered_lines": 98,
+      "total_branches": 306,
+      "covered_branches": 247,
+      "total_methods": 3,
+      "covered_methods": 3,
+      "branchless_methods": 1,
+      "covered_branchless_methods": 1
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}

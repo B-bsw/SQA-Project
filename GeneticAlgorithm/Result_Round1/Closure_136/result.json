@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-22T16:42:36Z",
+  "round": 1,
+  "project": "Closure",
+  "bug_id": 136,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 17,
+  "coverage": 51.36,
+  "line_cov": 58.7,
+  "branch_cov": 44.01,
+  "total_goals": 438,
+  "covered_goals": 242,
+  "lines": 26,
+  "covered_lines": 161,
+  "total_branches": 170,
+  "covered_branches": 76,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "com.google.javascript.jscomp.MethodCompilerPass",
+      "generation_result": "PASS",
+      "generation_seconds": 80,
+      "tests": 8,
+      "coverage": 40.49,
+      "line_cov": 46.74,
+      "branch_cov": 34.25,
+      "total_goals": 165,
+      "covered_goals": 67,
+      "lines": 9,
+      "covered_lines": 43,
+      "total_branches": 72,
+      "covered_branches": 24,
+      "total_methods": 7,
+      "covered_methods": 6,
+      "branchless_methods": 1,
+      "covered_branchless_methods": 1
+    },
+    {
+      "target_class": "com.google.javascript.jscomp.RenameVars",
+      "generation_result": "PASS",
+      "generation_seconds": 83,
+      "tests": 9,
+      "coverage": 62.22,
+      "line_cov": 70.66,
+      "branch_cov": 53.77,
+      "total_goals": 273,
+      "covered_goals": 175,
+      "lines": 17,
+      "covered_lines": 118,
+      "total_branches": 98,
+      "covered_branches": 52,
+      "total_methods": 19,
+      "covered_methods": 14,
+      "branchless_methods": 8,
+      "covered_branchless_methods": 5
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}

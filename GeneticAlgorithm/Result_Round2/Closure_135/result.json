@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-22T17:34:19Z",
+  "round": 2,
+  "project": "Closure",
+  "bug_id": 135,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 66,
+  "coverage": 44.65,
+  "line_cov": 44.42,
+  "branch_cov": 42.19,
+  "total_goals": 761,
+  "covered_goals": 461,
+  "lines": 62,
+  "covered_lines": 248,
+  "total_branches": 324,
+  "covered_branches": 197,
+  "buggy_result": "NOT_RUN",
+  "buggy_fails": null,
+  "fixed_result": "NOT_RUN",
+  "fixed_fails": null,
+  "verdict": "NOT_AVAILABLE",
+  "targets": [
+    {
+      "target_class": "com.google.javascript.jscomp.DevirtualizePrototypeMethods",
+      "generation_result": "PASS",
+      "generation_seconds": 71,
+      "tests": 1,
+      "coverage": 6.58,
+      "line_cov": 5.38,
+      "branch_cov": 2.35,
+      "total_goals": 215,
+      "covered_goals": 9,
+      "lines": 11,
+      "covered_lines": 7,
+      "total_branches": 82,
+      "covered_branches": 1,
+      "total_methods": 11,
+      "covered_methods": 2,
+      "branchless_methods": 3,
+      "covered_branchless_methods": 1
+    },
+    {
+      "target_class": "com.google.javascript.rhino.jstype.FunctionType",
+      "generation_result": "PASS",
+      "generation_seconds": 115,
+      "tests": 65,
+      "coverage": 82.71,
+      "line_cov": 83.45,
+      "branch_cov": 82.03,
+      "total_goals": 546,
+      "covered_goals": 452,
+      "lines": 51,
+      "covered_lines": 241,
+      "total_branches": 242,
+      "covered_branches": 196,
+      "total_methods": 50,
+      "covered_methods": 49,
+      "branchless_methods": 14,
+      "covered_branchless_methods": 14
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "NOT_RUN",
+      "failures": null
+    },
+    {
+      "subject": "fixed",
+      "result": "NOT_RUN",
+      "failures": null
+    }
+  ]
+}

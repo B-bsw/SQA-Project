@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-22T16:57:36Z",
+  "round": 1,
+  "project": "Closure",
+  "bug_id": 153,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 11,
+  "coverage": 32.66,
+  "line_cov": 34.13,
+  "branch_cov": 31.2,
+  "total_goals": 649,
+  "covered_goals": 221,
+  "lines": 41,
+  "covered_lines": 127,
+  "total_branches": 264,
+  "covered_branches": 84,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "com.google.javascript.jscomp.Normalize",
+      "generation_result": "PASS",
+      "generation_seconds": 84,
+      "tests": 8,
+      "coverage": 35.82,
+      "line_cov": 34.93,
+      "branch_cov": 36.71,
+      "total_goals": 479,
+      "covered_goals": 170,
+      "lines": 33,
+      "covered_lines": 95,
+      "total_branches": 192,
+      "covered_branches": 67,
+      "total_methods": 31,
+      "covered_methods": 19,
+      "branchless_methods": 15,
+      "covered_branchless_methods": 9
+    },
+    {
+      "target_class": "com.google.javascript.jscomp.SyntacticScopeCreator",
+      "generation_result": "PASS",
+      "generation_seconds": 75,
+      "tests": 3,
+      "coverage": 29.50,
+      "line_cov": 33.33,
+      "branch_cov": 25.68,
+      "total_goals": 170,
+      "covered_goals": 51,
+      "lines": 8,
+      "covered_lines": 32,
+      "total_branches": 72,
+      "covered_branches": 17,
+      "total_methods": 7,
+      "covered_methods": 6,
+      "branchless_methods": 2,
+      "covered_branchless_methods": 2
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}

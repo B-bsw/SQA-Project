@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-22T18:10:35Z",
+  "round": 2,
+  "project": "Closure",
+  "bug_id": 173,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 32,
+  "coverage": 12.36,
+  "line_cov": 13.46,
+  "branch_cov": 11.18,
+  "total_goals": 1912,
+  "covered_goals": 239,
+  "lines": 56,
+  "covered_lines": 133,
+  "total_branches": 998,
+  "covered_branches": 102,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "com.google.javascript.jscomp.CodeGenerator",
+      "generation_result": "PASS",
+      "generation_seconds": 106,
+      "tests": 23,
+      "coverage": 14.15,
+      "line_cov": 16.80,
+      "branch_cov": 11.34,
+      "total_goals": 1419,
+      "covered_goals": 188,
+      "lines": 35,
+      "covered_lines": 107,
+      "total_branches": 764,
+      "covered_branches": 77,
+      "total_methods": 33,
+      "covered_methods": 23,
+      "branchless_methods": 12,
+      "covered_branchless_methods": 11
+    },
+    {
+      "target_class": "com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax",
+      "generation_result": "PASS",
+      "generation_seconds": 87,
+      "tests": 9,
+      "coverage": 10.57,
+      "line_cov": 10.12,
+      "branch_cov": 11.02,
+      "total_goals": 493,
+      "covered_goals": 51,
+      "lines": 21,
+      "covered_lines": 26,
+      "total_branches": 234,
+      "covered_branches": 25,
+      "total_methods": 20,
+      "covered_methods": 7,
+      "branchless_methods": 2,
+      "covered_branchless_methods": 1
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}

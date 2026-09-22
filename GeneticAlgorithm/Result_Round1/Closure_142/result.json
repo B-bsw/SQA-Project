@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-22T16:48:05Z",
+  "round": 1,
+  "project": "Closure",
+  "bug_id": 142,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 23,
+  "coverage": 12.71,
+  "line_cov": 13.27,
+  "branch_cov": 11.21,
+  "total_goals": 1794,
+  "covered_goals": 302,
+  "lines": 83,
+  "covered_lines": 178,
+  "total_branches": 736,
+  "covered_branches": 111,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "com.google.javascript.jscomp.CoalesceVariableNames",
+      "generation_result": "PASS",
+      "generation_seconds": 68,
+      "tests": 1,
+      "coverage": 5.91,
+      "line_cov": 7.14,
+      "branch_cov": 2.80,
+      "total_goals": 311,
+      "covered_goals": 16,
+      "lines": 21,
+      "covered_lines": 12,
+      "total_branches": 132,
+      "covered_branches": 3,
+      "total_methods": 22,
+      "covered_methods": 4,
+      "branchless_methods": 11,
+      "covered_branchless_methods": 1
+    },
+    {
+      "target_class": "com.google.javascript.jscomp.parsing.JsDocInfoParser",
+      "generation_result": "PASS",
+      "generation_seconds": 87,
+      "tests": 22,
+      "coverage": 19.50,
+      "line_cov": 19.39,
+      "branch_cov": 19.62,
+      "total_goals": 1483,
+      "covered_goals": 286,
+      "lines": 62,
+      "covered_lines": 166,
+      "total_branches": 604,
+      "covered_branches": 108,
+      "total_methods": 59,
+      "covered_methods": 32,
+      "branchless_methods": 23,
+      "covered_branchless_methods": 15
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}
