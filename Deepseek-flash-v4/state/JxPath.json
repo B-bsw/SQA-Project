@@ -1,0 +1,25 @@
+{
+  "JxPath_1/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java": {
+    "project": "JxPath_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JxPath_1/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JxPath_1_buggy/DOMNodePointerTest.java",
+    "file_size_bytes": 4598,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6150,
+      "completion_tokens": 1032,
+      "total_tokens": 7182
+    },
+    "content_char_count": 4598,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 47.38,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 948406,
+      "daily_remaining_tokens": 51594
+    },
+    "updated_at": "2026-09-21T18:47:43.860244"
+  }
+}

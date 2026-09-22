@@ -1,0 +1,393 @@
+{
+  "Csv_1/org/apache/commons/csv/ExtendedBufferedReader.java": {
+    "project": "Csv_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_1/org/apache/commons/csv/ExtendedBufferedReader.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Csv_1_buggy/ExtendedBufferedReaderTest.java",
+    "file_size_bytes": 9263,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2325,
+      "completion_tokens": 1999,
+      "total_tokens": 4324
+    },
+    "content_char_count": 9275,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 94.68,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 467928,
+      "daily_remaining_tokens": 532072
+    },
+    "updated_at": "2026-09-21T13:05:02.910513"
+  },
+  "Csv_10/org/apache/commons/csv/CSVPrinter.java": {
+    "project": "Csv_10",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_10/org/apache/commons/csv/CSVPrinter.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Csv_10_buggy/CSVPrinterTest.java",
+    "file_size_bytes": 17986,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4360,
+      "completion_tokens": 3950,
+      "total_tokens": 8310
+    },
+    "content_char_count": 17998,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 159.11,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 476238,
+      "daily_remaining_tokens": 523762
+    },
+    "updated_at": "2026-09-21T13:07:43.095909"
+  },
+  "Csv_11/org/apache/commons/csv/CSVParser.java": {
+    "project": "Csv_11",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_11/org/apache/commons/csv/CSVParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Csv_11_buggy/CSVParserTest.java",
+    "file_size_bytes": 10508,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5248,
+      "completion_tokens": 2437,
+      "total_tokens": 7685
+    },
+    "content_char_count": 10520,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 95.4,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 483923,
+      "daily_remaining_tokens": 516077
+    },
+    "updated_at": "2026-09-21T13:09:19.585248"
+  },
+  "Csv_12/org/apache/commons/csv/CSVFormat.java": {
+    "project": "Csv_12",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_12/org/apache/commons/csv/CSVFormat.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Csv_12_buggy/CSVFormatTest.java",
+    "file_size_bytes": 13724,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4759,
+      "completion_tokens": 2935,
+      "total_tokens": 7694
+    },
+    "content_char_count": 13737,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 118.39,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 491617,
+      "daily_remaining_tokens": 508383
+    },
+    "updated_at": "2026-09-21T13:11:19.082853"
+  },
+  "Csv_13/org/apache/commons/csv/CSVFormat.java": {
+    "project": "Csv_13",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_13/org/apache/commons/csv/CSVFormat.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Csv_13_buggy/CSVFormatTest.java",
+    "file_size_bytes": 11628,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5682,
+      "completion_tokens": 2557,
+      "total_tokens": 8239
+    },
+    "content_char_count": 11628,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 106.02,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 499862,
+      "daily_remaining_tokens": 500138
+    },
+    "updated_at": "2026-09-21T13:13:06.192308"
+  },
+  "Csv_13/org/apache/commons/csv/CSVPrinter.java": {
+    "project": "Csv_13",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_13/org/apache/commons/csv/CSVPrinter.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Csv_13_buggy/CSVPrinterTest.java",
+    "file_size_bytes": 19220,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5038,
+      "completion_tokens": 4167,
+      "total_tokens": 9205
+    },
+    "content_char_count": 19233,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 167.52,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 509067,
+      "daily_remaining_tokens": 490933
+    },
+    "updated_at": "2026-09-21T13:15:54.840491"
+  },
+  "Csv_14/org/apache/commons/csv/CSVFormat.java": {
+    "project": "Csv_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_14/org/apache/commons/csv/CSVFormat.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Csv_14_buggy/CSVFormatTest.java",
+    "file_size_bytes": 28211,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7664,
+      "completion_tokens": 6369,
+      "total_tokens": 14033
+    },
+    "content_char_count": 28223,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 256.75,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 523100,
+      "daily_remaining_tokens": 476900
+    },
+    "updated_at": "2026-09-21T13:20:12.675489"
+  },
+  "Csv_15/org/apache/commons/csv/CSVFormat.java": {
+    "project": "Csv_15",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_15/org/apache/commons/csv/CSVFormat.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Csv_15_buggy/CSVFormatTest.java",
+    "file_size_bytes": 35223,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8234,
+      "completion_tokens": 7757,
+      "total_tokens": 15991
+    },
+    "content_char_count": 35223,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 319.51,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 539091,
+      "daily_remaining_tokens": 460909
+    },
+    "updated_at": "2026-09-21T13:25:33.270501"
+  },
+  "Csv_16/org/apache/commons/csv/CSVParser.java": {
+    "project": "Csv_16",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_16/org/apache/commons/csv/CSVParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Csv_16_buggy/CSVParserTest.java",
+    "file_size_bytes": 6747,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6283,
+      "completion_tokens": 1511,
+      "total_tokens": 7794
+    },
+    "content_char_count": 6748,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 61.42,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 546885,
+      "daily_remaining_tokens": 453115
+    },
+    "updated_at": "2026-09-21T13:26:35.766115"
+  },
+  "Csv_2/org/apache/commons/csv/CSVRecord.java": {
+    "project": "Csv_2",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_2/org/apache/commons/csv/CSVRecord.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Csv_2_buggy/CSVRecordTest.java",
+    "file_size_bytes": 4950,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2364,
+      "completion_tokens": 1147,
+      "total_tokens": 3511
+    },
+    "content_char_count": 4951,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 46.56,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 550396,
+      "daily_remaining_tokens": 449604
+    },
+    "updated_at": "2026-09-21T13:27:23.394847"
+  },
+  "Csv_3/org/apache/commons/csv/Lexer.java": {
+    "project": "Csv_3",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_3/org/apache/commons/csv/Lexer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Csv_3_buggy/LexerTest.java",
+    "file_size_bytes": 10789,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2651,
+      "completion_tokens": 2744,
+      "total_tokens": 5395
+    },
+    "content_char_count": 10801,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 111.29,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 555791,
+      "daily_remaining_tokens": 444209
+    },
+    "updated_at": "2026-09-21T13:29:15.755701"
+  },
+  "Csv_4/org/apache/commons/csv/CSVParser.java": {
+    "project": "Csv_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_4/org/apache/commons/csv/CSVParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Csv_4_buggy/CSVParserTest.java",
+    "file_size_bytes": 8128,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4788,
+      "completion_tokens": 1773,
+      "total_tokens": 6561
+    },
+    "content_char_count": 8128,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 71.99,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 562352,
+      "daily_remaining_tokens": 437648
+    },
+    "updated_at": "2026-09-21T13:30:28.820615"
+  },
+  "Csv_5/org/apache/commons/csv/CSVPrinter.java": {
+    "project": "Csv_5",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_5/org/apache/commons/csv/CSVPrinter.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Csv_5_buggy/CSVPrinterTest.java",
+    "file_size_bytes": 27850,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4253,
+      "completion_tokens": 5896,
+      "total_tokens": 10149
+    },
+    "content_char_count": 27862,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 238.66,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 572501,
+      "daily_remaining_tokens": 427499
+    },
+    "updated_at": "2026-09-21T13:34:28.548091"
+  },
+  "Csv_6/org/apache/commons/csv/CSVRecord.java": {
+    "project": "Csv_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_6/org/apache/commons/csv/CSVRecord.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Csv_6_buggy/CSVRecordTest.java",
+    "file_size_bytes": 6164,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2752,
+      "completion_tokens": 1415,
+      "total_tokens": 4167
+    },
+    "content_char_count": 6177,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 58.75,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 576668,
+      "daily_remaining_tokens": 423332
+    },
+    "updated_at": "2026-09-21T13:35:28.369827"
+  },
+  "Csv_7/org/apache/commons/csv/CSVParser.java": {
+    "project": "Csv_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_7/org/apache/commons/csv/CSVParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Csv_7_buggy/CSVParserTest.java",
+    "file_size_bytes": 7017,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4994,
+      "completion_tokens": 1586,
+      "total_tokens": 6580
+    },
+    "content_char_count": 7030,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 72.2,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 583248,
+      "daily_remaining_tokens": 416752
+    },
+    "updated_at": "2026-09-21T13:36:41.642408"
+  },
+  "Csv_8/org/apache/commons/csv/CSVFormat.java": {
+    "project": "Csv_8",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_8/org/apache/commons/csv/CSVFormat.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Csv_8_buggy/CSVFormatTest.java",
+    "file_size_bytes": 15338,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4517,
+      "completion_tokens": 3400,
+      "total_tokens": 7917
+    },
+    "content_char_count": 15350,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 135.49,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 591165,
+      "daily_remaining_tokens": 408835
+    },
+    "updated_at": "2026-09-21T13:38:58.215733"
+  },
+  "Csv_9/org/apache/commons/csv/CSVRecord.java": {
+    "project": "Csv_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Csv_9/org/apache/commons/csv/CSVRecord.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Csv_9_buggy/CSVRecordTest.java",
+    "file_size_bytes": 8423,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2758,
+      "completion_tokens": 1978,
+      "total_tokens": 4736
+    },
+    "content_char_count": 8436,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 79.29,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 595901,
+      "daily_remaining_tokens": 404099
+    },
+    "updated_at": "2026-09-21T13:40:18.580141"
+  }
+}

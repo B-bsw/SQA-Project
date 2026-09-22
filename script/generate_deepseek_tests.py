@@ -24,7 +24,7 @@ Pipeline สำหรับสร้าง JUnit Test Suite อัตโนม�
 6. การแยกสถานะ GENERATED vs VERIFIED: ตรวจสอบความถูกต้องเบื้องต้น (structural validation)
    เพื่อระบุสถานะ GENERATED เท่านั้น สถานะ VERIFIED จะสงวนไว้สำหรับการคอมไพล์และรันเทสต์ผ่านจริง
 7. โควต้าและการจำกัด Token:
-   - เพดานโควต้าเซิร์ฟเวอร์ตั้งต้น 4,000,000 tokens/วัน (อัปเดตจาก model_quota ของ API แบบเรียลไทม์)
+    - แสดงโควต้าเซิร์ฟเวอร์จาก model_quota ของ API เมื่อได้รับข้อมูลจริง
    - งบประมาณภายในเครื่อง (DailyBudget) ตั้งต้น 3,200,000 tokens/วัน เพื่อเผื่อ retry และความคลาดเคลื่อน
    - กำหนด --max-tokens ได้อย่างอิสระ ไม่ฟิกซ์ 8,192
    - ตัวเลือก --skip-limits ข้ามไฟล์ที่เคยติดลิมิต และ --no-budget ปิดการคุมงบภายใน
@@ -40,6 +40,7 @@ import re
 import time
 import json
 import argparse
+import hashlib
 import threading
 from datetime import datetime
 from pathlib import Path
@@ -163,7 +164,7 @@ def get_all_api_keys(cli_keys: list = None, env_file_arg: str = None) -> list:
 class DailyBudget:
     """
     ควบคุมงบประมาณ token ภายในเครื่อง (Client-side Ledger)
-    - ค่าเริ่มต้น: 3,200,000 tokens/วัน (เผื่อ buffer 20% จากโควต้าเซิร์ฟเวอร์ 4,000,000)
+    - ค่าเริ่มต้นของการรันแบบเดิม: 3,200,000 tokens/วันรวมทุกคีย์
     - แยกบัญชีงบประมาณภายในออกจาก server quota ชัดเจน
     """
     def __init__(self, ledger_path: Path, daily_limit: int = 3200000):
@@ -243,8 +244,6 @@ class KeyManager:
     - บันทึกและแสดงผลยอดโควต้าเซิร์ฟเวอร์จริง (model_quota)
     - ปิดบังคีย์เสมอ ไม่เปิดเผยคีย์เต็ม
     """
-    DEFAULT_SERVER_QUOTA = 4000000
-
     def __init__(self, keys: list, budget: DailyBudget = None):
         self.keys = list(keys)
         self.current_idx = 0
@@ -1148,7 +1147,35 @@ def resolve_test_target_dir(workspace_root: Path, project_name: str) -> Path:
 # ==============================================================================
 # 9. CLI Implementation & Handlers
 # ==============================================================================
-def print_status_report(key_manager: KeyManager, state_data: dict, budget: DailyBudget):
+def load_progress_snapshot(state_file: Path, output_dir: Path, include_shards: bool = True) -> tuple[dict, int]:
+    """Read legacy and project states without changing either file."""
+    state_data = load_state(state_file, read_only=True)
+    shard_count = 0
+    if include_shards:
+        for shard in sorted((output_dir / "state").glob("*.json")):
+            for task_id, entry in load_state(shard, read_only=True).items():
+                old = state_data.get(task_id)
+                old_time = old.get("updated_at", "") if isinstance(old, dict) else ""
+                new_time = entry.get("updated_at", "") if isinstance(entry, dict) else ""
+                if old is None or new_time >= old_time:
+                    state_data[task_id] = entry
+            shard_count += 1
+    return state_data, shard_count
+
+
+def read_parallel_budget_usage(output_dir: Path, keys: list[str]) -> dict[str, int]:
+    """Read today's isolated spend for each configured key; no files are created."""
+    usage = {}
+    for key in keys:
+        fingerprint = hashlib.sha256(key.encode("utf-8")).hexdigest()[:16]
+        path = output_dir / "budget" / f"key-{fingerprint}.json"
+        if path.is_file():
+            usage[mask_key(key)] = DailyBudget(path).get_today_used()
+    return usage
+
+
+def print_status_report(key_manager: KeyManager, state_data: dict, budget: DailyBudget,
+                        shard_count: int = 0, parallel_usage: dict = None):
     """แสดงสถานะระบบ โควต้า และความคืบหน้า (--status) โดยไม่เรียก API"""
     print("\n" + "=" * 80)
     print("📊 รายงานสถานะระบบ DeepSeek-V4-Flash Test Generation Pipeline")
@@ -1160,27 +1187,43 @@ def print_status_report(key_manager: KeyManager, state_data: dict, budget: Daily
         rem = budget.get_today_remaining()
         limit = budget.limit
         pct = (used / limit * 100) if limit else 0
-        print(f"💰 งบประมาณภายใน (Internal Daily Budget):")
+        label = "งบของ generator แบบเดิม" if shard_count else "งบประมาณภายใน"
+        print(f"💰 {label}:")
         print(f"   • วงเงินรายวัน : {limit:,} tokens")
         print(f"   • ใช้ไปวันนี้  : {used:,} tokens ({pct:.1f}%)")
         print(f"   • คงเหลือวันนี้: {rem:,} tokens")
     else:
         print("💰 งบประมาณภายใน: ปิดการใช้งาน (--no-budget)")
+    if parallel_usage:
+        print("💰 งบของ worker แยกตามคีย์ (ยอดใช้วันนี้; วงเงินกำหนดตอนสั่งรัน):")
+        for key, used in parallel_usage.items():
+            print(f"   • {key}: ใช้ไป {used:,} tokens")
     print("-" * 80)
 
     # 2. สถานะ API Keys
+    latest_quota = {}
+    for entry in state_data.values():
+        if not isinstance(entry, dict):
+            continue
+        masked = entry.get("used_key")
+        quota = entry.get("model_quota")
+        updated = entry.get("updated_at", "")
+        if masked and isinstance(quota, dict) and updated > latest_quota.get(masked, ("", None))[0]:
+            latest_quota[masked] = (updated, quota)
     print(f"🔑 สถานะ API Keys ({key_manager.total_count} คีย์):")
     for idx, k in enumerate(key_manager.keys, 1):
         m = mask_key(k)
         is_exh = k in key_manager.exhausted_keys
-        status_str = "🛑 โควต้าหมด (Exhausted)" if is_exh else "✅ พร้อมใช้งาน (Active)"
-        q_info = key_manager.key_quota.get(k)
+        status_str = "🛑 โควต้าหมดในรอบนี้" if is_exh else "ยังไม่ได้ตรวจสดในคำสั่งนี้"
+        cached = latest_quota.get(m)
+        q_info = key_manager.key_quota.get(k) or (cached[1] if cached else None)
         if q_info:
             q_rem = q_info.get("daily_remaining_tokens", "N/A")
             q_tot = q_info.get("daily_quota_tokens", "N/A")
-            quota_detail = f" | โควต้าเซิร์ฟเวอร์: {q_rem:,}/{q_tot:,} tokens" if isinstance(q_rem, int) else ""
+            when = f" (บันทึก {cached[0]})" if cached else ""
+            quota_detail = f" | โควต้าจาก state{when}: {q_rem:,}/{q_tot:,} tokens" if isinstance(q_rem, int) and isinstance(q_tot, int) else ""
         else:
-            quota_detail = " | โควต้าเซิร์ฟเวอร์ตั้งต้น: 4,000,000 tokens/วัน (รอ sync จาก API response)"
+            quota_detail = " | โควต้าเซิร์ฟเวอร์: ยังไม่มีข้อมูลล่าสุด (ใช้ --check-quota)"
         print(f"   [{idx}] {m} : {status_str}{quota_detail}")
     print("-" * 80)
 
@@ -1194,7 +1237,8 @@ def print_status_report(key_manager: KeyManager, state_data: dict, budget: Daily
         else:
             counts["OTHER"] += 1
 
-    print(f"📁 ประวัติการประมวลผล (generation_state.json):")
+    source = f"รวม state เดิมกับ state แยก {shard_count} ไฟล์; task ID ซ้ำนับครั้งเดียว" if shard_count else "state ที่เลือก"
+    print(f"📁 ประวัติการประมวลผล ({source}):")
     print(f"   • บันทึกทั้งหมด      : {total_tasks:,} รายการ")
     print(f"   • สร้างสำเร็จ (GENERATED): {counts['GENERATED'] + counts['COMPLETED']:,} ไฟล์")
     print(f"   • ติด Token Limit   : {counts['LIMIT_REACHED']:,} ไฟล์")
@@ -1286,6 +1330,9 @@ def main(cli_args=None):
     parser.add_argument("-n", "--limit", type=int, default=None, help="จำกัดจำนวนไฟล์ที่จะประมวลผล (กรองเฉพาะงานที่ค้างก่อนตัดตาม limit)")
     parser.add_argument("-k", "--api-key", action="append", help="ระบุ API Key (สามารถใส่หลายตัว หรือคั่นด้วยจุลภาค)")
     parser.add_argument("--env-file", type=str, help="ระบุตำแหน่งไฟล์ .env ที่ต้องการโหลด")
+    parser.add_argument("--key-index", type=int, help="ใช้เฉพาะ API key ลำดับที่ N (เริ่มจาก 1 ตามลำดับที่โหลด)")
+    parser.add_argument("--state-file", type=Path, help="ไฟล์สถานะเฉพาะงาน (ค่าเริ่มต้น: Deepseek-flash-v4/generation_state.json)")
+    parser.add_argument("--budget-file", type=Path, help="บัญชี token เฉพาะคีย์ (ค่าเริ่มต้น: Deepseek-flash-v4/budget_ledger.json)")
     parser.add_argument("--max-tokens", type=int, default=8192, help="กำหนดเพดาน completion tokens (ค่าเริ่มต้น: 8192)")
     parser.add_argument("--budget-limit", type=int, default=3200000, help="กำหนดงบประมาณ token ภายในต่อวัน (ค่าเริ่มต้น: 3,200,000)")
     parser.add_argument("--no-budget", action="store_true", help="ปิดการตรวจสอบงบประมาณภายในเครื่อง")
@@ -1313,15 +1360,25 @@ def main(cli_args=None):
     if args.max_tokens <= 0:
         print("❌ Error: --max-tokens ต้องเป็นจำนวนเต็มบวก")
         sys.exit(2)
+    if args.key_index is not None and args.key_index <= 0:
+        parser.error("--key-index must be at least 1")
+    if args.budget_limit <= 0:
+        parser.error("--budget-limit must be positive")
 
     workspace_dir = Path(__file__).resolve().parent.parent
     resource_dir = workspace_dir / "Resoucre"
     prompt_template_path = workspace_dir / "Deepseek-flash-v4" / "Promt" / "promt.md"
-    state_file = workspace_dir / "Deepseek-flash-v4" / "generation_state.json"
-    budget_file = workspace_dir / "Deepseek-flash-v4" / "budget_ledger.json"
+    state_file = args.state_file or workspace_dir / "Deepseek-flash-v4" / "generation_state.json"
+    budget_file = args.budget_file or workspace_dir / "Deepseek-flash-v4" / "budget_ledger.json"
+    if state_file.resolve() == budget_file.resolve():
+        parser.error("--state-file and --budget-file must be different paths")
 
     # โหลด API Keys
     api_keys = get_all_api_keys(args.api_key, args.env_file)
+    if args.key_index is not None:
+        if args.key_index > len(api_keys):
+            parser.error(f"--key-index {args.key_index} exceeds the {len(api_keys)} configured API keys")
+        api_keys = [api_keys[args.key_index - 1]]
 
     # 1. ตรวจสอบโควต้าสด (--check-quota)
     if args.check_quota:
@@ -1333,10 +1390,13 @@ def main(cli_args=None):
 
     # 2. ตรวจสอบสถานะ (--status)
     if args.status:
-        state_data = load_state(state_file, read_only=True)
+        include_shards = args.state_file is None
+        state_data, shard_count = load_progress_snapshot(
+            state_file, workspace_dir / "Deepseek-flash-v4", include_shards=include_shards)
         budget = DailyBudget(budget_file, args.budget_limit) if not args.no_budget else None
         key_mgr = KeyManager(api_keys, budget=budget)
-        print_status_report(key_mgr, state_data, budget)
+        parallel_usage = read_parallel_budget_usage(workspace_dir / "Deepseek-flash-v4", api_keys) if include_shards else None
+        print_status_report(key_mgr, state_data, budget, shard_count, parallel_usage)
         return
 
     # สแกนหาไฟล์ต้นฉบับทั้งหมด
@@ -1347,7 +1407,10 @@ def main(cli_args=None):
 
     # โหลด State (Read-only สำหรับ dry-run และ plan)
     is_read_only = args.dry_run or args.plan
-    state_data = load_state(state_file, read_only=is_read_only)
+    if is_read_only and args.state_file is None:
+        state_data, _ = load_progress_snapshot(state_file, workspace_dir / "Deepseek-flash-v4")
+    else:
+        state_data = load_state(state_file, read_only=is_read_only)
     budget = DailyBudget(budget_file, args.budget_limit) if (not args.no_budget and not is_read_only) else None
     key_manager = KeyManager(api_keys, budget=budget)
 
@@ -1423,6 +1486,7 @@ def main(cli_args=None):
 
     stats = {"total": len(tasks_to_run), "generated": 0, "limit_reached": 0, "failed": 0}
 
+    halted = False
     try:
         for idx, task in enumerate(tasks_to_run, 1):
             src_path = task["source_file"]
@@ -1478,6 +1542,7 @@ def main(cli_args=None):
             if api_result.get("budget_exhausted") or api_result.get("all_keys_exhausted"):
                 print(f"\n🛑 [HALTED] การทำงานหยุดชะงัก: {api_result.get('error')}")
                 print(f"💾 บันทึกสถานะล่าสุดลง {state_file} เรียบร้อยแล้ว")
+                halted = True
                 break
 
             # กรณีเกิด Truncation หรือ โค้ดไม่สมบูรณ์ -> ทำการ Retry โดยลดขนาดและกำชับคำสั่ง
@@ -1611,7 +1676,8 @@ def main(cli_args=None):
     print(f"• ล้มเหลว (Failed)       : {stats['failed']}")
     print(f"📄 บันทึก State ไว้ที่  : {state_file}")
     print("=" * 80 + "\n")
+    return 3 if halted else 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

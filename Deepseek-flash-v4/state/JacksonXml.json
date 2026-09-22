@@ -1,0 +1,140 @@
+{
+  "JacksonXml_1/com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java": {
+    "project": "JacksonXml_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonXml_1/com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonXml_1_buggy/FromXmlParserTest.java",
+    "file_size_bytes": 12702,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5477,
+      "completion_tokens": 2993,
+      "total_tokens": 8470
+    },
+    "content_char_count": 12714,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 125.19,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 715793,
+      "daily_remaining_tokens": 284207
+    },
+    "updated_at": "2026-09-21T14:22:26.218284"
+  },
+  "JacksonXml_2/com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java": {
+    "project": "JacksonXml_2",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonXml_2/com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonXml_2_buggy/XmlTokenStreamTest.java",
+    "file_size_bytes": 12849,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5321,
+      "completion_tokens": 2893,
+      "total_tokens": 8214
+    },
+    "content_char_count": 12862,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 115.22,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 724007,
+      "daily_remaining_tokens": 275993
+    },
+    "updated_at": "2026-09-21T14:24:22.515381"
+  },
+  "JacksonXml_3/com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java": {
+    "project": "JacksonXml_3",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonXml_3/com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonXml_3_buggy/FromXmlParserTest.java",
+    "file_size_bytes": 18677,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5535,
+      "completion_tokens": 4119,
+      "total_tokens": 9654
+    },
+    "content_char_count": 18678,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 162.73,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 733661,
+      "daily_remaining_tokens": 266339
+    },
+    "updated_at": "2026-09-21T14:27:06.322486"
+  },
+  "JacksonXml_4/com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java": {
+    "project": "JacksonXml_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonXml_4/com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonXml_4_buggy/XmlSerializerProviderTest.java",
+    "file_size_bytes": 17581,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3407,
+      "completion_tokens": 3709,
+      "total_tokens": 7116
+    },
+    "content_char_count": 17594,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 124.81,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 740777,
+      "daily_remaining_tokens": 259223
+    },
+    "updated_at": "2026-09-21T14:29:12.219680"
+  },
+  "JacksonXml_5/com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java": {
+    "project": "JacksonXml_5",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonXml_5/com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonXml_5_buggy/XmlSerializerProviderTest.java",
+    "file_size_bytes": 17030,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3162,
+      "completion_tokens": 3648,
+      "total_tokens": 6810
+    },
+    "content_char_count": 17042,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 115.64,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 747587,
+      "daily_remaining_tokens": 252413
+    },
+    "updated_at": "2026-09-21T14:31:08.936940"
+  },
+  "JacksonXml_6/com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java": {
+    "project": "JacksonXml_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonXml_6/com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonXml_6_buggy/ToXmlGeneratorTest.java",
+    "file_size_bytes": 21546,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8058,
+      "completion_tokens": 4713,
+      "total_tokens": 12771
+    },
+    "content_char_count": 21559,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 150.9,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 760358,
+      "daily_remaining_tokens": 239642
+    },
+    "updated_at": "2026-09-21T14:33:40.918453"
+  }
+}

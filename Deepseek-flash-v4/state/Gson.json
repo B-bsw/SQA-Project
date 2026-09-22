@@ -1,0 +1,485 @@
+{
+  "Gson_1/com/google/gson/TypeInfoFactory.java": {
+    "project": "Gson_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_1/com/google/gson/TypeInfoFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_1_buggy/TypeInfoFactoryTest.java",
+    "file_size_bytes": 9448,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2546,
+      "completion_tokens": 2034,
+      "total_tokens": 4580
+    },
+    "content_char_count": 9448,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 89.56,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 544827,
+      "daily_remaining_tokens": 455173
+    },
+    "updated_at": "2026-09-21T13:15:35.284031"
+  },
+  "Gson_10/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java": {
+    "project": "Gson_10",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_10/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_10_buggy/ReflectiveTypeAdapterFactoryTest.java",
+    "file_size_bytes": 9239,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3290,
+      "completion_tokens": 2003,
+      "total_tokens": 5293
+    },
+    "content_char_count": 9240,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 80.19,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 550120,
+      "daily_remaining_tokens": 449880
+    },
+    "updated_at": "2026-09-21T13:16:56.602838"
+  },
+  "Gson_11/com/google/gson/internal/bind/TypeAdapters.java": {
+    "project": "Gson_11",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_11/com/google/gson/internal/bind/TypeAdapters.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_11_buggy/TypeAdaptersTest.java",
+    "file_size_bytes": 27477,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8191,
+      "completion_tokens": 5847,
+      "total_tokens": 14038
+    },
+    "content_char_count": 27477,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 233.0,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 564158,
+      "daily_remaining_tokens": 435842
+    },
+    "updated_at": "2026-09-21T13:20:50.730153"
+  },
+  "Gson_12/com/google/gson/internal/bind/JsonTreeReader.java": {
+    "project": "Gson_12",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_12/com/google/gson/internal/bind/JsonTreeReader.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_12_buggy/JsonTreeReaderTest.java",
+    "file_size_bytes": 8095,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3734,
+      "completion_tokens": 1730,
+      "total_tokens": 5464
+    },
+    "content_char_count": 8108,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 72.46,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 569622,
+      "daily_remaining_tokens": 430378
+    },
+    "updated_at": "2026-09-21T13:22:04.315754"
+  },
+  "Gson_13/com/google/gson/stream/JsonReader.java": {
+    "project": "Gson_13",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_13/com/google/gson/stream/JsonReader.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_13_buggy/JsonReaderTest.java",
+    "file_size_bytes": 12328,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10105,
+      "completion_tokens": 2652,
+      "total_tokens": 12757
+    },
+    "content_char_count": 12341,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 107.83,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 582379,
+      "daily_remaining_tokens": 417621
+    },
+    "updated_at": "2026-09-21T13:23:53.286553"
+  },
+  "Gson_14/com/google/gson/internal/$Gson$Types.java": {
+    "project": "Gson_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_14/com/google/gson/internal/$Gson$Types.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_14_buggy/$Gson$TypesTest.java",
+    "file_size_bytes": 18435,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6123,
+      "completion_tokens": 4335,
+      "total_tokens": 10458
+    },
+    "content_char_count": 18447,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 171.06,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 592837,
+      "daily_remaining_tokens": 407163
+    },
+    "updated_at": "2026-09-21T13:26:45.474357"
+  },
+  "Gson_15/com/google/gson/stream/JsonWriter.java": {
+    "project": "Gson_15",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_15/com/google/gson/stream/JsonWriter.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_15_buggy/JsonWriterTest.java",
+    "file_size_bytes": 9181,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6173,
+      "completion_tokens": 1970,
+      "total_tokens": 8143
+    },
+    "content_char_count": 9193,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 79.37,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 600980,
+      "daily_remaining_tokens": 399020
+    },
+    "updated_at": "2026-09-21T13:28:05.968132"
+  },
+  "Gson_16/com/google/gson/internal/$Gson$Types.java": {
+    "project": "Gson_16",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_16/com/google/gson/internal/$Gson$Types.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_16_buggy/TypesTestHelper.java",
+    "file_size_bytes": 11101,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6245,
+      "completion_tokens": 2583,
+      "total_tokens": 8828
+    },
+    "content_char_count": 11113,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 105.07,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 609808,
+      "daily_remaining_tokens": 390192
+    },
+    "updated_at": "2026-09-21T13:29:52.155554"
+  },
+  "Gson_17/com/google/gson/DefaultDateTypeAdapter.java": {
+    "project": "Gson_17",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_17/com/google/gson/DefaultDateTypeAdapter.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_17_buggy/DefaultDateTypeAdapterTest.java",
+    "file_size_bytes": 11956,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2353,
+      "completion_tokens": 2912,
+      "total_tokens": 5265
+    },
+    "content_char_count": 11968,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 133.65,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 615073,
+      "daily_remaining_tokens": 384927
+    },
+    "updated_at": "2026-09-21T13:32:06.935126"
+  },
+  "Gson_18/com/google/gson/internal/$Gson$Types.java": {
+    "project": "Gson_18",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_18/com/google/gson/internal/$Gson$Types.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_18_buggy/$Gson$TypesTest.java",
+    "file_size_bytes": 13382,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6301,
+      "completion_tokens": 3084,
+      "total_tokens": 9385
+    },
+    "content_char_count": 13382,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 126.1,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 624458,
+      "daily_remaining_tokens": 375542
+    },
+    "updated_at": "2026-09-21T13:34:14.157631"
+  },
+  "Gson_2/com/google/gson/internal/bind/TypeAdapters.java": {
+    "project": "Gson_2",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_2/com/google/gson/internal/bind/TypeAdapters.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_2_buggy/TypeAdaptersTest.java",
+    "file_size_bytes": 23800,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7400,
+      "completion_tokens": 5426,
+      "total_tokens": 12826
+    },
+    "content_char_count": 23812,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 226.29,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 637284,
+      "daily_remaining_tokens": 362716
+    },
+    "updated_at": "2026-09-21T13:38:01.582739"
+  },
+  "Gson_3/com/google/gson/internal/ConstructorConstructor.java": {
+    "project": "Gson_3",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_3/com/google/gson/internal/ConstructorConstructor.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_3_buggy/ConstructorConstructorTest.java",
+    "file_size_bytes": 5909,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2919,
+      "completion_tokens": 1272,
+      "total_tokens": 4191
+    },
+    "content_char_count": 5922,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 53.0,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 641475,
+      "daily_remaining_tokens": 358525
+    },
+    "updated_at": "2026-09-21T13:38:55.702539"
+  },
+  "Gson_4/com/google/gson/stream/JsonReader.java": {
+    "project": "Gson_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_4/com/google/gson/stream/JsonReader.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_4_buggy/JsonReaderTest.java",
+    "file_size_bytes": 11780,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10362,
+      "completion_tokens": 2521,
+      "total_tokens": 12883
+    },
+    "content_char_count": 11792,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 101.21,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 654358,
+      "daily_remaining_tokens": 345642
+    },
+    "updated_at": "2026-09-21T13:40:38.074456"
+  },
+  "Gson_4/com/google/gson/stream/JsonWriter.java": {
+    "project": "Gson_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_4/com/google/gson/stream/JsonWriter.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_4_buggy/JsonWriterTest.java",
+    "file_size_bytes": 9670,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6139,
+      "completion_tokens": 2023,
+      "total_tokens": 8162
+    },
+    "content_char_count": 9682,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 82.28,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 662520,
+      "daily_remaining_tokens": 337480
+    },
+    "updated_at": "2026-09-21T13:42:01.473896"
+  },
+  "Gson_5/com/google/gson/internal/bind/util/ISO8601Utils.java": {
+    "project": "Gson_5",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_5/com/google/gson/internal/bind/util/ISO8601Utils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_5_buggy/ISO8601UtilsTest.java",
+    "file_size_bytes": 11468,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4485,
+      "completion_tokens": 2782,
+      "total_tokens": 7267
+    },
+    "content_char_count": 11468,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 112.35,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 669787,
+      "daily_remaining_tokens": 330213
+    },
+    "updated_at": "2026-09-21T13:43:54.967396"
+  },
+  "Gson_6/com/google/gson/internal/bind/JsonAdapterAnnotationTypeAdapterFactory.java": {
+    "project": "Gson_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_6/com/google/gson/internal/bind/JsonAdapterAnnotationTypeAdapterFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_6_buggy/JsonAdapterAnnotationTypeAdapterFactoryTest.java",
+    "file_size_bytes": 5790,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1852,
+      "completion_tokens": 1182,
+      "total_tokens": 3034
+    },
+    "content_char_count": 5802,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 48.78,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 672821,
+      "daily_remaining_tokens": 327179
+    },
+    "updated_at": "2026-09-21T13:44:44.874350"
+  },
+  "Gson_7/com/google/gson/stream/JsonReader.java": {
+    "project": "Gson_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_7/com/google/gson/stream/JsonReader.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_7_buggy/JsonReaderTest.java",
+    "file_size_bytes": 14651,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10328,
+      "completion_tokens": 3132,
+      "total_tokens": 13460
+    },
+    "content_char_count": 14664,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 127.95,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 686281,
+      "daily_remaining_tokens": 313719
+    },
+    "updated_at": "2026-09-21T13:46:53.971602"
+  },
+  "Gson_8/com/google/gson/internal/UnsafeAllocator.java": {
+    "project": "Gson_8",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_8/com/google/gson/internal/UnsafeAllocator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_8_buggy/UnsafeAllocatorTest.java",
+    "file_size_bytes": 6250,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2136,
+      "completion_tokens": 1301,
+      "total_tokens": 3437
+    },
+    "content_char_count": 6263,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 54.15,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 689718,
+      "daily_remaining_tokens": 310282
+    },
+    "updated_at": "2026-09-21T13:47:49.244029"
+  },
+  "Gson_9/com/google/gson/internal/bind/JsonTreeWriter.java": {
+    "project": "Gson_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_9/com/google/gson/internal/bind/JsonTreeWriter.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_9_buggy/JsonTreeWriterTest.java",
+    "file_size_bytes": 14390,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2562,
+      "completion_tokens": 2963,
+      "total_tokens": 5525
+    },
+    "content_char_count": 14391,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 125.41,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 695243,
+      "daily_remaining_tokens": 304757
+    },
+    "updated_at": "2026-09-21T13:49:55.814802"
+  },
+  "Gson_9/com/google/gson/internal/bind/TypeAdapters.java": {
+    "project": "Gson_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_9/com/google/gson/internal/bind/TypeAdapters.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_9_buggy/TypeAdaptersTest.java",
+    "file_size_bytes": 31057,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8221,
+      "completion_tokens": 6985,
+      "total_tokens": 15206
+    },
+    "content_char_count": 31058,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 281.64,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 710449,
+      "daily_remaining_tokens": 289551
+    },
+    "updated_at": "2026-09-21T13:54:38.592567"
+  },
+  "Gson_9/com/google/gson/stream/JsonWriter.java": {
+    "project": "Gson_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Gson_9/com/google/gson/stream/JsonWriter.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Gson_9_buggy/JsonWriterTest.java",
+    "file_size_bytes": 11941,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6118,
+      "completion_tokens": 2532,
+      "total_tokens": 8650
+    },
+    "content_char_count": 11944,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 101.95,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 719099,
+      "daily_remaining_tokens": 280901
+    },
+    "updated_at": "2026-09-21T13:56:21.680605"
+  }
+}

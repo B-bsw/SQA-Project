@@ -1,0 +1,646 @@
+{
+  "Chart_1/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java": {
+    "project": "Chart_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_1/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_1_buggy/AbstractCategoryItemRendererTest.java",
+    "file_size_bytes": 23624,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 9819,
+      "completion_tokens": 5703,
+      "total_tokens": 15522
+    },
+    "content_char_count": 23624,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 249.98,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 162131,
+      "daily_remaining_tokens": 837869
+    },
+    "updated_at": "2026-09-21T11:51:32.054893"
+  },
+  "Chart_10/org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java": {
+    "project": "Chart_10",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_10/org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_10_buggy/StandardToolTipTagFragmentGeneratorTest.java",
+    "file_size_bytes": 2688,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1774,
+      "completion_tokens": 600,
+      "total_tokens": 2374
+    },
+    "content_char_count": 2688,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 26.61,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 164505,
+      "daily_remaining_tokens": 835495
+    },
+    "updated_at": "2026-09-21T11:51:59.889033"
+  },
+  "Chart_11/org/jfree/chart/util/ShapeUtilities.java": {
+    "project": "Chart_11",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_11/org/jfree/chart/util/ShapeUtilities.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_11_buggy/ShapeUtilitiesTest.java",
+    "file_size_bytes": 14321,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6469,
+      "completion_tokens": 4208,
+      "total_tokens": 10677
+    },
+    "content_char_count": 14334,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 178.43,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 175182,
+      "daily_remaining_tokens": 824818
+    },
+    "updated_at": "2026-09-21T11:57:07.664318"
+  },
+  "Chart_12/org/jfree/chart/plot/MultiplePiePlot.java": {
+    "project": "Chart_12",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_12/org/jfree/chart/plot/MultiplePiePlot.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_12_buggy/MultiplePiePlotTest.java",
+    "file_size_bytes": 8521,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6011,
+      "completion_tokens": 2055,
+      "total_tokens": 8066
+    },
+    "content_char_count": 8533,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 86.91,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 194775,
+      "daily_remaining_tokens": 805225
+    },
+    "updated_at": "2026-09-21T11:58:35.730500"
+  },
+  "Chart_13/org/jfree/chart/block/BorderArrangement.java": {
+    "project": "Chart_13",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_13/org/jfree/chart/block/BorderArrangement.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_13_buggy/BorderArrangementTest.java",
+    "file_size_bytes": 10928,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6064,
+      "completion_tokens": 2637,
+      "total_tokens": 8701
+    },
+    "content_char_count": 10940,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 108.86,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 203476,
+      "daily_remaining_tokens": 796524
+    },
+    "updated_at": "2026-09-21T12:00:25.891980"
+  },
+  "Chart_14/org/jfree/chart/plot/CategoryPlot.java": {
+    "project": "Chart_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_14/org/jfree/chart/plot/CategoryPlot.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_14_buggy/CategoryPlotTest.java",
+    "file_size_bytes": 9099,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 17532,
+      "completion_tokens": 2159,
+      "total_tokens": 19691
+    },
+    "content_char_count": 9099,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 92.32,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 223167,
+      "daily_remaining_tokens": 776833
+    },
+    "updated_at": "2026-09-21T12:01:59.391054"
+  },
+  "Chart_14/org/jfree/chart/plot/XYPlot.java": {
+    "project": "Chart_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_14/org/jfree/chart/plot/XYPlot.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_14_buggy/XYPlotTest.java",
+    "file_size_bytes": 16451,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 22476,
+      "completion_tokens": 3824,
+      "total_tokens": 26300
+    },
+    "content_char_count": 16463,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 161.33,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 249473,
+      "daily_remaining_tokens": 750527
+    },
+    "updated_at": "2026-09-21T12:04:41.902495"
+  },
+  "Chart_15/org/jfree/chart/plot/PiePlot.java": {
+    "project": "Chart_15",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_15/org/jfree/chart/plot/PiePlot.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_15_buggy/PiePlotTest.java",
+    "file_size_bytes": 10531,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 13587,
+      "completion_tokens": 2651,
+      "total_tokens": 16238
+    },
+    "content_char_count": 10532,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 92.95,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 265711,
+      "daily_remaining_tokens": 734289
+    },
+    "updated_at": "2026-09-21T12:06:15.994423"
+  },
+  "Chart_16/org/jfree/data/category/DefaultIntervalCategoryDataset.java": {
+    "project": "Chart_16",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_16/org/jfree/data/category/DefaultIntervalCategoryDataset.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_16_buggy/DefaultIntervalCategoryDatasetTest.java",
+    "file_size_bytes": 16964,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4050,
+      "completion_tokens": 3896,
+      "total_tokens": 7946
+    },
+    "content_char_count": 16976,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 161.99,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 273657,
+      "daily_remaining_tokens": 726343
+    },
+    "updated_at": "2026-09-21T12:08:59.125746"
+  },
+  "Chart_17/org/jfree/data/time/TimeSeries.java": {
+    "project": "Chart_17",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_17/org/jfree/data/time/TimeSeries.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_17_buggy/TimeSeriesTest.java",
+    "file_size_bytes": 11228,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4888,
+      "completion_tokens": 3067,
+      "total_tokens": 7955
+    },
+    "content_char_count": 11241,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 128.23,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 281612,
+      "daily_remaining_tokens": 718388
+    },
+    "updated_at": "2026-09-21T12:11:08.483640"
+  },
+  "Chart_18/org/jfree/data/DefaultKeyedValues.java": {
+    "project": "Chart_18",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_18/org/jfree/data/DefaultKeyedValues.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_18_buggy/DefaultKeyedValuesTest.java",
+    "file_size_bytes": 7179,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4842,
+      "completion_tokens": 1922,
+      "total_tokens": 6764
+    },
+    "content_char_count": 7192,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 78.96,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 288382,
+      "daily_remaining_tokens": 711618
+    },
+    "updated_at": "2026-09-21T12:12:28.607373"
+  },
+  "Chart_18/org/jfree/data/DefaultKeyedValues2D.java": {
+    "project": "Chart_18",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_18/org/jfree/data/DefaultKeyedValues2D.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_18_buggy/DefaultKeyedValues2DTest.java",
+    "file_size_bytes": 11784,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5477,
+      "completion_tokens": 3147,
+      "total_tokens": 8624
+    },
+    "content_char_count": 11796,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 129.72,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 297006,
+      "daily_remaining_tokens": 702994
+    },
+    "updated_at": "2026-09-21T12:14:39.439141"
+  },
+  "Chart_19/org/jfree/chart/plot/CategoryPlot.java": {
+    "project": "Chart_19",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_19/org/jfree/chart/plot/CategoryPlot.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_19_buggy/CategoryPlotTest.java",
+    "file_size_bytes": 21622,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 17014,
+      "completion_tokens": 4925,
+      "total_tokens": 21939
+    },
+    "content_char_count": 21634,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 200.93,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 318945,
+      "daily_remaining_tokens": 681055
+    },
+    "updated_at": "2026-09-21T12:18:01.494867"
+  },
+  "Chart_2/org/jfree/data/general/DatasetUtilities.java": {
+    "project": "Chart_2",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_2/org/jfree/data/general/DatasetUtilities.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_2_buggy/DatasetUtilitiesTest.java",
+    "file_size_bytes": 38251,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 11802,
+      "completion_tokens": 9128,
+      "total_tokens": 20930
+    },
+    "content_char_count": 38251,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 368.24,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 339875,
+      "daily_remaining_tokens": 660125
+    },
+    "updated_at": "2026-09-21T12:24:10.858829"
+  },
+  "Chart_20/org/jfree/chart/plot/ValueMarker.java": {
+    "project": "Chart_20",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_20/org/jfree/chart/plot/ValueMarker.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_20_buggy/ValueMarkerTest.java",
+    "file_size_bytes": 4357,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2443,
+      "completion_tokens": 1063,
+      "total_tokens": 3506
+    },
+    "content_char_count": 4370,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 50.93,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 343387,
+      "daily_remaining_tokens": 656613
+    },
+    "updated_at": "2026-09-21T12:25:02.903821"
+  },
+  "Chart_21/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java": {
+    "project": "Chart_21",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_21/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_21_buggy/DefaultBoxAndWhiskerCategoryDatasetTest.java",
+    "file_size_bytes": 10459,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6933,
+      "completion_tokens": 2567,
+      "total_tokens": 9500
+    },
+    "content_char_count": 10472,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 111.53,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 352887,
+      "daily_remaining_tokens": 647113
+    },
+    "updated_at": "2026-09-21T12:26:55.563517"
+  },
+  "Chart_22/org/jfree/data/KeyedObjects2D.java": {
+    "project": "Chart_22",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_22/org/jfree/data/KeyedObjects2D.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_22_buggy/KeyedObjects2DTest.java",
+    "file_size_bytes": 9856,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4568,
+      "completion_tokens": 2677,
+      "total_tokens": 7245
+    },
+    "content_char_count": 9868,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 108.73,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 360132,
+      "daily_remaining_tokens": 639868
+    },
+    "updated_at": "2026-09-21T12:28:45.414360"
+  },
+  "Chart_23/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java": {
+    "project": "Chart_23",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_23/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_23_buggy/MinMaxCategoryRendererTest.java",
+    "file_size_bytes": 7663,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5681,
+      "completion_tokens": 1782,
+      "total_tokens": 7463
+    },
+    "content_char_count": 7664,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 75.13,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 367595,
+      "daily_remaining_tokens": 632405
+    },
+    "updated_at": "2026-09-21T12:30:01.680025"
+  },
+  "Chart_24/org/jfree/chart/renderer/GrayPaintScale.java": {
+    "project": "Chart_24",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_24/org/jfree/chart/renderer/GrayPaintScale.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_24_buggy/GrayPaintScaleTest.java",
+    "file_size_bytes": 3676,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2531,
+      "completion_tokens": 922,
+      "total_tokens": 3453
+    },
+    "content_char_count": 3689,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 39.42,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 371048,
+      "daily_remaining_tokens": 628952
+    },
+    "updated_at": "2026-09-21T12:30:42.219731"
+  },
+  "Chart_25/org/jfree/chart/renderer/category/StatisticalBarRenderer.java": {
+    "project": "Chart_25",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_25/org/jfree/chart/renderer/category/StatisticalBarRenderer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_25_buggy/StatisticalBarRendererTest.java",
+    "file_size_bytes": 9809,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5916,
+      "completion_tokens": 2368,
+      "total_tokens": 8284
+    },
+    "content_char_count": 9822,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 98.58,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 379332,
+      "daily_remaining_tokens": 620668
+    },
+    "updated_at": "2026-09-21T12:32:21.944272"
+  },
+  "Chart_26/org/jfree/chart/axis/Axis.java": {
+    "project": "Chart_26",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_26/org/jfree/chart/axis/Axis.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_26_buggy/AxisTest.java",
+    "file_size_bytes": 10163,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6621,
+      "completion_tokens": 2399,
+      "total_tokens": 9020
+    },
+    "content_char_count": 10176,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 99.84,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 388352,
+      "daily_remaining_tokens": 611648
+    },
+    "updated_at": "2026-09-21T12:34:02.910398"
+  },
+  "Chart_3/org/jfree/data/time/TimeSeries.java": {
+    "project": "Chart_3",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_3/org/jfree/data/time/TimeSeries.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_3_buggy/TimeSeriesTest.java",
+    "file_size_bytes": 16528,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5974,
+      "completion_tokens": 4495,
+      "total_tokens": 10469
+    },
+    "content_char_count": 16541,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 185.53,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 398821,
+      "daily_remaining_tokens": 601179
+    },
+    "updated_at": "2026-09-21T12:37:09.579046"
+  },
+  "Chart_4/org/jfree/chart/plot/XYPlot.java": {
+    "project": "Chart_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_4/org/jfree/chart/plot/XYPlot.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_4_buggy/XYPlotTest.java",
+    "file_size_bytes": 14474,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 25975,
+      "completion_tokens": 3387,
+      "total_tokens": 29362
+    },
+    "content_char_count": 14487,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 140.55,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 428183,
+      "daily_remaining_tokens": 571817
+    },
+    "updated_at": "2026-09-21T12:39:31.255954"
+  },
+  "Chart_5/org/jfree/data/xy/XYSeries.java": {
+    "project": "Chart_5",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_5/org/jfree/data/xy/XYSeries.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_5_buggy/XYSeriesTest.java",
+    "file_size_bytes": 10808,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7159,
+      "completion_tokens": 3117,
+      "total_tokens": 10276
+    },
+    "content_char_count": 10808,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 129.75,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 438459,
+      "daily_remaining_tokens": 561541
+    },
+    "updated_at": "2026-09-21T12:41:42.136494"
+  },
+  "Chart_6/org/jfree/chart/util/ShapeList.java": {
+    "project": "Chart_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_6/org/jfree/chart/util/ShapeList.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_6_buggy/ShapeListTest.java",
+    "file_size_bytes": 11739,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2295,
+      "completion_tokens": 2778,
+      "total_tokens": 5073
+    },
+    "content_char_count": 11751,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 113.44,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 443532,
+      "daily_remaining_tokens": 556468
+    },
+    "updated_at": "2026-09-21T12:43:36.781243"
+  },
+  "Chart_7/org/jfree/data/time/TimePeriodValues.java": {
+    "project": "Chart_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_7/org/jfree/data/time/TimePeriodValues.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_7_buggy/TimePeriodValuesTest.java",
+    "file_size_bytes": 16390,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5452,
+      "completion_tokens": 4137,
+      "total_tokens": 9589
+    },
+    "content_char_count": 16403,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 169.14,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 453121,
+      "daily_remaining_tokens": 546879
+    },
+    "updated_at": "2026-09-21T12:46:27.068689"
+  },
+  "Chart_8/org/jfree/data/time/Week.java": {
+    "project": "Chart_8",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_8/org/jfree/data/time/Week.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_8_buggy/WeekTest.java",
+    "file_size_bytes": 6082,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6362,
+      "completion_tokens": 1545,
+      "total_tokens": 7907
+    },
+    "content_char_count": 6095,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 63.22,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 461028,
+      "daily_remaining_tokens": 538972
+    },
+    "updated_at": "2026-09-21T12:47:31.413505"
+  },
+  "Chart_9/org/jfree/data/time/TimeSeries.java": {
+    "project": "Chart_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Chart_9/org/jfree/data/time/TimeSeries.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_9_buggy/TimeSeriesTest.java",
+    "file_size_bytes": 13988,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4890,
+      "completion_tokens": 3831,
+      "total_tokens": 8721
+    },
+    "content_char_count": 14001,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 155.22,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 469749,
+      "daily_remaining_tokens": 530251
+    },
+    "updated_at": "2026-09-21T12:50:07.761478"
+  }
+}

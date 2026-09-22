@@ -1,0 +1,577 @@
+{
+  "Codec_1/org/apache/commons/codec/language/Caverphone.java": {
+    "project": "Codec_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_1/org/apache/commons/codec/language/Caverphone.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_1_buggy/CaverphoneTest.java",
+    "file_size_bytes": 10384,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3257,
+      "completion_tokens": 2775,
+      "total_tokens": 6032
+    },
+    "content_char_count": 10396,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 125.31,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 154637,
+      "daily_remaining_tokens": 845363
+    },
+    "updated_at": "2026-09-21T11:49:27.371829"
+  },
+  "Codec_1/org/apache/commons/codec/language/DoubleMetaphone.java": {
+    "project": "Codec_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_1/org/apache/commons/codec/language/DoubleMetaphone.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_1_buggy/DoubleMetaphoneTest.java",
+    "file_size_bytes": 5519,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8457,
+      "completion_tokens": 1390,
+      "total_tokens": 9847
+    },
+    "content_char_count": 5520,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 61.29,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 164484,
+      "daily_remaining_tokens": 835516
+    },
+    "updated_at": "2026-09-21T11:50:29.823451"
+  },
+  "Codec_1/org/apache/commons/codec/language/Metaphone.java": {
+    "project": "Codec_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_1/org/apache/commons/codec/language/Metaphone.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_1_buggy/MetaphoneTest.java",
+    "file_size_bytes": 4849,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4547,
+      "completion_tokens": 1266,
+      "total_tokens": 5813
+    },
+    "content_char_count": 4862,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 52.43,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 170297,
+      "daily_remaining_tokens": 829703
+    },
+    "updated_at": "2026-09-21T11:51:23.350995"
+  },
+  "Codec_1/org/apache/commons/codec/language/SoundexUtils.java": {
+    "project": "Codec_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_1/org/apache/commons/codec/language/SoundexUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_1_buggy/SoundexUtilsTest.java",
+    "file_size_bytes": 7956,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2327,
+      "completion_tokens": 1944,
+      "total_tokens": 4271
+    },
+    "content_char_count": 7945,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 81.56,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 174568,
+      "daily_remaining_tokens": 825432
+    },
+    "updated_at": "2026-09-21T11:52:46.007286"
+  },
+  "Codec_10/org/apache/commons/codec/language/Caverphone.java": {
+    "project": "Codec_10",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_10/org/apache/commons/codec/language/Caverphone.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_10_buggy/CaverphoneTest.java",
+    "file_size_bytes": 2607,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3273,
+      "completion_tokens": 657,
+      "total_tokens": 3930
+    },
+    "content_char_count": 2619,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 33.98,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 183220,
+      "daily_remaining_tokens": 816780
+    },
+    "updated_at": "2026-09-21T11:54:43.307908"
+  },
+  "Codec_11/org/apache/commons/codec/net/QuotedPrintableCodec.java": {
+    "project": "Codec_11",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_11/org/apache/commons/codec/net/QuotedPrintableCodec.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_11_buggy/QuotedPrintableCodecTest.java",
+    "file_size_bytes": 7640,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4856,
+      "completion_tokens": 1913,
+      "total_tokens": 6769
+    },
+    "content_char_count": 7651,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 80.11,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 189989,
+      "daily_remaining_tokens": 810011
+    },
+    "updated_at": "2026-09-21T11:56:04.516469"
+  },
+  "Codec_12/org/apache/commons/codec/binary/BaseNCodecInputStream.java": {
+    "project": "Codec_12",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_12/org/apache/commons/codec/binary/BaseNCodecInputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_12_buggy/BaseNCodecInputStreamTest.java",
+    "file_size_bytes": 7859,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2505,
+      "completion_tokens": 1806,
+      "total_tokens": 4311
+    },
+    "content_char_count": 7872,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 75.43,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 194300,
+      "daily_remaining_tokens": 805700
+    },
+    "updated_at": "2026-09-21T11:57:21.051085"
+  },
+  "Codec_13/org/apache/commons/codec/binary/StringUtils.java": {
+    "project": "Codec_13",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_13/org/apache/commons/codec/binary/StringUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_13_buggy/StringUtilsTest.java",
+    "file_size_bytes": 4154,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5497,
+      "completion_tokens": 1171,
+      "total_tokens": 6668
+    },
+    "content_char_count": 4165,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 49.24,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 200968,
+      "daily_remaining_tokens": 799032
+    },
+    "updated_at": "2026-09-21T11:58:11.393033"
+  },
+  "Codec_13/org/apache/commons/codec/language/DoubleMetaphone.java": {
+    "project": "Codec_13",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_13/org/apache/commons/codec/language/DoubleMetaphone.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_13_buggy/DoubleMetaphoneTest.java",
+    "file_size_bytes": 4092,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8148,
+      "completion_tokens": 1075,
+      "total_tokens": 9223
+    },
+    "content_char_count": 4101,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 44.65,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 210191,
+      "daily_remaining_tokens": 789809
+    },
+    "updated_at": "2026-09-21T11:58:57.248714"
+  },
+  "Codec_14/org/apache/commons/codec/language/bm/Lang.java": {
+    "project": "Codec_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_14/org/apache/commons/codec/language/bm/Lang.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_14_buggy/LangTest.java",
+    "file_size_bytes": 6388,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3251,
+      "completion_tokens": 1356,
+      "total_tokens": 4607
+    },
+    "content_char_count": 6399,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 58.01,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 214798,
+      "daily_remaining_tokens": 785202
+    },
+    "updated_at": "2026-09-21T11:59:56.353691"
+  },
+  "Codec_14/org/apache/commons/codec/language/bm/PhoneticEngine.java": {
+    "project": "Codec_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_14/org/apache/commons/codec/language/bm/PhoneticEngine.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_14_buggy/PhoneticEngineTest.java",
+    "file_size_bytes": 9754,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5679,
+      "completion_tokens": 2243,
+      "total_tokens": 7922
+    },
+    "content_char_count": 9762,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 94.23,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 222720,
+      "daily_remaining_tokens": 777280
+    },
+    "updated_at": "2026-09-21T12:01:31.733126"
+  },
+  "Codec_14/org/apache/commons/codec/language/bm/Rule.java": {
+    "project": "Codec_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_14/org/apache/commons/codec/language/bm/Rule.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_14_buggy/RuleTest.java",
+    "file_size_bytes": 7131,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5282,
+      "completion_tokens": 1932,
+      "total_tokens": 7214
+    },
+    "content_char_count": 7143,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 82.01,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 229940,
+      "daily_remaining_tokens": 770060
+    },
+    "updated_at": "2026-09-21T12:02:54.836930"
+  },
+  "Codec_15/org/apache/commons/codec/language/Soundex.java": {
+    "project": "Codec_15",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_15/org/apache/commons/codec/language/Soundex.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_15_buggy/SoundexTest.java",
+    "file_size_bytes": 2715,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3645,
+      "completion_tokens": 654,
+      "total_tokens": 4299
+    },
+    "content_char_count": 2727,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 28.58,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 234239,
+      "daily_remaining_tokens": 765761
+    },
+    "updated_at": "2026-09-21T12:03:24.494820"
+  },
+  "Codec_16/org/apache/commons/codec/binary/Base32.java": {
+    "project": "Codec_16",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_16/org/apache/commons/codec/binary/Base32.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_16_buggy/Base32Test.java",
+    "file_size_bytes": 11267,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5015,
+      "completion_tokens": 3012,
+      "total_tokens": 8027
+    },
+    "content_char_count": 11280,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 126.74,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 242266,
+      "daily_remaining_tokens": 757734
+    },
+    "updated_at": "2026-09-21T12:05:32.330716"
+  },
+  "Codec_17/org/apache/commons/codec/binary/StringUtils.java": {
+    "project": "Codec_17",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_17/org/apache/commons/codec/binary/StringUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_17_buggy/StringUtilsTest.java",
+    "file_size_bytes": 5150,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6123,
+      "completion_tokens": 1345,
+      "total_tokens": 7468
+    },
+    "content_char_count": 5150,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 58.76,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 249734,
+      "daily_remaining_tokens": 750266
+    },
+    "updated_at": "2026-09-21T12:06:32.169620"
+  },
+  "Codec_18/org/apache/commons/codec/binary/StringUtils.java": {
+    "project": "Codec_18",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_18/org/apache/commons/codec/binary/StringUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_18_buggy/StringUtilsTest.java",
+    "file_size_bytes": 6649,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6103,
+      "completion_tokens": 1703,
+      "total_tokens": 7806
+    },
+    "content_char_count": 6658,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 72.0,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 257540,
+      "daily_remaining_tokens": 742460
+    },
+    "updated_at": "2026-09-21T12:07:45.247901"
+  },
+  "Codec_2/org/apache/commons/codec/binary/Base64.java": {
+    "project": "Codec_2",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_2/org/apache/commons/codec/binary/Base64.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_2_buggy/Base64Test.java",
+    "file_size_bytes": 6262,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5451,
+      "completion_tokens": 1613,
+      "total_tokens": 7064
+    },
+    "content_char_count": 6263,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 67.94,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 264604,
+      "daily_remaining_tokens": 735396
+    },
+    "updated_at": "2026-09-21T12:08:54.292477"
+  },
+  "Codec_3/org/apache/commons/codec/language/DoubleMetaphone.java": {
+    "project": "Codec_3",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_3/org/apache/commons/codec/language/DoubleMetaphone.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_3_buggy/DoubleMetaphoneTest.java",
+    "file_size_bytes": 6890,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8458,
+      "completion_tokens": 1771,
+      "total_tokens": 10229
+    },
+    "content_char_count": 6891,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 75.17,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 274833,
+      "daily_remaining_tokens": 725167
+    },
+    "updated_at": "2026-09-21T12:10:10.541629"
+  },
+  "Codec_4/org/apache/commons/codec/binary/Base64.java": {
+    "project": "Codec_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_4/org/apache/commons/codec/binary/Base64.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_4_buggy/Base64Test.java",
+    "file_size_bytes": 7634,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5776,
+      "completion_tokens": 1961,
+      "total_tokens": 7737
+    },
+    "content_char_count": 7635,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 82.44,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 282576,
+      "daily_remaining_tokens": 717424
+    },
+    "updated_at": "2026-09-21T12:11:34.063207"
+  },
+  "Codec_5/org/apache/commons/codec/binary/Base64.java": {
+    "project": "Codec_5",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_5/org/apache/commons/codec/binary/Base64.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_5_buggy/Base64Test.java",
+    "file_size_bytes": 7704,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5798,
+      "completion_tokens": 1937,
+      "total_tokens": 7735
+    },
+    "content_char_count": 7704,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 80.94,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 290311,
+      "daily_remaining_tokens": 709689
+    },
+    "updated_at": "2026-09-21T12:12:56.080408"
+  },
+  "Codec_6/org/apache/commons/codec/binary/Base64InputStream.java": {
+    "project": "Codec_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_6/org/apache/commons/codec/binary/Base64InputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_6_buggy/Base64InputStreamTest.java",
+    "file_size_bytes": 5176,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2996,
+      "completion_tokens": 1273,
+      "total_tokens": 4269
+    },
+    "content_char_count": 5177,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 52.2,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 294580,
+      "daily_remaining_tokens": 705420
+    },
+    "updated_at": "2026-09-21T12:13:49.355436"
+  },
+  "Codec_7/org/apache/commons/codec/binary/Base64.java": {
+    "project": "Codec_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_7/org/apache/commons/codec/binary/Base64.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_7_buggy/Base64Test.java",
+    "file_size_bytes": 10338,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5820,
+      "completion_tokens": 2812,
+      "total_tokens": 8632
+    },
+    "content_char_count": 10339,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 116.99,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 303212,
+      "daily_remaining_tokens": 696788
+    },
+    "updated_at": "2026-09-21T12:15:47.417310"
+  },
+  "Codec_8/org/apache/commons/codec/binary/Base64.java": {
+    "project": "Codec_8",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_8/org/apache/commons/codec/binary/Base64.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_8_buggy/Base64Test.java",
+    "file_size_bytes": 4444,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5696,
+      "completion_tokens": 1172,
+      "total_tokens": 6868
+    },
+    "content_char_count": 4445,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 49.71,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 310080,
+      "daily_remaining_tokens": 689920
+    },
+    "updated_at": "2026-09-21T12:16:38.202499"
+  },
+  "Codec_8/org/apache/commons/codec/binary/Base64InputStream.java": {
+    "project": "Codec_8",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_8/org/apache/commons/codec/binary/Base64InputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_8_buggy/Base64InputStreamTest.java",
+    "file_size_bytes": 14790,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3007,
+      "completion_tokens": 3374,
+      "total_tokens": 6381
+    },
+    "content_char_count": 14803,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 137.21,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 316461,
+      "daily_remaining_tokens": 683539
+    },
+    "updated_at": "2026-09-21T12:18:56.489695"
+  },
+  "Codec_9/org/apache/commons/codec/binary/Base64.java": {
+    "project": "Codec_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Codec_9/org/apache/commons/codec/binary/Base64.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_9_buggy/Base64Test.java",
+    "file_size_bytes": 13904,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5688,
+      "completion_tokens": 3694,
+      "total_tokens": 9382
+    },
+    "content_char_count": 13917,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 150.2,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 325843,
+      "daily_remaining_tokens": 674157
+    },
+    "updated_at": "2026-09-21T12:21:27.765048"
+  }
+}

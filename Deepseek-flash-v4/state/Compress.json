@@ -1,0 +1,1336 @@
+{
+  "Compress_1/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java": {
+    "project": "Compress_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_1/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_1_buggy/CpioArchiveOutputStreamTest.java",
+    "file_size_bytes": 5187,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4692,
+      "completion_tokens": 1199,
+      "total_tokens": 5891
+    },
+    "content_char_count": 5200,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 55.65,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 475640,
+      "daily_remaining_tokens": 524360
+    },
+    "updated_at": "2026-09-21T12:51:07.824892"
+  },
+  "Compress_10/org/apache/commons/compress/archivers/zip/ZipFile.java": {
+    "project": "Compress_10",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_10/org/apache/commons/compress/archivers/zip/ZipFile.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_10_buggy/ZipFileTest.java",
+    "file_size_bytes": 9417,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5676,
+      "completion_tokens": 2114,
+      "total_tokens": 7790
+    },
+    "content_char_count": 9429,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 86.81,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 483430,
+      "daily_remaining_tokens": 516570
+    },
+    "updated_at": "2026-09-21T12:52:35.718496"
+  },
+  "Compress_11/org/apache/commons/compress/archivers/ArchiveStreamFactory.java": {
+    "project": "Compress_11",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_11/org/apache/commons/compress/archivers/ArchiveStreamFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_11_buggy/ArchiveStreamFactoryTest.java",
+    "file_size_bytes": 12758,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3438,
+      "completion_tokens": 2596,
+      "total_tokens": 6034
+    },
+    "content_char_count": 12770,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 105.06,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 489464,
+      "daily_remaining_tokens": 510536
+    },
+    "updated_at": "2026-09-21T12:54:21.850801"
+  },
+  "Compress_12/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java": {
+    "project": "Compress_12",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_12/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_12_buggy/TarArchiveInputStreamTest.java",
+    "file_size_bytes": 14189,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5324,
+      "completion_tokens": 3263,
+      "total_tokens": 8587
+    },
+    "content_char_count": 14201,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 130.67,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 498051,
+      "daily_remaining_tokens": 501949
+    },
+    "updated_at": "2026-09-21T12:56:33.602782"
+  },
+  "Compress_13/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java": {
+    "project": "Compress_13",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_13/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_13_buggy/ZipArchiveEntryTest.java",
+    "file_size_bytes": 19779,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6301,
+      "completion_tokens": 4734,
+      "total_tokens": 11035
+    },
+    "content_char_count": 19791,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 194.71,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 509086,
+      "daily_remaining_tokens": 490914
+    },
+    "updated_at": "2026-09-21T12:59:49.392025"
+  },
+  "Compress_14/org/apache/commons/compress/archivers/tar/TarUtils.java": {
+    "project": "Compress_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_14/org/apache/commons/compress/archivers/tar/TarUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_14_buggy/TarUtilsTest.java",
+    "file_size_bytes": 7856,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4645,
+      "completion_tokens": 2031,
+      "total_tokens": 6676
+    },
+    "content_char_count": 7869,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 85.25,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 515762,
+      "daily_remaining_tokens": 484238
+    },
+    "updated_at": "2026-09-21T13:01:15.719818"
+  },
+  "Compress_15/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java": {
+    "project": "Compress_15",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_15/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_15_buggy/ZipArchiveEntryTest.java",
+    "file_size_bytes": 15516,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6275,
+      "completion_tokens": 3676,
+      "total_tokens": 9951
+    },
+    "content_char_count": 15517,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 152.68,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 525713,
+      "daily_remaining_tokens": 474287
+    },
+    "updated_at": "2026-09-21T13:03:49.479538"
+  },
+  "Compress_16/org/apache/commons/compress/archivers/ArchiveStreamFactory.java": {
+    "project": "Compress_16",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_16/org/apache/commons/compress/archivers/ArchiveStreamFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_16_buggy/ArchiveStreamFactoryTest.java",
+    "file_size_bytes": 9814,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3465,
+      "completion_tokens": 1999,
+      "total_tokens": 5464
+    },
+    "content_char_count": 9826,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 83.63,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 531177,
+      "daily_remaining_tokens": 468823
+    },
+    "updated_at": "2026-09-21T13:05:14.185773"
+  },
+  "Compress_17/org/apache/commons/compress/archivers/tar/TarUtils.java": {
+    "project": "Compress_17",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_17/org/apache/commons/compress/archivers/tar/TarUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_17_buggy/TarUtilsTest.java",
+    "file_size_bytes": 7903,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6716,
+      "completion_tokens": 2085,
+      "total_tokens": 8801
+    },
+    "content_char_count": 7903,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 84.98,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 539978,
+      "daily_remaining_tokens": 460022
+    },
+    "updated_at": "2026-09-21T13:06:40.243963"
+  },
+  "Compress_18/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java": {
+    "project": "Compress_18",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_18/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_18_buggy/TarArchiveOutputStreamTest.java",
+    "file_size_bytes": 16791,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6173,
+      "completion_tokens": 4084,
+      "total_tokens": 10257
+    },
+    "content_char_count": 16785,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 166.08,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 550235,
+      "daily_remaining_tokens": 449765
+    },
+    "updated_at": "2026-09-21T13:09:27.403232"
+  },
+  "Compress_19/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java": {
+    "project": "Compress_19",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_19/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_19_buggy/Zip64ExtendedInformationExtraFieldTest.java",
+    "file_size_bytes": 14650,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4122,
+      "completion_tokens": 3763,
+      "total_tokens": 7885
+    },
+    "content_char_count": 14659,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 152.38,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 558120,
+      "daily_remaining_tokens": 441880
+    },
+    "updated_at": "2026-09-21T13:12:00.851935"
+  },
+  "Compress_2/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java": {
+    "project": "Compress_2",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_2/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_2_buggy/ArArchiveInputStreamTest.java",
+    "file_size_bytes": 10110,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2476,
+      "completion_tokens": 2524,
+      "total_tokens": 5000
+    },
+    "content_char_count": 10122,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 103.85,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 563126,
+      "daily_remaining_tokens": 436874
+    },
+    "updated_at": "2026-09-21T13:13:45.776624"
+  },
+  "Compress_20/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java": {
+    "project": "Compress_20",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_20/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_20_buggy/CpioArchiveInputStreamTest.java",
+    "file_size_bytes": 6077,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5584,
+      "completion_tokens": 1497,
+      "total_tokens": 7081
+    },
+    "content_char_count": 6089,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 61.4,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 570207,
+      "daily_remaining_tokens": 429793
+    },
+    "updated_at": "2026-09-21T13:14:48.256025"
+  },
+  "Compress_21/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java": {
+    "project": "Compress_21",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_21/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_21_buggy/SevenZOutputFileTest.java",
+    "file_size_bytes": 6632,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6409,
+      "completion_tokens": 1498,
+      "total_tokens": 7907
+    },
+    "content_char_count": 6645,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 63.97,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 578114,
+      "daily_remaining_tokens": 421886
+    },
+    "updated_at": "2026-09-21T13:15:53.331168"
+  },
+  "Compress_22/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java": {
+    "project": "Compress_22",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_22/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_22_buggy/BZip2CompressorInputStreamTest.java",
+    "file_size_bytes": 11545,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8231,
+      "completion_tokens": 2843,
+      "total_tokens": 11074
+    },
+    "content_char_count": 11558,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 113.74,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 589188,
+      "daily_remaining_tokens": 410812
+    },
+    "updated_at": "2026-09-21T13:17:48.151573"
+  },
+  "Compress_23/org/apache/commons/compress/archivers/sevenz/Coders.java": {
+    "project": "Compress_23",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_23/org/apache/commons/compress/archivers/sevenz/Coders.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_23_buggy/CodersTest.java",
+    "file_size_bytes": 15298,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3619,
+      "completion_tokens": 3730,
+      "total_tokens": 7349
+    },
+    "content_char_count": 15311,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 151.7,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 596537,
+      "daily_remaining_tokens": 403463
+    },
+    "updated_at": "2026-09-21T13:20:20.923156"
+  },
+  "Compress_24/org/apache/commons/compress/archivers/tar/TarUtils.java": {
+    "project": "Compress_24",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_24/org/apache/commons/compress/archivers/tar/TarUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_24_buggy/TarUtilsTest.java",
+    "file_size_bytes": 7504,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6823,
+      "completion_tokens": 1999,
+      "total_tokens": 8822
+    },
+    "content_char_count": 7516,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 81.06,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 605359,
+      "daily_remaining_tokens": 394641
+    },
+    "updated_at": "2026-09-21T13:21:43.060159"
+  },
+  "Compress_25/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": {
+    "project": "Compress_25",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_25/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_25_buggy/ZipArchiveInputStreamTest.java",
+    "file_size_bytes": 16380,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6825,
+      "completion_tokens": 3838,
+      "total_tokens": 10663
+    },
+    "content_char_count": 16393,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 152.85,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 616022,
+      "daily_remaining_tokens": 383978
+    },
+    "updated_at": "2026-09-21T13:24:16.982224"
+  },
+  "Compress_26/org/apache/commons/compress/utils/IOUtils.java": {
+    "project": "Compress_26",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_26/org/apache/commons/compress/utils/IOUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_26_buggy/IOUtilsTest.java",
+    "file_size_bytes": 12483,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2774,
+      "completion_tokens": 3038,
+      "total_tokens": 5812
+    },
+    "content_char_count": 12495,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 123.04,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 621834,
+      "daily_remaining_tokens": 378166
+    },
+    "updated_at": "2026-09-21T13:26:21.091408"
+  },
+  "Compress_27/org/apache/commons/compress/archivers/tar/TarUtils.java": {
+    "project": "Compress_27",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_27/org/apache/commons/compress/archivers/tar/TarUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_27_buggy/TarUtilsTest.java",
+    "file_size_bytes": 10576,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6796,
+      "completion_tokens": 2779,
+      "total_tokens": 9575
+    },
+    "content_char_count": 10589,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 113.43,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 631409,
+      "daily_remaining_tokens": 368591
+    },
+    "updated_at": "2026-09-21T13:28:15.591107"
+  },
+  "Compress_28/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java": {
+    "project": "Compress_28",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_28/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_28_buggy/TarArchiveInputStreamTest.java",
+    "file_size_bytes": 9832,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6486,
+      "completion_tokens": 2395,
+      "total_tokens": 8881
+    },
+    "content_char_count": 9832,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 99.67,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 640290,
+      "daily_remaining_tokens": 359710
+    },
+    "updated_at": "2026-09-21T13:29:56.335017"
+  },
+  "Compress_29/org/apache/commons/compress/archivers/ArchiveStreamFactory.java": {
+    "project": "Compress_29",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_29/org/apache/commons/compress/archivers/ArchiveStreamFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_29_buggy/ArchiveStreamFactoryTest.java",
+    "file_size_bytes": 4436,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4683,
+      "completion_tokens": 877,
+      "total_tokens": 5560
+    },
+    "content_char_count": 4449,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 36.39,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 645850,
+      "daily_remaining_tokens": 354150
+    },
+    "updated_at": "2026-09-21T13:30:33.791317"
+  },
+  "Compress_29/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java": {
+    "project": "Compress_29",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_29/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_29_buggy/CpioArchiveInputStreamTest.java",
+    "file_size_bytes": 8513,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5977,
+      "completion_tokens": 2322,
+      "total_tokens": 8299
+    },
+    "content_char_count": 8525,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 95.57,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 654149,
+      "daily_remaining_tokens": 345851
+    },
+    "updated_at": "2026-09-21T13:32:10.438834"
+  },
+  "Compress_29/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java": {
+    "project": "Compress_29",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_29/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_29_buggy/CpioArchiveOutputStreamTest.java",
+    "file_size_bytes": 10791,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5860,
+      "completion_tokens": 2687,
+      "total_tokens": 8547
+    },
+    "content_char_count": 10803,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 110.51,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 662696,
+      "daily_remaining_tokens": 337304
+    },
+    "updated_at": "2026-09-21T13:34:02.026728"
+  },
+  "Compress_29/org/apache/commons/compress/archivers/dump/DumpArchiveInputStream.java": {
+    "project": "Compress_29",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_29/org/apache/commons/compress/archivers/dump/DumpArchiveInputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_29_buggy/DumpArchiveInputStreamTest.java",
+    "file_size_bytes": 8714,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4946,
+      "completion_tokens": 1974,
+      "total_tokens": 6920
+    },
+    "content_char_count": 8714,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 81.23,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 669616,
+      "daily_remaining_tokens": 330384
+    },
+    "updated_at": "2026-09-21T13:35:24.327648"
+  },
+  "Compress_29/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java": {
+    "project": "Compress_29",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_29/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_29_buggy/TarArchiveInputStreamTest.java",
+    "file_size_bytes": 17867,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6731,
+      "completion_tokens": 7449,
+      "total_tokens": 14180
+    },
+    "content_char_count": 17867,
+    "reasoning_char_count": 15571,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 235.04,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 683796,
+      "daily_remaining_tokens": 316204
+    },
+    "updated_at": "2026-09-21T13:39:20.440019"
+  },
+  "Compress_29/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java": {
+    "project": "Compress_29",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_29/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_29_buggy/TarArchiveOutputStreamTest.java",
+    "file_size_bytes": 21326,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5032,
+      "completion_tokens": 4872,
+      "total_tokens": 9904
+    },
+    "content_char_count": 21335,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 197.63,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 693700,
+      "daily_remaining_tokens": 306300
+    },
+    "updated_at": "2026-09-21T13:42:39.152923"
+  },
+  "Compress_29/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": {
+    "project": "Compress_29",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_29/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_29_buggy/ZipArchiveInputStreamTest.java",
+    "file_size_bytes": 11380,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6833,
+      "completion_tokens": 2845,
+      "total_tokens": 9678
+    },
+    "content_char_count": 11392,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 116.35,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 703378,
+      "daily_remaining_tokens": 296622
+    },
+    "updated_at": "2026-09-21T13:44:36.595929"
+  },
+  "Compress_3/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java": {
+    "project": "Compress_3",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_3/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_3_buggy/TarArchiveOutputStreamTest.java",
+    "file_size_bytes": 9627,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3792,
+      "completion_tokens": 2220,
+      "total_tokens": 6012
+    },
+    "content_char_count": 9640,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 88.31,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 709390,
+      "daily_remaining_tokens": 290610
+    },
+    "updated_at": "2026-09-21T13:46:06.002149"
+  },
+  "Compress_30/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java": {
+    "project": "Compress_30",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_30/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_30_buggy/BZip2CompressorInputStreamTest.java",
+    "file_size_bytes": 4759,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8150,
+      "completion_tokens": 1144,
+      "total_tokens": 9294
+    },
+    "content_char_count": 4771,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 47.68,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 718684,
+      "daily_remaining_tokens": 281316
+    },
+    "updated_at": "2026-09-21T13:46:54.756575"
+  },
+  "Compress_31/org/apache/commons/compress/archivers/tar/TarUtils.java": {
+    "project": "Compress_31",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_31/org/apache/commons/compress/archivers/tar/TarUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_31_buggy/TarUtilsTest.java",
+    "file_size_bytes": 6738,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4078,
+      "completion_tokens": 1920,
+      "total_tokens": 5998
+    },
+    "content_char_count": 6738,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 77.3,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 734031,
+      "daily_remaining_tokens": 265969
+    },
+    "updated_at": "2026-09-21T13:49:59.948981"
+  },
+  "Compress_32/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java": {
+    "project": "Compress_32",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_32/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_32_buggy/TarArchiveInputStreamTest.java",
+    "file_size_bytes": 13660,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6743,
+      "completion_tokens": 3216,
+      "total_tokens": 9959
+    },
+    "content_char_count": 13660,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 130.16,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 743990,
+      "daily_remaining_tokens": 256010
+    },
+    "updated_at": "2026-09-21T13:52:11.183780"
+  },
+  "Compress_33/org/apache/commons/compress/compressors/CompressorStreamFactory.java": {
+    "project": "Compress_33",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_33/org/apache/commons/compress/compressors/CompressorStreamFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_33_buggy/CompressorStreamFactoryTest.java",
+    "file_size_bytes": 10505,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4500,
+      "completion_tokens": 2056,
+      "total_tokens": 6556
+    },
+    "content_char_count": 10518,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 83.24,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 750546,
+      "daily_remaining_tokens": 249454
+    },
+    "updated_at": "2026-09-21T13:53:35.498740"
+  },
+  "Compress_33/org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStream.java": {
+    "project": "Compress_33",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_33/org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_33_buggy/DeflateCompressorInputStreamTest.java",
+    "file_size_bytes": 7837,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1967,
+      "completion_tokens": 1750,
+      "total_tokens": 3717
+    },
+    "content_char_count": 7838,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 71.2,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 754263,
+      "daily_remaining_tokens": 245737
+    },
+    "updated_at": "2026-09-21T13:54:47.758912"
+  },
+  "Compress_34/org/apache/commons/compress/archivers/zip/X7875_NewUnix.java": {
+    "project": "Compress_34",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_34/org/apache/commons/compress/archivers/zip/X7875_NewUnix.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_34_buggy/X7875_NewUnixTest.java",
+    "file_size_bytes": 8085,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4304,
+      "completion_tokens": 2193,
+      "total_tokens": 6497
+    },
+    "content_char_count": 8098,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 90.01,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 760760,
+      "daily_remaining_tokens": 239240
+    },
+    "updated_at": "2026-09-21T13:56:18.843579"
+  },
+  "Compress_35/org/apache/commons/compress/archivers/tar/TarUtils.java": {
+    "project": "Compress_35",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_35/org/apache/commons/compress/archivers/tar/TarUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_35_buggy/TarUtilsTest.java",
+    "file_size_bytes": 8079,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6592,
+      "completion_tokens": 2232,
+      "total_tokens": 8824
+    },
+    "content_char_count": 8079,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 91.67,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 769584,
+      "daily_remaining_tokens": 230416
+    },
+    "updated_at": "2026-09-21T13:57:51.579162"
+  },
+  "Compress_36/org/apache/commons/compress/archivers/sevenz/SevenZFile.java": {
+    "project": "Compress_36",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_36/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_36_buggy/SevenZFileTest.java",
+    "file_size_bytes": 14638,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8924,
+      "completion_tokens": 3829,
+      "total_tokens": 12753
+    },
+    "content_char_count": 14650,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 155.04,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 782337,
+      "daily_remaining_tokens": 217663
+    },
+    "updated_at": "2026-09-21T14:00:27.694824"
+  },
+  "Compress_37/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java": {
+    "project": "Compress_37",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_37/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_37_buggy/TarArchiveInputStreamTest.java",
+    "file_size_bytes": 14027,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4532,
+      "completion_tokens": 3182,
+      "total_tokens": 7714
+    },
+    "content_char_count": 14039,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 130.04,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 790051,
+      "daily_remaining_tokens": 209949
+    },
+    "updated_at": "2026-09-21T14:02:38.807457"
+  },
+  "Compress_38/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java": {
+    "project": "Compress_38",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_38/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_38_buggy/TarArchiveEntryTest.java",
+    "file_size_bytes": 7149,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5808,
+      "completion_tokens": 1657,
+      "total_tokens": 7465
+    },
+    "content_char_count": 7157,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 68.6,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 797516,
+      "daily_remaining_tokens": 202484
+    },
+    "updated_at": "2026-09-21T14:03:48.484328"
+  },
+  "Compress_39/org/apache/commons/compress/utils/ArchiveUtils.java": {
+    "project": "Compress_39",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_39/org/apache/commons/compress/utils/ArchiveUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_39_buggy/ArchiveUtilsTest.java",
+    "file_size_bytes": 6828,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3627,
+      "completion_tokens": 1937,
+      "total_tokens": 5564
+    },
+    "content_char_count": 6839,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 79.18,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 803080,
+      "daily_remaining_tokens": 196920
+    },
+    "updated_at": "2026-09-21T14:05:08.746546"
+  },
+  "Compress_4/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java": {
+    "project": "Compress_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_4/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_4_buggy/CpioArchiveOutputStreamTest.java",
+    "file_size_bytes": 16058,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4497,
+      "completion_tokens": 3580,
+      "total_tokens": 8077
+    },
+    "content_char_count": 16070,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 145.88,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 811157,
+      "daily_remaining_tokens": 188843
+    },
+    "updated_at": "2026-09-21T14:07:35.696992"
+  },
+  "Compress_4/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java": {
+    "project": "Compress_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_4/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_4_buggy/TarArchiveOutputStreamTest.java",
+    "file_size_bytes": 12045,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3814,
+      "completion_tokens": 2694,
+      "total_tokens": 6508
+    },
+    "content_char_count": 12058,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 115.63,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 817671,
+      "daily_remaining_tokens": 182329
+    },
+    "updated_at": "2026-09-21T18:19:35.636675"
+  },
+  "Compress_4/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java": {
+    "project": "Compress_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_4/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_4_buggy/ZipArchiveOutputStreamTest.java",
+    "file_size_bytes": 14260,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5090,
+      "completion_tokens": 3269,
+      "total_tokens": 8359
+    },
+    "content_char_count": 14272,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 130.57,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 826030,
+      "daily_remaining_tokens": 173970
+    },
+    "updated_at": "2026-09-21T18:21:47.284292"
+  },
+  "Compress_4/org/apache/commons/compress/changes/ChangeSetPerformer.java": {
+    "project": "Compress_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_4/org/apache/commons/compress/changes/ChangeSetPerformer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_4_buggy/ChangeSetPerformerTest.java",
+    "file_size_bytes": 9217,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2599,
+      "completion_tokens": 10191,
+      "total_tokens": 12790
+    },
+    "content_char_count": 9217,
+    "reasoning_char_count": 33473,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 89.37,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 838820,
+      "daily_remaining_tokens": 161180
+    },
+    "updated_at": "2026-09-21T18:23:17.736196"
+  },
+  "Compress_40/org/apache/commons/compress/utils/BitInputStream.java": {
+    "project": "Compress_40",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_40/org/apache/commons/compress/utils/BitInputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_40_buggy/BitInputStreamTest.java",
+    "file_size_bytes": 5138,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2166,
+      "completion_tokens": 1292,
+      "total_tokens": 3458
+    },
+    "content_char_count": 5138,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 54.63,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 842278,
+      "daily_remaining_tokens": 157722
+    },
+    "updated_at": "2026-09-21T18:24:13.434938"
+  },
+  "Compress_41/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": {
+    "project": "Compress_41",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_41/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_41_buggy/ZipArchiveInputStreamTest.java",
+    "file_size_bytes": 13149,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7063,
+      "completion_tokens": 2897,
+      "total_tokens": 9960
+    },
+    "content_char_count": 13161,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 116.41,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 852238,
+      "daily_remaining_tokens": 147762
+    },
+    "updated_at": "2026-09-21T18:26:10.909525"
+  },
+  "Compress_42/org/apache/commons/compress/archivers/zip/UnixStat.java": {
+    "project": "Compress_42",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_42/org/apache/commons/compress/archivers/zip/UnixStat.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_42_buggy/UnixStatTest.java",
+    "file_size_bytes": 1148,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1678,
+      "completion_tokens": 288,
+      "total_tokens": 1966
+    },
+    "content_char_count": 1149,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 13.72,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 854204,
+      "daily_remaining_tokens": 145796
+    },
+    "updated_at": "2026-09-21T18:26:25.693698"
+  },
+  "Compress_42/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java": {
+    "project": "Compress_42",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_42/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_42_buggy/ZipArchiveEntryTest.java",
+    "file_size_bytes": 10203,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4624,
+      "completion_tokens": 2343,
+      "total_tokens": 6967
+    },
+    "content_char_count": 10216,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 97.03,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 861171,
+      "daily_remaining_tokens": 138829
+    },
+    "updated_at": "2026-09-21T18:28:03.803158"
+  },
+  "Compress_43/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java": {
+    "project": "Compress_43",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_43/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_43_buggy/ZipArchiveOutputStreamTest.java",
+    "file_size_bytes": 10236,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10452,
+      "completion_tokens": 2370,
+      "total_tokens": 12822
+    },
+    "content_char_count": 10248,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 94.27,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 873993,
+      "daily_remaining_tokens": 126007
+    },
+    "updated_at": "2026-09-21T18:29:39.143684"
+  },
+  "Compress_44/org/apache/commons/compress/utils/ChecksumCalculatingInputStream.java": {
+    "project": "Compress_44",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_44/org/apache/commons/compress/utils/ChecksumCalculatingInputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_44_buggy/ChecksumCalculatingInputStreamTest.java",
+    "file_size_bytes": 15445,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1917,
+      "completion_tokens": 3568,
+      "total_tokens": 5485
+    },
+    "content_char_count": 15458,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 142.91,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 879478,
+      "daily_remaining_tokens": 120522
+    },
+    "updated_at": "2026-09-21T18:32:03.122260"
+  },
+  "Compress_45/org/apache/commons/compress/archivers/tar/TarUtils.java": {
+    "project": "Compress_45",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_45/org/apache/commons/compress/archivers/tar/TarUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_45_buggy/TarUtilsTest.java",
+    "file_size_bytes": 7682,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6651,
+      "completion_tokens": 2208,
+      "total_tokens": 8859
+    },
+    "content_char_count": 7694,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 90.32,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 888337,
+      "daily_remaining_tokens": 111663
+    },
+    "updated_at": "2026-09-21T18:33:34.515302"
+  },
+  "Compress_46/org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestamp.java": {
+    "project": "Compress_46",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_46/org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestamp.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_46_buggy/X5455_ExtendedTimestampTest.java",
+    "file_size_bytes": 9704,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6595,
+      "completion_tokens": 2423,
+      "total_tokens": 9018
+    },
+    "content_char_count": 9716,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 96.67,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 897361,
+      "daily_remaining_tokens": 102639
+    },
+    "updated_at": "2026-09-21T18:35:12.262158"
+  },
+  "Compress_47/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": {
+    "project": "Compress_47",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_47/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_47_buggy/ZipArchiveInputStreamTest.java",
+    "file_size_bytes": 13084,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7248,
+      "completion_tokens": 2822,
+      "total_tokens": 10070
+    },
+    "content_char_count": 13096,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 114.35,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 907431,
+      "daily_remaining_tokens": 92569
+    },
+    "updated_at": "2026-09-21T18:37:07.695704"
+  },
+  "Compress_5/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": {
+    "project": "Compress_5",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_5/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_5_buggy/ZipArchiveInputStreamTest.java",
+    "file_size_bytes": 11615,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3781,
+      "completion_tokens": 3561,
+      "total_tokens": 7342
+    },
+    "content_char_count": 11627,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 138.56,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 914773,
+      "daily_remaining_tokens": 85227
+    },
+    "updated_at": "2026-09-21T18:39:27.328495"
+  },
+  "Compress_6/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java": {
+    "project": "Compress_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_6/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_6_buggy/ZipArchiveEntryTest.java",
+    "file_size_bytes": 16364,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4619,
+      "completion_tokens": 3731,
+      "total_tokens": 8350
+    },
+    "content_char_count": 16376,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 151.88,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 923123,
+      "daily_remaining_tokens": 76877
+    },
+    "updated_at": "2026-09-21T18:42:00.294098"
+  },
+  "Compress_7/org/apache/commons/compress/archivers/tar/TarUtils.java": {
+    "project": "Compress_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_7/org/apache/commons/compress/archivers/tar/TarUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_7_buggy/TarUtilsTest.java",
+    "file_size_bytes": 9577,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3416,
+      "completion_tokens": 2506,
+      "total_tokens": 5922
+    },
+    "content_char_count": 9577,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 102.76,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 929045,
+      "daily_remaining_tokens": 70955
+    },
+    "updated_at": "2026-09-21T18:43:44.129223"
+  },
+  "Compress_8/org/apache/commons/compress/archivers/tar/TarUtils.java": {
+    "project": "Compress_8",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_8/org/apache/commons/compress/archivers/tar/TarUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_8_buggy/TarUtilsTest.java",
+    "file_size_bytes": 9225,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3598,
+      "completion_tokens": 2482,
+      "total_tokens": 6080
+    },
+    "content_char_count": 9238,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 101.8,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 935125,
+      "daily_remaining_tokens": 64875
+    },
+    "updated_at": "2026-09-21T18:45:26.994898"
+  },
+  "Compress_9/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java": {
+    "project": "Compress_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Compress_9/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_9_buggy/TarArchiveOutputStreamTest.java",
+    "file_size_bytes": 9249,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4001,
+      "completion_tokens": 2098,
+      "total_tokens": 6099
+    },
+    "content_char_count": 9249,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 85.72,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 941224,
+      "daily_remaining_tokens": 58776
+    },
+    "updated_at": "2026-09-21T18:46:53.805764"
+  }
+}

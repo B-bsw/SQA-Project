@@ -1,0 +1,4377 @@
+{
+  "Closure_1/com/google/javascript/jscomp/RemoveUnusedVars.java": {
+    "project": "Closure_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_1/com/google/javascript/jscomp/RemoveUnusedVars.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_1_buggy/RemoveUnusedVarsTest.java",
+    "file_size_bytes": 9302,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5980,
+      "completion_tokens": 2238,
+      "total_tokens": 8218
+    },
+    "content_char_count": 9311,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 74.5,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 35587,
+      "daily_remaining_tokens": 964413
+    },
+    "updated_at": "2026-09-21T05:44:17.290991"
+  },
+  "Closure_10/com/google/javascript/jscomp/NodeUtil.java": {
+    "project": "Closure_10",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_10/com/google/javascript/jscomp/NodeUtil.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_10_buggy/NodeUtilTest.java",
+    "file_size_bytes": 29576,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 17059,
+      "completion_tokens": 7505,
+      "total_tokens": 24564
+    },
+    "content_char_count": 29585,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 300.89,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 24618,
+      "daily_remaining_tokens": 975382
+    },
+    "updated_at": "2026-09-21T05:49:19.288774"
+  },
+  "Closure_100/com/google/javascript/jscomp/CheckGlobalThis.java": {
+    "project": "Closure_100",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_100/com/google/javascript/jscomp/CheckGlobalThis.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_100_buggy/CheckGlobalThisTest.java",
+    "file_size_bytes": 7405,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2632,
+      "completion_tokens": 1680,
+      "total_tokens": 4312
+    },
+    "content_char_count": 7417,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 65.73,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 4366,
+      "daily_remaining_tokens": 995634
+    },
+    "updated_at": "2026-09-21T05:50:26.085634"
+  },
+  "Closure_101/com/google/javascript/jscomp/CommandLineRunner.java": {
+    "project": "Closure_101",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_101/com/google/javascript/jscomp/CommandLineRunner.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_101_buggy/CommandLineRunnerTest.java",
+    "file_size_bytes": 10024,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5525,
+      "completion_tokens": 2179,
+      "total_tokens": 7704
+    },
+    "content_char_count": 10024,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 80.18,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 7758,
+      "daily_remaining_tokens": 992242
+    },
+    "updated_at": "2026-09-21T05:51:47.326295"
+  },
+  "Closure_102/com/google/javascript/jscomp/Normalize.java": {
+    "project": "Closure_102",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_102/com/google/javascript/jscomp/Normalize.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_102_buggy/NormalizeTest.java",
+    "file_size_bytes": 7915,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5479,
+      "completion_tokens": 2083,
+      "total_tokens": 7562
+    },
+    "content_char_count": 7927,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 68.47,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 43149,
+      "daily_remaining_tokens": 956851
+    },
+    "updated_at": "2026-09-21T05:52:56.863445"
+  },
+  "Closure_103/com/google/javascript/jscomp/ControlFlowAnalysis.java": {
+    "project": "Closure_103",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_103/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_103_buggy/ControlFlowAnalysisTest.java",
+    "file_size_bytes": 10951,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6401,
+      "completion_tokens": 2705,
+      "total_tokens": 9106
+    },
+    "content_char_count": 10964,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 81.7,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 33724,
+      "daily_remaining_tokens": 966276
+    },
+    "updated_at": "2026-09-21T05:54:19.641118"
+  },
+  "Closure_103/com/google/javascript/jscomp/DisambiguateProperties.java": {
+    "project": "Closure_103",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_103/com/google/javascript/jscomp/DisambiguateProperties.java",
+    "status": "LIMIT_REACHED",
+    "finish_reason": "length",
+    "is_syntax_valid": false,
+    "usage": {
+      "prompt_tokens": 7156,
+      "completion_tokens": 8192,
+      "total_tokens": 15348
+    },
+    "content_char_count": 0,
+    "reasoning_char_count": 33996,
+    "used_key": "sk_3Zm...Fh3j",
+    "note": "Output truncated or bracket unbalanced after retry",
+    "updated_at": "2026-09-21T05:57:54.347322"
+  },
+  "Closure_104/com/google/javascript/rhino/jstype/UnionType.java": {
+    "project": "Closure_104",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_104/com/google/javascript/rhino/jstype/UnionType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_104_buggy/UnionTypeTest.java",
+    "file_size_bytes": 16123,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4872,
+      "completion_tokens": 3718,
+      "total_tokens": 8590
+    },
+    "content_char_count": 16136,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 113.18,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 16348,
+      "daily_remaining_tokens": 983652
+    },
+    "updated_at": "2026-09-21T05:59:47.581630"
+  },
+  "Closure_105/com/google/javascript/jscomp/FoldConstants.java": {
+    "project": "Closure_105",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_105/com/google/javascript/jscomp/FoldConstants.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_105_buggy/FoldConstantsTest.java",
+    "file_size_bytes": 7878,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 13089,
+      "completion_tokens": 1942,
+      "total_tokens": 15031
+    },
+    "content_char_count": 7886,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 61.2,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 58180,
+      "daily_remaining_tokens": 941820
+    },
+    "updated_at": "2026-09-21T06:00:49.834479"
+  },
+  "Closure_106/com/google/javascript/jscomp/GlobalNamespace.java": {
+    "project": "Closure_106",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_106/com/google/javascript/jscomp/GlobalNamespace.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_106_buggy/GlobalNamespaceTest.java",
+    "file_size_bytes": 10004,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6253,
+      "completion_tokens": 2309,
+      "total_tokens": 8562
+    },
+    "content_char_count": 10017,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 61.69,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 42286,
+      "daily_remaining_tokens": 957714
+    },
+    "updated_at": "2026-09-21T06:01:52.577494"
+  },
+  "Closure_106/com/google/javascript/rhino/JSDocInfoBuilder.java": {
+    "project": "Closure_106",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_106/com/google/javascript/rhino/JSDocInfoBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_106_buggy/JSDocInfoBuilderTest.java",
+    "file_size_bytes": 13189,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6444,
+      "completion_tokens": 2942,
+      "total_tokens": 9386
+    },
+    "content_char_count": 13201,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 90.52,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 29100,
+      "daily_remaining_tokens": 970900
+    },
+    "updated_at": "2026-09-21T06:03:24.154297"
+  },
+  "Closure_107/com/google/javascript/jscomp/CommandLineRunner.java": {
+    "project": "Closure_107",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_107/com/google/javascript/jscomp/CommandLineRunner.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_107_buggy/CommandLineRunnerTest.java",
+    "file_size_bytes": 5755,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8652,
+      "completion_tokens": 1390,
+      "total_tokens": 10042
+    },
+    "content_char_count": 5767,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 43.7,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 26390,
+      "daily_remaining_tokens": 973610
+    },
+    "updated_at": "2026-09-21T06:04:08.904401"
+  },
+  "Closure_108/com/google/javascript/jscomp/ScopedAliases.java": {
+    "project": "Closure_108",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_108/com/google/javascript/jscomp/ScopedAliases.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_108_buggy/ScopedAliasesTest.java",
+    "file_size_bytes": 4832,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6374,
+      "completion_tokens": 1273,
+      "total_tokens": 7647
+    },
+    "content_char_count": 4844,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 40.53,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 65827,
+      "daily_remaining_tokens": 934173
+    },
+    "updated_at": "2026-09-21T06:04:50.486770"
+  },
+  "Closure_109/com/google/javascript/jscomp/parsing/JsDocInfoParser.java": {
+    "project": "Closure_109",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_109/com/google/javascript/jscomp/parsing/JsDocInfoParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_109_buggy/JsDocInfoParserTest.java",
+    "file_size_bytes": 540,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 15623,
+      "completion_tokens": 119,
+      "total_tokens": 15742
+    },
+    "content_char_count": 553,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 6.02,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 58028,
+      "daily_remaining_tokens": 941972
+    },
+    "updated_at": "2026-09-21T06:04:57.561903"
+  },
+  "Closure_11/com/google/javascript/jscomp/TypeCheck.java": {
+    "project": "Closure_11",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_11/com/google/javascript/jscomp/TypeCheck.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_11_buggy/TypeCheckTest.java",
+    "file_size_bytes": 11292,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 13630,
+      "completion_tokens": 2808,
+      "total_tokens": 16438
+    },
+    "content_char_count": 11304,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 84.14,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 45538,
+      "daily_remaining_tokens": 954462
+    },
+    "updated_at": "2026-09-21T06:06:22.757780"
+  },
+  "Closure_110/com/google/javascript/jscomp/ScopedAliases.java": {
+    "project": "Closure_110",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_110/com/google/javascript/jscomp/ScopedAliases.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_110_buggy/ScopedAliasesTest.java",
+    "file_size_bytes": 6853,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6173,
+      "completion_tokens": 1856,
+      "total_tokens": 8029
+    },
+    "content_char_count": 6865,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 58.61,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 34419,
+      "daily_remaining_tokens": 965581
+    },
+    "updated_at": "2026-09-21T06:07:22.426010"
+  },
+  "Closure_110/com/google/javascript/rhino/Node.java": {
+    "project": "Closure_110",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_110/com/google/javascript/rhino/Node.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_110_buggy/NodeTest.java",
+    "file_size_bytes": 23130,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 13771,
+      "completion_tokens": 5839,
+      "total_tokens": 19610
+    },
+    "content_char_count": 23142,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 175.8,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 85437,
+      "daily_remaining_tokens": 914563
+    },
+    "updated_at": "2026-09-21T06:10:19.288632"
+  },
+  "Closure_111/com/google/javascript/jscomp/type/ClosureReverseAbstractInterpreter.java": {
+    "project": "Closure_111",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_111/com/google/javascript/jscomp/type/ClosureReverseAbstractInterpreter.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_111_buggy/ClosureReverseAbstractInterpreterTest.java",
+    "file_size_bytes": 19446,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3396,
+      "completion_tokens": 4390,
+      "total_tokens": 7786
+    },
+    "content_char_count": 19458,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 147.41,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 65814,
+      "daily_remaining_tokens": 934186
+    },
+    "updated_at": "2026-09-21T06:12:47.752234"
+  },
+  "Closure_112/com/google/javascript/jscomp/TypeInference.java": {
+    "project": "Closure_112",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_112/com/google/javascript/jscomp/TypeInference.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_112_buggy/TypeInferenceTest.java",
+    "file_size_bytes": 11733,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 11529,
+      "completion_tokens": 2868,
+      "total_tokens": 14397
+    },
+    "content_char_count": 11746,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 106.49,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 59941,
+      "daily_remaining_tokens": 940059
+    },
+    "updated_at": "2026-09-21T06:14:35.308271"
+  },
+  "Closure_113/com/google/javascript/jscomp/ProcessClosurePrimitives.java": {
+    "project": "Closure_113",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_113/com/google/javascript/jscomp/ProcessClosurePrimitives.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_113_buggy/ProcessClosurePrimitivesTest.java",
+    "file_size_bytes": 7126,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8670,
+      "completion_tokens": 1888,
+      "total_tokens": 10558
+    },
+    "content_char_count": 7138,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 59.15,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 44983,
+      "daily_remaining_tokens": 955017
+    },
+    "updated_at": "2026-09-21T06:15:35.530007"
+  },
+  "Closure_114/com/google/javascript/jscomp/NameAnalyzer.java": {
+    "project": "Closure_114",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_114/com/google/javascript/jscomp/NameAnalyzer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_114_buggy/NameAnalyzerTest.java",
+    "file_size_bytes": 9324,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10760,
+      "completion_tokens": 2349,
+      "total_tokens": 13109
+    },
+    "content_char_count": 9337,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 74.95,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 98552,
+      "daily_remaining_tokens": 901448
+    },
+    "updated_at": "2026-09-21T06:16:51.544861"
+  },
+  "Closure_115/com/google/javascript/jscomp/FunctionInjector.java": {
+    "project": "Closure_115",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_115/com/google/javascript/jscomp/FunctionInjector.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_115_buggy/FunctionInjectorTest.java",
+    "file_size_bytes": 10593,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5948,
+      "completion_tokens": 2386,
+      "total_tokens": 8334
+    },
+    "content_char_count": 10594,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 75.67,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 74154,
+      "daily_remaining_tokens": 925846
+    },
+    "updated_at": "2026-09-21T06:18:08.407476"
+  },
+  "Closure_116/com/google/javascript/jscomp/FunctionInjector.java": {
+    "project": "Closure_116",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_116/com/google/javascript/jscomp/FunctionInjector.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_116_buggy/FunctionInjectorTest.java",
+    "file_size_bytes": 11184,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5851,
+      "completion_tokens": 2564,
+      "total_tokens": 8415
+    },
+    "content_char_count": 11185,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 78.09,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 68356,
+      "daily_remaining_tokens": 931644
+    },
+    "updated_at": "2026-09-21T06:19:27.563570"
+  },
+  "Closure_117/com/google/javascript/jscomp/TypeValidator.java": {
+    "project": "Closure_117",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_117/com/google/javascript/jscomp/TypeValidator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_117_buggy/TypeValidatorTest.java",
+    "file_size_bytes": 13549,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6434,
+      "completion_tokens": 3704,
+      "total_tokens": 10138
+    },
+    "content_char_count": 13561,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 111.72,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 55121,
+      "daily_remaining_tokens": 944879
+    },
+    "updated_at": "2026-09-21T06:21:20.347944"
+  },
+  "Closure_118/com/google/javascript/jscomp/DisambiguateProperties.java": {
+    "project": "Closure_118",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_118/com/google/javascript/jscomp/DisambiguateProperties.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_118_buggy/DisambiguatePropertiesTest.java",
+    "file_size_bytes": 4263,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8213,
+      "completion_tokens": 964,
+      "total_tokens": 9177
+    },
+    "content_char_count": 4275,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 31.36,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 107729,
+      "daily_remaining_tokens": 892271
+    },
+    "updated_at": "2026-09-21T06:21:52.781276"
+  },
+  "Closure_119/com/google/javascript/jscomp/GlobalNamespace.java": {
+    "project": "Closure_119",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_119/com/google/javascript/jscomp/GlobalNamespace.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_119_buggy/GlobalNamespaceTest.java",
+    "file_size_bytes": 13101,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7936,
+      "completion_tokens": 3540,
+      "total_tokens": 11476
+    },
+    "content_char_count": 13113,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 107.35,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 85630,
+      "daily_remaining_tokens": 914370
+    },
+    "updated_at": "2026-09-21T06:23:41.214224"
+  },
+  "Closure_12/com/google/javascript/jscomp/MaybeReachingVariableUse.java": {
+    "project": "Closure_12",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_12/com/google/javascript/jscomp/MaybeReachingVariableUse.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_12_buggy/MaybeReachingVariableUseTest.java",
+    "file_size_bytes": 22795,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3580,
+      "completion_tokens": 6052,
+      "total_tokens": 9632
+    },
+    "content_char_count": 22807,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 183.72,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 77988,
+      "daily_remaining_tokens": 922012
+    },
+    "updated_at": "2026-09-21T06:26:46.016225"
+  },
+  "Closure_120/com/google/javascript/jscomp/ReferenceCollectingCallback.java": {
+    "project": "Closure_120",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_120/com/google/javascript/jscomp/ReferenceCollectingCallback.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_120_buggy/ReferenceCollectingCallbackTest.java",
+    "file_size_bytes": 5641,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4489,
+      "completion_tokens": 1272,
+      "total_tokens": 5761
+    },
+    "content_char_count": 5642,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 40.19,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 113490,
+      "daily_remaining_tokens": 886510
+    },
+    "updated_at": "2026-09-21T06:31:14.956732"
+  },
+  "Closure_121/com/google/javascript/jscomp/InlineVariables.java": {
+    "project": "Closure_121",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_121/com/google/javascript/jscomp/InlineVariables.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_121_buggy/InlineVariablesTest.java",
+    "file_size_bytes": 10765,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4987,
+      "completion_tokens": 3321,
+      "total_tokens": 8308
+    },
+    "content_char_count": 10773,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 98.02,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 93938,
+      "daily_remaining_tokens": 906062
+    },
+    "updated_at": "2026-09-21T06:32:54.056124"
+  },
+  "Closure_122/com/google/javascript/jscomp/parsing/IRFactory.java": {
+    "project": "Closure_122",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_122/com/google/javascript/jscomp/parsing/IRFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_122_buggy/IRFactoryTest.java",
+    "file_size_bytes": 7934,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 12552,
+      "completion_tokens": 1779,
+      "total_tokens": 14331
+    },
+    "content_char_count": 7946,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 56.31,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 92319,
+      "daily_remaining_tokens": 907681
+    },
+    "updated_at": "2026-09-21T06:33:51.435711"
+  },
+  "Closure_123/com/google/javascript/jscomp/CodeGenerator.java": {
+    "project": "Closure_123",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_123/com/google/javascript/jscomp/CodeGenerator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_123_buggy/CodeGeneratorTest.java",
+    "file_size_bytes": 22891,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8842,
+      "completion_tokens": 5738,
+      "total_tokens": 14580
+    },
+    "content_char_count": 22900,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 173.39,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 83952,
+      "daily_remaining_tokens": 916048
+    },
+    "updated_at": "2026-09-21T06:36:45.917471"
+  },
+  "Closure_124/com/google/javascript/jscomp/ExploitAssigns.java": {
+    "project": "Closure_124",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_124/com/google/javascript/jscomp/ExploitAssigns.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_124_buggy/ExploitAssignsTest.java",
+    "file_size_bytes": 13474,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3037,
+      "completion_tokens": 3770,
+      "total_tokens": 6807
+    },
+    "content_char_count": 13486,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 121.79,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 120297,
+      "daily_remaining_tokens": 879703
+    },
+    "updated_at": "2026-09-21T06:38:48.784566"
+  },
+  "Closure_125/com/google/javascript/jscomp/TypeCheck.java": {
+    "project": "Closure_125",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_125/com/google/javascript/jscomp/TypeCheck.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_125_buggy/TypeCheckTest.java",
+    "file_size_bytes": 6114,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 15150,
+      "completion_tokens": 1566,
+      "total_tokens": 16716
+    },
+    "content_char_count": 6127,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 49.04,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 110654,
+      "daily_remaining_tokens": 889346
+    },
+    "updated_at": "2026-09-21T06:39:38.908915"
+  },
+  "Closure_126/com/google/javascript/jscomp/MinimizeExitPoints.java": {
+    "project": "Closure_126",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_126/com/google/javascript/jscomp/MinimizeExitPoints.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_126_buggy/MinimizeExitPointsTest.java",
+    "file_size_bytes": 6439,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3833,
+      "completion_tokens": 1695,
+      "total_tokens": 5528
+    },
+    "content_char_count": 6451,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 53.96,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 97847,
+      "daily_remaining_tokens": 902153
+    },
+    "updated_at": "2026-09-21T06:40:33.960504"
+  },
+  "Closure_127/com/google/javascript/jscomp/UnreachableCodeElimination.java": {
+    "project": "Closure_127",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_127/com/google/javascript/jscomp/UnreachableCodeElimination.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_127_buggy/UnreachableCodeEliminationTest.java",
+    "file_size_bytes": 5791,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2516,
+      "completion_tokens": 1386,
+      "total_tokens": 3902
+    },
+    "content_char_count": 5804,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 44.46,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 124199,
+      "daily_remaining_tokens": 875801
+    },
+    "updated_at": "2026-09-21T06:45:32.898951"
+  },
+  "Closure_128/com/google/javascript/jscomp/CodeGenerator.java": {
+    "project": "Closure_128",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_128/com/google/javascript/jscomp/CodeGenerator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_128_buggy/CodeGeneratorTest.java",
+    "file_size_bytes": 19183,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8724,
+      "completion_tokens": 4504,
+      "total_tokens": 13228
+    },
+    "content_char_count": 19196,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 143.85,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 123888,
+      "daily_remaining_tokens": 876112
+    },
+    "updated_at": "2026-09-21T06:47:57.820779"
+  },
+  "Closure_129/com/google/javascript/jscomp/PrepareAst.java": {
+    "project": "Closure_129",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_129/com/google/javascript/jscomp/PrepareAst.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_129_buggy/PrepareAstTest.java",
+    "file_size_bytes": 8985,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2796,
+      "completion_tokens": 2246,
+      "total_tokens": 5042
+    },
+    "content_char_count": 8997,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 70.98,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 102895,
+      "daily_remaining_tokens": 897105
+    },
+    "updated_at": "2026-09-21T06:49:09.882290"
+  },
+  "Closure_13/com/google/javascript/jscomp/PeepholeOptimizationsPass.java": {
+    "project": "Closure_13",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_13/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_13_buggy/PeepholeOptimizationsPassTest.java",
+    "file_size_bytes": 11582,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2515,
+      "completion_tokens": 2872,
+      "total_tokens": 5387
+    },
+    "content_char_count": 11594,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 88.81,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 100943,
+      "daily_remaining_tokens": 899057
+    },
+    "updated_at": "2026-09-21T06:50:39.783872"
+  },
+  "Closure_130/com/google/javascript/jscomp/CollapseProperties.java": {
+    "project": "Closure_130",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_130/com/google/javascript/jscomp/CollapseProperties.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_130_buggy/CollapsePropertiesTest.java",
+    "file_size_bytes": 12120,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6178,
+      "completion_tokens": 2964,
+      "total_tokens": 9142
+    },
+    "content_char_count": 12132,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 92.22,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 133347,
+      "daily_remaining_tokens": 866653
+    },
+    "updated_at": "2026-09-21T06:52:13.083824"
+  },
+  "Closure_131/com/google/javascript/rhino/TokenStream.java": {
+    "project": "Closure_131",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_131/com/google/javascript/rhino/TokenStream.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_131_buggy/TokenStreamTest.java",
+    "file_size_bytes": 9792,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3341,
+      "completion_tokens": 2383,
+      "total_tokens": 5724
+    },
+    "content_char_count": 9804,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 82.71,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 129612,
+      "daily_remaining_tokens": 870388
+    },
+    "updated_at": "2026-09-21T06:53:36.878253"
+  },
+  "Closure_132/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java": {
+    "project": "Closure_132",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_132/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_132_buggy/PeepholeSubstituteAlternateSyntaxTest.java",
+    "file_size_bytes": 21286,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10301,
+      "completion_tokens": 5414,
+      "total_tokens": 15715
+    },
+    "content_char_count": 21299,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 167.93,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 118610,
+      "daily_remaining_tokens": 881390
+    },
+    "updated_at": "2026-09-21T06:56:25.907124"
+  },
+  "Closure_133/com/google/javascript/jscomp/parsing/JsDocInfoParser.java": {
+    "project": "Closure_133",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_133/com/google/javascript/jscomp/parsing/JsDocInfoParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_133_buggy/JsDocInfoParserTest.java",
+    "file_size_bytes": 6468,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 14595,
+      "completion_tokens": 1585,
+      "total_tokens": 16180
+    },
+    "content_char_count": 6480,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 50.66,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 117123,
+      "daily_remaining_tokens": 882877
+    },
+    "updated_at": "2026-09-21T06:57:17.672434"
+  },
+  "Closure_134/com/google/javascript/jscomp/AmbiguateProperties.java": {
+    "project": "Closure_134",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_134/com/google/javascript/jscomp/AmbiguateProperties.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_134_buggy/AmbiguatePropertiesTest.java",
+    "file_size_bytes": 10796,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6241,
+      "completion_tokens": 2712,
+      "total_tokens": 8953
+    },
+    "content_char_count": 10809,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 86.69,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 142300,
+      "daily_remaining_tokens": 857700
+    },
+    "updated_at": "2026-09-21T06:58:45.551994"
+  },
+  "Closure_134/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_134",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_134/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_134_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 6443,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 9699,
+      "completion_tokens": 1466,
+      "total_tokens": 11165
+    },
+    "content_char_count": 6455,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 48.5,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 129775,
+      "daily_remaining_tokens": 870225
+    },
+    "updated_at": "2026-09-21T07:00:47.369047"
+  },
+  "Closure_135/com/google/javascript/jscomp/DevirtualizePrototypeMethods.java": {
+    "project": "Closure_135",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_135/com/google/javascript/jscomp/DevirtualizePrototypeMethods.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_135_buggy/DevirtualizePrototypeMethodsTest.java",
+    "file_size_bytes": 8774,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3974,
+      "completion_tokens": 2131,
+      "total_tokens": 6105
+    },
+    "content_char_count": 8786,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 68.39,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 123228,
+      "daily_remaining_tokens": 876772
+    },
+    "updated_at": "2026-09-21T07:01:56.900913"
+  },
+  "Closure_135/com/google/javascript/rhino/jstype/FunctionType.java": {
+    "project": "Closure_135",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_135/com/google/javascript/rhino/jstype/FunctionType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_135_buggy/FunctionTypeTest.java",
+    "file_size_bytes": 10707,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5316,
+      "completion_tokens": 2462,
+      "total_tokens": 7778
+    },
+    "content_char_count": 10719,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 76.72,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 150078,
+      "daily_remaining_tokens": 849922
+    },
+    "updated_at": "2026-09-21T07:03:14.750657"
+  },
+  "Closure_136/com/google/javascript/jscomp/MethodCompilerPass.java": {
+    "project": "Closure_136",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_136/com/google/javascript/jscomp/MethodCompilerPass.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_136_buggy/MethodCompilerPassTest.java",
+    "file_size_bytes": 20020,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3279,
+      "completion_tokens": 4912,
+      "total_tokens": 8191
+    },
+    "content_char_count": 20033,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 150.91,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 149692,
+      "daily_remaining_tokens": 850308
+    },
+    "updated_at": "2026-09-21T07:05:47.132702"
+  },
+  "Closure_136/com/google/javascript/jscomp/RenameVars.java": {
+    "project": "Closure_136",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_136/com/google/javascript/jscomp/RenameVars.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_136_buggy/RenameVarsTest.java",
+    "file_size_bytes": 11914,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4833,
+      "completion_tokens": 2794,
+      "total_tokens": 7627
+    },
+    "content_char_count": 11922,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 112.28,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 137402,
+      "daily_remaining_tokens": 862598
+    },
+    "updated_at": "2026-09-21T07:07:40.515198"
+  },
+  "Closure_137/com/google/javascript/jscomp/MakeDeclaredNamesUnique.java": {
+    "project": "Closure_137",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_137/com/google/javascript/jscomp/MakeDeclaredNamesUnique.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_137_buggy/MakeDeclaredNamesUniqueTest.java",
+    "file_size_bytes": 6784,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4760,
+      "completion_tokens": 1576,
+      "total_tokens": 6336
+    },
+    "content_char_count": 6796,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 61.41,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 129564,
+      "daily_remaining_tokens": 870436
+    },
+    "updated_at": "2026-09-21T07:08:43.019486"
+  },
+  "Closure_137/com/google/javascript/jscomp/NodeUtil.java": {
+    "project": "Closure_137",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_137/com/google/javascript/jscomp/NodeUtil.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_137_buggy/NodeUtilTest.java",
+    "file_size_bytes": 14247,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10393,
+      "completion_tokens": 3594,
+      "total_tokens": 13987
+    },
+    "content_char_count": 14247,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 115.51,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 163679,
+      "daily_remaining_tokens": 836321
+    },
+    "updated_at": "2026-09-21T07:15:36.984541"
+  },
+  "Closure_137/com/google/javascript/jscomp/Normalize.java": {
+    "project": "Closure_137",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_137/com/google/javascript/jscomp/Normalize.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_137_buggy/NormalizeTest.java",
+    "file_size_bytes": 7235,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5780,
+      "completion_tokens": 1897,
+      "total_tokens": 7677
+    },
+    "content_char_count": 7247,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 59.37,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 145079,
+      "daily_remaining_tokens": 854921
+    },
+    "updated_at": "2026-09-21T07:16:37.766697"
+  },
+  "Closure_138/com/google/javascript/jscomp/ClosureReverseAbstractInterpreter.java": {
+    "project": "Closure_138",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_138/com/google/javascript/jscomp/ClosureReverseAbstractInterpreter.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_138_buggy/ClosureReverseAbstractInterpreterTest.java",
+    "file_size_bytes": 12666,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3278,
+      "completion_tokens": 3039,
+      "total_tokens": 6317
+    },
+    "content_char_count": 12679,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 107.47,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 135881,
+      "daily_remaining_tokens": 864119
+    },
+    "updated_at": "2026-09-21T07:18:26.337285"
+  },
+  "Closure_138/com/google/javascript/jscomp/TypeInference.java": {
+    "project": "Closure_138",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_138/com/google/javascript/jscomp/TypeInference.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_138_buggy/TypeInferenceTest.java",
+    "file_size_bytes": 11209,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 9051,
+      "completion_tokens": 2712,
+      "total_tokens": 11763
+    },
+    "content_char_count": 11221,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 117.08,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 180333,
+      "daily_remaining_tokens": 819667
+    },
+    "updated_at": "2026-09-21T07:20:24.544402"
+  },
+  "Closure_139/com/google/javascript/jscomp/Normalize.java": {
+    "project": "Closure_139",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_139/com/google/javascript/jscomp/Normalize.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_139_buggy/NormalizeTest.java",
+    "file_size_bytes": 8162,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6035,
+      "completion_tokens": 2154,
+      "total_tokens": 8189
+    },
+    "content_char_count": 8175,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 69.59,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 171868,
+      "daily_remaining_tokens": 828132
+    },
+    "updated_at": "2026-09-21T07:21:35.259754"
+  },
+  "Closure_14/com/google/javascript/jscomp/ControlFlowAnalysis.java": {
+    "project": "Closure_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_14/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_14_buggy/ControlFlowAnalysisTest.java",
+    "file_size_bytes": 6330,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6822,
+      "completion_tokens": 1575,
+      "total_tokens": 8397
+    },
+    "content_char_count": 6330,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 49.3,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 144278,
+      "daily_remaining_tokens": 855722
+    },
+    "updated_at": "2026-09-21T07:26:34.546843"
+  },
+  "Closure_140/com/google/javascript/jscomp/Compiler.java": {
+    "project": "Closure_140",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_140/com/google/javascript/jscomp/Compiler.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_140_buggy/CompilerTest.java",
+    "file_size_bytes": 10617,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 9805,
+      "completion_tokens": 2365,
+      "total_tokens": 12170
+    },
+    "content_char_count": 10630,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 77.08,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 192503,
+      "daily_remaining_tokens": 807497
+    },
+    "updated_at": "2026-09-21T07:27:52.884308"
+  },
+  "Closure_141/com/google/javascript/jscomp/NodeUtil.java": {
+    "project": "Closure_141",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_141/com/google/javascript/jscomp/NodeUtil.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_141_buggy/NodeUtilTest.java",
+    "file_size_bytes": 23210,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10345,
+      "completion_tokens": 5610,
+      "total_tokens": 15955
+    },
+    "content_char_count": 23222,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 183.04,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 187823,
+      "daily_remaining_tokens": 812177
+    },
+    "updated_at": "2026-09-21T07:30:57.253455"
+  },
+  "Closure_141/com/google/javascript/jscomp/PureFunctionIdentifier.java": {
+    "project": "Closure_141",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_141/com/google/javascript/jscomp/PureFunctionIdentifier.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_141_buggy/PureFunctionIdentifierTest.java",
+    "file_size_bytes": 9313,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5964,
+      "completion_tokens": 2281,
+      "total_tokens": 8245
+    },
+    "content_char_count": 9326,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 71.99,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 168245,
+      "daily_remaining_tokens": 831755
+    },
+    "updated_at": "2026-09-21T07:32:10.387900"
+  },
+  "Closure_142/com/google/javascript/jscomp/CoalesceVariableNames.java": {
+    "project": "Closure_142",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_142/com/google/javascript/jscomp/CoalesceVariableNames.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_142_buggy/CoalesceVariableNamesTest.java",
+    "file_size_bytes": 6228,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5062,
+      "completion_tokens": 1635,
+      "total_tokens": 6697
+    },
+    "content_char_count": 6240,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 51.57,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 150975,
+      "daily_remaining_tokens": 849025
+    },
+    "updated_at": "2026-09-21T07:33:03.102473"
+  },
+  "Closure_142/com/google/javascript/jscomp/parsing/JsDocInfoParser.java": {
+    "project": "Closure_142",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_142/com/google/javascript/jscomp/parsing/JsDocInfoParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_142_buggy/JsDocInfoParserTest.java",
+    "file_size_bytes": 9305,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 11808,
+      "completion_tokens": 2155,
+      "total_tokens": 13963
+    },
+    "content_char_count": 9305,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 72.1,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 206466,
+      "daily_remaining_tokens": 793534
+    },
+    "updated_at": "2026-09-21T07:34:16.318265"
+  },
+  "Closure_143/com/google/javascript/jscomp/AbstractCommandLineRunner.java": {
+    "project": "Closure_143",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_143/com/google/javascript/jscomp/AbstractCommandLineRunner.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_143_buggy/AbstractCommandLineRunnerTest.java",
+    "file_size_bytes": 7089,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7479,
+      "completion_tokens": 1514,
+      "total_tokens": 8993
+    },
+    "content_char_count": 7101,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 49.73,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 196816,
+      "daily_remaining_tokens": 803184
+    },
+    "updated_at": "2026-09-21T07:35:07.190138"
+  },
+  "Closure_143/com/google/javascript/jscomp/RemoveConstantExpressions.java": {
+    "project": "Closure_143",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_143/com/google/javascript/jscomp/RemoveConstantExpressions.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_143_buggy/RemoveConstantExpressionsTest.java",
+    "file_size_bytes": 4037,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2125,
+      "completion_tokens": 945,
+      "total_tokens": 3070
+    },
+    "content_char_count": 4050,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 30.99,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 171315,
+      "daily_remaining_tokens": 828685
+    },
+    "updated_at": "2026-09-21T07:35:39.306097"
+  },
+  "Closure_144/com/google/javascript/jscomp/FunctionTypeBuilder.java": {
+    "project": "Closure_144",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_144/com/google/javascript/jscomp/FunctionTypeBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_144_buggy/FunctionTypeBuilderTest.java",
+    "file_size_bytes": 9054,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6169,
+      "completion_tokens": 2050,
+      "total_tokens": 8219
+    },
+    "content_char_count": 9066,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 65.87,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 159194,
+      "daily_remaining_tokens": 840806
+    },
+    "updated_at": "2026-09-21T07:36:46.285779"
+  },
+  "Closure_144/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_144",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_144/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_144_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 12784,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10238,
+      "completion_tokens": 2639,
+      "total_tokens": 12877
+    },
+    "content_char_count": 12784,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 82.52,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 219343,
+      "daily_remaining_tokens": 780657
+    },
+    "updated_at": "2026-09-21T07:38:09.979509"
+  },
+  "Closure_144/com/google/javascript/rhino/jstype/FunctionBuilder.java": {
+    "project": "Closure_144",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_144/com/google/javascript/rhino/jstype/FunctionBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_144_buggy/FunctionBuilderTest.java",
+    "file_size_bytes": 6948,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2412,
+      "completion_tokens": 1563,
+      "total_tokens": 3975
+    },
+    "content_char_count": 6960,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 54.38,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 200791,
+      "daily_remaining_tokens": 799209
+    },
+    "updated_at": "2026-09-21T07:39:05.454999"
+  },
+  "Closure_144/com/google/javascript/rhino/jstype/FunctionType.java": {
+    "project": "Closure_144",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_144/com/google/javascript/rhino/jstype/FunctionType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_144_buggy/FunctionTypeTest.java",
+    "file_size_bytes": 11780,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5709,
+      "completion_tokens": 2539,
+      "total_tokens": 8248
+    },
+    "content_char_count": 11792,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 85.2,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 179563,
+      "daily_remaining_tokens": 820437
+    },
+    "updated_at": "2026-09-21T07:40:31.752881"
+  },
+  "Closure_145/com/google/javascript/jscomp/CodeGenerator.java": {
+    "project": "Closure_145",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_145/com/google/javascript/jscomp/CodeGenerator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_145_buggy/CodeGeneratorTest.java",
+    "file_size_bytes": 20475,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7332,
+      "completion_tokens": 4744,
+      "total_tokens": 12076
+    },
+    "content_char_count": 20488,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 166.92,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 171270,
+      "daily_remaining_tokens": 828730
+    },
+    "updated_at": "2026-09-21T07:43:19.826412"
+  },
+  "Closure_146/com/google/javascript/rhino/jstype/JSType.java": {
+    "project": "Closure_146",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_146/com/google/javascript/rhino/jstype/JSType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_146_buggy/JSTypeTest.java",
+    "file_size_bytes": 14279,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4374,
+      "completion_tokens": 3260,
+      "total_tokens": 7634
+    },
+    "content_char_count": 14291,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 107.39,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 226977,
+      "daily_remaining_tokens": 773023
+    },
+    "updated_at": "2026-09-21T07:45:08.388628"
+  },
+  "Closure_147/com/google/javascript/jscomp/CheckGlobalThis.java": {
+    "project": "Closure_147",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_147/com/google/javascript/jscomp/CheckGlobalThis.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_147_buggy/CheckGlobalThisTest.java",
+    "file_size_bytes": 10385,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2745,
+      "completion_tokens": 2767,
+      "total_tokens": 5512
+    },
+    "content_char_count": 10397,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 106.91,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 206303,
+      "daily_remaining_tokens": 793697
+    },
+    "updated_at": "2026-09-21T07:46:56.440188"
+  },
+  "Closure_147/com/google/javascript/jscomp/RuntimeTypeCheck.java": {
+    "project": "Closure_147",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_147/com/google/javascript/jscomp/RuntimeTypeCheck.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_147_buggy/RuntimeTypeCheckTest.java",
+    "file_size_bytes": 5768,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4269,
+      "completion_tokens": 1427,
+      "total_tokens": 5696
+    },
+    "content_char_count": 5780,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 50.1,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 185259,
+      "daily_remaining_tokens": 814741
+    },
+    "updated_at": "2026-09-21T07:47:47.655486"
+  },
+  "Closure_148/com/google/javascript/jscomp/PeepholeFoldConstants.java": {
+    "project": "Closure_148",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_148/com/google/javascript/jscomp/PeepholeFoldConstants.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_148_buggy/PeepholeFoldConstantsTest.java",
+    "file_size_bytes": 6282,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7868,
+      "completion_tokens": 1518,
+      "total_tokens": 9386
+    },
+    "content_char_count": 6283,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 51.56,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 180656,
+      "daily_remaining_tokens": 819344
+    },
+    "updated_at": "2026-09-21T07:48:40.343376"
+  },
+  "Closure_148/com/google/javascript/jscomp/SourceMap.java": {
+    "project": "Closure_148",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_148/com/google/javascript/jscomp/SourceMap.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_148_buggy/SourceMapTest.java",
+    "file_size_bytes": 5794,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5209,
+      "completion_tokens": 1573,
+      "total_tokens": 6782
+    },
+    "content_char_count": 5807,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 56.73,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 233759,
+      "daily_remaining_tokens": 766241
+    },
+    "updated_at": "2026-09-21T07:49:38.282089"
+  },
+  "Closure_149/com/google/javascript/jscomp/AbstractCommandLineRunner.java": {
+    "project": "Closure_149",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_149/com/google/javascript/jscomp/AbstractCommandLineRunner.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_149_buggy/AbstractCommandLineRunnerTest.java",
+    "file_size_bytes": 12411,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8420,
+      "completion_tokens": 2551,
+      "total_tokens": 10971
+    },
+    "content_char_count": 12424,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 82.73,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 217274,
+      "daily_remaining_tokens": 782726
+    },
+    "updated_at": "2026-09-21T07:51:02.105732"
+  },
+  "Closure_149/com/google/javascript/jscomp/CommandLineRunner.java": {
+    "project": "Closure_149",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_149/com/google/javascript/jscomp/CommandLineRunner.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_149_buggy/CommandLineRunnerTest.java",
+    "file_size_bytes": 8495,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6422,
+      "completion_tokens": 1989,
+      "total_tokens": 8411
+    },
+    "content_char_count": 8508,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 67.01,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 193670,
+      "daily_remaining_tokens": 806330
+    },
+    "updated_at": "2026-09-21T07:52:10.237750"
+  },
+  "Closure_149/com/google/javascript/jscomp/Compiler.java": {
+    "project": "Closure_149",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_149/com/google/javascript/jscomp/Compiler.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_149_buggy/CompilerTest.java",
+    "file_size_bytes": 8076,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10662,
+      "completion_tokens": 1942,
+      "total_tokens": 12604
+    },
+    "content_char_count": 8077,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 67.1,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 246363,
+      "daily_remaining_tokens": 753637
+    },
+    "updated_at": "2026-09-21T07:57:36.313449"
+  },
+  "Closure_149/com/google/javascript/jscomp/CompilerOptions.java": {
+    "project": "Closure_149",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_149/com/google/javascript/jscomp/CompilerOptions.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_149_buggy/CompilerOptionsTest.java",
+    "file_size_bytes": 7900,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4737,
+      "completion_tokens": 1690,
+      "total_tokens": 6427
+    },
+    "content_char_count": 7913,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 58.03,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 223701,
+      "daily_remaining_tokens": 776299
+    },
+    "updated_at": "2026-09-21T07:58:35.443413"
+  },
+  "Closure_15/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java": {
+    "project": "Closure_15",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_15/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_15_buggy/FlowSensitiveInlineVariablesTest.java",
+    "file_size_bytes": 7091,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5164,
+      "completion_tokens": 1827,
+      "total_tokens": 6991
+    },
+    "content_char_count": 7104,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 61.39,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 200661,
+      "daily_remaining_tokens": 799339
+    },
+    "updated_at": "2026-09-21T07:59:37.928342"
+  },
+  "Closure_150/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_150",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_150/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_150_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 34130,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10845,
+      "completion_tokens": 7854,
+      "total_tokens": 18699
+    },
+    "content_char_count": 34143,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 240.13,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 218116,
+      "daily_remaining_tokens": 781884
+    },
+    "updated_at": "2026-09-21T08:03:39.176773"
+  },
+  "Closure_151/com/google/javascript/jscomp/CommandLineRunner.java": {
+    "project": "Closure_151",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_151/com/google/javascript/jscomp/CommandLineRunner.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_151_buggy/CommandLineRunnerTest.java",
+    "file_size_bytes": 15548,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6426,
+      "completion_tokens": 3411,
+      "total_tokens": 9837
+    },
+    "content_char_count": 15561,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 106.88,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 256200,
+      "daily_remaining_tokens": 743800
+    },
+    "updated_at": "2026-09-21T08:05:27.241336"
+  },
+  "Closure_152/com/google/javascript/rhino/jstype/FunctionType.java": {
+    "project": "Closure_152",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_152/com/google/javascript/rhino/jstype/FunctionType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_152_buggy/FunctionTypeTest.java",
+    "file_size_bytes": 9137,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5998,
+      "completion_tokens": 2027,
+      "total_tokens": 8025
+    },
+    "content_char_count": 9150,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 64.75,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 231726,
+      "daily_remaining_tokens": 768274
+    },
+    "updated_at": "2026-09-21T08:06:33.109198"
+  },
+  "Closure_153/com/google/javascript/jscomp/Normalize.java": {
+    "project": "Closure_153",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_153/com/google/javascript/jscomp/Normalize.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_153_buggy/NormalizeTest.java",
+    "file_size_bytes": 19160,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5219,
+      "completion_tokens": 5080,
+      "total_tokens": 10299
+    },
+    "content_char_count": 19160,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 164.66,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 210960,
+      "daily_remaining_tokens": 789040
+    },
+    "updated_at": "2026-09-21T08:09:18.865703"
+  },
+  "Closure_153/com/google/javascript/jscomp/SyntacticScopeCreator.java": {
+    "project": "Closure_153",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_153/com/google/javascript/jscomp/SyntacticScopeCreator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_153_buggy/SyntacticScopeCreatorTest.java",
+    "file_size_bytes": 6278,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2730,
+      "completion_tokens": 1576,
+      "total_tokens": 4306
+    },
+    "content_char_count": 6290,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 45.01,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 260512,
+      "daily_remaining_tokens": 739488
+    },
+    "updated_at": "2026-09-21T08:14:42.561836"
+  },
+  "Closure_154/com/google/javascript/jscomp/TypeCheck.java": {
+    "project": "Closure_154",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_154/com/google/javascript/jscomp/TypeCheck.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_154_buggy/TypeCheckTest.java",
+    "file_size_bytes": 9156,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 12806,
+      "completion_tokens": 2447,
+      "total_tokens": 15253
+    },
+    "content_char_count": 9169,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 78.72,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 246985,
+      "daily_remaining_tokens": 753015
+    },
+    "updated_at": "2026-09-21T08:16:02.464277"
+  },
+  "Closure_154/com/google/javascript/jscomp/TypeValidator.java": {
+    "project": "Closure_154",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_154/com/google/javascript/jscomp/TypeValidator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_154_buggy/TypeValidatorTest.java",
+    "file_size_bytes": 18516,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5689,
+      "completion_tokens": 4432,
+      "total_tokens": 10121
+    },
+    "content_char_count": 18529,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 140.75,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 221087,
+      "daily_remaining_tokens": 778913
+    },
+    "updated_at": "2026-09-21T08:18:24.536729"
+  },
+  "Closure_155/com/google/javascript/jscomp/InlineVariables.java": {
+    "project": "Closure_155",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_155/com/google/javascript/jscomp/InlineVariables.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_155_buggy/InlineVariablesTest.java",
+    "file_size_bytes": 11567,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6703,
+      "completion_tokens": 3153,
+      "total_tokens": 9856
+    },
+    "content_char_count": 11575,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 85.48,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 239307,
+      "daily_remaining_tokens": 760693
+    },
+    "updated_at": "2026-09-21T08:19:51.313031"
+  },
+  "Closure_155/com/google/javascript/jscomp/ReferenceCollectingCallback.java": {
+    "project": "Closure_155",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_155/com/google/javascript/jscomp/ReferenceCollectingCallback.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_155_buggy/ReferenceCollectingCallbackTest.java",
+    "file_size_bytes": 17207,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5352,
+      "completion_tokens": 4182,
+      "total_tokens": 9534
+    },
+    "content_char_count": 17219,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 138.42,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 270046,
+      "daily_remaining_tokens": 729954
+    },
+    "updated_at": "2026-09-21T08:22:10.858331"
+  },
+  "Closure_155/com/google/javascript/jscomp/Scope.java": {
+    "project": "Closure_155",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_155/com/google/javascript/jscomp/Scope.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_155_buggy/ScopeTest.java",
+    "file_size_bytes": 16237,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4433,
+      "completion_tokens": 4286,
+      "total_tokens": 8719
+    },
+    "content_char_count": 16249,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 141.17,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 255704,
+      "daily_remaining_tokens": 744296
+    },
+    "updated_at": "2026-09-21T08:24:33.160647"
+  },
+  "Closure_156/com/google/javascript/jscomp/CollapseProperties.java": {
+    "project": "Closure_156",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_156/com/google/javascript/jscomp/CollapseProperties.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_156_buggy/CollapsePropertiesTest.java",
+    "file_size_bytes": 8117,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5856,
+      "completion_tokens": 1823,
+      "total_tokens": 7679
+    },
+    "content_char_count": 8130,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 58.59,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 228766,
+      "daily_remaining_tokens": 771234
+    },
+    "updated_at": "2026-09-21T08:25:32.928683"
+  },
+  "Closure_157/com/google/javascript/jscomp/CodeGenerator.java": {
+    "project": "Closure_157",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_157/com/google/javascript/jscomp/CodeGenerator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_157_buggy/CodeGeneratorTest.java",
+    "file_size_bytes": 23837,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8036,
+      "completion_tokens": 6609,
+      "total_tokens": 14645
+    },
+    "content_char_count": 23849,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 220.4,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 253952,
+      "daily_remaining_tokens": 746048
+    },
+    "updated_at": "2026-09-21T08:29:14.466730"
+  },
+  "Closure_157/com/google/javascript/jscomp/RenamePrototypes.java": {
+    "project": "Closure_157",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_157/com/google/javascript/jscomp/RenamePrototypes.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_157_buggy/RenamePrototypesTest.java",
+    "file_size_bytes": 8289,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4621,
+      "completion_tokens": 2065,
+      "total_tokens": 6686
+    },
+    "content_char_count": 8302,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 66.41,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 276732,
+      "daily_remaining_tokens": 723268
+    },
+    "updated_at": "2026-09-21T08:30:22.002728"
+  },
+  "Closure_157/com/google/javascript/jscomp/parsing/IRFactory.java": {
+    "project": "Closure_157",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_157/com/google/javascript/jscomp/parsing/IRFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_157_buggy/IRFactoryTest.java",
+    "file_size_bytes": 13485,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 12467,
+      "completion_tokens": 3094,
+      "total_tokens": 15561
+    },
+    "content_char_count": 13498,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 99.39,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 271265,
+      "daily_remaining_tokens": 728735
+    },
+    "updated_at": "2026-09-21T08:32:02.547924"
+  },
+  "Closure_158/com/google/javascript/jscomp/AbstractCommandLineRunner.java": {
+    "project": "Closure_158",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_158/com/google/javascript/jscomp/AbstractCommandLineRunner.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_158_buggy/AbstractCommandLineRunnerTest.java",
+    "file_size_bytes": 7765,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 9460,
+      "completion_tokens": 1677,
+      "total_tokens": 11137
+    },
+    "content_char_count": 7777,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 54.76,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 239903,
+      "daily_remaining_tokens": 760097
+    },
+    "updated_at": "2026-09-21T08:32:58.521368"
+  },
+  "Closure_158/com/google/javascript/jscomp/CommandLineRunner.java": {
+    "project": "Closure_158",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_158/com/google/javascript/jscomp/CommandLineRunner.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_158_buggy/CommandLineRunnerTest.java",
+    "file_size_bytes": 10817,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6531,
+      "completion_tokens": 2348,
+      "total_tokens": 8879
+    },
+    "content_char_count": 10829,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 74.23,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 262831,
+      "daily_remaining_tokens": 737169
+    },
+    "updated_at": "2026-09-21T08:34:13.915664"
+  },
+  "Closure_158/com/google/javascript/jscomp/DiagnosticGroups.java": {
+    "project": "Closure_158",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_158/com/google/javascript/jscomp/DiagnosticGroups.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_158_buggy/DiagnosticGroupsTest.java",
+    "file_size_bytes": 5254,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2894,
+      "completion_tokens": 1206,
+      "total_tokens": 4100
+    },
+    "content_char_count": 5267,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 39.65,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 280832,
+      "daily_remaining_tokens": 719168
+    },
+    "updated_at": "2026-09-21T08:34:54.720854"
+  },
+  "Closure_159/com/google/javascript/jscomp/InlineFunctions.java": {
+    "project": "Closure_159",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_159/com/google/javascript/jscomp/InlineFunctions.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_159_buggy/InlineFunctionsTest.java",
+    "file_size_bytes": 12885,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6775,
+      "completion_tokens": 2941,
+      "total_tokens": 9716
+    },
+    "content_char_count": 12897,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 98.27,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 280981,
+      "daily_remaining_tokens": 719019
+    },
+    "updated_at": "2026-09-21T08:36:34.200033"
+  },
+  "Closure_16/com/google/javascript/jscomp/ScopedAliases.java": {
+    "project": "Closure_16",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_16/com/google/javascript/jscomp/ScopedAliases.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_16_buggy/ScopedAliasesTest.java",
+    "file_size_bytes": 11032,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5131,
+      "completion_tokens": 2819,
+      "total_tokens": 7950
+    },
+    "content_char_count": 11044,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 94.51,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 247853,
+      "daily_remaining_tokens": 752147
+    },
+    "updated_at": "2026-09-21T08:38:09.925517"
+  },
+  "Closure_160/com/google/javascript/jscomp/Compiler.java": {
+    "project": "Closure_160",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_160/com/google/javascript/jscomp/Compiler.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_160_buggy/CompilerTest.java",
+    "file_size_bytes": 10736,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 11800,
+      "completion_tokens": 2428,
+      "total_tokens": 14228
+    },
+    "content_char_count": 10736,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 85.49,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 277059,
+      "daily_remaining_tokens": 722941
+    },
+    "updated_at": "2026-09-21T08:39:36.560338"
+  },
+  "Closure_161/com/google/javascript/jscomp/PeepholeFoldConstants.java": {
+    "project": "Closure_161",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_161/com/google/javascript/jscomp/PeepholeFoldConstants.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_161_buggy/PeepholeFoldConstantsTest.java",
+    "file_size_bytes": 26226,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 9204,
+      "completion_tokens": 5914,
+      "total_tokens": 15118
+    },
+    "content_char_count": 26238,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 155.58,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 295950,
+      "daily_remaining_tokens": 704050
+    },
+    "updated_at": "2026-09-21T08:42:13.326322"
+  },
+  "Closure_162/com/google/javascript/jscomp/Scope.java": {
+    "project": "Closure_162",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_162/com/google/javascript/jscomp/Scope.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_162_buggy/ScopeTest.java",
+    "file_size_bytes": 9443,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5140,
+      "completion_tokens": 2331,
+      "total_tokens": 7471
+    },
+    "content_char_count": 9456,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 72.69,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 288452,
+      "daily_remaining_tokens": 711548
+    },
+    "updated_at": "2026-09-21T08:43:27.245008"
+  },
+  "Closure_162/com/google/javascript/jscomp/ScopedAliases.java": {
+    "project": "Closure_162",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_162/com/google/javascript/jscomp/ScopedAliases.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_162_buggy/ScopedAliasesTest.java",
+    "file_size_bytes": 7815,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4460,
+      "completion_tokens": 2100,
+      "total_tokens": 6560
+    },
+    "content_char_count": 7827,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 67.56,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 254413,
+      "daily_remaining_tokens": 745587
+    },
+    "updated_at": "2026-09-21T08:44:35.967917"
+  },
+  "Closure_163/com/google/javascript/jscomp/AnalyzePrototypeProperties.java": {
+    "project": "Closure_163",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_163/com/google/javascript/jscomp/AnalyzePrototypeProperties.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_163_buggy/AnalyzePrototypePropertiesTest.java",
+    "file_size_bytes": 18848,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6771,
+      "completion_tokens": 4763,
+      "total_tokens": 11534
+    },
+    "content_char_count": 18860,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 143.52,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 288593,
+      "daily_remaining_tokens": 711407
+    },
+    "updated_at": "2026-09-21T08:47:00.657421"
+  },
+  "Closure_163/com/google/javascript/jscomp/CrossModuleMethodMotion.java": {
+    "project": "Closure_163",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_163/com/google/javascript/jscomp/CrossModuleMethodMotion.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_163_buggy/CrossModuleMethodMotionTest.java",
+    "file_size_bytes": 10400,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3039,
+      "completion_tokens": 2561,
+      "total_tokens": 5600
+    },
+    "content_char_count": 10413,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 80.83,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 301550,
+      "daily_remaining_tokens": 698450
+    },
+    "updated_at": "2026-09-21T08:48:22.791349"
+  },
+  "Closure_164/com/google/javascript/rhino/jstype/ArrowType.java": {
+    "project": "Closure_164",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_164/com/google/javascript/rhino/jstype/ArrowType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_164_buggy/ArrowTypeTest.java",
+    "file_size_bytes": 9586,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3445,
+      "completion_tokens": 2404,
+      "total_tokens": 5849
+    },
+    "content_char_count": 9599,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 77.36,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 294301,
+      "daily_remaining_tokens": 705699
+    },
+    "updated_at": "2026-09-21T08:49:41.502543"
+  },
+  "Closure_165/com/google/javascript/rhino/jstype/JSTypeRegistry.java": {
+    "project": "Closure_165",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_165/com/google/javascript/rhino/jstype/JSTypeRegistry.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_165_buggy/JSTypeRegistryTest.java",
+    "file_size_bytes": 19468,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10687,
+      "completion_tokens": 4512,
+      "total_tokens": 15199
+    },
+    "content_char_count": 19481,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 138.81,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 269612,
+      "daily_remaining_tokens": 730388
+    },
+    "updated_at": "2026-09-21T08:52:01.468641"
+  },
+  "Closure_165/com/google/javascript/rhino/jstype/ObjectType.java": {
+    "project": "Closure_165",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_165/com/google/javascript/rhino/jstype/ObjectType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_165_buggy/ObjectTypeTest.java",
+    "file_size_bytes": 18230,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5924,
+      "completion_tokens": 4200,
+      "total_tokens": 10124
+    },
+    "content_char_count": 18242,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 128.11,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 298723,
+      "daily_remaining_tokens": 701277
+    },
+    "updated_at": "2026-09-21T08:54:10.707692"
+  },
+  "Closure_165/com/google/javascript/rhino/jstype/RecordType.java": {
+    "project": "Closure_165",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_165/com/google/javascript/rhino/jstype/RecordType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_165_buggy/RecordTypeTest.java",
+    "file_size_bytes": 5274,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3698,
+      "completion_tokens": 1310,
+      "total_tokens": 5008
+    },
+    "content_char_count": 5286,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 41.62,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 306564,
+      "daily_remaining_tokens": 693436
+    },
+    "updated_at": "2026-09-21T08:54:53.446035"
+  },
+  "Closure_165/com/google/javascript/rhino/jstype/RecordTypeBuilder.java": {
+    "project": "Closure_165",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_165/com/google/javascript/rhino/jstype/RecordTypeBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_165_buggy/RecordTypeBuilderTest.java",
+    "file_size_bytes": 6772,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2066,
+      "completion_tokens": 1675,
+      "total_tokens": 3741
+    },
+    "content_char_count": 6773,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 53.15,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 298048,
+      "daily_remaining_tokens": 701952
+    },
+    "updated_at": "2026-09-21T08:55:47.712754"
+  },
+  "Closure_166/com/google/javascript/rhino/jstype/PrototypeObjectType.java": {
+    "project": "Closure_166",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_166/com/google/javascript/rhino/jstype/PrototypeObjectType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_166_buggy/PrototypeObjectTypeTest.java",
+    "file_size_bytes": 12537,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5540,
+      "completion_tokens": 2940,
+      "total_tokens": 8480
+    },
+    "content_char_count": 12550,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 99.89,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 278098,
+      "daily_remaining_tokens": 721902
+    },
+    "updated_at": "2026-09-21T08:57:28.724463"
+  },
+  "Closure_167/com/google/javascript/jscomp/type/SemanticReverseAbstractInterpreter.java": {
+    "project": "Closure_167",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_167/com/google/javascript/jscomp/type/SemanticReverseAbstractInterpreter.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_167_buggy/SemanticReverseAbstractInterpreterTest.java",
+    "file_size_bytes": 9440,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5323,
+      "completion_tokens": 2271,
+      "total_tokens": 7594
+    },
+    "content_char_count": 9452,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 72.5,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 314158,
+      "daily_remaining_tokens": 685842
+    },
+    "updated_at": "2026-09-21T09:00:48.931314"
+  },
+  "Closure_167/com/google/javascript/rhino/jstype/JSType.java": {
+    "project": "Closure_167",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_167/com/google/javascript/rhino/jstype/JSType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_167_buggy/JSTypeTest.java",
+    "file_size_bytes": 16212,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5694,
+      "completion_tokens": 3656,
+      "total_tokens": 9350
+    },
+    "content_char_count": 16224,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 115.3,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 307398,
+      "daily_remaining_tokens": 692602
+    },
+    "updated_at": "2026-09-21T09:02:45.357174"
+  },
+  "Closure_168/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_168",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_168/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_168_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 14188,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 13848,
+      "completion_tokens": 3280,
+      "total_tokens": 17128
+    },
+    "content_char_count": 14200,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 116.14,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 295226,
+      "daily_remaining_tokens": 704774
+    },
+    "updated_at": "2026-09-21T09:04:42.685927"
+  },
+  "Closure_169/com/google/javascript/rhino/jstype/ArrowType.java": {
+    "project": "Closure_169",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_169/com/google/javascript/rhino/jstype/ArrowType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_169_buggy/ArrowTypeTest.java",
+    "file_size_bytes": 8565,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3700,
+      "completion_tokens": 2181,
+      "total_tokens": 5881
+    },
+    "content_char_count": 8578,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 68.15,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 314529,
+      "daily_remaining_tokens": 685471
+    },
+    "updated_at": "2026-09-21T09:05:51.965279"
+  },
+  "Closure_169/com/google/javascript/rhino/jstype/JSType.java": {
+    "project": "Closure_169",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_169/com/google/javascript/rhino/jstype/JSType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_169_buggy/JSTypeTest.java",
+    "file_size_bytes": 19196,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6391,
+      "completion_tokens": 4392,
+      "total_tokens": 10783
+    },
+    "content_char_count": 19209,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 165.88,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 324941,
+      "daily_remaining_tokens": 675059
+    },
+    "updated_at": "2026-09-21T09:08:39.009160"
+  },
+  "Closure_169/com/google/javascript/rhino/jstype/RecordType.java": {
+    "project": "Closure_169",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_169/com/google/javascript/rhino/jstype/RecordType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_169_buggy/RecordTypeTest.java",
+    "file_size_bytes": 14824,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3806,
+      "completion_tokens": 3412,
+      "total_tokens": 7218
+    },
+    "content_char_count": 14837,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 104.88,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 314616,
+      "daily_remaining_tokens": 685384
+    },
+    "updated_at": "2026-09-21T09:10:25.014749"
+  },
+  "Closure_169/com/google/javascript/rhino/jstype/UnionType.java": {
+    "project": "Closure_169",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_169/com/google/javascript/rhino/jstype/UnionType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_169_buggy/UnionTypeTest.java",
+    "file_size_bytes": 20120,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5723,
+      "completion_tokens": 4731,
+      "total_tokens": 10454
+    },
+    "content_char_count": 20120,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 785.26,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 305680,
+      "daily_remaining_tokens": 694320
+    },
+    "updated_at": "2026-09-21T09:23:31.424349"
+  },
+  "Closure_17/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_17",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_17/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_17_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 14798,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 13635,
+      "completion_tokens": 3950,
+      "total_tokens": 17585
+    },
+    "content_char_count": 14807,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 131.89,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 332114,
+      "daily_remaining_tokens": 667886
+    },
+    "updated_at": "2026-09-21T09:25:44.458507"
+  },
+  "Closure_170/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java": {
+    "project": "Closure_170",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_170/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_170_buggy/FlowSensitiveInlineVariablesTest.java",
+    "file_size_bytes": 9164,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5564,
+      "completion_tokens": 2315,
+      "total_tokens": 7879
+    },
+    "content_char_count": 9165,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 72.85,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 332820,
+      "daily_remaining_tokens": 667180
+    },
+    "updated_at": "2026-09-21T09:26:58.485103"
+  },
+  "Closure_171/com/google/javascript/jscomp/TypeInference.java": {
+    "project": "Closure_171",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_171/com/google/javascript/jscomp/TypeInference.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_171_buggy/TypeInferenceTest.java",
+    "file_size_bytes": 7760,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 11416,
+      "completion_tokens": 1998,
+      "total_tokens": 13414
+    },
+    "content_char_count": 7772,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 64.92,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 328030,
+      "daily_remaining_tokens": 671970
+    },
+    "updated_at": "2026-09-21T09:28:04.602816"
+  },
+  "Closure_171/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_171",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_171/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_171_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 9327,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 14601,
+      "completion_tokens": 2371,
+      "total_tokens": 16972
+    },
+    "content_char_count": 9339,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 73.98,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 322652,
+      "daily_remaining_tokens": 677348
+    },
+    "updated_at": "2026-09-21T09:29:19.829931"
+  },
+  "Closure_172/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_172",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_172/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_172_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 16597,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 14626,
+      "completion_tokens": 4001,
+      "total_tokens": 18627
+    },
+    "content_char_count": 16610,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 121.57,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 350741,
+      "daily_remaining_tokens": 649259
+    },
+    "updated_at": "2026-09-21T09:31:22.757014"
+  },
+  "Closure_173/com/google/javascript/jscomp/CodeGenerator.java": {
+    "project": "Closure_173",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_173/com/google/javascript/jscomp/CodeGenerator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_173_buggy/CodeGeneratorTest.java",
+    "file_size_bytes": 21227,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8846,
+      "completion_tokens": 5632,
+      "total_tokens": 14478
+    },
+    "content_char_count": 21237,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 169.21,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 347298,
+      "daily_remaining_tokens": 652702
+    },
+    "updated_at": "2026-09-21T09:34:13.121311"
+  },
+  "Closure_173/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java": {
+    "project": "Closure_173",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_173/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_173_buggy/PeepholeSubstituteAlternateSyntaxTest.java",
+    "file_size_bytes": 8940,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6382,
+      "completion_tokens": 2309,
+      "total_tokens": 8691
+    },
+    "content_char_count": 8953,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 70.85,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 336721,
+      "daily_remaining_tokens": 663279
+    },
+    "updated_at": "2026-09-21T09:35:25.184473"
+  },
+  "Closure_174/com/google/javascript/jscomp/JsAst.java": {
+    "project": "Closure_174",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_174/com/google/javascript/jscomp/JsAst.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_174_buggy/JsAstTest.java",
+    "file_size_bytes": 8308,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2002,
+      "completion_tokens": 2110,
+      "total_tokens": 4112
+    },
+    "content_char_count": 8308,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 66.43,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 326764,
+      "daily_remaining_tokens": 673236
+    },
+    "updated_at": "2026-09-21T09:36:32.792376"
+  },
+  "Closure_174/com/google/javascript/jscomp/NodeUtil.java": {
+    "project": "Closure_174",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_174/com/google/javascript/jscomp/NodeUtil.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_174_buggy/NodeUtilTest.java",
+    "file_size_bytes": 23209,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 18102,
+      "completion_tokens": 5727,
+      "total_tokens": 23829
+    },
+    "content_char_count": 23221,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 179.29,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 374570,
+      "daily_remaining_tokens": 625430
+    },
+    "updated_at": "2026-09-21T09:39:33.274621"
+  },
+  "Closure_174/com/google/javascript/jscomp/ScopedAliases.java": {
+    "project": "Closure_174",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_174/com/google/javascript/jscomp/ScopedAliases.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_174_buggy/ScopedAliasesTest.java",
+    "file_size_bytes": 10032,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5937,
+      "completion_tokens": 2574,
+      "total_tokens": 8511
+    },
+    "content_char_count": 10045,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 76.76,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 355809,
+      "daily_remaining_tokens": 644191
+    },
+    "updated_at": "2026-09-21T09:40:51.152314"
+  },
+  "Closure_18/com/google/javascript/jscomp/Compiler.java": {
+    "project": "Closure_18",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_18/com/google/javascript/jscomp/Compiler.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_18_buggy/CompilerTest.java",
+    "file_size_bytes": 12942,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 14778,
+      "completion_tokens": 3143,
+      "total_tokens": 17921
+    },
+    "content_char_count": 12954,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 96.34,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 354642,
+      "daily_remaining_tokens": 645358
+    },
+    "updated_at": "2026-09-21T09:42:28.656101"
+  },
+  "Closure_19/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java": {
+    "project": "Closure_19",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_19/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_19_buggy/ChainableReverseAbstractInterpreterTest.java",
+    "file_size_bytes": 10606,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6539,
+      "completion_tokens": 2632,
+      "total_tokens": 9171
+    },
+    "content_char_count": 10619,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 79.83,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 335935,
+      "daily_remaining_tokens": 664065
+    },
+    "updated_at": "2026-09-21T09:43:49.620606"
+  },
+  "Closure_2/com/google/javascript/jscomp/TypeCheck.java": {
+    "project": "Closure_2",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_2/com/google/javascript/jscomp/TypeCheck.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_2_buggy/TypeCheckTest.java",
+    "file_size_bytes": 22409,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 14306,
+      "completion_tokens": 5745,
+      "total_tokens": 20051
+    },
+    "content_char_count": 22422,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 166.29,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 394621,
+      "daily_remaining_tokens": 605379
+    },
+    "updated_at": "2026-09-21T09:46:37.050488"
+  },
+  "Closure_20/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java": {
+    "project": "Closure_20",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_20/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_20_buggy/PeepholeSubstituteAlternateSyntaxTest.java",
+    "file_size_bytes": 6178,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10258,
+      "completion_tokens": 1466,
+      "total_tokens": 11724
+    },
+    "content_char_count": 6191,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 38.85,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 367533,
+      "daily_remaining_tokens": 632467
+    },
+    "updated_at": "2026-09-21T09:47:17.739493"
+  },
+  "Closure_21/com/google/javascript/jscomp/CheckSideEffects.java": {
+    "project": "Closure_21",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_21/com/google/javascript/jscomp/CheckSideEffects.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_21_buggy/CheckSideEffectsTest.java",
+    "file_size_bytes": 6011,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3011,
+      "completion_tokens": 1541,
+      "total_tokens": 4552
+    },
+    "content_char_count": 6024,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 49.1,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 359194,
+      "daily_remaining_tokens": 640806
+    },
+    "updated_at": "2026-09-21T09:48:07.935555"
+  },
+  "Closure_22/com/google/javascript/jscomp/CheckSideEffects.java": {
+    "project": "Closure_22",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_22/com/google/javascript/jscomp/CheckSideEffects.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_22_buggy/CheckSideEffectsTest.java",
+    "file_size_bytes": 6637,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3083,
+      "completion_tokens": 1664,
+      "total_tokens": 4747
+    },
+    "content_char_count": 6650,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 53.69,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 340682,
+      "daily_remaining_tokens": 659318
+    },
+    "updated_at": "2026-09-21T09:49:02.721661"
+  },
+  "Closure_23/com/google/javascript/jscomp/PeepholeFoldConstants.java": {
+    "project": "Closure_23",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_23/com/google/javascript/jscomp/PeepholeFoldConstants.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_23_buggy/PeepholeFoldConstantsTest.java",
+    "file_size_bytes": 22878,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 9686,
+      "completion_tokens": 5553,
+      "total_tokens": 15239
+    },
+    "content_char_count": 22891,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 168.31,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 409860,
+      "daily_remaining_tokens": 590140
+    },
+    "updated_at": "2026-09-21T09:51:52.146375"
+  },
+  "Closure_24/com/google/javascript/jscomp/ScopedAliases.java": {
+    "project": "Closure_24",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_24/com/google/javascript/jscomp/ScopedAliases.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_24_buggy/ScopedAliasesTest.java",
+    "file_size_bytes": 8497,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4577,
+      "completion_tokens": 2234,
+      "total_tokens": 6811
+    },
+    "content_char_count": 8509,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 72.37,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 374344,
+      "daily_remaining_tokens": 625656
+    },
+    "updated_at": "2026-09-21T09:53:05.601191"
+  },
+  "Closure_25/com/google/javascript/jscomp/TypeInference.java": {
+    "project": "Closure_25",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_25/com/google/javascript/jscomp/TypeInference.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_25_buggy/TypeInferenceTest.java",
+    "file_size_bytes": 16335,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10130,
+      "completion_tokens": 3722,
+      "total_tokens": 13852
+    },
+    "content_char_count": 16336,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 117.45,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 373046,
+      "daily_remaining_tokens": 626954
+    },
+    "updated_at": "2026-09-21T09:55:04.125303"
+  },
+  "Closure_26/com/google/javascript/jscomp/ProcessCommonJSModules.java": {
+    "project": "Closure_26",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_26/com/google/javascript/jscomp/ProcessCommonJSModules.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_26_buggy/ProcessCommonJSModulesTest.java",
+    "file_size_bytes": 7502,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3417,
+      "completion_tokens": 1856,
+      "total_tokens": 5273
+    },
+    "content_char_count": 7514,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 56.65,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 345955,
+      "daily_remaining_tokens": 654045
+    },
+    "updated_at": "2026-09-21T09:56:01.854842"
+  },
+  "Closure_27/com/google/javascript/rhino/IR.java": {
+    "project": "Closure_27",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_27/com/google/javascript/rhino/IR.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_27_buggy/IRTest.java",
+    "file_size_bytes": 19019,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5524,
+      "completion_tokens": 4384,
+      "total_tokens": 9908
+    },
+    "content_char_count": 19031,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 135.19,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 419768,
+      "daily_remaining_tokens": 580232
+    },
+    "updated_at": "2026-09-21T09:58:18.114226"
+  },
+  "Closure_28/com/google/javascript/jscomp/InlineCostEstimator.java": {
+    "project": "Closure_28",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_28/com/google/javascript/jscomp/InlineCostEstimator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_28_buggy/InlineCostEstimatorTest.java",
+    "file_size_bytes": 4706,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1876,
+      "completion_tokens": 1257,
+      "total_tokens": 3133
+    },
+    "content_char_count": 4719,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 38.49,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 377477,
+      "daily_remaining_tokens": 622523
+    },
+    "updated_at": "2026-09-21T09:58:57.664452"
+  },
+  "Closure_29/com/google/javascript/jscomp/InlineObjectLiterals.java": {
+    "project": "Closure_29",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_29/com/google/javascript/jscomp/InlineObjectLiterals.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_29_buggy/InlineObjectLiteralsTest.java",
+    "file_size_bytes": 7081,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4887,
+      "completion_tokens": 1816,
+      "total_tokens": 6703
+    },
+    "content_char_count": 7094,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 56.16,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 379749,
+      "daily_remaining_tokens": 620251
+    },
+    "updated_at": "2026-09-21T09:59:54.891763"
+  },
+  "Closure_3/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java": {
+    "project": "Closure_3",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_3/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_3_buggy/FlowSensitiveInlineVariablesTest.java",
+    "file_size_bytes": 9873,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5508,
+      "completion_tokens": 2583,
+      "total_tokens": 8091
+    },
+    "content_char_count": 9886,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 82.02,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 354046,
+      "daily_remaining_tokens": 645954
+    },
+    "updated_at": "2026-09-21T10:01:17.971863"
+  },
+  "Closure_30/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java": {
+    "project": "Closure_30",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_30/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_30_buggy/FlowSensitiveInlineVariablesTest.java",
+    "file_size_bytes": 7711,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5118,
+      "completion_tokens": 1857,
+      "total_tokens": 6975
+    },
+    "content_char_count": 7723,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 64.12,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 6975,
+      "daily_remaining_tokens": 993025
+    },
+    "updated_at": "2026-09-21T10:02:23.146905"
+  },
+  "Closure_30/com/google/javascript/jscomp/MustBeReachingVariableDef.java": {
+    "project": "Closure_30",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_30/com/google/javascript/jscomp/MustBeReachingVariableDef.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_30_buggy/MustBeReachingVariableDefTest.java",
+    "file_size_bytes": 12874,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4655,
+      "completion_tokens": 3063,
+      "total_tokens": 7718
+    },
+    "content_char_count": 12882,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 100.96,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 7718,
+      "daily_remaining_tokens": 992282
+    },
+    "updated_at": "2026-09-21T10:04:05.173231"
+  },
+  "Closure_31/com/google/javascript/jscomp/Compiler.java": {
+    "project": "Closure_31",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_31/com/google/javascript/jscomp/Compiler.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_31_buggy/CompilerTest.java",
+    "file_size_bytes": 10533,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 14478,
+      "completion_tokens": 2518,
+      "total_tokens": 16996
+    },
+    "content_char_count": 10534,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 81.93,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 16996,
+      "daily_remaining_tokens": 983004
+    },
+    "updated_at": "2026-09-21T10:05:28.166478"
+  },
+  "Closure_32/com/google/javascript/jscomp/parsing/JsDocInfoParser.java": {
+    "project": "Closure_32",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_32/com/google/javascript/jscomp/parsing/JsDocInfoParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_32_buggy/JsDocInfoParserTest.java",
+    "file_size_bytes": 9066,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 13913,
+      "completion_tokens": 1944,
+      "total_tokens": 15857
+    },
+    "content_char_count": 9078,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 70.92,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 23948,
+      "daily_remaining_tokens": 976052
+    },
+    "updated_at": "2026-09-21T10:06:40.155524"
+  },
+  "Closure_33/com/google/javascript/rhino/jstype/PrototypeObjectType.java": {
+    "project": "Closure_33",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_33/com/google/javascript/rhino/jstype/PrototypeObjectType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_33_buggy/PrototypeObjectTypeTest.java",
+    "file_size_bytes": 7331,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5500,
+      "completion_tokens": 1662,
+      "total_tokens": 7162
+    },
+    "content_char_count": 7343,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 55.84,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 14137,
+      "daily_remaining_tokens": 985863
+    },
+    "updated_at": "2026-09-21T10:07:37.060617"
+  },
+  "Closure_34/com/google/javascript/jscomp/CodeGenerator.java": {
+    "project": "Closure_34",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_34/com/google/javascript/jscomp/CodeGenerator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_34_buggy/CodeGeneratorTest.java",
+    "file_size_bytes": 3548,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8374,
+      "completion_tokens": 844,
+      "total_tokens": 9218
+    },
+    "content_char_count": 3573,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 28.82,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 16936,
+      "daily_remaining_tokens": 983064
+    },
+    "updated_at": "2026-09-21T10:08:06.937166"
+  },
+  "Closure_34/com/google/javascript/jscomp/CodePrinter.java": {
+    "project": "Closure_34",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_34/com/google/javascript/jscomp/CodePrinter.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_34_buggy/CodePrinterTest.java",
+    "file_size_bytes": 7750,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6259,
+      "completion_tokens": 1744,
+      "total_tokens": 8003
+    },
+    "content_char_count": 7750,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 56.06,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 24999,
+      "daily_remaining_tokens": 975001
+    },
+    "updated_at": "2026-09-21T10:09:04.063538"
+  },
+  "Closure_35/com/google/javascript/jscomp/TypeInference.java": {
+    "project": "Closure_35",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_35/com/google/javascript/jscomp/TypeInference.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_35_buggy/TypeInferenceTest.java",
+    "file_size_bytes": 6256,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10340,
+      "completion_tokens": 1447,
+      "total_tokens": 11787
+    },
+    "content_char_count": 6268,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 47.47,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 35735,
+      "daily_remaining_tokens": 964265
+    },
+    "updated_at": "2026-09-21T10:09:52.595639"
+  },
+  "Closure_36/com/google/javascript/jscomp/InlineVariables.java": {
+    "project": "Closure_36",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_36/com/google/javascript/jscomp/InlineVariables.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_36_buggy/InlineVariablesTest.java",
+    "file_size_bytes": 16059,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4890,
+      "completion_tokens": 4025,
+      "total_tokens": 8915
+    },
+    "content_char_count": 16071,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 128.67,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 23052,
+      "daily_remaining_tokens": 976948
+    },
+    "updated_at": "2026-09-21T10:12:02.325624"
+  },
+  "Closure_37/com/google/javascript/jscomp/NodeTraversal.java": {
+    "project": "Closure_37",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_37/com/google/javascript/jscomp/NodeTraversal.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_37_buggy/NodeTraversalTest.java",
+    "file_size_bytes": 15838,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5890,
+      "completion_tokens": 4003,
+      "total_tokens": 9893
+    },
+    "content_char_count": 15838,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 126.12,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 26829,
+      "daily_remaining_tokens": 973171
+    },
+    "updated_at": "2026-09-21T10:14:09.516134"
+  },
+  "Closure_37/com/google/javascript/jscomp/parsing/IRFactory.java": {
+    "project": "Closure_37",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_37/com/google/javascript/jscomp/parsing/IRFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_37_buggy/IRFactoryTest.java",
+    "file_size_bytes": 22148,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 11099,
+      "completion_tokens": 5032,
+      "total_tokens": 16131
+    },
+    "content_char_count": 22149,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 161.61,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 51866,
+      "daily_remaining_tokens": 948134
+    },
+    "updated_at": "2026-09-21T10:21:03.956966"
+  },
+  "Closure_38/com/google/javascript/jscomp/CodeConsumer.java": {
+    "project": "Closure_38",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_38/com/google/javascript/jscomp/CodeConsumer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_38_buggy/CodeConsumerTest.java",
+    "file_size_bytes": 5185,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3072,
+      "completion_tokens": 1284,
+      "total_tokens": 4356
+    },
+    "content_char_count": 5198,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 43.42,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 27408,
+      "daily_remaining_tokens": 972592
+    },
+    "updated_at": "2026-09-21T10:21:48.451689"
+  },
+  "Closure_39/com/google/javascript/rhino/jstype/PrototypeObjectType.java": {
+    "project": "Closure_39",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_39/com/google/javascript/rhino/jstype/PrototypeObjectType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_39_buggy/PrototypeObjectTypeTest.java",
+    "file_size_bytes": 13690,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5251,
+      "completion_tokens": 3169,
+      "total_tokens": 8420
+    },
+    "content_char_count": 13703,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 100.98,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 35249,
+      "daily_remaining_tokens": 964751
+    },
+    "updated_at": "2026-09-21T10:23:30.501913"
+  },
+  "Closure_4/com/google/javascript/rhino/jstype/NamedType.java": {
+    "project": "Closure_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_4/com/google/javascript/rhino/jstype/NamedType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_4_buggy/NamedTypeTest.java",
+    "file_size_bytes": 11643,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4428,
+      "completion_tokens": 2620,
+      "total_tokens": 7048
+    },
+    "content_char_count": 11655,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 81.66,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 51245,
+      "daily_remaining_tokens": 948755
+    },
+    "updated_at": "2026-09-21T10:24:53.240868"
+  },
+  "Closure_40/com/google/javascript/jscomp/NameAnalyzer.java": {
+    "project": "Closure_40",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_40/com/google/javascript/jscomp/NameAnalyzer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_40_buggy/NameAnalyzerTest.java",
+    "file_size_bytes": 10630,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10226,
+      "completion_tokens": 2554,
+      "total_tokens": 12780
+    },
+    "content_char_count": 10643,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 79.61,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 64646,
+      "daily_remaining_tokens": 935354
+    },
+    "updated_at": "2026-09-21T10:26:13.921030"
+  },
+  "Closure_41/com/google/javascript/jscomp/FunctionTypeBuilder.java": {
+    "project": "Closure_41",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_41/com/google/javascript/jscomp/FunctionTypeBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_41_buggy/FunctionTypeBuilderTest.java",
+    "file_size_bytes": 5747,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6306,
+      "completion_tokens": 1266,
+      "total_tokens": 7572
+    },
+    "content_char_count": 5747,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 41.79,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 34980,
+      "daily_remaining_tokens": 965020
+    },
+    "updated_at": "2026-09-21T10:26:56.832087"
+  },
+  "Closure_42/com/google/javascript/jscomp/parsing/IRFactory.java": {
+    "project": "Closure_42",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_42/com/google/javascript/jscomp/parsing/IRFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_42_buggy/IRFactoryTest.java",
+    "file_size_bytes": 16919,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10945,
+      "completion_tokens": 4291,
+      "total_tokens": 15236
+    },
+    "content_char_count": 16932,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 131.48,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 50485,
+      "daily_remaining_tokens": 949515
+    },
+    "updated_at": "2026-09-21T10:29:09.393160"
+  },
+  "Closure_43/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_43",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_43/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_43_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 9090,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 13216,
+      "completion_tokens": 2136,
+      "total_tokens": 15352
+    },
+    "content_char_count": 9098,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 66.68,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 66597,
+      "daily_remaining_tokens": 933403
+    },
+    "updated_at": "2026-09-21T10:30:17.170018"
+  },
+  "Closure_44/com/google/javascript/jscomp/CodeConsumer.java": {
+    "project": "Closure_44",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_44/com/google/javascript/jscomp/CodeConsumer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_44_buggy/CodeConsumerTest.java",
+    "file_size_bytes": 8990,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3043,
+      "completion_tokens": 2074,
+      "total_tokens": 5117
+    },
+    "content_char_count": 9003,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 66.75,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 69763,
+      "daily_remaining_tokens": 930237
+    },
+    "updated_at": "2026-09-21T10:31:25.014643"
+  },
+  "Closure_45/com/google/javascript/jscomp/RemoveUnusedVars.java": {
+    "project": "Closure_45",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_45/com/google/javascript/jscomp/RemoveUnusedVars.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_45_buggy/RemoveUnusedVarsTest.java",
+    "file_size_bytes": 6591,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5898,
+      "completion_tokens": 1574,
+      "total_tokens": 7472
+    },
+    "content_char_count": 6604,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 54.21,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 42458,
+      "daily_remaining_tokens": 957542
+    },
+    "updated_at": "2026-09-21T10:32:20.302196"
+  },
+  "Closure_46/com/google/javascript/rhino/jstype/RecordType.java": {
+    "project": "Closure_46",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_46/com/google/javascript/rhino/jstype/RecordType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_46_buggy/RecordTypeTest.java",
+    "file_size_bytes": 11978,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3766,
+      "completion_tokens": 2952,
+      "total_tokens": 6718
+    },
+    "content_char_count": 11990,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 91.84,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 57209,
+      "daily_remaining_tokens": 942791
+    },
+    "updated_at": "2026-09-21T10:33:53.212754"
+  },
+  "Closure_47/com/google/debugging/sourcemap/SourceMapConsumerV3.java": {
+    "project": "Closure_47",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_47/com/google/debugging/sourcemap/SourceMapConsumerV3.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_47_buggy/SourceMapConsumerV3Test.java",
+    "file_size_bytes": 7049,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6180,
+      "completion_tokens": 1732,
+      "total_tokens": 7912
+    },
+    "content_char_count": 7061,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 56.06,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 74515,
+      "daily_remaining_tokens": 925485
+    },
+    "updated_at": "2026-09-21T10:34:50.339586"
+  },
+  "Closure_47/com/google/javascript/jscomp/SourceMap.java": {
+    "project": "Closure_47",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_47/com/google/javascript/jscomp/SourceMap.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_47_buggy/SourceMapTest.java",
+    "file_size_bytes": 8025,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2596,
+      "completion_tokens": 2014,
+      "total_tokens": 4610
+    },
+    "content_char_count": 8038,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 62.69,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 74379,
+      "daily_remaining_tokens": 925621
+    },
+    "updated_at": "2026-09-21T10:35:54.092447"
+  },
+  "Closure_48/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_48",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_48/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_48_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 10823,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 13091,
+      "completion_tokens": 2601,
+      "total_tokens": 15692
+    },
+    "content_char_count": 10835,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 81.07,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 58150,
+      "daily_remaining_tokens": 941850
+    },
+    "updated_at": "2026-09-21T10:37:16.245048"
+  },
+  "Closure_49/com/google/javascript/jscomp/MakeDeclaredNamesUnique.java": {
+    "project": "Closure_49",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_49/com/google/javascript/jscomp/MakeDeclaredNamesUnique.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_49_buggy/MakeDeclaredNamesUniqueTest.java",
+    "file_size_bytes": 6239,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5362,
+      "completion_tokens": 1458,
+      "total_tokens": 6820
+    },
+    "content_char_count": 6252,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 47.09,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 64029,
+      "daily_remaining_tokens": 935971
+    },
+    "updated_at": "2026-09-21T10:38:04.415260"
+  },
+  "Closure_5/com/google/javascript/jscomp/InlineObjectLiterals.java": {
+    "project": "Closure_5",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_5/com/google/javascript/jscomp/InlineObjectLiterals.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_5_buggy/InlineObjectLiteralsTest.java",
+    "file_size_bytes": 12544,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4997,
+      "completion_tokens": 3236,
+      "total_tokens": 8233
+    },
+    "content_char_count": 12544,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 100.69,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 82748,
+      "daily_remaining_tokens": 917252
+    },
+    "updated_at": "2026-09-21T10:39:46.179471"
+  },
+  "Closure_50/com/google/javascript/jscomp/PeepholeReplaceKnownMethods.java": {
+    "project": "Closure_50",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_50/com/google/javascript/jscomp/PeepholeReplaceKnownMethods.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_50_buggy/PeepholeReplaceKnownMethodsTest.java",
+    "file_size_bytes": 15066,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6127,
+      "completion_tokens": 3984,
+      "total_tokens": 10111
+    },
+    "content_char_count": 15077,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 129.59,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 84490,
+      "daily_remaining_tokens": 915510
+    },
+    "updated_at": "2026-09-21T10:41:56.850511"
+  },
+  "Closure_51/com/google/javascript/jscomp/CodeConsumer.java": {
+    "project": "Closure_51",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_51/com/google/javascript/jscomp/CodeConsumer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_51_buggy/CodeConsumerTest.java",
+    "file_size_bytes": 12492,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2960,
+      "completion_tokens": 3182,
+      "total_tokens": 6142
+    },
+    "content_char_count": 12504,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 106.96,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 64292,
+      "daily_remaining_tokens": 935708
+    },
+    "updated_at": "2026-09-21T10:43:44.891654"
+  },
+  "Closure_52/com/google/javascript/jscomp/CodeGenerator.java": {
+    "project": "Closure_52",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_52/com/google/javascript/jscomp/CodeGenerator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_52_buggy/CodeGeneratorTest.java",
+    "file_size_bytes": 16157,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8306,
+      "completion_tokens": 4206,
+      "total_tokens": 12512
+    },
+    "content_char_count": 16169,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 138.98,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 76541,
+      "daily_remaining_tokens": 923459
+    },
+    "updated_at": "2026-09-21T10:46:04.957436"
+  },
+  "Closure_53/com/google/javascript/jscomp/InlineObjectLiterals.java": {
+    "project": "Closure_53",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_53/com/google/javascript/jscomp/InlineObjectLiterals.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_53_buggy/InlineObjectLiteralsTest.java",
+    "file_size_bytes": 12636,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4862,
+      "completion_tokens": 3206,
+      "total_tokens": 8068
+    },
+    "content_char_count": 12648,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 104.22,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 90816,
+      "daily_remaining_tokens": 909184
+    },
+    "updated_at": "2026-09-21T10:47:50.248113"
+  },
+  "Closure_54/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_54",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_54/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_54_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 19001,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 12539,
+      "completion_tokens": 5008,
+      "total_tokens": 17547
+    },
+    "content_char_count": 19014,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 179.3,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 102037,
+      "daily_remaining_tokens": 897963
+    },
+    "updated_at": "2026-09-21T10:50:50.638300"
+  },
+  "Closure_54/com/google/javascript/rhino/jstype/FunctionType.java": {
+    "project": "Closure_54",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_54/com/google/javascript/rhino/jstype/FunctionType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_54_buggy/FunctionTypeTest.java",
+    "file_size_bytes": 12738,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6684,
+      "completion_tokens": 2956,
+      "total_tokens": 9640
+    },
+    "content_char_count": 12751,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 97.56,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 73932,
+      "daily_remaining_tokens": 926068
+    },
+    "updated_at": "2026-09-21T10:52:29.273771"
+  },
+  "Closure_55/com/google/javascript/jscomp/FunctionRewriter.java": {
+    "project": "Closure_55",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_55/com/google/javascript/jscomp/FunctionRewriter.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_55_buggy/FunctionRewriterTest.java",
+    "file_size_bytes": 12815,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4951,
+      "completion_tokens": 3081,
+      "total_tokens": 8032
+    },
+    "content_char_count": 12827,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 100.96,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 84573,
+      "daily_remaining_tokens": 915427
+    },
+    "updated_at": "2026-09-21T10:54:11.317939"
+  },
+  "Closure_56/com/google/javascript/jscomp/SourceFile.java": {
+    "project": "Closure_56",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_56/com/google/javascript/jscomp/SourceFile.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_56_buggy/SourceFileTest.java",
+    "file_size_bytes": 11802,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4656,
+      "completion_tokens": 2751,
+      "total_tokens": 7407
+    },
+    "content_char_count": 11815,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 88.29,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 98223,
+      "daily_remaining_tokens": 901777
+    },
+    "updated_at": "2026-09-21T10:55:40.685183"
+  },
+  "Closure_57/com/google/javascript/jscomp/ClosureCodingConvention.java": {
+    "project": "Closure_57",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_57/com/google/javascript/jscomp/ClosureCodingConvention.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_57_buggy/ClosureCodingConventionTest.java",
+    "file_size_bytes": 13083,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4356,
+      "completion_tokens": 3125,
+      "total_tokens": 7481
+    },
+    "content_char_count": 13096,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 101.6,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 109518,
+      "daily_remaining_tokens": 890482
+    },
+    "updated_at": "2026-09-21T10:57:23.361010"
+  },
+  "Closure_58/com/google/javascript/jscomp/LiveVariablesAnalysis.java": {
+    "project": "Closure_58",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_58/com/google/javascript/jscomp/LiveVariablesAnalysis.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_58_buggy/LiveVariablesAnalysisTest.java",
+    "file_size_bytes": 31467,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3508,
+      "completion_tokens": 8168,
+      "total_tokens": 11676
+    },
+    "content_char_count": 31480,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 250.28,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 85608,
+      "daily_remaining_tokens": 914392
+    },
+    "updated_at": "2026-09-21T11:01:34.741617"
+  },
+  "Closure_59/com/google/javascript/jscomp/Compiler.java": {
+    "project": "Closure_59",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_59/com/google/javascript/jscomp/Compiler.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_59_buggy/CompilerTest.java",
+    "file_size_bytes": 14784,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 12143,
+      "completion_tokens": 3791,
+      "total_tokens": 15934
+    },
+    "content_char_count": 14784,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 125.64,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 100507,
+      "daily_remaining_tokens": 899493
+    },
+    "updated_at": "2026-09-21T11:03:41.481712"
+  },
+  "Closure_6/com/google/javascript/jscomp/TypeValidator.java": {
+    "project": "Closure_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_6/com/google/javascript/jscomp/TypeValidator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_6_buggy/TypeValidatorTest.java",
+    "file_size_bytes": 11410,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6407,
+      "completion_tokens": 2807,
+      "total_tokens": 9214
+    },
+    "content_char_count": 11411,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 110.52,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 107437,
+      "daily_remaining_tokens": 892563
+    },
+    "updated_at": "2026-09-21T11:05:33.072515"
+  },
+  "Closure_60/com/google/javascript/jscomp/NodeUtil.java": {
+    "project": "Closure_60",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_60/com/google/javascript/jscomp/NodeUtil.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_60_buggy/NodeUtilTest.java",
+    "file_size_bytes": 16575,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 16181,
+      "completion_tokens": 4245,
+      "total_tokens": 20426
+    },
+    "content_char_count": 16588,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 180.46,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 129944,
+      "daily_remaining_tokens": 870056
+    },
+    "updated_at": "2026-09-21T11:08:34.607079"
+  },
+  "Closure_61/com/google/javascript/jscomp/NodeUtil.java": {
+    "project": "Closure_61",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_61/com/google/javascript/jscomp/NodeUtil.java",
+    "status": "LIMIT_REACHED",
+    "finish_reason": "length",
+    "is_syntax_valid": false,
+    "usage": {
+      "prompt_tokens": 16139,
+      "completion_tokens": 8192,
+      "total_tokens": 24331
+    },
+    "content_char_count": 0,
+    "reasoning_char_count": 31197,
+    "used_key": "sk_tPX...Zcy7",
+    "note": "Output truncated or bracket unbalanced after retry",
+    "updated_at": "2026-09-21T11:10:24.795268"
+  },
+  "Closure_62/com/google/javascript/jscomp/LightweightMessageFormatter.java": {
+    "project": "Closure_62",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_62/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+    "status": "LIMIT_REACHED",
+    "finish_reason": "length",
+    "is_syntax_valid": false,
+    "usage": {
+      "prompt_tokens": 2440,
+      "completion_tokens": 8192,
+      "total_tokens": 10632
+    },
+    "content_char_count": 0,
+    "reasoning_char_count": 33304,
+    "used_key": "sk_E3p...Drbt",
+    "note": "Output truncated or bracket unbalanced after retry",
+    "updated_at": "2026-09-21T11:15:57.587158"
+  },
+  "Closure_64/com/google/javascript/jscomp/Compiler.java": {
+    "project": "Closure_64",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_64/com/google/javascript/jscomp/Compiler.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_64_buggy/CompilerTest.java",
+    "file_size_bytes": 4475,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 11904,
+      "completion_tokens": 7094,
+      "total_tokens": 18998
+    },
+    "content_char_count": 4475,
+    "reasoning_char_count": 24421,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 177.92,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 148942,
+      "daily_remaining_tokens": 851058
+    },
+    "updated_at": "2026-09-21T11:20:03.361498"
+  },
+  "Closure_65/com/google/javascript/jscomp/CodeGenerator.java": {
+    "project": "Closure_65",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_65/com/google/javascript/jscomp/CodeGenerator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_65_buggy/CodeGeneratorTest.java",
+    "file_size_bytes": 34006,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8305,
+      "completion_tokens": 7258,
+      "total_tokens": 15563
+    },
+    "content_char_count": 34019,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 301.08,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 125502,
+      "daily_remaining_tokens": 874498
+    },
+    "updated_at": "2026-09-21T11:25:05.565084"
+  },
+  "Closure_66/com/google/javascript/jscomp/TypeCheck.java": {
+    "project": "Closure_66",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_66/com/google/javascript/jscomp/TypeCheck.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_66_buggy/TypeCheckTest.java",
+    "file_size_bytes": 7579,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 13613,
+      "completion_tokens": 1905,
+      "total_tokens": 15518
+    },
+    "content_char_count": 7579,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 81.0,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 126657,
+      "daily_remaining_tokens": 873343
+    },
+    "updated_at": "2026-09-21T11:26:27.655361"
+  },
+  "Closure_67/com/google/javascript/jscomp/AnalyzePrototypeProperties.java": {
+    "project": "Closure_67",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_67/com/google/javascript/jscomp/AnalyzePrototypeProperties.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_67_buggy/AnalyzePrototypePropertiesTest.java",
+    "file_size_bytes": 17659,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6396,
+      "completion_tokens": 4071,
+      "total_tokens": 10467
+    },
+    "content_char_count": 17660,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 165.67,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 137907,
+      "daily_remaining_tokens": 862093
+    },
+    "updated_at": "2026-09-21T11:29:14.413447"
+  },
+  "Closure_68/com/google/javascript/jscomp/parsing/JsDocInfoParser.java": {
+    "project": "Closure_68",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_68/com/google/javascript/jscomp/parsing/JsDocInfoParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_68_buggy/JsDocInfoParserTest.java",
+    "file_size_bytes": 9467,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 13544,
+      "completion_tokens": 2278,
+      "total_tokens": 15822
+    },
+    "content_char_count": 9480,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 96.26,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 164764,
+      "daily_remaining_tokens": 835236
+    },
+    "updated_at": "2026-09-21T11:30:51.779457"
+  },
+  "Closure_69/com/google/javascript/jscomp/TypeCheck.java": {
+    "project": "Closure_69",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_69/com/google/javascript/jscomp/TypeCheck.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_69_buggy/TypeCheckTest.java",
+    "file_size_bytes": 10538,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 13529,
+      "completion_tokens": 2800,
+      "total_tokens": 16329
+    },
+    "content_char_count": 10550,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 118.1,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 141831,
+      "daily_remaining_tokens": 858169
+    },
+    "updated_at": "2026-09-21T11:32:50.974757"
+  },
+  "Closure_7/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java": {
+    "project": "Closure_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_7/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_7_buggy/ChainableReverseAbstractInterpreterTest.java",
+    "file_size_bytes": 26075,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6608,
+      "completion_tokens": 6475,
+      "total_tokens": 13083
+    },
+    "content_char_count": 26088,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 273.55,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 139740,
+      "daily_remaining_tokens": 860260
+    },
+    "updated_at": "2026-09-21T11:37:25.626004"
+  },
+  "Closure_70/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_70",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_70/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_70_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 12846,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 12887,
+      "completion_tokens": 2804,
+      "total_tokens": 15691
+    },
+    "content_char_count": 12858,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 122.53,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 153604,
+      "daily_remaining_tokens": 846396
+    },
+    "updated_at": "2026-09-21T11:39:29.242174"
+  },
+  "Closure_71/com/google/javascript/jscomp/CheckAccessControls.java": {
+    "project": "Closure_71",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_71/com/google/javascript/jscomp/CheckAccessControls.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_71_buggy/CheckAccessControlsTest.java",
+    "file_size_bytes": 6889,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6528,
+      "completion_tokens": 1625,
+      "total_tokens": 8153
+    },
+    "content_char_count": 6902,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 72.78,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 172935,
+      "daily_remaining_tokens": 827065
+    },
+    "updated_at": "2026-09-21T11:40:43.106822"
+  },
+  "Closure_72/com/google/javascript/jscomp/FunctionToBlockMutator.java": {
+    "project": "Closure_72",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_72/com/google/javascript/jscomp/FunctionToBlockMutator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_72_buggy/FunctionToBlockMutatorTest.java",
+    "file_size_bytes": 8398,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4777,
+      "completion_tokens": 1979,
+      "total_tokens": 6756
+    },
+    "content_char_count": 8410,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 81.86,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 148605,
+      "daily_remaining_tokens": 851395
+    },
+    "updated_at": "2026-09-21T11:42:06.057104"
+  },
+  "Closure_72/com/google/javascript/jscomp/RenameLabels.java": {
+    "project": "Closure_72",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Closure_72/com/google/javascript/jscomp/RenameLabels.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_72_buggy/RenameLabelsTest.java",
+    "file_size_bytes": 13782,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3213,
+      "completion_tokens": 3638,
+      "total_tokens": 6851
+    },
+    "content_char_count": 13794,
+    "reasoning_char_count": 0,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 154.41,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 146609,
+      "daily_remaining_tokens": 853391
+    },
+    "updated_at": "2026-09-21T11:44:41.547529"
+  }
+}

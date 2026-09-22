@@ -1,0 +1,646 @@
+{
+  "Collections_1/org/apache/commons/collections/map/Flat3Map.java": {
+    "project": "Collections_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_1/org/apache/commons/collections/map/Flat3Map.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_1_buggy/Flat3MapTest.java",
+    "file_size_bytes": 8667,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6564,
+      "completion_tokens": 2036,
+      "total_tokens": 8600
+    },
+    "content_char_count": 8680,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 89.25,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 334443,
+      "daily_remaining_tokens": 665557
+    },
+    "updated_at": "2026-09-21T12:22:59.623202"
+  },
+  "Collections_10/org/apache/commons/collections/map/MultiValueMap.java": {
+    "project": "Collections_10",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_10/org/apache/commons/collections/map/MultiValueMap.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_10_buggy/MultiValueMapTest.java",
+    "file_size_bytes": 8571,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4686,
+      "completion_tokens": 2092,
+      "total_tokens": 6778
+    },
+    "content_char_count": 8571,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 87.2,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 341221,
+      "daily_remaining_tokens": 658779
+    },
+    "updated_at": "2026-09-21T12:24:27.906686"
+  },
+  "Collections_11/org/apache/commons/collections/keyvalue/MultiKey.java": {
+    "project": "Collections_11",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_11/org/apache/commons/collections/keyvalue/MultiKey.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_11_buggy/MultiKeyTest.java",
+    "file_size_bytes": 9704,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3403,
+      "completion_tokens": 2462,
+      "total_tokens": 5865
+    },
+    "content_char_count": 9717,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 115.21,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 347092,
+      "daily_remaining_tokens": 652908
+    },
+    "updated_at": "2026-09-21T12:26:24.184887"
+  },
+  "Collections_12/org/apache/commons/collections/ExtendedProperties.java": {
+    "project": "Collections_12",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_12/org/apache/commons/collections/ExtendedProperties.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_12_buggy/ExtendedPropertiesTest.java",
+    "file_size_bytes": 26890,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6983,
+      "completion_tokens": 6399,
+      "total_tokens": 13382
+    },
+    "content_char_count": 26903,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 256.67,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 360474,
+      "daily_remaining_tokens": 639526
+    },
+    "updated_at": "2026-09-21T12:30:41.945243"
+  },
+  "Collections_13/org/apache/commons/collections/ExtendedProperties.java": {
+    "project": "Collections_13",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_13/org/apache/commons/collections/ExtendedProperties.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_13_buggy/ExtendedPropertiesTest.java",
+    "file_size_bytes": 12130,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6989,
+      "completion_tokens": 2853,
+      "total_tokens": 9842
+    },
+    "content_char_count": 12131,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 119.84,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 370316,
+      "daily_remaining_tokens": 629684
+    },
+    "updated_at": "2026-09-21T12:32:42.864769"
+  },
+  "Collections_14/org/apache/commons/collections/map/CaseInsensitiveMap.java": {
+    "project": "Collections_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_14/org/apache/commons/collections/map/CaseInsensitiveMap.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_14_buggy/CaseInsensitiveMapTest.java",
+    "file_size_bytes": 5119,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2451,
+      "completion_tokens": 1184,
+      "total_tokens": 3635
+    },
+    "content_char_count": 5132,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 50.17,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 373951,
+      "daily_remaining_tokens": 626049
+    },
+    "updated_at": "2026-09-21T12:33:34.113964"
+  },
+  "Collections_15/org/apache/commons/collections/list/SetUniqueList.java": {
+    "project": "Collections_15",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_15/org/apache/commons/collections/list/SetUniqueList.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_15_buggy/SetUniqueListTest.java",
+    "file_size_bytes": 6775,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3689,
+      "completion_tokens": 1606,
+      "total_tokens": 5295
+    },
+    "content_char_count": 6775,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 67.31,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 379246,
+      "daily_remaining_tokens": 620754
+    },
+    "updated_at": "2026-09-21T12:34:42.500415"
+  },
+  "Collections_16/org/apache/commons/collections/list/SetUniqueList.java": {
+    "project": "Collections_16",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_16/org/apache/commons/collections/list/SetUniqueList.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_16_buggy/SetUniqueListTest.java",
+    "file_size_bytes": 9356,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3709,
+      "completion_tokens": 2131,
+      "total_tokens": 5840
+    },
+    "content_char_count": 9357,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 92.05,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 385086,
+      "daily_remaining_tokens": 614914
+    },
+    "updated_at": "2026-09-21T12:36:15.635613"
+  },
+  "Collections_17/org/apache/commons/collections/functors/EqualPredicate.java": {
+    "project": "Collections_17",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_17/org/apache/commons/collections/functors/EqualPredicate.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_17_buggy/EqualPredicateTest.java",
+    "file_size_bytes": 6384,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2127,
+      "completion_tokens": 1402,
+      "total_tokens": 3529
+    },
+    "content_char_count": 6396,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 58.78,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 388615,
+      "daily_remaining_tokens": 611385
+    },
+    "updated_at": "2026-09-21T12:37:15.496854"
+  },
+  "Collections_18/org/apache/commons/collections/set/ListOrderedSet.java": {
+    "project": "Collections_18",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_18/org/apache/commons/collections/set/ListOrderedSet.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_18_buggy/ListOrderedSetTest.java",
+    "file_size_bytes": 14370,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4061,
+      "completion_tokens": 3390,
+      "total_tokens": 7451
+    },
+    "content_char_count": 14383,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 140.59,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 396066,
+      "daily_remaining_tokens": 603934
+    },
+    "updated_at": "2026-09-21T12:39:37.171746"
+  },
+  "Collections_19/org/apache/commons/collections/list/SetUniqueList.java": {
+    "project": "Collections_19",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_19/org/apache/commons/collections/list/SetUniqueList.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_19_buggy/SetUniqueListTest.java",
+    "file_size_bytes": 8402,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4262,
+      "completion_tokens": 2007,
+      "total_tokens": 6269
+    },
+    "content_char_count": 8403,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 83.0,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 402335,
+      "daily_remaining_tokens": 597665
+    },
+    "updated_at": "2026-09-21T12:41:01.266443"
+  },
+  "Collections_2/org/apache/commons/collections/ExtendedProperties.java": {
+    "project": "Collections_2",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_2/org/apache/commons/collections/ExtendedProperties.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_2_buggy/ExtendedPropertiesTest.java",
+    "file_size_bytes": 15032,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6710,
+      "completion_tokens": 3447,
+      "total_tokens": 10157
+    },
+    "content_char_count": 15045,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 143.35,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 412492,
+      "daily_remaining_tokens": 587508
+    },
+    "updated_at": "2026-09-21T12:43:25.708406"
+  },
+  "Collections_20/org/apache/commons/collections/list/TreeList.java": {
+    "project": "Collections_20",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_20/org/apache/commons/collections/list/TreeList.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_20_buggy/TreeListTest.java",
+    "file_size_bytes": 9936,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4858,
+      "completion_tokens": 2380,
+      "total_tokens": 7238
+    },
+    "content_char_count": 9937,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 97.23,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 419730,
+      "daily_remaining_tokens": 580270
+    },
+    "updated_at": "2026-09-21T12:45:04.017696"
+  },
+  "Collections_21/org/apache/commons/collections4/list/SetUniqueList.java": {
+    "project": "Collections_21",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_21/org/apache/commons/collections4/list/SetUniqueList.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_21_buggy/SetUniqueListTest.java",
+    "file_size_bytes": 10148,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4336,
+      "completion_tokens": 2356,
+      "total_tokens": 6692
+    },
+    "content_char_count": 10161,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 104.43,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 426422,
+      "daily_remaining_tokens": 573578
+    },
+    "updated_at": "2026-09-21T12:46:49.532729"
+  },
+  "Collections_22/org/apache/commons/collections4/map/ListOrderedMap.java": {
+    "project": "Collections_22",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_22/org/apache/commons/collections4/map/ListOrderedMap.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_22_buggy/ListOrderedMapTest.java",
+    "file_size_bytes": 7745,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4317,
+      "completion_tokens": 4134,
+      "total_tokens": 8451
+    },
+    "content_char_count": 15986,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 168.25,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 434873,
+      "daily_remaining_tokens": 565127
+    },
+    "updated_at": "2026-09-21T12:49:38.874336"
+  },
+  "Collections_23/org/apache/commons/collections4/trie/UnmodifiableTrie.java": {
+    "project": "Collections_23",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_23/org/apache/commons/collections4/trie/UnmodifiableTrie.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_23_buggy/UnmodifiableTrieTest.java",
+    "file_size_bytes": 7348,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2469,
+      "completion_tokens": 1673,
+      "total_tokens": 4142
+    },
+    "content_char_count": 7361,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 69.05,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 439015,
+      "daily_remaining_tokens": 560985
+    },
+    "updated_at": "2026-09-21T12:50:49.007096"
+  },
+  "Collections_24/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java": {
+    "project": "Collections_24",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_24/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_24_buggy/UnmodifiableBoundedCollectionTest.java",
+    "file_size_bytes": 9617,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2486,
+      "completion_tokens": 1909,
+      "total_tokens": 4395
+    },
+    "content_char_count": 9617,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 77.99,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 443410,
+      "daily_remaining_tokens": 556590
+    },
+    "updated_at": "2026-09-21T12:52:08.154155"
+  },
+  "Collections_25/org/apache/commons/collections4/IteratorUtils.java": {
+    "project": "Collections_25",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_25/org/apache/commons/collections4/IteratorUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_25_buggy/IteratorUtilsTest.java",
+    "file_size_bytes": 23580,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6045,
+      "completion_tokens": 5027,
+      "total_tokens": 11072
+    },
+    "content_char_count": 23581,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 204.64,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 454482,
+      "daily_remaining_tokens": 545518
+    },
+    "updated_at": "2026-09-21T12:55:33.887316"
+  },
+  "Collections_26/org/apache/commons/collections4/keyvalue/MultiKey.java": {
+    "project": "Collections_26",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_26/org/apache/commons/collections4/keyvalue/MultiKey.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_26_buggy/MultiKeyTest.java",
+    "file_size_bytes": 7483,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3431,
+      "completion_tokens": 1902,
+      "total_tokens": 5333
+    },
+    "content_char_count": 7496,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 78.51,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 459815,
+      "daily_remaining_tokens": 540185
+    },
+    "updated_at": "2026-09-21T12:56:53.486156"
+  },
+  "Collections_27/org/apache/commons/collections4/map/MultiValueMap.java": {
+    "project": "Collections_27",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_27/org/apache/commons/collections4/map/MultiValueMap.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_27_buggy/MultiValueMapTest.java",
+    "file_size_bytes": 7786,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5726,
+      "completion_tokens": 1866,
+      "total_tokens": 7592
+    },
+    "content_char_count": 7787,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 76.51,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 467407,
+      "daily_remaining_tokens": 532593
+    },
+    "updated_at": "2026-09-21T12:58:11.073623"
+  },
+  "Collections_28/org/apache/commons/collections4/trie/AbstractPatriciaTrie.java": {
+    "project": "Collections_28",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_28/org/apache/commons/collections4/trie/AbstractPatriciaTrie.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_28_buggy/AbstractPatriciaTrieTest.java",
+    "file_size_bytes": 9587,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 12878,
+      "completion_tokens": 2464,
+      "total_tokens": 15342
+    },
+    "content_char_count": 9600,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 101.16,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 482749,
+      "daily_remaining_tokens": 517251
+    },
+    "updated_at": "2026-09-21T12:59:53.402277"
+  },
+  "Collections_3/org/apache/commons/collections/CollectionUtils.java": {
+    "project": "Collections_3",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_3/org/apache/commons/collections/CollectionUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_3_buggy/CollectionUtilsTest.java",
+    "file_size_bytes": 16169,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5303,
+      "completion_tokens": 3538,
+      "total_tokens": 8841
+    },
+    "content_char_count": 16169,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 146.29,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 491590,
+      "daily_remaining_tokens": 508410
+    },
+    "updated_at": "2026-09-21T13:02:20.785911"
+  },
+  "Collections_4/org/apache/commons/collections/map/MultiValueMap.java": {
+    "project": "Collections_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_4/org/apache/commons/collections/map/MultiValueMap.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_4_buggy/MultiValueMapTest.java",
+    "file_size_bytes": 10286,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4442,
+      "completion_tokens": 2427,
+      "total_tokens": 6869
+    },
+    "content_char_count": 10299,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 99.97,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 498459,
+      "daily_remaining_tokens": 501541
+    },
+    "updated_at": "2026-09-21T13:04:01.832682"
+  },
+  "Collections_5/org/apache/commons/collections/list/SetUniqueList.java": {
+    "project": "Collections_5",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_5/org/apache/commons/collections/list/SetUniqueList.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_5_buggy/SetUniqueListTest.java",
+    "file_size_bytes": 11596,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3671,
+      "completion_tokens": 2702,
+      "total_tokens": 6373
+    },
+    "content_char_count": 11608,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 113.97,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 504832,
+      "daily_remaining_tokens": 495168
+    },
+    "updated_at": "2026-09-21T13:05:56.879830"
+  },
+  "Collections_6/org/apache/commons/collections/map/Flat3Map.java": {
+    "project": "Collections_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_6/org/apache/commons/collections/map/Flat3Map.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_6_buggy/Flat3MapTest.java",
+    "file_size_bytes": 9880,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6582,
+      "completion_tokens": 2423,
+      "total_tokens": 9005
+    },
+    "content_char_count": 9892,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 98.9,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 513837,
+      "daily_remaining_tokens": 486163
+    },
+    "updated_at": "2026-09-21T13:07:36.864945"
+  },
+  "Collections_7/org/apache/commons/collections/ExtendedProperties.java": {
+    "project": "Collections_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_7/org/apache/commons/collections/ExtendedProperties.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_7_buggy/ExtendedPropertiesTest.java",
+    "file_size_bytes": 9540,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6888,
+      "completion_tokens": 2313,
+      "total_tokens": 9201
+    },
+    "content_char_count": 9552,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 93.19,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 523038,
+      "daily_remaining_tokens": 476962
+    },
+    "updated_at": "2026-09-21T13:09:11.233586"
+  },
+  "Collections_8/org/apache/commons/collections/buffer/UnboundedFifoBuffer.java": {
+    "project": "Collections_8",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_8/org/apache/commons/collections/buffer/UnboundedFifoBuffer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_8_buggy/UnboundedFifoBufferTest.java",
+    "file_size_bytes": 6779,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3348,
+      "completion_tokens": 1511,
+      "total_tokens": 4859
+    },
+    "content_char_count": 6791,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 65.9,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 527897,
+      "daily_remaining_tokens": 472103
+    },
+    "updated_at": "2026-09-21T13:10:18.230082"
+  },
+  "Collections_9/org/apache/commons/collections/ExtendedProperties.java": {
+    "project": "Collections_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Collections_9/org/apache/commons/collections/ExtendedProperties.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Collections_9_buggy/ExtendedPropertiesTest.java",
+    "file_size_bytes": 23521,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6982,
+      "completion_tokens": 5362,
+      "total_tokens": 12344
+    },
+    "content_char_count": 23533,
+    "reasoning_char_count": 0,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 224.28,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 540247,
+      "daily_remaining_tokens": 459753
+    },
+    "updated_at": "2026-09-21T13:14:03.590522"
+  }
+}

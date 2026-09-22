@@ -32,7 +32,7 @@
 | บันทึกไฟล์ตรงๆ หากโปรแกรมหลุดไฟล์อาจเสียหาย | ใช้ **Atomic Writes** ทั้งไฟล์ Java และ State File (`.tmp` -> `replace()`) |
 | สับสนระหว่างสร้างสำเร็จกับคอมไพล์ผ่าน | แยกสถานะ **`GENERATED`** (ผ่านโครงสร้างไวยากรณ์เบื้องต้น) ออกจาก **`VERIFIED`** (ต้องคอมไพล์และรันเทสต์ผ่านจริง) |
 | หากติด `finish_reason=length` ไฟล์สมบูรณ์เดิมอาจถูกเขียนทับ | เมื่อเกิด truncation จะ **ไม่เขียนทับ** ไฟล์เดิมที่สมบูรณ์ และบันทึกสถานะเป็น `LIMIT_REACHED` |
-| บัญชีงบประมาณผูกกับตัวเลขสมมติ | แยกบัญชีงบประมาณภายใน (3,200,000 tokens/วัน) ออกจากโควต้าจริงของเซิร์ฟเวอร์ (4,000,000 tokens/วัน) ซึ่ง sync จาก `model_quota` ของ API |
+| บัญชีงบประมาณผูกกับตัวเลขสมมติ | แยกบัญชีงบประมาณภายในออกจากโควต้าจริงของเซิร์ฟเวอร์ ซึ่งอ่านจาก `model_quota` ของ API |
 
 ---
 
@@ -122,11 +122,11 @@ $$\text{completion\_tokens} = \text{reasoning\_tokens} + \text{content\_tokens}$
 เพื่อป้องกันความผิดพลาด สคริปต์แบ่งการจัดการโควต้าออกเป็น 2 ชั้น:
 
 1. **Server Quota (โควต้าของ KKU IntelSphere API)**:
-   - ค่าตั้งต้น: **4,000,000 tokens/วัน** ต่อคีย์
+   - ค่าในสคริปต์ **4,000,000 tokens/วัน** เป็นเพียงค่าที่ใช้แสดงก่อนมีข้อมูลจริง; API ที่เคยรันรายงาน **1,000,000 tokens/วันต่อคีย์** ให้ยึดยอดจาก `model_quota`
    - อัปเดตยอดจริงทันทีที่ได้รับออบเจกต์ `model_quota` จาก API response (`daily_quota_tokens`, `daily_usage_tokens`, `daily_remaining_tokens`)
 2. **Internal Daily Budget (งบประมาณภายในเครื่อง)**:
    - บันทึกใน `Deepseek-flash-v4/budget_ledger.json`
-   - ค่าเริ่มต้น: **3,200,000 tokens/วัน** (เผื่อ buffer 20% สำหรับความคลาดเคลื่อนในการนับ token และการ retry)
+   - ค่าเริ่มต้นของ generator แบบเดิม: **3,200,000 tokens/วันรวมทุกคีย์**; ควรปรับตามโควต้าจริง
    - ปรับเปลี่ยนได้ด้วย `--budget-limit <ตัวเลข>` หรือข้ามด้วย `--skip-limits`
 
 ---
@@ -157,6 +157,9 @@ DEEPSEEK_API_KEYS=sk_key1...,sk_key2...
 | `--limit` | `-n` | จำกัดจำนวนไฟล์ที่จะประมวลผล (กรองเฉพาะงานที่ค้างก่อนตัดตาม limit) |
 | `--api-key` | `-k` | ระบุ API Key ผ่าน CLI (ใส่ได้หลายตัว หรือคั่นด้วยจุลภาค) |
 | `--env-file` | - | ระบุ path ของไฟล์ `.env` ที่ต้องการโหลด |
+| `--key-index` | - | เลือกเฉพาะคีย์ลำดับที่ N จาก `.env`/environment สำหรับ worker หนึ่งตัว |
+| `--state-file` | - | แยกไฟล์สถานะของโปรเจกต์เมื่อรันขนาน |
+| `--budget-file` | - | แยกบัญชี token ของคีย์เมื่อรันขนาน |
 | `--max-tokens` | - | กำหนดเพดาน output tokens (ค่าเริ่มต้น: `8192`) |
 | `--budget-limit` | - | กำหนดงบประมาณ token ภายในต่อวัน (ค่าเริ่มต้น: `3200000`) |
 | `--no-budget` | - | ปิดการควบคุมงบประมาณ token ภายในเครื่อง |
@@ -181,10 +184,14 @@ DEEPSEEK_API_KEYS=sk_key1...,sk_key2...
 python script/generate_deepseek_tests.py --status
 ```
 
+คำสั่งนี้รวม `generation_state.json` เดิมกับ `Deepseek-flash-v4/state/*.json` ของตัวรันขนาน โดยใช้ task ID กันการนับซ้ำ แสดงงบเดิมและยอดใช้ของบัญชี worker แยกกัน ข้อมูลโควต้าเซิร์ฟเวอร์ที่แสดงมาจาก state พร้อมเวลาที่บันทึกไว้; หากต้องการยอดสดให้ใช้ `--check-quota` (มีการเรียก API)
+
 ### 11.2 ดูแผนงานก่อนรันจริง
 ```bash
 python script/generate_deepseek_tests.py --project Closure_28 --plan
 ```
+
+`--plan` และ `--dry-run` แบบไม่ระบุ `--state-file` อ่าน state ทั้งสองแบบเหมือน `--status` แต่ไม่แก้ไขไฟล์ใดๆ หากระบุ `--state-file` จะอ่านเฉพาะไฟล์นั้น
 
 ### 11.3 ทดสอบการทำงานแบบ Dry-Run
 ```bash
@@ -211,11 +218,32 @@ python script/generate_deepseek_tests.py --project Chart_1 -v
 bash script/generate_deepseek_tests.sh --project Closure_28 --status
 ```
 
+### 11.8 รันหลายโปรเจกต์พร้อมกันโดยแยกคีย์และสถานะ
+
+หยุด generator ที่กำลังรันอยู่ก่อนเริ่ม launcher เพื่อไม่ให้สองรอบเขียนไฟล์ test เดียวกัน จากนั้นเรียกครั้งเดียว; launcher ใช้ 1 API key ต่อ worker, แยก state ต่อกลุ่มโปรเจกต์, และแยกบัญชี token ต่อคีย์ คำสั่งเดิมใช้รันต่อในวันถัดไปได้
+
+```bash
+python3 script/run_deepseek_parallel.py --workers 4
+```
+
+เฉพาะ Cli และ Chart หรือดูการแบ่งงานแบบ offline ก่อนรัน:
+
+```bash
+python3 script/run_deepseek_parallel.py --workers 2 --projects Cli Chart
+python3 script/run_deepseek_parallel.py --workers 2 --projects Cli Chart --dry-run
+```
+
+ต้องมีคีย์อย่างน้อยเท่าจำนวน worker ใน `.env` (หรือ environment) ตัวเลือก `--budget-limit` ของ launcher มีค่าเริ่มต้น **800,000 tokens/วันต่อคีย์** ตามโควต้า 1,000,000 tokens/วันต่อคีย์ที่เคยเห็นจาก API; ปรับตามยอดจริงได้ด้วย `--budget-limit N` ค่าเริ่มต้นนี้แยกจากค่า 3,200,000 ของ generator แบบรันโปรเซสเดียว
+
+ไฟล์สถานะของ launcher อยู่ที่ `Deepseek-flash-v4/state/<กลุ่ม>.json` และบัญชี token อยู่ที่ `Deepseek-flash-v4/budget/key-<fingerprint>.json` โดยไม่บันทึกคีย์จริงในชื่อไฟล์ เมื่อเริ่มใช้ครั้งแรก launcher คัดลอกสถานะเดิมจาก `generation_state.json` ไปยัง state ของแต่ละกลุ่มที่ยังไม่มีไฟล์อยู่ ผลลัพธ์ Java เดิมบนดิสก์ยังถูกใช้ตรวจการข้ามงาน
+
+หาก worker หยุดเพราะงบหรือโควต้าหมด กลุ่มที่ยังค้างจะถูกรันต่อเมื่อเรียกคำสั่งเดิมอีกครั้ง การที่ generator จบรอบหมายถึงสร้างไฟล์แล้วเท่านั้น; การคอมไพล์และรัน JUnit ยังต้องตรวจแยก
+
 ---
 
 ## 12. การทดสอบแบบ Offline Unit Tests
 
-สามารถรันชุดการทดสอบทั้งหมด 16 รายการได้แบบออฟไลน์ 100% โดยไม่ต้องเชื่อมต่ออินเทอร์เน็ตและไม่ใช้โควต้า:
+สามารถรันชุดการทดสอบทั้งหมด 23 รายการได้แบบออฟไลน์ 100% โดยไม่ต้องเชื่อมต่ออินเทอร์เน็ตและไม่ใช้โควต้า:
 
 ```bash
 python script/test_generate_deepseek_tests.py
@@ -223,6 +251,6 @@ python script/test_generate_deepseek_tests.py
 
 ผลลัพธ์ที่คาดหวัง:
 ```text
-Ran 16 tests in ~2.0s
+Ran 23 tests
 OK
 ```

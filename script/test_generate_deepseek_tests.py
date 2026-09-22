@@ -30,6 +30,7 @@ import json
 import io
 import shutil
 import tempfile
+import threading
 import unittest
 from pathlib import Path
 from unittest.mock import Mock, patch, MagicMock
@@ -38,6 +39,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(SCRIPT_DIR))
 
 import generate_deepseek_tests as gen
+import run_deepseek_parallel as parallel
 
 
 SAMPLE_COMPLETE_JAVA = (
@@ -384,6 +386,109 @@ class TestDeepSeekPipelineOffline(unittest.TestCase):
                 gen.main(["--project", "Closure_28", "--dry-run"])
                 gen.main(["--project", "Closure_28", "--plan"])
                 gen.main(["--status"])
+
+
+class TestParallelProjectRunner(unittest.TestCase):
+    def test_status_snapshot_overlays_project_state_without_writing(self):
+        legacy = {"Cli_1/A.java": {"status": "LIMIT_REACHED"},
+                  "Codec_1/B.java": {"status": "GENERATED"}}
+        shard = {"Cli_1/A.java": {"status": "GENERATED"},
+                 "Cli_2/C.java": {"status": "GENERATED"}}
+        with patch.object(Path, "glob", return_value=[Path("state/Cli.json")]), \
+             patch.object(gen, "load_state", side_effect=[legacy, shard]) as load:
+            merged, count = gen.load_progress_snapshot(Path("generation_state.json"), Path("out"))
+        self.assertEqual(count, 1)
+        self.assertEqual(len(merged), 3)
+        self.assertEqual(merged["Cli_1/A.java"]["status"], "GENERATED")
+        self.assertTrue(all(call.kwargs["read_only"] for call in load.call_args_list))
+
+    def test_parallel_budget_status_reads_key_specific_ledger(self):
+        with patch.object(Path, "is_file", return_value=True), \
+             patch.object(gen, "DailyBudget") as budget:
+            budget.return_value.get_today_used.return_value = 123
+            usage = gen.read_parallel_budget_usage(Path("out"), ["dummy-one", "dummy-two"])
+        self.assertEqual(len(usage), 2)
+        self.assertEqual(set(usage.values()), {123})
+        paths = [call.args[0] for call in budget.call_args_list]
+        self.assertNotEqual(paths[0], paths[1])
+        self.assertNotIn("dummy-one", str(paths[0]))
+
+    def test_generator_selects_one_key_and_custom_files(self):
+        state = Path("isolated-state.json")
+        budget = Path("isolated-budget.json")
+        with patch.object(gen, "get_all_api_keys", return_value=["dummy-1", "dummy-2"]), \
+             patch.object(gen, "load_state", return_value={}) as load, \
+             patch.object(gen, "DailyBudget") as budget_class, \
+             patch.object(gen, "print_status_report") as report:
+            gen.main(["--status", "--key-index", "2", "--state-file", str(state),
+                      "--budget-file", str(budget)])
+        self.assertEqual(load.call_args.args[0], state)
+        self.assertEqual(budget_class.call_args.args[0], budget)
+        self.assertEqual(report.call_args.args[0].keys, ["dummy-2"])
+
+    def test_parallel_commands_isolate_projects_and_key_budgets(self):
+        generator = Path("script/generate_deepseek_tests.py")
+        output = Path("Deepseek-flash-v4")
+        first = parallel.worker_command(generator, output, "Cli", 1, "dummy-key-1", 800000, None, None, False)
+        second = parallel.worker_command(generator, output, "Chart", 1, "dummy-key-1", 800000, None, None, False)
+        third = parallel.worker_command(generator, output, "Closure", 2, "dummy-key-2", 800000, None, None, False)
+        value = lambda cmd, flag: cmd[cmd.index(flag) + 1]
+        self.assertNotEqual(value(first, "--state-file"), value(second, "--state-file"))
+        self.assertEqual(value(first, "--budget-file"), value(second, "--budget-file"))
+        self.assertNotEqual(value(first, "--budget-file"), value(third, "--budget-file"))
+        self.assertEqual(value(third, "--key-index"), "2")
+        self.assertNotIn("dummy-key-1", first)
+        self.assertNotIn("dummy-key-2", third)
+
+    def test_parallel_dry_run_does_not_start_workers_or_write_state(self):
+        with patch.object(parallel, "discover_groups", return_value=["Chart", "Cli"]), \
+             patch.object(parallel, "get_all_api_keys", return_value=["dummy-1", "dummy-2"]), \
+             patch.object(parallel, "seed_project_states", side_effect=AssertionError("state write")), \
+             patch.object(parallel.subprocess, "Popen", side_effect=AssertionError("process started")), \
+             patch("sys.stdout", new_callable=io.StringIO) as out:
+            code = parallel.main(["--workers", "2", "--dry-run"])
+        self.assertEqual(code, 0)
+        self.assertIn("Chart: key #1", out.getvalue())
+        self.assertIn("Cli: key #2", out.getvalue())
+
+    def test_seed_project_states_preserves_legacy_entries(self):
+        legacy = {"Cli_1/a.java": {"status": "GENERATED"},
+                  "Chart_1/b.java": {"status": "LIMIT_REACHED"}}
+        with patch.object(Path, "is_file", return_value=True), \
+             patch.object(Path, "exists", return_value=False), \
+             patch.object(parallel, "load_state", return_value=legacy), \
+             patch.object(parallel, "save_atomic_json") as save:
+            parallel.seed_project_states(Path("Deepseek-flash-v4"), ["Cli"])
+        self.assertEqual(save.call_count, 1)
+        self.assertEqual(save.call_args.args[1], {"Cli_1/a.java": {"status": "GENERATED"}})
+
+    def test_parallel_runner_starts_distinct_projects_concurrently(self):
+        barrier = threading.Barrier(2)
+
+        class FakeProcess:
+            stdout = ()
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *args):
+                return False
+
+            def wait(self):
+                barrier.wait(timeout=5)
+                return 0
+
+        with patch.object(parallel, "discover_groups", return_value=["Cli", "Chart"]), \
+             patch.object(parallel, "get_all_api_keys", return_value=["dummy-1", "dummy-2"]), \
+             patch.object(parallel, "seed_project_states"), \
+             patch.object(parallel.subprocess, "Popen", side_effect=lambda *a, **kw: FakeProcess()) as popen, \
+             patch("sys.stdout", new_callable=io.StringIO):
+            code = parallel.main(["--workers", "2", "--projects", "Cli", "Chart"])
+        self.assertEqual(code, 0)
+        self.assertEqual(popen.call_count, 2)
+        commands = [call.args[0] for call in popen.call_args_list]
+        self.assertEqual({cmd[cmd.index("--project") + 1] for cmd in commands}, {"Cli", "Chart"})
+        self.assertEqual({cmd[cmd.index("--key-index") + 1] for cmd in commands}, {"1", "2"})
 
 
 if __name__ == "__main__":
