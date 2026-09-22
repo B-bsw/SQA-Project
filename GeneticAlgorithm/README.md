@@ -6,6 +6,10 @@
 ## ใช้งาน
 
 ```bash
+cp Configuration/.env.example Configuration/.env
+```
+
+```bash
 cd GenericAlgorithm/Code
 ./run_evosuite_ga.sh Chart 1 1 120
 ./collect_ga_reports.sh 1

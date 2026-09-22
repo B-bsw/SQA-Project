@@ -10,6 +10,9 @@ usage() {
   exit 2
 }
 
+# run .env
+source ../Configuration/.env
+
 [[ $# -ge 3 && $# -le 4 ]] || usage
 project_input=$1
 id_spec=$(printf '%s' "$2" | tr -d '[:space:]')
@@ -53,7 +56,7 @@ bug_id=${bug_ids[0]}
 project_target="${project}_${bug_id}"
 
 ga_root=$(cd "$code_dir/.." && pwd)
-defects4j_bin=${DEFECTS4J_BIN:-/Users/bb/Desktop/class/sqa/defects4j/framework/bin/defects4j}
+defects4j_bin=${DEFECTS4J_BIN:-/Users/defects4j/framework/bin/defects4j}
 evosuite_jar=${EVOSUITE_JAR:-$code_dir/evosuite-1.2.0.jar}
 sdk_java=${SDK_JAVA:-11.0.31-amzn}
 seed=${SEED:-20260918}

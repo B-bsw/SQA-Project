@@ -1,0 +1,2 @@
+"round","project","bug_id","seed","budget","tests","coverage","line_cov","branch_cov","total_goals","covered_goals","lines","covered_lines","total_branches","covered_branches","buggy_result","buggy_fails","fixed_result","fixed_fails","verdict"
+1,"Codec",8,20260918,60,51,95.98,98.49,92.77,487,471,45,255,208,194,"PASS",0,"NOT_RUN","","NOT_AVAILABLE"
