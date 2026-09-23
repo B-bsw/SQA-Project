@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-23T20:54:26Z",
+  "round": 2,
+  "project": "Lang",
+  "bug_id": 64,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 2,
+  "coverage": 17.42,
+  "line_cov": 16.67,
+  "branch_cov": 18.18,
+  "total_goals": 29,
+  "covered_goals": 4,
+  "lines": 5,
+  "covered_lines": 3,
+  "total_branches": 8,
+  "covered_branches": 2,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.lang.enums.ValuedEnum",
+      "generation_result": "PASS",
+      "generation_seconds": 64,
+      "tests": 2,
+      "coverage": 17.42,
+      "line_cov": 16.67,
+      "branch_cov": 18.18,
+      "total_goals": 29,
+      "covered_goals": 4,
+      "lines": 5,
+      "covered_lines": 3,
+      "total_branches": 8,
+      "covered_branches": 2,
+      "total_methods": 5,
+      "covered_methods": 1,
+      "branchless_methods": 3,
+      "covered_branchless_methods": 0
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}
