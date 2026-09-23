@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-23T17:37:31Z",
+  "round": 1,
+  "project": "JxPath",
+  "bug_id": 3,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 25,
+  "coverage": 88.8,
+  "line_cov": 84.42,
+  "branch_cov": 93.18,
+  "total_goals": 121,
+  "covered_goals": 105,
+  "lines": 24,
+  "covered_lines": 65,
+  "total_branches": 26,
+  "covered_branches": 23,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.jxpath.ri.model.beans.NullPropertyPointer",
+      "generation_result": "PASS",
+      "generation_seconds": 80,
+      "tests": 25,
+      "coverage": 88.80,
+      "line_cov": 84.42,
+      "branch_cov": 93.18,
+      "total_goals": 121,
+      "covered_goals": 105,
+      "lines": 24,
+      "covered_lines": 65,
+      "total_branches": 26,
+      "covered_branches": 23,
+      "total_methods": 24,
+      "covered_methods": 24,
+      "branchless_methods": 18,
+      "covered_branchless_methods": 18
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}

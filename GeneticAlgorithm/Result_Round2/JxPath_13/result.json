@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-23T17:57:12Z",
+  "round": 2,
+  "project": "JxPath",
+  "bug_id": 13,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 52,
+  "coverage": 70.39,
+  "line_cov": 72.83,
+  "branch_cov": 67.94,
+  "total_goals": 760,
+  "covered_goals": 451,
+  "lines": 54,
+  "covered_lines": 271,
+  "total_branches": 324,
+  "covered_branches": 164,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "FAIL",
+  "fixed_fails": 1,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer",
+      "generation_result": "PASS",
+      "generation_seconds": 94,
+      "tests": 41,
+      "coverage": 56.57,
+      "line_cov": 62.98,
+      "branch_cov": 50.16,
+      "total_goals": 673,
+      "covered_goals": 379,
+      "lines": 44,
+      "covered_lines": 228,
+      "total_branches": 294,
+      "covered_branches": 139,
+      "total_methods": 44,
+      "covered_methods": 41,
+      "branchless_methods": 17,
+      "covered_branchless_methods": 17
+    },
+    {
+      "target_class": "org.apache.commons.jxpath.ri.NamespaceResolver",
+      "generation_result": "PASS",
+      "generation_seconds": 70,
+      "tests": 11,
+      "coverage": 84.20,
+      "line_cov": 82.69,
+      "branch_cov": 85.71,
+      "total_goals": 87,
+      "covered_goals": 72,
+      "lines": 10,
+      "covered_lines": 43,
+      "total_branches": 30,
+      "covered_branches": 25,
+      "total_methods": 10,
+      "covered_methods": 10,
+      "branchless_methods": 5,
+      "covered_branchless_methods": 5
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 1
+    }
+  ]
+}

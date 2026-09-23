@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-23T17:39:15Z",
+  "round": 1,
+  "project": "JxPath",
+  "bug_id": 4,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 75,
+  "coverage": 44.57,
+  "line_cov": 48.11,
+  "branch_cov": 41.01,
+  "total_goals": 1354,
+  "covered_goals": 596,
+  "lines": 84,
+  "covered_lines": 357,
+  "total_branches": 572,
+  "covered_branches": 215,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer",
+      "generation_result": "PASS",
+      "generation_seconds": 91,
+      "tests": 43,
+      "coverage": 57.75,
+      "line_cov": 62.98,
+      "branch_cov": 52.51,
+      "total_goals": 661,
+      "covered_goals": 379,
+      "lines": 43,
+      "covered_lines": 228,
+      "total_branches": 282,
+      "covered_branches": 140,
+      "total_methods": 43,
+      "covered_methods": 39,
+      "branchless_methods": 17,
+      "covered_branchless_methods": 17
+    },
+    {
+      "target_class": "org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer",
+      "generation_result": "PASS",
+      "generation_seconds": 90,
+      "tests": 32,
+      "coverage": 31.38,
+      "line_cov": 33.25,
+      "branch_cov": 29.51,
+      "total_goals": 693,
+      "covered_goals": 217,
+      "lines": 41,
+      "covered_lines": 129,
+      "total_branches": 290,
+      "covered_branches": 75,
+      "total_methods": 41,
+      "covered_methods": 35,
+      "branchless_methods": 15,
+      "covered_branchless_methods": 15
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}
