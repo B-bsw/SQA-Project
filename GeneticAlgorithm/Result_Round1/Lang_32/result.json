@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-23T19:02:56Z",
+  "round": 1,
+  "project": "Lang",
+  "bug_id": 32,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 30,
+  "coverage": 89.18,
+  "line_cov": 89.66,
+  "branch_cov": 84.68,
+  "total_goals": 256,
+  "covered_goals": 223,
+  "lines": 37,
+  "covered_lines": 129,
+  "total_branches": 88,
+  "covered_branches": 73,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "FAIL",
+  "fixed_fails": 3,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.lang3.builder.HashCodeBuilder",
+      "generation_result": "PASS",
+      "generation_seconds": 73,
+      "tests": 30,
+      "coverage": 89.18,
+      "line_cov": 89.66,
+      "branch_cov": 84.68,
+      "total_goals": 256,
+      "covered_goals": 223,
+      "lines": 37,
+      "covered_lines": 129,
+      "total_branches": 88,
+      "covered_branches": 73,
+      "total_methods": 38,
+      "covered_methods": 36,
+      "branchless_methods": 23,
+      "covered_branchless_methods": 21
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 3
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-23T19:26:04Z",
+  "round": 2,
+  "project": "Lang",
+  "bug_id": 45,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 35,
+  "coverage": 99.17,
+  "line_cov": 99.28,
+  "branch_cov": 99.07,
+  "total_goals": 246,
+  "covered_goals": 244,
+  "lines": 14,
+  "covered_lines": 137,
+  "total_branches": 102,
+  "covered_branches": 101,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.lang.WordUtils",
+      "generation_result": "PASS",
+      "generation_seconds": 72,
+      "tests": 35,
+      "coverage": 99.17,
+      "line_cov": 99.28,
+      "branch_cov": 99.07,
+      "total_goals": 246,
+      "covered_goals": 244,
+      "lines": 14,
+      "covered_lines": 137,
+      "total_branches": 102,
+      "covered_branches": 101,
+      "total_methods": 14,
+      "covered_methods": 14,
+      "branchless_methods": 6,
+      "covered_branchless_methods": 6
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}
