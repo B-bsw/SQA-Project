@@ -10,6 +10,19 @@ import run_randoop_parallel as parallel
 
 
 class ParallelStateTests(unittest.TestCase):
+    def test_timezone_aware_timestamps_compare_actual_instants(self):
+        bangkok_failure = {"status": "FAILED", "timestamp": "2026-09-23T17:58:56+07:00"}
+        los_angeles_success = {"status": "COMPLETED", "timestamp": "2026-09-23T04:37:28-07:00"}
+        self.assertTrue(parallel.prefer_newer(bangkok_failure, los_angeles_success))
+        self.assertFalse(parallel.prefer_newer(los_angeles_success, bangkok_failure))
+        self.assertTrue(parallel.prefer_newer(bangkok_failure, {
+            "status": "COMPLETED", "timestamp": "2026-09-23T11:38:00+00:00"}))
+
+    def test_new_utc_record_supersedes_legacy_local_time(self):
+        old_failure = {"status": "FAILED", "timestamp": "2026-09-23T17:58:56"}
+        new_success = {"status": "COMPLETED", "timestamp": "2026-09-23T11:38:00+00:00"}
+        self.assertTrue(parallel.prefer_newer(old_failure, new_success))
+
     def test_status_prints_total_for_selected_groups(self):
         counts = {"Chart": (2, 1, 3), "Cli": (4, 0, 1)}
         output = io.StringIO()

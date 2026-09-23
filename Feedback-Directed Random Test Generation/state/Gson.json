@@ -1,0 +1,261 @@
+{
+  "Gson_6": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Gson_6_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Gson_6",
+    "classes_tested": [
+      "com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory"
+    ],
+    "generated_tests": [
+      "com/google/gson/internal/bind/RegressionTest0.java",
+      "com/google/gson/internal/bind/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:18:50.275282"
+  },
+  "Gson_8": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Gson_8_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Gson_8",
+    "classes_tested": [
+      "com.google.gson.internal.UnsafeAllocator"
+    ],
+    "generated_tests": [
+      "com/google/gson/internal/RegressionTest0.java",
+      "com/google/gson/internal/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:19:56.351791"
+  },
+  "Gson_17": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Gson_17_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Gson_17",
+    "classes_tested": [
+      "com.google.gson.DefaultDateTypeAdapter"
+    ],
+    "generated_tests": [
+      "com/google/gson/RegressionTest0.java",
+      "com/google/gson/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:21:17.710050"
+  },
+  "Gson_1": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Gson_1_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Gson_1",
+    "classes_tested": [
+      "com.google.gson.TypeInfoFactory"
+    ],
+    "generated_tests": [
+      "com/google/gson/RegressionTest0.java",
+      "com/google/gson/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:22:34.527459"
+  },
+  "Gson_3": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Gson_3_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Gson_3",
+    "classes_tested": [
+      "com.google.gson.internal.ConstructorConstructor"
+    ],
+    "generated_tests": [
+      "com/google/gson/internal/RegressionTest0.java",
+      "com/google/gson/internal/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:23:51.176880"
+  },
+  "Gson_10": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Gson_10_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Gson_10",
+    "classes_tested": [
+      "com.google.gson.internal.bind.ReflectiveTypeAdapterFactory"
+    ],
+    "generated_tests": [
+      "com/google/gson/internal/bind/ErrorTest.java",
+      "com/google/gson/internal/bind/RegressionTest0.java",
+      "com/google/gson/internal/bind/ErrorTest0.java",
+      "com/google/gson/internal/bind/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:25:18.913340"
+  },
+  "Gson_12": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Gson_12_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Gson_12",
+    "classes_tested": [
+      "com.google.gson.internal.bind.JsonTreeReader"
+    ],
+    "generated_tests": [
+      "com/google/gson/internal/bind/ErrorTest.java",
+      "com/google/gson/internal/bind/RegressionTest0.java",
+      "com/google/gson/internal/bind/ErrorTest0.java",
+      "com/google/gson/internal/bind/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:26:43.362708"
+  },
+  "Gson_5": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Gson_5_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Gson_5",
+    "classes_tested": [
+      "com.google.gson.internal.bind.util.ISO8601Utils"
+    ],
+    "generated_tests": [
+      "com/google/gson/internal/bind/util/RegressionTest0.java",
+      "com/google/gson/internal/bind/util/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:27:47.491974"
+  },
+  "Gson_15": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Gson_15_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Gson_15",
+    "classes_tested": [
+      "com.google.gson.stream.JsonWriter"
+    ],
+    "generated_tests": [
+      "com/google/gson/stream/RegressionTest0.java",
+      "com/google/gson/stream/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:29:08.152015"
+  },
+  "Gson_14": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Gson_14_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Gson_14",
+    "classes_tested": [
+      "com.google.gson.internal.$Gson$Types"
+    ],
+    "generated_tests": [
+      "com/google/gson/internal/RegressionTest0.java",
+      "com/google/gson/internal/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:30:26.704899"
+  },
+  "Gson_16": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Gson_16_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Gson_16",
+    "classes_tested": [
+      "com.google.gson.internal.$Gson$Types"
+    ],
+    "generated_tests": [
+      "com/google/gson/internal/RegressionTest0.java",
+      "com/google/gson/internal/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:31:44.008479"
+  },
+  "Gson_18": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Gson_18_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Gson_18",
+    "classes_tested": [
+      "com.google.gson.internal.$Gson$Types"
+    ],
+    "generated_tests": [
+      "com/google/gson/internal/RegressionTest.java",
+      "com/google/gson/internal/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T17:36:21.471794"
+  },
+  "Gson_2": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Gson_2_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Gson_2",
+    "classes_tested": [
+      "com.google.gson.internal.bind.TypeAdapters"
+    ],
+    "generated_tests": [
+      "com/google/gson/internal/bind/RegressionTest.java",
+      "com/google/gson/internal/bind/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T17:39:41.484678"
+  },
+  "Gson_11": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Gson_11_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Gson_11",
+    "classes_tested": [
+      "com.google.gson.internal.bind.TypeAdapters"
+    ],
+    "generated_tests": [
+      "com/google/gson/internal/bind/RegressionTest.java",
+      "com/google/gson/internal/bind/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T17:43:11.046788"
+  },
+  "Gson_13": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Gson_13_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Gson_13",
+    "classes_tested": [
+      "com.google.gson.stream.JsonReader"
+    ],
+    "generated_tests": [
+      "com/google/gson/stream/RegressionTest.java",
+      "com/google/gson/stream/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T17:46:23.374036"
+  },
+  "Gson_7": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Gson_7_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Gson_7",
+    "classes_tested": [
+      "com.google.gson.stream.JsonReader"
+    ],
+    "generated_tests": [
+      "com/google/gson/stream/RegressionTest.java",
+      "com/google/gson/stream/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T17:50:32.014409"
+  },
+  "Gson_9": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Gson_9_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Gson_9",
+    "classes_tested": [
+      "com.google.gson.stream.JsonWriter",
+      "com.google.gson.internal.bind.JsonTreeWriter",
+      "com.google.gson.internal.bind.TypeAdapters"
+    ],
+    "generated_tests": [
+      "com/google/gson/internal/bind/RegressionTest.java",
+      "com/google/gson/internal/bind/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T17:54:01.001617"
+  },
+  "Gson_4": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Gson_4_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Gson_4",
+    "classes_tested": [
+      "com.google.gson.stream.JsonReader",
+      "com.google.gson.stream.JsonWriter"
+    ],
+    "generated_tests": [
+      "com/google/gson/stream/RegressionTest.java",
+      "com/google/gson/stream/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T17:57:21.984272"
+  }
+}

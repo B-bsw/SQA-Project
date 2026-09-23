@@ -1,0 +1,379 @@
+{
+  "JacksonCore_16": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_16_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_16",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.util.JsonParserSequence"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/util/RegressionTest.java",
+      "com/fasterxml/jackson/core/util/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T11:15:35+00:00"
+  },
+  "JacksonCore_13": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_13_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_13",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.json.JsonGeneratorImpl"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/json/RegressionTest.java",
+      "com/fasterxml/jackson/core/json/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T11:19:57+00:00"
+  },
+  "JacksonCore_7": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_7_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_7",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.json.JsonWriteContext"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/json/RegressionTest.java",
+      "com/fasterxml/jackson/core/json/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T11:24:17+00:00"
+  },
+  "JacksonCore_5": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_5_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_5",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.JsonPointer"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/RegressionTest.java",
+      "com/fasterxml/jackson/core/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T11:28:31+00:00"
+  },
+  "JacksonCore_6": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_6_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_6",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.JsonPointer"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/RegressionTest.java",
+      "com/fasterxml/jackson/core/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T11:32:51+00:00"
+  },
+  "JacksonCore_14": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_14_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_14",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.io.IOContext"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/io/RegressionTest.java",
+      "com/fasterxml/jackson/core/io/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T11:37:28+00:00"
+  },
+  "JacksonCore_23": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_23_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_23",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.util.DefaultPrettyPrinter"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/util/RegressionTest.java",
+      "com/fasterxml/jackson/core/util/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T11:50:22.236388+00:00"
+  },
+  "JacksonCore_4": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_4_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_4",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.util.TextBuffer"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/util/RegressionTest.java",
+      "com/fasterxml/jackson/core/util/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T11:55:30.802196+00:00"
+  },
+  "JacksonCore_8": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_8_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_8",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.util.TextBuffer"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/util/RegressionTest.java",
+      "com/fasterxml/jackson/core/util/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:00:16.470999+00:00"
+  },
+  "JacksonCore_1": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_1_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_1",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.io.NumberInput",
+      "com.fasterxml.jackson.core.util.TextBuffer"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/io/RegressionTest.java",
+      "com/fasterxml/jackson/core/io/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:05:01.161963+00:00"
+  },
+  "JacksonCore_15": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_15_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_15",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.filter.FilteringParserDelegate"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/filter/RegressionTest.java",
+      "com/fasterxml/jackson/core/filter/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:09:50.181818+00:00"
+  },
+  "JacksonCore_22": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_22_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_22",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.filter.FilteringParserDelegate"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/filter/RegressionTest.java",
+      "com/fasterxml/jackson/core/filter/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:14:55.227155+00:00"
+  },
+  "JacksonCore_21": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_21_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_21",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.filter.FilteringParserDelegate"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/filter/RegressionTest.java",
+      "com/fasterxml/jackson/core/filter/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:19:56.794994+00:00"
+  },
+  "JacksonCore_10": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_10_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_10",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/sym/ErrorTest.java",
+      "com/fasterxml/jackson/core/sym/ErrorTest0.java",
+      "com/fasterxml/jackson/core/sym/RegressionTest.java",
+      "com/fasterxml/jackson/core/sym/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:24:58.032821+00:00"
+  },
+  "JacksonCore_11": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_11_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_11",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/sym/ErrorTest.java",
+      "com/fasterxml/jackson/core/sym/ErrorTest0.java",
+      "com/fasterxml/jackson/core/sym/RegressionTest.java",
+      "com/fasterxml/jackson/core/sym/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:29:53.676348+00:00"
+  },
+  "JacksonCore_24": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_24_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_24",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.base.ParserBase",
+      "com.fasterxml.jackson.core.base.ParserMinimalBase"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/base/RegressionTest.java",
+      "com/fasterxml/jackson/core/base/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:35:05.799877+00:00"
+  },
+  "JacksonCore_17": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_17_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_17",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.json.UTF8JsonGenerator"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/json/RegressionTest.java",
+      "com/fasterxml/jackson/core/json/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:40:05.308552+00:00"
+  },
+  "JacksonCore_20": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_20_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_20",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.JsonGenerator"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/RegressionTest.java",
+      "com/fasterxml/jackson/core/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:45:16.064825+00:00"
+  },
+  "JacksonCore_25": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_25_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_25",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.json.ReaderBasedJsonParser"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/json/RegressionTest.java",
+      "com/fasterxml/jackson/core/json/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:50:24.175321+00:00"
+  },
+  "JacksonCore_26": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_26_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_26",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.json.async.NonBlockingJsonParser"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/json/async/RegressionTest.java",
+      "com/fasterxml/jackson/core/json/async/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:55:37.533017+00:00"
+  },
+  "JacksonCore_3": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_3_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_3",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.json.UTF8StreamJsonParser"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/json/RegressionTest.java",
+      "com/fasterxml/jackson/core/json/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T13:00:43.769651+00:00"
+  },
+  "JacksonCore_18": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_18_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_18",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.base.GeneratorBase",
+      "com.fasterxml.jackson.core.json.UTF8JsonGenerator",
+      "com.fasterxml.jackson.core.json.WriterBasedJsonGenerator"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/json/RegressionTest.java",
+      "com/fasterxml/jackson/core/json/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T13:05:38.437479+00:00"
+  },
+  "JacksonCore_2": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_2_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_2",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.json.ReaderBasedJsonParser",
+      "com.fasterxml.jackson.core.json.UTF8StreamJsonParser"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/json/RegressionTest.java",
+      "com/fasterxml/jackson/core/json/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T13:10:42.230626+00:00"
+  },
+  "JacksonCore_12": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_12_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_12",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.json.ReaderBasedJsonParser",
+      "com.fasterxml.jackson.core.json.UTF8StreamJsonParser"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/json/RegressionTest.java",
+      "com/fasterxml/jackson/core/json/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T13:16:13.291333+00:00"
+  },
+  "JacksonCore_19": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_19_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_19",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.json.ReaderBasedJsonParser",
+      "com.fasterxml.jackson.core.json.UTF8StreamJsonParser"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/json/RegressionTest.java",
+      "com/fasterxml/jackson/core/json/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T13:21:31.466551+00:00"
+  },
+  "JacksonCore_9": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JacksonCore_9_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JacksonCore_9",
+    "classes_tested": [
+      "com.fasterxml.jackson.core.base.ParserMinimalBase",
+      "com.fasterxml.jackson.core.json.ReaderBasedJsonParser",
+      "com.fasterxml.jackson.core.json.UTF8StreamJsonParser"
+    ],
+    "generated_tests": [
+      "com/fasterxml/jackson/core/json/RegressionTest.java",
+      "com/fasterxml/jackson/core/json/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T13:26:26.297847+00:00"
+  }
+}

@@ -30,10 +30,9 @@ import shutil
 import tempfile
 import argparse
 import subprocess
-import platform
 import signal
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import List, Dict, Optional, Tuple, Set
 
 # Fix UTF-8 output on Windows consoles
@@ -142,6 +141,15 @@ def find_defects4j_bin() -> Optional[str]:
     return None
 
 
+def randoop_temp_base(workspace_dir: Optional[Path], name: str) -> Path:
+    """Keep generated work beside the repository when its path has no spaces."""
+    if workspace_dir is not None:
+        build_base = Path(workspace_dir).resolve() / "BuildClasses"
+        if " " not in str(build_base):
+            return build_base / name
+    return Path(tempfile.gettempdir()) / ("sqa_d4j_work" if name == "d4j_work" else name)
+
+
 def try_fast_javac_compile(
     project_info: dict,
     workspace_dir: Path,
@@ -228,7 +236,8 @@ def try_defects4j_auto_checkout_compile(
 ) -> Optional[Path]:
     """
     ใช้ defects4j checkout และ defects4j compile อัตโนมัติเมื่อไม่พบ .class
-    ใช้พื้นที่ทำงานชั่วคราวที่ไม่มีเว้นวรรค (/tmp/sqa_d4j_work หรือ build_base_dir/d4j_work)
+    ใช้ BuildClasses/d4j_work ใน workspace เมื่อพาธไม่มีเว้นวรรค
+    มิฉะนั้นใช้ temp ของระบบเพื่อเลี่ยงปัญหา Defects4J กับพาธที่มีเว้นวรรค
     เพื่อป้องกัน Bug ของ Defects4J Perl script ที่แตกพาธเมื่อมีช่องว่าง
     เมื่อ compile สำเร็จ จะคัดลอก .class ไปยัง build_base_dir/<Project> เพื่อแคชถาวร
     """
@@ -242,11 +251,8 @@ def try_defects4j_auto_checkout_compile(
     if target_cache_dir.is_dir() and any(target_cache_dir.glob("**/*.class")):
         return target_cache_dir.resolve()
 
-    # เลือกไดเรกทอรีทำงานที่ปราศจาก space โดยเด็ดขาด เพื่อป้องกัน bug ใน Perl script ของ Defects4J
-    if platform.system() != "Windows" or os.environ.get("WSL_DISTRO_NAME"):
-        d4j_work_base = Path("/tmp/sqa_d4j_work")
-    else:
-        d4j_work_base = build_base_dir / "d4j_work"
+    # Keep checkout on the workspace drive; Defects4J requires a path without spaces.
+    d4j_work_base = randoop_temp_base(workspace_dir, "d4j_work")
 
     d4j_work_base.mkdir(parents=True, exist_ok=True)
     checkout_dir = d4j_work_base / f"{proj_name}_buggy"
@@ -266,7 +272,7 @@ def try_defects4j_auto_checkout_compile(
             shutil.rmtree(checkout_dir, ignore_errors=True)
 
         checkout_cmd = [defects4j_bin, "checkout", "-p", pid, "-v", f"{bid}b", "-w", str(checkout_dir)]
-        res_co = subprocess.run(checkout_cmd, capture_output=True, text=True, timeout=180)
+        res_co = subprocess.run(checkout_cmd, capture_output=True, text=True, timeout=900)
         if res_co.returncode != 0:
             err_msg = res_co.stderr.strip() or res_co.stdout.strip()
             print(f"  ⚠️ Defects4J checkout ไม่สำเร็จ: {err_msg[:120]}")
@@ -376,6 +382,7 @@ def resolve_project_classes_dir(
         candidate_roots.append(data_dir)
     candidate_roots += [
         Path.home() / "defect4j" / "Code",
+        randoop_temp_base(workspace_dir, "d4j_work"),
         Path("/tmp/sqa_d4j_work"),
         workspace_dir / "Feedback-Directed Random Test Generation" / "Code",
     ]
@@ -452,7 +459,7 @@ class MemoryStateManager:
 
     def record_completed(self, project_folder: str, info: dict):
         info["status"] = "COMPLETED"
-        info["timestamp"] = datetime.now().isoformat()
+        info["timestamp"] = datetime.now(timezone.utc).isoformat()
         self.state_data[project_folder] = info
         self.save()
 
@@ -461,7 +468,7 @@ class MemoryStateManager:
             "status": "FAILED",
             "error": error_msg,
             "classes": classes,
-            "timestamp": datetime.now().isoformat()
+            "timestamp": datetime.now(timezone.utc).isoformat()
         }
         self.save()
 
@@ -672,13 +679,14 @@ def collect_project_classpath_entries(
                     if s not in extra_cps:
                         extra_cps.append(s)
 
-    # 4. หากมีใน /tmp/sqa_d4j_work/<project>_buggy
-    tmp_work = Path("/tmp/sqa_d4j_work") / f"{project_name}_buggy"
-    if tmp_work.is_dir():
-        for jar in tmp_work.glob("**/*.jar"):
-            s = str(jar)
-            if s not in extra_cps:
-                extra_cps.append(s)
+    # Include both current workspace checkouts and older /tmp checkouts.
+    for work_base in (randoop_temp_base(workspace_dir, "d4j_work"), Path("/tmp/sqa_d4j_work")):
+        tmp_work = work_base / f"{project_name}_buggy"
+        if tmp_work.is_dir():
+            for jar in tmp_work.glob("**/*.jar"):
+                s = str(jar)
+                if s not in extra_cps:
+                    extra_cps.append(s)
 
     return extra_cps
 
@@ -900,7 +908,7 @@ def run_randoop_for_project(
                   time_limit=time_limit, tests_per_file=tests_per_file,
                   jvm_max_memory=jvm_max_memory, workspace_dir=workspace_dir,
                   dry_run=dry_run, quiet=quiet, data_dir=data_dir)
-    temp_parent = Path(tempfile.gettempdir()) / "sqa_randoop"
+    temp_parent = randoop_temp_base(workspace_dir, "sqa_randoop")
     if dry_run:
         return _run_randoop_for_project(**kwargs, staging_root=temp_parent / "dry-run")
     temp_parent.mkdir(parents=True, exist_ok=True)
@@ -912,16 +920,15 @@ def cleanup_generated_artifacts(project_name: str, workspace_dir: Path, classes_
     """ลบเฉพาะแคชและไฟล์ชั่วคราวที่สคริปต์สร้างสำหรับโปรเจกต์ที่สำเร็จแล้ว"""
     build_base = (workspace_dir / "BuildClasses").resolve()
     build_cache = build_base / project_name
-    staging_root = Path(tempfile.gettempdir()) / "sqa_randoop"
-    if platform.system() != "Windows" or os.environ.get("WSL_DISTRO_NAME"):
-        checkout_dir = Path("/tmp/sqa_d4j_work") / f"{project_name}_buggy"
-    else:
-        checkout_dir = build_base / "d4j_work" / f"{project_name}_buggy"
+    staging_root = randoop_temp_base(workspace_dir, "sqa_randoop")
+    checkout_dir = randoop_temp_base(workspace_dir, "d4j_work") / f"{project_name}_buggy"
+    legacy_checkout = Path("/tmp/sqa_d4j_work") / f"{project_name}_buggy"
 
     targets = [
         (staging_root / "out" / project_name, staging_root / "out"),
         (staging_root / "classes" / project_name, staging_root / "classes"),
         (checkout_dir, checkout_dir.parent),
+        (legacy_checkout, legacy_checkout.parent),
     ]
     resolved_classes = classes_dir.resolve()
     if not custom_classes and (resolved_classes == build_cache or build_cache in resolved_classes.parents):

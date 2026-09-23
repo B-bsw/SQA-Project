@@ -1,0 +1,671 @@
+{
+  "Compress_44": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_44_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_44",
+    "classes_tested": [
+      "org.apache.commons.compress.utils.ChecksumCalculatingInputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/utils/RegressionTest0.java",
+      "org/apache/commons/compress/utils/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:18:41.888461"
+  },
+  "Compress_40": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_40_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_40",
+    "classes_tested": [
+      "org.apache.commons.compress.utils.BitInputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/utils/RegressionTest0.java",
+      "org/apache/commons/compress/utils/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:19:45.989471"
+  },
+  "Compress_2": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_2_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_2",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.ar.ArArchiveInputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/ar/RegressionTest0.java",
+      "org/apache/commons/compress/archivers/ar/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:21:08.772029"
+  },
+  "Compress_26": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_26_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_26",
+    "classes_tested": [
+      "org.apache.commons.compress.utils.IOUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/utils/RegressionTest0.java",
+      "org/apache/commons/compress/utils/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:22:16.220238"
+  },
+  "Compress_7": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_7_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_7",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.tar.TarUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/tar/RegressionTest0.java",
+      "org/apache/commons/compress/archivers/tar/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:23:19.992018"
+  },
+  "Compress_11": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_11_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_11",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.ArchiveStreamFactory"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/RegressionTest0.java",
+      "org/apache/commons/compress/archivers/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:24:39.701678"
+  },
+  "Compress_8": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_8_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_8",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.tar.TarUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/tar/RegressionTest0.java",
+      "org/apache/commons/compress/archivers/tar/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:25:44.156728"
+  },
+  "Compress_16": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_16_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_16",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.ArchiveStreamFactory"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/RegressionTest0.java",
+      "org/apache/commons/compress/archivers/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:27:01.041581"
+  },
+  "Compress_39": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_39_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_39",
+    "classes_tested": [
+      "org.apache.commons.compress.utils.ArchiveUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/utils/RegressionTest0.java",
+      "org/apache/commons/compress/utils/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:28:24.244012"
+  },
+  "Compress_3": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_3_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_3",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.tar.TarArchiveOutputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/tar/RegressionTest0.java",
+      "org/apache/commons/compress/archivers/tar/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:29:38.649118"
+  },
+  "Compress_5": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_5_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_5",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.zip.ZipArchiveInputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/zip/RegressionTest0.java",
+      "org/apache/commons/compress/archivers/zip/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:30:56.276519"
+  },
+  "Compress_23": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_23_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_23",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.sevenz.Coders"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/sevenz/RegressionTest0.java",
+      "org/apache/commons/compress/archivers/sevenz/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T03:32:20.387326"
+  },
+  "Compress_34": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_34_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_34",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.zip.X7875_NewUnix"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/zip/RegressionTest.java",
+      "org/apache/commons/compress/archivers/zip/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T17:36:30.470344"
+  },
+  "Compress_9": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_9_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_9",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.tar.TarArchiveOutputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/tar/RegressionTest.java",
+      "org/apache/commons/compress/archivers/tar/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T17:40:04.567449"
+  },
+  "Compress_19": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_19_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_19",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraField"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/zip/RegressionTest.java",
+      "org/apache/commons/compress/archivers/zip/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T17:44:09.162410"
+  },
+  "Compress_1": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_1_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_1",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/cpio/RegressionTest.java",
+      "org/apache/commons/compress/archivers/cpio/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T17:47:15.461486"
+  },
+  "Compress_14": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_14_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_14",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.tar.TarUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/tar/RegressionTest.java",
+      "org/apache/commons/compress/archivers/tar/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T17:51:43.350157"
+  },
+  "Compress_6": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_6_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_6",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.zip.ZipArchiveEntry"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/zip/RegressionTest.java",
+      "org/apache/commons/compress/archivers/zip/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T17:54:55.531959"
+  },
+  "Compress_20": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_20_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_20",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/cpio/RegressionTest.java",
+      "org/apache/commons/compress/archivers/cpio/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T17:59:10.771128"
+  },
+  "Compress_33": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_33_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_33",
+    "classes_tested": [
+      "org.apache.commons.compress.compressors.CompressorStreamFactory",
+      "org.apache.commons.compress.compressors.deflate.DeflateCompressorInputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/compressors/RegressionTest.java",
+      "org/apache/commons/compress/compressors/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T18:03:15.930359"
+  },
+  "Compress_12": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_12_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/d4j_work/Compress_12_buggy/target/classes",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.tar.TarArchiveInputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/tar/RegressionTest.java",
+      "org/apache/commons/compress/archivers/tar/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T11:46:10.346401+00:00"
+  },
+  "Compress_46": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_46_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_46",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.zip.X5455_ExtendedTimestamp"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/zip/RegressionTest.java",
+      "org/apache/commons/compress/archivers/zip/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T11:50:13.152389+00:00"
+  },
+  "Compress_18": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_18_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_18",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.tar.TarArchiveOutputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/tar/RegressionTest.java",
+      "org/apache/commons/compress/archivers/tar/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T11:53:29.790967+00:00"
+  },
+  "Compress_15": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_15_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_15",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.zip.ZipArchiveEntry"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/zip/RegressionTest.java",
+      "org/apache/commons/compress/archivers/zip/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T11:56:31.756381+00:00"
+  },
+  "Compress_13": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_13_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_13",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.zip.ZipArchiveEntry"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/zip/RegressionTest.java",
+      "org/apache/commons/compress/archivers/zip/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T11:59:31.731868+00:00"
+  },
+  "Compress_28": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_28_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_28",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.tar.TarArchiveInputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/tar/RegressionTest.java",
+      "org/apache/commons/compress/archivers/tar/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:03:02.840236+00:00"
+  },
+  "Compress_35": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_35_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_35",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.tar.TarUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/tar/RegressionTest.java",
+      "org/apache/commons/compress/archivers/tar/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:06:41.227842+00:00"
+  },
+  "Compress_21": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_21_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_21",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.sevenz.SevenZOutputFile"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/sevenz/RegressionTest.java",
+      "org/apache/commons/compress/archivers/sevenz/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:09:55.640028+00:00"
+  },
+  "Compress_45": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_45_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_45",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.tar.TarUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/tar/RegressionTest.java",
+      "org/apache/commons/compress/archivers/tar/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:14:05.215853+00:00"
+  },
+  "Compress_17": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_17_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_17",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.tar.TarUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/tar/RegressionTest.java",
+      "org/apache/commons/compress/archivers/tar/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:17:13.208185+00:00"
+  },
+  "Compress_31": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_31_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_31",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.tar.TarUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/tar/RegressionTest.java",
+      "org/apache/commons/compress/archivers/tar/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:20:42.583139+00:00"
+  },
+  "Compress_27": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_27_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_27",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.tar.TarUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/tar/RegressionTest.java",
+      "org/apache/commons/compress/archivers/tar/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:24:17.392379+00:00"
+  },
+  "Compress_24": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_24_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_24",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.tar.TarUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/tar/RegressionTest.java",
+      "org/apache/commons/compress/archivers/tar/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:27:53.048317+00:00"
+  },
+  "Compress_32": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_32_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_32",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.tar.TarArchiveInputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/tar/RegressionTest.java",
+      "org/apache/commons/compress/archivers/tar/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:31:20.860511+00:00"
+  },
+  "Compress_37": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_37_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_37",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.tar.TarArchiveInputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/tar/RegressionTest.java",
+      "org/apache/commons/compress/archivers/tar/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:34:55.060014+00:00"
+  },
+  "Compress_42": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_42_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_42",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.zip.UnixStat",
+      "org.apache.commons.compress.archivers.zip.ZipArchiveEntry"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/zip/RegressionTest.java",
+      "org/apache/commons/compress/archivers/zip/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:38:59.292744+00:00"
+  },
+  "Compress_30": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_30_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_30",
+    "classes_tested": [
+      "org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/compressors/bzip2/RegressionTest.java",
+      "org/apache/commons/compress/compressors/bzip2/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:43:02.160539+00:00"
+  },
+  "Compress_22": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_22_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_22",
+    "classes_tested": [
+      "org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/compressors/bzip2/RegressionTest.java",
+      "org/apache/commons/compress/compressors/bzip2/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:46:20.870271+00:00"
+  },
+  "Compress_10": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_10_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_10",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.zip.ZipFile"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/zip/RegressionTest.java",
+      "org/apache/commons/compress/archivers/zip/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:49:21.983092+00:00"
+  },
+  "Compress_38": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_38_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_38",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.tar.TarArchiveEntry"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/tar/RegressionTest.java",
+      "org/apache/commons/compress/archivers/tar/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:53:11.062964+00:00"
+  },
+  "Compress_25": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_25_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_25",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.zip.ZipArchiveInputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/zip/RegressionTest.java",
+      "org/apache/commons/compress/archivers/zip/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T12:56:29.908597+00:00"
+  },
+  "Compress_36": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_36_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_36",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.sevenz.SevenZFile"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/sevenz/RegressionTest.java",
+      "org/apache/commons/compress/archivers/sevenz/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T13:00:23.550408+00:00"
+  },
+  "Compress_41": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_41_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_41",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.zip.ZipArchiveInputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/zip/RegressionTest.java",
+      "org/apache/commons/compress/archivers/zip/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T13:04:21.337035+00:00"
+  },
+  "Compress_47": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_47_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_47",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.zip.ZipArchiveInputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/zip/RegressionTest.java",
+      "org/apache/commons/compress/archivers/zip/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T13:08:47.475170+00:00"
+  },
+  "Compress_4": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_4_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_4",
+    "classes_tested": [
+      "org.apache.commons.compress.changes.ChangeSetPerformer",
+      "org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream",
+      "org.apache.commons.compress.archivers.tar.TarArchiveOutputStream",
+      "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/changes/RegressionTest.java",
+      "org/apache/commons/compress/changes/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T13:11:26.097967+00:00"
+  },
+  "Compress_43": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_43_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_43",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/zip/RegressionTest.java",
+      "org/apache/commons/compress/archivers/zip/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T13:15:58.125242+00:00"
+  },
+  "Compress_29": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Compress_29_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Compress_29",
+    "classes_tested": [
+      "org.apache.commons.compress.archivers.ArchiveStreamFactory",
+      "org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream",
+      "org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream",
+      "org.apache.commons.compress.archivers.dump.DumpArchiveInputStream",
+      "org.apache.commons.compress.archivers.tar.TarArchiveInputStream",
+      "org.apache.commons.compress.archivers.tar.TarArchiveOutputStream",
+      "org.apache.commons.compress.archivers.zip.ZipArchiveInputStream"
+    ],
+    "generated_tests": [
+      "org/apache/commons/compress/archivers/cpio/RegressionTest.java",
+      "org/apache/commons/compress/archivers/cpio/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-23T13:20:09.228005+00:00"
+  }
+}

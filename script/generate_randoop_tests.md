@@ -85,7 +85,7 @@ Randoop ต้องการ **Bytecode (.class)** ที่คอมไพล�
 | 2 | `BuildClasses/<ProjectName>/` | แคชถาวรในโปรเจกต์ ไม่มีช่องว่าง |
 | 3 | `--data-dir/<ProjectName>1buggy/target/classes` | กำหนดผ่าน `--data-dir` หรือ `D4J_DATA_DIR` |
 | 4 | `~/defect4j/Code/<ProjectName>1buggy/...` | Linux/Mac standard path |
-| 5 | `/tmp/sqa_d4j_work/` | temp จาก checkout ครั้งก่อน |
+| 5 | `BuildClasses/d4j_work/` หรือ `/tmp/sqa_d4j_work/` | checkout ใหม่บนไดรฟ์ของ workspace; ยังอ่านของเดิมใน `/tmp` ได้ |
 | 6 | Auto-compile ด้วย `javac` | คอมไพล์ทันที บันทึกใน `BuildClasses/` |
 | 7 | `defects4j checkout` + `defects4j compile` | Tier สุดท้าย ต้องมี `defects4j` ใน PATH |
 
@@ -114,7 +114,7 @@ python script/generate_randoop_tests.py
    - ค่าเริ่มต้นหลักภายในโปรเจกต์: `Feedback-Directed Random Test Generation/Configuration/randoop-all-4.3.4.jar`
    - ระบุผ่าน CLI พารามิเตอร์: `--randoop-jar PATH`
    - ค่าเริ่มต้นสำรองบน Windows: `C:\randoop\randoop-all-4.3.4.jar`
-2. **Output Staging**: ทุกโปรเจกต์สร้าง Test ในไดเรกทอรีชั่วคราวเฉพาะรอบ (เช่น `/tmp/sqa_randoop/Codec_13-.../`) และคัดลอก `.java` ไป `TestCode/<Project>_buggy/` เฉพาะเมื่อ Randoop สำเร็จและมีไฟล์ Test
+2. **Output Staging**: ทุกโปรเจกต์สร้าง Test ใน `BuildClasses/sqa_randoop/<Project>-.../` บนไดรฟ์ของ workspace แล้วคัดลอก `.java` ไป `TestCode/<Project>_buggy/` เฉพาะเมื่อ Randoop สำเร็จและมีไฟล์ Test หากพาธ workspace มีช่องว่าง จะใช้ temp ของระบบแทน
 3. หลังสร้างไฟล์ Test สำเร็จและบันทึกสถานะแล้ว สคริปต์จะลบ staging ของโปรเจกต์, checkout ชั่วคราว และ `BuildClasses/<Project>/` ที่ใช้คอมไพล์ โดยเก็บไฟล์ Test ใน `TestCode/` ไว้ การรันซ้ำด้วย `--overwrite` อาจต้องคอมไพล์ใหม่
 4. เมื่อกด Ctrl+C ระหว่างสร้าง Test (รวมถึงการยกเลิกผ่าน parallel launcher) สคริปต์จะหยุด Java และลบ staging ของรอบนั้น โดยไม่สร้างโฟลเดอร์ TestCode ของโปรเจกต์ที่ยังไม่สำเร็จ ไฟล์ Test เดิมที่มีอยู่จะยังอยู่ ส่วน BuildClasses/checkout ที่สร้างก่อนเริ่ม Randoop อาจยังคงอยู่เพื่อให้รันต่อได้
 

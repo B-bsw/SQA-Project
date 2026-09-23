@@ -9,6 +9,7 @@ import subprocess
 import sys
 import threading
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime
 from pathlib import Path
 
 
@@ -31,7 +32,19 @@ def prefer_newer(current: dict | None, candidate: dict) -> bool:
     """Keep a later direct-generator result when reconciling legacy and shard state."""
     if current is None:
         return True
-    return str(candidate.get("timestamp", "")) >= str(current.get("timestamp", ""))
+    candidate_stamp = str(candidate.get("timestamp", ""))
+    current_stamp = str(current.get("timestamp", ""))
+    try:
+        candidate_time = datetime.fromisoformat(candidate_stamp.replace("Z", "+00:00"))
+        current_time = datetime.fromisoformat(current_stamp.replace("Z", "+00:00"))
+    except ValueError:
+        return candidate_stamp >= current_stamp
+    candidate_aware = candidate_time.tzinfo is not None
+    current_aware = current_time.tzinfo is not None
+    if candidate_aware != current_aware:
+        # New records include a UTC offset; old local-time records are ambiguous.
+        return candidate_aware
+    return candidate_time >= current_time
 
 
 def seed_group_states(output_dir: Path, groups: list[str]) -> None:
