@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-23T13:58:45Z",
+  "round": 1,
+  "project": "Compress",
+  "bug_id": 7,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 15,
+  "coverage": 98.41,
+  "line_cov": 96.83,
+  "branch_cov": 100,
+  "total_goals": 104,
+  "covered_goals": 102,
+  "lines": 9,
+  "covered_lines": 61,
+  "total_branches": 38,
+  "covered_branches": 38,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.compress.archivers.tar.TarUtils",
+      "generation_result": "PASS",
+      "generation_seconds": 68,
+      "tests": 15,
+      "coverage": 98.41,
+      "line_cov": 96.83,
+      "branch_cov": 100.00,
+      "total_goals": 104,
+      "covered_goals": 102,
+      "lines": 9,
+      "covered_lines": 61,
+      "total_branches": 38,
+      "covered_branches": 38,
+      "total_methods": 8,
+      "covered_methods": 8,
+      "branchless_methods": 3,
+      "covered_branchless_methods": 3
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}
