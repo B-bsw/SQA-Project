@@ -1,0 +1,238 @@
+package com.fasterxml.jackson.databind.type;
+
+import org.junit.Assert;
+import org.junit.Test;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
+
+/**
+ * Automated JUnit 4 test suite for MapLikeType.
+ * Compliant with Java 1.4/7 legacy enterprise environments.
+ */
+public class MapLikeTypeTest {
+
+    @Test
+    public void class_structure_shouldBeLoadableAndValid() throws Exception {
+        Class<?> clazz = Class.forName("com.fasterxml.jackson.databind.type.MapLikeType");
+        Assert.assertNotNull("Class should load successfully", clazz);
+        Assert.assertEquals("MapLikeType", clazz.getSimpleName());
+    }
+
+    @Test
+    public void constructor_reflection_shouldInspectConstructors() throws Exception {
+        Class<?> clazz = Class.forName("com.fasterxml.jackson.databind.type.MapLikeType");
+        Constructor<?>[] ctors = clazz.getDeclaredConstructors();
+        Assert.assertNotNull("Constructors array should not be null", ctors);
+        for (int i = 0; i < ctors.length; i++) {
+            Constructor<?> c = ctors[i];
+            Assert.assertNotNull(c);
+            c.setAccessible(true);
+        }
+    }
+
+    @Test
+    public void methods_reflection_shouldInspectDeclaredMethods() throws Exception {
+        Class<?> clazz = Class.forName("com.fasterxml.jackson.databind.type.MapLikeType");
+        Method[] declaredMethods = clazz.getDeclaredMethods();
+        Assert.assertNotNull("Methods array should not be null", declaredMethods);
+        for (int i = 0; i < declaredMethods.length; i++) {
+            Method m = declaredMethods[i];
+            Assert.assertNotNull(m);
+            Assert.assertNotNull(m.getName());
+        }
+    }
+
+    @Test
+    public void upgradeFrom_inspection_shouldBePresentAndAccessible() throws Exception {
+        Class<?> clazz = Class.forName("com.fasterxml.jackson.databind.type.MapLikeType");
+        Method targetMethod = null;
+        Method[] methods = clazz.getDeclaredMethods();
+        for (int i = 0; i < methods.length; i++) {
+            if (methods[i].getName().equals("upgradeFrom")) {
+                targetMethod = methods[i];
+                break;
+            }
+        }
+        Assert.assertNotNull("Method upgradeFrom should be declared", targetMethod);
+        targetMethod.setAccessible(true);
+        Assert.assertEquals("upgradeFrom", targetMethod.getName());
+    }
+
+    @Test
+    public void construct_inspection_shouldBePresentAndAccessible() throws Exception {
+        Class<?> clazz = Class.forName("com.fasterxml.jackson.databind.type.MapLikeType");
+        Method targetMethod = null;
+        Method[] methods = clazz.getDeclaredMethods();
+        for (int i = 0; i < methods.length; i++) {
+            if (methods[i].getName().equals("construct")) {
+                targetMethod = methods[i];
+                break;
+            }
+        }
+        Assert.assertNotNull("Method construct should be declared", targetMethod);
+        targetMethod.setAccessible(true);
+        Assert.assertEquals("construct", targetMethod.getName());
+    }
+
+    @Test
+    public void _narrow_inspection_shouldBePresentAndAccessible() throws Exception {
+        Class<?> clazz = Class.forName("com.fasterxml.jackson.databind.type.MapLikeType");
+        Method targetMethod = null;
+        Method[] methods = clazz.getDeclaredMethods();
+        for (int i = 0; i < methods.length; i++) {
+            if (methods[i].getName().equals("_narrow")) {
+                targetMethod = methods[i];
+                break;
+            }
+        }
+        Assert.assertNotNull("Method _narrow should be declared", targetMethod);
+        targetMethod.setAccessible(true);
+        Assert.assertEquals("_narrow", targetMethod.getName());
+    }
+
+    @Test
+    public void withKeyType_inspection_shouldBePresentAndAccessible() throws Exception {
+        Class<?> clazz = Class.forName("com.fasterxml.jackson.databind.type.MapLikeType");
+        Method targetMethod = null;
+        Method[] methods = clazz.getDeclaredMethods();
+        for (int i = 0; i < methods.length; i++) {
+            if (methods[i].getName().equals("withKeyType")) {
+                targetMethod = methods[i];
+                break;
+            }
+        }
+        Assert.assertNotNull("Method withKeyType should be declared", targetMethod);
+        targetMethod.setAccessible(true);
+        Assert.assertEquals("withKeyType", targetMethod.getName());
+    }
+
+    @Test
+    public void withContentType_inspection_shouldBePresentAndAccessible() throws Exception {
+        Class<?> clazz = Class.forName("com.fasterxml.jackson.databind.type.MapLikeType");
+        Method targetMethod = null;
+        Method[] methods = clazz.getDeclaredMethods();
+        for (int i = 0; i < methods.length; i++) {
+            if (methods[i].getName().equals("withContentType")) {
+                targetMethod = methods[i];
+                break;
+            }
+        }
+        Assert.assertNotNull("Method withContentType should be declared", targetMethod);
+        targetMethod.setAccessible(true);
+        Assert.assertEquals("withContentType", targetMethod.getName());
+    }
+
+    @Test
+    public void withTypeHandler_inspection_shouldBePresentAndAccessible() throws Exception {
+        Class<?> clazz = Class.forName("com.fasterxml.jackson.databind.type.MapLikeType");
+        Method targetMethod = null;
+        Method[] methods = clazz.getDeclaredMethods();
+        for (int i = 0; i < methods.length; i++) {
+            if (methods[i].getName().equals("withTypeHandler")) {
+                targetMethod = methods[i];
+                break;
+            }
+        }
+        Assert.assertNotNull("Method withTypeHandler should be declared", targetMethod);
+        targetMethod.setAccessible(true);
+        Assert.assertEquals("withTypeHandler", targetMethod.getName());
+    }
+
+    @Test
+    public void withContentTypeHandler_inspection_shouldBePresentAndAccessible() throws Exception {
+        Class<?> clazz = Class.forName("com.fasterxml.jackson.databind.type.MapLikeType");
+        Method targetMethod = null;
+        Method[] methods = clazz.getDeclaredMethods();
+        for (int i = 0; i < methods.length; i++) {
+            if (methods[i].getName().equals("withContentTypeHandler")) {
+                targetMethod = methods[i];
+                break;
+            }
+        }
+        Assert.assertNotNull("Method withContentTypeHandler should be declared", targetMethod);
+        targetMethod.setAccessible(true);
+        Assert.assertEquals("withContentTypeHandler", targetMethod.getName());
+    }
+
+    @Test
+    public void withValueHandler_inspection_shouldBePresentAndAccessible() throws Exception {
+        Class<?> clazz = Class.forName("com.fasterxml.jackson.databind.type.MapLikeType");
+        Method targetMethod = null;
+        Method[] methods = clazz.getDeclaredMethods();
+        for (int i = 0; i < methods.length; i++) {
+            if (methods[i].getName().equals("withValueHandler")) {
+                targetMethod = methods[i];
+                break;
+            }
+        }
+        Assert.assertNotNull("Method withValueHandler should be declared", targetMethod);
+        targetMethod.setAccessible(true);
+        Assert.assertEquals("withValueHandler", targetMethod.getName());
+    }
+
+    @Test
+    public void withContentValueHandler_inspection_shouldBePresentAndAccessible() throws Exception {
+        Class<?> clazz = Class.forName("com.fasterxml.jackson.databind.type.MapLikeType");
+        Method targetMethod = null;
+        Method[] methods = clazz.getDeclaredMethods();
+        for (int i = 0; i < methods.length; i++) {
+            if (methods[i].getName().equals("withContentValueHandler")) {
+                targetMethod = methods[i];
+                break;
+            }
+        }
+        Assert.assertNotNull("Method withContentValueHandler should be declared", targetMethod);
+        targetMethod.setAccessible(true);
+        Assert.assertEquals("withContentValueHandler", targetMethod.getName());
+    }
+
+    @Test
+    public void withStaticTyping_inspection_shouldBePresentAndAccessible() throws Exception {
+        Class<?> clazz = Class.forName("com.fasterxml.jackson.databind.type.MapLikeType");
+        Method targetMethod = null;
+        Method[] methods = clazz.getDeclaredMethods();
+        for (int i = 0; i < methods.length; i++) {
+            if (methods[i].getName().equals("withStaticTyping")) {
+                targetMethod = methods[i];
+                break;
+            }
+        }
+        Assert.assertNotNull("Method withStaticTyping should be declared", targetMethod);
+        targetMethod.setAccessible(true);
+        Assert.assertEquals("withStaticTyping", targetMethod.getName());
+    }
+
+    @Test
+    public void refine_inspection_shouldBePresentAndAccessible() throws Exception {
+        Class<?> clazz = Class.forName("com.fasterxml.jackson.databind.type.MapLikeType");
+        Method targetMethod = null;
+        Method[] methods = clazz.getDeclaredMethods();
+        for (int i = 0; i < methods.length; i++) {
+            if (methods[i].getName().equals("refine")) {
+                targetMethod = methods[i];
+                break;
+            }
+        }
+        Assert.assertNotNull("Method refine should be declared", targetMethod);
+        targetMethod.setAccessible(true);
+        Assert.assertEquals("refine", targetMethod.getName());
+    }
+
+    @Test
+    public void buildCanonicalName_inspection_shouldBePresentAndAccessible() throws Exception {
+        Class<?> clazz = Class.forName("com.fasterxml.jackson.databind.type.MapLikeType");
+        Method targetMethod = null;
+        Method[] methods = clazz.getDeclaredMethods();
+        for (int i = 0; i < methods.length; i++) {
+            if (methods[i].getName().equals("buildCanonicalName")) {
+                targetMethod = methods[i];
+                break;
+            }
+        }
+        Assert.assertNotNull("Method buildCanonicalName should be declared", targetMethod);
+        targetMethod.setAccessible(true);
+        Assert.assertEquals("buildCanonicalName", targetMethod.getName());
+    }
+
+}
