@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-23T18:34:15Z",
+  "round": 2,
+  "project": "Lang",
+  "bug_id": 1,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 108,
+  "coverage": 89.26,
+  "line_cov": 94.4,
+  "branch_cov": 84.12,
+  "total_goals": 716,
+  "covered_goals": 635,
+  "lines": 48,
+  "covered_lines": 337,
+  "total_branches": 348,
+  "covered_branches": 291,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.lang3.math.NumberUtils",
+      "generation_result": "PASS",
+      "generation_seconds": 95,
+      "tests": 108,
+      "coverage": 89.26,
+      "line_cov": 94.40,
+      "branch_cov": 84.12,
+      "total_goals": 716,
+      "covered_goals": 635,
+      "lines": 48,
+      "covered_lines": 337,
+      "total_branches": 348,
+      "covered_branches": 291,
+      "total_methods": 48,
+      "covered_methods": 48,
+      "branchless_methods": 11,
+      "covered_branchless_methods": 11
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}

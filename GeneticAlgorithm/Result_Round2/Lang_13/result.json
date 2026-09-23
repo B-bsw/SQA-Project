@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-23T18:38:31Z",
+  "round": 2,
+  "project": "Lang",
+  "bug_id": 13,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 10,
+  "coverage": 78.65,
+  "line_cov": 78.12,
+  "branch_cov": 79.17,
+  "total_goals": 88,
+  "covered_goals": 62,
+  "lines": 8,
+  "covered_lines": 50,
+  "total_branches": 20,
+  "covered_branches": 15,
+  "buggy_result": "FAIL",
+  "buggy_fails": 1,
+  "fixed_result": "FAIL",
+  "fixed_fails": 1,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.lang3.SerializationUtils",
+      "generation_result": "PASS",
+      "generation_seconds": 69,
+      "tests": 10,
+      "coverage": 78.65,
+      "line_cov": 78.12,
+      "branch_cov": 79.17,
+      "total_goals": 88,
+      "covered_goals": 62,
+      "lines": 8,
+      "covered_lines": 50,
+      "total_branches": 20,
+      "covered_branches": 15,
+      "total_methods": 8,
+      "covered_methods": 8,
+      "branchless_methods": 4,
+      "covered_branchless_methods": 4
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "FAIL",
+      "failures": 1
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 1
+    }
+  ]
+}
