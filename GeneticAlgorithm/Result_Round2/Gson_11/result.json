@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-23T15:50:21Z",
+  "round": 2,
+  "project": "Gson",
+  "bug_id": 11,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 16,
+  "coverage": 25.16,
+  "line_cov": 23.47,
+  "branch_cov": 26.86,
+  "total_goals": 675,
+  "covered_goals": 162,
+  "lines": 80,
+  "covered_lines": 92,
+  "total_branches": 218,
+  "covered_branches": 57,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "com.google.gson.internal.bind.TypeAdapters",
+      "generation_result": "PASS",
+      "generation_seconds": 81,
+      "tests": 16,
+      "coverage": 25.16,
+      "line_cov": 23.47,
+      "branch_cov": 26.86,
+      "total_goals": 675,
+      "covered_goals": 162,
+      "lines": 80,
+      "covered_lines": 92,
+      "total_branches": 218,
+      "covered_branches": 57,
+      "total_methods": 116,
+      "covered_methods": 36,
+      "branchless_methods": 65,
+      "covered_branchless_methods": 19
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}

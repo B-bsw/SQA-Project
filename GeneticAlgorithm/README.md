@@ -76,9 +76,9 @@ generated `.java` files
 | Closure         | closure-compiler       |                   174 | 1-62,64-92,94-176        | 63,93                   | check      |        |
 | Codec           | commons-codec          |                    18 | 1-18                     | None                    | check      |        |
 | Collections     | commons-collections    |                    28 | 1-28                     | None                    | check      |        |
-| Compress        | commons-compress       |                    47 | 1-47                     | None                    |            |        |
-| Csv             | commons-csv            |                    16 | 1-16                     | None                    |            |        |
-| Gson            | gson                   |                    18 | 1-18                     | None                    |            |        |
+| Compress        | commons-compress       |                    47 | 1-47                     | None                    | check      |        |
+| Csv             | commons-csv            |                    16 | 1-16                     | None                    | check      |        |
+| Gson            | gson                   |                    18 | 1-18                     | None                    | check      |        |
 | JacksonCore     | jackson-core           |                    26 | 1-26                     | None                    |            |        |
 | JacksonDatabind | jackson-databind       |                   110 | 1-64,66-88,90-112        | 65,89                   |            |        |
 | JacksonXml      | jackson-dataformat-xml |                     6 | 1-6                      | None                    |            |        |

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-23T15:43:00Z",
+  "round": 1,
+  "project": "Gson",
+  "bug_id": 13,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 34,
+  "coverage": 39.52,
+  "line_cov": 40.71,
+  "branch_cov": 38.34,
+  "total_goals": 1351,
+  "covered_goals": 520,
+  "lines": 39,
+  "covered_lines": 276,
+  "total_branches": 666,
+  "covered_branches": 252,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "com.google.gson.stream.JsonReader",
+      "generation_result": "PASS",
+      "generation_seconds": 78,
+      "tests": 34,
+      "coverage": 39.52,
+      "line_cov": 40.71,
+      "branch_cov": 38.34,
+      "total_goals": 1351,
+      "covered_goals": 520,
+      "lines": 39,
+      "covered_lines": 276,
+      "total_branches": 666,
+      "covered_branches": 252,
+      "total_methods": 40,
+      "covered_methods": 31,
+      "branchless_methods": 7,
+      "covered_branchless_methods": 6
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}
