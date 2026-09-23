@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-23T12:25:52Z",
+  "round": 1,
+  "project": "Collections",
+  "bug_id": 14,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 6,
+  "coverage": 72.22,
+  "line_cov": 66.67,
+  "branch_cov": 77.78,
+  "total_goals": 27,
+  "covered_goals": 19,
+  "lines": 8,
+  "covered_lines": 12,
+  "total_branches": 2,
+  "covered_branches": 2,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.collections.map.CaseInsensitiveMap",
+      "generation_result": "PASS",
+      "generation_seconds": 66,
+      "tests": 6,
+      "coverage": 72.22,
+      "line_cov": 66.67,
+      "branch_cov": 77.78,
+      "total_goals": 27,
+      "covered_goals": 19,
+      "lines": 8,
+      "covered_lines": 12,
+      "total_branches": 2,
+      "covered_branches": 2,
+      "total_methods": 8,
+      "covered_methods": 6,
+      "branchless_methods": 7,
+      "covered_branchless_methods": 5
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}
