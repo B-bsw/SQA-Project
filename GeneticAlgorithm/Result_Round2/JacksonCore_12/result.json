@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-23T16:27:38Z",
+  "round": 2,
+  "project": "JacksonCore",
+  "bug_id": 12,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 120,
+  "coverage": 23.25,
+  "line_cov": 25.67,
+  "branch_cov": 21.37,
+  "total_goals": 5861,
+  "covered_goals": 1317,
+  "lines": 172,
+  "covered_lines": 794,
+  "total_branches": 2652,
+  "covered_branches": 539,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "com.fasterxml.jackson.core.json.ReaderBasedJsonParser",
+      "generation_result": "PASS",
+      "generation_seconds": 97,
+      "tests": 69,
+      "coverage": 27.98,
+      "line_cov": 30.76,
+      "branch_cov": 26.27,
+      "total_goals": 2590,
+      "covered_goals": 729,
+      "lines": 73,
+      "covered_lines": 421,
+      "total_branches": 1208,
+      "covered_branches": 311,
+      "total_methods": 73,
+      "covered_methods": 56,
+      "branchless_methods": 10,
+      "covered_branchless_methods": 9
+    },
+    {
+      "target_class": "com.fasterxml.jackson.core.json.UTF8StreamJsonParser",
+      "generation_result": "PASS",
+      "generation_seconds": 127,
+      "tests": 51,
+      "coverage": 18.52,
+      "line_cov": 20.57,
+      "branch_cov": 16.46,
+      "total_goals": 3271,
+      "covered_goals": 588,
+      "lines": 99,
+      "covered_lines": 373,
+      "total_branches": 1444,
+      "covered_branches": 228,
+      "total_methods": 99,
+      "covered_methods": 60,
+      "branchless_methods": 14,
+      "covered_branchless_methods": 12
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}

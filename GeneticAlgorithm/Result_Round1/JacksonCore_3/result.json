@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-23T15:58:30Z",
+  "round": 1,
+  "project": "JacksonCore",
+  "bug_id": 3,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 57,
+  "coverage": 20.52,
+  "line_cov": 22.02,
+  "branch_cov": 19.03,
+  "total_goals": 2791,
+  "covered_goals": 558,
+  "lines": 82,
+  "covered_lines": 338,
+  "total_branches": 1244,
+  "covered_branches": 229,
+  "buggy_result": "FAIL",
+  "buggy_fails": 3,
+  "fixed_result": "FAIL",
+  "fixed_fails": 3,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "com.fasterxml.jackson.core.json.UTF8StreamJsonParser",
+      "generation_result": "PASS",
+      "generation_seconds": 115,
+      "tests": 57,
+      "coverage": 20.52,
+      "line_cov": 22.02,
+      "branch_cov": 19.03,
+      "total_goals": 2791,
+      "covered_goals": 558,
+      "lines": 82,
+      "covered_lines": 338,
+      "total_branches": 1244,
+      "covered_branches": 229,
+      "total_methods": 82,
+      "covered_methods": 53,
+      "branchless_methods": 12,
+      "covered_branchless_methods": 10
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "FAIL",
+      "failures": 3
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 3
+    }
+  ]
+}

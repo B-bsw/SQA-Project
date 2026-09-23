@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-23T16:24:25Z",
+  "round": 2,
+  "project": "JacksonCore",
+  "bug_id": 11,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 36,
+  "coverage": 60.55,
+  "line_cov": 75.64,
+  "branch_cov": 45.45,
+  "total_goals": 765,
+  "covered_goals": 488,
+  "lines": 48,
+  "covered_lines": 354,
+  "total_branches": 282,
+  "covered_branches": 120,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "FAIL",
+  "fixed_fails": 2,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer",
+      "generation_result": "PASS",
+      "generation_seconds": 79,
+      "tests": 36,
+      "coverage": 60.55,
+      "line_cov": 75.64,
+      "branch_cov": 45.45,
+      "total_goals": 765,
+      "covered_goals": 488,
+      "lines": 48,
+      "covered_lines": 354,
+      "total_branches": 282,
+      "covered_branches": 120,
+      "total_methods": 46,
+      "covered_methods": 43,
+      "branchless_methods": 15,
+      "covered_branchless_methods": 15
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 2
+    }
+  ]
+}

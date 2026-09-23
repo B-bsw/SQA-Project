@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-23T16:24:57Z",
+  "round": 2,
+  "project": "JacksonCore",
+  "bug_id": 1,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 45,
+  "coverage": 93.02,
+  "line_cov": 94.97,
+  "branch_cov": 91.07,
+  "total_goals": 645,
+  "covered_goals": 602,
+  "lines": 45,
+  "covered_lines": 377,
+  "total_branches": 238,
+  "covered_branches": 216,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "FAIL",
+  "fixed_fails": 2,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "com.fasterxml.jackson.core.io.NumberInput",
+      "generation_result": "PASS",
+      "generation_seconds": 79,
+      "tests": 45,
+      "coverage": 90.10,
+      "line_cov": 93.43,
+      "branch_cov": 86.78,
+      "total_goals": 258,
+      "covered_goals": 232,
+      "lines": 14,
+      "covered_lines": 128,
+      "total_branches": 116,
+      "covered_branches": 100,
+      "total_methods": 14,
+      "covered_methods": 14,
+      "branchless_methods": 5,
+      "covered_branchless_methods": 5
+    },
+    {
+      "target_class": "com.fasterxml.jackson.core.util.TextBuffer",
+      "generation_result": "FAIL",
+      "generation_seconds": 482,
+      "tests": 0,
+      "coverage": 95.93,
+      "line_cov": 96.51,
+      "branch_cov": 95.35,
+      "total_goals": 387,
+      "covered_goals": 370,
+      "lines": 31,
+      "covered_lines": 249,
+      "total_branches": 122,
+      "covered_branches": 116,
+      "total_methods": 31,
+      "covered_methods": 31,
+      "branchless_methods": 7,
+      "covered_branchless_methods": 7
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 2
+    }
+  ]
+}
