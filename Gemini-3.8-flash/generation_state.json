@@ -11416,9 +11416,11 @@
   "Jsoup_17/org/jsoup/parser/TreeBuilderState.java": {
     "project": "Jsoup_17",
     "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_17/org/jsoup/parser/TreeBuilderState.java",
-    "status": "FAILED",
-    "error": "Gateway TTFT Timeout",
-    "updated_at": "2026-09-23T02:18:54.445967"
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_17_buggy/TreeBuilderStateTest.java",
+    "file_size_bytes": 70328,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:21:08.423305"
   },
   "Jsoup_35/org/jsoup/parser/HtmlTreeBuilderState.java": {
     "project": "Jsoup_35",
@@ -11444,9 +11446,11 @@
   "Jsoup_38/org/jsoup/parser/HtmlTreeBuilderState.java": {
     "project": "Jsoup_38",
     "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_38/org/jsoup/parser/HtmlTreeBuilderState.java",
-    "status": "FAILED",
-    "error": "Gateway TTFT Timeout",
-    "updated_at": "2026-09-23T02:24:34.746193"
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_38_buggy/HtmlTreeBuilderStateTest.java",
+    "file_size_bytes": 75528,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:21:08.423568"
   },
   "Jsoup_56/org/jsoup/parser/HtmlTreeBuilderState.java": {
     "project": "Jsoup_56",
@@ -11479,29 +11483,3419 @@
   "Jsoup_64/org/jsoup/parser/HtmlTreeBuilderState.java": {
     "project": "Jsoup_64",
     "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_64/org/jsoup/parser/HtmlTreeBuilderState.java",
-    "status": "FAILED",
-    "error": "คีย์ API ทั้งหมดในระบบโควต้าหมดแล้ว หรือไม่สามารถเชื่อมต่อได้",
-    "updated_at": "2026-09-23T02:28:33.307586"
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_64_buggy/HtmlTreeBuilderStateTest.java",
+    "file_size_bytes": 51673,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:21:08.423973"
   },
   "JacksonDatabind_111/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java": {
     "project": "JacksonDatabind_111",
     "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_111/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java",
     "status": "FAILED",
-    "error": "คีย์ API ทั้งหมดในระบบโควต้าหมดแล้ว หรือไม่สามารถเชื่อมต่อได้",
+    "error": "\u0e04\u0e35\u0e22\u0e4c API \u0e17\u0e31\u0e49\u0e07\u0e2b\u0e21\u0e14\u0e43\u0e19\u0e23\u0e30\u0e1a\u0e1a\u0e42\u0e04\u0e27\u0e15\u0e49\u0e32\u0e2b\u0e21\u0e14\u0e41\u0e25\u0e49\u0e27 \u0e2b\u0e23\u0e37\u0e2d\u0e44\u0e21\u0e48\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16\u0e40\u0e0a\u0e37\u0e48\u0e2d\u0e21\u0e15\u0e48\u0e2d\u0e44\u0e14\u0e49",
     "updated_at": "2026-09-23T02:28:41.805960"
   },
   "Math_82/org/apache/commons/math/optimization/linear/SimplexSolver.java": {
     "project": "Math_82",
     "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_82/org/apache/commons/math/optimization/linear/SimplexSolver.java",
-    "status": "FAILED",
-    "error": "คีย์ API ทั้งหมดในระบบโควต้าหมดแล้ว หรือไม่สามารถเชื่อมต่อได้",
-    "updated_at": "2026-09-23T02:28:50.302765"
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_82_buggy/SimplexSolverTest.java",
+    "file_size_bytes": 4538,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.998199"
   },
   "Closure_44/com/google/javascript/jscomp/CodeConsumer.java": {
     "project": "Closure_44",
     "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_44/com/google/javascript/jscomp/CodeConsumer.java",
-    "status": "FAILED",
-    "error": "คีย์ API ทั้งหมดในระบบโควต้าหมดแล้ว หรือไม่สามารถเชื่อมต่อได้",
-    "updated_at": "2026-09-23T02:28:58.837945"
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_44_buggy/CodeConsumerTest.java",
+    "file_size_bytes": 8990,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.390634"
+  },
+  "Jsoup_4/org/jsoup/nodes/Entities.java": {
+    "project": "Jsoup_4",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_4/org/jsoup/nodes/Entities.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_4_buggy/EntitiesTest.java",
+    "file_size_bytes": 3859,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:21:08.422563"
+  },
+  "Jsoup_6/org/jsoup/nodes/Entities.java": {
+    "project": "Jsoup_6",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_6/org/jsoup/nodes/Entities.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_6_buggy/EntitiesTest.java",
+    "file_size_bytes": 3859,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:21:08.422805"
+  },
+  "Jsoup_9/org/jsoup/nodes/Entities.java": {
+    "project": "Jsoup_9",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_9/org/jsoup/nodes/Entities.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_9_buggy/EntitiesTest.java",
+    "file_size_bytes": 3859,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:21:08.422949"
+  },
+  "Jsoup_76/org/jsoup/parser/HtmlTreeBuilderState.java": {
+    "project": "Jsoup_76",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Jsoup_76/org/jsoup/parser/HtmlTreeBuilderState.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Jsoup_76_buggy/HtmlTreeBuilderStateTest.java",
+    "file_size_bytes": 51673,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:21:08.424210"
+  },
+  "Closure_2/com/google/javascript/jscomp/TypeCheck.java": {
+    "project": "Closure_2",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_2/com/google/javascript/jscomp/TypeCheck.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_2_buggy/TypeCheckTest.java",
+    "file_size_bytes": 22409,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.368294"
+  },
+  "Closure_3/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java": {
+    "project": "Closure_3",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_3/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_3_buggy/FlowSensitiveInlineVariablesTest.java",
+    "file_size_bytes": 9873,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.368479"
+  },
+  "Closure_4/com/google/javascript/rhino/jstype/NamedType.java": {
+    "project": "Closure_4",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_4/com/google/javascript/rhino/jstype/NamedType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_4_buggy/NamedTypeTest.java",
+    "file_size_bytes": 11643,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.368711"
+  },
+  "Closure_5/com/google/javascript/jscomp/InlineObjectLiterals.java": {
+    "project": "Closure_5",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_5/com/google/javascript/jscomp/InlineObjectLiterals.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_5_buggy/InlineObjectLiteralsTest.java",
+    "file_size_bytes": 12544,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.368916"
+  },
+  "Closure_6/com/google/javascript/jscomp/TypeValidator.java": {
+    "project": "Closure_6",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_6/com/google/javascript/jscomp/TypeValidator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_6_buggy/TypeValidatorTest.java",
+    "file_size_bytes": 11410,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.369218"
+  },
+  "Closure_7/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java": {
+    "project": "Closure_7",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_7/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_7_buggy/ChainableReverseAbstractInterpreterTest.java",
+    "file_size_bytes": 26075,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.370096"
+  },
+  "Closure_9/com/google/javascript/jscomp/ProcessCommonJSModules.java": {
+    "project": "Closure_9",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_9/com/google/javascript/jscomp/ProcessCommonJSModules.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_9_buggy/ProcessCommonJSModulesTest.java",
+    "file_size_bytes": 7097,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.370458"
+  },
+  "Closure_14/com/google/javascript/jscomp/ControlFlowAnalysis.java": {
+    "project": "Closure_14",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_14/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_14_buggy/ControlFlowAnalysisTest.java",
+    "file_size_bytes": 6330,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.371657"
+  },
+  "Closure_15/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java": {
+    "project": "Closure_15",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_15/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_15_buggy/FlowSensitiveInlineVariablesTest.java",
+    "file_size_bytes": 7091,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.372091"
+  },
+  "Closure_16/com/google/javascript/jscomp/ScopedAliases.java": {
+    "project": "Closure_16",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_16/com/google/javascript/jscomp/ScopedAliases.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_16_buggy/ScopedAliasesTest.java",
+    "file_size_bytes": 11032,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.372422"
+  },
+  "Closure_17/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_17",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_17/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_17_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 14798,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.372734"
+  },
+  "Closure_18/com/google/javascript/jscomp/Compiler.java": {
+    "project": "Closure_18",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_18/com/google/javascript/jscomp/Compiler.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_18_buggy/CompilerTest.java",
+    "file_size_bytes": 12942,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.373054"
+  },
+  "Closure_19/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java": {
+    "project": "Closure_19",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_19/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_19_buggy/ChainableReverseAbstractInterpreterTest.java",
+    "file_size_bytes": 10606,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.373396"
+  },
+  "Closure_20/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java": {
+    "project": "Closure_20",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_20/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_20_buggy/PeepholeSubstituteAlternateSyntaxTest.java",
+    "file_size_bytes": 6178,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.373692"
+  },
+  "Closure_21/com/google/javascript/jscomp/CheckSideEffects.java": {
+    "project": "Closure_21",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_21/com/google/javascript/jscomp/CheckSideEffects.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_21_buggy/CheckSideEffectsTest.java",
+    "file_size_bytes": 6011,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.373994"
+  },
+  "Closure_22/com/google/javascript/jscomp/CheckSideEffects.java": {
+    "project": "Closure_22",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_22/com/google/javascript/jscomp/CheckSideEffects.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_22_buggy/CheckSideEffectsTest.java",
+    "file_size_bytes": 6637,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.374252"
+  },
+  "Closure_23/com/google/javascript/jscomp/PeepholeFoldConstants.java": {
+    "project": "Closure_23",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_23/com/google/javascript/jscomp/PeepholeFoldConstants.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_23_buggy/PeepholeFoldConstantsTest.java",
+    "file_size_bytes": 22878,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.374546"
+  },
+  "Closure_24/com/google/javascript/jscomp/ScopedAliases.java": {
+    "project": "Closure_24",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_24/com/google/javascript/jscomp/ScopedAliases.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_24_buggy/ScopedAliasesTest.java",
+    "file_size_bytes": 8497,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.374847"
+  },
+  "Closure_25/com/google/javascript/jscomp/TypeInference.java": {
+    "project": "Closure_25",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_25/com/google/javascript/jscomp/TypeInference.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_25_buggy/TypeInferenceTest.java",
+    "file_size_bytes": 16335,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.375157"
+  },
+  "Closure_26/com/google/javascript/jscomp/ProcessCommonJSModules.java": {
+    "project": "Closure_26",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_26/com/google/javascript/jscomp/ProcessCommonJSModules.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_26_buggy/ProcessCommonJSModulesTest.java",
+    "file_size_bytes": 7502,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.375427"
+  },
+  "Closure_27/com/google/javascript/rhino/IR.java": {
+    "project": "Closure_27",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_27/com/google/javascript/rhino/IR.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_27_buggy/IRTest.java",
+    "file_size_bytes": 19019,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.375843"
+  },
+  "Closure_29/com/google/javascript/jscomp/InlineObjectLiterals.java": {
+    "project": "Closure_29",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_29/com/google/javascript/jscomp/InlineObjectLiterals.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_29_buggy/InlineObjectLiteralsTest.java",
+    "file_size_bytes": 7081,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.376159"
+  },
+  "Closure_30/com/google/javascript/jscomp/MustBeReachingVariableDef.java": {
+    "project": "Closure_30",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_30/com/google/javascript/jscomp/MustBeReachingVariableDef.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_30_buggy/MustBeReachingVariableDefTest.java",
+    "file_size_bytes": 12874,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.376463"
+  },
+  "Closure_30/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java": {
+    "project": "Closure_30",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_30/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_30_buggy/FlowSensitiveInlineVariablesTest.java",
+    "file_size_bytes": 7711,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.376697"
+  },
+  "Closure_31/com/google/javascript/jscomp/Compiler.java": {
+    "project": "Closure_31",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_31/com/google/javascript/jscomp/Compiler.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_31_buggy/CompilerTest.java",
+    "file_size_bytes": 10533,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.377215"
+  },
+  "Closure_32/com/google/javascript/jscomp/parsing/JsDocInfoParser.java": {
+    "project": "Closure_32",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_32/com/google/javascript/jscomp/parsing/JsDocInfoParser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_32_buggy/JsDocInfoParserTest.java",
+    "file_size_bytes": 9066,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.377541"
+  },
+  "Closure_33/com/google/javascript/rhino/jstype/PrototypeObjectType.java": {
+    "project": "Closure_33",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_33/com/google/javascript/rhino/jstype/PrototypeObjectType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_33_buggy/PrototypeObjectTypeTest.java",
+    "file_size_bytes": 7331,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.378647"
+  },
+  "Closure_34/com/google/javascript/jscomp/CodeGenerator.java": {
+    "project": "Closure_34",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_34/com/google/javascript/jscomp/CodeGenerator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_34_buggy/CodeGeneratorTest.java",
+    "file_size_bytes": 3548,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.379100"
+  },
+  "Closure_34/com/google/javascript/jscomp/CodePrinter.java": {
+    "project": "Closure_34",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_34/com/google/javascript/jscomp/CodePrinter.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_34_buggy/CodePrinterTest.java",
+    "file_size_bytes": 7750,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.379392"
+  },
+  "Closure_35/com/google/javascript/jscomp/TypeInference.java": {
+    "project": "Closure_35",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_35/com/google/javascript/jscomp/TypeInference.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_35_buggy/TypeInferenceTest.java",
+    "file_size_bytes": 6256,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.379850"
+  },
+  "Closure_36/com/google/javascript/jscomp/InlineVariables.java": {
+    "project": "Closure_36",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_36/com/google/javascript/jscomp/InlineVariables.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_36_buggy/InlineVariablesTest.java",
+    "file_size_bytes": 16059,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.380207"
+  },
+  "Closure_37/com/google/javascript/jscomp/parsing/IRFactory.java": {
+    "project": "Closure_37",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_37/com/google/javascript/jscomp/parsing/IRFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_37_buggy/IRFactoryTest.java",
+    "file_size_bytes": 22148,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.380559"
+  },
+  "Closure_37/com/google/javascript/jscomp/NodeTraversal.java": {
+    "project": "Closure_37",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_37/com/google/javascript/jscomp/NodeTraversal.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_37_buggy/NodeTraversalTest.java",
+    "file_size_bytes": 15838,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.380853"
+  },
+  "Closure_38/com/google/javascript/jscomp/CodeConsumer.java": {
+    "project": "Closure_38",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_38/com/google/javascript/jscomp/CodeConsumer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_38_buggy/CodeConsumerTest.java",
+    "file_size_bytes": 5185,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.381192"
+  },
+  "Closure_39/com/google/javascript/rhino/jstype/PrototypeObjectType.java": {
+    "project": "Closure_39",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_39/com/google/javascript/rhino/jstype/PrototypeObjectType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_39_buggy/PrototypeObjectTypeTest.java",
+    "file_size_bytes": 13690,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.381516"
+  },
+  "Closure_40/com/google/javascript/jscomp/NameAnalyzer.java": {
+    "project": "Closure_40",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_40/com/google/javascript/jscomp/NameAnalyzer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_40_buggy/NameAnalyzerTest.java",
+    "file_size_bytes": 10630,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.381822"
+  },
+  "Closure_41/com/google/javascript/jscomp/FunctionTypeBuilder.java": {
+    "project": "Closure_41",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_41/com/google/javascript/jscomp/FunctionTypeBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_41_buggy/FunctionTypeBuilderTest.java",
+    "file_size_bytes": 5747,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.383464"
+  },
+  "Closure_42/com/google/javascript/jscomp/parsing/IRFactory.java": {
+    "project": "Closure_42",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_42/com/google/javascript/jscomp/parsing/IRFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_42_buggy/IRFactoryTest.java",
+    "file_size_bytes": 16919,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.384154"
+  },
+  "Closure_43/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_43",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_43/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_43_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 9090,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.387103"
+  },
+  "Closure_45/com/google/javascript/jscomp/RemoveUnusedVars.java": {
+    "project": "Closure_45",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_45/com/google/javascript/jscomp/RemoveUnusedVars.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_45_buggy/RemoveUnusedVarsTest.java",
+    "file_size_bytes": 6591,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.391238"
+  },
+  "Closure_46/com/google/javascript/rhino/jstype/RecordType.java": {
+    "project": "Closure_46",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_46/com/google/javascript/rhino/jstype/RecordType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_46_buggy/RecordTypeTest.java",
+    "file_size_bytes": 11978,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.391760"
+  },
+  "Closure_48/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_48",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_48/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_48_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 10823,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.392273"
+  },
+  "Closure_49/com/google/javascript/jscomp/MakeDeclaredNamesUnique.java": {
+    "project": "Closure_49",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_49/com/google/javascript/jscomp/MakeDeclaredNamesUnique.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_49_buggy/MakeDeclaredNamesUniqueTest.java",
+    "file_size_bytes": 6239,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.392734"
+  },
+  "Closure_50/com/google/javascript/jscomp/PeepholeReplaceKnownMethods.java": {
+    "project": "Closure_50",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_50/com/google/javascript/jscomp/PeepholeReplaceKnownMethods.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_50_buggy/PeepholeReplaceKnownMethodsTest.java",
+    "file_size_bytes": 15066,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.394410"
+  },
+  "Closure_52/com/google/javascript/jscomp/CodeGenerator.java": {
+    "project": "Closure_52",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_52/com/google/javascript/jscomp/CodeGenerator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_52_buggy/CodeGeneratorTest.java",
+    "file_size_bytes": 16157,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.395054"
+  },
+  "Closure_53/com/google/javascript/jscomp/InlineObjectLiterals.java": {
+    "project": "Closure_53",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_53/com/google/javascript/jscomp/InlineObjectLiterals.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_53_buggy/InlineObjectLiteralsTest.java",
+    "file_size_bytes": 12636,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.396996"
+  },
+  "Closure_54/com/google/javascript/rhino/jstype/FunctionType.java": {
+    "project": "Closure_54",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_54/com/google/javascript/rhino/jstype/FunctionType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_54_buggy/FunctionTypeTest.java",
+    "file_size_bytes": 12738,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.397634"
+  },
+  "Closure_54/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_54",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_54/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_54_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 19001,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.398093"
+  },
+  "Closure_55/com/google/javascript/jscomp/FunctionRewriter.java": {
+    "project": "Closure_55",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_55/com/google/javascript/jscomp/FunctionRewriter.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_55_buggy/FunctionRewriterTest.java",
+    "file_size_bytes": 12815,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.401416"
+  },
+  "Closure_56/com/google/javascript/jscomp/SourceFile.java": {
+    "project": "Closure_56",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_56/com/google/javascript/jscomp/SourceFile.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_56_buggy/SourceFileTest.java",
+    "file_size_bytes": 11802,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.402044"
+  },
+  "Closure_57/com/google/javascript/jscomp/ClosureCodingConvention.java": {
+    "project": "Closure_57",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_57/com/google/javascript/jscomp/ClosureCodingConvention.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_57_buggy/ClosureCodingConventionTest.java",
+    "file_size_bytes": 13083,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.402570"
+  },
+  "Closure_58/com/google/javascript/jscomp/LiveVariablesAnalysis.java": {
+    "project": "Closure_58",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_58/com/google/javascript/jscomp/LiveVariablesAnalysis.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_58_buggy/LiveVariablesAnalysisTest.java",
+    "file_size_bytes": 31467,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.403270"
+  },
+  "Closure_59/com/google/javascript/jscomp/Compiler.java": {
+    "project": "Closure_59",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_59/com/google/javascript/jscomp/Compiler.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_59_buggy/CompilerTest.java",
+    "file_size_bytes": 14784,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.403875"
+  },
+  "Closure_60/com/google/javascript/jscomp/NodeUtil.java": {
+    "project": "Closure_60",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_60/com/google/javascript/jscomp/NodeUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_60_buggy/NodeUtilTest.java",
+    "file_size_bytes": 16575,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.404384"
+  },
+  "Closure_61/com/google/javascript/jscomp/NodeUtil.java": {
+    "project": "Closure_61",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_61/com/google/javascript/jscomp/NodeUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_61_buggy/NodeUtilTest.java",
+    "file_size_bytes": 15990,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.406015"
+  },
+  "Closure_64/com/google/javascript/jscomp/Compiler.java": {
+    "project": "Closure_64",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_64/com/google/javascript/jscomp/Compiler.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_64_buggy/CompilerTest.java",
+    "file_size_bytes": 4475,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.406649"
+  },
+  "Closure_65/com/google/javascript/jscomp/CodeGenerator.java": {
+    "project": "Closure_65",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_65/com/google/javascript/jscomp/CodeGenerator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_65_buggy/CodeGeneratorTest.java",
+    "file_size_bytes": 34006,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.407311"
+  },
+  "Closure_66/com/google/javascript/jscomp/TypeCheck.java": {
+    "project": "Closure_66",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_66/com/google/javascript/jscomp/TypeCheck.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_66_buggy/TypeCheckTest.java",
+    "file_size_bytes": 7579,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.407678"
+  },
+  "Closure_67/com/google/javascript/jscomp/AnalyzePrototypeProperties.java": {
+    "project": "Closure_67",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_67/com/google/javascript/jscomp/AnalyzePrototypeProperties.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_67_buggy/AnalyzePrototypePropertiesTest.java",
+    "file_size_bytes": 17659,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.407990"
+  },
+  "Closure_68/com/google/javascript/jscomp/parsing/JsDocInfoParser.java": {
+    "project": "Closure_68",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_68/com/google/javascript/jscomp/parsing/JsDocInfoParser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_68_buggy/JsDocInfoParserTest.java",
+    "file_size_bytes": 9467,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.408283"
+  },
+  "Closure_69/com/google/javascript/jscomp/TypeCheck.java": {
+    "project": "Closure_69",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_69/com/google/javascript/jscomp/TypeCheck.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_69_buggy/TypeCheckTest.java",
+    "file_size_bytes": 10538,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.408569"
+  },
+  "Closure_70/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_70",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_70/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_70_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 12846,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.408848"
+  },
+  "Closure_71/com/google/javascript/jscomp/CheckAccessControls.java": {
+    "project": "Closure_71",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_71/com/google/javascript/jscomp/CheckAccessControls.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_71_buggy/CheckAccessControlsTest.java",
+    "file_size_bytes": 6889,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.409106"
+  },
+  "Closure_72/com/google/javascript/jscomp/RenameLabels.java": {
+    "project": "Closure_72",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_72/com/google/javascript/jscomp/RenameLabels.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_72_buggy/RenameLabelsTest.java",
+    "file_size_bytes": 13782,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.409395"
+  },
+  "Closure_72/com/google/javascript/jscomp/FunctionToBlockMutator.java": {
+    "project": "Closure_72",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_72/com/google/javascript/jscomp/FunctionToBlockMutator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_72_buggy/FunctionToBlockMutatorTest.java",
+    "file_size_bytes": 8398,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.409578"
+  },
+  "Closure_73/com/google/javascript/jscomp/CodeGenerator.java": {
+    "project": "Closure_73",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_73/com/google/javascript/jscomp/CodeGenerator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_73_buggy/CodeGeneratorTest.java",
+    "file_size_bytes": 12947,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.410292"
+  },
+  "Closure_74/com/google/javascript/jscomp/PeepholeFoldConstants.java": {
+    "project": "Closure_74",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_74/com/google/javascript/jscomp/PeepholeFoldConstants.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_74_buggy/PeepholeFoldConstantsTest.java",
+    "file_size_bytes": 11456,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.410627"
+  },
+  "Closure_75/com/google/javascript/jscomp/NodeUtil.java": {
+    "project": "Closure_75",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_75/com/google/javascript/jscomp/NodeUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_75_buggy/NodeUtilTest.java",
+    "file_size_bytes": 13131,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.410896"
+  },
+  "Closure_76/com/google/javascript/jscomp/DeadAssignmentsElimination.java": {
+    "project": "Closure_76",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_76/com/google/javascript/jscomp/DeadAssignmentsElimination.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_76_buggy/DeadAssignmentsEliminationTest.java",
+    "file_size_bytes": 10858,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.411444"
+  },
+  "Closure_77/com/google/javascript/jscomp/CodeGenerator.java": {
+    "project": "Closure_77",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_77/com/google/javascript/jscomp/CodeGenerator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_77_buggy/CodeGeneratorTest.java",
+    "file_size_bytes": 14878,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.411754"
+  },
+  "Closure_78/com/google/javascript/jscomp/PeepholeFoldConstants.java": {
+    "project": "Closure_78",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_78/com/google/javascript/jscomp/PeepholeFoldConstants.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_78_buggy/PeepholeFoldConstantsTest.java",
+    "file_size_bytes": 22640,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.412073"
+  },
+  "Closure_79/com/google/javascript/jscomp/VarCheck.java": {
+    "project": "Closure_79",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_79/com/google/javascript/jscomp/VarCheck.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_79_buggy/VarCheckTest.java",
+    "file_size_bytes": 13067,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.412436"
+  },
+  "Closure_79/com/google/javascript/jscomp/Normalize.java": {
+    "project": "Closure_79",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_79/com/google/javascript/jscomp/Normalize.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_79_buggy/NormalizeTest.java",
+    "file_size_bytes": 14303,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.412648"
+  },
+  "Closure_80/com/google/javascript/jscomp/NodeUtil.java": {
+    "project": "Closure_80",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_80/com/google/javascript/jscomp/NodeUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_80_buggy/NodeUtilTest.java",
+    "file_size_bytes": 11596,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.412899"
+  },
+  "Closure_81/com/google/javascript/jscomp/parsing/IRFactory.java": {
+    "project": "Closure_81",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_81/com/google/javascript/jscomp/parsing/IRFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_81_buggy/IRFactoryTest.java",
+    "file_size_bytes": 6036,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.413191"
+  },
+  "Closure_82/com/google/javascript/rhino/jstype/JSType.java": {
+    "project": "Closure_82",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_82/com/google/javascript/rhino/jstype/JSType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_82_buggy/JSTypeTest.java",
+    "file_size_bytes": 36512,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.413491"
+  },
+  "Closure_83/com/google/javascript/jscomp/CommandLineRunner.java": {
+    "project": "Closure_83",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_83/com/google/javascript/jscomp/CommandLineRunner.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_83_buggy/CommandLineRunnerTest.java",
+    "file_size_bytes": 11967,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.413745"
+  },
+  "Closure_84/com/google/javascript/jscomp/parsing/IRFactory.java": {
+    "project": "Closure_84",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_84/com/google/javascript/jscomp/parsing/IRFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_84_buggy/IRFactoryTest.java",
+    "file_size_bytes": 2289,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.413976"
+  },
+  "Closure_85/com/google/javascript/jscomp/UnreachableCodeElimination.java": {
+    "project": "Closure_85",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_85/com/google/javascript/jscomp/UnreachableCodeElimination.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_85_buggy/UnreachableCodeEliminationTest.java",
+    "file_size_bytes": 7720,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.414216"
+  },
+  "Closure_86/com/google/javascript/jscomp/NodeUtil.java": {
+    "project": "Closure_86",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_86/com/google/javascript/jscomp/NodeUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_86_buggy/NodeUtilTest.java",
+    "file_size_bytes": 49182,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.414522"
+  },
+  "Closure_87/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java": {
+    "project": "Closure_87",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_87/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_87_buggy/PeepholeSubstituteAlternateSyntaxTest.java",
+    "file_size_bytes": 4959,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.414771"
+  },
+  "Closure_88/com/google/javascript/jscomp/DeadAssignmentsElimination.java": {
+    "project": "Closure_88",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_88/com/google/javascript/jscomp/DeadAssignmentsElimination.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_88_buggy/DeadAssignmentsEliminationTest.java",
+    "file_size_bytes": 7185,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.414957"
+  },
+  "Closure_89/com/google/javascript/jscomp/GlobalNamespace.java": {
+    "project": "Closure_89",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_89/com/google/javascript/jscomp/GlobalNamespace.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_89_buggy/GlobalNamespaceTest.java",
+    "file_size_bytes": 13799,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.415171"
+  },
+  "Closure_89/com/google/javascript/jscomp/CollapseProperties.java": {
+    "project": "Closure_89",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_89/com/google/javascript/jscomp/CollapseProperties.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_89_buggy/CollapsePropertiesTest.java",
+    "file_size_bytes": 7583,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.415318"
+  },
+  "Closure_90/com/google/javascript/jscomp/FunctionTypeBuilder.java": {
+    "project": "Closure_90",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_90/com/google/javascript/jscomp/FunctionTypeBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_90_buggy/FunctionTypeBuilderTest.java",
+    "file_size_bytes": 6994,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.415499"
+  },
+  "Closure_90/com/google/javascript/rhino/jstype/FunctionType.java": {
+    "project": "Closure_90",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_90/com/google/javascript/rhino/jstype/FunctionType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_90_buggy/FunctionTypeTest.java",
+    "file_size_bytes": 9940,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.415665"
+  },
+  "Closure_92/com/google/javascript/jscomp/ProcessClosurePrimitives.java": {
+    "project": "Closure_92",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_92/com/google/javascript/jscomp/ProcessClosurePrimitives.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_92_buggy/ProcessClosurePrimitivesTest.java",
+    "file_size_bytes": 17631,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.415876"
+  },
+  "Closure_94/com/google/javascript/jscomp/NodeUtil.java": {
+    "project": "Closure_94",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_94/com/google/javascript/jscomp/NodeUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_94_buggy/NodeUtilTest.java",
+    "file_size_bytes": 47196,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.416083"
+  },
+  "Closure_95/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_95",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_95/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_95_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 8960,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.416275"
+  },
+  "Closure_96/com/google/javascript/jscomp/TypeCheck.java": {
+    "project": "Closure_96",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_96/com/google/javascript/jscomp/TypeCheck.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_96_buggy/TypeCheckTest.java",
+    "file_size_bytes": 8380,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.416441"
+  },
+  "Closure_97/com/google/javascript/jscomp/PeepholeFoldConstants.java": {
+    "project": "Closure_97",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_97/com/google/javascript/jscomp/PeepholeFoldConstants.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_97_buggy/PeepholeFoldConstantsTest.java",
+    "file_size_bytes": 12289,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.416620"
+  },
+  "Closure_98/com/google/javascript/jscomp/ReferenceCollectingCallback.java": {
+    "project": "Closure_98",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_98/com/google/javascript/jscomp/ReferenceCollectingCallback.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_98_buggy/ReferenceCollectingCallbackTest.java",
+    "file_size_bytes": 13734,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.416804"
+  },
+  "Closure_124/com/google/javascript/jscomp/ExploitAssigns.java": {
+    "project": "Closure_124",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_124/com/google/javascript/jscomp/ExploitAssigns.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_124_buggy/ExploitAssignsTest.java",
+    "file_size_bytes": 13474,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.417069"
+  },
+  "Closure_125/com/google/javascript/jscomp/TypeCheck.java": {
+    "project": "Closure_125",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_125/com/google/javascript/jscomp/TypeCheck.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_125_buggy/TypeCheckTest.java",
+    "file_size_bytes": 6114,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.417370"
+  },
+  "Closure_126/com/google/javascript/jscomp/MinimizeExitPoints.java": {
+    "project": "Closure_126",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_126/com/google/javascript/jscomp/MinimizeExitPoints.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_126_buggy/MinimizeExitPointsTest.java",
+    "file_size_bytes": 6439,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.417633"
+  },
+  "Closure_127/com/google/javascript/jscomp/UnreachableCodeElimination.java": {
+    "project": "Closure_127",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_127/com/google/javascript/jscomp/UnreachableCodeElimination.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_127_buggy/UnreachableCodeEliminationTest.java",
+    "file_size_bytes": 5791,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.417877"
+  },
+  "Closure_128/com/google/javascript/jscomp/CodeGenerator.java": {
+    "project": "Closure_128",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_128/com/google/javascript/jscomp/CodeGenerator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_128_buggy/CodeGeneratorTest.java",
+    "file_size_bytes": 19183,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.418177"
+  },
+  "Closure_130/com/google/javascript/jscomp/CollapseProperties.java": {
+    "project": "Closure_130",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_130/com/google/javascript/jscomp/CollapseProperties.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_130_buggy/CollapsePropertiesTest.java",
+    "file_size_bytes": 12120,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.418460"
+  },
+  "Closure_131/com/google/javascript/rhino/TokenStream.java": {
+    "project": "Closure_131",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_131/com/google/javascript/rhino/TokenStream.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_131_buggy/TokenStreamTest.java",
+    "file_size_bytes": 9792,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.418742"
+  },
+  "Closure_132/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java": {
+    "project": "Closure_132",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_132/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_132_buggy/PeepholeSubstituteAlternateSyntaxTest.java",
+    "file_size_bytes": 21286,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.419084"
+  },
+  "Closure_133/com/google/javascript/jscomp/parsing/JsDocInfoParser.java": {
+    "project": "Closure_133",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_133/com/google/javascript/jscomp/parsing/JsDocInfoParser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_133_buggy/JsDocInfoParserTest.java",
+    "file_size_bytes": 6468,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.419413"
+  },
+  "Closure_134/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_134",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_134/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_134_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 6443,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.419688"
+  },
+  "Closure_134/com/google/javascript/jscomp/AmbiguateProperties.java": {
+    "project": "Closure_134",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_134/com/google/javascript/jscomp/AmbiguateProperties.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_134_buggy/AmbiguatePropertiesTest.java",
+    "file_size_bytes": 10796,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.419906"
+  },
+  "Closure_135/com/google/javascript/rhino/jstype/FunctionType.java": {
+    "project": "Closure_135",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_135/com/google/javascript/rhino/jstype/FunctionType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_135_buggy/FunctionTypeTest.java",
+    "file_size_bytes": 10707,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.420225"
+  },
+  "Closure_135/com/google/javascript/jscomp/DevirtualizePrototypeMethods.java": {
+    "project": "Closure_135",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_135/com/google/javascript/jscomp/DevirtualizePrototypeMethods.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_135_buggy/DevirtualizePrototypeMethodsTest.java",
+    "file_size_bytes": 8774,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.420604"
+  },
+  "Closure_136/com/google/javascript/jscomp/MethodCompilerPass.java": {
+    "project": "Closure_136",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_136/com/google/javascript/jscomp/MethodCompilerPass.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_136_buggy/MethodCompilerPassTest.java",
+    "file_size_bytes": 20020,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.420939"
+  },
+  "Closure_136/com/google/javascript/jscomp/RenameVars.java": {
+    "project": "Closure_136",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_136/com/google/javascript/jscomp/RenameVars.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_136_buggy/RenameVarsTest.java",
+    "file_size_bytes": 11914,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.421195"
+  },
+  "Closure_137/com/google/javascript/jscomp/NodeUtil.java": {
+    "project": "Closure_137",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_137/com/google/javascript/jscomp/NodeUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_137_buggy/NodeUtilTest.java",
+    "file_size_bytes": 14247,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.421520"
+  },
+  "Closure_137/com/google/javascript/jscomp/MakeDeclaredNamesUnique.java": {
+    "project": "Closure_137",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_137/com/google/javascript/jscomp/MakeDeclaredNamesUnique.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_137_buggy/MakeDeclaredNamesUniqueTest.java",
+    "file_size_bytes": 6784,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.421744"
+  },
+  "Closure_137/com/google/javascript/jscomp/Normalize.java": {
+    "project": "Closure_137",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_137/com/google/javascript/jscomp/Normalize.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_137_buggy/NormalizeTest.java",
+    "file_size_bytes": 7235,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.421963"
+  },
+  "Closure_138/com/google/javascript/jscomp/ClosureReverseAbstractInterpreter.java": {
+    "project": "Closure_138",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_138/com/google/javascript/jscomp/ClosureReverseAbstractInterpreter.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_138_buggy/ClosureReverseAbstractInterpreterTest.java",
+    "file_size_bytes": 12666,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.422298"
+  },
+  "Closure_138/com/google/javascript/jscomp/TypeInference.java": {
+    "project": "Closure_138",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_138/com/google/javascript/jscomp/TypeInference.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_138_buggy/TypeInferenceTest.java",
+    "file_size_bytes": 11209,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.422538"
+  },
+  "Closure_139/com/google/javascript/jscomp/Normalize.java": {
+    "project": "Closure_139",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_139/com/google/javascript/jscomp/Normalize.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_139_buggy/NormalizeTest.java",
+    "file_size_bytes": 8162,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.422849"
+  },
+  "Closure_140/com/google/javascript/jscomp/Compiler.java": {
+    "project": "Closure_140",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_140/com/google/javascript/jscomp/Compiler.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_140_buggy/CompilerTest.java",
+    "file_size_bytes": 10617,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.423150"
+  },
+  "Closure_141/com/google/javascript/jscomp/NodeUtil.java": {
+    "project": "Closure_141",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_141/com/google/javascript/jscomp/NodeUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_141_buggy/NodeUtilTest.java",
+    "file_size_bytes": 23210,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.423457"
+  },
+  "Closure_141/com/google/javascript/jscomp/PureFunctionIdentifier.java": {
+    "project": "Closure_141",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_141/com/google/javascript/jscomp/PureFunctionIdentifier.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_141_buggy/PureFunctionIdentifierTest.java",
+    "file_size_bytes": 9313,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.423719"
+  },
+  "Closure_142/com/google/javascript/jscomp/CoalesceVariableNames.java": {
+    "project": "Closure_142",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_142/com/google/javascript/jscomp/CoalesceVariableNames.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_142_buggy/CoalesceVariableNamesTest.java",
+    "file_size_bytes": 6228,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.424022"
+  },
+  "Closure_142/com/google/javascript/jscomp/parsing/JsDocInfoParser.java": {
+    "project": "Closure_142",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_142/com/google/javascript/jscomp/parsing/JsDocInfoParser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_142_buggy/JsDocInfoParserTest.java",
+    "file_size_bytes": 9305,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.424266"
+  },
+  "Closure_145/com/google/javascript/jscomp/CodeGenerator.java": {
+    "project": "Closure_145",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_145/com/google/javascript/jscomp/CodeGenerator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_145_buggy/CodeGeneratorTest.java",
+    "file_size_bytes": 20475,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.424588"
+  },
+  "Closure_146/com/google/javascript/rhino/jstype/JSType.java": {
+    "project": "Closure_146",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_146/com/google/javascript/rhino/jstype/JSType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_146_buggy/JSTypeTest.java",
+    "file_size_bytes": 14279,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.424926"
+  },
+  "Closure_148/com/google/javascript/jscomp/SourceMap.java": {
+    "project": "Closure_148",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_148/com/google/javascript/jscomp/SourceMap.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_148_buggy/SourceMapTest.java",
+    "file_size_bytes": 5794,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.425233"
+  },
+  "Closure_148/com/google/javascript/jscomp/PeepholeFoldConstants.java": {
+    "project": "Closure_148",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_148/com/google/javascript/jscomp/PeepholeFoldConstants.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_148_buggy/PeepholeFoldConstantsTest.java",
+    "file_size_bytes": 6282,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.425473"
+  },
+  "Closure_149/com/google/javascript/jscomp/Compiler.java": {
+    "project": "Closure_149",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_149/com/google/javascript/jscomp/Compiler.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_149_buggy/CompilerTest.java",
+    "file_size_bytes": 8076,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.425831"
+  },
+  "Closure_149/com/google/javascript/jscomp/CompilerOptions.java": {
+    "project": "Closure_149",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_149/com/google/javascript/jscomp/CompilerOptions.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_149_buggy/CompilerOptionsTest.java",
+    "file_size_bytes": 7900,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.426135"
+  },
+  "Closure_149/com/google/javascript/jscomp/CommandLineRunner.java": {
+    "project": "Closure_149",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_149/com/google/javascript/jscomp/CommandLineRunner.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_149_buggy/CommandLineRunnerTest.java",
+    "file_size_bytes": 8495,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.426402"
+  },
+  "Closure_149/com/google/javascript/jscomp/AbstractCommandLineRunner.java": {
+    "project": "Closure_149",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_149/com/google/javascript/jscomp/AbstractCommandLineRunner.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_149_buggy/AbstractCommandLineRunnerTest.java",
+    "file_size_bytes": 12411,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.426697"
+  },
+  "Closure_150/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_150",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_150/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_150_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 34130,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.427142"
+  },
+  "Closure_151/com/google/javascript/jscomp/CommandLineRunner.java": {
+    "project": "Closure_151",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_151/com/google/javascript/jscomp/CommandLineRunner.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_151_buggy/CommandLineRunnerTest.java",
+    "file_size_bytes": 15548,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.427600"
+  },
+  "Closure_152/com/google/javascript/rhino/jstype/FunctionType.java": {
+    "project": "Closure_152",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_152/com/google/javascript/rhino/jstype/FunctionType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_152_buggy/FunctionTypeTest.java",
+    "file_size_bytes": 9137,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.427920"
+  },
+  "Closure_153/com/google/javascript/jscomp/Normalize.java": {
+    "project": "Closure_153",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_153/com/google/javascript/jscomp/Normalize.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_153_buggy/NormalizeTest.java",
+    "file_size_bytes": 19160,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.428211"
+  },
+  "Closure_153/com/google/javascript/jscomp/SyntacticScopeCreator.java": {
+    "project": "Closure_153",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_153/com/google/javascript/jscomp/SyntacticScopeCreator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_153_buggy/SyntacticScopeCreatorTest.java",
+    "file_size_bytes": 6278,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.428419"
+  },
+  "Closure_154/com/google/javascript/jscomp/TypeCheck.java": {
+    "project": "Closure_154",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_154/com/google/javascript/jscomp/TypeCheck.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_154_buggy/TypeCheckTest.java",
+    "file_size_bytes": 9156,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.428681"
+  },
+  "Closure_154/com/google/javascript/jscomp/TypeValidator.java": {
+    "project": "Closure_154",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_154/com/google/javascript/jscomp/TypeValidator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_154_buggy/TypeValidatorTest.java",
+    "file_size_bytes": 18516,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.428908"
+  },
+  "Closure_155/com/google/javascript/jscomp/Scope.java": {
+    "project": "Closure_155",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_155/com/google/javascript/jscomp/Scope.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_155_buggy/ScopeTest.java",
+    "file_size_bytes": 16237,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.429209"
+  },
+  "Closure_155/com/google/javascript/jscomp/ReferenceCollectingCallback.java": {
+    "project": "Closure_155",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_155/com/google/javascript/jscomp/ReferenceCollectingCallback.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_155_buggy/ReferenceCollectingCallbackTest.java",
+    "file_size_bytes": 17207,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.429439"
+  },
+  "Closure_155/com/google/javascript/jscomp/InlineVariables.java": {
+    "project": "Closure_155",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_155/com/google/javascript/jscomp/InlineVariables.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_155_buggy/InlineVariablesTest.java",
+    "file_size_bytes": 11567,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.429655"
+  },
+  "Closure_156/com/google/javascript/jscomp/CollapseProperties.java": {
+    "project": "Closure_156",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_156/com/google/javascript/jscomp/CollapseProperties.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_156_buggy/CollapsePropertiesTest.java",
+    "file_size_bytes": 8117,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.429932"
+  },
+  "Closure_157/com/google/javascript/jscomp/RenamePrototypes.java": {
+    "project": "Closure_157",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_157/com/google/javascript/jscomp/RenamePrototypes.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_157_buggy/RenamePrototypesTest.java",
+    "file_size_bytes": 8289,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.430218"
+  },
+  "Closure_157/com/google/javascript/jscomp/parsing/IRFactory.java": {
+    "project": "Closure_157",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_157/com/google/javascript/jscomp/parsing/IRFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_157_buggy/IRFactoryTest.java",
+    "file_size_bytes": 13485,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.430453"
+  },
+  "Closure_157/com/google/javascript/jscomp/CodeGenerator.java": {
+    "project": "Closure_157",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_157/com/google/javascript/jscomp/CodeGenerator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_157_buggy/CodeGeneratorTest.java",
+    "file_size_bytes": 23837,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.430722"
+  },
+  "Closure_158/com/google/javascript/jscomp/CommandLineRunner.java": {
+    "project": "Closure_158",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_158/com/google/javascript/jscomp/CommandLineRunner.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_158_buggy/CommandLineRunnerTest.java",
+    "file_size_bytes": 10817,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.431068"
+  },
+  "Closure_158/com/google/javascript/jscomp/AbstractCommandLineRunner.java": {
+    "project": "Closure_158",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_158/com/google/javascript/jscomp/AbstractCommandLineRunner.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_158_buggy/AbstractCommandLineRunnerTest.java",
+    "file_size_bytes": 7765,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.432408"
+  },
+  "Closure_158/com/google/javascript/jscomp/DiagnosticGroups.java": {
+    "project": "Closure_158",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_158/com/google/javascript/jscomp/DiagnosticGroups.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_158_buggy/DiagnosticGroupsTest.java",
+    "file_size_bytes": 5254,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.432832"
+  },
+  "Closure_159/com/google/javascript/jscomp/InlineFunctions.java": {
+    "project": "Closure_159",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_159/com/google/javascript/jscomp/InlineFunctions.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_159_buggy/InlineFunctionsTest.java",
+    "file_size_bytes": 12885,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.433199"
+  },
+  "Closure_160/com/google/javascript/jscomp/Compiler.java": {
+    "project": "Closure_160",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_160/com/google/javascript/jscomp/Compiler.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_160_buggy/CompilerTest.java",
+    "file_size_bytes": 10736,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.433642"
+  },
+  "Closure_161/com/google/javascript/jscomp/PeepholeFoldConstants.java": {
+    "project": "Closure_161",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_161/com/google/javascript/jscomp/PeepholeFoldConstants.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_161_buggy/PeepholeFoldConstantsTest.java",
+    "file_size_bytes": 26226,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.435487"
+  },
+  "Closure_162/com/google/javascript/jscomp/Scope.java": {
+    "project": "Closure_162",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_162/com/google/javascript/jscomp/Scope.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_162_buggy/ScopeTest.java",
+    "file_size_bytes": 9443,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.436919"
+  },
+  "Closure_162/com/google/javascript/jscomp/ScopedAliases.java": {
+    "project": "Closure_162",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_162/com/google/javascript/jscomp/ScopedAliases.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_162_buggy/ScopedAliasesTest.java",
+    "file_size_bytes": 7815,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.437393"
+  },
+  "Closure_163/com/google/javascript/jscomp/CrossModuleMethodMotion.java": {
+    "project": "Closure_163",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_163/com/google/javascript/jscomp/CrossModuleMethodMotion.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_163_buggy/CrossModuleMethodMotionTest.java",
+    "file_size_bytes": 10400,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.440921"
+  },
+  "Closure_163/com/google/javascript/jscomp/AnalyzePrototypeProperties.java": {
+    "project": "Closure_163",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_163/com/google/javascript/jscomp/AnalyzePrototypeProperties.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_163_buggy/AnalyzePrototypePropertiesTest.java",
+    "file_size_bytes": 18848,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.441391"
+  },
+  "Closure_164/com/google/javascript/rhino/jstype/ArrowType.java": {
+    "project": "Closure_164",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_164/com/google/javascript/rhino/jstype/ArrowType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_164_buggy/ArrowTypeTest.java",
+    "file_size_bytes": 9586,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.441889"
+  },
+  "Closure_166/com/google/javascript/rhino/jstype/PrototypeObjectType.java": {
+    "project": "Closure_166",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_166/com/google/javascript/rhino/jstype/PrototypeObjectType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_166_buggy/PrototypeObjectTypeTest.java",
+    "file_size_bytes": 12537,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.442327"
+  },
+  "Closure_167/com/google/javascript/rhino/jstype/JSType.java": {
+    "project": "Closure_167",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_167/com/google/javascript/rhino/jstype/JSType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_167_buggy/JSTypeTest.java",
+    "file_size_bytes": 16212,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.442788"
+  },
+  "Closure_167/com/google/javascript/jscomp/type/SemanticReverseAbstractInterpreter.java": {
+    "project": "Closure_167",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_167/com/google/javascript/jscomp/type/SemanticReverseAbstractInterpreter.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_167_buggy/SemanticReverseAbstractInterpreterTest.java",
+    "file_size_bytes": 9440,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.443163"
+  },
+  "Closure_168/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_168",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_168/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_168_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 14188,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.443633"
+  },
+  "Closure_169/com/google/javascript/rhino/jstype/JSType.java": {
+    "project": "Closure_169",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_169/com/google/javascript/rhino/jstype/JSType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_169_buggy/JSTypeTest.java",
+    "file_size_bytes": 19196,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.446567"
+  },
+  "Closure_169/com/google/javascript/rhino/jstype/RecordType.java": {
+    "project": "Closure_169",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_169/com/google/javascript/rhino/jstype/RecordType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_169_buggy/RecordTypeTest.java",
+    "file_size_bytes": 14824,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.447067"
+  },
+  "Closure_169/com/google/javascript/rhino/jstype/ArrowType.java": {
+    "project": "Closure_169",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_169/com/google/javascript/rhino/jstype/ArrowType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_169_buggy/ArrowTypeTest.java",
+    "file_size_bytes": 8565,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.447484"
+  },
+  "Closure_169/com/google/javascript/rhino/jstype/UnionType.java": {
+    "project": "Closure_169",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_169/com/google/javascript/rhino/jstype/UnionType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_169_buggy/UnionTypeTest.java",
+    "file_size_bytes": 20120,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.447916"
+  },
+  "Closure_170/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java": {
+    "project": "Closure_170",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_170/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_170_buggy/FlowSensitiveInlineVariablesTest.java",
+    "file_size_bytes": 9164,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.448683"
+  },
+  "Closure_171/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_171",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_171/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_171_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 9327,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.451813"
+  },
+  "Closure_171/com/google/javascript/jscomp/TypeInference.java": {
+    "project": "Closure_171",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_171/com/google/javascript/jscomp/TypeInference.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_171_buggy/TypeInferenceTest.java",
+    "file_size_bytes": 7760,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.452294"
+  },
+  "Closure_172/com/google/javascript/jscomp/TypedScopeCreator.java": {
+    "project": "Closure_172",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_172/com/google/javascript/jscomp/TypedScopeCreator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_172_buggy/TypedScopeCreatorTest.java",
+    "file_size_bytes": 16597,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.452815"
+  },
+  "Closure_173/com/google/javascript/jscomp/CodeGenerator.java": {
+    "project": "Closure_173",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_173/com/google/javascript/jscomp/CodeGenerator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_173_buggy/CodeGeneratorTest.java",
+    "file_size_bytes": 21227,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.453289"
+  },
+  "Closure_173/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java": {
+    "project": "Closure_173",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Closure_173/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Closure_173_buggy/PeepholeSubstituteAlternateSyntaxTest.java",
+    "file_size_bytes": 8940,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:05.453675"
+  },
+  "JacksonDatabind_5/com/fasterxml/jackson/databind/introspect/AnnotatedClass.java": {
+    "project": "JacksonDatabind_5",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_5/com/fasterxml/jackson/databind/introspect/AnnotatedClass.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_5_buggy/AnnotatedClassTest.java",
+    "file_size_bytes": 10216,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.903419"
+  },
+  "JacksonDatabind_6/com/fasterxml/jackson/databind/util/StdDateFormat.java": {
+    "project": "JacksonDatabind_6",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_6/com/fasterxml/jackson/databind/util/StdDateFormat.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_6_buggy/StdDateFormatTest.java",
+    "file_size_bytes": 8746,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.903962"
+  },
+  "JacksonDatabind_7/com/fasterxml/jackson/databind/util/TokenBuffer.java": {
+    "project": "JacksonDatabind_7",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_7/com/fasterxml/jackson/databind/util/TokenBuffer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_7_buggy/TokenBufferTest.java",
+    "file_size_bytes": 5630,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.905153"
+  },
+  "JacksonDatabind_8/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java": {
+    "project": "JacksonDatabind_8",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_8/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_8_buggy/CreatorCollectorTest.java",
+    "file_size_bytes": 9018,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.905516"
+  },
+  "JacksonDatabind_11/com/fasterxml/jackson/databind/type/TypeFactory.java": {
+    "project": "JacksonDatabind_11",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_11/com/fasterxml/jackson/databind/type/TypeFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_11_buggy/TypeFactoryTest.java",
+    "file_size_bytes": 8738,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.905949"
+  },
+  "JacksonDatabind_12/com/fasterxml/jackson/databind/deser/std/MapDeserializer.java": {
+    "project": "JacksonDatabind_12",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_12/com/fasterxml/jackson/databind/deser/std/MapDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_12_buggy/MapDeserializerTest.java",
+    "file_size_bytes": 9559,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.906418"
+  },
+  "JacksonDatabind_14/com/fasterxml/jackson/databind/ObjectReader.java": {
+    "project": "JacksonDatabind_14",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_14/com/fasterxml/jackson/databind/ObjectReader.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_14_buggy/ObjectReaderTest.java",
+    "file_size_bytes": 7124,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.907076"
+  },
+  "JacksonDatabind_15/com/fasterxml/jackson/databind/JavaType.java": {
+    "project": "JacksonDatabind_15",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_15/com/fasterxml/jackson/databind/JavaType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_15_buggy/JavaTypeTest.java",
+    "file_size_bytes": 9772,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.907409"
+  },
+  "JacksonDatabind_15/com/fasterxml/jackson/databind/ser/BeanSerializerFactory.java": {
+    "project": "JacksonDatabind_15",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_15/com/fasterxml/jackson/databind/ser/BeanSerializerFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_15_buggy/BeanSerializerFactoryTest.java",
+    "file_size_bytes": 9966,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.907822"
+  },
+  "JacksonDatabind_15/com/fasterxml/jackson/databind/ser/std/StdSerializer.java": {
+    "project": "JacksonDatabind_15",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_15/com/fasterxml/jackson/databind/ser/std/StdSerializer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_15_buggy/StdSerializerTest.java",
+    "file_size_bytes": 8189,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.908055"
+  },
+  "JacksonDatabind_15/com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.java": {
+    "project": "JacksonDatabind_15",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_15/com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_15_buggy/BeanSerializerBaseTest.java",
+    "file_size_bytes": 9652,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.908315"
+  },
+  "JacksonDatabind_15/com/fasterxml/jackson/databind/ser/std/StdDelegatingSerializer.java": {
+    "project": "JacksonDatabind_15",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_15/com/fasterxml/jackson/databind/ser/std/StdDelegatingSerializer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_15_buggy/StdDelegatingSerializerTest.java",
+    "file_size_bytes": 8872,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.908503"
+  },
+  "JacksonDatabind_17/com/fasterxml/jackson/databind/ObjectMapper.java": {
+    "project": "JacksonDatabind_17",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_17/com/fasterxml/jackson/databind/ObjectMapper.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_17_buggy/ObjectMapperTest.java",
+    "file_size_bytes": 9282,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.909246"
+  },
+  "JacksonDatabind_18/com/fasterxml/jackson/databind/MappingIterator.java": {
+    "project": "JacksonDatabind_18",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_18/com/fasterxml/jackson/databind/MappingIterator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_18_buggy/MappingIteratorTest.java",
+    "file_size_bytes": 8484,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.909536"
+  },
+  "JacksonDatabind_19/com/fasterxml/jackson/databind/type/TypeFactory.java": {
+    "project": "JacksonDatabind_19",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_19/com/fasterxml/jackson/databind/type/TypeFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_19_buggy/TypeFactoryTest.java",
+    "file_size_bytes": 8738,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.909890"
+  },
+  "JacksonDatabind_20/com/fasterxml/jackson/databind/node/ObjectNode.java": {
+    "project": "JacksonDatabind_20",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_20/com/fasterxml/jackson/databind/node/ObjectNode.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_20_buggy/ObjectNodeTest.java",
+    "file_size_bytes": 8374,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.910185"
+  },
+  "JacksonDatabind_21/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java": {
+    "project": "JacksonDatabind_21",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_21/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_21_buggy/JacksonAnnotationIntrospectorTest.java",
+    "file_size_bytes": 9186,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.910522"
+  },
+  "JacksonDatabind_22/com/fasterxml/jackson/databind/ser/BeanSerializerFactory.java": {
+    "project": "JacksonDatabind_22",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_22/com/fasterxml/jackson/databind/ser/BeanSerializerFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_22_buggy/BeanSerializerFactoryTest.java",
+    "file_size_bytes": 9966,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.910843"
+  },
+  "JacksonDatabind_22/com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java": {
+    "project": "JacksonDatabind_22",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_22/com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_22_buggy/BasicSerializerFactoryTest.java",
+    "file_size_bytes": 10744,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.911155"
+  },
+  "JacksonDatabind_23/com/fasterxml/jackson/databind/ser/std/NumberSerializers.java": {
+    "project": "JacksonDatabind_23",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_23/com/fasterxml/jackson/databind/ser/std/NumberSerializers.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_23_buggy/NumberSerializersTest.java",
+    "file_size_bytes": 5996,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.911449"
+  },
+  "JacksonDatabind_24/com/fasterxml/jackson/databind/cfg/BaseSettings.java": {
+    "project": "JacksonDatabind_24",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_24/com/fasterxml/jackson/databind/cfg/BaseSettings.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_24_buggy/BaseSettingsTest.java",
+    "file_size_bytes": 10448,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.911722"
+  },
+  "JacksonDatabind_26/com/fasterxml/jackson/databind/ser/BeanPropertyWriter.java": {
+    "project": "JacksonDatabind_26",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_26/com/fasterxml/jackson/databind/ser/BeanPropertyWriter.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_26_buggy/BeanPropertyWriterTest.java",
+    "file_size_bytes": 3885,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.912162"
+  },
+  "JacksonDatabind_27/com/fasterxml/jackson/databind/deser/BeanDeserializer.java": {
+    "project": "JacksonDatabind_27",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_27/com/fasterxml/jackson/databind/deser/BeanDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_27_buggy/BeanDeserializerTest.java",
+    "file_size_bytes": 15562,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.912607"
+  },
+  "JacksonDatabind_28/com/fasterxml/jackson/databind/deser/std/JsonNodeDeserializer.java": {
+    "project": "JacksonDatabind_28",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_28/com/fasterxml/jackson/databind/deser/std/JsonNodeDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_28_buggy/JsonNodeDeserializerTest.java",
+    "file_size_bytes": 7496,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.913043"
+  },
+  "JacksonDatabind_29/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java": {
+    "project": "JacksonDatabind_29",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_29/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_29_buggy/ExternalTypeHandlerTest.java",
+    "file_size_bytes": 9610,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.913356"
+  },
+  "JacksonDatabind_30/com/fasterxml/jackson/databind/ObjectMapper.java": {
+    "project": "JacksonDatabind_30",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_30/com/fasterxml/jackson/databind/ObjectMapper.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_30_buggy/ObjectMapperTest.java",
+    "file_size_bytes": 7938,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.914250"
+  },
+  "JacksonDatabind_30/com/fasterxml/jackson/databind/util/TokenBuffer.java": {
+    "project": "JacksonDatabind_30",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_30/com/fasterxml/jackson/databind/util/TokenBuffer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_30_buggy/TokenBufferTest.java",
+    "file_size_bytes": 5630,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.914746"
+  },
+  "JacksonDatabind_31/com/fasterxml/jackson/databind/util/TokenBuffer.java": {
+    "project": "JacksonDatabind_31",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_31/com/fasterxml/jackson/databind/util/TokenBuffer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_31_buggy/TokenBufferTest.java",
+    "file_size_bytes": 5630,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.915253"
+  },
+  "JacksonDatabind_32/com/fasterxml/jackson/databind/deser/std/UntypedObjectDeserializer.java": {
+    "project": "JacksonDatabind_32",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_32/com/fasterxml/jackson/databind/deser/std/UntypedObjectDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_32_buggy/UntypedObjectDeserializerTest.java",
+    "file_size_bytes": 9653,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.915625"
+  },
+  "JacksonDatabind_33/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java": {
+    "project": "JacksonDatabind_33",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_33/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_33_buggy/JacksonAnnotationIntrospectorTest.java",
+    "file_size_bytes": 9142,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.916001"
+  },
+  "JacksonDatabind_36/com/fasterxml/jackson/databind/util/StdDateFormat.java": {
+    "project": "JacksonDatabind_36",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_36/com/fasterxml/jackson/databind/util/StdDateFormat.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_36_buggy/StdDateFormatTest.java",
+    "file_size_bytes": 8626,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.916418"
+  },
+  "JacksonDatabind_37/com/fasterxml/jackson/databind/type/SimpleType.java": {
+    "project": "JacksonDatabind_37",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_37/com/fasterxml/jackson/databind/type/SimpleType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_37_buggy/SimpleTypeTest.java",
+    "file_size_bytes": 10116,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.916669"
+  },
+  "JacksonDatabind_40/com/fasterxml/jackson/databind/deser/std/NumberDeserializers.java": {
+    "project": "JacksonDatabind_40",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_40/com/fasterxml/jackson/databind/deser/std/NumberDeserializers.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_40_buggy/NumberDeserializersTest.java",
+    "file_size_bytes": 5289,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.917088"
+  },
+  "JacksonDatabind_41/com/fasterxml/jackson/databind/type/TypeFactory.java": {
+    "project": "JacksonDatabind_41",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_41/com/fasterxml/jackson/databind/type/TypeFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_41_buggy/TypeFactoryTest.java",
+    "file_size_bytes": 9360,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.917488"
+  },
+  "JacksonDatabind_42/com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java": {
+    "project": "JacksonDatabind_42",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_42/com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_42_buggy/FromStringDeserializerTest.java",
+    "file_size_bytes": 6120,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.917755"
+  },
+  "JacksonDatabind_44/com/fasterxml/jackson/databind/type/SimpleType.java": {
+    "project": "JacksonDatabind_44",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_44/com/fasterxml/jackson/databind/type/SimpleType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_44_buggy/SimpleTypeTest.java",
+    "file_size_bytes": 10116,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.917989"
+  },
+  "JacksonDatabind_47/com/fasterxml/jackson/databind/AnnotationIntrospector.java": {
+    "project": "JacksonDatabind_47",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_47/com/fasterxml/jackson/databind/AnnotationIntrospector.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_47_buggy/AnnotationIntrospectorTest.java",
+    "file_size_bytes": 9388,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.918367"
+  },
+  "JacksonDatabind_48/com/fasterxml/jackson/databind/SerializationConfig.java": {
+    "project": "JacksonDatabind_48",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_48/com/fasterxml/jackson/databind/SerializationConfig.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_48_buggy/SerializationConfigTest.java",
+    "file_size_bytes": 5339,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.918720"
+  },
+  "JacksonDatabind_48/com/fasterxml/jackson/databind/DeserializationConfig.java": {
+    "project": "JacksonDatabind_48",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_48/com/fasterxml/jackson/databind/DeserializationConfig.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_48_buggy/DeserializationConfigTest.java",
+    "file_size_bytes": 5205,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.919065"
+  },
+  "JacksonDatabind_50/com/fasterxml/jackson/databind/deser/BeanDeserializer.java": {
+    "project": "JacksonDatabind_50",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_50/com/fasterxml/jackson/databind/deser/BeanDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_50_buggy/BeanDeserializerTest.java",
+    "file_size_bytes": 15562,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.919514"
+  },
+  "JacksonDatabind_51/com/fasterxml/jackson/databind/jsontype/impl/TypeDeserializerBase.java": {
+    "project": "JacksonDatabind_51",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_51/com/fasterxml/jackson/databind/jsontype/impl/TypeDeserializerBase.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_51_buggy/TypeDeserializerBaseTest.java",
+    "file_size_bytes": 8388,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.919847"
+  },
+  "JacksonDatabind_52/com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java": {
+    "project": "JacksonDatabind_52",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_52/com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_52_buggy/BeanDeserializerBaseTest.java",
+    "file_size_bytes": 10524,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.920307"
+  },
+  "JacksonDatabind_52/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java": {
+    "project": "JacksonDatabind_52",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_52/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_52_buggy/ExternalTypeHandlerTest.java",
+    "file_size_bytes": 9610,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.920508"
+  },
+  "JacksonDatabind_53/com/fasterxml/jackson/databind/type/TypeBindings.java": {
+    "project": "JacksonDatabind_53",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_53/com/fasterxml/jackson/databind/type/TypeBindings.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_53_buggy/TypeBindingsTest.java",
+    "file_size_bytes": 7220,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.920751"
+  },
+  "JacksonDatabind_53/com/fasterxml/jackson/databind/type/TypeFactory.java": {
+    "project": "JacksonDatabind_53",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_53/com/fasterxml/jackson/databind/type/TypeFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_53_buggy/TypeFactoryTest.java",
+    "file_size_bytes": 9360,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.921063"
+  },
+  "JacksonDatabind_54/com/fasterxml/jackson/databind/ser/PropertyBuilder.java": {
+    "project": "JacksonDatabind_54",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_54/com/fasterxml/jackson/databind/ser/PropertyBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_54_buggy/PropertyBuilderTest.java",
+    "file_size_bytes": 6721,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.921303"
+  },
+  "JacksonDatabind_55/com/fasterxml/jackson/databind/ser/std/StdKeySerializers.java": {
+    "project": "JacksonDatabind_55",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_55/com/fasterxml/jackson/databind/ser/std/StdKeySerializers.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_55_buggy/StdKeySerializersTest.java",
+    "file_size_bytes": 5345,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.921546"
+  },
+  "JacksonDatabind_56/com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java": {
+    "project": "JacksonDatabind_56",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_56/com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_56_buggy/FromStringDeserializerTest.java",
+    "file_size_bytes": 6120,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.921794"
+  },
+  "JacksonDatabind_57/com/fasterxml/jackson/databind/ObjectReader.java": {
+    "project": "JacksonDatabind_57",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_57/com/fasterxml/jackson/databind/ObjectReader.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_57_buggy/ObjectReaderTest.java",
+    "file_size_bytes": 7124,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.922258"
+  },
+  "JacksonDatabind_58/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java": {
+    "project": "JacksonDatabind_58",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_58/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_58_buggy/BeanDeserializerFactoryTest.java",
+    "file_size_bytes": 12530,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.922664"
+  },
+  "JacksonDatabind_59/com/fasterxml/jackson/databind/JavaType.java": {
+    "project": "JacksonDatabind_59",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_59/com/fasterxml/jackson/databind/JavaType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_59_buggy/JavaTypeTest.java",
+    "file_size_bytes": 9856,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.922972"
+  },
+  "JacksonDatabind_59/com/fasterxml/jackson/databind/type/MapLikeType.java": {
+    "project": "JacksonDatabind_59",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_59/com/fasterxml/jackson/databind/type/MapLikeType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_59_buggy/MapLikeTypeTest.java",
+    "file_size_bytes": 10102,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.923176"
+  },
+  "JacksonDatabind_59/com/fasterxml/jackson/databind/type/TypeFactory.java": {
+    "project": "JacksonDatabind_59",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_59/com/fasterxml/jackson/databind/type/TypeFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_59_buggy/TypeFactoryTest.java",
+    "file_size_bytes": 9300,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.923503"
+  },
+  "JacksonDatabind_59/com/fasterxml/jackson/databind/type/CollectionLikeType.java": {
+    "project": "JacksonDatabind_59",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_59/com/fasterxml/jackson/databind/type/CollectionLikeType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_59_buggy/CollectionLikeTypeTest.java",
+    "file_size_bytes": 9523,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.923679"
+  },
+  "JacksonDatabind_60/com/fasterxml/jackson/databind/ser/std/JsonValueSerializer.java": {
+    "project": "JacksonDatabind_60",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_60/com/fasterxml/jackson/databind/ser/std/JsonValueSerializer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_60_buggy/JsonValueSerializerTest.java",
+    "file_size_bytes": 8271,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.923935"
+  },
+  "JacksonDatabind_61/com/fasterxml/jackson/databind/ObjectMapper.java": {
+    "project": "JacksonDatabind_61",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_61/com/fasterxml/jackson/databind/ObjectMapper.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_61_buggy/ObjectMapperTest.java",
+    "file_size_bytes": 7938,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.924750"
+  },
+  "JacksonDatabind_61/com/fasterxml/jackson/databind/jsontype/impl/StdTypeResolverBuilder.java": {
+    "project": "JacksonDatabind_61",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_61/com/fasterxml/jackson/databind/jsontype/impl/StdTypeResolverBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_61_buggy/StdTypeResolverBuilderTest.java",
+    "file_size_bytes": 10420,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.924971"
+  },
+  "JacksonDatabind_62/com/fasterxml/jackson/databind/deser/std/CollectionDeserializer.java": {
+    "project": "JacksonDatabind_62",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_62/com/fasterxml/jackson/databind/deser/std/CollectionDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_62_buggy/CollectionDeserializerTest.java",
+    "file_size_bytes": 8972,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.925247"
+  },
+  "JacksonDatabind_63/com/fasterxml/jackson/databind/JsonMappingException.java": {
+    "project": "JacksonDatabind_63",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_63/com/fasterxml/jackson/databind/JsonMappingException.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_63_buggy/JsonMappingExceptionTest.java",
+    "file_size_bytes": 14824,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.925623"
+  },
+  "JacksonDatabind_64/com/fasterxml/jackson/databind/ser/PropertyBuilder.java": {
+    "project": "JacksonDatabind_64",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_64/com/fasterxml/jackson/databind/ser/PropertyBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_64_buggy/PropertyBuilderTest.java",
+    "file_size_bytes": 6721,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.925874"
+  },
+  "JacksonDatabind_66/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer.java": {
+    "project": "JacksonDatabind_66",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_66/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_66_buggy/StdKeyDeserializerTest.java",
+    "file_size_bytes": 21512,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.926290"
+  },
+  "JacksonDatabind_67/com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java": {
+    "project": "JacksonDatabind_67",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_67/com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_67_buggy/BasicDeserializerFactoryTest.java",
+    "file_size_bytes": 21893,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.926883"
+  },
+  "JacksonDatabind_68/com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java": {
+    "project": "JacksonDatabind_68",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_68/com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_68_buggy/BeanDeserializerBaseTest.java",
+    "file_size_bytes": 10524,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.927379"
+  },
+  "JacksonDatabind_69/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java": {
+    "project": "JacksonDatabind_69",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_69/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_69_buggy/CreatorCollectorTest.java",
+    "file_size_bytes": 9018,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.927707"
+  },
+  "JacksonDatabind_70/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java": {
+    "project": "JacksonDatabind_70",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_70/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_70_buggy/BeanPropertyMapTest.java",
+    "file_size_bytes": 10186,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.928007"
+  },
+  "JacksonDatabind_71/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer.java": {
+    "project": "JacksonDatabind_71",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_71/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_71_buggy/StdKeyDeserializerTest.java",
+    "file_size_bytes": 21512,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.928435"
+  },
+  "JacksonDatabind_73/com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java": {
+    "project": "JacksonDatabind_73",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_73/com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_73_buggy/POJOPropertiesCollectorTest.java",
+    "file_size_bytes": 10466,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.929031"
+  },
+  "JacksonDatabind_73/com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java": {
+    "project": "JacksonDatabind_73",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_73/com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_73_buggy/POJOPropertyBuilderTest.java",
+    "file_size_bytes": 10230,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.929623"
+  },
+  "JacksonDatabind_74/com/fasterxml/jackson/databind/jsontype/impl/AsPropertyTypeDeserializer.java": {
+    "project": "JacksonDatabind_74",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_74/com/fasterxml/jackson/databind/jsontype/impl/AsPropertyTypeDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_74_buggy/AsPropertyTypeDeserializerTest.java",
+    "file_size_bytes": 6368,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.930108"
+  },
+  "JacksonDatabind_75/com/fasterxml/jackson/databind/ser/std/EnumSerializer.java": {
+    "project": "JacksonDatabind_75",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_75/com/fasterxml/jackson/databind/ser/std/EnumSerializer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_75_buggy/EnumSerializerTest.java",
+    "file_size_bytes": 7420,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.930381"
+  },
+  "JacksonDatabind_76/com/fasterxml/jackson/databind/deser/BuilderBasedDeserializer.java": {
+    "project": "JacksonDatabind_76",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_76/com/fasterxml/jackson/databind/deser/BuilderBasedDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_76_buggy/BuilderBasedDeserializerTest.java",
+    "file_size_bytes": 9836,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.930781"
+  },
+  "JacksonDatabind_77/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java": {
+    "project": "JacksonDatabind_77",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_77/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_77_buggy/BeanDeserializerFactoryTest.java",
+    "file_size_bytes": 12530,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.931187"
+  },
+  "JacksonDatabind_78/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java": {
+    "project": "JacksonDatabind_78",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_78/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_78_buggy/BeanDeserializerFactoryTest.java",
+    "file_size_bytes": 12530,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.931475"
+  },
+  "JacksonDatabind_80/com/fasterxml/jackson/databind/jsontype/impl/StdSubtypeResolver.java": {
+    "project": "JacksonDatabind_80",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_80/com/fasterxml/jackson/databind/jsontype/impl/StdSubtypeResolver.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_80_buggy/StdSubtypeResolverTest.java",
+    "file_size_bytes": 6340,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.931675"
+  },
+  "JacksonDatabind_81/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java": {
+    "project": "JacksonDatabind_81",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_81/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_81_buggy/JacksonAnnotationIntrospectorTest.java",
+    "file_size_bytes": 10638,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.932010"
+  },
+  "JacksonDatabind_82/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java": {
+    "project": "JacksonDatabind_82",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_82/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_82_buggy/BeanDeserializerFactoryTest.java",
+    "file_size_bytes": 12530,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.932285"
+  },
+  "JacksonDatabind_83/com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java": {
+    "project": "JacksonDatabind_83",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_83/com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_83_buggy/FromStringDeserializerTest.java",
+    "file_size_bytes": 6874,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.932549"
+  },
+  "JacksonDatabind_87/com/fasterxml/jackson/databind/util/StdDateFormat.java": {
+    "project": "JacksonDatabind_87",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_87/com/fasterxml/jackson/databind/util/StdDateFormat.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_87_buggy/StdDateFormatTest.java",
+    "file_size_bytes": 8646,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.932802"
+  },
+  "JacksonDatabind_90/com/fasterxml/jackson/databind/deser/ValueInstantiator.java": {
+    "project": "JacksonDatabind_90",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_90/com/fasterxml/jackson/databind/deser/ValueInstantiator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_90_buggy/ValueInstantiatorTest.java",
+    "file_size_bytes": 10458,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.933016"
+  },
+  "JacksonDatabind_90/com/fasterxml/jackson/databind/deser/std/StdValueInstantiator.java": {
+    "project": "JacksonDatabind_90",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_90/com/fasterxml/jackson/databind/deser/std/StdValueInstantiator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_90_buggy/StdValueInstantiatorTest.java",
+    "file_size_bytes": 19242,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.933394"
+  },
+  "JacksonDatabind_91/com/fasterxml/jackson/databind/deser/DeserializerCache.java": {
+    "project": "JacksonDatabind_91",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_91/com/fasterxml/jackson/databind/deser/DeserializerCache.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_91_buggy/DeserializerCacheTest.java",
+    "file_size_bytes": 12684,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.933804"
+  },
+  "JacksonDatabind_92/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java": {
+    "project": "JacksonDatabind_92",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_92/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_92_buggy/BeanDeserializerFactoryTest.java",
+    "file_size_bytes": 12530,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.934162"
+  },
+  "JacksonDatabind_96/com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java": {
+    "project": "JacksonDatabind_96",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_96/com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_96_buggy/BasicDeserializerFactoryTest.java",
+    "file_size_bytes": 21893,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.934619"
+  },
+  "JacksonDatabind_98/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java": {
+    "project": "JacksonDatabind_98",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_98/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_98_buggy/ExternalTypeHandlerTest.java",
+    "file_size_bytes": 9582,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.937534"
+  },
+  "JacksonDatabind_99/com/fasterxml/jackson/databind/type/ReferenceType.java": {
+    "project": "JacksonDatabind_99",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_99/com/fasterxml/jackson/databind/type/ReferenceType.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_99_buggy/ReferenceTypeTest.java",
+    "file_size_bytes": 13329,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.938211"
+  },
+  "JacksonDatabind_100/com/fasterxml/jackson/databind/node/TreeTraversingParser.java": {
+    "project": "JacksonDatabind_100",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_100/com/fasterxml/jackson/databind/node/TreeTraversingParser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_100_buggy/TreeTraversingParserTest.java",
+    "file_size_bytes": 13563,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.939035"
+  },
+  "JacksonDatabind_101/com/fasterxml/jackson/databind/deser/BeanDeserializer.java": {
+    "project": "JacksonDatabind_101",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_101/com/fasterxml/jackson/databind/deser/BeanDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_101_buggy/BeanDeserializerTest.java",
+    "file_size_bytes": 15562,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.939671"
+  },
+  "JacksonDatabind_102/com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase.java": {
+    "project": "JacksonDatabind_102",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_102/com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_102_buggy/DateTimeSerializerBaseTest.java",
+    "file_size_bytes": 27811,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.940340"
+  },
+  "JacksonDatabind_103/com/fasterxml/jackson/databind/JsonMappingException.java": {
+    "project": "JacksonDatabind_103",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_103/com/fasterxml/jackson/databind/JsonMappingException.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_103_buggy/JsonMappingExceptionTest.java",
+    "file_size_bytes": 14824,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.940899"
+  },
+  "JacksonDatabind_103/com/fasterxml/jackson/databind/DatabindContext.java": {
+    "project": "JacksonDatabind_103",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_103/com/fasterxml/jackson/databind/DatabindContext.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_103_buggy/DatabindContextTest.java",
+    "file_size_bytes": 17864,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.941380"
+  },
+  "JacksonDatabind_103/com/fasterxml/jackson/databind/DeserializationContext.java": {
+    "project": "JacksonDatabind_103",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_103/com/fasterxml/jackson/databind/DeserializationContext.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_103_buggy/DeserializationContextTest.java",
+    "file_size_bytes": 32202,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.942997"
+  },
+  "JacksonDatabind_103/com/fasterxml/jackson/databind/SerializerProvider.java": {
+    "project": "JacksonDatabind_103",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_103/com/fasterxml/jackson/databind/SerializerProvider.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_103_buggy/SerializerProviderTest.java",
+    "file_size_bytes": 9686,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.943770"
+  },
+  "JacksonDatabind_103/com/fasterxml/jackson/databind/ser/PropertyBuilder.java": {
+    "project": "JacksonDatabind_103",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_103/com/fasterxml/jackson/databind/ser/PropertyBuilder.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_103_buggy/PropertyBuilderTest.java",
+    "file_size_bytes": 6721,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.944170"
+  },
+  "JacksonDatabind_103/com/fasterxml/jackson/databind/ser/DefaultSerializerProvider.java": {
+    "project": "JacksonDatabind_103",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_103/com/fasterxml/jackson/databind/ser/DefaultSerializerProvider.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_103_buggy/DefaultSerializerProviderTest.java",
+    "file_size_bytes": 12224,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.944646"
+  },
+  "JacksonDatabind_103/com/fasterxml/jackson/databind/deser/SettableAnyProperty.java": {
+    "project": "JacksonDatabind_103",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_103/com/fasterxml/jackson/databind/deser/SettableAnyProperty.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_103_buggy/SettableAnyPropertyTest.java",
+    "file_size_bytes": 10756,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.945087"
+  },
+  "JacksonDatabind_103/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java": {
+    "project": "JacksonDatabind_103",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_103/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_103_buggy/BeanDeserializerFactoryTest.java",
+    "file_size_bytes": 12530,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.945522"
+  },
+  "JacksonDatabind_103/com/fasterxml/jackson/databind/deser/SettableBeanProperty.java": {
+    "project": "JacksonDatabind_103",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_103/com/fasterxml/jackson/databind/deser/SettableBeanProperty.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_103_buggy/SettableBeanPropertyTest.java",
+    "file_size_bytes": 10184,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.946038"
+  },
+  "JacksonDatabind_103/com/fasterxml/jackson/databind/deser/DeserializerCache.java": {
+    "project": "JacksonDatabind_103",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_103/com/fasterxml/jackson/databind/deser/DeserializerCache.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_103_buggy/DeserializerCacheTest.java",
+    "file_size_bytes": 12684,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.946417"
+  },
+  "JacksonDatabind_103/com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java": {
+    "project": "JacksonDatabind_103",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_103/com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_103_buggy/BasicDeserializerFactoryTest.java",
+    "file_size_bytes": 21893,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.947013"
+  },
+  "JacksonDatabind_103/com/fasterxml/jackson/databind/deser/std/StdValueInstantiator.java": {
+    "project": "JacksonDatabind_103",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_103/com/fasterxml/jackson/databind/deser/std/StdValueInstantiator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_103_buggy/StdValueInstantiatorTest.java",
+    "file_size_bytes": 19242,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.947472"
+  },
+  "JacksonDatabind_103/com/fasterxml/jackson/databind/deser/std/StdDeserializer.java": {
+    "project": "JacksonDatabind_103",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_103/com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_103_buggy/StdDeserializerTest.java",
+    "file_size_bytes": 20097,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.948196"
+  },
+  "JacksonDatabind_103/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer.java": {
+    "project": "JacksonDatabind_103",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_103/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_103_buggy/StdKeyDeserializerTest.java",
+    "file_size_bytes": 21512,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.948614"
+  },
+  "JacksonDatabind_103/com/fasterxml/jackson/databind/introspect/BasicBeanDescription.java": {
+    "project": "JacksonDatabind_103",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_103/com/fasterxml/jackson/databind/introspect/BasicBeanDescription.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_103_buggy/BasicBeanDescriptionTest.java",
+    "file_size_bytes": 14572,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.949159"
+  },
+  "JacksonDatabind_103/com/fasterxml/jackson/databind/util/ClassUtil.java": {
+    "project": "JacksonDatabind_103",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_103/com/fasterxml/jackson/databind/util/ClassUtil.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_103_buggy/ClassUtilTest.java",
+    "file_size_bytes": 7946,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.949626"
+  },
+  "JacksonDatabind_104/com/fasterxml/jackson/databind/util/StdDateFormat.java": {
+    "project": "JacksonDatabind_104",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_104/com/fasterxml/jackson/databind/util/StdDateFormat.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_104_buggy/StdDateFormatTest.java",
+    "file_size_bytes": 10054,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.950113"
+  },
+  "JacksonDatabind_106/com/fasterxml/jackson/databind/node/TreeTraversingParser.java": {
+    "project": "JacksonDatabind_106",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_106/com/fasterxml/jackson/databind/node/TreeTraversingParser.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_106_buggy/TreeTraversingParserTest.java",
+    "file_size_bytes": 13563,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.950515"
+  },
+  "JacksonDatabind_107/com/fasterxml/jackson/databind/jsontype/impl/TypeDeserializerBase.java": {
+    "project": "JacksonDatabind_107",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_107/com/fasterxml/jackson/databind/jsontype/impl/TypeDeserializerBase.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_107_buggy/TypeDeserializerBaseTest.java",
+    "file_size_bytes": 9820,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.951243"
+  },
+  "JacksonDatabind_108/com/fasterxml/jackson/databind/ObjectReader.java": {
+    "project": "JacksonDatabind_108",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_108/com/fasterxml/jackson/databind/ObjectReader.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_108_buggy/ObjectReaderTest.java",
+    "file_size_bytes": 7124,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.952203"
+  },
+  "JacksonDatabind_110/com/fasterxml/jackson/databind/deser/impl/JavaUtilCollectionsDeserializers.java": {
+    "project": "JacksonDatabind_110",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/JacksonDatabind_110/com/fasterxml/jackson/databind/deser/impl/JavaUtilCollectionsDeserializers.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/JacksonDatabind_110_buggy/JavaUtilCollectionsDeserializersTest.java",
+    "file_size_bytes": 5453,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.952753"
+  },
+  "Math_5/org/apache/commons/math3/complex/Complex.java": {
+    "project": "Math_5",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_5/org/apache/commons/math3/complex/Complex.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_5_buggy/ComplexTest.java",
+    "file_size_bytes": 8312,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.954042"
+  },
+  "Math_6/org/apache/commons/math3/optim/BaseOptimizer.java": {
+    "project": "Math_6",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_6/org/apache/commons/math3/optim/BaseOptimizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_6_buggy/BaseOptimizerTest.java",
+    "file_size_bytes": 8760,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.954497"
+  },
+  "Math_6/org/apache/commons/math3/optim/nonlinear/vector/jacobian/LevenbergMarquardtOptimizer.java": {
+    "project": "Math_6",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_6/org/apache/commons/math3/optim/nonlinear/vector/jacobian/LevenbergMarquardtOptimizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_6_buggy/LevenbergMarquardtOptimizerTest.java",
+    "file_size_bytes": 2621,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.954754"
+  },
+  "Math_6/org/apache/commons/math3/optim/nonlinear/vector/jacobian/GaussNewtonOptimizer.java": {
+    "project": "Math_6",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_6/org/apache/commons/math3/optim/nonlinear/vector/jacobian/GaussNewtonOptimizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_6_buggy/GaussNewtonOptimizerTest.java",
+    "file_size_bytes": 2572,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.955024"
+  },
+  "Math_6/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer.java": {
+    "project": "Math_6",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_6/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_6_buggy/PowellOptimizerTest.java",
+    "file_size_bytes": 3908,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.955408"
+  },
+  "Math_6/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/CMAESOptimizer.java": {
+    "project": "Math_6",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_6/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/CMAESOptimizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_6_buggy/CMAESOptimizerTest.java",
+    "file_size_bytes": 10536,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.955887"
+  },
+  "Math_6/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/SimplexOptimizer.java": {
+    "project": "Math_6",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_6/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/SimplexOptimizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_6_buggy/SimplexOptimizerTest.java",
+    "file_size_bytes": 5371,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.956197"
+  },
+  "Math_6/org/apache/commons/math3/optim/nonlinear/scalar/gradient/NonLinearConjugateGradientOptimizer.java": {
+    "project": "Math_6",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_6/org/apache/commons/math3/optim/nonlinear/scalar/gradient/NonLinearConjugateGradientOptimizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_6_buggy/NonLinearConjugateGradientOptimizerTest.java",
+    "file_size_bytes": 6364,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.956538"
+  },
+  "Math_7/org/apache/commons/math3/ode/AbstractIntegrator.java": {
+    "project": "Math_7",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_7/org/apache/commons/math3/ode/AbstractIntegrator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_7_buggy/AbstractIntegratorTest.java",
+    "file_size_bytes": 9514,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.957178"
+  },
+  "Math_8/org/apache/commons/math3/distribution/DiscreteDistribution.java": {
+    "project": "Math_8",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_8/org/apache/commons/math3/distribution/DiscreteDistribution.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_8_buggy/DiscreteDistributionTest.java",
+    "file_size_bytes": 3891,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.957643"
+  },
+  "Math_9/org/apache/commons/math3/geometry/euclidean/threed/Line.java": {
+    "project": "Math_9",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_9/org/apache/commons/math3/geometry/euclidean/threed/Line.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_9_buggy/LineTest.java",
+    "file_size_bytes": 9266,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.958147"
+  },
+  "Math_10/org/apache/commons/math3/analysis/differentiation/DSCompiler.java": {
+    "project": "Math_10",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_10/org/apache/commons/math3/analysis/differentiation/DSCompiler.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_10_buggy/DSCompilerTest.java",
+    "file_size_bytes": 8842,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.958788"
+  },
+  "Math_11/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java": {
+    "project": "Math_11",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_11/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_11_buggy/MultivariateNormalDistributionTest.java",
+    "file_size_bytes": 5383,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.959236"
+  },
+  "Math_13/org/apache/commons/math3/optimization/general/AbstractLeastSquaresOptimizer.java": {
+    "project": "Math_13",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_13/org/apache/commons/math3/optimization/general/AbstractLeastSquaresOptimizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_13_buggy/AbstractLeastSquaresOptimizerTest.java",
+    "file_size_bytes": 9912,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.959750"
+  },
+  "Math_15/org/apache/commons/math3/util/FastMath.java": {
+    "project": "Math_15",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_15/org/apache/commons/math3/util/FastMath.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_15_buggy/FastMathTest.java",
+    "file_size_bytes": 8206,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.960462"
+  },
+  "Math_16/org/apache/commons/math3/util/FastMath.java": {
+    "project": "Math_16",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_16/org/apache/commons/math3/util/FastMath.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_16_buggy/FastMathTest.java",
+    "file_size_bytes": 8206,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.961195"
+  },
+  "Math_17/org/apache/commons/math3/dfp/Dfp.java": {
+    "project": "Math_17",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_17/org/apache/commons/math3/dfp/Dfp.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_17_buggy/DfpTest.java",
+    "file_size_bytes": 4965,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.961830"
+  },
+  "Math_18/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java": {
+    "project": "Math_18",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_18/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_18_buggy/CMAESOptimizerTest.java",
+    "file_size_bytes": 10272,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.962438"
+  },
+  "Math_19/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java": {
+    "project": "Math_19",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_19/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_19_buggy/CMAESOptimizerTest.java",
+    "file_size_bytes": 10272,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.963024"
+  },
+  "Math_20/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java": {
+    "project": "Math_20",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_20/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_20_buggy/CMAESOptimizerTest.java",
+    "file_size_bytes": 10272,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.963641"
+  },
+  "Math_23/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java": {
+    "project": "Math_23",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_23/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_23_buggy/BrentOptimizerTest.java",
+    "file_size_bytes": 2490,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.964076"
+  },
+  "Math_24/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java": {
+    "project": "Math_24",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_24/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_24_buggy/BrentOptimizerTest.java",
+    "file_size_bytes": 2490,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.964509"
+  },
+  "Math_25/org/apache/commons/math3/optimization/fitting/HarmonicFitter.java": {
+    "project": "Math_25",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_25/org/apache/commons/math3/optimization/fitting/HarmonicFitter.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_25_buggy/HarmonicFitterTest.java",
+    "file_size_bytes": 3122,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.965053"
+  },
+  "Math_26/org/apache/commons/math3/fraction/Fraction.java": {
+    "project": "Math_26",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_26/org/apache/commons/math3/fraction/Fraction.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_26_buggy/FractionTest.java",
+    "file_size_bytes": 23891,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.965852"
+  },
+  "Math_27/org/apache/commons/math3/fraction/Fraction.java": {
+    "project": "Math_27",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_27/org/apache/commons/math3/fraction/Fraction.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_27_buggy/FractionTest.java",
+    "file_size_bytes": 23891,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.966502"
+  },
+  "Math_28/org/apache/commons/math3/optimization/linear/SimplexSolver.java": {
+    "project": "Math_28",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_28/org/apache/commons/math3/optimization/linear/SimplexSolver.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_28_buggy/SimplexSolverTest.java",
+    "file_size_bytes": 3857,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.966976"
+  },
+  "Math_29/org/apache/commons/math3/linear/OpenMapRealVector.java": {
+    "project": "Math_29",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_29/org/apache/commons/math3/linear/OpenMapRealVector.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_29_buggy/OpenMapRealVectorTest.java",
+    "file_size_bytes": 7170,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.967574"
+  },
+  "Math_30/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java": {
+    "project": "Math_30",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_30/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_30_buggy/MannWhitneyUTestTest.java",
+    "file_size_bytes": 3182,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.968009"
+  },
+  "Math_31/org/apache/commons/math3/util/ContinuedFraction.java": {
+    "project": "Math_31",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_31/org/apache/commons/math3/util/ContinuedFraction.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_31_buggy/ContinuedFractionTest.java",
+    "file_size_bytes": 2408,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.968473"
+  },
+  "Math_32/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java": {
+    "project": "Math_32",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_32/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_32_buggy/PolygonsSetTest.java",
+    "file_size_bytes": 8800,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.969012"
+  },
+  "Math_33/org/apache/commons/math3/optimization/linear/SimplexTableau.java": {
+    "project": "Math_33",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_33/org/apache/commons/math3/optimization/linear/SimplexTableau.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_33_buggy/SimplexTableauTest.java",
+    "file_size_bytes": 10352,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.969581"
+  },
+  "Math_34/org/apache/commons/math3/genetics/ListPopulation.java": {
+    "project": "Math_34",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_34/org/apache/commons/math3/genetics/ListPopulation.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_34_buggy/ListPopulationTest.java",
+    "file_size_bytes": 9449,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.970164"
+  },
+  "Math_36/org/apache/commons/math/fraction/BigFraction.java": {
+    "project": "Math_36",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_36/org/apache/commons/math/fraction/BigFraction.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_36_buggy/BigFractionTest.java",
+    "file_size_bytes": 2457,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.971064"
+  },
+  "Math_37/org/apache/commons/math/complex/Complex.java": {
+    "project": "Math_37",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_37/org/apache/commons/math/complex/Complex.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_37_buggy/ComplexTest.java",
+    "file_size_bytes": 8298,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.971735"
+  },
+  "Math_38/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java": {
+    "project": "Math_38",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_38/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_38_buggy/BOBYQAOptimizerTest.java",
+    "file_size_bytes": 2472,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.972419"
+  },
+  "Math_39/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java": {
+    "project": "Math_39",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_39/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_39_buggy/EmbeddedRungeKuttaIntegratorTest.java",
+    "file_size_bytes": 6772,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.972892"
+  },
+  "Math_40/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java": {
+    "project": "Math_40",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_40/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_40_buggy/BracketingNthOrderBrentSolverTest.java",
+    "file_size_bytes": 3953,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.973376"
+  },
+  "Math_41/org/apache/commons/math/stat/descriptive/moment/Variance.java": {
+    "project": "Math_41",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_41/org/apache/commons/math/stat/descriptive/moment/Variance.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_41_buggy/VarianceTest.java",
+    "file_size_bytes": 5147,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.973892"
+  },
+  "Math_42/org/apache/commons/math/optimization/linear/SimplexTableau.java": {
+    "project": "Math_42",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_42/org/apache/commons/math/optimization/linear/SimplexTableau.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_42_buggy/SimplexTableauTest.java",
+    "file_size_bytes": 10336,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.974466"
+  },
+  "Math_43/org/apache/commons/math/stat/descriptive/SummaryStatistics.java": {
+    "project": "Math_43",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_43/org/apache/commons/math/stat/descriptive/SummaryStatistics.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_43_buggy/SummaryStatisticsTest.java",
+    "file_size_bytes": 10106,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.975057"
+  },
+  "Math_44/org/apache/commons/math/ode/AbstractIntegrator.java": {
+    "project": "Math_44",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_44/org/apache/commons/math/ode/AbstractIntegrator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_44_buggy/AbstractIntegratorTest.java",
+    "file_size_bytes": 9499,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.975620"
+  },
+  "Math_45/org/apache/commons/math/linear/OpenMapRealMatrix.java": {
+    "project": "Math_45",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_45/org/apache/commons/math/linear/OpenMapRealMatrix.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_45_buggy/OpenMapRealMatrixTest.java",
+    "file_size_bytes": 8544,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.976104"
+  },
+  "Math_46/org/apache/commons/math/complex/Complex.java": {
+    "project": "Math_46",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_46/org/apache/commons/math/complex/Complex.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_46_buggy/ComplexTest.java",
+    "file_size_bytes": 8298,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.976639"
+  },
+  "Math_47/org/apache/commons/math/complex/Complex.java": {
+    "project": "Math_47",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_47/org/apache/commons/math/complex/Complex.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_47_buggy/ComplexTest.java",
+    "file_size_bytes": 8298,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.977173"
+  },
+  "Math_48/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java": {
+    "project": "Math_48",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_48/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_48_buggy/BaseSecantSolverTest.java",
+    "file_size_bytes": 3124,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.977607"
+  },
+  "Math_49/org/apache/commons/math/linear/OpenMapRealVector.java": {
+    "project": "Math_49",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_49/org/apache/commons/math/linear/OpenMapRealVector.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_49_buggy/OpenMapRealVectorTest.java",
+    "file_size_bytes": 5780,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.978111"
+  },
+  "Math_50/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java": {
+    "project": "Math_50",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_50/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_50_buggy/BaseSecantSolverTest.java",
+    "file_size_bytes": 3124,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.978523"
+  },
+  "Math_51/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java": {
+    "project": "Math_51",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_51/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_51_buggy/BaseSecantSolverTest.java",
+    "file_size_bytes": 3124,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.978965"
+  },
+  "Math_52/org/apache/commons/math/geometry/euclidean/threed/Rotation.java": {
+    "project": "Math_52",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_52/org/apache/commons/math/geometry/euclidean/threed/Rotation.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_52_buggy/RotationTest.java",
+    "file_size_bytes": 9263,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.979484"
+  },
+  "Math_53/org/apache/commons/math/complex/Complex.java": {
+    "project": "Math_53",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_53/org/apache/commons/math/complex/Complex.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_53_buggy/ComplexTest.java",
+    "file_size_bytes": 8964,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.980007"
+  },
+  "Math_54/org/apache/commons/math/dfp/Dfp.java": {
+    "project": "Math_54",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_54/org/apache/commons/math/dfp/Dfp.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_54_buggy/DfpTest.java",
+    "file_size_bytes": 4956,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.980768"
+  },
+  "Math_55/org/apache/commons/math/geometry/Vector3D.java": {
+    "project": "Math_55",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_55/org/apache/commons/math/geometry/Vector3D.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_55_buggy/Vector3DTest.java",
+    "file_size_bytes": 8980,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.981652"
+  },
+  "Math_56/org/apache/commons/math/util/MultidimensionalCounter.java": {
+    "project": "Math_56",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_56/org/apache/commons/math/util/MultidimensionalCounter.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_56_buggy/MultidimensionalCounterTest.java",
+    "file_size_bytes": 7865,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.982247"
+  },
+  "Math_57/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java": {
+    "project": "Math_57",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_57/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_57_buggy/KMeansPlusPlusClustererTest.java",
+    "file_size_bytes": 2496,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.982723"
+  },
+  "Math_58/org/apache/commons/math/optimization/fitting/GaussianFitter.java": {
+    "project": "Math_58",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_58/org/apache/commons/math/optimization/fitting/GaussianFitter.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_58_buggy/GaussianFitterTest.java",
+    "file_size_bytes": 5158,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.983177"
+  },
+  "Math_59/org/apache/commons/math/util/FastMath.java": {
+    "project": "Math_59",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_59/org/apache/commons/math/util/FastMath.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_59_buggy/FastMathTest.java",
+    "file_size_bytes": 9488,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.983974"
+  },
+  "Math_60/org/apache/commons/math/distribution/NormalDistributionImpl.java": {
+    "project": "Math_60",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_60/org/apache/commons/math/distribution/NormalDistributionImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_60_buggy/NormalDistributionImplTest.java",
+    "file_size_bytes": 10734,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.984670"
+  },
+  "Math_61/org/apache/commons/math/distribution/PoissonDistributionImpl.java": {
+    "project": "Math_61",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_61/org/apache/commons/math/distribution/PoissonDistributionImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_61_buggy/PoissonDistributionImplTest.java",
+    "file_size_bytes": 6827,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.985142"
+  },
+  "Math_62/org/apache/commons/math/optimization/univariate/MultiStartUnivariateRealOptimizer.java": {
+    "project": "Math_62",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_62/org/apache/commons/math/optimization/univariate/MultiStartUnivariateRealOptimizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_62_buggy/MultiStartUnivariateRealOptimizerTest.java",
+    "file_size_bytes": 7766,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.985619"
+  },
+  "Math_63/org/apache/commons/math/util/MathUtils.java": {
+    "project": "Math_63",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_63/org/apache/commons/math/util/MathUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_63_buggy/MathUtilsTest.java",
+    "file_size_bytes": 7202,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.986313"
+  },
+  "Math_64/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java": {
+    "project": "Math_64",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_64/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_64_buggy/LevenbergMarquardtOptimizerTest.java",
+    "file_size_bytes": 6336,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.986850"
+  },
+  "Math_65/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java": {
+    "project": "Math_65",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_65/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_65_buggy/AbstractLeastSquaresOptimizerTest.java",
+    "file_size_bytes": 10770,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.987558"
+  },
+  "Math_66/org/apache/commons/math/optimization/univariate/BrentOptimizer.java": {
+    "project": "Math_66",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_66/org/apache/commons/math/optimization/univariate/BrentOptimizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_66_buggy/BrentOptimizerTest.java",
+    "file_size_bytes": 3174,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.988100"
+  },
+  "Math_67/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java": {
+    "project": "Math_67",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_67/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_67_buggy/MultiStartUnivariateRealOptimizerTest.java",
+    "file_size_bytes": 10726,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.988831"
+  },
+  "Math_68/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java": {
+    "project": "Math_68",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_68/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_68_buggy/LevenbergMarquardtOptimizerTest.java",
+    "file_size_bytes": 5585,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.989405"
+  },
+  "Math_69/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java": {
+    "project": "Math_69",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_69/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_69_buggy/PearsonsCorrelationTest.java",
+    "file_size_bytes": 6228,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.989905"
+  },
+  "Math_71/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java": {
+    "project": "Math_71",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_71/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_71_buggy/RungeKuttaIntegratorTest.java",
+    "file_size_bytes": 2468,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.990397"
+  },
+  "Math_71/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java": {
+    "project": "Math_71",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_71/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_71_buggy/EmbeddedRungeKuttaIntegratorTest.java",
+    "file_size_bytes": 6772,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.990667"
+  },
+  "Math_72/org/apache/commons/math/analysis/solvers/BrentSolver.java": {
+    "project": "Math_72",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_72/org/apache/commons/math/analysis/solvers/BrentSolver.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_72_buggy/BrentSolverTest.java",
+    "file_size_bytes": 2409,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.991106"
+  },
+  "Math_73/org/apache/commons/math/analysis/solvers/BrentSolver.java": {
+    "project": "Math_73",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_73/org/apache/commons/math/analysis/solvers/BrentSolver.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_73_buggy/BrentSolverTest.java",
+    "file_size_bytes": 2409,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.991601"
+  },
+  "Math_74/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java": {
+    "project": "Math_74",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_74/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_74_buggy/EmbeddedRungeKuttaIntegratorTest.java",
+    "file_size_bytes": 6772,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.992152"
+  },
+  "Math_75/org/apache/commons/math/stat/Frequency.java": {
+    "project": "Math_75",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_75/org/apache/commons/math/stat/Frequency.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_75_buggy/FrequencyTest.java",
+    "file_size_bytes": 5692,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.992674"
+  },
+  "Math_76/org/apache/commons/math/linear/SingularValueDecompositionImpl.java": {
+    "project": "Math_76",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_76/org/apache/commons/math/linear/SingularValueDecompositionImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_76_buggy/SingularValueDecompositionImplTest.java",
+    "file_size_bytes": 10080,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.993249"
+  },
+  "Math_77/org/apache/commons/math/linear/OpenMapRealVector.java": {
+    "project": "Math_77",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_77/org/apache/commons/math/linear/OpenMapRealVector.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_77_buggy/OpenMapRealVectorTest.java",
+    "file_size_bytes": 5780,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.994051"
+  },
+  "Math_77/org/apache/commons/math/linear/ArrayRealVector.java": {
+    "project": "Math_77",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_77/org/apache/commons/math/linear/ArrayRealVector.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_77_buggy/ArrayRealVectorTest.java",
+    "file_size_bytes": 7206,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.994630"
+  },
+  "Math_78/org/apache/commons/math/ode/events/EventState.java": {
+    "project": "Math_78",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_78/org/apache/commons/math/ode/events/EventState.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_78_buggy/EventStateTest.java",
+    "file_size_bytes": 9292,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.995312"
+  },
+  "Math_79/org/apache/commons/math/util/MathUtils.java": {
+    "project": "Math_79",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_79/org/apache/commons/math/util/MathUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_79_buggy/MathUtilsTest.java",
+    "file_size_bytes": 7166,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.996145"
+  },
+  "Math_80/org/apache/commons/math/linear/EigenDecompositionImpl.java": {
+    "project": "Math_80",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_80/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_80_buggy/EigenDecompositionImplTest.java",
+    "file_size_bytes": 9396,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.996918"
+  },
+  "Math_81/org/apache/commons/math/linear/EigenDecompositionImpl.java": {
+    "project": "Math_81",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_81/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_81_buggy/EigenDecompositionImplTest.java",
+    "file_size_bytes": 9396,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.997633"
+  },
+  "Math_83/org/apache/commons/math/optimization/linear/SimplexTableau.java": {
+    "project": "Math_83",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_83/org/apache/commons/math/optimization/linear/SimplexTableau.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_83_buggy/SimplexTableauTest.java",
+    "file_size_bytes": 10344,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.998817"
+  },
+  "Math_85/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java": {
+    "project": "Math_85",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_85/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_85_buggy/UnivariateRealSolverUtilsTest.java",
+    "file_size_bytes": 3889,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.999352"
+  },
+  "Math_86/org/apache/commons/math/linear/CholeskyDecompositionImpl.java": {
+    "project": "Math_86",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_86/org/apache/commons/math/linear/CholeskyDecompositionImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_86_buggy/CholeskyDecompositionImplTest.java",
+    "file_size_bytes": 6583,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:51.999877"
+  },
+  "Math_87/org/apache/commons/math/optimization/linear/SimplexTableau.java": {
+    "project": "Math_87",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_87/org/apache/commons/math/optimization/linear/SimplexTableau.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_87_buggy/SimplexTableauTest.java",
+    "file_size_bytes": 10344,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:52.000511"
+  },
+  "Math_88/org/apache/commons/math/optimization/linear/SimplexTableau.java": {
+    "project": "Math_88",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_88/org/apache/commons/math/optimization/linear/SimplexTableau.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_88_buggy/SimplexTableauTest.java",
+    "file_size_bytes": 10344,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:52.001150"
+  },
+  "Math_89/org/apache/commons/math/stat/Frequency.java": {
+    "project": "Math_89",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_89/org/apache/commons/math/stat/Frequency.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_89_buggy/FrequencyTest.java",
+    "file_size_bytes": 5692,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:52.001746"
+  },
+  "Math_90/org/apache/commons/math/stat/Frequency.java": {
+    "project": "Math_90",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_90/org/apache/commons/math/stat/Frequency.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_90_buggy/FrequencyTest.java",
+    "file_size_bytes": 5692,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:52.002343"
+  },
+  "Math_91/org/apache/commons/math/fraction/Fraction.java": {
+    "project": "Math_91",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_91/org/apache/commons/math/fraction/Fraction.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_91_buggy/FractionTest.java",
+    "file_size_bytes": 23890,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:52.003006"
+  },
+  "Math_92/org/apache/commons/math/util/MathUtils.java": {
+    "project": "Math_92",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_92/org/apache/commons/math/util/MathUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_92_buggy/MathUtilsTest.java",
+    "file_size_bytes": 8516,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:52.003690"
+  },
+  "Math_93/org/apache/commons/math/util/MathUtils.java": {
+    "project": "Math_93",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_93/org/apache/commons/math/util/MathUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_93_buggy/MathUtilsTest.java",
+    "file_size_bytes": 8516,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:52.004262"
+  },
+  "Math_94/org/apache/commons/math/util/MathUtils.java": {
+    "project": "Math_94",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_94/org/apache/commons/math/util/MathUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_94_buggy/MathUtilsTest.java",
+    "file_size_bytes": 8516,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:52.004880"
+  },
+  "Math_96/org/apache/commons/math/complex/Complex.java": {
+    "project": "Math_96",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_96/org/apache/commons/math/complex/Complex.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_96_buggy/ComplexTest.java",
+    "file_size_bytes": 9622,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:52.005553"
+  },
+  "Math_97/org/apache/commons/math/analysis/BrentSolver.java": {
+    "project": "Math_97",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_97/org/apache/commons/math/analysis/BrentSolver.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_97_buggy/BrentSolverTest.java",
+    "file_size_bytes": 2369,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:52.006044"
+  },
+  "Math_98/org/apache/commons/math/linear/BigMatrixImpl.java": {
+    "project": "Math_98",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_98/org/apache/commons/math/linear/BigMatrixImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_98_buggy/BigMatrixImplTest.java",
+    "file_size_bytes": 7801,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:52.006697"
+  },
+  "Math_98/org/apache/commons/math/linear/RealMatrixImpl.java": {
+    "project": "Math_98",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_98/org/apache/commons/math/linear/RealMatrixImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_98_buggy/RealMatrixImplTest.java",
+    "file_size_bytes": 7776,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:52.007156"
+  },
+  "Math_99/org/apache/commons/math/util/MathUtils.java": {
+    "project": "Math_99",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_99/org/apache/commons/math/util/MathUtils.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_99_buggy/MathUtilsTest.java",
+    "file_size_bytes": 7871,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:52.007741"
+  },
+  "Math_100/org/apache/commons/math/estimation/AbstractEstimator.java": {
+    "project": "Math_100",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_100/org/apache/commons/math/estimation/AbstractEstimator.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_100_buggy/AbstractEstimatorTest.java",
+    "file_size_bytes": 9655,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:52.008242"
+  },
+  "Math_101/org/apache/commons/math/complex/ComplexFormat.java": {
+    "project": "Math_101",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_101/org/apache/commons/math/complex/ComplexFormat.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_101_buggy/ComplexFormatTest.java",
+    "file_size_bytes": 7946,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:52.008732"
+  },
+  "Math_102/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java": {
+    "project": "Math_102",
+    "source_file": "/home/manamo/wan/SQA-Project/Resoucre/Math_102/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java",
+    "status": "COMPLETED",
+    "test_file": "/home/manamo/wan/SQA-Project/Gemini-3.8-flash/TestCode/Math_102_buggy/ChiSquareTestImplTest.java",
+    "file_size_bytes": 6144,
+    "note": "MANUAL_DETECTED",
+    "updated_at": "2026-09-23T19:23:52.009242"
   }
 }
