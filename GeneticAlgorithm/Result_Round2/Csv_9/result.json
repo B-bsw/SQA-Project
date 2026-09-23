@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-23T15:04:52Z",
+  "round": 2,
+  "project": "Csv",
+  "bug_id": 9,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 19,
+  "coverage": 97.1,
+  "line_cov": 97.14,
+  "branch_cov": 97.06,
+  "total_goals": 69,
+  "covered_goals": 67,
+  "lines": 16,
+  "covered_lines": 34,
+  "total_branches": 24,
+  "covered_branches": 24,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.csv.CSVRecord",
+      "generation_result": "PASS",
+      "generation_seconds": 67,
+      "tests": 19,
+      "coverage": 97.10,
+      "line_cov": 97.14,
+      "branch_cov": 97.06,
+      "total_goals": 69,
+      "covered_goals": 67,
+      "lines": 16,
+      "covered_lines": 34,
+      "total_branches": 24,
+      "covered_branches": 24,
+      "total_methods": 16,
+      "covered_methods": 15,
+      "branchless_methods": 10,
+      "covered_branchless_methods": 9
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}
