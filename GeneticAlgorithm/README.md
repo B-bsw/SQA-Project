@@ -69,22 +69,22 @@ generated `.java` files
 
 ## Check List
 
-| Identifier      | Project name           | Number of active bugs | Active bug ids           | Deprecated bug ids (\*) | Check List | Remark |
-| --------------- | ---------------------- | --------------------: | ------------------------ | ----------------------- | ---------- | ------ |
-| Chart           | jfreechart             |                    26 | 1-26                     | None                    | check      |        |
-| Cli             | commons-cli            |                    39 | 1-5,7-40                 | 6                       | check      |        |
-| Closure         | closure-compiler       |                   174 | 1-62,64-92,94-176        | 63,93                   | check      |        |
-| Codec           | commons-codec          |                    18 | 1-18                     | None                    | check      |        |
-| Collections     | commons-collections    |                    28 | 1-28                     | None                    | check      |        |
-| Compress        | commons-compress       |                    47 | 1-47                     | None                    | check      |        |
-| Csv             | commons-csv            |                    16 | 1-16                     | None                    | check      |        |
-| Gson            | gson                   |                    18 | 1-18                     | None                    | check      |        |
-| JacksonCore     | jackson-core           |                    26 | 1-26                     | None                    |            |        |
-| JacksonDatabind | jackson-databind       |                   110 | 1-64,66-88,90-112        | 65,89                   |            |        |
-| JacksonXml      | jackson-dataformat-xml |                     6 | 1-6                      | None                    |            |        |
-| Jsoup           | jsoup                  |                    93 | 1-93                     | None                    |            |        |
-| JxPath          | commons-jxpath         |                    22 | 1-22                     | None                    |            |        |
-| Lang            | commons-lang           |                    61 | 1,3-17,19-24,26-47,49-65 | 2,18,25,48              |            |        |
-| Math            | commons-math           |                   106 | 1-106                    | None                    |            |        |
-| Mockito         | mockito                |                    38 | 1-38                     | None                    |            |        |
-| Time            | joda-time              |                    26 | 1-20,22-27               | 21                      |            |        |
+| Identifier      | Project name           | Number of active bugs | Active bug ids           | Deprecated bug ids (\*) | Check List | Remark     |
+| --------------- | ---------------------- | --------------------: | ------------------------ | ----------------------- | ---------- | ---------- |
+| Chart           | jfreechart             |                    26 | 1-26                     | None                    | check      |            |
+| Cli             | commons-cli            |                    39 | 1-5,7-40                 | 6                       | check      |            |
+| Closure         | closure-compiler       |                   174 | 1-62,64-92,94-176        | 63,93                   | check      |            |
+| Codec           | commons-codec          |                    18 | 1-18                     | None                    | check      |            |
+| Collections     | commons-collections    |                    28 | 1-28                     | None                    | check      |            |
+| Compress        | commons-compress       |                    47 | 1-47                     | None                    | check      |            |
+| Csv             | commons-csv            |                    16 | 1-16                     | None                    | check      |            |
+| Gson            | gson                   |                    18 | 1-18                     | None                    | check      |            |
+| JacksonCore     | jackson-core           |                    26 | 1-26                     | None                    | check      | 26 is Fail |
+| JacksonDatabind | jackson-databind       |                   110 | 1-64,66-88,90-112        | 65,89                   |            |            |
+| JacksonXml      | jackson-dataformat-xml |                     6 | 1-6                      | None                    |            |            |
+| Jsoup           | jsoup                  |                    93 | 1-93                     | None                    |            |            |
+| JxPath          | commons-jxpath         |                    22 | 1-22                     | None                    |            |            |
+| Lang            | commons-lang           |                    61 | 1,3-17,19-24,26-47,49-65 | 2,18,25,48              |            |            |
+| Math            | commons-math           |                   106 | 1-106                    | None                    |            |            |
+| Mockito         | mockito                |                    38 | 1-38                     | None                    |            |            |
+| Time            | joda-time              |                    26 | 1-20,22-27               | 21                      |            |            |
