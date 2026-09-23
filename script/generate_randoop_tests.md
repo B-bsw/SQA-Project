@@ -114,7 +114,9 @@ python script/generate_randoop_tests.py
    - ค่าเริ่มต้นหลักภายในโปรเจกต์: `Feedback-Directed Random Test Generation/Configuration/randoop-all-4.3.4.jar`
    - ระบุผ่าน CLI พารามิเตอร์: `--randoop-jar PATH`
    - ค่าเริ่มต้นสำรองบน Windows: `C:\randoop\randoop-all-4.3.4.jar`
-2. **Space-Safe Staging**: หากพาธโฟลเดอร์มีช่องว่าง สคริปต์จะทำการ Stage ไปรันในไดเรกทอรีชั่วคราว (เช่น `/tmp/sqa_randoop/`) โดยอัตโนมัติ แล้วคัดลอกไฟล์ผลลัพธ์ `.java` กลับมาให้
+2. **Output Staging**: ทุกโปรเจกต์สร้าง Test ในไดเรกทอรีชั่วคราวเฉพาะรอบ (เช่น `/tmp/sqa_randoop/Codec_13-.../`) และคัดลอก `.java` ไป `TestCode/<Project>_buggy/` เฉพาะเมื่อ Randoop สำเร็จและมีไฟล์ Test
+3. หลังสร้างไฟล์ Test สำเร็จและบันทึกสถานะแล้ว สคริปต์จะลบ staging ของโปรเจกต์, checkout ชั่วคราว และ `BuildClasses/<Project>/` ที่ใช้คอมไพล์ โดยเก็บไฟล์ Test ใน `TestCode/` ไว้ การรันซ้ำด้วย `--overwrite` อาจต้องคอมไพล์ใหม่
+4. เมื่อกด Ctrl+C ระหว่างสร้าง Test (รวมถึงการยกเลิกผ่าน parallel launcher) สคริปต์จะหยุด Java และลบ staging ของรอบนั้น โดยไม่สร้างโฟลเดอร์ TestCode ของโปรเจกต์ที่ยังไม่สำเร็จ ไฟล์ Test เดิมที่มีอยู่จะยังอยู่ ส่วน BuildClasses/checkout ที่สร้างก่อนเริ่ม Randoop อาจยังคงอยู่เพื่อให้รันต่อได้
 
 ---
 
@@ -128,6 +130,8 @@ python script/generate_randoop_tests.py --dry-run -n 5
 ### 5.2 รันเฉพาะโปรเจกต์ที่ต้องการ
 ```bash
 python script/generate_randoop_tests.py --project Mockito_2 --time-limit 60
+# รันทุกเวอร์ชันในกลุ่ม Mockito (เช่น Mockito_1 ถึง Mockito_38)
+python script/generate_randoop_tests.py --project Mockito --time-limit 60
 ```
 
 ### 5.3 รันโดยระบุตำแหน่งโฟลเดอร์ Compiled Classes เอง
@@ -173,13 +177,28 @@ python script/generate_randoop_tests.py -n 20
 bash script/generate_randoop_tests.sh -n 10 --time-limit 60
 ```
 
+### 5.10 รันหลายกลุ่มพร้อมกัน (แยก State แบบ DeepSeek)
+
+หยุด generator ของ Randoop ที่รันอยู่ก่อน แล้วเรียก launcher จาก WSL เพียงครั้งเดียว แต่ละ worker รับกลุ่มโปรเจกต์ไม่ซ้ำกัน และบันทึกสถานะแยกที่ `Feedback-Directed Random Test Generation/state/<กลุ่ม>.json` เมื่อเริ่ม launcher จะรวมผลเดิมจาก `generation_state.json` เข้ากับ state แยกโดยเก็บรายการที่มี timestamp ใหม่กว่า การเรียกคำสั่งเดิมอีกครั้งจะข้ามรายการที่สำเร็จแล้ว
+
+Launcher จะรวมความคืบหน้ากลับไปที่ `generation_state.json` ทุก 10 วินาที เมื่อกลุ่มงานจบ และก่อนออกจากโปรแกรม เพื่อให้ `python3 script/generate_randoop_tests.py --status` กับระบบข้ามงานเดิมยังเห็นผลล่าสุดจาก worker โดยไม่ต้องอ่านไฟล์ state แยกเอง `--status` และ `--dry-run` ของ launcher อ่านอย่างเดียวและไม่อัปเดตไฟล์
+
+```bash
+python3 script/run_randoop_parallel.py --workers 2
+python3 script/run_randoop_parallel.py --workers 2 --projects Cli Chart
+python3 script/run_randoop_parallel.py --workers 2 --projects Cli Chart --dry-run
+python3 script/run_randoop_parallel.py --projects Cli Chart --status
+```
+
+ใช้ `--time-limit 60`, `--jvm-memory 3000m`, `--data-dir PATH` และ `--overwrite` ได้เช่นเดียวกับ generator เดิม `--jvm-memory` เป็นค่าต่อ worker จึงควรกำหนดจำนวน worker ตาม RAM ที่มี Launcher ส่งคืนรหัส 1 หากกลุ่มใดยังมี `FAILED` หรือ `PENDING` อยู่ ผล `FAILED` เดิม (เช่น `Mockito_14` และ `Mockito_16`) จะยังเป็น `FAILED` ใน state แยก และการรันจะลองใหม่ด้วย Randoop ค่าเดิมโดยไม่มีข้อยกเว้นเฉพาะโปรเจกต์
+
 ---
 
 ## 6. พารามิเตอร์ทั้งหมด (CLI Arguments)
 
 | Argument | Shorthand | ค่าเริ่มต้น | คำอธิบาย |
 | :--- | :--- | :--- | :--- |
-| `--project` | `-p` | `None` | ระบุชื่อโปรเจกต์ เช่น `Codec_1`, `Chart_1` (ไม่ระบุ = ทุกโปรเจกต์) |
+| `--project` | `-p` | `None` | ระบุชื่อโปรเจกต์ เช่น `Mockito_2` หรือชื่อกลุ่ม เช่น `Mockito` เพื่อเลือกทุกเวอร์ชัน (ไม่ระบุ = ทุกโปรเจกต์) |
 | `--time-limit` | `-t` | `60` | ระยะเวลาสร้างเทสต์ต่อโปรเจกต์ (วินาที) |
 | `--classes-dir` | `-cp` | Auto-detect | ตำแหน่งโฟลเดอร์ compiled `.class` (เช่น `target/classes` หรือ `build/classes`) |
 | `--randoop-jar` | - | Auto-detect | พาธไฟล์ `randoop-all-4.3.4.jar` |

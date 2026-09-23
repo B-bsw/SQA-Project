@@ -1,0 +1,323 @@
+{
+  "JxPath_15": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_15_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_15",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.axes.UnionContext"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/axes/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/axes/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:25:54.548066"
+  },
+  "JxPath_18": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_18_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_18",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.axes.AttributeContext"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/axes/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/axes/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:27:10.367177"
+  },
+  "JxPath_8": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_8_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_8",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:28:25.398093"
+  },
+  "JxPath_10": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_10_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_10",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:29:41.247987"
+  },
+  "JxPath_6": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_6_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_6",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationCompare"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:30:55.657281"
+  },
+  "JxPath_2": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_2_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_2",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.compiler.Expression"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:32:10.069736"
+  },
+  "JxPath_20": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_20_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_20",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:33:24.729121"
+  },
+  "JxPath_9": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_9_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_9",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationCompare",
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationEqual",
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationNotEqual"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:34:40.416040"
+  },
+  "JxPath_3": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_3_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_3",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.beans.NullPropertyPointer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/beans/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/beans/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:35:55.674654"
+  },
+  "JxPath_21": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_21_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_21",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.beans.PropertyPointer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/beans/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/beans/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:37:10.835440"
+  },
+  "JxPath_7": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_7_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_7",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationGreaterThan",
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationGreaterThanOrEqual",
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationLessThan",
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationLessThanOrEqual",
+      "org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:38:25.464382"
+  },
+  "JxPath_11": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_11_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_11",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.dom.DOMAttributeIterator",
+      "org.apache.commons.jxpath.ri.model.jdom.JDOMAttributeIterator"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:39:38.926427"
+  },
+  "JxPath_17": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_17_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_17",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.dom.DOMAttributeIterator",
+      "org.apache.commons.jxpath.ri.model.jdom.JDOMAttributeIterator"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:40:55.716059"
+  },
+  "JxPath_5": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_5_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_5",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.NodePointer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:42:13.373622"
+  },
+  "JxPath_12": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_12_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_12",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:43:33.778412"
+  },
+  "JxPath_14": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_14_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_14",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.compiler.CoreFunction"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/compiler/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:44:52.479591"
+  },
+  "JxPath_22": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_22_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_22",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:46:13.510795"
+  },
+  "JxPath_13": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_13_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_13",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.NamespaceResolver",
+      "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:47:31.547773"
+  },
+  "JxPath_1": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_1_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_1",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer",
+      "org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:48:50.716063"
+  },
+  "JxPath_4": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_4_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_4",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer",
+      "org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:50:08.275781"
+  },
+  "JxPath_19": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_19_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_19",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer",
+      "org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:51:30.722563"
+  },
+  "JxPath_16": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/JxPath_16_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/JxPath_16",
+    "classes_tested": [
+      "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer",
+      "org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest0.java",
+      "org/apache/commons/jxpath/ri/model/dom/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T10:52:51.514661"
+  }
+}

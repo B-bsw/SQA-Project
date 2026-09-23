@@ -1,0 +1,531 @@
+{
+  "Mockito_2": {
+    "source": "DISK_SYNC",
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_2_buggy",
+    "generated_tests": [
+      "Mockito_2_buggy/org/mockito/internal/util/RegressionTest.java",
+      "Mockito_2_buggy/org/mockito/internal/util/RegressionTest0.java"
+    ],
+    "note": "ตรวจพบไฟล์ Test ที่มีอยู่แล้วบนดิสก์",
+    "status": "COMPLETED",
+    "timestamp": "2026-09-19T00:50:23.333507"
+  },
+  "Mockito_12": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_12_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/BuildClasses/Mockito_12",
+    "classes_tested": [
+      "org.mockito.internal.util.reflection.GenericMaster"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/util/reflection/RegressionTest.java",
+      "org/mockito/internal/util/reflection/RegressionTest0.java"
+    ],
+    "time_limit": 5,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-19T00:54:16.955793"
+  },
+  "Mockito_22": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_22_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/BuildClasses/Mockito_22",
+    "classes_tested": [
+      "org.mockito.internal.matchers.Equality"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/matchers/RegressionTest.java",
+      "org/mockito/internal/matchers/RegressionTest0.java"
+    ],
+    "time_limit": 5,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-19T00:54:41.258078"
+  },
+  "Mockito_29": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_29_buggy",
+    "classes_dir": "/tmp/d4j_test/mockito_29/target/classes",
+    "classes_tested": [
+      "org.mockito.internal.matchers.Same"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/matchers/RegressionTest.java",
+      "org/mockito/internal/matchers/RegressionTest0.java"
+    ],
+    "time_limit": 10,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-19T00:58:38.322893"
+  },
+  "Mockito_15": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_15_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_15",
+    "classes_tested": [
+      "org.mockito.internal.configuration.injection.FinalMockCandidateFilter"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/configuration/injection/RegressionTest.java",
+      "org/mockito/internal/configuration/injection/RegressionTest0.java"
+    ],
+    "time_limit": 10,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-19T01:03:38.882010"
+  },
+  "Mockito_11": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_11_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_11",
+    "classes_tested": [
+      "org.mockito.internal.creation.DelegatingMethod"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/creation/RegressionTest.java",
+      "org/mockito/internal/creation/RegressionTest0.java"
+    ],
+    "time_limit": 10,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-19T01:10:44.320764"
+  },
+  "Mockito_21": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_21_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_21",
+    "classes_tested": [
+      "org.mockito.internal.creation.instance.ConstructorInstantiator"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/creation/instance/RegressionTest.java",
+      "org/mockito/internal/creation/instance/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-18T11:17:40.365049"
+  },
+  "Mockito_38": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_38_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_38",
+    "classes_tested": [
+      "org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/verification/argumentmatching/RegressionTest.java",
+      "org/mockito/internal/verification/argumentmatching/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-18T11:19:21.548713"
+  },
+  "Mockito_9": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_9_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_9",
+    "classes_tested": [
+      "org.mockito.internal.stubbing.answers.CallsRealMethods"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/stubbing/answers/RegressionTest.java",
+      "org/mockito/internal/stubbing/answers/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T07:36:04.229780"
+  },
+  "Mockito_37": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_37_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_37",
+    "classes_tested": [
+      "org.mockito.internal.stubbing.answers.AnswersValidator"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/stubbing/answers/RegressionTest.java",
+      "org/mockito/internal/stubbing/answers/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T07:37:07.483188"
+  },
+  "Mockito_26": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_26_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_26",
+    "classes_tested": [
+      "org.mockito.internal.util.Primitives"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/util/RegressionTest.java",
+      "org/mockito/internal/util/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T07:38:11.231572"
+  },
+  "Mockito_32": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_32_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_32",
+    "classes_tested": [
+      "org.mockito.internal.configuration.SpyAnnotationEngine"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/configuration/RegressionTest.java",
+      "org/mockito/internal/configuration/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T07:39:34.128927"
+  },
+  "Mockito_31": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_31_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_31",
+    "classes_tested": [
+      "org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/stubbing/defaultanswers/RegressionTest.java",
+      "org/mockito/internal/stubbing/defaultanswers/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T07:40:56.295712"
+  },
+  "Mockito_34": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_34_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_34",
+    "classes_tested": [
+      "org.mockito.internal.invocation.InvocationMatcher"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/invocation/RegressionTest.java",
+      "org/mockito/internal/invocation/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T07:42:18.319225"
+  },
+  "Mockito_25": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_25_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_25",
+    "classes_tested": [
+      "org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/stubbing/defaultanswers/RegressionTest.java",
+      "org/mockito/internal/stubbing/defaultanswers/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T07:43:55.512965"
+  },
+  "Mockito_28": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_28_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_28",
+    "classes_tested": [
+      "org.mockito.internal.configuration.DefaultInjectionEngine"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/configuration/RegressionTest.java",
+      "org/mockito/internal/configuration/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T07:45:18.601413"
+  },
+  "Mockito_27": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_27_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_27",
+    "classes_tested": [
+      "org.mockito.internal.util.MockUtil"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/util/RegressionTest.java",
+      "org/mockito/internal/util/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T07:46:45.386243"
+  },
+  "Mockito_33": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_33_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_33",
+    "classes_tested": [
+      "org.mockito.internal.invocation.InvocationMatcher"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/invocation/RegressionTest.java",
+      "org/mockito/internal/invocation/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T07:48:07.286298"
+  },
+  "Mockito_24": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_24_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_24",
+    "classes_tested": [
+      "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/stubbing/defaultanswers/RegressionTest.java",
+      "org/mockito/internal/stubbing/defaultanswers/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T07:50:10.990768"
+  },
+  "Mockito_18": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_18_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_18",
+    "classes_tested": [
+      "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/stubbing/defaultanswers/RegressionTest.java",
+      "org/mockito/internal/stubbing/defaultanswers/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T07:52:45.258553"
+  },
+  "Mockito_23": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_23_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_23",
+    "classes_tested": [
+      "org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/stubbing/defaultanswers/RegressionTest.java",
+      "org/mockito/internal/stubbing/defaultanswers/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T07:54:38.299785"
+  },
+  "Mockito_20": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_20_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_20",
+    "classes_tested": [
+      "org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/creation/bytebuddy/RegressionTest.java",
+      "org/mockito/internal/creation/bytebuddy/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T07:57:13.962913"
+  },
+  "Mockito_13": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_13_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_13",
+    "classes_tested": [
+      "org.mockito.internal.MockHandler"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/RegressionTest.java",
+      "org/mockito/internal/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T07:58:39.163486"
+  },
+  "Mockito_3": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_3_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_3",
+    "classes_tested": [
+      "org.mockito.internal.invocation.InvocationMatcher"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/invocation/RegressionTest.java",
+      "org/mockito/internal/invocation/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T08:01:13.677829"
+  },
+  "Mockito_17": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_17_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_17",
+    "classes_tested": [
+      "org.mockito.internal.creation.MockSettingsImpl",
+      "org.mockito.internal.util.MockUtil"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/creation/RegressionTest.java",
+      "org/mockito/internal/creation/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T08:02:37.102480"
+  },
+  "Mockito_5": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_5_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_5",
+    "classes_tested": [
+      "org.mockito.internal.verification.VerificationOverTimeImpl"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/verification/RegressionTest.java",
+      "org/mockito/internal/verification/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T08:05:12.213190"
+  },
+  "Mockito_1": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_1_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_1",
+    "classes_tested": [
+      "org.mockito.internal.invocation.InvocationMatcher"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/invocation/RegressionTest.java",
+      "org/mockito/internal/invocation/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T08:07:50.079582"
+  },
+  "Mockito_10": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_10_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_10",
+    "classes_tested": [
+      "org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/stubbing/defaultanswers/RegressionTest.java",
+      "org/mockito/internal/stubbing/defaultanswers/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T08:10:22.631897"
+  },
+  "Mockito_36": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_36_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_36",
+    "classes_tested": [
+      "org.mockito.internal.invocation.Invocation"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/invocation/RegressionTest.java",
+      "org/mockito/internal/invocation/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T08:11:45.127963"
+  },
+  "Mockito_19": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_19_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_19",
+    "classes_tested": [
+      "org.mockito.internal.configuration.injection.PropertyAndSetterInjection",
+      "org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter",
+      "org.mockito.internal.configuration.injection.filter.MockCandidateFilter",
+      "org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter",
+      "org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/configuration/injection/filter/RegressionTest.java",
+      "org/mockito/internal/configuration/injection/filter/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T08:14:19.860417"
+  },
+  "Mockito_14": {
+    "status": "FAILED",
+    "error": "Randoop ออกจากระบบด้วยรหัส 1\nstdout (ท้าย 20 บรรทัด):\n\tat randoop.output.FailingAssertionCommentWriter.writeClassCode(FailingAssertionCommentWriter.java:176)\n\tat randoop.main.GenTests.writeTestFiles(GenTests.java:1003)\n\tat randoop.main.GenTests.handle(GenTests.java:635)\n\tat randoop.main.Main.nonStaticMain(Main.java:69)\n\tat randoop.main.Main.main(Main.java:31)\n\nThrowable thrown while handling command: randoop.output.FailingAssertionCommentWriter$NotMatchedException: NotMatchedException(\\s+at\\s+\\Qorg.mockito.internal.RegressionTest0\\E\\.\\Qtest21\\E\\(\\QRegressionTest0\\E\\.java:(\\d+)\\))\nrandoop.output.FailingAssertionCommentWriter$NotMatchedException: NotMatchedException(\\s+at\\s+\\Qorg.mockito.internal.RegressionTest0\\E\\.\\Qtest21\\E\\(\\QRegressionTest0\\E\\.java:(\\d+)\\))\n\tat randoop.output.FailingAssertionCommentWriter.readUntilMatch(FailingAssertionCommentWriter.java:551)\n\tat randoop.output.FailingAssertionCommentWriter.commentFailingAssertions(FailingAssertionCommentWriter.java:354)\n\tat randoop.output.FailingAssertionCommentWriter.writeClassCode(FailingAssertionCommentWriter.java:176)\n\tat randoop.main.GenTests.writeTestFiles(GenTests.java:1003)\n\tat randoop.main.GenTests.handle(GenTests.java:635)\n\tat randoop.main.Main.nonStaticMain(Main.java:69)\n\tat randoop.main.Main.main(Main.java:31)\n\nRandoop failed.\nLast sequence under execution: \norg.mockito.internal.MockHandlerInterface<org.mockito.stubbing.VoidMethodStubbable<java.lang.reflect.AnnotatedElement>> annotatedElementVoidMethodStubbableMockHandlerInterface0 = null;\norg.mockito.internal.MockHandler<org.mockito.stubbing.VoidMethodStubbable<java.lang.reflect.AnnotatedElement>> annotatedElementVoidMethodStubbableMockHandler1 = new org.mockito.internal.MockHandler<org.mockito.stubbing.VoidMethodStubbable<java.lang.reflect.AnnotatedElement>>(annotatedElementVoidMethodStubbableMockHandlerInterface0);",
+    "classes": [
+      "org.mockito.internal.MockHandler",
+      "org.mockito.internal.MockitoCore"
+    ],
+    "timestamp": "2026-09-22T08:56:42.231007"
+  },
+  "Mockito_35": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_35_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_35",
+    "classes_tested": [
+      "org.mockito.Matchers"
+    ],
+    "generated_tests": [
+      "org/mockito/RegressionTest.java",
+      "org/mockito/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T08:17:07.217388"
+  },
+  "Mockito_8": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_8_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_8",
+    "classes_tested": [
+      "org.mockito.internal.util.reflection.GenericMetadataSupport"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/util/reflection/RegressionTest.java",
+      "org/mockito/internal/util/reflection/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T08:19:46.157766"
+  },
+  "Mockito_7": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_7_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_7",
+    "classes_tested": [
+      "org.mockito.internal.util.reflection.GenericMetadataSupport"
+    ],
+    "generated_tests": [
+      "org/mockito/internal/util/reflection/RegressionTest.java",
+      "org/mockito/internal/util/reflection/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T08:22:16.173257"
+  },
+  "Mockito_30": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_30_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_30",
+    "classes_tested": [
+      "org.mockito.exceptions.Reporter",
+      "org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls"
+    ],
+    "generated_tests": [
+      "org/mockito/exceptions/ErrorTest.java",
+      "org/mockito/exceptions/ErrorTest0.java",
+      "org/mockito/exceptions/RegressionTest.java",
+      "org/mockito/exceptions/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T08:23:40.675901"
+  },
+  "Mockito_6": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_6_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_6",
+    "classes_tested": [
+      "org.mockito.Matchers"
+    ],
+    "generated_tests": [
+      "org/mockito/RegressionTest.java",
+      "org/mockito/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T08:26:04.968724"
+  },
+  "Mockito_4": {
+    "output_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Mockito_4_buggy",
+    "classes_dir": "/mnt/e/JavaEclipe/defect4j/SQA-Project/BuildClasses/Mockito_4",
+    "classes_tested": [
+      "org.mockito.exceptions.Reporter"
+    ],
+    "generated_tests": [
+      "org/mockito/exceptions/ErrorTest.java",
+      "org/mockito/exceptions/ErrorTest0.java",
+      "org/mockito/exceptions/RegressionTest.java",
+      "org/mockito/exceptions/RegressionTest0.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-22T08:28:37.311961"
+  },
+  "Mockito_16": {
+    "status": "FAILED",
+    "error": "Randoop ออกจากระบบด้วยรหัส 1\nstdout (ท้าย 20 บรรทัด):\n\tat randoop.output.FailingAssertionCommentWriter.commentFailingAssertions(FailingAssertionCommentWriter.java:354)\n\tat randoop.output.FailingAssertionCommentWriter.writeClassCode(FailingAssertionCommentWriter.java:176)\n\tat randoop.main.GenTests.writeTestFiles(GenTests.java:1003)\n\tat randoop.main.GenTests.handle(GenTests.java:635)\n\tat randoop.main.Main.nonStaticMain(Main.java:69)\n\tat randoop.main.Main.main(Main.java:31)\n\nThrowable thrown while handling command: randoop.output.FailingAssertionCommentWriter$NotMatchedException: NotMatchedException(\\s+at\\s+\\Qorg.mockito.RegressionTest0\\E\\.\\Qtest050\\E\\(\\QRegressionTest0\\E\\.java:(\\d+)\\))\nrandoop.output.FailingAssertionCommentWriter$NotMatchedException: NotMatchedException(\\s+at\\s+\\Qorg.mockito.RegressionTest0\\E\\.\\Qtest050\\E\\(\\QRegressionTest0\\E\\.java:(\\d+)\\))\n\tat randoop.output.FailingAssertionCommentWriter.readUntilMatch(FailingAssertionCommentWriter.java:551)\n\tat randoop.output.FailingAssertionCommentWriter.commentFailingAssertions(FailingAssertionCommentWriter.java:354)\n\tat randoop.output.FailingAssertionCommentWriter.writeClassCode(FailingAssertionCommentWriter.java:176)\n\tat randoop.main.GenTests.writeTestFiles(GenTests.java:1003)\n\tat randoop.main.GenTests.handle(GenTests.java:635)\n\tat randoop.main.Main.nonStaticMain(Main.java:69)\n\tat randoop.main.Main.main(Main.java:31)\n\nRandoop failed.\nLast sequence under execution: \njava.lang.String str1 = org.mockito.Matchers.endsWith(\"\");",
+    "classes": [
+      "org.mockito.Mockito",
+      "org.mockito.internal.MockitoCore"
+    ],
+    "timestamp": "2026-09-22T08:58:03.382358"
+  }
+}

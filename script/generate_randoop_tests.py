@@ -31,6 +31,7 @@ import tempfile
 import argparse
 import subprocess
 import platform
+import signal
 from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Optional, Tuple, Set
@@ -508,7 +509,8 @@ def sync_existing_tests_to_memory(
     synced_count = 0
 
     for proj in project_folders:
-        if not memory_manager.is_completed(proj):
+        # อย่าตีความไฟล์ที่ Randoop สร้างค้างไว้ระหว่างรันล้มเหลวว่าเสร็จสมบูรณ์
+        if proj not in memory_manager.state_data:
             if proj in existing_index or f"{proj}_buggy" in existing_index:
                 target_dir = test_code_dir / f"{proj}_buggy"
                 if not target_dir.exists():
@@ -544,7 +546,9 @@ def scan_resource_projects(
 
     entries = [d for d in resource_dir.iterdir() if d.is_dir()]
     if filter_project:
-        entries = [d for d in entries if d.name.lower() == filter_project.lower()]
+        filter_name = filter_project.lower()
+        exact_matches = [d for d in entries if d.name.lower() == filter_name]
+        entries = exact_matches or [d for d in entries if d.name.lower().startswith(filter_name + "_")]
     entries.sort(key=lambda x: x.name)
 
     projects_data = []
@@ -555,9 +559,6 @@ def scan_resource_projects(
     for idx, proj_dir in enumerate(entries, start=1):
         if idx % 25 == 0 or idx == len(entries):
             print(f"\r  ⏳ กำลังสแกนโปรเจกต์: [{idx}/{len(entries)}]", end="", flush=True)
-
-        if filter_project and proj_dir.name.lower() != filter_project.lower():
-            continue
 
         java_files = list(proj_dir.glob("**/*.java"))
         if not java_files:
@@ -686,7 +687,7 @@ def collect_project_classpath_entries(
 # Core Randoop Runner Function
 # ==============================================================================
 
-def run_randoop_for_project(
+def _run_randoop_for_project(
     project_info: dict,
     randoop_jar: Path,
     classes_dir: Path,
@@ -697,7 +698,8 @@ def run_randoop_for_project(
     workspace_dir: Optional[Path] = None,
     dry_run: bool = False,
     quiet: bool = False,
-    data_dir: Optional[Path] = None
+    data_dir: Optional[Path] = None,
+    staging_root: Optional[Path] = None
 ) -> Tuple[bool, str, List[str]]:
     """
     ดำเนินการรัน Randoop gentests สำหรับโปรเจกต์ที่กำหนด:
@@ -717,19 +719,16 @@ def run_randoop_for_project(
     # 0. ตรวจหา Root Directory ที่ถูกต้องสำหรับ Package (เช่น BuildClasses/Mockito_11/java/main)
     classes_dir = find_effective_class_root(classes_dir, primary_pkg)
 
-    output_dir.mkdir(parents=True, exist_ok=True)
-
     # ตรวจสอบว่ามี path ที่มีเว้นวรรคหรือไม่ (เช่น "Feedback-Directed Random Test Generation")
-    has_spaces = (" " in str(randoop_jar)) or (" " in str(classes_dir)) or (" " in str(output_dir))
+    if staging_root is None:
+        raise ValueError("staging_root is required")
 
-    # ถ้ามีเว้นวรรค ให้ใช้ Staging directory ใน tempfile (ไม่มีเว้นวรรค)
-    if has_spaces and not dry_run:
-        staging_root = Path(tempfile.gettempdir()) / "sqa_randoop"
-        staging_root.mkdir(parents=True, exist_ok=True)
-
+    # ทุกครั้งสร้างผลลัพธ์ใน staging เฉพาะรอบก่อนเผยแพร่ไปยัง output_dir
+    if not dry_run:
         # 1. Staged Jar
         if " " in str(randoop_jar):
-            staged_jar = staging_root / randoop_jar.name
+            staged_jar = staging_root / "jars" / randoop_jar.name
+            staged_jar.parent.mkdir(parents=True, exist_ok=True)
             if not staged_jar.exists() or staged_jar.stat().st_mtime < randoop_jar.stat().st_mtime:
                 try:
                     shutil.copy2(str(randoop_jar), str(staged_jar))
@@ -740,7 +739,7 @@ def run_randoop_for_project(
 
         # 2. Staged Classes Dir
         if " " in str(classes_dir):
-            staged_classes = staging_root / "classes" / proj_name
+            staged_classes = staging_root / "classes"
             staged_classes.mkdir(parents=True, exist_ok=True)
             for cf in classes_dir.glob("**/*.class"):
                 rel = cf.relative_to(classes_dir)
@@ -755,25 +754,26 @@ def run_randoop_for_project(
             staged_classes = classes_dir
 
         # 3. Staged Output Dir
-        staged_out = staging_root / "out" / proj_name
+        staged_out = staging_root / "out"
         staged_out.mkdir(parents=True, exist_ok=True)
         exec_out_dir = staged_out
         exec_jar = staged_jar
         exec_classes = staged_classes
     else:
-        exec_out_dir = output_dir
+        exec_out_dir = staging_root / "out"
         exec_jar = randoop_jar
         exec_classes = classes_dir
 
     temp_classlist = exec_out_dir / f"classlist_{proj_name}.txt"
 
-    # 1. สร้าง classlist.txt
-    try:
-        with open(temp_classlist, "w", encoding="utf-8") as f:
-            for fqcn in fqcns:
-                f.write(f"{fqcn}\n")
-    except Exception as e:
-        return False, f"ไม่สามารถสร้างไฟล์ classlist.txt ได้: {e}", []
+    # 1. สร้าง classlist.txt เฉพาะการรันจริง
+    if not dry_run:
+        try:
+            with open(temp_classlist, "w", encoding="utf-8") as f:
+                for fqcn in fqcns:
+                    f.write(f"{fqcn}\n")
+        except Exception as e:
+            return False, f"ไม่สามารถสร้างไฟล์ classlist.txt ได้: {e}", []
 
     # 2. เตรียม Classpath พร้อมรวบรวม dependency JARs
     extra_cps = collect_project_classpath_entries(proj_name, workspace_dir, data_dir=data_dir)
@@ -795,13 +795,12 @@ def run_randoop_for_project(
         cmd.append(f"--junit-package-name={primary_pkg}")
 
     if dry_run:
-        if temp_classlist.exists():
-            temp_classlist.unlink()
         cmd_display = " ".join(f'"{c}"' if " " in c or os.pathsep in c else c for c in cmd)
         return True, f"[DRY-RUN] คำสั่งจำลอง:\n    {cmd_display}", []
 
     # 3. รัน subprocess
     start_time = time.time()
+    process = None
     try:
         process = subprocess.Popen(
             cmd,
@@ -810,39 +809,144 @@ def run_randoop_for_project(
             stderr=subprocess.PIPE,
             text=True,
             encoding="utf-8",
-            errors="replace"
+            errors="replace",
+            start_new_session=(os.name == "posix")
         )
         stdout, stderr = process.communicate()
+    except KeyboardInterrupt:
+        if process is not None:
+            _stop_randoop_process(process)
+        raise
     except Exception as e:
-        if temp_classlist.exists():
-            temp_classlist.unlink()
+        if process is not None:
+            _stop_randoop_process(process)
         return False, f"เกิดข้อผิดพลาดในการเรียก Java: {e}", []
 
     elapsed = time.time() - start_time
 
-    if temp_classlist.exists():
-        temp_classlist.unlink()
+    # เผยแพร่เฉพาะผลลัพธ์จากรอบที่ Randoop สำเร็จ
+    generated_files = list(exec_out_dir.glob("**/*Test*.java"))
+    rel_gen_files = [str(f.relative_to(exec_out_dir)) for f in generated_files]
 
-    # หากใช้ Staging: คัดลอกไฟล์ Test ทั้งหมดที่สร้างได้กลับมาที่ output_dir จริง
-    if has_spaces and exec_out_dir != output_dir:
-        for tf in exec_out_dir.glob("**/*Test*.java"):
-            rel_path = tf.relative_to(exec_out_dir)
-            target_file = output_dir / rel_path
-            target_file.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy2(str(tf), str(target_file))
-
-    # 4. ตรวจสอบผลลัพธ์
-    generated_files = list(output_dir.glob("**/*Test*.java"))
-    rel_gen_files = [str(f.relative_to(output_dir)) for f in generated_files]
-
-    if process.returncode == 0:
+    if process.returncode == 0 and generated_files:
+        output_dir.parent.mkdir(parents=True, exist_ok=True)
+        # คัดลอกให้ครบในโฟลเดอร์ชั่วคราวฝั่งเดียวกับ TestCode ก่อน rename
+        with tempfile.TemporaryDirectory(prefix=f".{output_dir.name}-", dir=output_dir.parent) as publish_dir:
+            publish_path = Path(publish_dir)
+            for tf in generated_files:
+                target_file = publish_path / tf.relative_to(exec_out_dir)
+                target_file.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(tf, target_file)
+            if output_dir.exists():
+                # เก็บผลลัพธ์เก่าของผู้ใช้ไว้ และเพิ่มไฟล์รอบใหม่เข้าไป
+                for tf in generated_files:
+                    source_file = publish_path / tf.relative_to(exec_out_dir)
+                    target_file = output_dir / tf.relative_to(exec_out_dir)
+                    target_file.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copy2(source_file, target_file)
+            else:
+                publish_path.rename(output_dir)
         msg = f"สำเร็จ (ใช้เวลา {elapsed:.1f}s, พบไฟล์ Test: {len(generated_files)} ไฟล์)"
         return True, msg, rel_gen_files
+    elif process.returncode == 0:
+        return False, "Randoop ทำงานสำเร็จแต่ไม่พบไฟล์ Test ในโฟลเดอร์ปลายทาง", []
     else:
-        err_snippet = (stderr.strip() or stdout.strip() or "Unknown error")
-        lines = err_snippet.splitlines()
-        short_err = "\n".join(lines[:5]) if len(lines) > 5 else err_snippet
-        return False, f"Randoop ออกจากระบบด้วยรหัส {process.returncode}\n{short_err}", rel_gen_files
+        details = []
+        for label, output in (("stderr", stderr), ("stdout", stdout)):
+            lines = output.strip().splitlines()
+            if lines:
+                details.append(f"{label} (ท้าย {min(len(lines), 20)} บรรทัด):\n" + "\n".join(lines[-20:]))
+        return False, f"Randoop ออกจากระบบด้วยรหัส {process.returncode}\n" + ("\n".join(details) or "Unknown error"), []
+
+
+def _stop_randoop_process(process: subprocess.Popen) -> None:
+    """Stop Java and its subprocesses before the staging directory is removed."""
+    if process.poll() is not None:
+        return
+    try:
+        if os.name == "posix":
+            os.killpg(process.pid, signal.SIGTERM)
+        else:
+            process.terminate()
+        process.wait(timeout=5)
+    except (ProcessLookupError, OSError, subprocess.TimeoutExpired):
+        if process.poll() is None:
+            try:
+                if os.name == "posix":
+                    os.killpg(process.pid, signal.SIGKILL)
+                else:
+                    process.kill()
+                process.wait(timeout=5)
+            except (ProcessLookupError, OSError, subprocess.TimeoutExpired):
+                pass
+
+
+def run_randoop_for_project(
+    project_info: dict,
+    randoop_jar: Path,
+    classes_dir: Path,
+    output_dir: Path,
+    time_limit: int,
+    tests_per_file: int = 500,
+    jvm_max_memory: str = "3000m",
+    workspace_dir: Optional[Path] = None,
+    dry_run: bool = False,
+    quiet: bool = False,
+    data_dir: Optional[Path] = None,
+) -> Tuple[bool, str, List[str]]:
+    """Isolate one run so failed or interrupted output is automatically discarded."""
+    kwargs = dict(project_info=project_info, randoop_jar=randoop_jar,
+                  classes_dir=classes_dir, output_dir=output_dir,
+                  time_limit=time_limit, tests_per_file=tests_per_file,
+                  jvm_max_memory=jvm_max_memory, workspace_dir=workspace_dir,
+                  dry_run=dry_run, quiet=quiet, data_dir=data_dir)
+    temp_parent = Path(tempfile.gettempdir()) / "sqa_randoop"
+    if dry_run:
+        return _run_randoop_for_project(**kwargs, staging_root=temp_parent / "dry-run")
+    temp_parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix=f"{project_info['project_name']}-", dir=temp_parent) as temp_dir:
+        return _run_randoop_for_project(**kwargs, staging_root=Path(temp_dir))
+
+
+def cleanup_generated_artifacts(project_name: str, workspace_dir: Path, classes_dir: Path, randoop_jar: Path, output_dir: Path, custom_classes: bool = False):
+    """ลบเฉพาะแคชและไฟล์ชั่วคราวที่สคริปต์สร้างสำหรับโปรเจกต์ที่สำเร็จแล้ว"""
+    build_base = (workspace_dir / "BuildClasses").resolve()
+    build_cache = build_base / project_name
+    staging_root = Path(tempfile.gettempdir()) / "sqa_randoop"
+    if platform.system() != "Windows" or os.environ.get("WSL_DISTRO_NAME"):
+        checkout_dir = Path("/tmp/sqa_d4j_work") / f"{project_name}_buggy"
+    else:
+        checkout_dir = build_base / "d4j_work" / f"{project_name}_buggy"
+
+    targets = [
+        (staging_root / "out" / project_name, staging_root / "out"),
+        (staging_root / "classes" / project_name, staging_root / "classes"),
+        (checkout_dir, checkout_dir.parent),
+    ]
+    resolved_classes = classes_dir.resolve()
+    if not custom_classes and (resolved_classes == build_cache or build_cache in resolved_classes.parents):
+        targets.append((build_cache, build_base))
+    if " " in str(randoop_jar):
+        targets.append((staging_root / "jars" / project_name, staging_root / "jars"))
+
+    resolved_output = output_dir.resolve()
+    for target, expected_parent in targets:
+        if target.parent.resolve() != expected_parent.resolve():
+            continue
+        resolved_target = target.resolve()
+        if resolved_output == resolved_target or resolved_target in resolved_output.parents:
+            continue
+        if custom_classes and (resolved_classes == resolved_target or resolved_target in resolved_classes.parents):
+            continue
+        if resolved_target == randoop_jar.resolve():
+            continue
+        try:
+            if target.is_dir():
+                shutil.rmtree(target)
+            elif target.is_file():
+                target.unlink()
+        except OSError as e:
+            print(f"  ⚠️ ลบไฟล์ชั่วคราวไม่สำเร็จ: {target} ({e})")
 
 
 # ==============================================================================
@@ -925,7 +1029,7 @@ def main():
         """
     )
 
-    parser.add_argument("--project", "-p", help="ระบุโปรเจกต์เฉพาะที่ต้องการรัน (เช่น Codec_1 หรือ Chart_1)")
+    parser.add_argument("--project", "-p", help="ระบุโปรเจกต์เฉพาะ (เช่น Mockito_2) หรือทั้งกลุ่ม (เช่น Mockito)")
     parser.add_argument("--time-limit", "-t", type=int, default=60, help="ระยะเวลาสร้างเทสต์ต่อโปรเจกต์ (วินาที, ค่าเริ่มต้น: 60)")
     parser.add_argument("--classes-dir", "-cp", help="ตำแหน่งโฟลเดอร์ compiled .class (เช่น target/classes หรือ build/classes)")
     parser.add_argument("--randoop-jar", help="พาธไฟล์ randoop-all-4.3.4.jar (หากไม่ระบุจะค้นหาอัตโนมัติ)")
@@ -1110,6 +1214,7 @@ def main():
                     "generated_tests": gen_files,
                     "time_limit": args.time_limit
                 })
+                cleanup_generated_artifacts(pname, workspace_dir, classes_dir, randoop_jar, dest_folder, bool(args.classes_dir))
                 success_count += 1
         else:
             print(f"  ❌ ล้มเหลว: {msg}")
@@ -1131,4 +1236,12 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    def _interrupt_on_term(signum, frame):
+        raise KeyboardInterrupt
+
+    signal.signal(signal.SIGTERM, _interrupt_on_term)
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\n⏹️ ยกเลิกการทำงานแล้ว; ผลลัพธ์ชั่วคราวของโปรเจกต์ปัจจุบันถูกลบ", flush=True)
+        sys.exit(130)
