@@ -665,5 +665,51 @@
       "daily_remaining_tokens": 346718
     },
     "updated_at": "2026-09-23T02:20:09.478960"
+  },
+  "Time_8/org/joda/time/DateTimeZone.java": {
+    "project": "Time_8",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_8/org/joda/time/DateTimeZone.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_8_buggy/DateTimeZoneTest.java",
+    "file_size_bytes": 6487,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6072,
+      "completion_tokens": 10501,
+      "total_tokens": 16573
+    },
+    "content_char_count": 6487,
+    "reasoning_char_count": 35269,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 125.27,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 681006,
+      "daily_remaining_tokens": 318994
+    },
+    "updated_at": "2026-09-23T02:23:03.164466"
+  },
+  "Time_9/org/joda/time/DateTimeZone.java": {
+    "project": "Time_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_9/org/joda/time/DateTimeZone.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_9_buggy/DateTimeZoneTest.java",
+    "file_size_bytes": 10591,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5902,
+      "completion_tokens": 5884,
+      "total_tokens": 11786
+    },
+    "content_char_count": 10591,
+    "reasoning_char_count": 13954,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 50.08,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 692792,
+      "daily_remaining_tokens": 307208
+    },
+    "updated_at": "2026-09-23T02:23:54.320114"
   }
 }

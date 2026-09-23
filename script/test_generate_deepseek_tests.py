@@ -389,6 +389,24 @@ class TestDeepSeekPipelineOffline(unittest.TestCase):
 
 
 class TestParallelProjectRunner(unittest.TestCase):
+    def test_status_reports_total_source_and_pending_files(self):
+        state = {
+            "Cli_1/A.java": {"status": "GENERATED"},
+            "Cli_1/B.java": {"status": "LIMIT_REACHED"},
+            "Removed/Old.java": {"status": "GENERATED"},
+        }
+        key_manager = Mock(total_count=0, keys=[], exhausted_keys=set(), key_quota={})
+        output = io.StringIO()
+        with patch("sys.stdout", output):
+            gen.print_status_report(
+                key_manager, state, None, source_task_ids={
+                    "Cli_1/A.java", "Cli_1/B.java", "Cli_1/C.java"
+                })
+        report = output.getvalue()
+        self.assertIn("ไฟล์ต้นฉบับทั้งหมด: 3 ไฟล์", report)
+        self.assertIn("คงเหลือ (PENDING) : 2 ไฟล์", report)
+        self.assertIn("ยังไม่มี State  : 1 ไฟล์", report)
+
     def test_status_snapshot_overlays_project_state_without_writing(self):
         legacy = {"Cli_1/A.java": {"status": "LIMIT_REACHED"},
                   "Codec_1/B.java": {"status": "GENERATED"}}
@@ -462,6 +480,30 @@ class TestParallelProjectRunner(unittest.TestCase):
         self.assertEqual(save.call_count, 1)
         self.assertEqual(save.call_args.args[1], {"Cli_1/a.java": {"status": "GENERATED"}})
 
+    def test_parallel_sync_updates_global_with_newer_shards(self):
+        legacy = {
+            "Cli_1/a.java": {"status": "LIMIT_REACHED", "updated_at": "2026-09-22T10:00:00"},
+            "Chart_1/b.java": {"status": "GENERATED", "updated_at": "2026-09-22T12:00:00"},
+        }
+        cli = {
+            "Cli_1/a.java": {"status": "GENERATED", "updated_at": "2026-09-22T11:00:00"},
+            "Cli_2/c.java": {"status": "GENERATED", "updated_at": "2026-09-22T11:00:00"},
+        }
+        chart = {
+            "Chart_1/b.java": {"status": "FAILED", "updated_at": "2026-09-22T09:00:00"},
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            (output / "state").mkdir()
+            gen.save_atomic_json(output / "generation_state.json", legacy)
+            gen.save_atomic_json(output / "state" / "Cli.json", cli)
+            gen.save_atomic_json(output / "state" / "Chart.json", chart)
+            self.assertTrue(parallel.sync_global_state(output))
+            merged = gen.load_state(output / "generation_state.json", read_only=True)
+        self.assertEqual(merged["Cli_1/a.java"]["status"], "GENERATED")
+        self.assertEqual(merged["Cli_2/c.java"]["status"], "GENERATED")
+        self.assertEqual(merged["Chart_1/b.java"]["status"], "GENERATED")
+
     def test_parallel_runner_starts_distinct_projects_concurrently(self):
         barrier = threading.Barrier(2)
 
@@ -481,14 +523,17 @@ class TestParallelProjectRunner(unittest.TestCase):
         with patch.object(parallel, "discover_groups", return_value=["Cli", "Chart"]), \
              patch.object(parallel, "get_all_api_keys", return_value=["dummy-1", "dummy-2"]), \
              patch.object(parallel, "seed_project_states"), \
+             patch.object(parallel, "sync_global_state", return_value=False) as sync, \
              patch.object(parallel.subprocess, "Popen", side_effect=lambda *a, **kw: FakeProcess()) as popen, \
              patch("sys.stdout", new_callable=io.StringIO):
-            code = parallel.main(["--workers", "2", "--projects", "Cli", "Chart"])
+            code = parallel.main(["--workers", "2", "--projects", "Cli", "Chart", "--no-budget"])
         self.assertEqual(code, 0)
         self.assertEqual(popen.call_count, 2)
+        self.assertGreaterEqual(sync.call_count, 1)
         commands = [call.args[0] for call in popen.call_args_list]
         self.assertEqual({cmd[cmd.index("--project") + 1] for cmd in commands}, {"Cli", "Chart"})
         self.assertEqual({cmd[cmd.index("--key-index") + 1] for cmd in commands}, {"1", "2"})
+        self.assertTrue(all("--no-budget" in cmd for cmd in commands))
 
 
 if __name__ == "__main__":
