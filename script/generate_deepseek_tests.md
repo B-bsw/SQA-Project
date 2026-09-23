@@ -186,6 +186,8 @@ python script/generate_deepseek_tests.py --status
 
 คำสั่งนี้รวม `generation_state.json` เดิมกับ `Deepseek-flash-v4/state/*.json` ของตัวรันขนาน โดยใช้ task ID กันการนับซ้ำ แสดงงบเดิมและยอดใช้ของบัญชี worker แยกกัน ข้อมูลโควต้าเซิร์ฟเวอร์ที่แสดงมาจาก state พร้อมเวลาที่บันทึกไว้; หากต้องการยอดสดให้ใช้ `--check-quota` (มีการเรียก API)
 
+รายงานจะสแกนไฟล์ Java ปัจจุบันใน `Resoucre` เพื่อแสดงจำนวนไฟล์ต้นฉบับทั้งหมดและ `PENDING` โดย `PENDING` คือไฟล์ที่ยังไม่มีสถานะ `GENERATED/COMPLETED` จึงรวมรายการ `LIMIT_REACHED`, `FAILED` และรายการที่ยังไม่มี state
+
 ### 11.2 ดูแผนงานก่อนรันจริง
 ```bash
 python script/generate_deepseek_tests.py --project Closure_28 --plan
@@ -225,6 +227,8 @@ bash script/generate_deepseek_tests.sh --project Closure_28 --status
 ```bash
 python3 script/run_deepseek_parallel.py --workers 4
 ```
+
+หากต้องการปิด **งบ token ภายในเครื่อง** ของ worker ให้ใส่ `--no-budget` เช่น `python3 script/run_deepseek_parallel.py --workers 5 --no-budget` ตัวเลือกนี้ไม่ยกเลิกโควต้า 1,000,000 tokens/วันต่อคีย์ที่ API กำหนด เมื่อโควต้าฝั่งเซิร์ฟเวอร์หมด worker นั้นยังหยุดและสามารถรันคำสั่งเดิมต่อได้หลังโควต้ารีเซ็ต
 
 เฉพาะ Cli และ Chart หรือดูการแบ่งงานแบบ offline ก่อนรัน:
 

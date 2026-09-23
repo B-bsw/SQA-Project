@@ -1,0 +1,669 @@
+{
+  "Time_1/org/joda/time/Partial.java": {
+    "project": "Time_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_1/org/joda/time/Partial.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_1_buggy/PartialTest.java",
+    "file_size_bytes": 8301,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4920,
+      "completion_tokens": 1899,
+      "total_tokens": 6819
+    },
+    "content_char_count": 8310,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 62.18,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 604228,
+      "daily_remaining_tokens": 395772
+    },
+    "updated_at": "2026-09-22T12:34:43.375953"
+  },
+  "Time_1/org/joda/time/field/UnsupportedDurationField.java": {
+    "project": "Time_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_1/org/joda/time/field/UnsupportedDurationField.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_1_buggy/UnsupportedDurationFieldTest.java",
+    "file_size_bytes": 12434,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2775,
+      "completion_tokens": 2612,
+      "total_tokens": 5387
+    },
+    "content_char_count": 12446,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 85.42,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 609615,
+      "daily_remaining_tokens": 390385
+    },
+    "updated_at": "2026-09-22T12:36:09.881789"
+  },
+  "Time_10/org/joda/time/base/BaseSingleFieldPeriod.java": {
+    "project": "Time_10",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_10/org/joda/time/base/BaseSingleFieldPeriod.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_10_buggy/BaseSingleFieldPeriodTest.java",
+    "file_size_bytes": 10197,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4047,
+      "completion_tokens": 2248,
+      "total_tokens": 6295
+    },
+    "content_char_count": 10209,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 72.39,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 615910,
+      "daily_remaining_tokens": 384090
+    },
+    "updated_at": "2026-09-22T12:37:23.356655"
+  },
+  "Time_11/org/joda/time/tz/ZoneInfoCompiler.java": {
+    "project": "Time_11",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_11/org/joda/time/tz/ZoneInfoCompiler.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_11_buggy/ZoneInfoCompilerTest.java",
+    "file_size_bytes": 14022,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6647,
+      "completion_tokens": 3232,
+      "total_tokens": 9879
+    },
+    "content_char_count": 14035,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 98.95,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 625789,
+      "daily_remaining_tokens": 374211
+    },
+    "updated_at": "2026-09-22T12:39:03.434540"
+  },
+  "Time_12/org/joda/time/LocalDate.java": {
+    "project": "Time_12",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_12/org/joda/time/LocalDate.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_12_buggy/LocalDateTest.java",
+    "file_size_bytes": 25272,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7071,
+      "completion_tokens": 6029,
+      "total_tokens": 13100
+    },
+    "content_char_count": 25284,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 195.47,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 638889,
+      "daily_remaining_tokens": 361111
+    },
+    "updated_at": "2026-09-22T12:42:20.006838"
+  },
+  "Time_12/org/joda/time/LocalDateTime.java": {
+    "project": "Time_12",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_12/org/joda/time/LocalDateTime.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_12_buggy/LocalDateTimeTest.java",
+    "file_size_bytes": 21530,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7689,
+      "completion_tokens": 5279,
+      "total_tokens": 12968
+    },
+    "content_char_count": 21531,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 162.14,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 651857,
+      "daily_remaining_tokens": 348143
+    },
+    "updated_at": "2026-09-22T12:45:03.234079"
+  },
+  "Time_13/org/joda/time/format/PeriodFormatterBuilder.java": {
+    "project": "Time_13",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_13/org/joda/time/format/PeriodFormatterBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_13_buggy/PeriodFormatterBuilderTest.java",
+    "file_size_bytes": 9085,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 11001,
+      "completion_tokens": 1885,
+      "total_tokens": 12886
+    },
+    "content_char_count": 9085,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 58.74,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 664743,
+      "daily_remaining_tokens": 335257
+    },
+    "updated_at": "2026-09-22T12:46:03.082940"
+  },
+  "Time_14/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java": {
+    "project": "Time_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_14/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_14_buggy/BasicMonthOfYearDateTimeFieldTest.java",
+    "file_size_bytes": 10608,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4435,
+      "completion_tokens": 2747,
+      "total_tokens": 7182
+    },
+    "content_char_count": 10621,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 75.3,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 671925,
+      "daily_remaining_tokens": 328075
+    },
+    "updated_at": "2026-09-22T12:47:19.471712"
+  },
+  "Time_15/org/joda/time/field/FieldUtils.java": {
+    "project": "Time_15",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_15/org/joda/time/field/FieldUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_15_buggy/FieldUtilsTest.java",
+    "file_size_bytes": 15302,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3953,
+      "completion_tokens": 4219,
+      "total_tokens": 8172
+    },
+    "content_char_count": 15302,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 123.44,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 680097,
+      "daily_remaining_tokens": 319903
+    },
+    "updated_at": "2026-09-22T12:49:24.027996"
+  },
+  "Time_16/org/joda/time/format/DateTimeFormatter.java": {
+    "project": "Time_16",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_16/org/joda/time/format/DateTimeFormatter.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_16_buggy/DateTimeFormatterTest.java",
+    "file_size_bytes": 13174,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4437,
+      "completion_tokens": 2866,
+      "total_tokens": 7303
+    },
+    "content_char_count": 13175,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 93.97,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 687400,
+      "daily_remaining_tokens": 312600
+    },
+    "updated_at": "2026-09-22T12:50:59.086835"
+  },
+  "Time_17/org/joda/time/DateTimeZone.java": {
+    "project": "Time_17",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_17/org/joda/time/DateTimeZone.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_17_buggy/DateTimeZoneTest.java",
+    "file_size_bytes": 11942,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5863,
+      "completion_tokens": 3076,
+      "total_tokens": 8939
+    },
+    "content_char_count": 11954,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 97.31,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 696339,
+      "daily_remaining_tokens": 303661
+    },
+    "updated_at": "2026-09-22T12:52:37.540214"
+  },
+  "Time_18/org/joda/time/chrono/GJChronology.java": {
+    "project": "Time_18",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_18/org/joda/time/chrono/GJChronology.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_18_buggy/GJChronologyTest.java",
+    "file_size_bytes": 7888,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7978,
+      "completion_tokens": 2016,
+      "total_tokens": 9994
+    },
+    "content_char_count": 7900,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 65.35,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 706333,
+      "daily_remaining_tokens": 293667
+    },
+    "updated_at": "2026-09-22T12:53:43.989521"
+  },
+  "Time_19/org/joda/time/DateTimeZone.java": {
+    "project": "Time_19",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_19/org/joda/time/DateTimeZone.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_19_buggy/DateTimeZoneTest.java",
+    "file_size_bytes": 10204,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5857,
+      "completion_tokens": 2402,
+      "total_tokens": 8259
+    },
+    "content_char_count": 10205,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 76.81,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 714592,
+      "daily_remaining_tokens": 285408
+    },
+    "updated_at": "2026-09-22T12:55:01.910990"
+  },
+  "Time_2/org/joda/time/Partial.java": {
+    "project": "Time_2",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_2/org/joda/time/Partial.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_2_buggy/PartialTest.java",
+    "file_size_bytes": 11160,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4916,
+      "completion_tokens": 2582,
+      "total_tokens": 7498
+    },
+    "content_char_count": 11173,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 84.69,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 722090,
+      "daily_remaining_tokens": 277910
+    },
+    "updated_at": "2026-09-22T12:56:27.688270"
+  },
+  "Time_2/org/joda/time/field/UnsupportedDurationField.java": {
+    "project": "Time_2",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_2/org/joda/time/field/UnsupportedDurationField.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_2_buggy/UnsupportedDurationFieldTest.java",
+    "file_size_bytes": 7623,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2759,
+      "completion_tokens": 1636,
+      "total_tokens": 4395
+    },
+    "content_char_count": 7635,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 52.45,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 726485,
+      "daily_remaining_tokens": 273515
+    },
+    "updated_at": "2026-09-22T12:57:21.208647"
+  },
+  "Time_20/org/joda/time/format/DateTimeFormatterBuilder.java": {
+    "project": "Time_20",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_20/org/joda/time/format/DateTimeFormatterBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_20_buggy/DateTimeFormatterBuilderTest.java",
+    "file_size_bytes": 11753,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 15764,
+      "completion_tokens": 2812,
+      "total_tokens": 18576
+    },
+    "content_char_count": 11766,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 85.56,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 763890,
+      "daily_remaining_tokens": 236110
+    },
+    "updated_at": "2026-09-22T13:00:27.590147"
+  },
+  "Time_22/org/joda/time/base/BasePeriod.java": {
+    "project": "Time_22",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_22/org/joda/time/base/BasePeriod.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_22_buggy/BasePeriodTest.java",
+    "file_size_bytes": 7794,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3821,
+      "completion_tokens": 2020,
+      "total_tokens": 5841
+    },
+    "content_char_count": 7794,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 63.38,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 769737,
+      "daily_remaining_tokens": 230263
+    },
+    "updated_at": "2026-09-22T13:01:32.051099"
+  },
+  "Time_23/org/joda/time/DateTimeZone.java": {
+    "project": "Time_23",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_23/org/joda/time/DateTimeZone.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_23_buggy/DateTimeZoneTest.java",
+    "file_size_bytes": 6798,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5846,
+      "completion_tokens": 1654,
+      "total_tokens": 7500
+    },
+    "content_char_count": 6799,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 52.39,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 777237,
+      "daily_remaining_tokens": 222763
+    },
+    "updated_at": "2026-09-22T13:02:25.560547"
+  },
+  "Time_24/org/joda/time/format/DateTimeParserBucket.java": {
+    "project": "Time_24",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_24/org/joda/time/format/DateTimeParserBucket.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_24_buggy/DateTimeParserBucketTest.java",
+    "file_size_bytes": 14302,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5413,
+      "completion_tokens": 3473,
+      "total_tokens": 8886
+    },
+    "content_char_count": 14314,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 109.49,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 786123,
+      "daily_remaining_tokens": 213877
+    },
+    "updated_at": "2026-09-22T13:04:16.153102"
+  },
+  "Time_25/org/joda/time/DateTimeZone.java": {
+    "project": "Time_25",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_25/org/joda/time/DateTimeZone.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_25_buggy/DateTimeZoneTest.java",
+    "file_size_bytes": 10106,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5664,
+      "completion_tokens": 2408,
+      "total_tokens": 8072
+    },
+    "content_char_count": 10107,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 81.59,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 794201,
+      "daily_remaining_tokens": 205799
+    },
+    "updated_at": "2026-09-22T13:05:38.825849"
+  },
+  "Time_26/org/joda/time/DateTimeZone.java": {
+    "project": "Time_26",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_26/org/joda/time/DateTimeZone.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_26_buggy/DateTimeZoneTest.java",
+    "file_size_bytes": 10604,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5564,
+      "completion_tokens": 2532,
+      "total_tokens": 8096
+    },
+    "content_char_count": 10605,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 78.24,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 802297,
+      "daily_remaining_tokens": 197703
+    },
+    "updated_at": "2026-09-22T13:06:58.139463"
+  },
+  "Time_26/org/joda/time/chrono/ZonedChronology.java": {
+    "project": "Time_26",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_26/org/joda/time/chrono/ZonedChronology.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_26_buggy/ZonedChronologyTest.java",
+    "file_size_bytes": 14510,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6278,
+      "completion_tokens": 3142,
+      "total_tokens": 9420
+    },
+    "content_char_count": 14511,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 100.48,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 811717,
+      "daily_remaining_tokens": 188283
+    },
+    "updated_at": "2026-09-22T13:08:39.689430"
+  },
+  "Time_26/org/joda/time/field/LenientDateTimeField.java": {
+    "project": "Time_26",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_26/org/joda/time/field/LenientDateTimeField.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_26_buggy/LenientDateTimeFieldTest.java",
+    "file_size_bytes": 3842,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1621,
+      "completion_tokens": 866,
+      "total_tokens": 2487
+    },
+    "content_char_count": 3842,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 30.17,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 817639,
+      "daily_remaining_tokens": 182361
+    },
+    "updated_at": "2026-09-22T13:10:04.878081"
+  },
+  "Time_27/org/joda/time/format/PeriodFormatterBuilder.java": {
+    "project": "Time_27",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_27/org/joda/time/format/PeriodFormatterBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_27_buggy/PeriodFormatterBuilderTest.java",
+    "file_size_bytes": 6639,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10970,
+      "completion_tokens": 2370,
+      "total_tokens": 13340
+    },
+    "content_char_count": 6639,
+    "reasoning_char_count": 4103,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 25.98,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 621063,
+      "daily_remaining_tokens": 378937
+    },
+    "updated_at": "2026-09-23T02:17:41.616292"
+  },
+  "Time_3/org/joda/time/MutableDateTime.java": {
+    "project": "Time_3",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_3/org/joda/time/MutableDateTime.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_3_buggy/MutableDateTimeTest.java",
+    "file_size_bytes": 7121,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5498,
+      "completion_tokens": 33708,
+      "total_tokens": 39206
+    },
+    "content_char_count": 7133,
+    "reasoning_char_count": 113348,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 1344.56,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 796360,
+      "daily_remaining_tokens": 203640
+    },
+    "updated_at": "2026-09-22T14:57:06.040898"
+  },
+  "Time_4/org/joda/time/Partial.java": {
+    "project": "Time_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_4/org/joda/time/Partial.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_4_buggy/PartialTest.java",
+    "file_size_bytes": 10787,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4888,
+      "completion_tokens": 27063,
+      "total_tokens": 31951
+    },
+    "content_char_count": 10800,
+    "reasoning_char_count": 98068,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 1114.19,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 927013,
+      "daily_remaining_tokens": 72987
+    },
+    "updated_at": "2026-09-22T15:15:41.309698"
+  },
+  "Time_5/org/joda/time/Period.java": {
+    "project": "Time_5",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_5/org/joda/time/Period.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_5_buggy/PeriodTest.java",
+    "file_size_bytes": 11086,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6487,
+      "completion_tokens": 3609,
+      "total_tokens": 10096
+    },
+    "content_char_count": 11086,
+    "reasoning_char_count": 2197,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 30.4,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 631159,
+      "daily_remaining_tokens": 368841
+    },
+    "updated_at": "2026-09-23T02:18:13.090665"
+  },
+  "Time_6/org/joda/time/chrono/GJChronology.java": {
+    "project": "Time_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_6/org/joda/time/chrono/GJChronology.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_6_buggy/GJChronologyTest.java",
+    "file_size_bytes": 5125,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8177,
+      "completion_tokens": 4105,
+      "total_tokens": 12282
+    },
+    "content_char_count": 5125,
+    "reasoning_char_count": 10943,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 36.35,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 643441,
+      "daily_remaining_tokens": 356559
+    },
+    "updated_at": "2026-09-23T02:18:50.516247"
+  },
+  "Time_7/org/joda/time/format/DateTimeFormatter.java": {
+    "project": "Time_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Time_7/org/joda/time/format/DateTimeFormatter.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Time_7_buggy/DateTimeFormatterTest.java",
+    "file_size_bytes": 15252,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4449,
+      "completion_tokens": 5392,
+      "total_tokens": 9841
+    },
+    "content_char_count": 15252,
+    "reasoning_char_count": 8137,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 77.89,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 653282,
+      "daily_remaining_tokens": 346718
+    },
+    "updated_at": "2026-09-23T02:20:09.478960"
+  }
+}

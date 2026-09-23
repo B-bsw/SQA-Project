@@ -481,5 +481,2006 @@
       "daily_remaining_tokens": 59935
     },
     "updated_at": "2026-09-21T18:58:08.667587"
+  },
+  "Jsoup_24/org/jsoup/parser/TokeniserState.java": {
+    "project": "Jsoup_24",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_24/org/jsoup/parser/TokeniserState.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_24_buggy/TokeniserStateTest.java",
+    "file_size_bytes": 15121,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 12238,
+      "completion_tokens": 8912,
+      "total_tokens": 21150
+    },
+    "content_char_count": 15121,
+    "reasoning_char_count": 24274,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 81.26,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 21162,
+      "daily_remaining_tokens": 978838
+    },
+    "updated_at": "2026-09-22T10:52:58.236788"
+  },
+  "Jsoup_25/org/jsoup/parser/Tag.java": {
+    "project": "Jsoup_25",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_25/org/jsoup/parser/Tag.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_25_buggy/TagTest.java",
+    "file_size_bytes": 5151,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3428,
+      "completion_tokens": 5689,
+      "total_tokens": 9117
+    },
+    "content_char_count": 5151,
+    "reasoning_char_count": 17727,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 134.75,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 30279,
+      "daily_remaining_tokens": 969721
+    },
+    "updated_at": "2026-09-22T10:55:14.071164"
+  },
+  "Jsoup_26/org/jsoup/safety/Cleaner.java": {
+    "project": "Jsoup_26",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_26/org/jsoup/safety/Cleaner.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_26_buggy/CleanerTest.java",
+    "file_size_bytes": 9991,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2389,
+      "completion_tokens": 2389,
+      "total_tokens": 4778
+    },
+    "content_char_count": 10004,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 77.21,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 35057,
+      "daily_remaining_tokens": 964943
+    },
+    "updated_at": "2026-09-22T10:56:32.408272"
+  },
+  "Jsoup_27/org/jsoup/helper/DataUtil.java": {
+    "project": "Jsoup_27",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_27/org/jsoup/helper/DataUtil.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_27_buggy/DataUtilTest.java",
+    "file_size_bytes": 9937,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2658,
+      "completion_tokens": 2344,
+      "total_tokens": 5002
+    },
+    "content_char_count": 9948,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 73.63,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 40059,
+      "daily_remaining_tokens": 959941
+    },
+    "updated_at": "2026-09-22T10:57:47.107922"
+  },
+  "Jsoup_28/org/jsoup/nodes/Entities.java": {
+    "project": "Jsoup_28",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_28/org/jsoup/nodes/Entities.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_28_buggy/EntitiesTest.java",
+    "file_size_bytes": 14256,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2778,
+      "completion_tokens": 3078,
+      "total_tokens": 5856
+    },
+    "content_char_count": 14268,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 97.7,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 45915,
+      "daily_remaining_tokens": 954085
+    },
+    "updated_at": "2026-09-22T10:59:25.891177"
+  },
+  "Jsoup_28/org/jsoup/parser/Parser.java": {
+    "project": "Jsoup_28",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_28/org/jsoup/parser/Parser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_28_buggy/ParserTest.java",
+    "file_size_bytes": 6891,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2545,
+      "completion_tokens": 1618,
+      "total_tokens": 4163
+    },
+    "content_char_count": 6904,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 52.63,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 50078,
+      "daily_remaining_tokens": 949922
+    },
+    "updated_at": "2026-09-22T11:00:19.597487"
+  },
+  "Jsoup_28/org/jsoup/parser/Tokeniser.java": {
+    "project": "Jsoup_28",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_28/org/jsoup/parser/Tokeniser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_28_buggy/TokeniserTest.java",
+    "file_size_bytes": 13487,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3041,
+      "completion_tokens": 2969,
+      "total_tokens": 6010
+    },
+    "content_char_count": 13500,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 102.88,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 56088,
+      "daily_remaining_tokens": 943912
+    },
+    "updated_at": "2026-09-22T11:02:03.554881"
+  },
+  "Jsoup_29/org/jsoup/nodes/Document.java": {
+    "project": "Jsoup_29",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_29/org/jsoup/nodes/Document.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_29_buggy/DocumentTest.java",
+    "file_size_bytes": 8335,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3833,
+      "completion_tokens": 1848,
+      "total_tokens": 5681
+    },
+    "content_char_count": 8348,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 62.07,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 61769,
+      "daily_remaining_tokens": 938231
+    },
+    "updated_at": "2026-09-22T11:03:06.686573"
+  },
+  "Jsoup_3/org/jsoup/nodes/Element.java": {
+    "project": "Jsoup_3",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_3/org/jsoup/nodes/Element.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_3_buggy/ElementTest.java",
+    "file_size_bytes": 19513,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4208,
+      "completion_tokens": 4271,
+      "total_tokens": 8479
+    },
+    "content_char_count": 19526,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 140.49,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 70248,
+      "daily_remaining_tokens": 929752
+    },
+    "updated_at": "2026-09-22T11:05:28.247667"
+  },
+  "Jsoup_3/org/jsoup/parser/Parser.java": {
+    "project": "Jsoup_3",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_3/org/jsoup/parser/Parser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_3_buggy/ParserTest.java",
+    "file_size_bytes": 6054,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3632,
+      "completion_tokens": 1508,
+      "total_tokens": 5140
+    },
+    "content_char_count": 6065,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 50.99,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 75388,
+      "daily_remaining_tokens": 924612
+    },
+    "updated_at": "2026-09-22T11:06:20.383257"
+  },
+  "Jsoup_3/org/jsoup/parser/Tag.java": {
+    "project": "Jsoup_3",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_3/org/jsoup/parser/Tag.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_3_buggy/TagTest.java",
+    "file_size_bytes": 8441,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4442,
+      "completion_tokens": 2072,
+      "total_tokens": 6514
+    },
+    "content_char_count": 8454,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 67.8,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 81902,
+      "daily_remaining_tokens": 918098
+    },
+    "updated_at": "2026-09-22T11:07:29.254403"
+  },
+  "Jsoup_30/org/jsoup/safety/Cleaner.java": {
+    "project": "Jsoup_30",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_30/org/jsoup/safety/Cleaner.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_30_buggy/CleanerTest.java",
+    "file_size_bytes": 4107,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1984,
+      "completion_tokens": 953,
+      "total_tokens": 2937
+    },
+    "content_char_count": 4107,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 34.74,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 90460,
+      "daily_remaining_tokens": 909540
+    },
+    "updated_at": "2026-09-22T11:09:51.525557"
+  },
+  "Jsoup_31/org/jsoup/parser/Token.java": {
+    "project": "Jsoup_31",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_31/org/jsoup/parser/Token.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_31_buggy/TokenTest.java",
+    "file_size_bytes": 8631,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2544,
+      "completion_tokens": 1907,
+      "total_tokens": 4451
+    },
+    "content_char_count": 8643,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 78.64,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 94911,
+      "daily_remaining_tokens": 905089
+    },
+    "updated_at": "2026-09-22T11:11:11.226546"
+  },
+  "Jsoup_31/org/jsoup/parser/TokeniserState.java": {
+    "project": "Jsoup_31",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_31/org/jsoup/parser/TokeniserState.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_31_buggy/TokeniserStateTest.java",
+    "file_size_bytes": 19361,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 12359,
+      "completion_tokens": 4419,
+      "total_tokens": 16778
+    },
+    "content_char_count": 19373,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 152.51,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 111689,
+      "daily_remaining_tokens": 888311
+    },
+    "updated_at": "2026-09-22T11:13:44.814105"
+  },
+  "Jsoup_31/org/jsoup/parser/XmlTreeBuilder.java": {
+    "project": "Jsoup_31",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_31/org/jsoup/parser/XmlTreeBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_31_buggy/XmlTreeBuilderTest.java",
+    "file_size_bytes": 10567,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1986,
+      "completion_tokens": 2336,
+      "total_tokens": 4322
+    },
+    "content_char_count": 10567,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 71.63,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 116011,
+      "daily_remaining_tokens": 883989
+    },
+    "updated_at": "2026-09-22T11:14:57.511002"
+  },
+  "Jsoup_32/org/jsoup/nodes/Element.java": {
+    "project": "Jsoup_32",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_32/org/jsoup/nodes/Element.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_32_buggy/ElementTest.java",
+    "file_size_bytes": 23334,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5250,
+      "completion_tokens": 5090,
+      "total_tokens": 10340
+    },
+    "content_char_count": 23347,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 169.7,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 126351,
+      "daily_remaining_tokens": 873649
+    },
+    "updated_at": "2026-09-22T11:17:48.284715"
+  },
+  "Jsoup_33/org/jsoup/parser/HtmlTreeBuilder.java": {
+    "project": "Jsoup_33",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_33/org/jsoup/parser/HtmlTreeBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_33_buggy/HtmlTreeBuilderTest.java",
+    "file_size_bytes": 12705,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6683,
+      "completion_tokens": 3008,
+      "total_tokens": 9691
+    },
+    "content_char_count": 12717,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 110.03,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 136042,
+      "daily_remaining_tokens": 863958
+    },
+    "updated_at": "2026-09-22T11:19:39.386791"
+  },
+  "Jsoup_34/org/jsoup/parser/CharacterReader.java": {
+    "project": "Jsoup_34",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_34/org/jsoup/parser/CharacterReader.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_34_buggy/CharacterReaderTest.java",
+    "file_size_bytes": 8608,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2946,
+      "completion_tokens": 1966,
+      "total_tokens": 4912
+    },
+    "content_char_count": 8621,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 86.31,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 140954,
+      "daily_remaining_tokens": 859046
+    },
+    "updated_at": "2026-09-22T11:21:06.766844"
+  },
+  "Jsoup_35/org/jsoup/parser/HtmlTreeBuilderState.java": {
+    "project": "Jsoup_35",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_35/org/jsoup/parser/HtmlTreeBuilderState.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_35_buggy/HtmlTreeBuilderStateTest.java",
+    "file_size_bytes": 10130,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 12972,
+      "completion_tokens": 2225,
+      "total_tokens": 15197
+    },
+    "content_char_count": 10130,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 78.35,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 156151,
+      "daily_remaining_tokens": 843849
+    },
+    "updated_at": "2026-09-22T11:22:26.183939"
+  },
+  "Jsoup_36/org/jsoup/helper/DataUtil.java": {
+    "project": "Jsoup_36",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_36/org/jsoup/helper/DataUtil.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_36_buggy/DataUtilTest.java",
+    "file_size_bytes": 10779,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2915,
+      "completion_tokens": 2570,
+      "total_tokens": 5485
+    },
+    "content_char_count": 10792,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 87.6,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 161636,
+      "daily_remaining_tokens": 838364
+    },
+    "updated_at": "2026-09-22T11:23:54.839111"
+  },
+  "Jsoup_37/org/jsoup/nodes/Element.java": {
+    "project": "Jsoup_37",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_37/org/jsoup/nodes/Element.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_37_buggy/ElementTest.java",
+    "file_size_bytes": 18969,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5307,
+      "completion_tokens": 4120,
+      "total_tokens": 9427
+    },
+    "content_char_count": 18982,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 135.62,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 171063,
+      "daily_remaining_tokens": 828937
+    },
+    "updated_at": "2026-09-22T11:26:11.529694"
+  },
+  "Jsoup_38/org/jsoup/parser/HtmlTreeBuilderState.java": {
+    "project": "Jsoup_38",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_38/org/jsoup/parser/HtmlTreeBuilderState.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_38_buggy/HtmlTreeBuilderStateTest.java",
+    "file_size_bytes": 22278,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 13285,
+      "completion_tokens": 5201,
+      "total_tokens": 18486
+    },
+    "content_char_count": 22290,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 181.69,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 189549,
+      "daily_remaining_tokens": 810451
+    },
+    "updated_at": "2026-09-22T11:29:14.286612"
+  },
+  "Jsoup_39/org/jsoup/helper/DataUtil.java": {
+    "project": "Jsoup_39",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_39/org/jsoup/helper/DataUtil.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_39_buggy/DataUtilTest.java",
+    "file_size_bytes": 9984,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3089,
+      "completion_tokens": 2418,
+      "total_tokens": 5507
+    },
+    "content_char_count": 9996,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 75.71,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 195056,
+      "daily_remaining_tokens": 804944
+    },
+    "updated_at": "2026-09-22T11:30:31.070404"
+  },
+  "Jsoup_4/org/jsoup/nodes/Entities.java": {
+    "project": "Jsoup_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_4/org/jsoup/nodes/Entities.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_4_buggy/EntitiesTest.java",
+    "file_size_bytes": 5299,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 27517,
+      "completion_tokens": 1284,
+      "total_tokens": 28801
+    },
+    "content_char_count": 5312,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 47.53,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 223857,
+      "daily_remaining_tokens": 776143
+    },
+    "updated_at": "2026-09-22T11:31:19.689517"
+  },
+  "Jsoup_40/org/jsoup/nodes/DocumentType.java": {
+    "project": "Jsoup_40",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_40/org/jsoup/nodes/DocumentType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_40_buggy/DocumentTypeTest.java",
+    "file_size_bytes": 4308,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1600,
+      "completion_tokens": 1113,
+      "total_tokens": 2713
+    },
+    "content_char_count": 4321,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 38.38,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 226570,
+      "daily_remaining_tokens": 773430
+    },
+    "updated_at": "2026-09-22T11:31:59.140458"
+  },
+  "Jsoup_41/org/jsoup/nodes/Element.java": {
+    "project": "Jsoup_41",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_41/org/jsoup/nodes/Element.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_41_buggy/ElementTest.java",
+    "file_size_bytes": 24797,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5547,
+      "completion_tokens": 5411,
+      "total_tokens": 10958
+    },
+    "content_char_count": 24810,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 170.09,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 237528,
+      "daily_remaining_tokens": 762472
+    },
+    "updated_at": "2026-09-22T11:34:50.302769"
+  },
+  "Jsoup_42/org/jsoup/nodes/FormElement.java": {
+    "project": "Jsoup_42",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_42/org/jsoup/nodes/FormElement.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_42_buggy/FormElementTest.java",
+    "file_size_bytes": 12877,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2110,
+      "completion_tokens": 2985,
+      "total_tokens": 5095
+    },
+    "content_char_count": 12890,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 96.06,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 242623,
+      "daily_remaining_tokens": 757377
+    },
+    "updated_at": "2026-09-22T11:36:27.439072"
+  },
+  "Jsoup_43/org/jsoup/nodes/Element.java": {
+    "project": "Jsoup_43",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_43/org/jsoup/nodes/Element.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_43_buggy/ElementTest.java",
+    "file_size_bytes": 25805,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5582,
+      "completion_tokens": 5785,
+      "total_tokens": 11367
+    },
+    "content_char_count": 25817,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 181.73,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 253990,
+      "daily_remaining_tokens": 746010
+    },
+    "updated_at": "2026-09-22T11:39:30.236006"
+  },
+  "Jsoup_44/org/jsoup/parser/TreeBuilder.java": {
+    "project": "Jsoup_44",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_44/org/jsoup/parser/TreeBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_44_buggy/TreeBuilderTest.java",
+    "file_size_bytes": 7822,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1755,
+      "completion_tokens": 9598,
+      "total_tokens": 11353
+    },
+    "content_char_count": 7822,
+    "reasoning_char_count": 33236,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 87.67,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 265343,
+      "daily_remaining_tokens": 734657
+    },
+    "updated_at": "2026-09-22T11:40:58.978474"
+  },
+  "Jsoup_45/org/jsoup/parser/HtmlTreeBuilder.java": {
+    "project": "Jsoup_45",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_45/org/jsoup/parser/HtmlTreeBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_45_buggy/HtmlTreeBuilderTest.java",
+    "file_size_bytes": 6390,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6831,
+      "completion_tokens": 1448,
+      "total_tokens": 8279
+    },
+    "content_char_count": 6403,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 49.29,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 273622,
+      "daily_remaining_tokens": 726378
+    },
+    "updated_at": "2026-09-22T11:41:49.344500"
+  },
+  "Jsoup_46/org/jsoup/nodes/Entities.java": {
+    "project": "Jsoup_46",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_46/org/jsoup/nodes/Entities.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_46_buggy/EntitiesTest.java",
+    "file_size_bytes": 11066,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3340,
+      "completion_tokens": 2554,
+      "total_tokens": 5894
+    },
+    "content_char_count": 11061,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 86.44,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 279516,
+      "daily_remaining_tokens": 720484
+    },
+    "updated_at": "2026-09-22T11:43:16.861853"
+  },
+  "Jsoup_47/org/jsoup/nodes/Entities.java": {
+    "project": "Jsoup_47",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_47/org/jsoup/nodes/Entities.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_47_buggy/EntitiesTest.java",
+    "file_size_bytes": 9221,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3367,
+      "completion_tokens": 2081,
+      "total_tokens": 5448
+    },
+    "content_char_count": 9234,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 67.07,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 284964,
+      "daily_remaining_tokens": 715036
+    },
+    "updated_at": "2026-09-22T11:44:25.013910"
+  },
+  "Jsoup_48/org/jsoup/helper/HttpConnection.java": {
+    "project": "Jsoup_48",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_48/org/jsoup/helper/HttpConnection.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_48_buggy/HttpConnectionTest.java",
+    "file_size_bytes": 32147,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7332,
+      "completion_tokens": 6835,
+      "total_tokens": 14167
+    },
+    "content_char_count": 32160,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 220.44,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 299131,
+      "daily_remaining_tokens": 700869
+    },
+    "updated_at": "2026-09-22T11:48:06.537020"
+  },
+  "Jsoup_49/org/jsoup/nodes/Node.java": {
+    "project": "Jsoup_49",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_49/org/jsoup/nodes/Node.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_49_buggy/NodeTest.java",
+    "file_size_bytes": 13290,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6363,
+      "completion_tokens": 3030,
+      "total_tokens": 9393
+    },
+    "content_char_count": 13303,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 92.75,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 308524,
+      "daily_remaining_tokens": 691476
+    },
+    "updated_at": "2026-09-22T11:49:40.375030"
+  },
+  "Jsoup_5/org/jsoup/parser/Parser.java": {
+    "project": "Jsoup_5",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_5/org/jsoup/parser/Parser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_5_buggy/ParserTest.java",
+    "file_size_bytes": 1800,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3813,
+      "completion_tokens": 439,
+      "total_tokens": 4252
+    },
+    "content_char_count": 1813,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 15.69,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 312776,
+      "daily_remaining_tokens": 687224
+    },
+    "updated_at": "2026-09-22T11:49:57.150012"
+  },
+  "Jsoup_50/org/jsoup/helper/DataUtil.java": {
+    "project": "Jsoup_50",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_50/org/jsoup/helper/DataUtil.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_50_buggy/DataUtilTest.java",
+    "file_size_bytes": 12842,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3436,
+      "completion_tokens": 3057,
+      "total_tokens": 6493
+    },
+    "content_char_count": 12854,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 95.9,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 319269,
+      "daily_remaining_tokens": 680731
+    },
+    "updated_at": "2026-09-22T11:51:34.197217"
+  },
+  "Jsoup_51/org/jsoup/parser/CharacterReader.java": {
+    "project": "Jsoup_51",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_51/org/jsoup/parser/CharacterReader.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_51_buggy/CharacterReaderTest.java",
+    "file_size_bytes": 11506,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3809,
+      "completion_tokens": 2721,
+      "total_tokens": 6530
+    },
+    "content_char_count": 11519,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 88.42,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 325799,
+      "daily_remaining_tokens": 674201
+    },
+    "updated_at": "2026-09-22T11:53:03.696858"
+  },
+  "Jsoup_52/org/jsoup/helper/DataUtil.java": {
+    "project": "Jsoup_52",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_52/org/jsoup/helper/DataUtil.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_52_buggy/DataUtilTest.java",
+    "file_size_bytes": 5794,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3258,
+      "completion_tokens": 1432,
+      "total_tokens": 4690
+    },
+    "content_char_count": 5807,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 49.08,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 339574,
+      "daily_remaining_tokens": 660426
+    },
+    "updated_at": "2026-09-22T11:56:35.914877"
+  },
+  "Jsoup_52/org/jsoup/nodes/XmlDeclaration.java": {
+    "project": "Jsoup_52",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_52/org/jsoup/nodes/XmlDeclaration.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_52_buggy/XmlDeclarationTest.java",
+    "file_size_bytes": 4518,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1703,
+      "completion_tokens": 1026,
+      "total_tokens": 2729
+    },
+    "content_char_count": 4518,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 33.21,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 342303,
+      "daily_remaining_tokens": 657697
+    },
+    "updated_at": "2026-09-22T11:57:10.202713"
+  },
+  "Jsoup_52/org/jsoup/parser/XmlTreeBuilder.java": {
+    "project": "Jsoup_52",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_52/org/jsoup/parser/XmlTreeBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_52_buggy/XmlTreeBuilderTest.java",
+    "file_size_bytes": 8929,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2221,
+      "completion_tokens": 2011,
+      "total_tokens": 4232
+    },
+    "content_char_count": 8942,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 65.15,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 346535,
+      "daily_remaining_tokens": 653465
+    },
+    "updated_at": "2026-09-22T11:58:16.493345"
+  },
+  "Jsoup_53/org/jsoup/parser/TokenQueue.java": {
+    "project": "Jsoup_53",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_53/org/jsoup/parser/TokenQueue.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_53_buggy/TokenQueueTest.java",
+    "file_size_bytes": 9914,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3936,
+      "completion_tokens": 2461,
+      "total_tokens": 6397
+    },
+    "content_char_count": 9926,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 87.95,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 352932,
+      "daily_remaining_tokens": 647068
+    },
+    "updated_at": "2026-09-22T11:59:45.582263"
+  },
+  "Jsoup_54/org/jsoup/helper/W3CDom.java": {
+    "project": "Jsoup_54",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_54/org/jsoup/helper/W3CDom.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_54_buggy/W3CDomTest.java",
+    "file_size_bytes": 7792,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2703,
+      "completion_tokens": 2139,
+      "total_tokens": 4842
+    },
+    "content_char_count": 7792,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 94.35,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 357774,
+      "daily_remaining_tokens": 642226
+    },
+    "updated_at": "2026-09-22T12:01:21.041993"
+  },
+  "Jsoup_55/org/jsoup/parser/TokeniserState.java": {
+    "project": "Jsoup_55",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_55/org/jsoup/parser/TokeniserState.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_55_buggy/TokeniserStateTest.java",
+    "file_size_bytes": 18593,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 12016,
+      "completion_tokens": 4124,
+      "total_tokens": 16140
+    },
+    "content_char_count": 18606,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 137.97,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 373914,
+      "daily_remaining_tokens": 626086
+    },
+    "updated_at": "2026-09-22T12:03:40.138304"
+  },
+  "Jsoup_56/org/jsoup/nodes/DocumentType.java": {
+    "project": "Jsoup_56",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_56/org/jsoup/nodes/DocumentType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_56_buggy/DocumentTypeTest.java",
+    "file_size_bytes": 5243,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1794,
+      "completion_tokens": 1219,
+      "total_tokens": 3013
+    },
+    "content_char_count": 5243,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 40.65,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 376927,
+      "daily_remaining_tokens": 623073
+    },
+    "updated_at": "2026-09-22T12:04:21.889356"
+  },
+  "Jsoup_56/org/jsoup/parser/HtmlTreeBuilderState.java": {
+    "project": "Jsoup_56",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_56/org/jsoup/parser/HtmlTreeBuilderState.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_56_buggy/HtmlTreeBuilderStateTest.java",
+    "file_size_bytes": 14091,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 13376,
+      "completion_tokens": 3432,
+      "total_tokens": 16808
+    },
+    "content_char_count": 14103,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 163.48,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 393735,
+      "daily_remaining_tokens": 606265
+    },
+    "updated_at": "2026-09-22T12:07:06.439866"
+  },
+  "Jsoup_56/org/jsoup/parser/Token.java": {
+    "project": "Jsoup_56",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_56/org/jsoup/parser/Token.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_56_buggy/TokenTest.java",
+    "file_size_bytes": 12022,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3233,
+      "completion_tokens": 2680,
+      "total_tokens": 5913
+    },
+    "content_char_count": 12034,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 90.83,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 399648,
+      "daily_remaining_tokens": 600352
+    },
+    "updated_at": "2026-09-22T12:08:38.350814"
+  },
+  "Jsoup_56/org/jsoup/parser/TokeniserState.java": {
+    "project": "Jsoup_56",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_56/org/jsoup/parser/TokeniserState.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_56_buggy/TokeniserStateTest.java",
+    "file_size_bytes": 10225,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 12039,
+      "completion_tokens": 2231,
+      "total_tokens": 14270
+    },
+    "content_char_count": 10238,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 78.96,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 413918,
+      "daily_remaining_tokens": 586082
+    },
+    "updated_at": "2026-09-22T12:09:58.393931"
+  },
+  "Jsoup_56/org/jsoup/parser/XmlTreeBuilder.java": {
+    "project": "Jsoup_56",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_56/org/jsoup/parser/XmlTreeBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_56_buggy/XmlTreeBuilderTest.java",
+    "file_size_bytes": 8755,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2357,
+      "completion_tokens": 2069,
+      "total_tokens": 4426
+    },
+    "content_char_count": 8768,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 71.79,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 418344,
+      "daily_remaining_tokens": 581656
+    },
+    "updated_at": "2026-09-22T12:11:11.306930"
+  },
+  "Jsoup_57/org/jsoup/nodes/Attributes.java": {
+    "project": "Jsoup_57",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_57/org/jsoup/nodes/Attributes.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_57_buggy/AttributesTest.java",
+    "file_size_bytes": 12094,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3410,
+      "completion_tokens": 2647,
+      "total_tokens": 6057
+    },
+    "content_char_count": 12106,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 91.57,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 424401,
+      "daily_remaining_tokens": 575599
+    },
+    "updated_at": "2026-09-22T12:12:43.995589"
+  },
+  "Jsoup_58/org/jsoup/Jsoup.java": {
+    "project": "Jsoup_58",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_58/org/jsoup/Jsoup.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_58_buggy/JsoupTest.java",
+    "file_size_bytes": 8157,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3765,
+      "completion_tokens": 1986,
+      "total_tokens": 5751
+    },
+    "content_char_count": 8170,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 67.33,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 430152,
+      "daily_remaining_tokens": 569848
+    },
+    "updated_at": "2026-09-22T12:13:52.420740"
+  },
+  "Jsoup_58/org/jsoup/parser/Parser.java": {
+    "project": "Jsoup_58",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_58/org/jsoup/parser/Parser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_58_buggy/ParserTest.java",
+    "file_size_bytes": 6339,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2947,
+      "completion_tokens": 1489,
+      "total_tokens": 4436
+    },
+    "content_char_count": 6352,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 49.07,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 434588,
+      "daily_remaining_tokens": 565412
+    },
+    "updated_at": "2026-09-22T12:14:42.588013"
+  },
+  "Jsoup_58/org/jsoup/safety/Cleaner.java": {
+    "project": "Jsoup_58",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_58/org/jsoup/safety/Cleaner.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_58_buggy/CleanerTest.java",
+    "file_size_bytes": 11790,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2685,
+      "completion_tokens": 2898,
+      "total_tokens": 5583
+    },
+    "content_char_count": 11803,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 91.78,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 440171,
+      "daily_remaining_tokens": 559829
+    },
+    "updated_at": "2026-09-22T12:16:15.438599"
+  },
+  "Jsoup_59/org/jsoup/parser/Token.java": {
+    "project": "Jsoup_59",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_59/org/jsoup/parser/Token.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_59_buggy/TokenTest.java",
+    "file_size_bytes": 10292,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3301,
+      "completion_tokens": 2301,
+      "total_tokens": 5602
+    },
+    "content_char_count": 10305,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 75.69,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 445773,
+      "daily_remaining_tokens": 554227
+    },
+    "updated_at": "2026-09-22T12:17:32.230065"
+  },
+  "Jsoup_6/org/jsoup/nodes/Entities.java": {
+    "project": "Jsoup_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_6/org/jsoup/nodes/Entities.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_6_buggy/EntitiesTest.java",
+    "file_size_bytes": 3880,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 27508,
+      "completion_tokens": 957,
+      "total_tokens": 28465
+    },
+    "content_char_count": 3891,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 33.03,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 474238,
+      "daily_remaining_tokens": 525762
+    },
+    "updated_at": "2026-09-22T12:18:06.351440"
+  },
+  "Jsoup_60/org/jsoup/parser/TokenQueue.java": {
+    "project": "Jsoup_60",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_60/org/jsoup/parser/TokenQueue.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_60_buggy/TokenQueueTest.java",
+    "file_size_bytes": 12125,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3997,
+      "completion_tokens": 2886,
+      "total_tokens": 6883
+    },
+    "content_char_count": 12138,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 88.5,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 481121,
+      "daily_remaining_tokens": 518879
+    },
+    "updated_at": "2026-09-22T12:19:35.942178"
+  },
+  "Jsoup_60/org/jsoup/select/QueryParser.java": {
+    "project": "Jsoup_60",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_60/org/jsoup/select/QueryParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_60_buggy/QueryParserTest.java",
+    "file_size_bytes": 13856,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4751,
+      "completion_tokens": 3018,
+      "total_tokens": 7769
+    },
+    "content_char_count": 13856,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 103.91,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 488890,
+      "daily_remaining_tokens": 511110
+    },
+    "updated_at": "2026-09-22T12:21:20.942064"
+  },
+  "Jsoup_61/org/jsoup/nodes/Element.java": {
+    "project": "Jsoup_61",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_61/org/jsoup/nodes/Element.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_61_buggy/ElementTest.java",
+    "file_size_bytes": 22762,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5980,
+      "completion_tokens": 4931,
+      "total_tokens": 10911
+    },
+    "content_char_count": 22774,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 166.98,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 499801,
+      "daily_remaining_tokens": 500199
+    },
+    "updated_at": "2026-09-22T12:24:09.002156"
+  },
+  "Jsoup_62/org/jsoup/parser/HtmlTreeBuilderState.java": {
+    "project": "Jsoup_62",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_62/org/jsoup/parser/HtmlTreeBuilderState.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_62_buggy/HtmlTreeBuilderStateTest.java",
+    "file_size_bytes": 24025,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 13382,
+      "completion_tokens": 5716,
+      "total_tokens": 19098
+    },
+    "content_char_count": 24033,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 185.0,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 518899,
+      "daily_remaining_tokens": 481101
+    },
+    "updated_at": "2026-09-22T12:27:15.075987"
+  },
+  "Jsoup_63/org/jsoup/parser/HtmlTreeBuilder.java": {
+    "project": "Jsoup_63",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_63/org/jsoup/parser/HtmlTreeBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_63_buggy/HtmlTreeBuilderTest.java",
+    "file_size_bytes": 13226,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6116,
+      "completion_tokens": 3048,
+      "total_tokens": 9164
+    },
+    "content_char_count": 13238,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 100.89,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 528063,
+      "daily_remaining_tokens": 471937
+    },
+    "updated_at": "2026-09-22T12:28:57.076468"
+  },
+  "Jsoup_63/org/jsoup/parser/Tokeniser.java": {
+    "project": "Jsoup_63",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_63/org/jsoup/parser/Tokeniser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_63_buggy/TokeniserTest.java",
+    "file_size_bytes": 7781,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3526,
+      "completion_tokens": 1743,
+      "total_tokens": 5269
+    },
+    "content_char_count": 7793,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 55.63,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 533332,
+      "daily_remaining_tokens": 466668
+    },
+    "updated_at": "2026-09-22T12:29:53.819581"
+  },
+  "Jsoup_64/org/jsoup/parser/HtmlTreeBuilderState.java": {
+    "project": "Jsoup_64",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_64/org/jsoup/parser/HtmlTreeBuilderState.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_64_buggy/HtmlTreeBuilderStateTest.java",
+    "file_size_bytes": 19146,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 13335,
+      "completion_tokens": 5497,
+      "total_tokens": 18832
+    },
+    "content_char_count": 19144,
+    "reasoning_char_count": 4382,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 52.12,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 966978,
+      "daily_remaining_tokens": 33022
+    },
+    "updated_at": "2026-09-23T02:18:03.954432"
+  },
+  "Jsoup_65/org/jsoup/parser/HtmlTreeBuilder.java": {
+    "project": "Jsoup_65",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_65/org/jsoup/parser/HtmlTreeBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_65_buggy/HtmlTreeBuilderTest.java",
+    "file_size_bytes": 18347,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6098,
+      "completion_tokens": 4207,
+      "total_tokens": 10305
+    },
+    "content_char_count": 18359,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 132.57,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 616526,
+      "daily_remaining_tokens": 383474
+    },
+    "updated_at": "2026-09-22T12:59:28.442901"
+  },
+  "Jsoup_65/org/jsoup/parser/HtmlTreeBuilderState.java": {
+    "project": "Jsoup_65",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_65/org/jsoup/parser/HtmlTreeBuilderState.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_65_buggy/HtmlTreeBuilderStateTest.java",
+    "file_size_bytes": 50527,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 13344,
+      "completion_tokens": 11636,
+      "total_tokens": 24980
+    },
+    "content_char_count": 50540,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 365.73,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 641506,
+      "daily_remaining_tokens": 358494
+    },
+    "updated_at": "2026-09-22T13:05:35.259621"
+  },
+  "Jsoup_66/org/jsoup/nodes/Element.java": {
+    "project": "Jsoup_66",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_66/org/jsoup/nodes/Element.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_66_buggy/ElementTest.java",
+    "file_size_bytes": 24046,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6593,
+      "completion_tokens": 5621,
+      "total_tokens": 12214
+    },
+    "content_char_count": 24059,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 165.51,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 653732,
+      "daily_remaining_tokens": 346268
+    },
+    "updated_at": "2026-09-22T13:08:21.867484"
+  },
+  "Jsoup_67/org/jsoup/parser/HtmlTreeBuilder.java": {
+    "project": "Jsoup_67",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_67/org/jsoup/parser/HtmlTreeBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_67_buggy/HtmlTreeBuilderTest.java",
+    "file_size_bytes": 10801,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6140,
+      "completion_tokens": 2457,
+      "total_tokens": 8597
+    },
+    "content_char_count": 10814,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 80.8,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 662329,
+      "daily_remaining_tokens": 337671
+    },
+    "updated_at": "2026-09-22T13:09:43.754148"
+  },
+  "Jsoup_68/org/jsoup/parser/HtmlTreeBuilder.java": {
+    "project": "Jsoup_68",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_68/org/jsoup/parser/HtmlTreeBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_68_buggy/HtmlTreeBuilderTest.java",
+    "file_size_bytes": 25381,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6148,
+      "completion_tokens": 5666,
+      "total_tokens": 11814
+    },
+    "content_char_count": 25393,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 181.1,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 674143,
+      "daily_remaining_tokens": 325857
+    },
+    "updated_at": "2026-09-22T13:12:45.934871"
+  },
+  "Jsoup_69/org/jsoup/nodes/FormElement.java": {
+    "project": "Jsoup_69",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_69/org/jsoup/nodes/FormElement.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_69_buggy/FormElementTest.java",
+    "file_size_bytes": 7910,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2110,
+      "completion_tokens": 1795,
+      "total_tokens": 3905
+    },
+    "content_char_count": 7911,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 56.09,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 678048,
+      "daily_remaining_tokens": 321952
+    },
+    "updated_at": "2026-09-22T13:13:43.107192"
+  },
+  "Jsoup_7/org/jsoup/nodes/Document.java": {
+    "project": "Jsoup_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_7/org/jsoup/nodes/Document.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_7_buggy/DocumentTest.java",
+    "file_size_bytes": 9088,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3306,
+      "completion_tokens": 2035,
+      "total_tokens": 5341
+    },
+    "content_char_count": 9101,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 66.41,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 683389,
+      "daily_remaining_tokens": 316611
+    },
+    "updated_at": "2026-09-22T13:14:50.631678"
+  },
+  "Jsoup_70/org/jsoup/nodes/Element.java": {
+    "project": "Jsoup_70",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_70/org/jsoup/nodes/Element.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_70_buggy/ElementTest.java",
+    "file_size_bytes": 14063,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6671,
+      "completion_tokens": 3060,
+      "total_tokens": 9731
+    },
+    "content_char_count": 14076,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 97.17,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 693120,
+      "daily_remaining_tokens": 306880
+    },
+    "updated_at": "2026-09-22T13:16:28.899501"
+  },
+  "Jsoup_71/org/jsoup/select/Evaluator.java": {
+    "project": "Jsoup_71",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_71/org/jsoup/select/Evaluator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_71_buggy/EvaluatorTest.java",
+    "file_size_bytes": 16525,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5588,
+      "completion_tokens": 3866,
+      "total_tokens": 9454
+    },
+    "content_char_count": 16526,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 120.63,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 702574,
+      "daily_remaining_tokens": 297426
+    },
+    "updated_at": "2026-09-22T13:18:30.595562"
+  },
+  "Jsoup_71/org/jsoup/select/QueryParser.java": {
+    "project": "Jsoup_71",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_71/org/jsoup/select/QueryParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_71_buggy/QueryParserTest.java",
+    "file_size_bytes": 5826,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4778,
+      "completion_tokens": 1341,
+      "total_tokens": 6119
+    },
+    "content_char_count": 5827,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 43.87,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 708693,
+      "daily_remaining_tokens": 291307
+    },
+    "updated_at": "2026-09-22T13:19:15.542556"
+  },
+  "Jsoup_72/org/jsoup/parser/CharacterReader.java": {
+    "project": "Jsoup_72",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_72/org/jsoup/parser/CharacterReader.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_72_buggy/CharacterReaderTest.java",
+    "file_size_bytes": 16338,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4565,
+      "completion_tokens": 3819,
+      "total_tokens": 8384
+    },
+    "content_char_count": 16338,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 117.27,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 717077,
+      "daily_remaining_tokens": 282923
+    },
+    "updated_at": "2026-09-22T13:21:13.895030"
+  },
+  "Jsoup_73/org/jsoup/helper/W3CDom.java": {
+    "project": "Jsoup_73",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_73/org/jsoup/helper/W3CDom.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_73_buggy/W3CDomTest.java",
+    "file_size_bytes": 10751,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2675,
+      "completion_tokens": 2715,
+      "total_tokens": 5390
+    },
+    "content_char_count": 10763,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 82.79,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 722467,
+      "daily_remaining_tokens": 277533
+    },
+    "updated_at": "2026-09-22T13:22:37.761115"
+  },
+  "Jsoup_74/org/jsoup/helper/StringUtil.java": {
+    "project": "Jsoup_74",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_74/org/jsoup/helper/StringUtil.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_74_buggy/StringUtilTest.java",
+    "file_size_bytes": 14813,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3349,
+      "completion_tokens": 3605,
+      "total_tokens": 6954
+    },
+    "content_char_count": 14814,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 137.74,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 729421,
+      "daily_remaining_tokens": 270579
+    },
+    "updated_at": "2026-09-22T13:24:56.598150"
+  },
+  "Jsoup_75/org/jsoup/nodes/Attributes.java": {
+    "project": "Jsoup_75",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_75/org/jsoup/nodes/Attributes.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_75_buggy/AttributesTest.java",
+    "file_size_bytes": 10651,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4242,
+      "completion_tokens": 2357,
+      "total_tokens": 6599
+    },
+    "content_char_count": 10651,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 71.77,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 736020,
+      "daily_remaining_tokens": 263980
+    },
+    "updated_at": "2026-09-22T13:26:10.094802"
+  },
+  "Jsoup_76/org/jsoup/parser/HtmlTreeBuilderState.java": {
+    "project": "Jsoup_76",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_76/org/jsoup/parser/HtmlTreeBuilderState.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_76_buggy/HtmlTreeBuilderTest.java",
+    "file_size_bytes": 31977,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 13402,
+      "completion_tokens": 7663,
+      "total_tokens": 21065
+    },
+    "content_char_count": 31990,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 235.06,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 757091,
+      "daily_remaining_tokens": 242909
+    },
+    "updated_at": "2026-09-22T13:30:06.516875"
+  },
+  "Jsoup_77/org/jsoup/parser/XmlTreeBuilder.java": {
+    "project": "Jsoup_77",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_77/org/jsoup/parser/XmlTreeBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_77_buggy/XmlTreeBuilderTest.java",
+    "file_size_bytes": 13896,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2415,
+      "completion_tokens": 3251,
+      "total_tokens": 5666
+    },
+    "content_char_count": 13897,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 104.78,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 762757,
+      "daily_remaining_tokens": 237243
+    },
+    "updated_at": "2026-09-22T13:31:52.725861"
+  },
+  "Jsoup_78/org/jsoup/helper/DataUtil.java": {
+    "project": "Jsoup_78",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_78/org/jsoup/helper/DataUtil.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_78_buggy/DataUtilTest.java",
+    "file_size_bytes": 7823,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4007,
+      "completion_tokens": 1849,
+      "total_tokens": 5856
+    },
+    "content_char_count": 7835,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 60.19,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 768613,
+      "daily_remaining_tokens": 231387
+    },
+    "updated_at": "2026-09-22T13:32:54.013865"
+  },
+  "Jsoup_79/org/jsoup/nodes/LeafNode.java": {
+    "project": "Jsoup_79",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_79/org/jsoup/nodes/LeafNode.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_79_buggy/LeafNodeTest.java",
+    "file_size_bytes": 5330,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1716,
+      "completion_tokens": 1229,
+      "total_tokens": 2945
+    },
+    "content_char_count": 5331,
+    "reasoning_char_count": 0,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 38.76,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 771558,
+      "daily_remaining_tokens": 228442
+    },
+    "updated_at": "2026-09-22T13:33:33.984290"
+  },
+  "Jsoup_8/org/jsoup/nodes/Node.java": {
+    "project": "Jsoup_8",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_8/org/jsoup/nodes/Node.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_8_buggy/NodeTest.java",
+    "file_size_bytes": 9063,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4209,
+      "completion_tokens": 18542,
+      "total_tokens": 22751
+    },
+    "content_char_count": 9076,
+    "reasoning_char_count": 69371,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 560.13,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 794315,
+      "daily_remaining_tokens": 205685
+    },
+    "updated_at": "2026-09-22T13:42:55.227912"
+  },
+  "Jsoup_80/org/jsoup/parser/XmlTreeBuilder.java": {
+    "project": "Jsoup_80",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_80/org/jsoup/parser/XmlTreeBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_80_buggy/XmlTreeBuilderTest.java",
+    "file_size_bytes": 4566,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2500,
+      "completion_tokens": 12592,
+      "total_tokens": 15092
+    },
+    "content_char_count": 4566,
+    "reasoning_char_count": 46057,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 397.99,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 809407,
+      "daily_remaining_tokens": 190593
+    },
+    "updated_at": "2026-09-22T13:49:34.340014"
+  },
+  "Jsoup_81/org/jsoup/helper/DataUtil.java": {
+    "project": "Jsoup_81",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_81/org/jsoup/helper/DataUtil.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_81_buggy/DataUtilTest.java",
+    "file_size_bytes": 6963,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4163,
+      "completion_tokens": 10200,
+      "total_tokens": 14363
+    },
+    "content_char_count": 6962,
+    "reasoning_char_count": 34171,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 328.6,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 823770,
+      "daily_remaining_tokens": 176230
+    },
+    "updated_at": "2026-09-22T13:55:04.033177"
+  },
+  "Jsoup_82/org/jsoup/helper/DataUtil.java": {
+    "project": "Jsoup_82",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_82/org/jsoup/helper/DataUtil.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_82_buggy/DataUtilTest.java",
+    "file_size_bytes": 5710,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4109,
+      "completion_tokens": 21360,
+      "total_tokens": 25469
+    },
+    "content_char_count": 5723,
+    "reasoning_char_count": 78615,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 782.88,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 849239,
+      "daily_remaining_tokens": 150761
+    },
+    "updated_at": "2026-09-22T14:08:07.998155"
+  },
+  "Jsoup_83/org/jsoup/parser/CharacterReader.java": {
+    "project": "Jsoup_83",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_83/org/jsoup/parser/CharacterReader.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_83_buggy/CharacterReaderTest.java",
+    "file_size_bytes": 10318,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4644,
+      "completion_tokens": 23576,
+      "total_tokens": 28220
+    },
+    "content_char_count": 10327,
+    "reasoning_char_count": 82696,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 943.77,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 852775,
+      "daily_remaining_tokens": 147225
+    },
+    "updated_at": "2026-09-22T14:50:24.991144"
+  },
+  "Jsoup_83/org/jsoup/parser/TokeniserState.java": {
+    "project": "Jsoup_83",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_83/org/jsoup/parser/TokeniserState.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_83_buggy/TokeniserStateTest.java",
+    "file_size_bytes": 3476,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 12124,
+      "completion_tokens": 21418,
+      "total_tokens": 33542
+    },
+    "content_char_count": 3488,
+    "reasoning_char_count": 82595,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 906.63,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 920803,
+      "daily_remaining_tokens": 79197
+    },
+    "updated_at": "2026-09-22T15:05:32.715820"
+  },
+  "Jsoup_84/org/jsoup/helper/W3CDom.java": {
+    "project": "Jsoup_84",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_84/org/jsoup/helper/W3CDom.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_84_buggy/W3CDomTest.java",
+    "file_size_bytes": 8080,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2753,
+      "completion_tokens": 2912,
+      "total_tokens": 5665
+    },
+    "content_char_count": 8080,
+    "reasoning_char_count": 3051,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 27.83,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 972643,
+      "daily_remaining_tokens": 27357
+    },
+    "updated_at": "2026-09-23T02:18:32.852509"
+  },
+  "Jsoup_85/org/jsoup/nodes/Attribute.java": {
+    "project": "Jsoup_85",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Jsoup_85/org/jsoup/nodes/Attribute.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_85_buggy/AttributeTest.java",
+    "file_size_bytes": 7775,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2801,
+      "completion_tokens": 9816,
+      "total_tokens": 12617
+    },
+    "content_char_count": 7775,
+    "reasoning_char_count": 32377,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 99.05,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 985260,
+      "daily_remaining_tokens": 14740
+    },
+    "updated_at": "2026-09-23T02:20:12.971548"
   }
 }

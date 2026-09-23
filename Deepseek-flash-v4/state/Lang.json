@@ -1,0 +1,1405 @@
+{
+  "Lang_1/org/apache/commons/lang3/math/NumberUtils.java": {
+    "project": "Lang_1",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_1/org/apache/commons/lang3/math/NumberUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_1_buggy/NumberUtilsTest.java",
+    "file_size_bytes": 11560,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5962,
+      "completion_tokens": 3023,
+      "total_tokens": 8985
+    },
+    "content_char_count": 11572,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 97.82,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 9005,
+      "daily_remaining_tokens": 990995
+    },
+    "updated_at": "2026-09-22T10:53:20.816096"
+  },
+  "Lang_10/org/apache/commons/lang3/time/FastDateParser.java": {
+    "project": "Lang_10",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_10/org/apache/commons/lang3/time/FastDateParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_10_buggy/FastDateParserTest.java",
+    "file_size_bytes": 7047,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5742,
+      "completion_tokens": 10215,
+      "total_tokens": 15957
+    },
+    "content_char_count": 7047,
+    "reasoning_char_count": 29855,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 171.81,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 24962,
+      "daily_remaining_tokens": 975038
+    },
+    "updated_at": "2026-09-22T10:56:13.725838"
+  },
+  "Lang_11/org/apache/commons/lang3/RandomStringUtils.java": {
+    "project": "Lang_11",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_11/org/apache/commons/lang3/RandomStringUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_11_buggy/RandomStringUtilsTest.java",
+    "file_size_bytes": 6202,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4247,
+      "completion_tokens": 1481,
+      "total_tokens": 5728
+    },
+    "content_char_count": 6214,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 49.65,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 30690,
+      "daily_remaining_tokens": 969310
+    },
+    "updated_at": "2026-09-22T10:57:04.442796"
+  },
+  "Lang_12/org/apache/commons/lang3/RandomStringUtils.java": {
+    "project": "Lang_12",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_12/org/apache/commons/lang3/RandomStringUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_12_buggy/RandomStringUtilsTest.java",
+    "file_size_bytes": 4919,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4198,
+      "completion_tokens": 1214,
+      "total_tokens": 5412
+    },
+    "content_char_count": 4920,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 42.18,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 36102,
+      "daily_remaining_tokens": 963898
+    },
+    "updated_at": "2026-09-22T10:57:47.681404"
+  },
+  "Lang_13/org/apache/commons/lang3/SerializationUtils.java": {
+    "project": "Lang_13",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_13/org/apache/commons/lang3/SerializationUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_13_buggy/SerializationUtilsTest.java",
+    "file_size_bytes": 10419,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3539,
+      "completion_tokens": 2104,
+      "total_tokens": 5643
+    },
+    "content_char_count": 10432,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 69.24,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 41745,
+      "daily_remaining_tokens": 958255
+    },
+    "updated_at": "2026-09-22T10:58:57.996452"
+  },
+  "Lang_14/org/apache/commons/lang3/StringUtils.java": {
+    "project": "Lang_14",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_14/org/apache/commons/lang3/StringUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_14_buggy/StringUtilsTest.java",
+    "file_size_bytes": 21570,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 17958,
+      "completion_tokens": 5250,
+      "total_tokens": 23208
+    },
+    "content_char_count": 21570,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 173.52,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 64953,
+      "daily_remaining_tokens": 935047
+    },
+    "updated_at": "2026-09-22T11:01:52.600588"
+  },
+  "Lang_15/org/apache/commons/lang3/reflect/TypeUtils.java": {
+    "project": "Lang_15",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_15/org/apache/commons/lang3/reflect/TypeUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_15_buggy/TypeUtilsTest.java",
+    "file_size_bytes": 8693,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5870,
+      "completion_tokens": 1836,
+      "total_tokens": 7706
+    },
+    "content_char_count": 8694,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 60.41,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 72659,
+      "daily_remaining_tokens": 927341
+    },
+    "updated_at": "2026-09-22T11:02:54.070773"
+  },
+  "Lang_16/org/apache/commons/lang3/math/NumberUtils.java": {
+    "project": "Lang_16",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_16/org/apache/commons/lang3/math/NumberUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_16_buggy/NumberUtilsTest.java",
+    "file_size_bytes": 10375,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5946,
+      "completion_tokens": 2875,
+      "total_tokens": 8821
+    },
+    "content_char_count": 10388,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 98.75,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 81480,
+      "daily_remaining_tokens": 918520
+    },
+    "updated_at": "2026-09-22T11:04:33.883871"
+  },
+  "Lang_17/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java": {
+    "project": "Lang_17",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_17/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_17_buggy/CharSequenceTranslatorTest.java",
+    "file_size_bytes": 8084,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2354,
+      "completion_tokens": 1758,
+      "total_tokens": 4112
+    },
+    "content_char_count": 8082,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 50.16,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 85592,
+      "daily_remaining_tokens": 914408
+    },
+    "updated_at": "2026-09-22T11:05:25.136814"
+  },
+  "Lang_19/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java": {
+    "project": "Lang_19",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_19/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_19_buggy/NumericEntityUnescaperTest.java",
+    "file_size_bytes": 6066,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1892,
+      "completion_tokens": 1420,
+      "total_tokens": 3312
+    },
+    "content_char_count": 6078,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 48.03,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 88904,
+      "daily_remaining_tokens": 911096
+    },
+    "updated_at": "2026-09-22T11:06:14.226630"
+  },
+  "Lang_20/org/apache/commons/lang3/StringUtils.java": {
+    "project": "Lang_20",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_20/org/apache/commons/lang3/StringUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_20_buggy/StringUtilsTest.java",
+    "file_size_bytes": 28693,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 17899,
+      "completion_tokens": 6802,
+      "total_tokens": 24701
+    },
+    "content_char_count": 28693,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 235.91,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 113605,
+      "daily_remaining_tokens": 886395
+    },
+    "updated_at": "2026-09-22T11:10:11.200353"
+  },
+  "Lang_21/org/apache/commons/lang3/time/DateUtils.java": {
+    "project": "Lang_21",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_21/org/apache/commons/lang3/time/DateUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_21_buggy/DateUtilsTest.java",
+    "file_size_bytes": 12337,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6699,
+      "completion_tokens": 3033,
+      "total_tokens": 9732
+    },
+    "content_char_count": 12337,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 111.7,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 123337,
+      "daily_remaining_tokens": 876663
+    },
+    "updated_at": "2026-09-22T11:12:04.029647"
+  },
+  "Lang_22/org/apache/commons/lang3/math/Fraction.java": {
+    "project": "Lang_22",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_22/org/apache/commons/lang3/math/Fraction.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_22_buggy/FractionTest.java",
+    "file_size_bytes": 11026,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5000,
+      "completion_tokens": 2730,
+      "total_tokens": 7730
+    },
+    "content_char_count": 11026,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 91.25,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 131067,
+      "daily_remaining_tokens": 868933
+    },
+    "updated_at": "2026-09-22T11:13:36.361372"
+  },
+  "Lang_23/org/apache/commons/lang3/text/ExtendedMessageFormat.java": {
+    "project": "Lang_23",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_23/org/apache/commons/lang3/text/ExtendedMessageFormat.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_23_buggy/ExtendedMessageFormatTest.java",
+    "file_size_bytes": 7575,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5230,
+      "completion_tokens": 1727,
+      "total_tokens": 6957
+    },
+    "content_char_count": 7588,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 58.94,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 138024,
+      "daily_remaining_tokens": 861976
+    },
+    "updated_at": "2026-09-22T11:14:36.396771"
+  },
+  "Lang_24/org/apache/commons/lang3/math/NumberUtils.java": {
+    "project": "Lang_24",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_24/org/apache/commons/lang3/math/NumberUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_24_buggy/NumberUtilsTest.java",
+    "file_size_bytes": 6619,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5947,
+      "completion_tokens": 1873,
+      "total_tokens": 7820
+    },
+    "content_char_count": 6619,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 63.68,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 145844,
+      "daily_remaining_tokens": 854156
+    },
+    "updated_at": "2026-09-22T11:15:41.146511"
+  },
+  "Lang_26/org/apache/commons/lang3/time/FastDateFormat.java": {
+    "project": "Lang_26",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_26/org/apache/commons/lang3/time/FastDateFormat.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_26_buggy/FastDateFormatTest.java",
+    "file_size_bytes": 20598,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7973,
+      "completion_tokens": 4636,
+      "total_tokens": 12609
+    },
+    "content_char_count": 20611,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 154.77,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 158453,
+      "daily_remaining_tokens": 841547
+    },
+    "updated_at": "2026-09-22T11:18:16.988815"
+  },
+  "Lang_27/org/apache/commons/lang3/math/NumberUtils.java": {
+    "project": "Lang_27",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_27/org/apache/commons/lang3/math/NumberUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_27_buggy/NumberUtilsTest.java",
+    "file_size_bytes": 8341,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5914,
+      "completion_tokens": 2343,
+      "total_tokens": 8257
+    },
+    "content_char_count": 8342,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 79.0,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 166710,
+      "daily_remaining_tokens": 833290
+    },
+    "updated_at": "2026-09-22T11:19:37.057024"
+  },
+  "Lang_28/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java": {
+    "project": "Lang_28",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_28/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_28_buggy/NumericEntityUnescaperTest.java",
+    "file_size_bytes": 4010,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1758,
+      "completion_tokens": 945,
+      "total_tokens": 2703
+    },
+    "content_char_count": 4010,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 45.23,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 169413,
+      "daily_remaining_tokens": 830587
+    },
+    "updated_at": "2026-09-22T11:20:23.352952"
+  },
+  "Lang_29/org/apache/commons/lang3/SystemUtils.java": {
+    "project": "Lang_29",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_29/org/apache/commons/lang3/SystemUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_29_buggy/SystemUtilsTest.java",
+    "file_size_bytes": 8110,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4156,
+      "completion_tokens": 1945,
+      "total_tokens": 6101
+    },
+    "content_char_count": 8110,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 75.13,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 175514,
+      "daily_remaining_tokens": 824486
+    },
+    "updated_at": "2026-09-22T11:21:39.552035"
+  },
+  "Lang_3/org/apache/commons/lang3/math/NumberUtils.java": {
+    "project": "Lang_3",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_3/org/apache/commons/lang3/math/NumberUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_3_buggy/NumberUtilsTest.java",
+    "file_size_bytes": 12834,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5940,
+      "completion_tokens": 3586,
+      "total_tokens": 9526
+    },
+    "content_char_count": 12847,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 129.04,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 185040,
+      "daily_remaining_tokens": 814960
+    },
+    "updated_at": "2026-09-22T11:23:49.667298"
+  },
+  "Lang_30/org/apache/commons/lang3/StringUtils.java": {
+    "project": "Lang_30",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_30/org/apache/commons/lang3/StringUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_30_buggy/StringUtilsTest.java",
+    "file_size_bytes": 16593,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 16311,
+      "completion_tokens": 4041,
+      "total_tokens": 20352
+    },
+    "content_char_count": 16593,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 138.81,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 205392,
+      "daily_remaining_tokens": 794608
+    },
+    "updated_at": "2026-09-22T11:26:09.588897"
+  },
+  "Lang_31/org/apache/commons/lang3/StringUtils.java": {
+    "project": "Lang_31",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_31/org/apache/commons/lang3/StringUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_31_buggy/StringUtilsTest.java",
+    "file_size_bytes": 27554,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 16173,
+      "completion_tokens": 6680,
+      "total_tokens": 22853
+    },
+    "content_char_count": 27555,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 221.13,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 228245,
+      "daily_remaining_tokens": 771755
+    },
+    "updated_at": "2026-09-22T11:29:51.782323"
+  },
+  "Lang_32/org/apache/commons/lang3/builder/HashCodeBuilder.java": {
+    "project": "Lang_32",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_32/org/apache/commons/lang3/builder/HashCodeBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_32_buggy/HashCodeBuilderTest.java",
+    "file_size_bytes": 19723,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3514,
+      "completion_tokens": 4665,
+      "total_tokens": 8179
+    },
+    "content_char_count": 19736,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 158.82,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 236424,
+      "daily_remaining_tokens": 763576
+    },
+    "updated_at": "2026-09-22T11:32:31.698695"
+  },
+  "Lang_33/org/apache/commons/lang3/ClassUtils.java": {
+    "project": "Lang_33",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_33/org/apache/commons/lang3/ClassUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_33_buggy/ClassUtilsTest.java",
+    "file_size_bytes": 10133,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5160,
+      "completion_tokens": 2184,
+      "total_tokens": 7344
+    },
+    "content_char_count": 10134,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 72.35,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 243768,
+      "daily_remaining_tokens": 756232
+    },
+    "updated_at": "2026-09-22T11:33:45.127643"
+  },
+  "Lang_34/org/apache/commons/lang3/builder/ToStringStyle.java": {
+    "project": "Lang_34",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_34/org/apache/commons/lang3/builder/ToStringStyle.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_34_buggy/ToStringStyleTest.java",
+    "file_size_bytes": 17731,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7679,
+      "completion_tokens": 4255,
+      "total_tokens": 11934
+    },
+    "content_char_count": 17744,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 142.81,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 255702,
+      "daily_remaining_tokens": 744298
+    },
+    "updated_at": "2026-09-22T11:36:09.015833"
+  },
+  "Lang_35/org/apache/commons/lang3/ArrayUtils.java": {
+    "project": "Lang_35",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_35/org/apache/commons/lang3/ArrayUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_35_buggy/ArrayUtilsTest.java",
+    "file_size_bytes": 1565,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 15120,
+      "completion_tokens": 395,
+      "total_tokens": 15515
+    },
+    "content_char_count": 1566,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 14.97,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 271217,
+      "daily_remaining_tokens": 728783
+    },
+    "updated_at": "2026-09-22T11:36:25.052309"
+  },
+  "Lang_36/org/apache/commons/lang3/math/NumberUtils.java": {
+    "project": "Lang_36",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_36/org/apache/commons/lang3/math/NumberUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_36_buggy/NumberUtilsTest.java",
+    "file_size_bytes": 8721,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5874,
+      "completion_tokens": 2486,
+      "total_tokens": 8360
+    },
+    "content_char_count": 8722,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 80.67,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 279577,
+      "daily_remaining_tokens": 720423
+    },
+    "updated_at": "2026-09-22T11:37:46.796753"
+  },
+  "Lang_37/org/apache/commons/lang3/ArrayUtils.java": {
+    "project": "Lang_37",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_37/org/apache/commons/lang3/ArrayUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_37_buggy/ArrayUtilsTest.java",
+    "file_size_bytes": 10527,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 14970,
+      "completion_tokens": 3248,
+      "total_tokens": 18218
+    },
+    "content_char_count": 10527,
+    "reasoning_char_count": 2398,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 78.84,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 297795,
+      "daily_remaining_tokens": 702205
+    },
+    "updated_at": "2026-09-22T11:39:06.719978"
+  },
+  "Lang_38/org/apache/commons/lang3/time/FastDateFormat.java": {
+    "project": "Lang_38",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_38/org/apache/commons/lang3/time/FastDateFormat.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_38_buggy/FastDateFormatTest.java",
+    "file_size_bytes": 8546,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7966,
+      "completion_tokens": 2039,
+      "total_tokens": 10005
+    },
+    "content_char_count": 8559,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 67.68,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 307800,
+      "daily_remaining_tokens": 692200
+    },
+    "updated_at": "2026-09-22T11:40:15.481404"
+  },
+  "Lang_39/org/apache/commons/lang3/StringUtils.java": {
+    "project": "Lang_39",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_39/org/apache/commons/lang3/StringUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_39_buggy/StringUtilsTest.java",
+    "file_size_bytes": 26901,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 15279,
+      "completion_tokens": 6458,
+      "total_tokens": 21737
+    },
+    "content_char_count": 26901,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 203.1,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 329537,
+      "daily_remaining_tokens": 670463
+    },
+    "updated_at": "2026-09-22T11:43:39.660381"
+  },
+  "Lang_4/org/apache/commons/lang3/text/translate/LookupTranslator.java": {
+    "project": "Lang_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_4/org/apache/commons/lang3/text/translate/LookupTranslator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_4_buggy/LookupTranslatorTest.java",
+    "file_size_bytes": 5088,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1923,
+      "completion_tokens": 1115,
+      "total_tokens": 3038
+    },
+    "content_char_count": 5088,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 37.02,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 332575,
+      "daily_remaining_tokens": 667425
+    },
+    "updated_at": "2026-09-22T11:44:17.769679"
+  },
+  "Lang_40/org/apache/commons/lang/StringUtils.java": {
+    "project": "Lang_40",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_40/org/apache/commons/lang/StringUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_40_buggy/StringUtilsTest.java",
+    "file_size_bytes": 23323,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 14757,
+      "completion_tokens": 5474,
+      "total_tokens": 20231
+    },
+    "content_char_count": 23324,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 173.24,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 352806,
+      "daily_remaining_tokens": 647194
+    },
+    "updated_at": "2026-09-22T11:47:12.100683"
+  },
+  "Lang_41/org/apache/commons/lang/ClassUtils.java": {
+    "project": "Lang_41",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_41/org/apache/commons/lang/ClassUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_41_buggy/ClassUtilsTest.java",
+    "file_size_bytes": 11962,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4948,
+      "completion_tokens": 2615,
+      "total_tokens": 7563
+    },
+    "content_char_count": 11970,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 82.33,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 360369,
+      "daily_remaining_tokens": 639631
+    },
+    "updated_at": "2026-09-22T11:48:35.530178"
+  },
+  "Lang_42/org/apache/commons/lang/Entities.java": {
+    "project": "Lang_42",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_42/org/apache/commons/lang/Entities.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_42_buggy/EntitiesTest.java",
+    "file_size_bytes": 7702,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5713,
+      "completion_tokens": 1892,
+      "total_tokens": 7605
+    },
+    "content_char_count": 7715,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 59.41,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 367974,
+      "daily_remaining_tokens": 632026
+    },
+    "updated_at": "2026-09-22T11:49:36.118165"
+  },
+  "Lang_43/org/apache/commons/lang/text/ExtendedMessageFormat.java": {
+    "project": "Lang_43",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_43/org/apache/commons/lang/text/ExtendedMessageFormat.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_43_buggy/ExtendedMessageFormatTest.java",
+    "file_size_bytes": 6124,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4937,
+      "completion_tokens": 1280,
+      "total_tokens": 6217
+    },
+    "content_char_count": 6137,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 41.91,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 374191,
+      "daily_remaining_tokens": 625809
+    },
+    "updated_at": "2026-09-22T11:50:19.142434"
+  },
+  "Lang_44/org/apache/commons/lang/NumberUtils.java": {
+    "project": "Lang_44",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_44/org/apache/commons/lang/NumberUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_44_buggy/NumberUtilsTest.java",
+    "file_size_bytes": 17959,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7283,
+      "completion_tokens": 4371,
+      "total_tokens": 11654
+    },
+    "content_char_count": 17960,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 138.7,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 385845,
+      "daily_remaining_tokens": 614155
+    },
+    "updated_at": "2026-09-22T11:52:38.968464"
+  },
+  "Lang_45/org/apache/commons/lang/WordUtils.java": {
+    "project": "Lang_45",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_45/org/apache/commons/lang/WordUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_45_buggy/WordUtilsTest.java",
+    "file_size_bytes": 7289,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2909,
+      "completion_tokens": 1912,
+      "total_tokens": 4821
+    },
+    "content_char_count": 7288,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 58.82,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 390666,
+      "daily_remaining_tokens": 609334
+    },
+    "updated_at": "2026-09-22T11:53:38.874149"
+  },
+  "Lang_46/org/apache/commons/lang/StringEscapeUtils.java": {
+    "project": "Lang_46",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_46/org/apache/commons/lang/StringEscapeUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_46_buggy/StringEscapeUtilsTest.java",
+    "file_size_bytes": 22422,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3611,
+      "completion_tokens": 5720,
+      "total_tokens": 9331
+    },
+    "content_char_count": 22435,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 187.92,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 399997,
+      "daily_remaining_tokens": 600003
+    },
+    "updated_at": "2026-09-22T11:56:47.920641"
+  },
+  "Lang_47/org/apache/commons/lang/text/StrBuilder.java": {
+    "project": "Lang_47",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_47/org/apache/commons/lang/text/StrBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_47_buggy/StrBuilderTest.java",
+    "file_size_bytes": 25142,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10186,
+      "completion_tokens": 5564,
+      "total_tokens": 15750
+    },
+    "content_char_count": 25143,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 188.31,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 415747,
+      "daily_remaining_tokens": 584253
+    },
+    "updated_at": "2026-09-22T11:59:57.359670"
+  },
+  "Lang_49/org/apache/commons/lang/math/Fraction.java": {
+    "project": "Lang_49",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_49/org/apache/commons/lang/math/Fraction.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_49_buggy/FractionTest.java",
+    "file_size_bytes": 15671,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4955,
+      "completion_tokens": 3924,
+      "total_tokens": 8879
+    },
+    "content_char_count": 15683,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 159.17,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 424626,
+      "daily_remaining_tokens": 575374
+    },
+    "updated_at": "2026-09-22T12:02:37.647852"
+  },
+  "Lang_5/org/apache/commons/lang3/LocaleUtils.java": {
+    "project": "Lang_5",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_5/org/apache/commons/lang3/LocaleUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_5_buggy/LocaleUtilsTest.java",
+    "file_size_bytes": 5870,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3991,
+      "completion_tokens": 1386,
+      "total_tokens": 5377
+    },
+    "content_char_count": 5883,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 47.9,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 430003,
+      "daily_remaining_tokens": 569997
+    },
+    "updated_at": "2026-09-22T12:03:26.714042"
+  },
+  "Lang_50/org/apache/commons/lang/time/FastDateFormat.java": {
+    "project": "Lang_50",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_50/org/apache/commons/lang/time/FastDateFormat.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_50_buggy/FastDateFormatTest.java",
+    "file_size_bytes": 12852,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7921,
+      "completion_tokens": 2783,
+      "total_tokens": 10704
+    },
+    "content_char_count": 12853,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 91.45,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 440707,
+      "daily_remaining_tokens": 559293
+    },
+    "updated_at": "2026-09-22T12:04:59.301635"
+  },
+  "Lang_51/org/apache/commons/lang/BooleanUtils.java": {
+    "project": "Lang_51",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_51/org/apache/commons/lang/BooleanUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_51_buggy/BooleanUtilsTest.java",
+    "file_size_bytes": 13702,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3639,
+      "completion_tokens": 3136,
+      "total_tokens": 6775
+    },
+    "content_char_count": 13714,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 165.21,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 447482,
+      "daily_remaining_tokens": 552518
+    },
+    "updated_at": "2026-09-22T12:07:45.580476"
+  },
+  "Lang_52/org/apache/commons/lang/StringEscapeUtils.java": {
+    "project": "Lang_52",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_52/org/apache/commons/lang/StringEscapeUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_52_buggy/StringEscapeUtilsTest.java",
+    "file_size_bytes": 10710,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3048,
+      "completion_tokens": 2626,
+      "total_tokens": 5674
+    },
+    "content_char_count": 10723,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 89.08,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 453156,
+      "daily_remaining_tokens": 546844
+    },
+    "updated_at": "2026-09-22T12:09:15.735617"
+  },
+  "Lang_53/org/apache/commons/lang/time/DateUtils.java": {
+    "project": "Lang_53",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_53/org/apache/commons/lang/time/DateUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_53_buggy/DateUtilsTest.java",
+    "file_size_bytes": 10065,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4791,
+      "completion_tokens": 2380,
+      "total_tokens": 7171
+    },
+    "content_char_count": 10078,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 92.39,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 460327,
+      "daily_remaining_tokens": 539673
+    },
+    "updated_at": "2026-09-22T12:10:49.225187"
+  },
+  "Lang_54/org/apache/commons/lang/LocaleUtils.java": {
+    "project": "Lang_54",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_54/org/apache/commons/lang/LocaleUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_54_buggy/LocaleUtilsTest.java",
+    "file_size_bytes": 9924,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3898,
+      "completion_tokens": 2214,
+      "total_tokens": 6112
+    },
+    "content_char_count": 9937,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 72.42,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 466439,
+      "daily_remaining_tokens": 533561
+    },
+    "updated_at": "2026-09-22T12:12:02.724401"
+  },
+  "Lang_55/org/apache/commons/lang/time/StopWatch.java": {
+    "project": "Lang_55",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_55/org/apache/commons/lang/time/StopWatch.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_55_buggy/StopWatchTest.java",
+    "file_size_bytes": 8188,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3529,
+      "completion_tokens": 1787,
+      "total_tokens": 5316
+    },
+    "content_char_count": 8188,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 57.39,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 471755,
+      "daily_remaining_tokens": 528245
+    },
+    "updated_at": "2026-09-22T12:13:01.193838"
+  },
+  "Lang_56/org/apache/commons/lang/time/FastDateFormat.java": {
+    "project": "Lang_56",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_56/org/apache/commons/lang/time/FastDateFormat.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_56_buggy/FastDateFormatTest.java",
+    "file_size_bytes": 10283,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7893,
+      "completion_tokens": 2524,
+      "total_tokens": 10417
+    },
+    "content_char_count": 10292,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 84.85,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 482172,
+      "daily_remaining_tokens": 517828
+    },
+    "updated_at": "2026-09-22T12:14:27.123241"
+  },
+  "Lang_57/org/apache/commons/lang/LocaleUtils.java": {
+    "project": "Lang_57",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_57/org/apache/commons/lang/LocaleUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_57_buggy/LocaleUtilsTest.java",
+    "file_size_bytes": 6305,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3898,
+      "completion_tokens": 1433,
+      "total_tokens": 5331
+    },
+    "content_char_count": 6317,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 45.83,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 487503,
+      "daily_remaining_tokens": 512497
+    },
+    "updated_at": "2026-09-22T12:15:14.043965"
+  },
+  "Lang_58/org/apache/commons/lang/math/NumberUtils.java": {
+    "project": "Lang_58",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_58/org/apache/commons/lang/math/NumberUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_58_buggy/NumberUtilsTest.java",
+    "file_size_bytes": 14678,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6616,
+      "completion_tokens": 4265,
+      "total_tokens": 10881
+    },
+    "content_char_count": 14690,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 134.08,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 498384,
+      "daily_remaining_tokens": 501616
+    },
+    "updated_at": "2026-09-22T12:17:29.315865"
+  },
+  "Lang_59/org/apache/commons/lang/text/StrBuilder.java": {
+    "project": "Lang_59",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_59/org/apache/commons/lang/text/StrBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_59_buggy/StrBuilderTest.java",
+    "file_size_bytes": 29816,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 9500,
+      "completion_tokens": 6735,
+      "total_tokens": 16235
+    },
+    "content_char_count": 29828,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 219.76,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 514619,
+      "daily_remaining_tokens": 485381
+    },
+    "updated_at": "2026-09-22T12:21:10.161355"
+  },
+  "Lang_6/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java": {
+    "project": "Lang_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_6/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_6_buggy/CharSequenceTranslatorTest.java",
+    "file_size_bytes": 5979,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2323,
+      "completion_tokens": 1196,
+      "total_tokens": 3519
+    },
+    "content_char_count": 5992,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 44.42,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 518138,
+      "daily_remaining_tokens": 481862
+    },
+    "updated_at": "2026-09-22T12:21:55.661860"
+  },
+  "Lang_60/org/apache/commons/lang/text/StrBuilder.java": {
+    "project": "Lang_60",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_60/org/apache/commons/lang/text/StrBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_60_buggy/StrBuilderTest.java",
+    "file_size_bytes": 12372,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 9503,
+      "completion_tokens": 3065,
+      "total_tokens": 12568
+    },
+    "content_char_count": 12384,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 102.97,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 530706,
+      "daily_remaining_tokens": 469294
+    },
+    "updated_at": "2026-09-22T12:23:39.716544"
+  },
+  "Lang_61/org/apache/commons/lang/text/StrBuilder.java": {
+    "project": "Lang_61",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_61/org/apache/commons/lang/text/StrBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_61_buggy/StrBuilderTest.java",
+    "file_size_bytes": 15847,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 9502,
+      "completion_tokens": 3833,
+      "total_tokens": 13335
+    },
+    "content_char_count": 15859,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 127.31,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 544041,
+      "daily_remaining_tokens": 455959
+    },
+    "updated_at": "2026-09-22T12:25:48.114095"
+  },
+  "Lang_62/org/apache/commons/lang/Entities.java": {
+    "project": "Lang_62",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_62/org/apache/commons/lang/Entities.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_62_buggy/EntitiesTest.java",
+    "file_size_bytes": 9769,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6018,
+      "completion_tokens": 2332,
+      "total_tokens": 8350
+    },
+    "content_char_count": 9781,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 74.19,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 552391,
+      "daily_remaining_tokens": 447609
+    },
+    "updated_at": "2026-09-22T12:27:03.386123"
+  },
+  "Lang_63/org/apache/commons/lang/time/DurationFormatUtils.java": {
+    "project": "Lang_63",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_63/org/apache/commons/lang/time/DurationFormatUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_63_buggy/DurationFormatUtilsTest.java",
+    "file_size_bytes": 7003,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6848,
+      "completion_tokens": 1766,
+      "total_tokens": 8614
+    },
+    "content_char_count": 7015,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 56.65,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 561005,
+      "daily_remaining_tokens": 438995
+    },
+    "updated_at": "2026-09-22T12:28:01.116892"
+  },
+  "Lang_64/org/apache/commons/lang/enums/ValuedEnum.java": {
+    "project": "Lang_64",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_64/org/apache/commons/lang/enums/ValuedEnum.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_64_buggy/ValuedEnumTest.java",
+    "file_size_bytes": 4182,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3121,
+      "completion_tokens": 1008,
+      "total_tokens": 4129
+    },
+    "content_char_count": 4194,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 32.11,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 565134,
+      "daily_remaining_tokens": 434866
+    },
+    "updated_at": "2026-09-22T12:28:34.347067"
+  },
+  "Lang_65/org/apache/commons/lang/time/DateUtils.java": {
+    "project": "Lang_65",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_65/org/apache/commons/lang/time/DateUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_65_buggy/DateUtilsTest.java",
+    "file_size_bytes": 15956,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4557,
+      "completion_tokens": 3909,
+      "total_tokens": 8466
+    },
+    "content_char_count": 15957,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 113.09,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 573600,
+      "daily_remaining_tokens": 426400
+    },
+    "updated_at": "2026-09-22T12:30:28.572475"
+  },
+  "Lang_7/org/apache/commons/lang3/math/NumberUtils.java": {
+    "project": "Lang_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_7/org/apache/commons/lang3/math/NumberUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_7_buggy/NumberUtilsTest.java",
+    "file_size_bytes": 10412,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6007,
+      "completion_tokens": 2889,
+      "total_tokens": 8896
+    },
+    "content_char_count": 10412,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 88.23,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 582496,
+      "daily_remaining_tokens": 417504
+    },
+    "updated_at": "2026-09-22T12:31:57.964710"
+  },
+  "Lang_8/org/apache/commons/lang3/time/FastDatePrinter.java": {
+    "project": "Lang_8",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_8/org/apache/commons/lang3/time/FastDatePrinter.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_8_buggy/FastDatePrinterTest.java",
+    "file_size_bytes": 6812,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6238,
+      "completion_tokens": 1826,
+      "total_tokens": 8064
+    },
+    "content_char_count": 6825,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 57.8,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 590560,
+      "daily_remaining_tokens": 409440
+    },
+    "updated_at": "2026-09-22T12:32:56.958373"
+  },
+  "Lang_9/org/apache/commons/lang3/time/FastDateParser.java": {
+    "project": "Lang_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Lang_9/org/apache/commons/lang3/time/FastDateParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_9_buggy/FastDateParserTest.java",
+    "file_size_bytes": 4808,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5689,
+      "completion_tokens": 1160,
+      "total_tokens": 6849
+    },
+    "content_char_count": 4808,
+    "reasoning_char_count": 0,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 38.82,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 597409,
+      "daily_remaining_tokens": 402591
+    },
+    "updated_at": "2026-09-22T12:33:36.980611"
+  }
+}

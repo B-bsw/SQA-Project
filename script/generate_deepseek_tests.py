@@ -1175,7 +1175,8 @@ def read_parallel_budget_usage(output_dir: Path, keys: list[str]) -> dict[str, i
 
 
 def print_status_report(key_manager: KeyManager, state_data: dict, budget: DailyBudget,
-                        shard_count: int = 0, parallel_usage: dict = None):
+                        shard_count: int = 0, parallel_usage: dict = None,
+                        source_task_ids: set[str] = None):
     """แสดงสถานะระบบ โควต้า และความคืบหน้า (--status) โดยไม่เรียก API"""
     print("\n" + "=" * 80)
     print("📊 รายงานสถานะระบบ DeepSeek-V4-Flash Test Generation Pipeline")
@@ -1243,6 +1244,15 @@ def print_status_report(key_manager: KeyManager, state_data: dict, budget: Daily
     print(f"   • สร้างสำเร็จ (GENERATED): {counts['GENERATED'] + counts['COMPLETED']:,} ไฟล์")
     print(f"   • ติด Token Limit   : {counts['LIMIT_REACHED']:,} ไฟล์")
     print(f"   • ล้มเหลว (FAILED)  : {counts['FAILED']:,} ไฟล์")
+    if source_task_ids is not None:
+        source_entries = {task_id: state_data[task_id] for task_id in source_task_ids if task_id in state_data}
+        generated = sum(entry.get("status") in ("GENERATED", "COMPLETED")
+                        for entry in source_entries.values())
+        remaining = max(0, len(source_task_ids) - generated)
+        unrecorded = len(source_task_ids) - len(source_entries)
+        print(f"   • ไฟล์ต้นฉบับทั้งหมด: {len(source_task_ids):,} ไฟล์")
+        print(f"   • คงเหลือ (PENDING) : {remaining:,} ไฟล์")
+        print(f"     └─ ยังไม่มี State  : {unrecorded:,} ไฟล์")
     print("=" * 80 + "\n")
 
 
@@ -1396,7 +1406,9 @@ def main(cli_args=None):
         budget = DailyBudget(budget_file, args.budget_limit) if not args.no_budget else None
         key_mgr = KeyManager(api_keys, budget=budget)
         parallel_usage = read_parallel_budget_usage(workspace_dir / "Deepseek-flash-v4", api_keys) if include_shards else None
-        print_status_report(key_mgr, state_data, budget, shard_count, parallel_usage)
+        source_tasks = find_all_source_files(resource_dir, args.project, args.file)
+        source_task_ids = {f"{task['project']}/{task['rel_path']}" for task in source_tasks}
+        print_status_report(key_mgr, state_data, budget, shard_count, parallel_usage, source_task_ids)
         return
 
     # สแกนหาไฟล์ต้นฉบับทั้งหมด

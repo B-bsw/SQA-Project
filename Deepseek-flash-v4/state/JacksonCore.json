@@ -550,5 +550,258 @@
       "daily_remaining_tokens": 43009
     },
     "updated_at": "2026-09-21T18:45:10.597839"
+  },
+  "JacksonCore_25/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java": {
+    "project": "JacksonCore_25",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonCore_25/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonCore_25_buggy/ReaderBasedJsonParserTest.java",
+    "file_size_bytes": 24902,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 19258,
+      "completion_tokens": 5694,
+      "total_tokens": 24952
+    },
+    "content_char_count": 24902,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 91.4,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 24964,
+      "daily_remaining_tokens": 975036
+    },
+    "updated_at": "2026-09-22T10:52:59.190162"
+  },
+  "JacksonCore_26/com/fasterxml/jackson/core/json/async/NonBlockingJsonParser.java": {
+    "project": "JacksonCore_26",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonCore_26/com/fasterxml/jackson/core/json/async/NonBlockingJsonParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonCore_26_buggy/NonBlockingJsonParserTest.java",
+    "file_size_bytes": 8806,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 22257,
+      "completion_tokens": 4103,
+      "total_tokens": 26360
+    },
+    "content_char_count": 8806,
+    "reasoning_char_count": 8831,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 66.37,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 51324,
+      "daily_remaining_tokens": 948676
+    },
+    "updated_at": "2026-09-22T10:54:06.683748"
+  },
+  "JacksonCore_3/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java": {
+    "project": "JacksonCore_3",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonCore_3/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonCore_3_buggy/UTF8StreamJsonParserTest.java",
+    "file_size_bytes": 14934,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 21694,
+      "completion_tokens": 3473,
+      "total_tokens": 25167
+    },
+    "content_char_count": 14946,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 115.17,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 76491,
+      "daily_remaining_tokens": 923509
+    },
+    "updated_at": "2026-09-22T10:56:02.935249"
+  },
+  "JacksonCore_4/com/fasterxml/jackson/core/util/TextBuffer.java": {
+    "project": "JacksonCore_4",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonCore_4/com/fasterxml/jackson/core/util/TextBuffer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonCore_4_buggy/TextBufferTest.java",
+    "file_size_bytes": 10826,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6278,
+      "completion_tokens": 2518,
+      "total_tokens": 8796
+    },
+    "content_char_count": 10827,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 78.71,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 85287,
+      "daily_remaining_tokens": 914713
+    },
+    "updated_at": "2026-09-22T10:57:22.985657"
+  },
+  "JacksonCore_5/com/fasterxml/jackson/core/JsonPointer.java": {
+    "project": "JacksonCore_5",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonCore_5/com/fasterxml/jackson/core/JsonPointer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonCore_5_buggy/JsonPointerTest.java",
+    "file_size_bytes": 9086,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3150,
+      "completion_tokens": 2109,
+      "total_tokens": 5259
+    },
+    "content_char_count": 9099,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 70.73,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 90546,
+      "daily_remaining_tokens": 909454
+    },
+    "updated_at": "2026-09-22T10:58:34.803826"
+  },
+  "JacksonCore_6/com/fasterxml/jackson/core/JsonPointer.java": {
+    "project": "JacksonCore_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonCore_6/com/fasterxml/jackson/core/JsonPointer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonCore_6_buggy/JsonPointerTest.java",
+    "file_size_bytes": 6016,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3162,
+      "completion_tokens": 1363,
+      "total_tokens": 4525
+    },
+    "content_char_count": 6028,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 43.93,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 95071,
+      "daily_remaining_tokens": 904929
+    },
+    "updated_at": "2026-09-22T10:59:19.804050"
+  },
+  "JacksonCore_7/com/fasterxml/jackson/core/json/JsonWriteContext.java": {
+    "project": "JacksonCore_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonCore_7/com/fasterxml/jackson/core/json/JsonWriteContext.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonCore_7_buggy/JsonWriteContextTest.java",
+    "file_size_bytes": 9955,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2713,
+      "completion_tokens": 2131,
+      "total_tokens": 4844
+    },
+    "content_char_count": 9967,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 72.19,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 99915,
+      "daily_remaining_tokens": 900085
+    },
+    "updated_at": "2026-09-22T11:00:33.069981"
+  },
+  "JacksonCore_8/com/fasterxml/jackson/core/util/TextBuffer.java": {
+    "project": "JacksonCore_8",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonCore_8/com/fasterxml/jackson/core/util/TextBuffer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonCore_8_buggy/TextBufferTest.java",
+    "file_size_bytes": 12686,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6405,
+      "completion_tokens": 3021,
+      "total_tokens": 9426
+    },
+    "content_char_count": 12686,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 104.46,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 109341,
+      "daily_remaining_tokens": 890659
+    },
+    "updated_at": "2026-09-22T11:02:18.592745"
+  },
+  "JacksonCore_9/com/fasterxml/jackson/core/base/ParserMinimalBase.java": {
+    "project": "JacksonCore_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonCore_9/com/fasterxml/jackson/core/base/ParserMinimalBase.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonCore_9_buggy/ParserMinimalBaseTest.java",
+    "file_size_bytes": 12009,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5529,
+      "completion_tokens": 2693,
+      "total_tokens": 8222
+    },
+    "content_char_count": 12021,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 90.52,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 117563,
+      "daily_remaining_tokens": 882437
+    },
+    "updated_at": "2026-09-22T11:03:50.197364"
+  },
+  "JacksonCore_9/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java": {
+    "project": "JacksonCore_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonCore_9/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonCore_9_buggy/ReaderBasedJsonParserTest.java",
+    "file_size_bytes": 10375,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 15543,
+      "completion_tokens": 2264,
+      "total_tokens": 17807
+    },
+    "content_char_count": 10388,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 74.28,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 135370,
+      "daily_remaining_tokens": 864630
+    },
+    "updated_at": "2026-09-22T11:05:05.600960"
+  },
+  "JacksonCore_9/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java": {
+    "project": "JacksonCore_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonCore_9/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonCore_9_buggy/UTF8StreamJsonParserTest.java",
+    "file_size_bytes": 17570,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 24688,
+      "completion_tokens": 4099,
+      "total_tokens": 28787
+    },
+    "content_char_count": 17583,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 134.08,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 164157,
+      "daily_remaining_tokens": 835843
+    },
+    "updated_at": "2026-09-22T11:07:20.766617"
   }
 }

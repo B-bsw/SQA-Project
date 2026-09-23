@@ -22,7 +22,8 @@ def discover_groups(resource_dir: Path) -> list[str]:
 
 def worker_command(generator: Path, output_dir: Path, group: str, slot: int,
                    key: str, daily_budget: int, env_file: str | None,
-                   max_tokens: int | None, skip_limits: bool) -> list[str]:
+                   max_tokens: int | None, skip_limits: bool,
+                   no_budget: bool = False) -> list[str]:
     """Give each project its own state and each key its own persistent budget."""
     fingerprint = hashlib.sha256(key.encode("utf-8")).hexdigest()[:16]
     cmd = [sys.executable, "-u", str(generator), "--project", group,
@@ -36,6 +37,8 @@ def worker_command(generator: Path, output_dir: Path, group: str, slot: int,
         cmd.extend(["--max-tokens", str(max_tokens)])
     if skip_limits:
         cmd.append("--skip-limits")
+    if no_budget:
+        cmd.append("--no-budget")
     return cmd
 
 
@@ -85,6 +88,8 @@ def main(argv=None) -> int:
                         help="Number of concurrent keys/processes (default: 4)")
     parser.add_argument("--budget-limit", type=int, default=800000,
                         help="Local daily token budget per key (default: 800000)")
+    parser.add_argument("--no-budget", action="store_true",
+                        help="Disable the local daily token budget for each worker")
     parser.add_argument("--env-file", help="Path to the API key .env file")
     parser.add_argument("--max-tokens", type=int, help="Output token cap per request")
     parser.add_argument("--skip-limits", action="store_true",
@@ -116,7 +121,8 @@ def main(argv=None) -> int:
     if args.dry_run:
         for index, group in enumerate(groups):
             print(f"{group}: key #{index % args.workers + 1} (one project at a time per key)")
-        print(f"{len(groups)} groups, {args.workers} workers, {args.budget_limit:,} tokens/day per key")
+        budget_label = "local budget disabled" if args.no_budget else f"{args.budget_limit:,} tokens/day per key"
+        print(f"{len(groups)} groups, {args.workers} workers, {budget_label}")
         return 0
 
     seed_project_states(output_dir, groups)
@@ -156,7 +162,7 @@ def main(argv=None) -> int:
                 return
             cmd = worker_command(generator, output_dir, group, slot, keys[slot - 1],
                                  args.budget_limit, args.env_file, args.max_tokens,
-                                 args.skip_limits)
+                                 args.skip_limits, args.no_budget)
             say(f"[key #{slot}] Starting {group}")
             try:
                 with subprocess.Popen(cmd, cwd=workspace, stdout=subprocess.PIPE,
