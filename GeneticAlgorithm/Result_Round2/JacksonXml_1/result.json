@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-23T17:08:07Z",
+  "round": 2,
+  "project": "JacksonXml",
+  "bug_id": 1,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 2,
+  "coverage": 2.52,
+  "line_cov": 4.12,
+  "branch_cov": 0.92,
+  "total_goals": 508,
+  "covered_goals": 13,
+  "lines": 52,
+  "covered_lines": 12,
+  "total_branches": 186,
+  "covered_branches": 1,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser",
+      "generation_result": "PASS",
+      "generation_seconds": 72,
+      "tests": 2,
+      "coverage": 2.52,
+      "line_cov": 4.12,
+      "branch_cov": 0.92,
+      "total_goals": 508,
+      "covered_goals": 13,
+      "lines": 52,
+      "covered_lines": 12,
+      "total_branches": 186,
+      "covered_branches": 1,
+      "total_methods": 51,
+      "covered_methods": 2,
+      "branchless_methods": 31,
+      "covered_branchless_methods": 1
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}
