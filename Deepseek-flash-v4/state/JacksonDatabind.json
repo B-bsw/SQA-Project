@@ -2206,5 +2206,1408 @@
       "daily_remaining_tokens": -4866
     },
     "updated_at": "2026-09-23T02:23:09.014567"
+  },
+  "JacksonDatabind_52/com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java": {
+    "project": "JacksonDatabind_52",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_52/com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_52_buggy/BeanDeserializerBaseTest.java",
+    "file_size_bytes": 14323,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 11106,
+      "completion_tokens": 13658,
+      "total_tokens": 24764
+    },
+    "content_char_count": 14323,
+    "reasoning_char_count": 41937,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 136.31,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 24764,
+      "daily_remaining_tokens": 975236
+    },
+    "updated_at": "2026-09-23T12:04:07.795596"
+  },
+  "JacksonDatabind_52/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java": {
+    "project": "JacksonDatabind_52",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_52/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_52_buggy/ExternalTypeHandlerTest.java",
+    "file_size_bytes": 9689,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3708,
+      "completion_tokens": 33883,
+      "total_tokens": 37591
+    },
+    "content_char_count": 9689,
+    "reasoning_char_count": 135190,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 193.94,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 80579,
+      "daily_remaining_tokens": 919421
+    },
+    "updated_at": "2026-09-23T12:14:10.396083"
+  },
+  "JacksonDatabind_53/com/fasterxml/jackson/databind/type/TypeBindings.java": {
+    "project": "JacksonDatabind_53",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_53/com/fasterxml/jackson/databind/type/TypeBindings.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_53_buggy/TypeBindingsTest.java",
+    "file_size_bytes": 8670,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4633,
+      "completion_tokens": 45710,
+      "total_tokens": 50343
+    },
+    "content_char_count": 8670,
+    "reasoning_char_count": 184282,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 249.99,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 130922,
+      "daily_remaining_tokens": 869078
+    },
+    "updated_at": "2026-09-23T12:18:21.458870"
+  },
+  "JacksonDatabind_53/com/fasterxml/jackson/databind/type/TypeFactory.java": {
+    "project": "JacksonDatabind_53",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_53/com/fasterxml/jackson/databind/type/TypeFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_53_buggy/TypeFactoryTest.java",
+    "file_size_bytes": 8928,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7724,
+      "completion_tokens": 29984,
+      "total_tokens": 37708
+    },
+    "content_char_count": 8928,
+    "reasoning_char_count": 120922,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 164.26,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 168630,
+      "daily_remaining_tokens": 831370
+    },
+    "updated_at": "2026-09-23T12:21:06.816162"
+  },
+  "JacksonDatabind_54/com/fasterxml/jackson/databind/ser/PropertyBuilder.java": {
+    "project": "JacksonDatabind_54",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_54/com/fasterxml/jackson/databind/ser/PropertyBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_54_buggy/PropertyBuilderTest.java",
+    "file_size_bytes": 13164,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4441,
+      "completion_tokens": 27931,
+      "total_tokens": 32372
+    },
+    "content_char_count": 13164,
+    "reasoning_char_count": 107517,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 156.47,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 201002,
+      "daily_remaining_tokens": 798998
+    },
+    "updated_at": "2026-09-23T12:23:44.361872"
+  },
+  "JacksonDatabind_55/com/fasterxml/jackson/databind/ser/std/StdKeySerializers.java": {
+    "project": "JacksonDatabind_55",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_55/com/fasterxml/jackson/databind/ser/std/StdKeySerializers.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_55_buggy/StdKeySerializersTest.java",
+    "file_size_bytes": 7899,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3082,
+      "completion_tokens": 26236,
+      "total_tokens": 29318
+    },
+    "content_char_count": 7899,
+    "reasoning_char_count": 106701,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 160.06,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 230320,
+      "daily_remaining_tokens": 769680
+    },
+    "updated_at": "2026-09-23T12:26:25.500405"
+  },
+  "JacksonDatabind_56/com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java": {
+    "project": "JacksonDatabind_56",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_56/com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_56_buggy/FromStringDeserializerTest.java",
+    "file_size_bytes": 9298,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3677,
+      "completion_tokens": 30355,
+      "total_tokens": 34032
+    },
+    "content_char_count": 9298,
+    "reasoning_char_count": 115639,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 181.95,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 264352,
+      "daily_remaining_tokens": 735648
+    },
+    "updated_at": "2026-09-23T12:29:28.526362"
+  },
+  "JacksonDatabind_57/com/fasterxml/jackson/databind/ObjectReader.java": {
+    "project": "JacksonDatabind_57",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_57/com/fasterxml/jackson/databind/ObjectReader.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_57_buggy/ObjectReaderTest.java",
+    "file_size_bytes": 7117,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 9551,
+      "completion_tokens": 37968,
+      "total_tokens": 47519
+    },
+    "content_char_count": 7117,
+    "reasoning_char_count": 149181,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 221.33,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 311871,
+      "daily_remaining_tokens": 688129
+    },
+    "updated_at": "2026-09-23T12:33:10.934837"
+  },
+  "JacksonDatabind_58/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java": {
+    "project": "JacksonDatabind_58",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_58/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_58_buggy/BeanDeserializerFactoryTest.java",
+    "file_size_bytes": 7168,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6810,
+      "completion_tokens": 19912,
+      "total_tokens": 26722
+    },
+    "content_char_count": 7168,
+    "reasoning_char_count": 80836,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 111.87,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 338593,
+      "daily_remaining_tokens": 661407
+    },
+    "updated_at": "2026-09-23T12:35:03.878435"
+  },
+  "JacksonDatabind_59/com/fasterxml/jackson/databind/JavaType.java": {
+    "project": "JacksonDatabind_59",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_59/com/fasterxml/jackson/databind/JavaType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_59_buggy/JavaTypeTest.java",
+    "file_size_bytes": 12120,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5359,
+      "completion_tokens": 19037,
+      "total_tokens": 24396
+    },
+    "content_char_count": 12120,
+    "reasoning_char_count": 69889,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 100.94,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 362989,
+      "daily_remaining_tokens": 637011
+    },
+    "updated_at": "2026-09-23T12:36:45.891106"
+  },
+  "JacksonDatabind_59/com/fasterxml/jackson/databind/type/CollectionLikeType.java": {
+    "project": "JacksonDatabind_59",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_59/com/fasterxml/jackson/databind/type/CollectionLikeType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_59_buggy/CollectionLikeTypeTest.java",
+    "file_size_bytes": 5389,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3137,
+      "completion_tokens": 8577,
+      "total_tokens": 11714
+    },
+    "content_char_count": 5389,
+    "reasoning_char_count": 30366,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 52.27,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 374703,
+      "daily_remaining_tokens": 625297
+    },
+    "updated_at": "2026-09-23T12:37:39.230723"
+  },
+  "JacksonDatabind_59/com/fasterxml/jackson/databind/type/MapLikeType.java": {
+    "project": "JacksonDatabind_59",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_59/com/fasterxml/jackson/databind/type/MapLikeType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_59_buggy/MapLikeTypeTest.java",
+    "file_size_bytes": 5489,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3457,
+      "completion_tokens": 16058,
+      "total_tokens": 19515
+    },
+    "content_char_count": 5489,
+    "reasoning_char_count": 64369,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 89.75,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 394218,
+      "daily_remaining_tokens": 605782
+    },
+    "updated_at": "2026-09-23T12:39:10.061307"
+  },
+  "JacksonDatabind_59/com/fasterxml/jackson/databind/type/TypeFactory.java": {
+    "project": "JacksonDatabind_59",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_59/com/fasterxml/jackson/databind/type/TypeFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_59_buggy/TypeFactoryTest.java",
+    "file_size_bytes": 13393,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8002,
+      "completion_tokens": 27272,
+      "total_tokens": 35274
+    },
+    "content_char_count": 13393,
+    "reasoning_char_count": 104919,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 144.31,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 429492,
+      "daily_remaining_tokens": 570508
+    },
+    "updated_at": "2026-09-23T12:41:35.448602"
+  },
+  "JacksonDatabind_6/com/fasterxml/jackson/databind/util/StdDateFormat.java": {
+    "project": "JacksonDatabind_6",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_6/com/fasterxml/jackson/databind/util/StdDateFormat.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_6_buggy/StdDateFormatTest.java",
+    "file_size_bytes": 6213,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5217,
+      "completion_tokens": 16681,
+      "total_tokens": 21898
+    },
+    "content_char_count": 6213,
+    "reasoning_char_count": 53101,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 84.61,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 451390,
+      "daily_remaining_tokens": 548610
+    },
+    "updated_at": "2026-09-23T12:43:01.130730"
+  },
+  "JacksonDatabind_60/com/fasterxml/jackson/databind/ser/std/JsonValueSerializer.java": {
+    "project": "JacksonDatabind_60",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_60/com/fasterxml/jackson/databind/ser/std/JsonValueSerializer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_60_buggy/JsonValueSerializerTest.java",
+    "file_size_bytes": 18222,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4527,
+      "completion_tokens": 37468,
+      "total_tokens": 41995
+    },
+    "content_char_count": 18222,
+    "reasoning_char_count": 150521,
+    "used_key": "sk_E3p...Drbt",
+    "elapsed_seconds": 191.28,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 698548,
+      "daily_remaining_tokens": 301452
+    },
+    "updated_at": "2026-09-23T12:46:13.479765"
+  },
+  "JacksonDatabind_61/com/fasterxml/jackson/databind/ObjectMapper.java": {
+    "project": "JacksonDatabind_61",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_61/com/fasterxml/jackson/databind/ObjectMapper.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_61_buggy/ObjectMapperTest.java",
+    "file_size_bytes": 6917,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 15880,
+      "completion_tokens": 19928,
+      "total_tokens": 35808
+    },
+    "content_char_count": 6917,
+    "reasoning_char_count": 77657,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 101.15,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 35808,
+      "daily_remaining_tokens": 964192
+    },
+    "updated_at": "2026-09-23T12:50:01.153102"
+  },
+  "JacksonDatabind_61/com/fasterxml/jackson/databind/jsontype/impl/StdTypeResolverBuilder.java": {
+    "project": "JacksonDatabind_61",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_61/com/fasterxml/jackson/databind/jsontype/impl/StdTypeResolverBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_61_buggy/StdTypeResolverBuilderTest.java",
+    "file_size_bytes": 10002,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3165,
+      "completion_tokens": 21224,
+      "total_tokens": 24389
+    },
+    "content_char_count": 10002,
+    "reasoning_char_count": 82604,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 109.54,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 60197,
+      "daily_remaining_tokens": 939803
+    },
+    "updated_at": "2026-09-23T12:51:51.775088"
+  },
+  "JacksonDatabind_62/com/fasterxml/jackson/databind/deser/std/CollectionDeserializer.java": {
+    "project": "JacksonDatabind_62",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_62/com/fasterxml/jackson/databind/deser/std/CollectionDeserializer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_62_buggy/CollectionDeserializerTest.java",
+    "file_size_bytes": 10634,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4994,
+      "completion_tokens": 20744,
+      "total_tokens": 25738
+    },
+    "content_char_count": 10634,
+    "reasoning_char_count": 78335,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 105.66,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 85935,
+      "daily_remaining_tokens": 914065
+    },
+    "updated_at": "2026-09-23T12:53:38.525151"
+  },
+  "JacksonDatabind_63/com/fasterxml/jackson/databind/JsonMappingException.java": {
+    "project": "JacksonDatabind_63",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_63/com/fasterxml/jackson/databind/JsonMappingException.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_63_buggy/JsonMappingExceptionTest.java",
+    "file_size_bytes": 6920,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5041,
+      "completion_tokens": 29145,
+      "total_tokens": 34186
+    },
+    "content_char_count": 6920,
+    "reasoning_char_count": 118431,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 166.77,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 120121,
+      "daily_remaining_tokens": 879879
+    },
+    "updated_at": "2026-09-23T12:56:26.365606"
+  },
+  "JacksonDatabind_64/com/fasterxml/jackson/databind/ser/PropertyBuilder.java": {
+    "project": "JacksonDatabind_64",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_64/com/fasterxml/jackson/databind/ser/PropertyBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_64_buggy/PropertyBuilderTest.java",
+    "file_size_bytes": 5965,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5024,
+      "completion_tokens": 24052,
+      "total_tokens": 29076
+    },
+    "content_char_count": 5965,
+    "reasoning_char_count": 101250,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 126.95,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 149197,
+      "daily_remaining_tokens": 850803
+    },
+    "updated_at": "2026-09-23T12:58:34.400884"
+  },
+  "JacksonDatabind_66/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer.java": {
+    "project": "JacksonDatabind_66",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_66/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_66_buggy/StdKeyDeserializerTest.java",
+    "file_size_bytes": 7130,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4718,
+      "completion_tokens": 21556,
+      "total_tokens": 26274
+    },
+    "content_char_count": 7130,
+    "reasoning_char_count": 83334,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 104.83,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 175471,
+      "daily_remaining_tokens": 824529
+    },
+    "updated_at": "2026-09-23T13:00:20.354878"
+  },
+  "JacksonDatabind_67/com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java": {
+    "project": "JacksonDatabind_67",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_67/com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_67_buggy/BasicDeserializerFactoryTest.java",
+    "file_size_bytes": 9541,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 15075,
+      "completion_tokens": 18033,
+      "total_tokens": 33108
+    },
+    "content_char_count": 9541,
+    "reasoning_char_count": 72329,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 89.04,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 208579,
+      "daily_remaining_tokens": 791421
+    },
+    "updated_at": "2026-09-23T13:01:50.521998"
+  },
+  "JacksonDatabind_68/com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java": {
+    "project": "JacksonDatabind_68",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_68/com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_68_buggy/BeanDeserializerBaseTest.java",
+    "file_size_bytes": 15831,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 11207,
+      "completion_tokens": 29180,
+      "total_tokens": 40387
+    },
+    "content_char_count": 15831,
+    "reasoning_char_count": 110332,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 148.97,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 248966,
+      "daily_remaining_tokens": 751034
+    },
+    "updated_at": "2026-09-23T13:04:20.665925"
+  },
+  "JacksonDatabind_69/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java": {
+    "project": "JacksonDatabind_69",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_69/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_69_buggy/CreatorCollectorTest.java",
+    "file_size_bytes": 7840,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4479,
+      "completion_tokens": 21691,
+      "total_tokens": 26170
+    },
+    "content_char_count": 7840,
+    "reasoning_char_count": 86800,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 115.5,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 275136,
+      "daily_remaining_tokens": 724864
+    },
+    "updated_at": "2026-09-23T13:06:17.261575"
+  },
+  "JacksonDatabind_7/com/fasterxml/jackson/databind/util/TokenBuffer.java": {
+    "project": "JacksonDatabind_7",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_7/com/fasterxml/jackson/databind/util/TokenBuffer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_7_buggy/TokenBufferTest.java",
+    "file_size_bytes": 19632,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10127,
+      "completion_tokens": 25106,
+      "total_tokens": 35233
+    },
+    "content_char_count": 19632,
+    "reasoning_char_count": 86129,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 122.98,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 310369,
+      "daily_remaining_tokens": 689631
+    },
+    "updated_at": "2026-09-23T13:08:21.321124"
+  },
+  "JacksonDatabind_70/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java": {
+    "project": "JacksonDatabind_70",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_70/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_70_buggy/BeanPropertyMapTest.java",
+    "file_size_bytes": 10842,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6195,
+      "completion_tokens": 22076,
+      "total_tokens": 28271
+    },
+    "content_char_count": 10842,
+    "reasoning_char_count": 79765,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 101.79,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 338640,
+      "daily_remaining_tokens": 661360
+    },
+    "updated_at": "2026-09-23T13:10:04.203579"
+  },
+  "JacksonDatabind_71/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer.java": {
+    "project": "JacksonDatabind_71",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_71/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_71_buggy/StdKeyDeserializerTest.java",
+    "file_size_bytes": 7582,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4562,
+      "completion_tokens": 24471,
+      "total_tokens": 29033
+    },
+    "content_char_count": 7582,
+    "reasoning_char_count": 93357,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 129.43,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 367673,
+      "daily_remaining_tokens": 632327
+    },
+    "updated_at": "2026-09-23T13:12:14.738860"
+  },
+  "JacksonDatabind_72/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java": {
+    "project": "JacksonDatabind_72",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_72/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_72_buggy/InnerClassPropertyTest.java",
+    "file_size_bytes": 12221,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2508,
+      "completion_tokens": 43574,
+      "total_tokens": 46082
+    },
+    "content_char_count": 12221,
+    "reasoning_char_count": 171251,
+    "used_key": "sk_tPX...Zcy7",
+    "elapsed_seconds": 213.78,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 413755,
+      "daily_remaining_tokens": 586245
+    },
+    "updated_at": "2026-09-23T13:15:49.610335"
+  },
+  "JacksonDatabind_73/com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java": {
+    "project": "JacksonDatabind_73",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_73/com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_73_buggy/POJOPropertiesCollectorTest.java",
+    "file_size_bytes": 9346,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7336,
+      "completion_tokens": 45807,
+      "total_tokens": 53143
+    },
+    "content_char_count": 9346,
+    "reasoning_char_count": 182978,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 250.23,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 389884,
+      "daily_remaining_tokens": 610116
+    },
+    "updated_at": "2026-09-23T14:12:25.410890"
+  },
+  "JacksonDatabind_73/com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java": {
+    "project": "JacksonDatabind_73",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_73/com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_73_buggy/POJOPropertyBuilderTest.java",
+    "file_size_bytes": 15396,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8483,
+      "completion_tokens": 19987,
+      "total_tokens": 28470
+    },
+    "content_char_count": 15396,
+    "reasoning_char_count": 69990,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 113.03,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 418354,
+      "daily_remaining_tokens": 581646
+    },
+    "updated_at": "2026-09-23T14:14:19.530518"
+  },
+  "JacksonDatabind_74/com/fasterxml/jackson/databind/jsontype/impl/AsPropertyTypeDeserializer.java": {
+    "project": "JacksonDatabind_74",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_74/com/fasterxml/jackson/databind/jsontype/impl/AsPropertyTypeDeserializer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_74_buggy/AsPropertyTypeDeserializerTest.java",
+    "file_size_bytes": 7715,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3092,
+      "completion_tokens": 28886,
+      "total_tokens": 31978
+    },
+    "content_char_count": 7715,
+    "reasoning_char_count": 116257,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 168.92,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 450332,
+      "daily_remaining_tokens": 549668
+    },
+    "updated_at": "2026-09-23T14:17:09.531968"
+  },
+  "JacksonDatabind_75/com/fasterxml/jackson/databind/ser/std/EnumSerializer.java": {
+    "project": "JacksonDatabind_75",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_75/com/fasterxml/jackson/databind/ser/std/EnumSerializer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_75_buggy/EnumSerializerTest.java",
+    "file_size_bytes": 9220,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3119,
+      "completion_tokens": 14050,
+      "total_tokens": 17169
+    },
+    "content_char_count": 9220,
+    "reasoning_char_count": 53839,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 73.19,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 467501,
+      "daily_remaining_tokens": 532499
+    },
+    "updated_at": "2026-09-23T14:18:23.802306"
+  },
+  "JacksonDatabind_76/com/fasterxml/jackson/databind/deser/BuilderBasedDeserializer.java": {
+    "project": "JacksonDatabind_76",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_76/com/fasterxml/jackson/databind/deser/BuilderBasedDeserializer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_76_buggy/BuilderBasedDeserializerTest.java",
+    "file_size_bytes": 7396,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6027,
+      "completion_tokens": 40083,
+      "total_tokens": 46110
+    },
+    "content_char_count": 7396,
+    "reasoning_char_count": 165074,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 224.48,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 513611,
+      "daily_remaining_tokens": 486389
+    },
+    "updated_at": "2026-09-23T14:22:09.377640"
+  },
+  "JacksonDatabind_77/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java": {
+    "project": "JacksonDatabind_77",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_77/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_77_buggy/BeanDeserializerFactoryTest.java",
+    "file_size_bytes": 7014,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6856,
+      "completion_tokens": 17673,
+      "total_tokens": 24529
+    },
+    "content_char_count": 7014,
+    "reasoning_char_count": 68754,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 100.9,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 538140,
+      "daily_remaining_tokens": 461860
+    },
+    "updated_at": "2026-09-23T14:23:51.358472"
+  },
+  "JacksonDatabind_78/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java": {
+    "project": "JacksonDatabind_78",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_78/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_78_buggy/BeanDeserializerFactoryTest.java",
+    "file_size_bytes": 10385,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6971,
+      "completion_tokens": 23987,
+      "total_tokens": 30958
+    },
+    "content_char_count": 10385,
+    "reasoning_char_count": 94786,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 131.59,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 569098,
+      "daily_remaining_tokens": 430902
+    },
+    "updated_at": "2026-09-23T14:26:04.071094"
+  },
+  "JacksonDatabind_79/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java": {
+    "project": "JacksonDatabind_79",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_79/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_79_buggy/JacksonAnnotationIntrospectorTest.java",
+    "file_size_bytes": 14064,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 9418,
+      "completion_tokens": 25901,
+      "total_tokens": 35319
+    },
+    "content_char_count": 14064,
+    "reasoning_char_count": 96025,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 131.71,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 604417,
+      "daily_remaining_tokens": 395583
+    },
+    "updated_at": "2026-09-23T14:28:17.052922"
+  },
+  "JacksonDatabind_79/com/fasterxml/jackson/databind/introspect/ObjectIdInfo.java": {
+    "project": "JacksonDatabind_79",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_79/com/fasterxml/jackson/databind/introspect/ObjectIdInfo.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_79_buggy/ObjectIdInfoTest.java",
+    "file_size_bytes": 4884,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2022,
+      "completion_tokens": 8596,
+      "total_tokens": 10618
+    },
+    "content_char_count": 4892,
+    "reasoning_char_count": 33893,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 48.31,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 615035,
+      "daily_remaining_tokens": 384965
+    },
+    "updated_at": "2026-09-23T14:29:07.163234"
+  },
+  "JacksonDatabind_79/com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.java": {
+    "project": "JacksonDatabind_79",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_79/com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_79_buggy/BeanSerializerBaseTest.java",
+    "file_size_bytes": 11263,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6608,
+      "completion_tokens": 31213,
+      "total_tokens": 37821
+    },
+    "content_char_count": 11263,
+    "reasoning_char_count": 128508,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 168.18,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 652856,
+      "daily_remaining_tokens": 347144
+    },
+    "updated_at": "2026-09-23T14:31:56.467054"
+  },
+  "JacksonDatabind_8/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java": {
+    "project": "JacksonDatabind_8",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_8/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_8_buggy/CreatorCollectorTest.java",
+    "file_size_bytes": 9295,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4222,
+      "completion_tokens": 27879,
+      "total_tokens": 32101
+    },
+    "content_char_count": 9295,
+    "reasoning_char_count": 110336,
+    "used_key": "sk_aGV...I9j8",
+    "elapsed_seconds": 140.28,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 684957,
+      "daily_remaining_tokens": 315043
+    },
+    "updated_at": "2026-09-23T14:34:17.853392"
+  },
+  "JacksonDatabind_80/com/fasterxml/jackson/databind/jsontype/impl/StdSubtypeResolver.java": {
+    "project": "JacksonDatabind_80",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_80/com/fasterxml/jackson/databind/jsontype/impl/StdSubtypeResolver.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_80_buggy/StdSubtypeResolverTest.java",
+    "file_size_bytes": 9380,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3914,
+      "completion_tokens": 62143,
+      "total_tokens": 66057
+    },
+    "content_char_count": 9380,
+    "reasoning_char_count": 248099,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 323.25,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 66069,
+      "daily_remaining_tokens": 933931
+    },
+    "updated_at": "2026-09-23T14:39:52.795335"
+  },
+  "JacksonDatabind_81/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java": {
+    "project": "JacksonDatabind_81",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_81/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_81_buggy/JacksonAnnotationIntrospectorTest.java",
+    "file_size_bytes": 32863,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10576,
+      "completion_tokens": 36785,
+      "total_tokens": 47361
+    },
+    "content_char_count": 32863,
+    "reasoning_char_count": 124271,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 171.4,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 113430,
+      "daily_remaining_tokens": 886570
+    },
+    "updated_at": "2026-09-23T14:42:45.278913"
+  },
+  "JacksonDatabind_82/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java": {
+    "project": "JacksonDatabind_82",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_82/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_82_buggy/BeanDeserializerFactoryTest.java",
+    "file_size_bytes": 6980,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7309,
+      "completion_tokens": 38858,
+      "total_tokens": 46167
+    },
+    "content_char_count": 6980,
+    "reasoning_char_count": 161553,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 208.58,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 159597,
+      "daily_remaining_tokens": 840403
+    },
+    "updated_at": "2026-09-23T14:46:15.070869"
+  },
+  "JacksonDatabind_83/com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java": {
+    "project": "JacksonDatabind_83",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_83/com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_83_buggy/FromStringDeserializerTest.java",
+    "file_size_bytes": 6564,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3856,
+      "completion_tokens": 29779,
+      "total_tokens": 33635
+    },
+    "content_char_count": 6564,
+    "reasoning_char_count": 117641,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 167.25,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 193232,
+      "daily_remaining_tokens": 806768
+    },
+    "updated_at": "2026-09-23T14:49:03.978167"
+  },
+  "JacksonDatabind_84/com/fasterxml/jackson/databind/type/ResolvedRecursiveType.java": {
+    "project": "JacksonDatabind_84",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_84/com/fasterxml/jackson/databind/type/ResolvedRecursiveType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_84_buggy/ResolvedRecursiveTypeTest.java",
+    "file_size_bytes": 5287,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2023,
+      "completion_tokens": 6082,
+      "total_tokens": 8105
+    },
+    "content_char_count": 5287,
+    "reasoning_char_count": 21569,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 34.56,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 201337,
+      "daily_remaining_tokens": 798663
+    },
+    "updated_at": "2026-09-23T14:49:39.684120"
+  },
+  "JacksonDatabind_85/com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase.java": {
+    "project": "JacksonDatabind_85",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_85/com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_85_buggy/DateTimeSerializerBaseTest.java",
+    "file_size_bytes": 12233,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2619,
+      "completion_tokens": 60813,
+      "total_tokens": 63432
+    },
+    "content_char_count": 12233,
+    "reasoning_char_count": 255767,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 322.67,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 264769,
+      "daily_remaining_tokens": 735231
+    },
+    "updated_at": "2026-09-23T14:55:03.432327"
+  },
+  "JacksonDatabind_86/com/fasterxml/jackson/databind/type/ResolvedRecursiveType.java": {
+    "project": "JacksonDatabind_86",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_86/com/fasterxml/jackson/databind/type/ResolvedRecursiveType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_86_buggy/ResolvedRecursiveTypeTest.java",
+    "file_size_bytes": 3680,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2023,
+      "completion_tokens": 15735,
+      "total_tokens": 17758
+    },
+    "content_char_count": 3680,
+    "reasoning_char_count": 64492,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 93.82,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 282527,
+      "daily_remaining_tokens": 717473
+    },
+    "updated_at": "2026-09-23T14:56:38.325040"
+  },
+  "JacksonDatabind_87/com/fasterxml/jackson/databind/util/StdDateFormat.java": {
+    "project": "JacksonDatabind_87",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_87/com/fasterxml/jackson/databind/util/StdDateFormat.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_87_buggy/StdDateFormatTest.java",
+    "file_size_bytes": 6112,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6290,
+      "completion_tokens": 20908,
+      "total_tokens": 27198
+    },
+    "content_char_count": 6112,
+    "reasoning_char_count": 68490,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 114.13,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 309725,
+      "daily_remaining_tokens": 690275
+    },
+    "updated_at": "2026-09-23T14:58:33.541352"
+  },
+  "JacksonDatabind_88/com/fasterxml/jackson/databind/jsontype/impl/ClassNameIdResolver.java": {
+    "project": "JacksonDatabind_88",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_88/com/fasterxml/jackson/databind/jsontype/impl/ClassNameIdResolver.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_88_buggy/ClassNameIdResolverTest.java",
+    "file_size_bytes": 5043,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2824,
+      "completion_tokens": 40502,
+      "total_tokens": 43326
+    },
+    "content_char_count": 5043,
+    "reasoning_char_count": 165347,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 218.07,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 353051,
+      "daily_remaining_tokens": 646949
+    },
+    "updated_at": "2026-09-23T15:02:12.685117"
+  },
+  "JacksonDatabind_9/com/fasterxml/jackson/databind/ser/std/StdKeySerializer.java": {
+    "project": "JacksonDatabind_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_9/com/fasterxml/jackson/databind/ser/std/StdKeySerializer.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_9_buggy/StdKeySerializerTest.java",
+    "file_size_bytes": 4205,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1635,
+      "completion_tokens": 14717,
+      "total_tokens": 16352
+    },
+    "content_char_count": 4205,
+    "reasoning_char_count": 60654,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 84.29,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 369403,
+      "daily_remaining_tokens": 630597
+    },
+    "updated_at": "2026-09-23T15:03:38.058096"
+  },
+  "JacksonDatabind_90/com/fasterxml/jackson/databind/deser/ValueInstantiator.java": {
+    "project": "JacksonDatabind_90",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_90/com/fasterxml/jackson/databind/deser/ValueInstantiator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_90_buggy/ValueInstantiatorTest.java",
+    "file_size_bytes": 7370,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4860,
+      "completion_tokens": 23436,
+      "total_tokens": 28296
+    },
+    "content_char_count": 7370,
+    "reasoning_char_count": 95739,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 121.63,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 397699,
+      "daily_remaining_tokens": 602301
+    },
+    "updated_at": "2026-09-23T15:05:40.768543"
+  },
+  "JacksonDatabind_90/com/fasterxml/jackson/databind/deser/std/StdValueInstantiator.java": {
+    "project": "JacksonDatabind_90",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_90/com/fasterxml/jackson/databind/deser/std/StdValueInstantiator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_90_buggy/StdValueInstantiatorTest.java",
+    "file_size_bytes": 14175,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5182,
+      "completion_tokens": 21779,
+      "total_tokens": 26961
+    },
+    "content_char_count": 14175,
+    "reasoning_char_count": 80132,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 113.0,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 424660,
+      "daily_remaining_tokens": 575340
+    },
+    "updated_at": "2026-09-23T15:07:34.852658"
+  },
+  "JacksonDatabind_91/com/fasterxml/jackson/databind/deser/DeserializerCache.java": {
+    "project": "JacksonDatabind_91",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_91/com/fasterxml/jackson/databind/deser/DeserializerCache.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_91_buggy/DeserializerCacheTest.java",
+    "file_size_bytes": 10154,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6750,
+      "completion_tokens": 35004,
+      "total_tokens": 41754
+    },
+    "content_char_count": 10154,
+    "reasoning_char_count": 140953,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 191.92,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 466414,
+      "daily_remaining_tokens": 533586
+    },
+    "updated_at": "2026-09-23T15:10:47.857546"
+  },
+  "JacksonDatabind_92/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java": {
+    "project": "JacksonDatabind_92",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_92/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_92_buggy/BeanDeserializerFactoryTest.java",
+    "file_size_bytes": 6884,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7209,
+      "completion_tokens": 50157,
+      "total_tokens": 57366
+    },
+    "content_char_count": 6884,
+    "reasoning_char_count": 206409,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 297.58,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 523780,
+      "daily_remaining_tokens": 476220
+    },
+    "updated_at": "2026-09-23T15:15:46.524705"
+  },
+  "JacksonDatabind_93/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java": {
+    "project": "JacksonDatabind_93",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_93/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_93_buggy/SubTypeValidatorTest.java",
+    "file_size_bytes": 2688,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2364,
+      "completion_tokens": 17298,
+      "total_tokens": 19662
+    },
+    "content_char_count": 2688,
+    "reasoning_char_count": 74109,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 109.65,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 543442,
+      "daily_remaining_tokens": 456558
+    },
+    "updated_at": "2026-09-23T15:17:37.267708"
+  },
+  "JacksonDatabind_94/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java": {
+    "project": "JacksonDatabind_94",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_94/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_94_buggy/SubTypeValidatorTest.java",
+    "file_size_bytes": 2607,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2514,
+      "completion_tokens": 17419,
+      "total_tokens": 19933
+    },
+    "content_char_count": 2607,
+    "reasoning_char_count": 75772,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 113.42,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 563375,
+      "daily_remaining_tokens": 436625
+    },
+    "updated_at": "2026-09-23T15:19:31.756863"
+  },
+  "JacksonDatabind_95/com/fasterxml/jackson/databind/type/TypeFactory.java": {
+    "project": "JacksonDatabind_95",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_95/com/fasterxml/jackson/databind/type/TypeFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_95_buggy/TypeFactoryTest.java",
+    "file_size_bytes": 10018,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8488,
+      "completion_tokens": 18436,
+      "total_tokens": 26924
+    },
+    "content_char_count": 10018,
+    "reasoning_char_count": 70420,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 112.34,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 590299,
+      "daily_remaining_tokens": 409701
+    },
+    "updated_at": "2026-09-23T15:21:25.175009"
+  },
+  "JacksonDatabind_95/com/fasterxml/jackson/databind/type/TypeParser.java": {
+    "project": "JacksonDatabind_95",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_95/com/fasterxml/jackson/databind/type/TypeParser.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_95_buggy/TypeParserTest.java",
+    "file_size_bytes": 4707,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2245,
+      "completion_tokens": 21840,
+      "total_tokens": 24085
+    },
+    "content_char_count": 4707,
+    "reasoning_char_count": 90793,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 133.74,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 614384,
+      "daily_remaining_tokens": 385616
+    },
+    "updated_at": "2026-09-23T15:23:40.344556"
+  },
+  "JacksonDatabind_96/com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java": {
+    "project": "JacksonDatabind_96",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_96/com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_96_buggy/BasicDeserializerFactoryTest.java",
+    "file_size_bytes": 10645,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 16444,
+      "completion_tokens": 35705,
+      "total_tokens": 52149
+    },
+    "content_char_count": 10645,
+    "reasoning_char_count": 144277,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 192.69,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 666533,
+      "daily_remaining_tokens": 333467
+    },
+    "updated_at": "2026-09-23T15:26:54.317764"
+  },
+  "JacksonDatabind_97/com/fasterxml/jackson/databind/node/POJONode.java": {
+    "project": "JacksonDatabind_97",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_97/com/fasterxml/jackson/databind/node/POJONode.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_97_buggy/POJONodeTest.java",
+    "file_size_bytes": 6136,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2338,
+      "completion_tokens": 12810,
+      "total_tokens": 15148
+    },
+    "content_char_count": 6136,
+    "reasoning_char_count": 46042,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 67.22,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 681681,
+      "daily_remaining_tokens": 318319
+    },
+    "updated_at": "2026-09-23T15:28:02.645345"
+  },
+  "JacksonDatabind_98/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java": {
+    "project": "JacksonDatabind_98",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_98/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_98_buggy/ExternalTypeHandlerTest.java",
+    "file_size_bytes": 12603,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5516,
+      "completion_tokens": 38355,
+      "total_tokens": 43871
+    },
+    "content_char_count": 12603,
+    "reasoning_char_count": 150840,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 191.78,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 725552,
+      "daily_remaining_tokens": 274448
+    },
+    "updated_at": "2026-09-23T15:31:15.568622"
+  },
+  "JacksonDatabind_99/com/fasterxml/jackson/databind/type/ReferenceType.java": {
+    "project": "JacksonDatabind_99",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/JacksonDatabind_99/com/fasterxml/jackson/databind/type/ReferenceType.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_99_buggy/ReferenceTypeTest.java",
+    "file_size_bytes": 8721,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3329,
+      "completion_tokens": 50397,
+      "total_tokens": 53726
+    },
+    "content_char_count": 8721,
+    "reasoning_char_count": 206573,
+    "used_key": "sk_3Zm...Fh3j",
+    "elapsed_seconds": 274.4,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 779278,
+      "daily_remaining_tokens": 220722
+    },
+    "updated_at": "2026-09-23T15:35:51.061611"
   }
 }
