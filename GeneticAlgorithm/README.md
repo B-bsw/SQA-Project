@@ -84,7 +84,7 @@ generated `.java` files
 | JacksonXml      | jackson-dataformat-xml |                     6 | 1-6                      | None                    | check      |            |
 | Jsoup           | jsoup                  |                    93 | 1-93                     | None                    |            |            |
 | JxPath          | commons-jxpath         |                    22 | 1-22                     | None                    | check      |            |
-| Lang            | commons-lang           |                    61 | 1,3-17,19-24,26-47,49-65 | 2,18,25,48              |            |            |
+| Lang            | commons-lang           |                    61 | 1,3-17,19-24,26-47,49-65 | 2,18,25,48              | check      |            |
 | Math            | commons-math           |                   106 | 1-106                    | None                    |            |            |
 | Mockito         | mockito                |                    38 | 1-38                     | None                    |            |            |
 | Time            | joda-time              |                    26 | 1-20,22-27               | 21                      |            |            |

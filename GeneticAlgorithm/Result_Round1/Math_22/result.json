@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-23T21:14:49Z",
+  "round": 1,
+  "project": "Math",
+  "bug_id": 22,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 16,
+  "coverage": 100,
+  "line_cov": 97.54,
+  "branch_cov": 100,
+  "total_goals": 131,
+  "covered_goals": 127,
+  "lines": 31,
+  "covered_lines": 84,
+  "total_branches": 22,
+  "covered_branches": 22,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "FAIL",
+  "fixed_fails": 2,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.math3.distribution.FDistribution",
+      "generation_result": "PASS",
+      "generation_seconds": 13,
+      "tests": 7,
+      "coverage": 100.00,
+      "line_cov": 98.11,
+      "branch_cov": 100.00,
+      "total_goals": 76,
+      "covered_goals": 74,
+      "lines": 16,
+      "covered_lines": 52,
+      "total_branches": 12,
+      "covered_branches": 12,
+      "total_methods": 16,
+      "covered_methods": 16,
+      "branchless_methods": 11,
+      "covered_branchless_methods": 11
+    },
+    {
+      "target_class": "org.apache.commons.math3.distribution.UniformRealDistribution",
+      "generation_result": "PASS",
+      "generation_seconds": 17,
+      "tests": 9,
+      "coverage": 100.00,
+      "line_cov": 96.97,
+      "branch_cov": 100.00,
+      "total_goals": 55,
+      "covered_goals": 53,
+      "lines": 15,
+      "covered_lines": 32,
+      "total_branches": 10,
+      "covered_branches": 10,
+      "total_methods": 15,
+      "covered_methods": 15,
+      "branchless_methods": 12,
+      "covered_branchless_methods": 12
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 2
+    }
+  ]
+}
