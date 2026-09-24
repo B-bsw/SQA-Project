@@ -10126,5 +10126,1078 @@
     "time_limit": 60,
     "status": "COMPLETED",
     "timestamp": "2026-09-24T05:32:39.282903+00:00"
+  },
+  "Jsoup_41": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_41_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_41",
+    "classes_tested": [
+      "org.jsoup.nodes.Element"
+    ],
+    "generated_tests": [
+      "org/jsoup/nodes/RegressionTest0.java",
+      "org/jsoup/nodes/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:14:42.034371+00:00"
+  },
+  "Jsoup_42": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_42_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_42",
+    "classes_tested": [
+      "org.jsoup.nodes.FormElement"
+    ],
+    "generated_tests": [
+      "org/jsoup/nodes/RegressionTest0.java",
+      "org/jsoup/nodes/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:15:48.350513+00:00"
+  },
+  "Jsoup_43": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_43_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_43",
+    "classes_tested": [
+      "org.jsoup.nodes.Element"
+    ],
+    "generated_tests": [
+      "org/jsoup/nodes/RegressionTest0.java",
+      "org/jsoup/nodes/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:16:54.778728+00:00"
+  },
+  "Jsoup_44": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_44_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_44",
+    "classes_tested": [
+      "org.jsoup.parser.TreeBuilder"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:18:00.993688+00:00"
+  },
+  "Jsoup_45": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_45_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_45",
+    "classes_tested": [
+      "org.jsoup.parser.HtmlTreeBuilder"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/ErrorTest0.java",
+      "org/jsoup/parser/RegressionTest6.java",
+      "org/jsoup/parser/RegressionTest7.java",
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/ErrorTest.java",
+      "org/jsoup/parser/RegressionTest1.java",
+      "org/jsoup/parser/RegressionTest2.java",
+      "org/jsoup/parser/RegressionTest3.java",
+      "org/jsoup/parser/RegressionTest8.java",
+      "org/jsoup/parser/RegressionTest4.java",
+      "org/jsoup/parser/RegressionTest5.java",
+      "org/jsoup/parser/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:19:26.186284+00:00"
+  },
+  "Jsoup_46": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_46_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_46",
+    "classes_tested": [
+      "org.jsoup.nodes.Entities"
+    ],
+    "generated_tests": [
+      "org/jsoup/nodes/RegressionTest0.java",
+      "org/jsoup/nodes/RegressionTest1.java",
+      "org/jsoup/nodes/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:20:35.621016+00:00"
+  },
+  "Jsoup_47": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_47_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_47",
+    "classes_tested": [
+      "org.jsoup.nodes.Entities"
+    ],
+    "generated_tests": [
+      "org/jsoup/nodes/RegressionTest0.java",
+      "org/jsoup/nodes/RegressionTest1.java",
+      "org/jsoup/nodes/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:21:44.881348+00:00"
+  },
+  "Jsoup_48": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_48_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_48",
+    "classes_tested": [
+      "org.jsoup.helper.HttpConnection"
+    ],
+    "generated_tests": [
+      "org/jsoup/helper/RegressionTest6.java",
+      "org/jsoup/helper/RegressionTest7.java",
+      "org/jsoup/helper/RegressionTest0.java",
+      "org/jsoup/helper/RegressionTest10.java",
+      "org/jsoup/helper/RegressionTest11.java",
+      "org/jsoup/helper/RegressionTest1.java",
+      "org/jsoup/helper/RegressionTest2.java",
+      "org/jsoup/helper/RegressionTest12.java",
+      "org/jsoup/helper/RegressionTest3.java",
+      "org/jsoup/helper/RegressionTest8.java",
+      "org/jsoup/helper/RegressionTest4.java",
+      "org/jsoup/helper/RegressionTest5.java",
+      "org/jsoup/helper/RegressionTest.java",
+      "org/jsoup/helper/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:22:57.678925+00:00"
+  },
+  "Jsoup_49": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_49_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_49",
+    "classes_tested": [
+      "org.jsoup.nodes.Node"
+    ],
+    "generated_tests": [
+      "org/jsoup/nodes/RegressionTest0.java",
+      "org/jsoup/nodes/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:24:04.183320+00:00"
+  },
+  "Jsoup_50": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_50_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_50",
+    "classes_tested": [
+      "org.jsoup.helper.DataUtil"
+    ],
+    "generated_tests": [
+      "org/jsoup/helper/RegressionTest0.java",
+      "org/jsoup/helper/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:25:10.793295+00:00"
+  },
+  "Jsoup_51": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_51_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_51",
+    "classes_tested": [
+      "org.jsoup.parser.CharacterReader"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/RegressionTest6.java",
+      "org/jsoup/parser/RegressionTest7.java",
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/RegressionTest1.java",
+      "org/jsoup/parser/RegressionTest2.java",
+      "org/jsoup/parser/RegressionTest3.java",
+      "org/jsoup/parser/RegressionTest8.java",
+      "org/jsoup/parser/RegressionTest4.java",
+      "org/jsoup/parser/RegressionTest5.java",
+      "org/jsoup/parser/RegressionTest.java",
+      "org/jsoup/parser/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:26:25.842298+00:00"
+  },
+  "Jsoup_52": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_52_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_52",
+    "classes_tested": [
+      "org.jsoup.nodes.XmlDeclaration",
+      "org.jsoup.parser.XmlTreeBuilder",
+      "org.jsoup.helper.DataUtil"
+    ],
+    "generated_tests": [
+      "org/jsoup/nodes/ErrorTest0.java",
+      "org/jsoup/nodes/RegressionTest6.java",
+      "org/jsoup/nodes/RegressionTest7.java",
+      "org/jsoup/nodes/RegressionTest0.java",
+      "org/jsoup/nodes/ErrorTest.java",
+      "org/jsoup/nodes/RegressionTest10.java",
+      "org/jsoup/nodes/RegressionTest1.java",
+      "org/jsoup/nodes/RegressionTest2.java",
+      "org/jsoup/nodes/RegressionTest3.java",
+      "org/jsoup/nodes/RegressionTest8.java",
+      "org/jsoup/nodes/RegressionTest4.java",
+      "org/jsoup/nodes/RegressionTest5.java",
+      "org/jsoup/nodes/RegressionTest.java",
+      "org/jsoup/nodes/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:27:42.140445+00:00"
+  },
+  "Jsoup_53": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_53_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_53",
+    "classes_tested": [
+      "org.jsoup.parser.TokenQueue"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/RegressionTest6.java",
+      "org/jsoup/parser/RegressionTest7.java",
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/RegressionTest1.java",
+      "org/jsoup/parser/RegressionTest2.java",
+      "org/jsoup/parser/RegressionTest3.java",
+      "org/jsoup/parser/RegressionTest4.java",
+      "org/jsoup/parser/RegressionTest5.java",
+      "org/jsoup/parser/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:28:58.634075+00:00"
+  },
+  "Jsoup_54": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_54_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_54",
+    "classes_tested": [
+      "org.jsoup.helper.W3CDom"
+    ],
+    "generated_tests": [
+      "org/jsoup/helper/RegressionTest6.java",
+      "org/jsoup/helper/RegressionTest7.java",
+      "org/jsoup/helper/RegressionTest0.java",
+      "org/jsoup/helper/RegressionTest1.java",
+      "org/jsoup/helper/RegressionTest2.java",
+      "org/jsoup/helper/RegressionTest3.java",
+      "org/jsoup/helper/RegressionTest4.java",
+      "org/jsoup/helper/RegressionTest5.java",
+      "org/jsoup/helper/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:30:22.703721+00:00"
+  },
+  "Jsoup_55": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_55_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_55",
+    "classes_tested": [
+      "org.jsoup.parser.TokeniserState"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:31:30.243378+00:00"
+  },
+  "Jsoup_56": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_56_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_56",
+    "classes_tested": [
+      "org.jsoup.nodes.DocumentType",
+      "org.jsoup.parser.HtmlTreeBuilderState",
+      "org.jsoup.parser.Token",
+      "org.jsoup.parser.XmlTreeBuilder",
+      "org.jsoup.parser.TokeniserState"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/ErrorTest0.java",
+      "org/jsoup/parser/RegressionTest6.java",
+      "org/jsoup/parser/RegressionTest7.java",
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/ErrorTest.java",
+      "org/jsoup/parser/RegressionTest1.java",
+      "org/jsoup/parser/RegressionTest2.java",
+      "org/jsoup/parser/RegressionTest3.java",
+      "org/jsoup/parser/RegressionTest4.java",
+      "org/jsoup/parser/RegressionTest5.java",
+      "org/jsoup/parser/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:32:44.166115+00:00"
+  },
+  "Jsoup_57": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_57_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_57",
+    "classes_tested": [
+      "org.jsoup.nodes.Attributes"
+    ],
+    "generated_tests": [
+      "org/jsoup/nodes/RegressionTest6.java",
+      "org/jsoup/nodes/RegressionTest7.java",
+      "org/jsoup/nodes/RegressionTest0.java",
+      "org/jsoup/nodes/RegressionTest1.java",
+      "org/jsoup/nodes/RegressionTest2.java",
+      "org/jsoup/nodes/RegressionTest3.java",
+      "org/jsoup/nodes/RegressionTest8.java",
+      "org/jsoup/nodes/RegressionTest4.java",
+      "org/jsoup/nodes/RegressionTest5.java",
+      "org/jsoup/nodes/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:33:59.903918+00:00"
+  },
+  "Jsoup_58": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_58_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_58",
+    "classes_tested": [
+      "org.jsoup.Jsoup",
+      "org.jsoup.parser.Parser",
+      "org.jsoup.safety.Cleaner"
+    ],
+    "generated_tests": [
+      "org/jsoup/RegressionTest6.java",
+      "org/jsoup/RegressionTest7.java",
+      "org/jsoup/RegressionTest0.java",
+      "org/jsoup/RegressionTest1.java",
+      "org/jsoup/RegressionTest2.java",
+      "org/jsoup/RegressionTest3.java",
+      "org/jsoup/RegressionTest4.java",
+      "org/jsoup/RegressionTest5.java",
+      "org/jsoup/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:35:16.909055+00:00"
+  },
+  "Jsoup_59": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_59_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_59",
+    "classes_tested": [
+      "org.jsoup.parser.Token"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/RegressionTest6.java",
+      "org/jsoup/parser/RegressionTest7.java",
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/RegressionTest1.java",
+      "org/jsoup/parser/RegressionTest2.java",
+      "org/jsoup/parser/RegressionTest3.java",
+      "org/jsoup/parser/RegressionTest8.java",
+      "org/jsoup/parser/RegressionTest4.java",
+      "org/jsoup/parser/RegressionTest5.java",
+      "org/jsoup/parser/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:36:30.272754+00:00"
+  },
+  "Jsoup_60": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_60_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_60",
+    "classes_tested": [
+      "org.jsoup.parser.TokenQueue",
+      "org.jsoup.select.QueryParser"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/RegressionTest6.java",
+      "org/jsoup/parser/RegressionTest7.java",
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/RegressionTest1.java",
+      "org/jsoup/parser/RegressionTest2.java",
+      "org/jsoup/parser/RegressionTest3.java",
+      "org/jsoup/parser/RegressionTest4.java",
+      "org/jsoup/parser/RegressionTest5.java",
+      "org/jsoup/parser/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:37:46.881460+00:00"
+  },
+  "Jsoup_61": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_61_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_61",
+    "classes_tested": [
+      "org.jsoup.nodes.Element"
+    ],
+    "generated_tests": [
+      "org/jsoup/nodes/ErrorTest0.java",
+      "org/jsoup/nodes/RegressionTest6.java",
+      "org/jsoup/nodes/RegressionTest7.java",
+      "org/jsoup/nodes/RegressionTest0.java",
+      "org/jsoup/nodes/ErrorTest.java",
+      "org/jsoup/nodes/RegressionTest1.java",
+      "org/jsoup/nodes/RegressionTest2.java",
+      "org/jsoup/nodes/RegressionTest3.java",
+      "org/jsoup/nodes/RegressionTest4.java",
+      "org/jsoup/nodes/RegressionTest5.java",
+      "org/jsoup/nodes/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:39:02.241712+00:00"
+  },
+  "Jsoup_62": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_62_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_62",
+    "classes_tested": [
+      "org.jsoup.parser.HtmlTreeBuilderState"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:40:09.567245+00:00"
+  },
+  "Jsoup_63": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_63_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_63",
+    "classes_tested": [
+      "org.jsoup.parser.Tokeniser",
+      "org.jsoup.parser.HtmlTreeBuilder"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/ErrorTest0.java",
+      "org/jsoup/parser/RegressionTest6.java",
+      "org/jsoup/parser/RegressionTest7.java",
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/ErrorTest.java",
+      "org/jsoup/parser/RegressionTest1.java",
+      "org/jsoup/parser/RegressionTest2.java",
+      "org/jsoup/parser/RegressionTest3.java",
+      "org/jsoup/parser/RegressionTest4.java",
+      "org/jsoup/parser/RegressionTest5.java",
+      "org/jsoup/parser/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:41:32.348611+00:00"
+  },
+  "Jsoup_64": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_64_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_64",
+    "classes_tested": [
+      "org.jsoup.parser.HtmlTreeBuilderState"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:42:39.448275+00:00"
+  },
+  "Jsoup_65": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_65_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_65",
+    "classes_tested": [
+      "org.jsoup.parser.HtmlTreeBuilderState",
+      "org.jsoup.parser.HtmlTreeBuilder"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/ErrorTest0.java",
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/ErrorTest.java",
+      "org/jsoup/parser/RegressionTest1.java",
+      "org/jsoup/parser/RegressionTest2.java",
+      "org/jsoup/parser/RegressionTest3.java",
+      "org/jsoup/parser/RegressionTest4.java",
+      "org/jsoup/parser/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:44:02.200756+00:00"
+  },
+  "Jsoup_67": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_67_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_67",
+    "classes_tested": [
+      "org.jsoup.parser.HtmlTreeBuilder"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/ErrorTest0.java",
+      "org/jsoup/parser/RegressionTest6.java",
+      "org/jsoup/parser/RegressionTest7.java",
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/ErrorTest.java",
+      "org/jsoup/parser/RegressionTest1.java",
+      "org/jsoup/parser/RegressionTest2.java",
+      "org/jsoup/parser/RegressionTest3.java",
+      "org/jsoup/parser/RegressionTest4.java",
+      "org/jsoup/parser/RegressionTest5.java",
+      "org/jsoup/parser/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:46:44.506897+00:00"
+  },
+  "Jsoup_68": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_68_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_68",
+    "classes_tested": [
+      "org.jsoup.parser.HtmlTreeBuilder"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/ErrorTest0.java",
+      "org/jsoup/parser/RegressionTest6.java",
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/ErrorTest.java",
+      "org/jsoup/parser/RegressionTest1.java",
+      "org/jsoup/parser/RegressionTest2.java",
+      "org/jsoup/parser/RegressionTest3.java",
+      "org/jsoup/parser/RegressionTest4.java",
+      "org/jsoup/parser/RegressionTest5.java",
+      "org/jsoup/parser/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:48:09.734566+00:00"
+  },
+  "Jsoup_69": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_69_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_69",
+    "classes_tested": [
+      "org.jsoup.nodes.FormElement"
+    ],
+    "generated_tests": [
+      "org/jsoup/nodes/RegressionTest0.java",
+      "org/jsoup/nodes/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:49:16.373829+00:00"
+  },
+  "Jsoup_70": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_70_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_70",
+    "classes_tested": [
+      "org.jsoup.nodes.Element"
+    ],
+    "generated_tests": [
+      "org/jsoup/nodes/ErrorTest0.java",
+      "org/jsoup/nodes/RegressionTest6.java",
+      "org/jsoup/nodes/RegressionTest7.java",
+      "org/jsoup/nodes/RegressionTest0.java",
+      "org/jsoup/nodes/ErrorTest.java",
+      "org/jsoup/nodes/RegressionTest1.java",
+      "org/jsoup/nodes/RegressionTest2.java",
+      "org/jsoup/nodes/RegressionTest3.java",
+      "org/jsoup/nodes/RegressionTest4.java",
+      "org/jsoup/nodes/RegressionTest5.java",
+      "org/jsoup/nodes/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:50:31.051277+00:00"
+  },
+  "Jsoup_71": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_71_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_71",
+    "classes_tested": [
+      "org.jsoup.select.QueryParser",
+      "org.jsoup.select.Evaluator"
+    ],
+    "generated_tests": [
+      "org/jsoup/select/RegressionTest6.java",
+      "org/jsoup/select/RegressionTest7.java",
+      "org/jsoup/select/RegressionTest0.java",
+      "org/jsoup/select/RegressionTest1.java",
+      "org/jsoup/select/RegressionTest2.java",
+      "org/jsoup/select/RegressionTest3.java",
+      "org/jsoup/select/RegressionTest8.java",
+      "org/jsoup/select/RegressionTest4.java",
+      "org/jsoup/select/RegressionTest5.java",
+      "org/jsoup/select/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:51:43.482781+00:00"
+  },
+  "Jsoup_72": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_72_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_72",
+    "classes_tested": [
+      "org.jsoup.parser.CharacterReader"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/RegressionTest6.java",
+      "org/jsoup/parser/RegressionTest7.java",
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/RegressionTest1.java",
+      "org/jsoup/parser/RegressionTest2.java",
+      "org/jsoup/parser/RegressionTest3.java",
+      "org/jsoup/parser/RegressionTest4.java",
+      "org/jsoup/parser/RegressionTest5.java",
+      "org/jsoup/parser/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:52:58.966796+00:00"
+  },
+  "Jsoup_73": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_73_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_73",
+    "classes_tested": [
+      "org.jsoup.helper.W3CDom"
+    ],
+    "generated_tests": [
+      "org/jsoup/helper/RegressionTest6.java",
+      "org/jsoup/helper/RegressionTest7.java",
+      "org/jsoup/helper/RegressionTest0.java",
+      "org/jsoup/helper/RegressionTest1.java",
+      "org/jsoup/helper/RegressionTest2.java",
+      "org/jsoup/helper/RegressionTest3.java",
+      "org/jsoup/helper/RegressionTest4.java",
+      "org/jsoup/helper/RegressionTest5.java",
+      "org/jsoup/helper/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:54:24.209599+00:00"
+  },
+  "Jsoup_75": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_75_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_75",
+    "classes_tested": [
+      "org.jsoup.nodes.Attributes"
+    ],
+    "generated_tests": [
+      "org/jsoup/nodes/RegressionTest6.java",
+      "org/jsoup/nodes/RegressionTest7.java",
+      "org/jsoup/nodes/RegressionTest0.java",
+      "org/jsoup/nodes/RegressionTest1.java",
+      "org/jsoup/nodes/RegressionTest2.java",
+      "org/jsoup/nodes/RegressionTest3.java",
+      "org/jsoup/nodes/RegressionTest8.java",
+      "org/jsoup/nodes/RegressionTest4.java",
+      "org/jsoup/nodes/RegressionTest5.java",
+      "org/jsoup/nodes/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:56:49.777397+00:00"
+  },
+  "Jsoup_76": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_76_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_76",
+    "classes_tested": [
+      "org.jsoup.parser.HtmlTreeBuilderState"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:57:57.220524+00:00"
+  },
+  "Jsoup_82": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_82_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_82",
+    "classes_tested": [
+      "org.jsoup.helper.DataUtil"
+    ],
+    "generated_tests": [
+      "org/jsoup/helper/RegressionTest0.java",
+      "org/jsoup/helper/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T16:05:03.919418+00:00"
+  },
+  "Jsoup_86": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_86_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_86",
+    "classes_tested": [
+      "org.jsoup.nodes.Comment"
+    ],
+    "generated_tests": [
+      "org/jsoup/nodes/ErrorTest0.java",
+      "org/jsoup/nodes/RegressionTest6.java",
+      "org/jsoup/nodes/RegressionTest7.java",
+      "org/jsoup/nodes/RegressionTest0.java",
+      "org/jsoup/nodes/ErrorTest.java",
+      "org/jsoup/nodes/RegressionTest10.java",
+      "org/jsoup/nodes/RegressionTest1.java",
+      "org/jsoup/nodes/RegressionTest2.java",
+      "org/jsoup/nodes/RegressionTest3.java",
+      "org/jsoup/nodes/RegressionTest8.java",
+      "org/jsoup/nodes/RegressionTest4.java",
+      "org/jsoup/nodes/RegressionTest5.java",
+      "org/jsoup/nodes/RegressionTest.java",
+      "org/jsoup/nodes/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T16:10:15.722164+00:00"
+  },
+  "Jsoup_87": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_87_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_87",
+    "classes_tested": [
+      "org.jsoup.nodes.Element",
+      "org.jsoup.parser.HtmlTreeBuilderState",
+      "org.jsoup.parser.Tag",
+      "org.jsoup.parser.HtmlTreeBuilder"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/ErrorTest0.java",
+      "org/jsoup/parser/RegressionTest6.java",
+      "org/jsoup/parser/RegressionTest7.java",
+      "org/jsoup/parser/ErrorTest1.java",
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/ErrorTest.java",
+      "org/jsoup/parser/RegressionTest1.java",
+      "org/jsoup/parser/RegressionTest2.java",
+      "org/jsoup/parser/RegressionTest3.java",
+      "org/jsoup/parser/RegressionTest4.java",
+      "org/jsoup/parser/RegressionTest5.java",
+      "org/jsoup/parser/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T16:11:32.217430+00:00"
+  },
+  "Jsoup_88": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_88_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_88",
+    "classes_tested": [
+      "org.jsoup.nodes.Attribute"
+    ],
+    "generated_tests": [
+      "org/jsoup/nodes/ErrorTest0.java",
+      "org/jsoup/nodes/RegressionTest6.java",
+      "org/jsoup/nodes/RegressionTest7.java",
+      "org/jsoup/nodes/RegressionTest0.java",
+      "org/jsoup/nodes/ErrorTest.java",
+      "org/jsoup/nodes/RegressionTest10.java",
+      "org/jsoup/nodes/RegressionTest11.java",
+      "org/jsoup/nodes/RegressionTest1.java",
+      "org/jsoup/nodes/RegressionTest2.java",
+      "org/jsoup/nodes/RegressionTest3.java",
+      "org/jsoup/nodes/RegressionTest8.java",
+      "org/jsoup/nodes/RegressionTest4.java",
+      "org/jsoup/nodes/RegressionTest5.java",
+      "org/jsoup/nodes/RegressionTest.java",
+      "org/jsoup/nodes/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T16:12:45.323046+00:00"
+  },
+  "Jsoup_89": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_89_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_89",
+    "classes_tested": [
+      "org.jsoup.nodes.Attribute"
+    ],
+    "generated_tests": [
+      "org/jsoup/nodes/ErrorTest0.java",
+      "org/jsoup/nodes/RegressionTest6.java",
+      "org/jsoup/nodes/RegressionTest7.java",
+      "org/jsoup/nodes/RegressionTest0.java",
+      "org/jsoup/nodes/ErrorTest.java",
+      "org/jsoup/nodes/RegressionTest10.java",
+      "org/jsoup/nodes/RegressionTest11.java",
+      "org/jsoup/nodes/RegressionTest1.java",
+      "org/jsoup/nodes/RegressionTest2.java",
+      "org/jsoup/nodes/RegressionTest3.java",
+      "org/jsoup/nodes/RegressionTest8.java",
+      "org/jsoup/nodes/RegressionTest4.java",
+      "org/jsoup/nodes/RegressionTest5.java",
+      "org/jsoup/nodes/RegressionTest.java",
+      "org/jsoup/nodes/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T16:13:59.291759+00:00"
+  },
+  "Jsoup_90": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_90_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_90",
+    "classes_tested": [
+      "org.jsoup.helper.HttpConnection"
+    ],
+    "generated_tests": [
+      "org/jsoup/helper/RegressionTest6.java",
+      "org/jsoup/helper/RegressionTest0.java",
+      "org/jsoup/helper/RegressionTest1.java",
+      "org/jsoup/helper/RegressionTest2.java",
+      "org/jsoup/helper/RegressionTest3.java",
+      "org/jsoup/helper/RegressionTest4.java",
+      "org/jsoup/helper/RegressionTest5.java",
+      "org/jsoup/helper/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T16:15:15.661794+00:00"
+  },
+  "Jsoup_91": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_91_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_91",
+    "classes_tested": [
+      "org.jsoup.UncheckedIOException",
+      "org.jsoup.parser.CharacterReader"
+    ],
+    "generated_tests": [
+      "org/jsoup/RegressionTest6.java",
+      "org/jsoup/RegressionTest0.java",
+      "org/jsoup/RegressionTest1.java",
+      "org/jsoup/RegressionTest2.java",
+      "org/jsoup/RegressionTest3.java",
+      "org/jsoup/RegressionTest4.java",
+      "org/jsoup/RegressionTest5.java",
+      "org/jsoup/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T16:16:37.167635+00:00"
+  },
+  "Jsoup_92": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_92_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_92",
+    "classes_tested": [
+      "org.jsoup.nodes.Attributes",
+      "org.jsoup.parser.Token",
+      "org.jsoup.parser.HtmlTreeBuilder",
+      "org.jsoup.parser.ParseSettings",
+      "org.jsoup.parser.XmlTreeBuilder"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/ErrorTest0.java",
+      "org/jsoup/parser/RegressionTest6.java",
+      "org/jsoup/parser/RegressionTest7.java",
+      "org/jsoup/parser/ErrorTest1.java",
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/ErrorTest.java",
+      "org/jsoup/parser/RegressionTest1.java",
+      "org/jsoup/parser/RegressionTest2.java",
+      "org/jsoup/parser/RegressionTest3.java",
+      "org/jsoup/parser/RegressionTest4.java",
+      "org/jsoup/parser/RegressionTest5.java",
+      "org/jsoup/parser/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T16:17:53.248141+00:00"
+  },
+  "Jsoup_93": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_93_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_93",
+    "classes_tested": [
+      "org.jsoup.nodes.FormElement"
+    ],
+    "generated_tests": [
+      "org/jsoup/nodes/RegressionTest0.java",
+      "org/jsoup/nodes/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:12:45.781814+00:00"
+  },
+  "Jsoup_66": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_66_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_66",
+    "classes_tested": [
+      "org.jsoup.nodes.Element"
+    ],
+    "generated_tests": [
+      "org/jsoup/nodes/ErrorTest0.java",
+      "org/jsoup/nodes/RegressionTest6.java",
+      "org/jsoup/nodes/RegressionTest7.java",
+      "org/jsoup/nodes/RegressionTest0.java",
+      "org/jsoup/nodes/ErrorTest.java",
+      "org/jsoup/nodes/RegressionTest1.java",
+      "org/jsoup/nodes/RegressionTest2.java",
+      "org/jsoup/nodes/RegressionTest3.java",
+      "org/jsoup/nodes/RegressionTest4.java",
+      "org/jsoup/nodes/RegressionTest5.java",
+      "org/jsoup/nodes/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:45:18.357761+00:00"
+  },
+  "Jsoup_74": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_74_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_74",
+    "classes_tested": [
+      "org.jsoup.helper.StringUtil"
+    ],
+    "generated_tests": [
+      "org/jsoup/helper/RegressionTest6.java",
+      "org/jsoup/helper/RegressionTest7.java",
+      "org/jsoup/helper/RegressionTest0.java",
+      "org/jsoup/helper/RegressionTest10.java",
+      "org/jsoup/helper/RegressionTest11.java",
+      "org/jsoup/helper/RegressionTest1.java",
+      "org/jsoup/helper/RegressionTest2.java",
+      "org/jsoup/helper/RegressionTest12.java",
+      "org/jsoup/helper/RegressionTest13.java",
+      "org/jsoup/helper/RegressionTest3.java",
+      "org/jsoup/helper/RegressionTest8.java",
+      "org/jsoup/helper/RegressionTest14.java",
+      "org/jsoup/helper/RegressionTest4.java",
+      "org/jsoup/helper/RegressionTest5.java",
+      "org/jsoup/helper/RegressionTest.java",
+      "org/jsoup/helper/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:55:33.036521+00:00"
+  },
+  "Jsoup_77": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_77_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_77",
+    "classes_tested": [
+      "org.jsoup.parser.XmlTreeBuilder"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/RegressionTest6.java",
+      "org/jsoup/parser/RegressionTest7.java",
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/RegressionTest1.java",
+      "org/jsoup/parser/RegressionTest2.java",
+      "org/jsoup/parser/RegressionTest3.java",
+      "org/jsoup/parser/RegressionTest4.java",
+      "org/jsoup/parser/RegressionTest5.java",
+      "org/jsoup/parser/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T15:59:17.029879+00:00"
+  },
+  "Jsoup_78": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_78_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_78",
+    "classes_tested": [
+      "org.jsoup.helper.DataUtil"
+    ],
+    "generated_tests": [
+      "org/jsoup/helper/RegressionTest0.java",
+      "org/jsoup/helper/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T16:00:24.264776+00:00"
+  },
+  "Jsoup_79": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_79_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_79",
+    "classes_tested": [
+      "org.jsoup.nodes.LeafNode"
+    ],
+    "generated_tests": [
+      "org/jsoup/nodes/RegressionTest0.java",
+      "org/jsoup/nodes/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T16:01:30.318410+00:00"
+  },
+  "Jsoup_80": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_80_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_80",
+    "classes_tested": [
+      "org.jsoup.parser.XmlTreeBuilder"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/RegressionTest6.java",
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/RegressionTest1.java",
+      "org/jsoup/parser/RegressionTest2.java",
+      "org/jsoup/parser/RegressionTest3.java",
+      "org/jsoup/parser/RegressionTest4.java",
+      "org/jsoup/parser/RegressionTest5.java",
+      "org/jsoup/parser/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T16:02:48.261301+00:00"
+  },
+  "Jsoup_81": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_81_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_81",
+    "classes_tested": [
+      "org.jsoup.helper.DataUtil"
+    ],
+    "generated_tests": [
+      "org/jsoup/helper/RegressionTest0.java",
+      "org/jsoup/helper/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T16:03:56.000208+00:00"
+  },
+  "Jsoup_83": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_83_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_83",
+    "classes_tested": [
+      "org.jsoup.parser.CharacterReader",
+      "org.jsoup.parser.TokeniserState"
+    ],
+    "generated_tests": [
+      "org/jsoup/parser/RegressionTest6.java",
+      "org/jsoup/parser/RegressionTest0.java",
+      "org/jsoup/parser/RegressionTest1.java",
+      "org/jsoup/parser/RegressionTest2.java",
+      "org/jsoup/parser/RegressionTest3.java",
+      "org/jsoup/parser/RegressionTest4.java",
+      "org/jsoup/parser/RegressionTest5.java",
+      "org/jsoup/parser/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T16:06:20.741156+00:00"
+  },
+  "Jsoup_84": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_84_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_84",
+    "classes_tested": [
+      "org.jsoup.helper.W3CDom"
+    ],
+    "generated_tests": [
+      "org/jsoup/helper/RegressionTest6.java",
+      "org/jsoup/helper/RegressionTest7.java",
+      "org/jsoup/helper/RegressionTest0.java",
+      "org/jsoup/helper/RegressionTest1.java",
+      "org/jsoup/helper/RegressionTest2.java",
+      "org/jsoup/helper/RegressionTest3.java",
+      "org/jsoup/helper/RegressionTest4.java",
+      "org/jsoup/helper/RegressionTest5.java",
+      "org/jsoup/helper/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T16:07:46.442564+00:00"
+  },
+  "Jsoup_85": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Jsoup_85_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Jsoup_85",
+    "classes_tested": [
+      "org.jsoup.nodes.Attribute"
+    ],
+    "generated_tests": [
+      "org/jsoup/nodes/ErrorTest0.java",
+      "org/jsoup/nodes/RegressionTest6.java",
+      "org/jsoup/nodes/RegressionTest7.java",
+      "org/jsoup/nodes/RegressionTest0.java",
+      "org/jsoup/nodes/ErrorTest.java",
+      "org/jsoup/nodes/RegressionTest10.java",
+      "org/jsoup/nodes/RegressionTest11.java",
+      "org/jsoup/nodes/RegressionTest1.java",
+      "org/jsoup/nodes/RegressionTest2.java",
+      "org/jsoup/nodes/RegressionTest3.java",
+      "org/jsoup/nodes/RegressionTest8.java",
+      "org/jsoup/nodes/RegressionTest4.java",
+      "org/jsoup/nodes/RegressionTest5.java",
+      "org/jsoup/nodes/RegressionTest.java",
+      "org/jsoup/nodes/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T16:09:00.328827+00:00"
   }
 }
