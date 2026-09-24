@@ -2390,5 +2390,350 @@
       "daily_remaining_tokens": -5116
     },
     "updated_at": "2026-09-23T03:08:08.786395"
+  },
+  "Math_87/org/apache/commons/math/optimization/linear/SimplexTableau.java": {
+    "project": "Math_87",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_87/org/apache/commons/math/optimization/linear/SimplexTableau.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Math_87_buggy/SimplexTableauTest.java",
+    "file_size_bytes": 10114,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5703,
+      "completion_tokens": 30734,
+      "total_tokens": 36437
+    },
+    "content_char_count": 10114,
+    "reasoning_char_count": 102231,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 172.11,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 36437,
+      "daily_remaining_tokens": 963563
+    },
+    "updated_at": "2026-09-23T12:04:50.230932"
+  },
+  "Math_88/org/apache/commons/math/optimization/linear/SimplexTableau.java": {
+    "project": "Math_88",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_88/org/apache/commons/math/optimization/linear/SimplexTableau.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Math_88_buggy/SimplexTableauTest.java",
+    "file_size_bytes": 11363,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5645,
+      "completion_tokens": 2961,
+      "total_tokens": 8606
+    },
+    "content_char_count": 11363,
+    "reasoning_char_count": 0,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 374.3,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 45043,
+      "daily_remaining_tokens": 954957
+    },
+    "updated_at": "2026-09-23T12:11:05.601053"
+  },
+  "Math_89/org/apache/commons/math/stat/Frequency.java": {
+    "project": "Math_89",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_89/org/apache/commons/math/stat/Frequency.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Math_89_buggy/FrequencyTest.java",
+    "file_size_bytes": 3527,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2806,
+      "completion_tokens": 6864,
+      "total_tokens": 9670
+    },
+    "content_char_count": 3527,
+    "reasoning_char_count": 22206,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 40.8,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 63024,
+      "daily_remaining_tokens": 936976
+    },
+    "updated_at": "2026-09-23T12:12:16.053910"
+  },
+  "Math_9/org/apache/commons/math3/geometry/euclidean/threed/Line.java": {
+    "project": "Math_9",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_9/org/apache/commons/math3/geometry/euclidean/threed/Line.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Math_9_buggy/LineTest.java",
+    "file_size_bytes": 7004,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3283,
+      "completion_tokens": 8063,
+      "total_tokens": 11346
+    },
+    "content_char_count": 7004,
+    "reasoning_char_count": 18856,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 104.47,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 74370,
+      "daily_remaining_tokens": 925630
+    },
+    "updated_at": "2026-09-23T12:14:01.598726"
+  },
+  "Math_90/org/apache/commons/math/stat/Frequency.java": {
+    "project": "Math_90",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_90/org/apache/commons/math/stat/Frequency.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Math_90_buggy/FrequencyTest.java",
+    "file_size_bytes": 4976,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4995,
+      "completion_tokens": 12680,
+      "total_tokens": 17675
+    },
+    "content_char_count": 4976,
+    "reasoning_char_count": 42024,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 70.85,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 92045,
+      "daily_remaining_tokens": 907955
+    },
+    "updated_at": "2026-09-23T12:15:13.523942"
+  },
+  "Math_91/org/apache/commons/math/fraction/Fraction.java": {
+    "project": "Math_91",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_91/org/apache/commons/math/fraction/Fraction.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Math_91_buggy/FractionTest.java",
+    "file_size_bytes": 7891,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6102,
+      "completion_tokens": 51071,
+      "total_tokens": 57173
+    },
+    "content_char_count": 7891,
+    "reasoning_char_count": 182416,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 279.31,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 149218,
+      "daily_remaining_tokens": 850782
+    },
+    "updated_at": "2026-09-23T12:19:53.905183"
+  },
+  "Math_92/org/apache/commons/math/util/MathUtils.java": {
+    "project": "Math_92",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_92/org/apache/commons/math/util/MathUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Math_92_buggy/MathUtilsTest.java",
+    "file_size_bytes": 12343,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5326,
+      "completion_tokens": 6582,
+      "total_tokens": 11908
+    },
+    "content_char_count": 12343,
+    "reasoning_char_count": 10139,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 35.16,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 161126,
+      "daily_remaining_tokens": 838874
+    },
+    "updated_at": "2026-09-23T12:20:30.133339"
+  },
+  "Math_93/org/apache/commons/math/util/MathUtils.java": {
+    "project": "Math_93",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_93/org/apache/commons/math/util/MathUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Math_93_buggy/MathUtilsTest.java",
+    "file_size_bytes": 14622,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5277,
+      "completion_tokens": 33168,
+      "total_tokens": 38445
+    },
+    "content_char_count": 14622,
+    "reasoning_char_count": 93526,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 178.93,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 199571,
+      "daily_remaining_tokens": 800429
+    },
+    "updated_at": "2026-09-23T12:23:30.131553"
+  },
+  "Math_94/org/apache/commons/math/util/MathUtils.java": {
+    "project": "Math_94",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_94/org/apache/commons/math/util/MathUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Math_94_buggy/MathUtilsTest.java",
+    "file_size_bytes": 12696,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5141,
+      "completion_tokens": 14154,
+      "total_tokens": 19295
+    },
+    "content_char_count": 12696,
+    "reasoning_char_count": 35021,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 73.77,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 218866,
+      "daily_remaining_tokens": 781134
+    },
+    "updated_at": "2026-09-23T12:24:44.976982"
+  },
+  "Math_95/org/apache/commons/math/distribution/FDistributionImpl.java": {
+    "project": "Math_95",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_95/org/apache/commons/math/distribution/FDistributionImpl.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Math_95_buggy/FDistributionImplTest.java",
+    "file_size_bytes": 3607,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2945,
+      "completion_tokens": 11781,
+      "total_tokens": 14726
+    },
+    "content_char_count": 3607,
+    "reasoning_char_count": 41597,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 77.28,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 233592,
+      "daily_remaining_tokens": 766408
+    },
+    "updated_at": "2026-09-23T12:26:03.330110"
+  },
+  "Math_96/org/apache/commons/math/complex/Complex.java": {
+    "project": "Math_96",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_96/org/apache/commons/math/complex/Complex.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Math_96_buggy/ComplexTest.java",
+    "file_size_bytes": 5838,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3407,
+      "completion_tokens": 13796,
+      "total_tokens": 17203
+    },
+    "content_char_count": 5838,
+    "reasoning_char_count": 36929,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 76.97,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 250795,
+      "daily_remaining_tokens": 749205
+    },
+    "updated_at": "2026-09-23T12:27:21.365926"
+  },
+  "Math_97/org/apache/commons/math/analysis/BrentSolver.java": {
+    "project": "Math_97",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_97/org/apache/commons/math/analysis/BrentSolver.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Math_97_buggy/BrentSolverTest.java",
+    "file_size_bytes": 4726,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3727,
+      "completion_tokens": 44755,
+      "total_tokens": 48482
+    },
+    "content_char_count": 4726,
+    "reasoning_char_count": 152502,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 278.05,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 299277,
+      "daily_remaining_tokens": 700723
+    },
+    "updated_at": "2026-09-23T12:32:00.494025"
+  },
+  "Math_98/org/apache/commons/math/linear/BigMatrixImpl.java": {
+    "project": "Math_98",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_98/org/apache/commons/math/linear/BigMatrixImpl.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Math_98_buggy/BigMatrixImplTest.java",
+    "file_size_bytes": 14098,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8453,
+      "completion_tokens": 21045,
+      "total_tokens": 29498
+    },
+    "content_char_count": 14098,
+    "reasoning_char_count": 61653,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 118.21,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 328775,
+      "daily_remaining_tokens": 671225
+    },
+    "updated_at": "2026-09-23T12:33:59.780208"
+  },
+  "Math_98/org/apache/commons/math/linear/RealMatrixImpl.java": {
+    "project": "Math_98",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_98/org/apache/commons/math/linear/RealMatrixImpl.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Math_98_buggy/RealMatrixImplTest.java",
+    "file_size_bytes": 13616,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7222,
+      "completion_tokens": 8588,
+      "total_tokens": 15810
+    },
+    "content_char_count": 13616,
+    "reasoning_char_count": 17547,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 46.56,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 344585,
+      "daily_remaining_tokens": 655415
+    },
+    "updated_at": "2026-09-23T12:34:47.436062"
+  },
+  "Math_99/org/apache/commons/math/util/MathUtils.java": {
+    "project": "Math_99",
+    "source_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Resoucre/Math_99/org/apache/commons/math/util/MathUtils.java",
+    "status": "GENERATED",
+    "test_file": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Math_99_buggy/MathUtilsTest.java",
+    "file_size_bytes": 14855,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5875,
+      "completion_tokens": 37585,
+      "total_tokens": 43460
+    },
+    "content_char_count": 14855,
+    "reasoning_char_count": 108165,
+    "used_key": "sk_nWI...6ADW",
+    "elapsed_seconds": 197.95,
+    "model_quota": {
+      "daily_quota_tokens": 1000000,
+      "daily_usage_tokens": 388045,
+      "daily_remaining_tokens": 611955
+    },
+    "updated_at": "2026-09-23T12:38:06.457177"
   }
 }

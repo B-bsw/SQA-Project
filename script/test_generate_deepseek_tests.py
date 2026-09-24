@@ -535,6 +535,52 @@ class TestParallelProjectRunner(unittest.TestCase):
         self.assertEqual({cmd[cmd.index("--key-index") + 1] for cmd in commands}, {"1", "2"})
         self.assertTrue(all("--no-budget" in cmd for cmd in commands))
 
+    def test_parallel_runner_requeues_exhausted_group_for_idle_key(self):
+        both_started = threading.Barrier(2)
+        other_group_done = threading.Event()
+
+        class FakeProcess:
+            stdout = ()
+
+            def __init__(self, cmd):
+                self.group = cmd[cmd.index("--project") + 1]
+                self.key = cmd[cmd.index("--key-index") + 1]
+
+            def __enter__(self):
+                if self.group == "Time" or self.key == "1":
+                    both_started.wait(timeout=5)
+                return self
+
+            def __exit__(self, *args):
+                if self.group == "Time":
+                    other_group_done.set()
+                return False
+
+            def wait(self):
+                if self.group == "JacksonDatabind" and self.key == "1":
+                    self.assert_other_group_finished()
+                    return 3
+                return 0
+
+            def assert_other_group_finished(self):
+                if not other_group_done.wait(timeout=5):
+                    raise AssertionError("The second group did not finish")
+
+        with patch.object(parallel, "discover_groups", return_value=["JacksonDatabind", "Time"]), \
+             patch.object(parallel, "get_all_api_keys", return_value=["dummy-1", "dummy-2"]), \
+             patch.object(parallel, "seed_project_states"), \
+             patch.object(parallel, "sync_global_state", return_value=False), \
+             patch.object(parallel.subprocess, "Popen", side_effect=lambda cmd, **kw: FakeProcess(cmd)) as popen, \
+             patch("sys.stdout", new_callable=io.StringIO):
+            code = parallel.main(["--workers", "2", "--projects", "JacksonDatabind", "Time"])
+
+        attempts = [(call.args[0][call.args[0].index("--project") + 1],
+                     call.args[0][call.args[0].index("--key-index") + 1])
+                    for call in popen.call_args_list]
+        self.assertEqual(code, 0)
+        self.assertEqual(attempts, [("JacksonDatabind", "1"), ("Time", "2"),
+                                    ("JacksonDatabind", "2")])
+
 
 if __name__ == "__main__":
     unittest.main()

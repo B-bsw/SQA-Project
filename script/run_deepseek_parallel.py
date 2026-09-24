@@ -157,9 +157,13 @@ def main(argv=None) -> int:
     def run_worker(slot: int):
         while True:
             try:
-                group = jobs.get_nowait()
+                group = jobs.get(timeout=0.2)
             except queue.Empty:
-                return
+                # Another worker may still be running a group that needs retrying.
+                with jobs.all_tasks_done:
+                    if jobs.unfinished_tasks == 0:
+                        return
+                continue
             cmd = worker_command(generator, output_dir, group, slot, keys[slot - 1],
                                  args.budget_limit, args.env_file, args.max_tokens,
                                  args.skip_limits, args.no_budget)
@@ -182,6 +186,11 @@ def main(argv=None) -> int:
             results[group] = code
             say(f"[key #{slot}] {group} exited with code {code}")
             refresh_sync.set()
+            if code == 3:
+                # The key is exhausted, but another key can resume this group's state.
+                jobs.put(group)
+                say(f"[key #{slot}] Requeued {group} for another available key")
+            jobs.task_done()
             if code != 0:
                 # Code 3 means the key's daily budget or server quota was exhausted.
                 return
