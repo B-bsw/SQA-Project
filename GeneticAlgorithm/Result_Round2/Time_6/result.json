@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-24T18:41:34Z",
+  "round": 2,
+  "project": "Time",
+  "bug_id": 6,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 26,
+  "coverage": 66.4,
+  "line_cov": 73.18,
+  "branch_cov": 59.62,
+  "total_goals": 566,
+  "covered_goals": 385,
+  "lines": 74,
+  "covered_lines": 262,
+  "total_branches": 168,
+  "covered_branches": 95,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.joda.time.chrono.GJChronology",
+      "generation_result": "PASS",
+      "generation_seconds": 96,
+      "tests": 26,
+      "coverage": 66.40,
+      "line_cov": 73.18,
+      "branch_cov": 59.62,
+      "total_goals": 566,
+      "covered_goals": 385,
+      "lines": 74,
+      "covered_lines": 262,
+      "total_branches": 168,
+      "covered_branches": 95,
+      "total_methods": 72,
+      "covered_methods": 54,
+      "branchless_methods": 40,
+      "covered_branchless_methods": 29
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}
