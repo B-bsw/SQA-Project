@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-24T16:55:19Z",
+  "round": 1,
+  "project": "Math",
+  "bug_id": 106,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 8,
+  "coverage": 84.41,
+  "line_cov": 82.46,
+  "branch_cov": 86.36,
+  "total_goals": 79,
+  "covered_goals": 66,
+  "lines": 7,
+  "covered_lines": 47,
+  "total_branches": 18,
+  "covered_branches": 15,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.math.fraction.ProperFractionFormat",
+      "generation_result": "PASS",
+      "generation_seconds": 66,
+      "tests": 8,
+      "coverage": 84.41,
+      "line_cov": 82.46,
+      "branch_cov": 86.36,
+      "total_goals": 79,
+      "covered_goals": 66,
+      "lines": 7,
+      "covered_lines": 47,
+      "total_branches": 18,
+      "covered_branches": 15,
+      "total_methods": 7,
+      "covered_methods": 7,
+      "branchless_methods": 4,
+      "covered_branchless_methods": 4
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}

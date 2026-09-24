@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-24T16:52:09Z",
+  "round": 1,
+  "project": "Math",
+  "bug_id": 98,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 152,
+  "coverage": 83.39,
+  "line_cov": 83.99,
+  "branch_cov": 82.15,
+  "total_goals": 1550,
+  "covered_goals": 1275,
+  "lines": 108,
+  "covered_lines": 757,
+  "total_branches": 554,
+  "covered_branches": 448,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.math.linear.BigMatrixImpl",
+      "generation_result": "PASS",
+      "generation_seconds": 99,
+      "tests": 86,
+      "coverage": 78.83,
+      "line_cov": 80.93,
+      "branch_cov": 78.10,
+      "total_goals": 850,
+      "covered_goals": 671,
+      "lines": 61,
+      "covered_lines": 397,
+      "total_branches": 298,
+      "covered_branches": 229,
+      "total_methods": 61,
+      "covered_methods": 61,
+      "branchless_methods": 17,
+      "covered_branchless_methods": 17
+    },
+    {
+      "target_class": "org.apache.commons.math.linear.RealMatrixImpl",
+      "generation_result": "PASS",
+      "generation_seconds": 108,
+      "tests": 66,
+      "coverage": 87.95,
+      "line_cov": 87.04,
+      "branch_cov": 86.19,
+      "total_goals": 700,
+      "covered_goals": 604,
+      "lines": 47,
+      "covered_lines": 360,
+      "total_branches": 256,
+      "covered_branches": 219,
+      "total_methods": 47,
+      "covered_methods": 47,
+      "branchless_methods": 12,
+      "covered_branchless_methods": 12
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}
