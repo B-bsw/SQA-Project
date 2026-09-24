@@ -12771,5 +12771,2106 @@
     "time_limit": 60,
     "status": "COMPLETED",
     "timestamp": "2026-09-24T19:03:24.889838+00:00"
+  },
+  "Math_1": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_1_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/d4j_work/Math_1_buggy/target/classes",
+    "classes_tested": [
+      "org.apache.commons.math3.fraction.Fraction",
+      "org.apache.commons.math3.fraction.BigFraction"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/fraction/ErrorTest0.java",
+      "org/apache/commons/math3/fraction/RegressionTest0.java",
+      "org/apache/commons/math3/fraction/ErrorTest.java",
+      "org/apache/commons/math3/fraction/RegressionTest1.java",
+      "org/apache/commons/math3/fraction/RegressionTest2.java",
+      "org/apache/commons/math3/fraction/RegressionTest3.java",
+      "org/apache/commons/math3/fraction/RegressionTest4.java",
+      "org/apache/commons/math3/fraction/RegressionTest5.java",
+      "org/apache/commons/math3/fraction/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T19:39:39.044766+00:00"
+  },
+  "Math_2": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_2_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_2",
+    "classes_tested": [
+      "org.apache.commons.math3.distribution.HypergeometricDistribution"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/distribution/RegressionTest6.java",
+      "org/apache/commons/math3/distribution/RegressionTest7.java",
+      "org/apache/commons/math3/distribution/RegressionTest0.java",
+      "org/apache/commons/math3/distribution/RegressionTest10.java",
+      "org/apache/commons/math3/distribution/RegressionTest11.java",
+      "org/apache/commons/math3/distribution/RegressionTest1.java",
+      "org/apache/commons/math3/distribution/RegressionTest2.java",
+      "org/apache/commons/math3/distribution/RegressionTest3.java",
+      "org/apache/commons/math3/distribution/RegressionTest8.java",
+      "org/apache/commons/math3/distribution/RegressionTest4.java",
+      "org/apache/commons/math3/distribution/RegressionTest5.java",
+      "org/apache/commons/math3/distribution/RegressionTest.java",
+      "org/apache/commons/math3/distribution/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T19:40:58.528595+00:00"
+  },
+  "Math_3": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_3_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_3",
+    "classes_tested": [
+      "org.apache.commons.math3.util.MathArrays"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/util/RegressionTest6.java",
+      "org/apache/commons/math3/util/RegressionTest7.java",
+      "org/apache/commons/math3/util/RegressionTest0.java",
+      "org/apache/commons/math3/util/RegressionTest1.java",
+      "org/apache/commons/math3/util/RegressionTest2.java",
+      "org/apache/commons/math3/util/RegressionTest3.java",
+      "org/apache/commons/math3/util/RegressionTest4.java",
+      "org/apache/commons/math3/util/RegressionTest5.java",
+      "org/apache/commons/math3/util/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T19:42:25.945532+00:00"
+  },
+  "Math_4": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_4_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_4",
+    "classes_tested": [
+      "org.apache.commons.math3.geometry.euclidean.threed.SubLine",
+      "org.apache.commons.math3.geometry.euclidean.twod.SubLine"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/geometry/euclidean/threed/RegressionTest6.java",
+      "org/apache/commons/math3/geometry/euclidean/threed/RegressionTest7.java",
+      "org/apache/commons/math3/geometry/euclidean/threed/RegressionTest0.java",
+      "org/apache/commons/math3/geometry/euclidean/threed/RegressionTest10.java",
+      "org/apache/commons/math3/geometry/euclidean/threed/RegressionTest11.java",
+      "org/apache/commons/math3/geometry/euclidean/threed/RegressionTest1.java",
+      "org/apache/commons/math3/geometry/euclidean/threed/RegressionTest2.java",
+      "org/apache/commons/math3/geometry/euclidean/threed/RegressionTest12.java",
+      "org/apache/commons/math3/geometry/euclidean/threed/RegressionTest3.java",
+      "org/apache/commons/math3/geometry/euclidean/threed/RegressionTest8.java",
+      "org/apache/commons/math3/geometry/euclidean/threed/RegressionTest4.java",
+      "org/apache/commons/math3/geometry/euclidean/threed/RegressionTest5.java",
+      "org/apache/commons/math3/geometry/euclidean/threed/RegressionTest.java",
+      "org/apache/commons/math3/geometry/euclidean/threed/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T19:43:50.461722+00:00"
+  },
+  "Math_5": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_5_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_5",
+    "classes_tested": [
+      "org.apache.commons.math3.complex.Complex"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/complex/ErrorTest0.java",
+      "org/apache/commons/math3/complex/RegressionTest6.java",
+      "org/apache/commons/math3/complex/RegressionTest7.java",
+      "org/apache/commons/math3/complex/RegressionTest0.java",
+      "org/apache/commons/math3/complex/ErrorTest.java",
+      "org/apache/commons/math3/complex/RegressionTest1.java",
+      "org/apache/commons/math3/complex/RegressionTest2.java",
+      "org/apache/commons/math3/complex/RegressionTest3.java",
+      "org/apache/commons/math3/complex/RegressionTest8.java",
+      "org/apache/commons/math3/complex/RegressionTest4.java",
+      "org/apache/commons/math3/complex/RegressionTest5.java",
+      "org/apache/commons/math3/complex/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T19:45:09.948231+00:00"
+  },
+  "Math_6": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_6_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_6",
+    "classes_tested": [
+      "org.apache.commons.math3.optim.BaseOptimizer",
+      "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer",
+      "org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizer",
+      "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer",
+      "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer",
+      "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer",
+      "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/optim/nonlinear/scalar/noderiv/ErrorTest0.java",
+      "org/apache/commons/math3/optim/nonlinear/scalar/noderiv/RegressionTest6.java",
+      "org/apache/commons/math3/optim/nonlinear/scalar/noderiv/RegressionTest7.java",
+      "org/apache/commons/math3/optim/nonlinear/scalar/noderiv/ErrorTest1.java",
+      "org/apache/commons/math3/optim/nonlinear/scalar/noderiv/RegressionTest0.java",
+      "org/apache/commons/math3/optim/nonlinear/scalar/noderiv/ErrorTest.java",
+      "org/apache/commons/math3/optim/nonlinear/scalar/noderiv/RegressionTest1.java",
+      "org/apache/commons/math3/optim/nonlinear/scalar/noderiv/RegressionTest2.java",
+      "org/apache/commons/math3/optim/nonlinear/scalar/noderiv/RegressionTest3.java",
+      "org/apache/commons/math3/optim/nonlinear/scalar/noderiv/RegressionTest4.java",
+      "org/apache/commons/math3/optim/nonlinear/scalar/noderiv/RegressionTest5.java",
+      "org/apache/commons/math3/optim/nonlinear/scalar/noderiv/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T19:46:30.609250+00:00"
+  },
+  "Math_7": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_7_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_7",
+    "classes_tested": [
+      "org.apache.commons.math3.ode.AbstractIntegrator"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/ode/RegressionTest0.java",
+      "org/apache/commons/math3/ode/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T19:47:43.582772+00:00"
+  },
+  "Math_8": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_8_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_8",
+    "classes_tested": [
+      "org.apache.commons.math3.distribution.DiscreteDistribution"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/distribution/RegressionTest0.java",
+      "org/apache/commons/math3/distribution/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T19:48:56.074164+00:00"
+  },
+  "Math_9": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_9_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_9",
+    "classes_tested": [
+      "org.apache.commons.math3.geometry.euclidean.threed.Line"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/geometry/euclidean/threed/RegressionTest0.java",
+      "org/apache/commons/math3/geometry/euclidean/threed/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T19:50:08.339356+00:00"
+  },
+  "Math_10": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_10_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_10",
+    "classes_tested": [
+      "org.apache.commons.math3.analysis.differentiation.DSCompiler"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/analysis/differentiation/RegressionTest0.java",
+      "org/apache/commons/math3/analysis/differentiation/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T19:53:39.507770+00:00"
+  },
+  "Math_11": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_11_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_11",
+    "classes_tested": [
+      "org.apache.commons.math3.distribution.MultivariateNormalDistribution"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/distribution/RegressionTest6.java",
+      "org/apache/commons/math3/distribution/RegressionTest0.java",
+      "org/apache/commons/math3/distribution/RegressionTest1.java",
+      "org/apache/commons/math3/distribution/RegressionTest2.java",
+      "org/apache/commons/math3/distribution/RegressionTest3.java",
+      "org/apache/commons/math3/distribution/RegressionTest4.java",
+      "org/apache/commons/math3/distribution/RegressionTest5.java",
+      "org/apache/commons/math3/distribution/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T19:55:56.832711+00:00"
+  },
+  "Math_12": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_12_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_12",
+    "classes_tested": [
+      "org.apache.commons.math3.random.BitsStreamGenerator"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/random/RegressionTest0.java",
+      "org/apache/commons/math3/random/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T19:57:09.188200+00:00"
+  },
+  "Math_13": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_13_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_13",
+    "classes_tested": [
+      "org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/optimization/general/RegressionTest0.java",
+      "org/apache/commons/math3/optimization/general/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T19:58:21.120672+00:00"
+  },
+  "Math_14": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_14_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_14",
+    "classes_tested": [
+      "org.apache.commons.math3.optim.nonlinear.vector.Weight",
+      "org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/optim/nonlinear/vector/RegressionTest6.java",
+      "org/apache/commons/math3/optim/nonlinear/vector/RegressionTest7.java",
+      "org/apache/commons/math3/optim/nonlinear/vector/RegressionTest0.java",
+      "org/apache/commons/math3/optim/nonlinear/vector/RegressionTest1.java",
+      "org/apache/commons/math3/optim/nonlinear/vector/RegressionTest2.java",
+      "org/apache/commons/math3/optim/nonlinear/vector/RegressionTest3.java",
+      "org/apache/commons/math3/optim/nonlinear/vector/RegressionTest8.java",
+      "org/apache/commons/math3/optim/nonlinear/vector/RegressionTest4.java",
+      "org/apache/commons/math3/optim/nonlinear/vector/RegressionTest5.java",
+      "org/apache/commons/math3/optim/nonlinear/vector/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T19:59:38.892805+00:00"
+  },
+  "Math_15": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_15_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_15",
+    "classes_tested": [
+      "org.apache.commons.math3.util.FastMath"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/util/RegressionTest16.java",
+      "org/apache/commons/math3/util/RegressionTest20.java",
+      "org/apache/commons/math3/util/RegressionTest6.java",
+      "org/apache/commons/math3/util/RegressionTest7.java",
+      "org/apache/commons/math3/util/RegressionTest21.java",
+      "org/apache/commons/math3/util/RegressionTest17.java",
+      "org/apache/commons/math3/util/RegressionTest0.java",
+      "org/apache/commons/math3/util/RegressionTest10.java",
+      "org/apache/commons/math3/util/RegressionTest11.java",
+      "org/apache/commons/math3/util/RegressionTest1.java",
+      "org/apache/commons/math3/util/RegressionTest2.java",
+      "org/apache/commons/math3/util/RegressionTest24.java",
+      "org/apache/commons/math3/util/RegressionTest12.java",
+      "org/apache/commons/math3/util/RegressionTest13.java",
+      "org/apache/commons/math3/util/RegressionTest3.java",
+      "org/apache/commons/math3/util/RegressionTest8.java",
+      "org/apache/commons/math3/util/RegressionTest14.java",
+      "org/apache/commons/math3/util/RegressionTest4.java",
+      "org/apache/commons/math3/util/RegressionTest18.java",
+      "org/apache/commons/math3/util/RegressionTest22.java",
+      "org/apache/commons/math3/util/RegressionTest23.java",
+      "org/apache/commons/math3/util/RegressionTest19.java",
+      "org/apache/commons/math3/util/RegressionTest5.java",
+      "org/apache/commons/math3/util/RegressionTest.java",
+      "org/apache/commons/math3/util/RegressionTest15.java",
+      "org/apache/commons/math3/util/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T20:00:56.776703+00:00"
+  },
+  "Math_17": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_17_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_17",
+    "classes_tested": [
+      "org.apache.commons.math3.dfp.Dfp"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/dfp/RegressionTest0.java",
+      "org/apache/commons/math3/dfp/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T20:27:55.358353+00:00"
+  },
+  "Math_18": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_18_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_18",
+    "classes_tested": [
+      "org.apache.commons.math3.optimization.direct.CMAESOptimizer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/optimization/direct/ErrorTest0.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest6.java",
+      "org/apache/commons/math3/optimization/direct/ErrorTest1.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest0.java",
+      "org/apache/commons/math3/optimization/direct/ErrorTest.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest1.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest2.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest3.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest4.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest5.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T20:29:13.577738+00:00"
+  },
+  "Math_19": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_19_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_19",
+    "classes_tested": [
+      "org.apache.commons.math3.optimization.direct.CMAESOptimizer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/optimization/direct/ErrorTest0.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest6.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest7.java",
+      "org/apache/commons/math3/optimization/direct/ErrorTest1.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest0.java",
+      "org/apache/commons/math3/optimization/direct/ErrorTest.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest1.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest2.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest3.java",
+      "org/apache/commons/math3/optimization/direct/ErrorTest2.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest4.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest5.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T20:30:32.383272+00:00"
+  },
+  "Math_20": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_20_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_20",
+    "classes_tested": [
+      "org.apache.commons.math3.optimization.direct.CMAESOptimizer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/optimization/direct/ErrorTest0.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest6.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest7.java",
+      "org/apache/commons/math3/optimization/direct/ErrorTest1.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest0.java",
+      "org/apache/commons/math3/optimization/direct/ErrorTest.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest1.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest2.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest3.java",
+      "org/apache/commons/math3/optimization/direct/ErrorTest2.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest4.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest5.java",
+      "org/apache/commons/math3/optimization/direct/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T20:31:51.606168+00:00"
+  },
+  "Math_21": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_21_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_21",
+    "classes_tested": [
+      "org.apache.commons.math3.linear.RectangularCholeskyDecomposition"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/linear/RegressionTest0.java",
+      "org/apache/commons/math3/linear/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T20:33:03.714925+00:00"
+  },
+  "Math_22": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_22_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_22",
+    "classes_tested": [
+      "org.apache.commons.math3.distribution.UniformRealDistribution",
+      "org.apache.commons.math3.distribution.FDistribution"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/distribution/RegressionTest6.java",
+      "org/apache/commons/math3/distribution/RegressionTest7.java",
+      "org/apache/commons/math3/distribution/RegressionTest0.java",
+      "org/apache/commons/math3/distribution/RegressionTest10.java",
+      "org/apache/commons/math3/distribution/RegressionTest1.java",
+      "org/apache/commons/math3/distribution/RegressionTest2.java",
+      "org/apache/commons/math3/distribution/RegressionTest3.java",
+      "org/apache/commons/math3/distribution/RegressionTest8.java",
+      "org/apache/commons/math3/distribution/RegressionTest4.java",
+      "org/apache/commons/math3/distribution/RegressionTest5.java",
+      "org/apache/commons/math3/distribution/RegressionTest.java",
+      "org/apache/commons/math3/distribution/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T20:35:06.026080+00:00"
+  },
+  "Math_23": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_23_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_23",
+    "classes_tested": [
+      "org.apache.commons.math3.optimization.univariate.BrentOptimizer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/optimization/univariate/RegressionTest6.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest7.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest0.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest10.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest11.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest1.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest2.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest12.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest13.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest3.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest8.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest4.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest5.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T20:36:24.687358+00:00"
+  },
+  "Math_24": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_24_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_24",
+    "classes_tested": [
+      "org.apache.commons.math3.optimization.univariate.BrentOptimizer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/optimization/univariate/RegressionTest6.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest7.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest0.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest10.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest11.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest1.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest2.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest12.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest13.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest3.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest8.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest4.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest5.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest.java",
+      "org/apache/commons/math3/optimization/univariate/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T20:37:43.403409+00:00"
+  },
+  "Math_25": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_25_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_25",
+    "classes_tested": [
+      "org.apache.commons.math3.optimization.fitting.HarmonicFitter"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/optimization/fitting/RegressionTest6.java",
+      "org/apache/commons/math3/optimization/fitting/RegressionTest7.java",
+      "org/apache/commons/math3/optimization/fitting/RegressionTest0.java",
+      "org/apache/commons/math3/optimization/fitting/RegressionTest10.java",
+      "org/apache/commons/math3/optimization/fitting/RegressionTest11.java",
+      "org/apache/commons/math3/optimization/fitting/RegressionTest1.java",
+      "org/apache/commons/math3/optimization/fitting/RegressionTest2.java",
+      "org/apache/commons/math3/optimization/fitting/RegressionTest12.java",
+      "org/apache/commons/math3/optimization/fitting/RegressionTest3.java",
+      "org/apache/commons/math3/optimization/fitting/RegressionTest8.java",
+      "org/apache/commons/math3/optimization/fitting/RegressionTest4.java",
+      "org/apache/commons/math3/optimization/fitting/RegressionTest5.java",
+      "org/apache/commons/math3/optimization/fitting/RegressionTest.java",
+      "org/apache/commons/math3/optimization/fitting/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T20:39:02.098147+00:00"
+  },
+  "Math_26": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_26_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_26",
+    "classes_tested": [
+      "org.apache.commons.math3.fraction.Fraction"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/fraction/RegressionTest0.java",
+      "org/apache/commons/math3/fraction/RegressionTest1.java",
+      "org/apache/commons/math3/fraction/RegressionTest2.java",
+      "org/apache/commons/math3/fraction/RegressionTest3.java",
+      "org/apache/commons/math3/fraction/RegressionTest4.java",
+      "org/apache/commons/math3/fraction/RegressionTest5.java",
+      "org/apache/commons/math3/fraction/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T20:40:18.639456+00:00"
+  },
+  "Math_27": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_27_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_27",
+    "classes_tested": [
+      "org.apache.commons.math3.fraction.Fraction"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/fraction/RegressionTest0.java",
+      "org/apache/commons/math3/fraction/RegressionTest1.java",
+      "org/apache/commons/math3/fraction/RegressionTest2.java",
+      "org/apache/commons/math3/fraction/RegressionTest3.java",
+      "org/apache/commons/math3/fraction/RegressionTest4.java",
+      "org/apache/commons/math3/fraction/RegressionTest5.java",
+      "org/apache/commons/math3/fraction/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T20:41:34.874221+00:00"
+  },
+  "Math_28": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_28_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_28",
+    "classes_tested": [
+      "org.apache.commons.math3.optimization.linear.SimplexSolver"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/optimization/linear/ErrorTest0.java",
+      "org/apache/commons/math3/optimization/linear/RegressionTest6.java",
+      "org/apache/commons/math3/optimization/linear/RegressionTest7.java",
+      "org/apache/commons/math3/optimization/linear/ErrorTest1.java",
+      "org/apache/commons/math3/optimization/linear/RegressionTest0.java",
+      "org/apache/commons/math3/optimization/linear/ErrorTest.java",
+      "org/apache/commons/math3/optimization/linear/RegressionTest10.java",
+      "org/apache/commons/math3/optimization/linear/RegressionTest11.java",
+      "org/apache/commons/math3/optimization/linear/RegressionTest1.java",
+      "org/apache/commons/math3/optimization/linear/RegressionTest2.java",
+      "org/apache/commons/math3/optimization/linear/RegressionTest12.java",
+      "org/apache/commons/math3/optimization/linear/RegressionTest3.java",
+      "org/apache/commons/math3/optimization/linear/ErrorTest2.java",
+      "org/apache/commons/math3/optimization/linear/RegressionTest8.java",
+      "org/apache/commons/math3/optimization/linear/RegressionTest4.java",
+      "org/apache/commons/math3/optimization/linear/RegressionTest5.java",
+      "org/apache/commons/math3/optimization/linear/RegressionTest.java",
+      "org/apache/commons/math3/optimization/linear/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T20:42:51.674026+00:00"
+  },
+  "Math_29": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_29_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_29",
+    "classes_tested": [
+      "org.apache.commons.math3.linear.OpenMapRealVector"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/linear/ErrorTest0.java",
+      "org/apache/commons/math3/linear/RegressionTest6.java",
+      "org/apache/commons/math3/linear/RegressionTest0.java",
+      "org/apache/commons/math3/linear/ErrorTest.java",
+      "org/apache/commons/math3/linear/RegressionTest1.java",
+      "org/apache/commons/math3/linear/RegressionTest2.java",
+      "org/apache/commons/math3/linear/RegressionTest3.java",
+      "org/apache/commons/math3/linear/RegressionTest4.java",
+      "org/apache/commons/math3/linear/RegressionTest5.java",
+      "org/apache/commons/math3/linear/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T20:44:13.153094+00:00"
+  },
+  "Math_30": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_30_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_30",
+    "classes_tested": [
+      "org.apache.commons.math3.stat.inference.MannWhitneyUTest"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/stat/inference/RegressionTest6.java",
+      "org/apache/commons/math3/stat/inference/RegressionTest7.java",
+      "org/apache/commons/math3/stat/inference/RegressionTest0.java",
+      "org/apache/commons/math3/stat/inference/RegressionTest1.java",
+      "org/apache/commons/math3/stat/inference/RegressionTest2.java",
+      "org/apache/commons/math3/stat/inference/RegressionTest3.java",
+      "org/apache/commons/math3/stat/inference/RegressionTest4.java",
+      "org/apache/commons/math3/stat/inference/RegressionTest5.java",
+      "org/apache/commons/math3/stat/inference/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T20:45:35.156517+00:00"
+  },
+  "Math_31": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_31_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_31",
+    "classes_tested": [
+      "org.apache.commons.math3.util.ContinuedFraction"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/util/RegressionTest0.java",
+      "org/apache/commons/math3/util/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T20:46:46.493765+00:00"
+  },
+  "Math_32": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_32_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_32",
+    "classes_tested": [
+      "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/geometry/euclidean/twod/ErrorTest0.java",
+      "org/apache/commons/math3/geometry/euclidean/twod/RegressionTest0.java",
+      "org/apache/commons/math3/geometry/euclidean/twod/ErrorTest.java",
+      "org/apache/commons/math3/geometry/euclidean/twod/RegressionTest1.java",
+      "org/apache/commons/math3/geometry/euclidean/twod/RegressionTest2.java",
+      "org/apache/commons/math3/geometry/euclidean/twod/RegressionTest3.java",
+      "org/apache/commons/math3/geometry/euclidean/twod/RegressionTest4.java",
+      "org/apache/commons/math3/geometry/euclidean/twod/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T20:48:08.567297+00:00"
+  },
+  "Math_33": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_33_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_33",
+    "classes_tested": [
+      "org.apache.commons.math3.optimization.linear.SimplexTableau"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/optimization/linear/RegressionTest0.java",
+      "org/apache/commons/math3/optimization/linear/RegressionTest1.java",
+      "org/apache/commons/math3/optimization/linear/RegressionTest2.java",
+      "org/apache/commons/math3/optimization/linear/RegressionTest3.java",
+      "org/apache/commons/math3/optimization/linear/RegressionTest4.java",
+      "org/apache/commons/math3/optimization/linear/RegressionTest5.java",
+      "org/apache/commons/math3/optimization/linear/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T20:49:22.462468+00:00"
+  },
+  "Math_34": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_34_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_34",
+    "classes_tested": [
+      "org.apache.commons.math3.genetics.ListPopulation"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/genetics/RegressionTest0.java",
+      "org/apache/commons/math3/genetics/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T20:50:33.788661+00:00"
+  },
+  "Math_35": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_35_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_35",
+    "classes_tested": [
+      "org.apache.commons.math3.genetics.ElitisticListPopulation"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math3/genetics/RegressionTest6.java",
+      "org/apache/commons/math3/genetics/RegressionTest7.java",
+      "org/apache/commons/math3/genetics/RegressionTest0.java",
+      "org/apache/commons/math3/genetics/RegressionTest1.java",
+      "org/apache/commons/math3/genetics/RegressionTest2.java",
+      "org/apache/commons/math3/genetics/RegressionTest3.java",
+      "org/apache/commons/math3/genetics/RegressionTest8.java",
+      "org/apache/commons/math3/genetics/RegressionTest4.java",
+      "org/apache/commons/math3/genetics/RegressionTest5.java",
+      "org/apache/commons/math3/genetics/RegressionTest.java",
+      "org/apache/commons/math3/genetics/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T20:51:54.307465+00:00"
+  },
+  "Math_37": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_37_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_37",
+    "classes_tested": [
+      "org.apache.commons.math.complex.Complex"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/complex/ErrorTest0.java",
+      "org/apache/commons/math/complex/RegressionTest6.java",
+      "org/apache/commons/math/complex/RegressionTest7.java",
+      "org/apache/commons/math/complex/RegressionTest0.java",
+      "org/apache/commons/math/complex/ErrorTest.java",
+      "org/apache/commons/math/complex/RegressionTest1.java",
+      "org/apache/commons/math/complex/RegressionTest2.java",
+      "org/apache/commons/math/complex/RegressionTest3.java",
+      "org/apache/commons/math/complex/RegressionTest4.java",
+      "org/apache/commons/math/complex/RegressionTest5.java",
+      "org/apache/commons/math/complex/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:05:40.539210+00:00"
+  },
+  "Math_38": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_38_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_38",
+    "classes_tested": [
+      "org.apache.commons.math.optimization.direct.BOBYQAOptimizer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/optimization/direct/ErrorTest0.java",
+      "org/apache/commons/math/optimization/direct/RegressionTest6.java",
+      "org/apache/commons/math/optimization/direct/RegressionTest7.java",
+      "org/apache/commons/math/optimization/direct/ErrorTest1.java",
+      "org/apache/commons/math/optimization/direct/RegressionTest0.java",
+      "org/apache/commons/math/optimization/direct/ErrorTest.java",
+      "org/apache/commons/math/optimization/direct/ErrorTest6.java",
+      "org/apache/commons/math/optimization/direct/RegressionTest1.java",
+      "org/apache/commons/math/optimization/direct/RegressionTest2.java",
+      "org/apache/commons/math/optimization/direct/ErrorTest4.java",
+      "org/apache/commons/math/optimization/direct/ErrorTest5.java",
+      "org/apache/commons/math/optimization/direct/RegressionTest3.java",
+      "org/apache/commons/math/optimization/direct/ErrorTest2.java",
+      "org/apache/commons/math/optimization/direct/RegressionTest8.java",
+      "org/apache/commons/math/optimization/direct/RegressionTest4.java",
+      "org/apache/commons/math/optimization/direct/RegressionTest5.java",
+      "org/apache/commons/math/optimization/direct/RegressionTest.java",
+      "org/apache/commons/math/optimization/direct/ErrorTest3.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:06:56.868770+00:00"
+  },
+  "Math_39": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_39_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_39",
+    "classes_tested": [
+      "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/ode/nonstiff/RegressionTest0.java",
+      "org/apache/commons/math/ode/nonstiff/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:08:08.405805+00:00"
+  },
+  "Math_40": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_40_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_40",
+    "classes_tested": [
+      "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/analysis/solvers/RegressionTest6.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest7.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest0.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest10.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest11.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest1.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest2.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest12.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest13.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest3.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest8.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest4.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest5.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:09:25.270754+00:00"
+  },
+  "Math_41": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_41_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_41",
+    "classes_tested": [
+      "org.apache.commons.math.stat.descriptive.moment.Variance"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/stat/descriptive/moment/RegressionTest6.java",
+      "org/apache/commons/math/stat/descriptive/moment/RegressionTest7.java",
+      "org/apache/commons/math/stat/descriptive/moment/RegressionTest0.java",
+      "org/apache/commons/math/stat/descriptive/moment/RegressionTest1.java",
+      "org/apache/commons/math/stat/descriptive/moment/RegressionTest2.java",
+      "org/apache/commons/math/stat/descriptive/moment/RegressionTest3.java",
+      "org/apache/commons/math/stat/descriptive/moment/RegressionTest4.java",
+      "org/apache/commons/math/stat/descriptive/moment/RegressionTest5.java",
+      "org/apache/commons/math/stat/descriptive/moment/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:10:47.750786+00:00"
+  },
+  "Math_42": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_42_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_42",
+    "classes_tested": [
+      "org.apache.commons.math.optimization.linear.SimplexTableau"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/optimization/linear/RegressionTest0.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest1.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest2.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest3.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest4.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest5.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:12:01.628513+00:00"
+  },
+  "Math_43": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_43_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_43",
+    "classes_tested": [
+      "org.apache.commons.math.stat.descriptive.SummaryStatistics"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/stat/descriptive/ErrorTest0.java",
+      "org/apache/commons/math/stat/descriptive/RegressionTest0.java",
+      "org/apache/commons/math/stat/descriptive/ErrorTest.java",
+      "org/apache/commons/math/stat/descriptive/RegressionTest1.java",
+      "org/apache/commons/math/stat/descriptive/RegressionTest2.java",
+      "org/apache/commons/math/stat/descriptive/RegressionTest3.java",
+      "org/apache/commons/math/stat/descriptive/RegressionTest4.java",
+      "org/apache/commons/math/stat/descriptive/RegressionTest5.java",
+      "org/apache/commons/math/stat/descriptive/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:13:22.005283+00:00"
+  },
+  "Math_44": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_44_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_44",
+    "classes_tested": [
+      "org.apache.commons.math.ode.AbstractIntegrator"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/ode/RegressionTest0.java",
+      "org/apache/commons/math/ode/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:14:34.014266+00:00"
+  },
+  "Math_45": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_45_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_45",
+    "classes_tested": [
+      "org.apache.commons.math.linear.OpenMapRealMatrix"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/linear/RegressionTest6.java",
+      "org/apache/commons/math/linear/RegressionTest7.java",
+      "org/apache/commons/math/linear/RegressionTest0.java",
+      "org/apache/commons/math/linear/RegressionTest1.java",
+      "org/apache/commons/math/linear/RegressionTest2.java",
+      "org/apache/commons/math/linear/RegressionTest3.java",
+      "org/apache/commons/math/linear/RegressionTest4.java",
+      "org/apache/commons/math/linear/RegressionTest5.java",
+      "org/apache/commons/math/linear/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:15:56.888266+00:00"
+  },
+  "Math_46": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_46_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_46",
+    "classes_tested": [
+      "org.apache.commons.math.complex.Complex"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/complex/ErrorTest0.java",
+      "org/apache/commons/math/complex/RegressionTest6.java",
+      "org/apache/commons/math/complex/RegressionTest7.java",
+      "org/apache/commons/math/complex/RegressionTest0.java",
+      "org/apache/commons/math/complex/ErrorTest.java",
+      "org/apache/commons/math/complex/RegressionTest1.java",
+      "org/apache/commons/math/complex/RegressionTest2.java",
+      "org/apache/commons/math/complex/RegressionTest3.java",
+      "org/apache/commons/math/complex/RegressionTest8.java",
+      "org/apache/commons/math/complex/RegressionTest4.java",
+      "org/apache/commons/math/complex/RegressionTest5.java",
+      "org/apache/commons/math/complex/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:17:17.206172+00:00"
+  },
+  "Math_47": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_47_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_47",
+    "classes_tested": [
+      "org.apache.commons.math.complex.Complex"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/complex/ErrorTest0.java",
+      "org/apache/commons/math/complex/RegressionTest6.java",
+      "org/apache/commons/math/complex/RegressionTest7.java",
+      "org/apache/commons/math/complex/RegressionTest0.java",
+      "org/apache/commons/math/complex/ErrorTest.java",
+      "org/apache/commons/math/complex/RegressionTest1.java",
+      "org/apache/commons/math/complex/RegressionTest2.java",
+      "org/apache/commons/math/complex/RegressionTest3.java",
+      "org/apache/commons/math/complex/RegressionTest8.java",
+      "org/apache/commons/math/complex/RegressionTest4.java",
+      "org/apache/commons/math/complex/RegressionTest5.java",
+      "org/apache/commons/math/complex/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:18:37.939638+00:00"
+  },
+  "Math_48": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_48_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_48",
+    "classes_tested": [
+      "org.apache.commons.math.analysis.solvers.BaseSecantSolver"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/analysis/solvers/RegressionTest0.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:19:49.434225+00:00"
+  },
+  "Math_49": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_49_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_49",
+    "classes_tested": [
+      "org.apache.commons.math.linear.OpenMapRealVector"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/linear/ErrorTest0.java",
+      "org/apache/commons/math/linear/RegressionTest0.java",
+      "org/apache/commons/math/linear/ErrorTest.java",
+      "org/apache/commons/math/linear/RegressionTest1.java",
+      "org/apache/commons/math/linear/RegressionTest2.java",
+      "org/apache/commons/math/linear/RegressionTest3.java",
+      "org/apache/commons/math/linear/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:21:06.983795+00:00"
+  },
+  "Math_50": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_50_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_50",
+    "classes_tested": [
+      "org.apache.commons.math.analysis.solvers.BaseSecantSolver"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/analysis/solvers/RegressionTest0.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:22:19.087159+00:00"
+  },
+  "Math_51": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_51_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_51",
+    "classes_tested": [
+      "org.apache.commons.math.analysis.solvers.BaseSecantSolver"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/analysis/solvers/RegressionTest0.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:23:31.271853+00:00"
+  },
+  "Math_52": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_52_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_52",
+    "classes_tested": [
+      "org.apache.commons.math.geometry.euclidean.threed.Rotation"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/geometry/euclidean/threed/ErrorTest0.java",
+      "org/apache/commons/math/geometry/euclidean/threed/RegressionTest6.java",
+      "org/apache/commons/math/geometry/euclidean/threed/RegressionTest7.java",
+      "org/apache/commons/math/geometry/euclidean/threed/RegressionTest0.java",
+      "org/apache/commons/math/geometry/euclidean/threed/ErrorTest.java",
+      "org/apache/commons/math/geometry/euclidean/threed/RegressionTest1.java",
+      "org/apache/commons/math/geometry/euclidean/threed/RegressionTest2.java",
+      "org/apache/commons/math/geometry/euclidean/threed/RegressionTest3.java",
+      "org/apache/commons/math/geometry/euclidean/threed/RegressionTest8.java",
+      "org/apache/commons/math/geometry/euclidean/threed/RegressionTest4.java",
+      "org/apache/commons/math/geometry/euclidean/threed/RegressionTest5.java",
+      "org/apache/commons/math/geometry/euclidean/threed/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:24:53.632441+00:00"
+  },
+  "Math_53": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_53_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_53",
+    "classes_tested": [
+      "org.apache.commons.math.complex.Complex"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/complex/ErrorTest0.java",
+      "org/apache/commons/math/complex/RegressionTest0.java",
+      "org/apache/commons/math/complex/ErrorTest.java",
+      "org/apache/commons/math/complex/RegressionTest1.java",
+      "org/apache/commons/math/complex/RegressionTest2.java",
+      "org/apache/commons/math/complex/RegressionTest3.java",
+      "org/apache/commons/math/complex/RegressionTest4.java",
+      "org/apache/commons/math/complex/RegressionTest5.java",
+      "org/apache/commons/math/complex/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:26:13.421451+00:00"
+  },
+  "Math_54": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_54_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_54",
+    "classes_tested": [
+      "org.apache.commons.math.dfp.Dfp"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/dfp/RegressionTest0.java",
+      "org/apache/commons/math/dfp/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:27:25.322557+00:00"
+  },
+  "Math_55": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_55_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_55",
+    "classes_tested": [
+      "org.apache.commons.math.geometry.Vector3D"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/geometry/ErrorTest0.java",
+      "org/apache/commons/math/geometry/RegressionTest6.java",
+      "org/apache/commons/math/geometry/RegressionTest7.java",
+      "org/apache/commons/math/geometry/RegressionTest0.java",
+      "org/apache/commons/math/geometry/ErrorTest.java",
+      "org/apache/commons/math/geometry/RegressionTest1.java",
+      "org/apache/commons/math/geometry/RegressionTest2.java",
+      "org/apache/commons/math/geometry/RegressionTest3.java",
+      "org/apache/commons/math/geometry/RegressionTest4.java",
+      "org/apache/commons/math/geometry/RegressionTest5.java",
+      "org/apache/commons/math/geometry/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:28:49.812996+00:00"
+  },
+  "Math_56": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_56_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_56",
+    "classes_tested": [
+      "org.apache.commons.math.util.MultidimensionalCounter"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/util/RegressionTest0.java",
+      "org/apache/commons/math/util/RegressionTest1.java",
+      "org/apache/commons/math/util/RegressionTest2.java",
+      "org/apache/commons/math/util/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:30:03.443719+00:00"
+  },
+  "Math_57": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_57_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_57",
+    "classes_tested": [
+      "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/stat/clustering/RegressionTest0.java",
+      "org/apache/commons/math/stat/clustering/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:31:15.272171+00:00"
+  },
+  "Math_58": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_58_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_58",
+    "classes_tested": [
+      "org.apache.commons.math.optimization.fitting.GaussianFitter"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/optimization/fitting/RegressionTest6.java",
+      "org/apache/commons/math/optimization/fitting/RegressionTest7.java",
+      "org/apache/commons/math/optimization/fitting/RegressionTest0.java",
+      "org/apache/commons/math/optimization/fitting/RegressionTest10.java",
+      "org/apache/commons/math/optimization/fitting/RegressionTest11.java",
+      "org/apache/commons/math/optimization/fitting/RegressionTest1.java",
+      "org/apache/commons/math/optimization/fitting/RegressionTest2.java",
+      "org/apache/commons/math/optimization/fitting/RegressionTest12.java",
+      "org/apache/commons/math/optimization/fitting/RegressionTest3.java",
+      "org/apache/commons/math/optimization/fitting/RegressionTest8.java",
+      "org/apache/commons/math/optimization/fitting/RegressionTest4.java",
+      "org/apache/commons/math/optimization/fitting/RegressionTest5.java",
+      "org/apache/commons/math/optimization/fitting/RegressionTest.java",
+      "org/apache/commons/math/optimization/fitting/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:32:34.296169+00:00"
+  },
+  "Math_59": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_59_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_59",
+    "classes_tested": [
+      "org.apache.commons.math.util.FastMath"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/util/RegressionTest16.java",
+      "org/apache/commons/math/util/RegressionTest20.java",
+      "org/apache/commons/math/util/RegressionTest6.java",
+      "org/apache/commons/math/util/RegressionTest7.java",
+      "org/apache/commons/math/util/RegressionTest21.java",
+      "org/apache/commons/math/util/RegressionTest17.java",
+      "org/apache/commons/math/util/RegressionTest26.java",
+      "org/apache/commons/math/util/RegressionTest0.java",
+      "org/apache/commons/math/util/RegressionTest10.java",
+      "org/apache/commons/math/util/RegressionTest11.java",
+      "org/apache/commons/math/util/RegressionTest1.java",
+      "org/apache/commons/math/util/RegressionTest27.java",
+      "org/apache/commons/math/util/RegressionTest2.java",
+      "org/apache/commons/math/util/RegressionTest24.java",
+      "org/apache/commons/math/util/RegressionTest12.java",
+      "org/apache/commons/math/util/RegressionTest28.java",
+      "org/apache/commons/math/util/RegressionTest13.java",
+      "org/apache/commons/math/util/RegressionTest25.java",
+      "org/apache/commons/math/util/RegressionTest3.java",
+      "org/apache/commons/math/util/RegressionTest8.java",
+      "org/apache/commons/math/util/RegressionTest14.java",
+      "org/apache/commons/math/util/RegressionTest4.java",
+      "org/apache/commons/math/util/RegressionTest18.java",
+      "org/apache/commons/math/util/RegressionTest22.java",
+      "org/apache/commons/math/util/RegressionTest23.java",
+      "org/apache/commons/math/util/RegressionTest19.java",
+      "org/apache/commons/math/util/RegressionTest5.java",
+      "org/apache/commons/math/util/RegressionTest.java",
+      "org/apache/commons/math/util/RegressionTest15.java",
+      "org/apache/commons/math/util/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:33:46.636088+00:00"
+  },
+  "Math_62": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_62_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_62",
+    "classes_tested": [
+      "org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/optimization/univariate/RegressionTest0.java",
+      "org/apache/commons/math/optimization/univariate/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:56:45.497986+00:00"
+  },
+  "Math_63": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_63_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_63",
+    "classes_tested": [
+      "org.apache.commons.math.util.MathUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/util/RegressionTest0.java",
+      "org/apache/commons/math/util/RegressionTest1.java",
+      "org/apache/commons/math/util/RegressionTest2.java",
+      "org/apache/commons/math/util/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T21:59:36.618595+00:00"
+  },
+  "Math_64": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_64_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_64",
+    "classes_tested": [
+      "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/optimization/general/ErrorTest0.java",
+      "org/apache/commons/math/optimization/general/RegressionTest6.java",
+      "org/apache/commons/math/optimization/general/RegressionTest7.java",
+      "org/apache/commons/math/optimization/general/ErrorTest1.java",
+      "org/apache/commons/math/optimization/general/RegressionTest0.java",
+      "org/apache/commons/math/optimization/general/ErrorTest.java",
+      "org/apache/commons/math/optimization/general/RegressionTest10.java",
+      "org/apache/commons/math/optimization/general/RegressionTest11.java",
+      "org/apache/commons/math/optimization/general/RegressionTest1.java",
+      "org/apache/commons/math/optimization/general/RegressionTest2.java",
+      "org/apache/commons/math/optimization/general/RegressionTest3.java",
+      "org/apache/commons/math/optimization/general/RegressionTest8.java",
+      "org/apache/commons/math/optimization/general/RegressionTest4.java",
+      "org/apache/commons/math/optimization/general/RegressionTest5.java",
+      "org/apache/commons/math/optimization/general/RegressionTest.java",
+      "org/apache/commons/math/optimization/general/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:00:53.335995+00:00"
+  },
+  "Math_65": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_65_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_65",
+    "classes_tested": [
+      "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/optimization/general/RegressionTest0.java",
+      "org/apache/commons/math/optimization/general/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:02:04.015682+00:00"
+  },
+  "Math_66": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_66_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_66",
+    "classes_tested": [
+      "org.apache.commons.math.optimization.univariate.BrentOptimizer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/optimization/univariate/RegressionTest6.java",
+      "org/apache/commons/math/optimization/univariate/RegressionTest7.java",
+      "org/apache/commons/math/optimization/univariate/RegressionTest0.java",
+      "org/apache/commons/math/optimization/univariate/RegressionTest10.java",
+      "org/apache/commons/math/optimization/univariate/RegressionTest11.java",
+      "org/apache/commons/math/optimization/univariate/RegressionTest1.java",
+      "org/apache/commons/math/optimization/univariate/RegressionTest2.java",
+      "org/apache/commons/math/optimization/univariate/RegressionTest3.java",
+      "org/apache/commons/math/optimization/univariate/RegressionTest8.java",
+      "org/apache/commons/math/optimization/univariate/RegressionTest4.java",
+      "org/apache/commons/math/optimization/univariate/RegressionTest5.java",
+      "org/apache/commons/math/optimization/univariate/RegressionTest.java",
+      "org/apache/commons/math/optimization/univariate/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:03:21.467136+00:00"
+  },
+  "Math_67": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_67_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_67",
+    "classes_tested": [
+      "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/optimization/RegressionTest6.java",
+      "org/apache/commons/math/optimization/RegressionTest7.java",
+      "org/apache/commons/math/optimization/RegressionTest0.java",
+      "org/apache/commons/math/optimization/RegressionTest10.java",
+      "org/apache/commons/math/optimization/RegressionTest11.java",
+      "org/apache/commons/math/optimization/RegressionTest1.java",
+      "org/apache/commons/math/optimization/RegressionTest2.java",
+      "org/apache/commons/math/optimization/RegressionTest12.java",
+      "org/apache/commons/math/optimization/RegressionTest13.java",
+      "org/apache/commons/math/optimization/RegressionTest3.java",
+      "org/apache/commons/math/optimization/RegressionTest8.java",
+      "org/apache/commons/math/optimization/RegressionTest14.java",
+      "org/apache/commons/math/optimization/RegressionTest4.java",
+      "org/apache/commons/math/optimization/RegressionTest5.java",
+      "org/apache/commons/math/optimization/RegressionTest.java",
+      "org/apache/commons/math/optimization/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:04:41.433333+00:00"
+  },
+  "Math_68": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_68_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_68",
+    "classes_tested": [
+      "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/optimization/general/ErrorTest0.java",
+      "org/apache/commons/math/optimization/general/RegressionTest6.java",
+      "org/apache/commons/math/optimization/general/RegressionTest7.java",
+      "org/apache/commons/math/optimization/general/ErrorTest1.java",
+      "org/apache/commons/math/optimization/general/RegressionTest0.java",
+      "org/apache/commons/math/optimization/general/ErrorTest.java",
+      "org/apache/commons/math/optimization/general/RegressionTest10.java",
+      "org/apache/commons/math/optimization/general/RegressionTest1.java",
+      "org/apache/commons/math/optimization/general/RegressionTest2.java",
+      "org/apache/commons/math/optimization/general/RegressionTest3.java",
+      "org/apache/commons/math/optimization/general/RegressionTest8.java",
+      "org/apache/commons/math/optimization/general/RegressionTest4.java",
+      "org/apache/commons/math/optimization/general/RegressionTest5.java",
+      "org/apache/commons/math/optimization/general/RegressionTest.java",
+      "org/apache/commons/math/optimization/general/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:05:58.687274+00:00"
+  },
+  "Math_69": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_69_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_69",
+    "classes_tested": [
+      "org.apache.commons.math.stat.correlation.PearsonsCorrelation"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/stat/correlation/ErrorTest0.java",
+      "org/apache/commons/math/stat/correlation/RegressionTest6.java",
+      "org/apache/commons/math/stat/correlation/RegressionTest0.java",
+      "org/apache/commons/math/stat/correlation/ErrorTest.java",
+      "org/apache/commons/math/stat/correlation/RegressionTest1.java",
+      "org/apache/commons/math/stat/correlation/RegressionTest2.java",
+      "org/apache/commons/math/stat/correlation/RegressionTest3.java",
+      "org/apache/commons/math/stat/correlation/RegressionTest4.java",
+      "org/apache/commons/math/stat/correlation/RegressionTest5.java",
+      "org/apache/commons/math/stat/correlation/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:07:18.225993+00:00"
+  },
+  "Math_70": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_70_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_70",
+    "classes_tested": [
+      "org.apache.commons.math.analysis.solvers.BisectionSolver"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/analysis/solvers/ErrorTest0.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest6.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest7.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest0.java",
+      "org/apache/commons/math/analysis/solvers/ErrorTest.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest10.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest11.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest1.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest2.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest3.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest8.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest4.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest5.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:08:34.469681+00:00"
+  },
+  "Math_71": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_71_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_71",
+    "classes_tested": [
+      "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator",
+      "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/ode/nonstiff/RegressionTest0.java",
+      "org/apache/commons/math/ode/nonstiff/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:09:45.743396+00:00"
+  },
+  "Math_72": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_72_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_72",
+    "classes_tested": [
+      "org.apache.commons.math.analysis.solvers.BrentSolver"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/analysis/solvers/ErrorTest0.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest6.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest7.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest0.java",
+      "org/apache/commons/math/analysis/solvers/ErrorTest.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest10.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest11.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest1.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest2.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest12.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest3.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest8.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest4.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest5.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:11:01.642012+00:00"
+  },
+  "Math_73": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_73_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_73",
+    "classes_tested": [
+      "org.apache.commons.math.analysis.solvers.BrentSolver"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/analysis/solvers/ErrorTest0.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest6.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest7.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest0.java",
+      "org/apache/commons/math/analysis/solvers/ErrorTest.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest10.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest11.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest1.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest2.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest12.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest3.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest8.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest4.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest5.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:12:17.994990+00:00"
+  },
+  "Math_74": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_74_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_74",
+    "classes_tested": [
+      "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/ode/nonstiff/RegressionTest0.java",
+      "org/apache/commons/math/ode/nonstiff/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:13:29.101855+00:00"
+  },
+  "Math_75": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_75_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_75",
+    "classes_tested": [
+      "org.apache.commons.math.stat.Frequency"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/stat/RegressionTest6.java",
+      "org/apache/commons/math/stat/RegressionTest7.java",
+      "org/apache/commons/math/stat/RegressionTest0.java",
+      "org/apache/commons/math/stat/RegressionTest10.java",
+      "org/apache/commons/math/stat/RegressionTest1.java",
+      "org/apache/commons/math/stat/RegressionTest2.java",
+      "org/apache/commons/math/stat/RegressionTest3.java",
+      "org/apache/commons/math/stat/RegressionTest8.java",
+      "org/apache/commons/math/stat/RegressionTest4.java",
+      "org/apache/commons/math/stat/RegressionTest5.java",
+      "org/apache/commons/math/stat/RegressionTest.java",
+      "org/apache/commons/math/stat/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:14:48.420256+00:00"
+  },
+  "Math_76": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_76_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_76",
+    "classes_tested": [
+      "org.apache.commons.math.linear.SingularValueDecompositionImpl"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/linear/RegressionTest0.java",
+      "org/apache/commons/math/linear/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:15:59.463510+00:00"
+  },
+  "Math_77": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_77_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_77",
+    "classes_tested": [
+      "org.apache.commons.math.linear.OpenMapRealVector",
+      "org.apache.commons.math.linear.ArrayRealVector"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/linear/ErrorTest0.java",
+      "org/apache/commons/math/linear/RegressionTest0.java",
+      "org/apache/commons/math/linear/ErrorTest.java",
+      "org/apache/commons/math/linear/RegressionTest1.java",
+      "org/apache/commons/math/linear/RegressionTest2.java",
+      "org/apache/commons/math/linear/RegressionTest3.java",
+      "org/apache/commons/math/linear/RegressionTest4.java",
+      "org/apache/commons/math/linear/RegressionTest5.java",
+      "org/apache/commons/math/linear/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:17:18.018179+00:00"
+  },
+  "Math_78": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_78_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_78",
+    "classes_tested": [
+      "org.apache.commons.math.ode.events.EventState"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/ode/events/RegressionTest6.java",
+      "org/apache/commons/math/ode/events/RegressionTest7.java",
+      "org/apache/commons/math/ode/events/RegressionTest0.java",
+      "org/apache/commons/math/ode/events/RegressionTest10.java",
+      "org/apache/commons/math/ode/events/RegressionTest1.java",
+      "org/apache/commons/math/ode/events/RegressionTest2.java",
+      "org/apache/commons/math/ode/events/RegressionTest3.java",
+      "org/apache/commons/math/ode/events/RegressionTest8.java",
+      "org/apache/commons/math/ode/events/RegressionTest4.java",
+      "org/apache/commons/math/ode/events/RegressionTest5.java",
+      "org/apache/commons/math/ode/events/RegressionTest.java",
+      "org/apache/commons/math/ode/events/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:18:39.608515+00:00"
+  },
+  "Math_80": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_80_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_80",
+    "classes_tested": [
+      "org.apache.commons.math.linear.EigenDecompositionImpl"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/linear/RegressionTest6.java",
+      "org/apache/commons/math/linear/RegressionTest7.java",
+      "org/apache/commons/math/linear/RegressionTest0.java",
+      "org/apache/commons/math/linear/RegressionTest1.java",
+      "org/apache/commons/math/linear/RegressionTest2.java",
+      "org/apache/commons/math/linear/RegressionTest3.java",
+      "org/apache/commons/math/linear/RegressionTest8.java",
+      "org/apache/commons/math/linear/RegressionTest4.java",
+      "org/apache/commons/math/linear/RegressionTest5.java",
+      "org/apache/commons/math/linear/RegressionTest.java",
+      "org/apache/commons/math/linear/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:26:52.165813+00:00"
+  },
+  "Math_81": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_81_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_81",
+    "classes_tested": [
+      "org.apache.commons.math.linear.EigenDecompositionImpl"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/linear/RegressionTest6.java",
+      "org/apache/commons/math/linear/RegressionTest7.java",
+      "org/apache/commons/math/linear/RegressionTest0.java",
+      "org/apache/commons/math/linear/RegressionTest10.java",
+      "org/apache/commons/math/linear/RegressionTest1.java",
+      "org/apache/commons/math/linear/RegressionTest2.java",
+      "org/apache/commons/math/linear/RegressionTest3.java",
+      "org/apache/commons/math/linear/RegressionTest8.java",
+      "org/apache/commons/math/linear/RegressionTest4.java",
+      "org/apache/commons/math/linear/RegressionTest5.java",
+      "org/apache/commons/math/linear/RegressionTest.java",
+      "org/apache/commons/math/linear/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:28:12.409057+00:00"
+  },
+  "Math_82": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_82_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_82",
+    "classes_tested": [
+      "org.apache.commons.math.optimization.linear.SimplexSolver"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/optimization/linear/ErrorTest0.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest6.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest7.java",
+      "org/apache/commons/math/optimization/linear/ErrorTest1.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest0.java",
+      "org/apache/commons/math/optimization/linear/ErrorTest.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest10.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest11.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest1.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest2.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest12.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest3.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest8.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest4.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest5.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:29:30.400303+00:00"
+  },
+  "Math_83": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_83_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_83",
+    "classes_tested": [
+      "org.apache.commons.math.optimization.linear.SimplexTableau"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/optimization/linear/RegressionTest0.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:30:42.783667+00:00"
+  },
+  "Math_84": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_84_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_84",
+    "classes_tested": [
+      "org.apache.commons.math.optimization.direct.MultiDirectional"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/optimization/direct/RegressionTest6.java",
+      "org/apache/commons/math/optimization/direct/RegressionTest7.java",
+      "org/apache/commons/math/optimization/direct/RegressionTest0.java",
+      "org/apache/commons/math/optimization/direct/RegressionTest1.java",
+      "org/apache/commons/math/optimization/direct/RegressionTest2.java",
+      "org/apache/commons/math/optimization/direct/RegressionTest3.java",
+      "org/apache/commons/math/optimization/direct/RegressionTest8.java",
+      "org/apache/commons/math/optimization/direct/RegressionTest4.java",
+      "org/apache/commons/math/optimization/direct/RegressionTest5.java",
+      "org/apache/commons/math/optimization/direct/RegressionTest.java",
+      "org/apache/commons/math/optimization/direct/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:32:03.689162+00:00"
+  },
+  "Math_85": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_85_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_85",
+    "classes_tested": [
+      "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/analysis/solvers/RegressionTest16.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest20.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest6.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest7.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest21.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest17.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest0.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest10.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest11.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest1.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest2.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest12.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest13.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest3.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest8.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest14.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest4.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest18.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest22.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest23.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest19.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest5.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest15.java",
+      "org/apache/commons/math/analysis/solvers/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:33:22.072506+00:00"
+  },
+  "Math_86": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_86_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_86",
+    "classes_tested": [
+      "org.apache.commons.math.linear.CholeskyDecompositionImpl"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/linear/RegressionTest0.java",
+      "org/apache/commons/math/linear/RegressionTest1.java",
+      "org/apache/commons/math/linear/RegressionTest2.java",
+      "org/apache/commons/math/linear/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:34:33.384348+00:00"
+  },
+  "Math_87": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_87_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_87",
+    "classes_tested": [
+      "org.apache.commons.math.optimization.linear.SimplexTableau"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/optimization/linear/RegressionTest0.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:35:43.893307+00:00"
+  },
+  "Math_88": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_88_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_88",
+    "classes_tested": [
+      "org.apache.commons.math.optimization.linear.SimplexTableau"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/optimization/linear/RegressionTest0.java",
+      "org/apache/commons/math/optimization/linear/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:36:54.690727+00:00"
+  },
+  "Math_89": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_89_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_89",
+    "classes_tested": [
+      "org.apache.commons.math.stat.Frequency"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/stat/RegressionTest6.java",
+      "org/apache/commons/math/stat/RegressionTest7.java",
+      "org/apache/commons/math/stat/RegressionTest0.java",
+      "org/apache/commons/math/stat/RegressionTest10.java",
+      "org/apache/commons/math/stat/RegressionTest1.java",
+      "org/apache/commons/math/stat/RegressionTest2.java",
+      "org/apache/commons/math/stat/RegressionTest3.java",
+      "org/apache/commons/math/stat/RegressionTest8.java",
+      "org/apache/commons/math/stat/RegressionTest4.java",
+      "org/apache/commons/math/stat/RegressionTest5.java",
+      "org/apache/commons/math/stat/RegressionTest.java",
+      "org/apache/commons/math/stat/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:38:06.437500+00:00"
+  },
+  "Math_90": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_90_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_90",
+    "classes_tested": [
+      "org.apache.commons.math.stat.Frequency"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/stat/RegressionTest6.java",
+      "org/apache/commons/math/stat/RegressionTest7.java",
+      "org/apache/commons/math/stat/RegressionTest0.java",
+      "org/apache/commons/math/stat/RegressionTest10.java",
+      "org/apache/commons/math/stat/RegressionTest11.java",
+      "org/apache/commons/math/stat/RegressionTest1.java",
+      "org/apache/commons/math/stat/RegressionTest2.java",
+      "org/apache/commons/math/stat/RegressionTest3.java",
+      "org/apache/commons/math/stat/RegressionTest8.java",
+      "org/apache/commons/math/stat/RegressionTest4.java",
+      "org/apache/commons/math/stat/RegressionTest5.java",
+      "org/apache/commons/math/stat/RegressionTest.java",
+      "org/apache/commons/math/stat/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:39:17.778573+00:00"
+  },
+  "Math_91": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_91_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_91",
+    "classes_tested": [
+      "org.apache.commons.math.fraction.Fraction"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/fraction/RegressionTest6.java",
+      "org/apache/commons/math/fraction/RegressionTest0.java",
+      "org/apache/commons/math/fraction/RegressionTest1.java",
+      "org/apache/commons/math/fraction/RegressionTest2.java",
+      "org/apache/commons/math/fraction/RegressionTest3.java",
+      "org/apache/commons/math/fraction/RegressionTest4.java",
+      "org/apache/commons/math/fraction/RegressionTest5.java",
+      "org/apache/commons/math/fraction/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:40:34.060693+00:00"
+  },
+  "Math_92": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_92_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_92",
+    "classes_tested": [
+      "org.apache.commons.math.util.MathUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/util/RegressionTest0.java",
+      "org/apache/commons/math/util/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:42:54.943992+00:00"
+  },
+  "Math_93": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_93_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_93",
+    "classes_tested": [
+      "org.apache.commons.math.util.MathUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/util/RegressionTest0.java",
+      "org/apache/commons/math/util/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:45:13.026755+00:00"
+  },
+  "Math_94": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_94_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_94",
+    "classes_tested": [
+      "org.apache.commons.math.util.MathUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/util/RegressionTest0.java",
+      "org/apache/commons/math/util/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:47:31.483757+00:00"
+  },
+  "Math_95": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_95_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_95",
+    "classes_tested": [
+      "org.apache.commons.math.distribution.FDistributionImpl"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/distribution/RegressionTest6.java",
+      "org/apache/commons/math/distribution/RegressionTest7.java",
+      "org/apache/commons/math/distribution/RegressionTest0.java",
+      "org/apache/commons/math/distribution/RegressionTest10.java",
+      "org/apache/commons/math/distribution/RegressionTest11.java",
+      "org/apache/commons/math/distribution/RegressionTest1.java",
+      "org/apache/commons/math/distribution/RegressionTest2.java",
+      "org/apache/commons/math/distribution/RegressionTest12.java",
+      "org/apache/commons/math/distribution/RegressionTest13.java",
+      "org/apache/commons/math/distribution/RegressionTest3.java",
+      "org/apache/commons/math/distribution/RegressionTest8.java",
+      "org/apache/commons/math/distribution/RegressionTest4.java",
+      "org/apache/commons/math/distribution/RegressionTest5.java",
+      "org/apache/commons/math/distribution/RegressionTest.java",
+      "org/apache/commons/math/distribution/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:48:46.727856+00:00"
+  },
+  "Math_96": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_96_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_96",
+    "classes_tested": [
+      "org.apache.commons.math.complex.Complex"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/complex/RegressionTest6.java",
+      "org/apache/commons/math/complex/RegressionTest0.java",
+      "org/apache/commons/math/complex/RegressionTest1.java",
+      "org/apache/commons/math/complex/RegressionTest2.java",
+      "org/apache/commons/math/complex/RegressionTest3.java",
+      "org/apache/commons/math/complex/RegressionTest4.java",
+      "org/apache/commons/math/complex/RegressionTest5.java",
+      "org/apache/commons/math/complex/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:50:07.011850+00:00"
+  },
+  "Math_97": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_97_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_97",
+    "classes_tested": [
+      "org.apache.commons.math.analysis.BrentSolver"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/analysis/RegressionTest0.java",
+      "org/apache/commons/math/analysis/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:51:16.791512+00:00"
+  },
+  "Math_98": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_98_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_98",
+    "classes_tested": [
+      "org.apache.commons.math.linear.BigMatrixImpl",
+      "org.apache.commons.math.linear.RealMatrixImpl"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/linear/ErrorTest0.java",
+      "org/apache/commons/math/linear/RegressionTest6.java",
+      "org/apache/commons/math/linear/RegressionTest7.java",
+      "org/apache/commons/math/linear/RegressionTest0.java",
+      "org/apache/commons/math/linear/ErrorTest.java",
+      "org/apache/commons/math/linear/RegressionTest1.java",
+      "org/apache/commons/math/linear/RegressionTest2.java",
+      "org/apache/commons/math/linear/RegressionTest3.java",
+      "org/apache/commons/math/linear/RegressionTest8.java",
+      "org/apache/commons/math/linear/RegressionTest4.java",
+      "org/apache/commons/math/linear/RegressionTest5.java",
+      "org/apache/commons/math/linear/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:52:41.318490+00:00"
+  },
+  "Math_99": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_99_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_99",
+    "classes_tested": [
+      "org.apache.commons.math.util.MathUtils"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/util/RegressionTest0.java",
+      "org/apache/commons/math/util/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:55:34.490931+00:00"
+  },
+  "Math_100": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_100_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_100",
+    "classes_tested": [
+      "org.apache.commons.math.estimation.AbstractEstimator"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/estimation/RegressionTest0.java",
+      "org/apache/commons/math/estimation/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:56:44.319992+00:00"
+  },
+  "Math_101": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_101_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_101",
+    "classes_tested": [
+      "org.apache.commons.math.complex.ComplexFormat"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/complex/RegressionTest6.java",
+      "org/apache/commons/math/complex/RegressionTest7.java",
+      "org/apache/commons/math/complex/RegressionTest0.java",
+      "org/apache/commons/math/complex/RegressionTest1.java",
+      "org/apache/commons/math/complex/RegressionTest2.java",
+      "org/apache/commons/math/complex/RegressionTest3.java",
+      "org/apache/commons/math/complex/RegressionTest8.java",
+      "org/apache/commons/math/complex/RegressionTest4.java",
+      "org/apache/commons/math/complex/RegressionTest5.java",
+      "org/apache/commons/math/complex/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:58:05.923432+00:00"
+  },
+  "Math_102": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_102_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_102",
+    "classes_tested": [
+      "org.apache.commons.math.stat.inference.ChiSquareTestImpl"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/stat/inference/RegressionTest6.java",
+      "org/apache/commons/math/stat/inference/RegressionTest7.java",
+      "org/apache/commons/math/stat/inference/RegressionTest0.java",
+      "org/apache/commons/math/stat/inference/RegressionTest1.java",
+      "org/apache/commons/math/stat/inference/RegressionTest2.java",
+      "org/apache/commons/math/stat/inference/RegressionTest3.java",
+      "org/apache/commons/math/stat/inference/RegressionTest8.java",
+      "org/apache/commons/math/stat/inference/RegressionTest4.java",
+      "org/apache/commons/math/stat/inference/RegressionTest5.java",
+      "org/apache/commons/math/stat/inference/RegressionTest.java",
+      "org/apache/commons/math/stat/inference/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T22:59:29.537417+00:00"
+  },
+  "Math_103": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_103_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_103",
+    "classes_tested": [
+      "org.apache.commons.math.distribution.NormalDistributionImpl"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/distribution/RegressionTest6.java",
+      "org/apache/commons/math/distribution/RegressionTest0.java",
+      "org/apache/commons/math/distribution/RegressionTest1.java",
+      "org/apache/commons/math/distribution/RegressionTest2.java",
+      "org/apache/commons/math/distribution/RegressionTest3.java",
+      "org/apache/commons/math/distribution/RegressionTest4.java",
+      "org/apache/commons/math/distribution/RegressionTest5.java",
+      "org/apache/commons/math/distribution/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T23:01:15.946448+00:00"
+  },
+  "Math_104": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_104_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_104",
+    "classes_tested": [
+      "org.apache.commons.math.special.Gamma"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/special/RegressionTest6.java",
+      "org/apache/commons/math/special/RegressionTest7.java",
+      "org/apache/commons/math/special/RegressionTest0.java",
+      "org/apache/commons/math/special/RegressionTest10.java",
+      "org/apache/commons/math/special/RegressionTest11.java",
+      "org/apache/commons/math/special/RegressionTest1.java",
+      "org/apache/commons/math/special/RegressionTest2.java",
+      "org/apache/commons/math/special/RegressionTest12.java",
+      "org/apache/commons/math/special/RegressionTest13.java",
+      "org/apache/commons/math/special/RegressionTest3.java",
+      "org/apache/commons/math/special/RegressionTest8.java",
+      "org/apache/commons/math/special/RegressionTest4.java",
+      "org/apache/commons/math/special/RegressionTest5.java",
+      "org/apache/commons/math/special/RegressionTest.java",
+      "org/apache/commons/math/special/RegressionTest9.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T23:03:00.848020+00:00"
+  },
+  "Math_106": {
+    "output_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/Feedback-Directed Random Test Generation/TestCode/Math_106_buggy",
+    "classes_dir": "/Users/piyadaketmala/Documents/Year3_Sem1/SQA/SQA-Project/BuildClasses/Math_106",
+    "classes_tested": [
+      "org.apache.commons.math.fraction.ProperFractionFormat"
+    ],
+    "generated_tests": [
+      "org/apache/commons/math/fraction/RegressionTest6.java",
+      "org/apache/commons/math/fraction/RegressionTest0.java",
+      "org/apache/commons/math/fraction/RegressionTest1.java",
+      "org/apache/commons/math/fraction/RegressionTest2.java",
+      "org/apache/commons/math/fraction/RegressionTest3.java",
+      "org/apache/commons/math/fraction/RegressionTest4.java",
+      "org/apache/commons/math/fraction/RegressionTest5.java",
+      "org/apache/commons/math/fraction/RegressionTest.java"
+    ],
+    "time_limit": 60,
+    "status": "COMPLETED",
+    "timestamp": "2026-09-24T23:22:36.880245+00:00"
   }
 }
