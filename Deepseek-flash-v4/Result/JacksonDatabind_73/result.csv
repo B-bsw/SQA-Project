@@ -1,0 +1,2 @@
+project,bug_id,tests,buggy_result,buggy_fails,fixed_result,fixed_fails,verdict,lines,covered_lines,line_cov,branches,covered_branches,branch_cov
+JacksonDatabind,73,43,PASS,0,PASS,0,NOT_REVEALING,928,634,68.32,716,389,54.33

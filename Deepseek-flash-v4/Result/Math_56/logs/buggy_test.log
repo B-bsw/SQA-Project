@@ -1,0 +1,14 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Math_56-13quxk2n/Math-56b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 8
+  - org.apache.commons.math.util.MultidimensionalCounterTest::testIteratorGetCounts
+  - org.apache.commons.math.util.MultidimensionalCounterTest::testGetCount
+  - org.apache.commons.math.util.MultidimensionalCounterTest::testToString
+  - org.apache.commons.math.util.MultidimensionalCounterTest::testGetCountsBoundaryIndices
+  - org.apache.commons.math.util.MultidimensionalCounterTest::testGetCountsWithZeroDimension
+  - org.apache.commons.math.util.MultidimensionalCounterTest::testGetCountsRoundTripMany
+  - org.apache.commons.math.util.MultidimensionalCounterTest::testGetCountsRoundTrip
+  - org.apache.commons.math.util.MultidimensionalCounterTest::testGetCountsBasic
+[exit 0]

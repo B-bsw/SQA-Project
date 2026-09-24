@@ -1,0 +1,12 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Chart_22-ltfdlrmo/Chart-22b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 6
+  - org.jfree.data.KeyedObjects2DTest::testRemoveColumnByKey
+  - org.jfree.data.KeyedObjects2DTest::testGetObjectByIndex
+  - org.jfree.data.KeyedObjects2DTest::testRemoveRowByIndex
+  - org.jfree.data.KeyedObjects2DTest::testRemoveColumnByIndex
+  - org.jfree.data.KeyedObjects2DTest::testHashCode
+  - org.jfree.data.KeyedObjects2DTest::testRemoveRowByKey
+[exit 0]

@@ -1,0 +1,12 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Jsoup_74-5fao_pwh/Jsoup-74b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 6
+  - org.jsoup.helper.StringUtilTest::testJoin_NullSeparator_ThrowsNullPointerException
+  - org.jsoup.helper.StringUtilTest::testStringBuilder_ReturnsNonEmptyReusableBuilder
+  - org.jsoup.helper.StringUtilTest::testNormaliseWhitespace_MixedWhitespace_CollapsedAndConverted
+  - org.jsoup.helper.StringUtilTest::testStringBuilder_SizeLimitExceeded_DoesNotReuseInstance
+  - org.jsoup.helper.StringUtilTest::testIsBlank_UnicodeWhitespace_ReturnsTrue
+  - org.jsoup.helper.StringUtilTest::testResolve_BaseWithoutPath_AndRelStartsWithDot_Workaround
+[exit 0]

@@ -1,0 +1,14 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Math_1-6t31et_q/Math-1b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 8
+  - org.apache.commons.math3.fraction.BigFractionTest::testConstructorIntInt
+  - org.apache.commons.math3.fraction.BigFractionTest::testBigDecimalValueRoundingMode
+  - org.apache.commons.math3.fraction.BigFractionTest::testConstructorDoubleValues
+  - org.apache.commons.math3.fraction.FractionTest::testMultiplyInt
+  - org.apache.commons.math3.fraction.FractionTest::testGetReducedFractionMinValueDenominator
+  - org.apache.commons.math3.fraction.FractionTest::testAbsMinValue
+  - org.apache.commons.math3.fraction.FractionTest::testGetReducedFractionMinValue
+  - org.apache.commons.math3.fraction.FractionTest::testNegateMinValue
+[exit 0]

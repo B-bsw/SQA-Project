@@ -1,0 +1,12 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Codec_10-d8ifubru/Codec-10b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 6
+  - org.apache.commons.codec.language.CaverphoneTest::testWhitespaceInput
+  - org.apache.commons.codec.language.CaverphoneTest::testVowelHandling
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeObject
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecialPrefixes
+  - org.apache.commons.codec.language.CaverphoneTest::testReplacements
+  - org.apache.commons.codec.language.CaverphoneTest::testBasicEncoding
+[exit 0]

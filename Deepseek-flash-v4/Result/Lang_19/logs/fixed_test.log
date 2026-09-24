@@ -1,0 +1,10 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Lang_19-vmgslsv3/Lang-19b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testIncompleteHexPrefix
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testEntityWithMultipleDigits
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testEmptyString
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSurrogatePairAtBoundary
+[exit 0]

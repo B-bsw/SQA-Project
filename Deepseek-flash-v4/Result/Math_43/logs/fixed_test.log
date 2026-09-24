@@ -1,0 +1,9 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Math_43-xgyjsn31/Math-43b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testGetSummary
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testClear
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testEmptyStatistics
+[exit 0]

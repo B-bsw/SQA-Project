@@ -1,0 +1,19 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j checkout -p Cli -v 2b -w /tmp/deepseek-Cli_2-df89n1w7/buggy
+Checking out 2ff9573f to /tmp/deepseek-Cli_2-df89n1w7/buggy................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 2ff9573f:b0e1b80b..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Cli-2b.......................................... OK
+[exit 0]
+$ /home/face/defect4j/defects4j/framework/bin/defects4j compile -w /tmp/deepseek-Cli_2-df89n1w7/buggy
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+[exit 0]

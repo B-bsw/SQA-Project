@@ -1,0 +1,13 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Jsoup_11-7pmtz556/Jsoup-11b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 7
+  - org.jsoup.select.SelectorTest::testSelectEmptyQuery
+  - org.jsoup.select.SelectorTest::testSelectGroup
+  - org.jsoup.select.SelectorTest::testInvalidSelector
+  - org.jsoup.select.SelectorTest::testEmptySubQuery
+  - org.jsoup.select.SelectorTest::testEmptyContainsText
+  - org.jsoup.select.SelectorTest::testPseudoContains
+  - org.jsoup.select.SelectorTest::testSelectDescendantCombinator
+[exit 0]

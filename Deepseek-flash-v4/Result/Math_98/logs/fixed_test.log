@@ -1,0 +1,9 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Math_98-rnw5yki3/Math-98b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math.linear.BigMatrixImplTest::testGetSubMatrixRange
+  - org.apache.commons.math.linear.BigMatrixImplTest::testConstructorCopiesInput
+  - org.apache.commons.math.linear.RealMatrixImplTest::testConstructorFromArrayCopy
+[exit 0]

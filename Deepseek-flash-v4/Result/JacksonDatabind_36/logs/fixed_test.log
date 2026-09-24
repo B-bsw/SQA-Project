@@ -1,0 +1,24 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-JacksonDatabind_36-bvu529yv/JacksonDatabind-36b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 18
+  - com.fasterxml.jackson.databind.util.StdDateFormatTest::testParseNumericLessThanLongMin
+  - com.fasterxml.jackson.databind.util.StdDateFormatTest::testParsePlainDate
+  - com.fasterxml.jackson.databind.util.StdDateFormatTest::testParseNumericGreaterThanLongMax
+  - com.fasterxml.jackson.databind.util.StdDateFormatTest::testParseTimezoneWithHourOnly
+  - com.fasterxml.jackson.databind.util.StdDateFormatTest::testParseWithVeryShortString
+  - com.fasterxml.jackson.databind.util.StdDateFormatTest::testParseRFC1123
+  - com.fasterxml.jackson.databind.util.StdDateFormatTest::testParseTimezoneNoColon
+  - com.fasterxml.jackson.databind.util.StdDateFormatTest::testParseISO8601SecondsOptional
+  - com.fasterxml.jackson.databind.util.StdDateFormatTest::testParseEmptyString
+  - com.fasterxml.jackson.databind.util.StdDateFormatTest::testParseTimezoneOnlyWithColon
+  - com.fasterxml.jackson.databind.util.StdDateFormatTest::testParseISO8601WithOffset
+  - com.fasterxml.jackson.databind.util.StdDateFormatTest::testParseISO8601WithColonOffset
+  - com.fasterxml.jackson.databind.util.StdDateFormatTest::testParseISO8601WithZulu
+  - com.fasterxml.jackson.databind.util.StdDateFormatTest::testParseISO8601WithLeadingDigitsMisplaced
+  - com.fasterxml.jackson.databind.util.StdDateFormatTest::testParseNullInput
+  - com.fasterxml.jackson.databind.util.StdDateFormatTest::testParseISO8601StartsWithZulu
+  - com.fasterxml.jackson.databind.util.StdDateFormatTest::testParseISO8601HoursOnly
+  - com.fasterxml.jackson.databind.util.StdDateFormatTest::testWithSameLocaleReturnsNewInstance
+[exit 0]

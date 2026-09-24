@@ -1,0 +1,2 @@
+project,bug_id,tests,buggy_result,buggy_fails,fixed_result,fixed_fails,verdict,lines,covered_lines,line_cov,branches,covered_branches,branch_cov
+Codec,15,14,FAIL,3,NOT_RUN,,NOT_AVAILABLE,,,,,,

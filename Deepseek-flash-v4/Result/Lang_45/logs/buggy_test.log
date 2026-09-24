@@ -1,0 +1,13 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Lang_45-5z2om3lj/Lang-45b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 7
+  - org.apache.commons.lang.WordUtilsTest::testAbbreviateNoSpaceInRange
+  - org.apache.commons.lang.WordUtilsTest::testAbbreviateUpperLessThanLower
+  - org.apache.commons.lang.WordUtilsTest::testInitialsWithMultipleSpaces
+  - org.apache.commons.lang.WordUtilsTest::testUncapitalizeWithDelimiters
+  - org.apache.commons.lang.WordUtilsTest::testCapitalizeWithDelimiterAtStart
+  - org.apache.commons.lang.WordUtilsTest::testAbbreviateUpperGreaterThanLength
+  - org.apache.commons.lang.WordUtilsTest::testWrapLongStringWithSpaceAtStart
+[exit 0]

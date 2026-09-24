@@ -1,0 +1,21 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j checkout -p JacksonCore -v 26f -w /tmp/deepseek-JacksonCore_26-se4h9l57/fixed
+Checking out d83ce8ae to /tmp/deepseek-JacksonCore_26-se4h9l57/fixed....... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Backing up build file: /tmp/deepseek-JacksonCore_26-se4h9l57/fixed/maven-bu OK
+Backing up build file: /tmp/deepseek-JacksonCore_26-se4h9l57/fixed/pom.xml. OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff d83ce8ae:eb477b85..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: JacksonCore-26f................................. OK
+[exit 0]
+$ /home/face/defect4j/defects4j/framework/bin/defects4j compile -w /tmp/deepseek-JacksonCore_26-se4h9l57/fixed
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+[exit 0]

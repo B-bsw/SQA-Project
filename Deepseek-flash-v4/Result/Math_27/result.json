@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "generator": "DeepSeek-V4-Flash",
+  "created_at": "2026-09-24T15:49:34.555661+00:00",
+  "project": "Math",
+  "bug_id": 27,
+  "source": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Math_27_buggy",
+  "coverage_scope": "modified classes of buggy revision",
+  "tests": 47,
+  "test_files": 1,
+  "buggy": {
+    "result": "FAIL",
+    "fails": 47,
+    "compile": "PASS",
+    "test_compile": "PASS",
+    "coverage_status": "PASS",
+    "lines": 183,
+    "covered_lines": 28,
+    "line_cov": 15.3,
+    "branches": 94,
+    "covered_branches": 8,
+    "branch_cov": 8.51
+  },
+  "fixed": {
+    "result": "FAIL",
+    "fails": 47,
+    "compile": "PASS",
+    "test_compile": "PASS"
+  },
+  "verdict": "INCONCLUSIVE"
+}

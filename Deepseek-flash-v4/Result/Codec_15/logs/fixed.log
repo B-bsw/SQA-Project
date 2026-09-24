@@ -1,0 +1,15 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j checkout -p Codec -v 15f -w /tmp/deepseek-Codec_15-qctyn8yz/fixed
+Checking out 28b7b958 to /tmp/deepseek-Codec_15-qctyn8yz/fixed............. OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 28b7b958:8fc19352..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-15f....................................... OK
+[exit 0]
+$ /home/face/defect4j/defects4j/framework/bin/defects4j compile -w /tmp/deepseek-Codec_15-qctyn8yz/fixed
+Running ant (compile)...................................................... [exit -2]

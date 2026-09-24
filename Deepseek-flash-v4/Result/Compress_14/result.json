@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "generator": "DeepSeek-V4-Flash",
+  "created_at": "2026-09-24T14:12:53.026343+00:00",
+  "project": "Compress",
+  "bug_id": 14,
+  "source": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Compress_14_buggy",
+  "coverage_scope": "modified classes of buggy revision",
+  "tests": 27,
+  "test_files": 1,
+  "buggy": {
+    "result": "FAIL",
+    "fails": 7,
+    "compile": "PASS",
+    "test_compile": "PASS",
+    "coverage_status": "PASS",
+    "lines": 101,
+    "covered_lines": 73,
+    "line_cov": 72.28,
+    "branches": 66,
+    "covered_branches": 47,
+    "branch_cov": 71.21
+  },
+  "fixed": {
+    "result": "FAIL",
+    "fails": 6,
+    "compile": "PASS",
+    "test_compile": "PASS"
+  },
+  "verdict": "INCONCLUSIVE"
+}

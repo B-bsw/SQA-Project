@@ -1,0 +1,9 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Jsoup_16-s99zdcq7/Jsoup-16b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.nodes.DocumentTypeTest::testOuterHtmlHeadWithBothIds
+  - org.jsoup.nodes.DocumentTypeTest::testOuterHtmlHeadWithAllEmptyAttributes
+  - org.jsoup.nodes.DocumentTypeTest::testConstructorWithNullValues
+[exit 0]

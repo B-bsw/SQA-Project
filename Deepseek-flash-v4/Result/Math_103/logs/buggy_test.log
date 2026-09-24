@@ -1,0 +1,11 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Math_103-cylc0vga/Math-103b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 5
+  - org.apache.commons.math.distribution.NormalDistributionImplTest::testCumulativeProbabilityLessThan20StdDev
+  - org.apache.commons.math.distribution.NormalDistributionImplTest::testCumulativeProbabilityNegativeInfinity
+  - org.apache.commons.math.distribution.NormalDistributionImplTest::testCumulativeProbabilityPositiveInfinity
+  - org.apache.commons.math.distribution.NormalDistributionImplTest::testCumulativeProbabilityMoreThan20StdDev
+  - org.apache.commons.math.distribution.NormalDistributionImplTest::testCumulativeProbabilityTailLeft
+[exit 0]

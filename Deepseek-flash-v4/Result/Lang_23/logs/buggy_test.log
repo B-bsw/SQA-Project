@@ -1,0 +1,11 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Lang_23-wo9x1wxu/Lang-23b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 5
+  - org.apache.commons.lang3.text.ExtendedMessageFormatTest::testConstructorWithRegistry
+  - org.apache.commons.lang3.text.ExtendedMessageFormatTest::testConstructorWithRegistryAndLocale
+  - org.apache.commons.lang3.text.ExtendedMessageFormatTest::testReadArgumentIndexWithWhitespace
+  - org.apache.commons.lang3.text.ExtendedMessageFormatTest::testRegistryWithCustomFormat
+  - org.apache.commons.lang3.text.ExtendedMessageFormatTest::testUnterminatedQuoteThrowsException
+[exit 0]

@@ -1,0 +1,21 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j checkout -p Compress -v 28f -w /tmp/deepseek-Compress_28-eu02dum_/fixed
+Checking out ddb5fd6d to /tmp/deepseek-Compress_28-eu02dum_/fixed.......... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Backing up build file: /tmp/deepseek-Compress_28-eu02dum_/fixed/maven-build OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff ddb5fd6d:1ea7e01e..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Compress-28f.................................... OK
+[exit 0]
+$ /home/face/defect4j/defects4j/framework/bin/defects4j compile -w /tmp/deepseek-Compress_28-eu02dum_/fixed
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+[exit 0]

@@ -1,0 +1,14 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Mockito_37-nnnl1mop/Mockito-37b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 8
+  - org.mockito.internal.stubbing.answers.AnswersValidatorTest::testValidate_withMixedValidations_shouldNotCrash
+  - org.mockito.internal.stubbing.answers.AnswersValidatorTest::testValidate_withReturnsWrongType_shouldNotCrash
+  - org.mockito.internal.stubbing.answers.AnswersValidatorTest::testValidate_withThrowsExceptionCheckedExceptionNotValid_shouldReport
+  - org.mockito.internal.stubbing.answers.AnswersValidatorTest::testValidate_withNullInvocation_shouldNotCrash
+  - org.mockito.internal.stubbing.answers.AnswersValidatorTest::testValidate_withDoesNothingOnNonVoid_shouldNotCrash
+  - org.mockito.internal.stubbing.answers.AnswersValidatorTest::testValidate_withThrowsExceptionNull_shouldReportNullThrowable
+  - org.mockito.internal.stubbing.answers.AnswersValidatorTest::testValidate_withReturnsNullOnPrimitive_shouldNotCrash
+  - org.mockito.internal.stubbing.answers.AnswersValidatorTest::testValidate_withReturnsOnVoidMethod_shouldNotCrash
+[exit 0]

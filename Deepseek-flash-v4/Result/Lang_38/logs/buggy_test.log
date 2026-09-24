@@ -1,0 +1,7 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Lang_38-i146swf9/Lang-38b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.time.FastDateFormatTest::testFormatWithTimeZoneForced
+[exit 0]

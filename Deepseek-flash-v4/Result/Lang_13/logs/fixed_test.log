@@ -1,0 +1,12 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Lang_13-ngl20tbq/Lang-13b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 6
+  - org.apache.commons.lang3.SerializationUtilsTest::testDeserializeThrowsSerializationExceptionForNonSerializable
+  - org.apache.commons.lang3.SerializationUtilsTest::testSerializeNonSerializableObject
+  - org.apache.commons.lang3.SerializationUtilsTest::testSerializeWithValidOutputStream
+  - org.apache.commons.lang3.SerializationUtilsTest::testSerializeSimpleObject
+  - org.apache.commons.lang3.SerializationUtilsTest::testCloneAnonymousSerializable
+  - org.apache.commons.lang3.SerializationUtilsTest::testSerializeNullObject
+[exit 0]

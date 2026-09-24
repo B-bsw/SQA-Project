@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "generator": "DeepSeek-V4-Flash",
+  "created_at": "2026-09-24T15:30:58.017995+00:00",
+  "project": "Lang",
+  "bug_id": 49,
+  "source": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Lang_49_buggy",
+  "coverage_scope": "modified classes of buggy revision",
+  "tests": 56,
+  "test_files": 1,
+  "buggy": {
+    "result": "FAIL",
+    "fails": 4,
+    "compile": "PASS",
+    "test_compile": "PASS",
+    "coverage_status": "PASS",
+    "lines": 276,
+    "covered_lines": 258,
+    "line_cov": 93.48,
+    "branches": 184,
+    "covered_branches": 148,
+    "branch_cov": 80.43
+  },
+  "fixed": {
+    "result": "FAIL",
+    "fails": 4,
+    "compile": "PASS",
+    "test_compile": "PASS"
+  },
+  "verdict": "INCONCLUSIVE"
+}

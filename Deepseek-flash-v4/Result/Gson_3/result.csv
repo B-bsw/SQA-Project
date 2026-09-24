@@ -1,0 +1,2 @@
+project,bug_id,tests,buggy_result,buggy_fails,fixed_result,fixed_fails,verdict,lines,covered_lines,line_cov,branches,covered_branches,branch_cov
+Gson,3,14,FAIL,5,FAIL,5,INCONCLUSIVE,86,61,70.93,32,21,65.62

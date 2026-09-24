@@ -1,0 +1,13 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Jsoup_18-pfsdrndo/Jsoup-18b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 7
+  - org.jsoup.parser.CharacterReaderTest::testConsumeAsStringAtEnd
+  - org.jsoup.parser.CharacterReaderTest::testConsumeToMiddleMatch
+  - org.jsoup.parser.CharacterReaderTest::testConsumeToEndOnEmptyString
+  - org.jsoup.parser.CharacterReaderTest::testConsumeToEndWithContent
+  - org.jsoup.parser.CharacterReaderTest::testConsumeToAnyEmptySeq
+  - org.jsoup.parser.CharacterReaderTest::testConsumeAsStringSingleChar
+  - org.jsoup.parser.CharacterReaderTest::testUnconsumeAtStart
+[exit 0]

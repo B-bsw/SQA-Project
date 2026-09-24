@@ -1,0 +1,8 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Lang_51-jb7pojvl/Lang-51b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.lang.BooleanUtilsTest::testIsNotFalse
+  - org.apache.commons.lang.BooleanUtilsTest::testIsFalse
+[exit 0]

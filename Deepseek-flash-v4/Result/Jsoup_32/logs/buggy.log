@@ -1,0 +1,20 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j checkout -p Jsoup -v 32b -w /tmp/deepseek-Jsoup_32-couz6lyz/buggy
+Checking out 0e37cba8 to /tmp/deepseek-Jsoup_32-couz6lyz/buggy............. OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Backing up build file: /tmp/deepseek-Jsoup_32-couz6lyz/buggy/maven-build.xm OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 0e37cba8:fa87a8fe..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Jsoup-32b....................................... OK
+[exit 0]
+$ /home/face/defect4j/defects4j/framework/bin/defects4j compile -w /tmp/deepseek-Jsoup_32-couz6lyz/buggy
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+[exit 0]

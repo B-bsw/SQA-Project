@@ -1,0 +1,10 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Math_10-bxecyfth/Math-10b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.math3.analysis.differentiation.DSCompilerTest::testGetCompilerNegativeOrder
+  - org.apache.commons.math3.analysis.differentiation.DSCompilerTest::testGetCompilerNegativeParameters
+  - org.apache.commons.math3.analysis.differentiation.DSCompilerTest::testTaylorBasic
+  - org.apache.commons.math3.analysis.differentiation.DSCompilerTest::testGetPartialDerivativeIndexTooHighOrder
+[exit 0]

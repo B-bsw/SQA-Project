@@ -1,0 +1,8 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Gson_5-aspos4yv/Gson-5b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 2
+  - com.google.gson.internal.bind.util.ISO8601UtilsTest::testParseDateOnly
+  - com.google.gson.internal.bind.util.ISO8601UtilsTest::testParseNullInput
+[exit 0]

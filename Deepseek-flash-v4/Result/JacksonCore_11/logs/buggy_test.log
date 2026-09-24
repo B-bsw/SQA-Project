@@ -1,0 +1,15 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-JacksonCore_11-6etvxfny/JacksonCore-11b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 9
+  - com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizerTest::testCalcOffsetInvalid
+  - com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizerTest::testFindNameAfterRelease
+  - com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizerTest::testHashSharedInitially
+  - com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizerTest::testReleaseMergesChild
+  - com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizerTest::testCreateRoot
+  - com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizerTest::testAddNameOverwrite
+  - com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizerTest::testVerifyLongName
+  - com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizerTest::testAddNameWithIntern
+  - com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizerTest::testReleaseMultipleChildren
+[exit 0]

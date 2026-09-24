@@ -1,0 +1,26 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j checkout -p Mockito -v 37b -w /tmp/deepseek-Mockito_37-nnnl1mop/buggy
+Checking out c0222c2d to /tmp/deepseek-Mockito_37-nnnl1mop/buggy........... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Apply patch................................................................ OK
+sed: -e expression #1, char 84: unterminated `s' command
+sed: can't read /tmp/deepseek-Mockito_37-nnnl1mop/buggy/gradle/wrapper/gradle-wrapper.properties: No such file or directory
+sed: can't read /tmp/deepseek-Mockito_37-nnnl1mop/buggy/gradle/wrapper/gradle-wrapper.properties: No such file or directory
+sed: can't read /tmp/deepseek-Mockito_37-nnnl1mop/buggy/buildSrc/build.gradle: No such file or directory
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Backing up build file: /tmp/deepseek-Mockito_37-nnnl1mop/buggy/build.xml... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff c0222c2d:3b603ebf..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Mockito-37b..................................... OK
+[exit 0]
+$ /home/face/defect4j/defects4j/framework/bin/defects4j compile -w /tmp/deepseek-Mockito_37-nnnl1mop/buggy
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+[exit 0]

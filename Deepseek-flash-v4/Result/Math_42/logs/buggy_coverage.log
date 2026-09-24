@@ -1,0 +1,14 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j coverage -s /tmp/deepseek-Math_42-1p10sqng/Math-42b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (coverage.instrument).......................................... OK
+Running ant (run.gen.tests)................................................ OK
+Running ant (coverage.report).............................................. OK
+WARNING: Some tests failed (see /tmp/deepseek-Math_42-1p10sqng/buggy/failing_tests)!
+       Lines total: 182
+     Lines covered: 130
+  Conditions total: 120
+Conditions covered: 68
+     Line coverage: 71.4%
+Condition coverage: 56.7%
+[exit 0]

@@ -1,0 +1,11 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Gson_3-ancib0f0/Gson-3b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 5
+  - com.google.gson.internal.ConstructorConstructorTest::testGet_withInstanceCreatorForRawType
+  - com.google.gson.internal.ConstructorConstructorTest::testGet_enumSetWithNonClassType
+  - com.google.gson.internal.ConstructorConstructorTest::testGet_enumSetWithNonParameterizedType
+  - com.google.gson.internal.ConstructorConstructorTest::testGet_defaultConstructorWithPrivateConstructor
+  - com.google.gson.internal.ConstructorConstructorTest::testGet_enumSet
+[exit 0]

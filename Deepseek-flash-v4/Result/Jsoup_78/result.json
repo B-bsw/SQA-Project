@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "generator": "DeepSeek-V4-Flash",
+  "created_at": "2026-09-24T15:12:29.465519+00:00",
+  "project": "Jsoup",
+  "bug_id": 78,
+  "source": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Jsoup_78_buggy",
+  "coverage_scope": "modified classes of buggy revision",
+  "tests": 24,
+  "test_files": 1,
+  "buggy": {
+    "result": "FAIL",
+    "fails": 3,
+    "compile": "PASS",
+    "test_compile": "PASS",
+    "coverage_status": "PASS",
+    "lines": 109,
+    "covered_lines": 82,
+    "line_cov": 75.23,
+    "branches": 88,
+    "covered_branches": 38,
+    "branch_cov": 43.18
+  },
+  "fixed": {
+    "result": "FAIL",
+    "fails": 3,
+    "compile": "PASS",
+    "test_compile": "PASS"
+  },
+  "verdict": "INCONCLUSIVE"
+}

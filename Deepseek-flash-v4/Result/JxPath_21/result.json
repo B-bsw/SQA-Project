@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "generator": "DeepSeek-V4-Flash",
+  "created_at": "2026-09-24T15:17:11.495484+00:00",
+  "project": "JxPath",
+  "bug_id": 21,
+  "source": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JxPath_21_buggy",
+  "coverage_scope": "modified classes of buggy revision",
+  "tests": 26,
+  "test_files": 1,
+  "buggy": {
+    "result": "NOT_RUN",
+    "fails": null,
+    "compile": "PASS",
+    "test_compile": "FAIL"
+  },
+  "fixed": {
+    "result": "NOT_RUN",
+    "fails": null,
+    "compile": "PASS",
+    "test_compile": "FAIL"
+  },
+  "verdict": "NOT_AVAILABLE"
+}

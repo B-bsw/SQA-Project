@@ -1,0 +1,35 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Closure_78-xifaijdj/Closure-78b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ FAIL
+Executed command:  cd /tmp/deepseek-Closure_78-xifaijdj/buggy && ant -f /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/face/defect4j/defects4j -Dd4j.dir.projects=/home/face/defect4j/defects4j/framework/projects -Dbasedir=/tmp/deepseek-Closure_78-xifaijdj/buggy -Dd4j.test.dir=/tmp/deepseek-Closure_78-xifaijdj/buggy/.test_suite compile.gen.tests 2>&1
+Buildfile: /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml
+
+svnversion:
+
+compile:
+    [javac] /tmp/deepseek-Closure_78-xifaijdj/buggy/build.xml:184: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] /tmp/deepseek-Closure_78-xifaijdj/buggy/build.xml:190: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+[propertyfile] Updating property file: /tmp/deepseek-Closure_78-xifaijdj/buggy/build/classes/com/google/javascript/jscomp/parsing/ParserConfig.properties
+
+compile.gen.tests:
+     [echo] classes.dir: /tmp/deepseek-Closure_78-xifaijdj/buggy/build/classes
+     [echo] build.home: /tmp/deepseek-Closure_78-xifaijdj/buggy/build
+    [mkdir] Created dir: /tmp/deepseek-Closure_78-xifaijdj/buggy/.classes_testgen
+    [javac] /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml:268: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/deepseek-Closure_78-xifaijdj/buggy/.classes_testgen
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /tmp/deepseek-Closure_78-xifaijdj/buggy/.test_suite/com/google/javascript/jscomp/PeepholeFoldConstantsTest.java:45: error: cannot find symbol
+    [javac]         Node getElem = Node.newGetElem(arrayLit, Node.newNumber(1));
+    [javac]                            ^
+    [javac]   symbol:   method newGetElem(Node,Node)
+    [javac]   location: class Node
+    [javac] 1 error
+    [javac] 1 warning
+
+BUILD FAILED
+/home/face/defect4j/defects4j/framework/projects/defects4j.build.xml:268: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Cannot compile extracted test suite! at /home/face/defect4j/defects4j/framework/bin/d4j/d4j-test line 126.
+Compilation failed in require at /home/face/defect4j/defects4j/framework/bin/defects4j line 195.
+[exit 1]

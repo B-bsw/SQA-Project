@@ -1,0 +1,20 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j checkout -p Compress -v 18f -w /tmp/deepseek-Compress_18-drrz26im/fixed
+Checking out 09b8f6d7 to /tmp/deepseek-Compress_18-drrz26im/fixed.......... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Backing up build file: /tmp/deepseek-Compress_18-drrz26im/fixed/maven-build OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 09b8f6d7:716666a2..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Compress-18f.................................... OK
+[exit 0]
+$ /home/face/defect4j/defects4j/framework/bin/defects4j compile -w /tmp/deepseek-Compress_18-drrz26im/fixed
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+[exit 0]

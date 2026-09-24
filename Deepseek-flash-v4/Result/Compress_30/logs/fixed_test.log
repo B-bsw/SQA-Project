@@ -1,0 +1,15 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Compress_30-whdue0xl/Compress-30b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 9
+  - org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStreamTest::testReadZeroLength
+  - org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStreamTest::testReadNegativeLength
+  - org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStreamTest::testReadNegativeOffset
+  - org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStreamTest::testStreamClosedRead
+  - org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStreamTest::testReadInvalidOffsetLength
+  - org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStreamTest::testReadClosedStream
+  - org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStreamTest::testReadEmptyBuffer
+  - org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStreamTest::testCloseTwice
+  - org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStreamTest::testGetCountInitiallyZero
+[exit 0]

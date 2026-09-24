@@ -1,0 +1,11 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Compress_32-81re4_uj/Compress-32b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 5
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testGetNextEntryWithMalformedHeader
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testGetNextTarEntryWithInvalidLongLink
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testMatches
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testGetNextEntryWithGnuLongLink
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testGetNextEntryCompleteHeaderAndData
+[exit 0]

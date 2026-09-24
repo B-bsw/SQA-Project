@@ -1,0 +1,13 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Math_106-7yuvbxv0/Math-106b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 7
+  - org.apache.commons.math.fraction.ProperFractionFormatTest::testFormatWithFieldPosition
+  - org.apache.commons.math.fraction.ProperFractionFormatTest::testFormatNullFraction
+  - org.apache.commons.math.fraction.ProperFractionFormatTest::testParseEmptyString
+  - org.apache.commons.math.fraction.ProperFractionFormatTest::testParseInvalidInput
+  - org.apache.commons.math.fraction.ProperFractionFormatTest::testParseFractionMethod
+  - org.apache.commons.math.fraction.ProperFractionFormatTest::testParseInvalidFractionThrows
+  - org.apache.commons.math.fraction.ProperFractionFormatTest::testConstructor
+[exit 0]

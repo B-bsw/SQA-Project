@@ -1,0 +1,30 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Closure_50-mi95ar0_/Closure-50b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 24
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldArrayJoinWithNumbers
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldArrayJoinWithStrings
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldStringSubstr
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldParseNumberWithRadix
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldParseFloat
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldStringIndexOf
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldParseFloatWithNonStringFirstArg
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldStringIndexOfNotFound
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldStringToLowerCase
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldArrayJoinWithSeparator
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldStringLastIndexOf
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldStringToUpperCase
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldArrayJoinWithSingleEmptyString
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldArrayJoinWithNoArgs
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldArrayJoinWithEmptyArray
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testParseFloatWithInvalidString
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldStringToLowerCaseWithLocale
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldStringSubstringWithBothArgs
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldStringSubstring
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testParseIntWithInvalidString
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldStringCharCodeAtValidIndex
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldStringCharAtValidIndex
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldArrayJoinWithNullElement
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testTryFoldArrayJoinWithMixedTypes
+[exit 0]

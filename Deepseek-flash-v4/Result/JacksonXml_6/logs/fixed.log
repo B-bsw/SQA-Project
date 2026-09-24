@@ -1,0 +1,20 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j checkout -p JacksonXml -v 6f -w /tmp/deepseek-JacksonXml_6-aq9oplyg/fixed
+Checking out 8fd9463d to /tmp/deepseek-JacksonXml_6-aq9oplyg/fixed......... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Backing up build file: /tmp/deepseek-JacksonXml_6-aq9oplyg/fixed/maven-buil OK
+Backing up build file: /tmp/deepseek-JacksonXml_6-aq9oplyg/fixed/pom.xml... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 8fd9463d:17f39695..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: JacksonXml-6f................................... OK
+[exit 0]
+$ /home/face/defect4j/defects4j/framework/bin/defects4j compile -w /tmp/deepseek-JacksonXml_6-aq9oplyg/fixed
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+[exit 0]

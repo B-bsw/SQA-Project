@@ -1,0 +1,19 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Jsoup_58-4_f1xnqw/Jsoup-58b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 13
+  - org.jsoup.JsoupTest::testCleanWithNullWhitelist
+  - org.jsoup.JsoupTest::testParseBodyFragmentWithoutBaseUri
+  - org.jsoup.JsoupTest::testIsValidWithNullWhitelist
+  - org.jsoup.JsoupTest::testParseWithXmlParser
+  - org.jsoup.JsoupTest::testParseWithNullParser
+  - org.jsoup.JsoupTest::testParseInputStreamWithXmlParser
+  - org.jsoup.JsoupTest::testParseWithoutBaseUri
+  - org.jsoup.JsoupTest::testParseInvalidInputStream
+  - org.jsoup.parser.ParserTest::testSetTrackErrorsNegativeAllowsTracking
+  - org.jsoup.parser.ParserTest::testParseInputWithNullBaseUri
+  - org.jsoup.safety.CleanerTest::testCleanWithNullWhitelistInConstructorThrows
+  - org.jsoup.safety.CleanerTest::testIsValidWithNullDocumentThrows
+  - org.jsoup.safety.CleanerTest::testCleanWithNullDocumentThrows
+[exit 0]

@@ -1,0 +1,35 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Compress_13-aeras0ym/Compress-13b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ FAIL
+Executed command:  cd /tmp/deepseek-Compress_13-aeras0ym/buggy && ant -f /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/face/defect4j/defects4j -Dd4j.dir.projects=/home/face/defect4j/defects4j/framework/projects -Dbasedir=/tmp/deepseek-Compress_13-aeras0ym/buggy -Dd4j.test.dir=/tmp/deepseek-Compress_13-aeras0ym/buggy/.test_suite compile.gen.tests 2>&1
+Buildfile: /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+commons-compress-from-maven.compile:
+    [javac] /tmp/deepseek-Compress_13-aeras0ym/buggy/maven-build.xml:80: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+    [mkdir] Created dir: /tmp/deepseek-Compress_13-aeras0ym/buggy/.classes_testgen
+    [javac] /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml:268: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/deepseek-Compress_13-aeras0ym/buggy/.classes_testgen
+    [javac] /tmp/deepseek-Compress_13-aeras0ym/buggy/.test_suite/org/apache/commons/compress/archivers/zip/ZipArchiveEntryTest.java:413: error: cannot find symbol
+    [javac]         assertTrue(entry.hasExtraField(HEADER_ID));
+    [javac]                         ^
+    [javac]   symbol:   method hasExtraField(ZipShort)
+    [javac]   location: variable entry of type ZipArchiveEntry
+    [javac] 1 error
+
+BUILD FAILED
+/home/face/defect4j/defects4j/framework/projects/defects4j.build.xml:268: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+Cannot compile extracted test suite! at /home/face/defect4j/defects4j/framework/bin/d4j/d4j-test line 126.
+Compilation failed in require at /home/face/defect4j/defects4j/framework/bin/defects4j line 195.
+[exit 1]

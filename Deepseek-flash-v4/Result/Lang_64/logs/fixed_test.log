@@ -1,0 +1,14 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Lang_64-89bvv_jq/Lang-64b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 8
+  - org.apache.commons.lang.enums.ValuedEnumTest::testGetEnumByValue
+  - org.apache.commons.lang.enums.ValuedEnumTest::testToString
+  - org.apache.commons.lang.enums.ValuedEnumTest::testCompareTo
+  - org.apache.commons.lang.enums.ValuedEnumTest::testGetEnumByValueNullClass
+  - org.apache.commons.lang.enums.ValuedEnumTest::testToStringMultipleCalls
+  - org.apache.commons.lang.enums.ValuedEnumTest::testCompareToDifferentClass
+  - org.apache.commons.lang.enums.ValuedEnumTest::testGetEnumByValueNotFound
+  - org.apache.commons.lang.enums.ValuedEnumTest::testCompareToNull
+[exit 0]

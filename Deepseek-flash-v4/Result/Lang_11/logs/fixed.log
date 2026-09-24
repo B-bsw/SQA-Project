@@ -1,0 +1,24 @@
+$ defects4j checkout -p Lang -v 11f -w /tmp/deepseek-Lang_11-glojxegt/fixed
+Checking out 4a65cb8d to /tmp/deepseek-Lang_11-glojxegt/fixed.............. OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Apply patch................................................................ OK
+Apply patch................................................................ OK
+Apply patch................................................................ OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Backing up build file: /tmp/deepseek-Lang_11-glojxegt/fixed/default.propert OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 4a65cb8d:27bcbcc7..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Lang-11f........................................ OK
+[exit 0]
+$ defects4j compile -w /tmp/deepseek-Lang_11-glojxegt/fixed
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+[exit 0]

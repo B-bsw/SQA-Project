@@ -1,0 +1,2 @@
+project,bug_id,tests,buggy_result,buggy_fails,fixed_result,fixed_fails,verdict,lines,covered_lines,line_cov,branches,covered_branches,branch_cov
+Closure,131,13,FAIL,1,PASS,0,REVEALING,113,112,99.12,165,138,83.64

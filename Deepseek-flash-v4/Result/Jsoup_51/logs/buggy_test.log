@@ -1,0 +1,15 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Jsoup_51-gfbkjhpp/Jsoup-51b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 9
+  - org.jsoup.parser.CharacterReaderTest::testContainsIgnoreCase
+  - org.jsoup.parser.CharacterReaderTest::testRangeEqualsWrongLength
+  - org.jsoup.parser.CharacterReaderTest::testToString
+  - org.jsoup.parser.CharacterReaderTest::testNextIndexOfSequenceNotFound
+  - org.jsoup.parser.CharacterReaderTest::testMatchesAnySorted
+  - org.jsoup.parser.CharacterReaderTest::testNextIndexOfCharFound
+  - org.jsoup.parser.CharacterReaderTest::testConsumeToAnyImmediate
+  - org.jsoup.parser.CharacterReaderTest::testCacheStringShort
+  - org.jsoup.parser.CharacterReaderTest::testNullInput
+[exit 0]

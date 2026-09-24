@@ -1,0 +1,9 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Codec_5-m8ir9lrg/Codec-5b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.codec.binary.Base64Test::testEncodeIntegerWithNull
+  - org.apache.commons.codec.binary.Base64Test::testDecodeWithInvalidData
+  - org.apache.commons.codec.binary.Base64Test::testEncodeBase64String
+[exit 0]

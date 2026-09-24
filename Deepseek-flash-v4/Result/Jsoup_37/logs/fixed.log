@@ -1,0 +1,20 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j checkout -p Jsoup -v 37f -w /tmp/deepseek-Jsoup_37-3vrmhqds/fixed
+Checking out c07ba8a3 to /tmp/deepseek-Jsoup_37-3vrmhqds/fixed............. OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Backing up build file: /tmp/deepseek-Jsoup_37-3vrmhqds/fixed/maven-build.xm OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff c07ba8a3:be64f746..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Jsoup-37f....................................... OK
+[exit 0]
+$ /home/face/defect4j/defects4j/framework/bin/defects4j compile -w /tmp/deepseek-Jsoup_37-3vrmhqds/fixed
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+[exit 0]

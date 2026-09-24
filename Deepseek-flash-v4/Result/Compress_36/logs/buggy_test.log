@@ -1,0 +1,28 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Compress_36-022bp8_4/Compress-36b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 22
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testConstructorWithFileOnly
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testReadByteBufferWithNullOffset
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testReadWithSingleByteBuffer
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testGetEntriesWithFiles
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testEmptyFileEntry
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testCloseMethod
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testConstructorWithFileAndNullPassword
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testReadByteArrayWithInvalidOffsets
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testGetNextEntryWithMultipleFiles
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testCloseWithNullPassword
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testConstructorWithFileAndPassword
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testGetNextEntryWithEmptyArchive
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testGetNextEntryWithNullArchive
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testReadWithNoCurrentEntry
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testReadWithOffsetAndLength
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testReadByteBufferWithNull
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testNullInputToMatches
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testGetEntriesEmpty
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testMatchesMethod
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testReadBeyondContent
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testReadWithMultipleEntriesAndStreams
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::testToStringMethod
+[exit 0]

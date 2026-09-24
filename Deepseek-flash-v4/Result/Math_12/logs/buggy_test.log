@@ -1,0 +1,11 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Math_12-k3_boz9y/Math-12b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 5
+  - org.apache.commons.math3.random.BitsStreamGeneratorTest::testNextBytesEmptyArray
+  - org.apache.commons.math3.random.BitsStreamGeneratorTest::testNextGaussianPair
+  - org.apache.commons.math3.random.BitsStreamGeneratorTest::testNextBytesWithRepeatedAccess
+  - org.apache.commons.math3.random.BitsStreamGeneratorTest::testNextBoolean
+  - org.apache.commons.math3.random.BitsStreamGeneratorTest::testNextLong
+[exit 0]

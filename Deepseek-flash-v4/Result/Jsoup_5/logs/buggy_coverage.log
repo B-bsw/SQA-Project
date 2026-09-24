@@ -1,0 +1,13 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j coverage -s /tmp/deepseek-Jsoup_5-28x9qsct/Jsoup-5b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (coverage.instrument).......................................... OK
+Running ant (run.gen.tests)................................................ OK
+Running ant (coverage.report).............................................. OK
+       Lines total: 172
+     Lines covered: 111
+  Conditions total: 92
+Conditions covered: 45
+     Line coverage: 64.5%
+Condition coverage: 48.9%
+[exit 0]

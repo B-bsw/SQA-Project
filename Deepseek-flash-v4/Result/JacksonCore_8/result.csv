@@ -1,0 +1,2 @@
+project,bug_id,tests,buggy_result,buggy_fails,fixed_result,fixed_fails,verdict,lines,covered_lines,line_cov,branches,covered_branches,branch_cov
+JacksonCore,8,48,FAIL,17,FAIL,17,INCONCLUSIVE,271,164,60.52,138,67,48.55

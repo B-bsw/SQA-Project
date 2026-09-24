@@ -1,0 +1,13 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Jsoup_33-zgzr9_wz/Jsoup-33b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 7
+  - org.jsoup.parser.HtmlTreeBuilderTest::testPopStackToCloseNoMatch
+  - org.jsoup.parser.HtmlTreeBuilderTest::testErrorMethod
+  - org.jsoup.parser.HtmlTreeBuilderTest::testErrorMethodNoCapacity
+  - org.jsoup.parser.HtmlTreeBuilderTest::testParseWithErrors
+  - org.jsoup.parser.HtmlTreeBuilderTest::testParseNullInput
+  - org.jsoup.parser.HtmlTreeBuilderTest::testPopStackToBefore
+  - org.jsoup.parser.HtmlTreeBuilderTest::testPopEmptyStack
+[exit 0]

@@ -1,0 +1,13 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j coverage -s /tmp/deepseek-Time_4-mj_ba4gv/Time-4b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (coverage.instrument).......................................... OK
+Running ant (run.gen.tests)................................................ OK
+Running ant (coverage.report).............................................. OK
+       Lines total: 253
+     Lines covered: 215
+  Conditions total: 106
+Conditions covered: 74
+     Line coverage: 85.0%
+Condition coverage: 69.8%
+[exit 0]

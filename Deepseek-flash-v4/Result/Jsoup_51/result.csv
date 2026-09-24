@@ -1,0 +1,2 @@
+project,bug_id,tests,buggy_result,buggy_fails,fixed_result,fixed_fails,verdict,lines,covered_lines,line_cov,branches,covered_branches,branch_cov
+Jsoup,51,51,FAIL,9,FAIL,9,INCONCLUSIVE,195,188,96.41,186,149,80.11

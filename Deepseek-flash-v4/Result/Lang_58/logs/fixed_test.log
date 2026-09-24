@@ -1,0 +1,8 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Lang_58-356_mvc9/Lang-58b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.lang.math.NumberUtilsTest::testCreateNumber
+  - org.apache.commons.lang.math.NumberUtilsTest::testCreateNumberNull
+[exit 0]

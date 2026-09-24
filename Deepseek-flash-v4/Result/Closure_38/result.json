@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "generator": "DeepSeek-V4-Flash",
+  "created_at": "2026-09-24T13:19:36.954375+00:00",
+  "project": "Closure",
+  "bug_id": 38,
+  "source": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Closure_38_buggy",
+  "coverage_scope": "modified classes of buggy revision",
+  "tests": 28,
+  "test_files": 1,
+  "buggy": {
+    "result": "FAIL",
+    "fails": 1,
+    "compile": "PASS",
+    "test_compile": "PASS",
+    "coverage_status": "PASS",
+    "lines": 112,
+    "covered_lines": 77,
+    "line_cov": 68.75,
+    "branches": 64,
+    "covered_branches": 43,
+    "branch_cov": 67.19
+  },
+  "fixed": {
+    "result": "FAIL",
+    "fails": 1,
+    "compile": "PASS",
+    "test_compile": "PASS"
+  },
+  "verdict": "INCONCLUSIVE"
+}

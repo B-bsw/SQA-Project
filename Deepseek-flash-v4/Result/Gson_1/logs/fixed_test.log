@@ -1,0 +1,15 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Gson_1-hwg2wgwk/Gson-1b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 9
+  - com.google.gson.TypeInfoFactoryTest::testGetTypeInfoForFieldWithMultiGenericNested
+  - com.google.gson.TypeInfoFactoryTest::testGetTypeInfoForFieldWithArrayType
+  - com.google.gson.TypeInfoFactoryTest::testGetTypeInfoForFieldWithTypeVariableInArray
+  - com.google.gson.TypeInfoFactoryTest::testGetTypeInfoForFieldWithParameterizedList
+  - com.google.gson.TypeInfoFactoryTest::testGetTypeInfoForFieldWithGenericArrayType
+  - com.google.gson.TypeInfoFactoryTest::testGetTypeInfoForFieldWithTypeVariableInNestedClass
+  - com.google.gson.TypeInfoFactoryTest::testGetTypeInfoForFieldWithMultiParameterizedType
+  - com.google.gson.TypeInfoFactoryTest::testGetTypeInfoForFieldWithTypeVariable
+  - com.google.gson.TypeInfoFactoryTest::testGetTypeInfoForFieldWithGenericClassNested
+[exit 0]

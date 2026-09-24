@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "generator": "DeepSeek-V4-Flash",
+  "created_at": "2026-09-24T14:31:12.036556+00:00",
+  "project": "JacksonDatabind",
+  "bug_id": 22,
+  "source": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/JacksonDatabind_22_buggy",
+  "coverage_scope": "modified classes of buggy revision",
+  "tests": 54,
+  "test_files": 2,
+  "buggy": {
+    "result": "NOT_RUN",
+    "fails": null,
+    "compile": "PASS",
+    "test_compile": "FAIL"
+  },
+  "fixed": {
+    "result": "NOT_RUN",
+    "fails": null,
+    "compile": "PASS",
+    "test_compile": "FAIL"
+  },
+  "verdict": "NOT_AVAILABLE"
+}

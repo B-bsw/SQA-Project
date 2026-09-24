@@ -1,0 +1,23 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-JacksonCore_8-4svmbj2d/JacksonCore-8b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 17
+  - com.fasterxml.jackson.core.util.TextBufferTest::testFinishCurrentSegment
+  - com.fasterxml.jackson.core.util.TextBufferTest::testSetCurrentLength
+  - com.fasterxml.jackson.core.util.TextBufferTest::testAppendString
+  - com.fasterxml.jackson.core.util.TextBufferTest::testGetCurrentSegmentSize
+  - com.fasterxml.jackson.core.util.TextBufferTest::testContentsAsStringMultipleSegments
+  - com.fasterxml.jackson.core.util.TextBufferTest::testAppendCharArrayPartial
+  - com.fasterxml.jackson.core.util.TextBufferTest::testAppendCharArrayMultipleSegments
+  - com.fasterxml.jackson.core.util.TextBufferTest::testResetWithEmpty
+  - com.fasterxml.jackson.core.util.TextBufferTest::testSizeWithMultipleSegments
+  - com.fasterxml.jackson.core.util.TextBufferTest::testGetTextBufferWithMultipleSegments
+  - com.fasterxml.jackson.core.util.TextBufferTest::testAppendStringSubstring
+  - com.fasterxml.jackson.core.util.TextBufferTest::testSetCurrentAndReturn
+  - com.fasterxml.jackson.core.util.TextBufferTest::testContentsAsArrayMultipleSegments
+  - com.fasterxml.jackson.core.util.TextBufferTest::testAppendChar
+  - com.fasterxml.jackson.core.util.TextBufferTest::testContentsAsDecimalMultipleSegments
+  - com.fasterxml.jackson.core.util.TextBufferTest::testAppendCharArray
+  - com.fasterxml.jackson.core.util.TextBufferTest::testGetCurrentSegment
+[exit 0]

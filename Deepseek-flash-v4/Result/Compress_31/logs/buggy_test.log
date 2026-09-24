@@ -1,0 +1,15 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Compress_31-izux_fc0/Compress-31b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 9
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatOctalBytes
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalOrBinaryNegativeLong
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatUnsignedOctalStringZero
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatLongOctalOrBinaryBytes
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalWithNUL
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testVerifyCheckSum
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatLongOctalOrBinaryBytesOverflow
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatLongOctalBytes
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatUnsignedOctalStringValue
+[exit 0]

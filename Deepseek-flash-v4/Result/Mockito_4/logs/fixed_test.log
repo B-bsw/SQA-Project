@@ -1,0 +1,74 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Mockito_4-rb5f31y2/Mockito-4b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ FAIL
+Executed command:  cd /tmp/deepseek-Mockito_4-rb5f31y2/fixed && ant -f /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/face/defect4j/defects4j -Dd4j.dir.projects=/home/face/defect4j/defects4j/framework/projects -Dbasedir=/tmp/deepseek-Mockito_4-rb5f31y2/fixed -Dd4j.test.dir=/tmp/deepseek-Mockito_4-rb5f31y2/fixed/.test_suite compile.gen.tests 2>&1
+Buildfile: /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml
+
+compile:
+
+gradle.compile:
+     [exec] Parallel execution is an incubating feature.
+     [exec] > Task :buildSrc:compileJava NO-SOURCE
+     [exec] > Task :buildSrc:compileGroovy UP-TO-DATE
+     [exec] > Task :buildSrc:processResources UP-TO-DATE
+     [exec] > Task :buildSrc:classes UP-TO-DATE
+     [exec] > Task :buildSrc:jar UP-TO-DATE
+     [exec] > Task :buildSrc:assemble UP-TO-DATE
+     [exec] > Task :buildSrc:compileTestJava NO-SOURCE
+     [exec] > Task :buildSrc:compileTestGroovy UP-TO-DATE
+     [exec] > Task :buildSrc:processTestResources NO-SOURCE
+     [exec] > Task :buildSrc:testClasses UP-TO-DATE
+     [exec] > Task :buildSrc:test UP-TO-DATE
+     [exec] > Task :buildSrc:check UP-TO-DATE
+     [exec] > Task :buildSrc:build UP-TO-DATE
+     [exec] POM relocation to an other version number is not fully supported in Gradle : xml-apis:xml-apis:2.0.2 relocated to xml-apis:xml-apis:1.0.b2.
+     [exec] 
+     [exec] > Configure project :
+     [exec] Please update your dependency to directly use the correct version 'xml-apis:xml-apis:1.0.b2'.
+     [exec] Resolution will only pick dependencies of the relocated element.  Artifacts and other metadata will be ignored.
+     [exec] Version: 2.0.6-beta
+     [exec] 
+     [exec] > Task :testng:processResources NO-SOURCE
+     [exec] > Task :extTest:compileJava NO-SOURCE
+     [exec] > Task :extTest:processResources NO-SOURCE
+     [exec] > Task :extTest:classes UP-TO-DATE
+     [exec] > Task :compileJava UP-TO-DATE
+     [exec] > Task :processResources NO-SOURCE
+     [exec] > Task :classes UP-TO-DATE
+     [exec] > Task :jar UP-TO-DATE
+     [exec] > Task :testng:compileJava UP-TO-DATE
+     [exec] > Task :testng:classes UP-TO-DATE
+     [exec] 
+     [exec] Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+     [exec] Use '--warning-mode all' to show the individual deprecation warnings.
+     [exec] See https://docs.gradle.org/4.9/userguide/command_line_interface.html#sec:command_line_warnings
+     [exec] 
+     [exec] BUILD SUCCESSFUL in 6s
+     [exec] 3 actionable tasks: 3 up-to-date
+     [exec] No Gradle daemons are running.
+
+ant.compile:
+
+gradle.compile.mutants:
+
+ant.compile.mutants:
+     [exec] POM relocation to an other version number is not fully supported in Gradle : xml-apis:xml-apis:2.0.2 relocated to xml-apis:xml-apis:1.0.b2.
+
+compile.gen.tests:
+     [echo] classes.dir: /tmp/deepseek-Mockito_4-rb5f31y2/fixed/build/classes/java/main
+     [echo] build.home: /tmp/deepseek-Mockito_4-rb5f31y2/fixed/build
+    [mkdir] Created dir: /tmp/deepseek-Mockito_4-rb5f31y2/fixed/.classes_testgen
+    [javac] /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml:268: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/deepseek-Mockito_4-rb5f31y2/fixed/.classes_testgen
+    [javac] /tmp/deepseek-Mockito_4-rb5f31y2/fixed/.test_suite/org/mockito/exceptions/ReporterTest.java:89: error: ')' expected
+    [javac]             assertTrue(e.getMessage().contains("method");
+    [javac]                                                         ^
+    [javac] 1 error
+
+BUILD FAILED
+/home/face/defect4j/defects4j/framework/projects/defects4j.build.xml:268: Compile failed; see the compiler error output for details.
+
+Total time: 15 seconds
+Cannot compile extracted test suite! at /home/face/defect4j/defects4j/framework/bin/d4j/d4j-test line 126.
+Compilation failed in require at /home/face/defect4j/defects4j/framework/bin/defects4j line 195.
+[exit 1]

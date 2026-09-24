@@ -1,0 +1,31 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Math_58-9dntnp_u/Math-58b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ FAIL
+Executed command:  cd /tmp/deepseek-Math_58-9dntnp_u/buggy && ant -f /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/face/defect4j/defects4j -Dd4j.dir.projects=/home/face/defect4j/defects4j/framework/projects -Dbasedir=/tmp/deepseek-Math_58-9dntnp_u/buggy -Dd4j.test.dir=/tmp/deepseek-Math_58-9dntnp_u/buggy/.test_suite compile.gen.tests 2>&1
+Buildfile: /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+    [mkdir] Created dir: /tmp/deepseek-Math_58-9dntnp_u/buggy/.classes_testgen
+    [javac] /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml:268: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/deepseek-Math_58-9dntnp_u/buggy/.classes_testgen
+    [javac] /tmp/deepseek-Math_58-9dntnp_u/buggy/.test_suite/org/apache/commons/math/optimization/fitting/GaussianFitterTest.java:15: error: MockOptimizer is not abstract and does not override abstract method optimize(int,DifferentiableMultivariateVectorialFunction,double[],double[],double[]) in BaseMultivariateVectorialOptimizer
+    [javac]     private static class MockOptimizer implements DifferentiableMultivariateVectorialOptimizer {
+    [javac]                    ^
+    [javac] Note: /tmp/deepseek-Math_58-9dntnp_u/buggy/.test_suite/org/apache/commons/math/optimization/fitting/GaussianFitterTest.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 error
+
+BUILD FAILED
+/home/face/defect4j/defects4j/framework/projects/defects4j.build.xml:268: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+Cannot compile extracted test suite! at /home/face/defect4j/defects4j/framework/bin/d4j/d4j-test line 126.
+Compilation failed in require at /home/face/defect4j/defects4j/framework/bin/defects4j line 195.
+[exit 1]

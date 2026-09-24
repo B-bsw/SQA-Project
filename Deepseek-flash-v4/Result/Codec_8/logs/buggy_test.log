@@ -1,0 +1,13 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Codec_8-9jo1di9n/Codec-8b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 7
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testEncodeSingleByte
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testEncodeReadArray
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testConstructorWithBooleanTrue
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testReadWithDataOverflow
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testLargeDataEncode
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testLineLengthPositive
+  - org.apache.commons.codec.binary.Base64Test::testEncodeIntegerNull
+[exit 0]

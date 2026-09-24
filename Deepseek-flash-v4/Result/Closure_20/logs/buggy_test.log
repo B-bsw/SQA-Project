@@ -1,0 +1,22 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Closure_20-zdfcxpsk/Closure-20b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 16
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testOptimizeSubtreeReturnWithNoChildren
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testOptimizeSubtreeNotNull
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testOptimizeSubtreeNewString
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testOptimizeSubtreeThrow
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testOptimizeSubtreeNewValidRegexp
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testOptimizeSubtreeCallWithString
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testTryFoldSimpleFunctionCallWithNullTarget
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testOptimizeSubtreeNewInvalidRegexp
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testOptimizeSubtreeIfWithBothBranches
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testOptimizeSubtreeReturnWithValue
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testTryJoinForConditionWithLateFalse
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testOptimizeSubtreeCommaOperator
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testTryJoinForConditionWithLateTrue
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testOptimizeSubtreeNotWithSimplifiableCondition
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testOptimizeSubtreeHook
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testTryFoldStandardConstructorsWithNull
+[exit 0]

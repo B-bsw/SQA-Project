@@ -1,0 +1,67 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Mockito_36-870l9hkk/Mockito-36b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ FAIL
+Executed command:  cd /tmp/deepseek-Mockito_36-870l9hkk/fixed && ant -f /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/face/defect4j/defects4j -Dd4j.dir.projects=/home/face/defect4j/defects4j/framework/projects -Dbasedir=/tmp/deepseek-Mockito_36-870l9hkk/fixed -Dd4j.test.dir=/tmp/deepseek-Mockito_36-870l9hkk/fixed/.test_suite compile.gen.tests 2>&1
+Buildfile: /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml
+
+compile:
+
+gradle.compile:
+
+ant.compile:
+
+clean:
+
+prepare:
+    [mkdir] Created dir: /tmp/deepseek-Mockito_36-870l9hkk/fixed/target/classes
+    [mkdir] Created dir: /tmp/deepseek-Mockito_36-870l9hkk/fixed/target/test-classes
+    [mkdir] Created dir: /tmp/deepseek-Mockito_36-870l9hkk/fixed/target/reports/junit
+
+compile:
+    [javac] /tmp/deepseek-Mockito_36-870l9hkk/fixed/build.xml:76: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 190 source files to /tmp/deepseek-Mockito_36-870l9hkk/fixed/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /tmp/deepseek-Mockito_36-870l9hkk/fixed/src/org/mockito/configuration/DefaultMockitoConfiguration.java:7: warning: [deprecation] ReturnValues in org.mockito has been deprecated
+    [javac] import org.mockito.ReturnValues;
+    [javac]                   ^
+    [javac] /tmp/deepseek-Mockito_36-870l9hkk/fixed/src/org/mockito/configuration/IMockitoConfiguration.java:7: warning: [deprecation] ReturnValues in org.mockito has been deprecated
+    [javac] import org.mockito.ReturnValues;
+    [javac]                   ^
+    [javac] /tmp/deepseek-Mockito_36-870l9hkk/fixed/src/org/mockito/internal/configuration/GlobalConfiguration.java:7: warning: [deprecation] ReturnValues in org.mockito has been deprecated
+    [javac] import org.mockito.ReturnValues;
+    [javac]                   ^
+    [javac] /tmp/deepseek-Mockito_36-870l9hkk/fixed/src/org/mockito/internal/runners/JUnit44RunnerImpl.java:7: warning: [deprecation] InitializationError in org.junit.internal.runners has been deprecated
+    [javac] import org.junit.internal.runners.InitializationError;
+    [javac]                                  ^
+    [javac] /tmp/deepseek-Mockito_36-870l9hkk/fixed/src/org/mockito/internal/runners/JUnit44RunnerImpl.java:8: warning: [deprecation] JUnit4ClassRunner in org.junit.internal.runners has been deprecated
+    [javac] import org.junit.internal.runners.JUnit4ClassRunner;
+    [javac]                                  ^
+    [javac] /tmp/deepseek-Mockito_36-870l9hkk/fixed/src/org/mockito/internal/stubbing/answers/AnswerReturnValuesAdapter.java:7: warning: [deprecation] ReturnValues in org.mockito has been deprecated
+    [javac] import org.mockito.ReturnValues;
+    [javac]                   ^
+    [javac] 7 warnings
+
+gradle.compile.mutants:
+
+ant.compile.mutants:
+     [exec] /home/face/defect4j/defects4j/framework/projects/Mockito/chooseDepedencyVersion.sh: line 8: ./gradlew: No such file or directory
+
+compile.gen.tests:
+     [echo] classes.dir: /tmp/deepseek-Mockito_36-870l9hkk/fixed/target/classes
+     [echo] build.home: /tmp/deepseek-Mockito_36-870l9hkk/fixed/target
+    [mkdir] Created dir: /tmp/deepseek-Mockito_36-870l9hkk/fixed/.classes_testgen
+    [javac] /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml:268: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/deepseek-Mockito_36-870l9hkk/fixed/.classes_testgen
+    [javac] /tmp/deepseek-Mockito_36-870l9hkk/fixed/.test_suite/org/mockito/internal/invocation/InvocationTest.java:69: error: incompatible types: TestMockitoMethod cannot be converted to MockitoMethod
+    [javac]         invocation = new Invocation(mock, method, new Object[]{"arg1", 123}, 42, realMethod);
+    [javac]                                           ^
+    [javac] Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+    [javac] 1 error
+
+BUILD FAILED
+/home/face/defect4j/defects4j/framework/projects/defects4j.build.xml:268: Compile failed; see the compiler error output for details.
+
+Total time: 3 seconds
+Cannot compile extracted test suite! at /home/face/defect4j/defects4j/framework/bin/d4j/d4j-test line 126.
+Compilation failed in require at /home/face/defect4j/defects4j/framework/bin/defects4j line 195.
+[exit 1]

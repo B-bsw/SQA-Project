@@ -1,0 +1,13 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Closure_44-gs0sidlj/Closure-44b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 7
+  - com.google.javascript.jscomp.CodeConsumerTest::testAddOpStartsWithLetter
+  - com.google.javascript.jscomp.CodeConsumerTest::testAddOpWithSameSigns
+  - com.google.javascript.jscomp.CodeConsumerTest::testAddOpWithArrow
+  - com.google.javascript.jscomp.CodeConsumerTest::testAddNumberAfterOperator
+  - com.google.javascript.jscomp.CodeConsumerTest::testAppendOpBinOp
+  - com.google.javascript.jscomp.CodeConsumerTest::testAddNumberAfterWordNoSpaceNeeded
+  - com.google.javascript.jscomp.CodeConsumerTest::testAddOpNormal
+[exit 0]

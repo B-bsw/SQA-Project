@@ -1,0 +1,8 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-JacksonDatabind_84-xlkqyc8p/JacksonDatabind-84b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.databind.type.ResolvedRecursiveTypeTest::testToStringUnresolved
+  - com.fasterxml.jackson.databind.type.ResolvedRecursiveTypeTest::testToStringResolved
+[exit 0]

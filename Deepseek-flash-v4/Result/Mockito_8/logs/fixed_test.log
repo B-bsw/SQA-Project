@@ -1,0 +1,10 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Mockito_8-_2ch5mx_/Mockito-8b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 4
+  - org.mockito.internal.util.reflection.GenericMetadataSupportTest::testInferFromNull
+  - org.mockito.internal.util.reflection.GenericMetadataSupportTest::testWildCardBoundedType
+  - org.mockito.internal.util.reflection.GenericMetadataSupportTest::testParameterizedReturnTypeWithDeepNesting
+  - org.mockito.internal.util.reflection.GenericMetadataSupportTest::testInferFromParameterizedType
+[exit 0]

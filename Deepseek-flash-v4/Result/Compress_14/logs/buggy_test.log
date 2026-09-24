@@ -1,0 +1,13 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Compress_14-mgt6veso/Compress-14b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 7
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatLongOctalOrBinaryBytes_whenOctalFits_returnsUpdatedOffset
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatLongOctalBytes_whenValueFits_containsTrailingSpaceAndNUL
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatLongOctalOrBinaryBytes_whenValueTooLarge_throwsIllegalArgumentException
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatOctalBytes_withValueWritesCorrectly
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctal_whenLeadingNUL_returnsZero
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatOctalBytes_whenValueZero_writesCorrectly
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatLongOctalOrBinaryBytes_whenBinaryFits_returnsUpdatedOffset
+[exit 0]

@@ -1,0 +1,14 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Math_105-rtheyoin/Math-105b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 8
+  - org.apache.commons.math.stat.regression.SimpleRegressionTest::testGetSlopeIntervalInsufficientData
+  - org.apache.commons.math.stat.regression.SimpleRegressionTest::testPredictWithThreeObservations
+  - org.apache.commons.math.stat.regression.SimpleRegressionTest::testAddTwoObservationsZeroSlope
+  - org.apache.commons.math.stat.regression.SimpleRegressionTest::testAddTwoObservationsPositiveSlope
+  - org.apache.commons.math.stat.regression.SimpleRegressionTest::testInitialState
+  - org.apache.commons.math.stat.regression.SimpleRegressionTest::testNonPerfectRegression
+  - org.apache.commons.math.stat.regression.SimpleRegressionTest::testGetSignificanceInsufficientData
+  - org.apache.commons.math.stat.regression.SimpleRegressionTest::testAddObservationsNoVariationInX
+[exit 0]

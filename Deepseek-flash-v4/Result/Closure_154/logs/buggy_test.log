@@ -1,0 +1,36 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Closure_154-tc2eo8gy/Closure-154b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ FAIL
+Executed command:  cd /tmp/deepseek-Closure_154-tc2eo8gy/buggy && ant -f /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/face/defect4j/defects4j -Dd4j.dir.projects=/home/face/defect4j/defects4j/framework/projects -Dbasedir=/tmp/deepseek-Closure_154-tc2eo8gy/buggy -Dd4j.test.dir=/tmp/deepseek-Closure_154-tc2eo8gy/buggy/.test_suite compile.gen.tests 2>&1
+Buildfile: /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml
+
+svnversion:
+
+compile:
+    [javac] /tmp/deepseek-Closure_154-tc2eo8gy/buggy/build.xml:182: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] /tmp/deepseek-Closure_154-tc2eo8gy/buggy/build.xml:188: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+[propertyfile] Updating property file: /tmp/deepseek-Closure_154-tc2eo8gy/buggy/build/classes/com/google/javascript/jscomp/parsing/ParserConfig.properties
+
+compile.gen.tests:
+     [echo] classes.dir: /tmp/deepseek-Closure_154-tc2eo8gy/buggy/build/classes
+     [echo] build.home: /tmp/deepseek-Closure_154-tc2eo8gy/buggy/build
+    [mkdir] Created dir: /tmp/deepseek-Closure_154-tc2eo8gy/buggy/.classes_testgen
+    [javac] /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml:268: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 2 source files to /tmp/deepseek-Closure_154-tc2eo8gy/buggy/.classes_testgen
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /tmp/deepseek-Closure_154-tc2eo8gy/buggy/.test_suite/com/google/javascript/jscomp/TypeValidatorTest.java:49: error: cannot find symbol
+    [javac]     private JSType getNativeType(JSTypeNative typeId) {
+    [javac]                                  ^
+    [javac]   symbol:   class JSTypeNative
+    [javac]   location: class TypeValidatorTest
+    [javac] Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+    [javac] 1 error
+    [javac] 1 warning
+
+BUILD FAILED
+/home/face/defect4j/defects4j/framework/projects/defects4j.build.xml:268: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+Cannot compile extracted test suite! at /home/face/defect4j/defects4j/framework/bin/d4j/d4j-test line 126.
+Compilation failed in require at /home/face/defect4j/defects4j/framework/bin/defects4j line 195.
+[exit 1]

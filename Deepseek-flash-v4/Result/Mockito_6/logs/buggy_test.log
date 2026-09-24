@@ -1,0 +1,20 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Mockito_6-gmrayb43/Mockito-6b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 14
+  - org.mockito.MatchersTest::testAnyCollectionReturnsNull
+  - org.mockito.MatchersTest::testAnyMapOfReturnsNull
+  - org.mockito.MatchersTest::testAnyListOfReturnsNull
+  - org.mockito.MatchersTest::testAnySetOfReturnsNull
+  - org.mockito.MatchersTest::testSameReturnsValue
+  - org.mockito.MatchersTest::testAnyCollectionOfReturnsNull
+  - org.mockito.MatchersTest::testContainsReturnsNull
+  - org.mockito.MatchersTest::testAnyMapReturnsNull
+  - org.mockito.MatchersTest::testMatchesReturnsNull
+  - org.mockito.MatchersTest::testAnySetReturnsNull
+  - org.mockito.MatchersTest::testAnyStringReturnsNull
+  - org.mockito.MatchersTest::testAnyListReturnsNull
+  - org.mockito.MatchersTest::testStartsWithReturnsNull
+  - org.mockito.MatchersTest::testEndsWithReturnsNull
+[exit 0]

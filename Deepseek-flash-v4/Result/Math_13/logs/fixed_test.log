@@ -1,0 +1,33 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Math_13-5bld65ko/Math-13b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ FAIL
+Executed command:  cd /tmp/deepseek-Math_13-5bld65ko/fixed && ant -f /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/face/defect4j/defects4j -Dd4j.dir.projects=/home/face/defect4j/defects4j/framework/projects -Dbasedir=/tmp/deepseek-Math_13-5bld65ko/fixed -Dd4j.test.dir=/tmp/deepseek-Math_13-5bld65ko/fixed/.test_suite compile.gen.tests 2>&1
+Buildfile: /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.1-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+    [mkdir] Created dir: /tmp/deepseek-Math_13-5bld65ko/fixed/.classes_testgen
+    [javac] /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml:268: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/deepseek-Math_13-5bld65ko/fixed/.classes_testgen
+    [javac] /tmp/deepseek-Math_13-5bld65ko/fixed/.test_suite/org/apache/commons/math3/optimization/general/AbstractLeastSquaresOptimizerTest.java:296: error: cannot find symbol
+    [javac]         public PointVectorValuePair optimizeInternal(int maxEval, org.apache.commons.math3.optimization.MultivariateDifferentiableVectorOptimizer.OptimizationData... optData) {
+    [javac]                                                                                                                                                  ^
+    [javac]   symbol:   class OptimizationData
+    [javac]   location: interface MultivariateDifferentiableVectorOptimizer
+    [javac] Note: /tmp/deepseek-Math_13-5bld65ko/fixed/.test_suite/org/apache/commons/math3/optimization/general/AbstractLeastSquaresOptimizerTest.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 1 error
+
+BUILD FAILED
+/home/face/defect4j/defects4j/framework/projects/defects4j.build.xml:268: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Cannot compile extracted test suite! at /home/face/defect4j/defects4j/framework/bin/d4j/d4j-test line 126.
+Compilation failed in require at /home/face/defect4j/defects4j/framework/bin/defects4j line 195.
+[exit 1]

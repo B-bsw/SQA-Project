@@ -1,0 +1,2 @@
+project,bug_id,tests,buggy_result,buggy_fails,fixed_result,fixed_fails,verdict,lines,covered_lines,line_cov,branches,covered_branches,branch_cov
+Math,29,36,FAIL,2,FAIL,2,INCONCLUSIVE,321,268,83.49,134,101,75.37

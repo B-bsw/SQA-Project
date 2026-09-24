@@ -1,0 +1,8 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Math_92-741nukg2/Math-92b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.util.MathUtilsTest::testNormalizeAngle
+  - org.apache.commons.math.util.MathUtilsTest::testHash
+[exit 0]

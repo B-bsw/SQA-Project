@@ -1,0 +1,7 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Time_27-6fexaa18/Time-27b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.PeriodFormatterBuilderTest::testToFormatterWhenNeitherPrinterNorParser
+[exit 0]

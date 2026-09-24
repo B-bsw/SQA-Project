@@ -1,0 +1,7 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-JacksonDatabind_71-mdmoe9v5/JacksonDatabind-71b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.std.StdKeyDeserializerTest::testUnknownEnumKeyAsNull
+[exit 0]

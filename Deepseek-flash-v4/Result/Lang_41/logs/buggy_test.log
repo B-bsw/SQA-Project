@@ -1,0 +1,33 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Lang_41-_xkpnmxn/Lang-41b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ FAIL
+Executed command:  cd /tmp/deepseek-Lang_41-_xkpnmxn/buggy && ant -f /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/face/defect4j/defects4j -Dd4j.dir.projects=/home/face/defect4j/defects4j/framework/projects -Dbasedir=/tmp/deepseek-Lang_41-_xkpnmxn/buggy -Dd4j.test.dir=/tmp/deepseek-Lang_41-_xkpnmxn/buggy/.test_suite compile.gen.tests 2>&1
+Buildfile: /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+compile:
+    [javac] /tmp/deepseek-Lang_41-_xkpnmxn/buggy/maven-build.xml:74: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+    [mkdir] Created dir: /tmp/deepseek-Lang_41-_xkpnmxn/buggy/.classes_testgen
+    [javac] /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml:268: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/deepseek-Lang_41-_xkpnmxn/buggy/.classes_testgen
+    [javac] /tmp/deepseek-Lang_41-_xkpnmxn/buggy/.test_suite/org/apache/commons/lang/ClassUtilsTest.java:218: error: cannot find symbol
+    [javac]         Method m = ClassUtils.getPublicMethod(String.class, "length", new Class<?>[0]);
+    [javac]         ^
+    [javac]   symbol:   class Method
+    [javac]   location: class ClassUtilsTest
+    [javac] 1 error
+
+BUILD FAILED
+/home/face/defect4j/defects4j/framework/projects/defects4j.build.xml:268: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+Cannot compile extracted test suite! at /home/face/defect4j/defects4j/framework/bin/d4j/d4j-test line 126.
+Compilation failed in require at /home/face/defect4j/defects4j/framework/bin/defects4j line 195.
+[exit 1]

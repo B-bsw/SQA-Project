@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "generator": "DeepSeek-V4-Flash",
+  "created_at": "2026-09-24T12:56:30.913678+00:00",
+  "project": "Chart",
+  "bug_id": 18,
+  "source": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Chart_18_buggy",
+  "coverage_scope": "modified classes of buggy revision",
+  "tests": 70,
+  "test_files": 2,
+  "buggy": {
+    "result": "FAIL",
+    "fails": 1,
+    "compile": "PASS",
+    "test_compile": "PASS",
+    "coverage_status": "PASS",
+    "lines": 266,
+    "covered_lines": 255,
+    "line_cov": 95.86,
+    "branches": 122,
+    "covered_branches": 102,
+    "branch_cov": 83.61
+  },
+  "fixed": {
+    "result": "FAIL",
+    "fails": 3,
+    "compile": "PASS",
+    "test_compile": "PASS"
+  },
+  "verdict": "INCONCLUSIVE"
+}

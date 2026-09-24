@@ -1,0 +1,53 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Math_27-01emssoe/Math-27b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 47
+  - org.apache.commons.math3.fraction.FractionTest::testConstructorIntIntZeroDenominator
+  - org.apache.commons.math3.fraction.FractionTest::testFloatValue
+  - org.apache.commons.math3.fraction.FractionTest::testGetField
+  - org.apache.commons.math3.fraction.FractionTest::testAddNull
+  - org.apache.commons.math3.fraction.FractionTest::testConstructorIntIntNumeratorMinValueDenominatorMinusOne
+  - org.apache.commons.math3.fraction.FractionTest::testDivideByZero
+  - org.apache.commons.math3.fraction.FractionTest::testGetNumerator
+  - org.apache.commons.math3.fraction.FractionTest::testAbs
+  - org.apache.commons.math3.fraction.FractionTest::testAdd
+  - org.apache.commons.math3.fraction.FractionTest::testSubtract
+  - org.apache.commons.math3.fraction.FractionTest::testConstructorIntIntDenominatorMinValue
+  - org.apache.commons.math3.fraction.FractionTest::testAddOverflow
+  - org.apache.commons.math3.fraction.FractionTest::testToString
+  - org.apache.commons.math3.fraction.FractionTest::testConstructorDoubleMaxDenominator
+  - org.apache.commons.math3.fraction.FractionTest::testReciprocal
+  - org.apache.commons.math3.fraction.FractionTest::testDivideInt
+  - org.apache.commons.math3.fraction.FractionTest::testPercentageValue
+  - org.apache.commons.math3.fraction.FractionTest::testGetReducedFraction
+  - org.apache.commons.math3.fraction.FractionTest::testConstructorDouble
+  - org.apache.commons.math3.fraction.FractionTest::testCompareTo
+  - org.apache.commons.math3.fraction.FractionTest::testConstructorIntInt
+  - org.apache.commons.math3.fraction.FractionTest::testConstructorDoubleWithEpsilon
+  - org.apache.commons.math3.fraction.FractionTest::testMultiplyInt
+  - org.apache.commons.math3.fraction.FractionTest::testConstructorIntIntNegativeNumerator
+  - org.apache.commons.math3.fraction.FractionTest::testConstructorIntIntNegativeDenominator
+  - org.apache.commons.math3.fraction.FractionTest::testConstructorDoubleMaxIterations
+  - org.apache.commons.math3.fraction.FractionTest::testConstants
+  - org.apache.commons.math3.fraction.FractionTest::testAbsMinValue
+  - org.apache.commons.math3.fraction.FractionTest::testGetDenominator
+  - org.apache.commons.math3.fraction.FractionTest::testConstructorInt
+  - org.apache.commons.math3.fraction.FractionTest::testLongValue
+  - org.apache.commons.math3.fraction.FractionTest::testGetReducedFractionMinValue
+  - org.apache.commons.math3.fraction.FractionTest::testNegateMinValue
+  - org.apache.commons.math3.fraction.FractionTest::testAddInt
+  - org.apache.commons.math3.fraction.FractionTest::testConstructorIntIntBothNegative
+  - org.apache.commons.math3.fraction.FractionTest::testGetReducedFractionZeroDenominator
+  - org.apache.commons.math3.fraction.FractionTest::testIntValue
+  - org.apache.commons.math3.fraction.FractionTest::testDivide
+  - org.apache.commons.math3.fraction.FractionTest::testZeroDenominatorConstructor
+  - org.apache.commons.math3.fraction.FractionTest::testMultiply
+  - org.apache.commons.math3.fraction.FractionTest::testEqualsAndHashCode
+  - org.apache.commons.math3.fraction.FractionTest::testNegate
+  - org.apache.commons.math3.fraction.FractionTest::testConstructorIntIntMinValue
+  - org.apache.commons.math3.fraction.FractionTest::testSubtractNull
+  - org.apache.commons.math3.fraction.FractionTest::testSubtractInt
+  - org.apache.commons.math3.fraction.FractionTest::testSerializable
+  - org.apache.commons.math3.fraction.FractionTest::testDoubleValue
+[exit 0]

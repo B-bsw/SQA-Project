@@ -1,0 +1,8 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Mockito_2-jd_4ha9w/Mockito-2b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 2
+  - org.mockito.internal.util.TimerTest::testIsCountingBeforeStart
+  - org.mockito.internal.util.TimerTest::testStartInitializesStartTime
+[exit 0]

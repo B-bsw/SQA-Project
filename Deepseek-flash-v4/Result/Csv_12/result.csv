@@ -1,0 +1,2 @@
+project,bug_id,tests,buggy_result,buggy_fails,fixed_result,fixed_fails,verdict,lines,covered_lines,line_cov,branches,covered_branches,branch_cov
+Csv,12,51,FAIL,3,FAIL,3,INCONCLUSIVE,184,137,74.46,140,82,58.57

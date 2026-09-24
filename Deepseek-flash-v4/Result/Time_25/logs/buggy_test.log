@@ -1,0 +1,10 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Time_25-flqec31u/Time-25b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 4
+  - org.joda.time.DateTimeZoneTest::testForOffsetHoursMinutesTooLarge
+  - org.joda.time.DateTimeZoneTest::testForOffsetHoursMinutesNegativeHoursPositiveMinutes
+  - org.joda.time.DateTimeZoneTest::testForOffsetHoursMinutesNegativeBoth
+  - org.joda.time.DateTimeZoneTest::testHashCode
+[exit 0]

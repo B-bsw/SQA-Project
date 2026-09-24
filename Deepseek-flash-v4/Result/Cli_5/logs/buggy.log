@@ -1,0 +1,19 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j checkout -p Cli -v 5b -w /tmp/deepseek-Cli_5-z4vnghya/buggy
+Checking out 3880640e to /tmp/deepseek-Cli_5-z4vnghya/buggy................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 3880640e:2b0a94ae..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Cli-5b.......................................... OK
+[exit 0]
+$ /home/face/defect4j/defects4j/framework/bin/defects4j compile -w /tmp/deepseek-Cli_5-z4vnghya/buggy
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+[exit 0]

@@ -1,0 +1,17 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Jsoup_53-v9ir4n5j/Jsoup-53b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 11
+  - org.jsoup.parser.TokenQueueTest::testConstructorNull
+  - org.jsoup.parser.TokenQueueTest::testChompToIgnoreCase
+  - org.jsoup.parser.TokenQueueTest::testChompBalancedUnbalanced
+  - org.jsoup.parser.TokenQueueTest::testConsumeStringAtEnd
+  - org.jsoup.parser.TokenQueueTest::testMatchChompAtEnd
+  - org.jsoup.parser.TokenQueueTest::testConsumeTo
+  - org.jsoup.parser.TokenQueueTest::testChompTo
+  - org.jsoup.parser.TokenQueueTest::testMatches
+  - org.jsoup.parser.TokenQueueTest::testIsEmpty
+  - org.jsoup.parser.TokenQueueTest::testConsumeToNotFound
+  - org.jsoup.parser.TokenQueueTest::testConsumeToIgnoreCase
+[exit 0]

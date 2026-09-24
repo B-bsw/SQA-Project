@@ -1,0 +1,8 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Collections_5-w0u7vd1x/Collections-5b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.collections.list.SetUniqueListTest::testAddAllAtIndexWithDuplicates
+  - org.apache.commons.collections.list.SetUniqueListTest::testListIteratorPrevious
+[exit 0]

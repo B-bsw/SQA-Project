@@ -1,0 +1,11 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Codec_7-as3mbq4e/Codec-7b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 5
+  - org.apache.commons.codec.binary.Base64Test::testEncodeUrlSafe
+  - org.apache.commons.codec.binary.Base64Test::testEncodeWithInvalidLineLength
+  - org.apache.commons.codec.binary.Base64Test::testAvail
+  - org.apache.commons.codec.binary.Base64Test::testDecodeInteger
+  - org.apache.commons.codec.binary.Base64Test::testEncodeWithChunking
+[exit 0]

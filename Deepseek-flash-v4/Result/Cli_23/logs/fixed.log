@@ -1,0 +1,21 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j checkout -p Cli -v 23f -w /tmp/deepseek-Cli_23-us5tm5jv/fixed
+Checking out 2ddaae14 to /tmp/deepseek-Cli_23-us5tm5jv/fixed............... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Backing up build file: /tmp/deepseek-Cli_23-us5tm5jv/fixed/maven-build.xml. OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 2ddaae14:88cf9e4a..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Cli-23f......................................... OK
+[exit 0]
+$ /home/face/defect4j/defects4j/framework/bin/defects4j compile -w /tmp/deepseek-Cli_23-us5tm5jv/fixed
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+[exit 0]

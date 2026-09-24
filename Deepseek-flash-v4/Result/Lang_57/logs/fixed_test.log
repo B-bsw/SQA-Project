@@ -1,0 +1,10 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Lang_57-x1k0gqv7/Lang-57b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Use of uninitialized value $lines[16] in pattern match (m//) at /home/face/defect4j/defects4j/framework/core/Utils.pm line 738.
+Use of uninitialized value $lines[16] in pattern match (m//) at /home/face/defect4j/defects4j/framework/core/Utils.pm line 738.
+Use of uninitialized value in pattern match (m//) at /home/face/defect4j/defects4j/framework/core/Utils.pm line 741.
+Failing tests: 1
+  - org.apache.commons.lang.LocaleUtilsTest::testToLocale_InvalidFormat_LengthNot2or5andLessThan7
+[exit 0]

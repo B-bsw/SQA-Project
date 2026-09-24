@@ -1,0 +1,11 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Chart_10-e0krq6s3/Chart-10b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 5
+  - org.jfree.chart.imagemap.StandardToolTipTagFragmentGeneratorTest::testGenerateToolTipFragment_SpecialCharacters
+  - org.jfree.chart.imagemap.StandardToolTipTagFragmentGeneratorTest::testGenerateToolTipFragment_QuotationMarks
+  - org.jfree.chart.imagemap.StandardToolTipTagFragmentGeneratorTest::testGenerateToolTipFragment_NullInput
+  - org.jfree.chart.imagemap.StandardToolTipTagFragmentGeneratorTest::testGenerateToolTipFragment_LongText
+  - org.jfree.chart.imagemap.StandardToolTipTagFragmentGeneratorTest::testGenerateToolTipFragment_HtmlContent
+[exit 0]

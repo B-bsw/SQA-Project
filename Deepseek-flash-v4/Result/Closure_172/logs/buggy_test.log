@@ -1,0 +1,45 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Closure_172-6dro3usm/Closure-172b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 39
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclarePropertyWithQuotedName
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithRValueFunction
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclarePropertyWithEnumType
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithTypeAnnotationInJSDoc
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithRValueOr
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithEnum
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclarePropertyWithFunctionType
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testCreateScopeWithRedeclaredVar
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclarePropertyWithInvalidEnumKey
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithRValueQualifiedName
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testCreateScopeWithNullParent
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithFunctionTypeAndReturn
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithTypeOverride
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithEnumValue
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclarePropertyWithNumericKey
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithTypeAnnotation
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithNullRValue
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithLendsAnnotation
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithFunctionTypeAndReturnNull
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclarePropertyWithInferredType
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithFunctionTypeAndDelegateOf
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithFunctionTypeAndQualifiedName
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithInvalidEnumKey
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithFunctionTypeAndInherits
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithFunctionTypeAndVoid0
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithFunctionTypeAndCast
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithFunctionTypeAndThis
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithFunctionTypeAndVoid
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testCreateScopeWithFunctionParent
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithFunctionTypeAndObjectLiteralCast
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithFunctionTypeAndPrototype
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithFunctionTypeAndNewTarget
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithRValueComplex
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testCreateScopeWithParentAndExistingType
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithTypedef
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclarePropertyWithDuplicate
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithFunctionTypeAndDelegate
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclareVarWithConstantName
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclarePropertyWithQuotedNumericKey
+[exit 0]

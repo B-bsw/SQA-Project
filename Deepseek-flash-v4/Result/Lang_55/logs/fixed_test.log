@@ -1,0 +1,13 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Lang_55-awq423rg/Lang-55b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 7
+  - org.apache.commons.lang.time.StopWatchTest::testStopAfterSuspendResumesCountsTime
+  - org.apache.commons.lang.time.StopWatchTest::testResumeWithoutSuspendThrowsException
+  - org.apache.commons.lang.time.StopWatchTest::testSplitAndUnsplit
+  - org.apache.commons.lang.time.StopWatchTest::testSuspendBeforeStartThrowsException
+  - org.apache.commons.lang.time.StopWatchTest::testInitialState
+  - org.apache.commons.lang.time.StopWatchTest::testGetTimeAfterStop
+  - org.apache.commons.lang.time.StopWatchTest::testGetTimeAfterSuspend
+[exit 0]

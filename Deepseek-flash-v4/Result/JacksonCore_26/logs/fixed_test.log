@@ -1,0 +1,15 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-JacksonCore_26-se4h9l57/JacksonCore-26b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 9
+  - com.fasterxml.jackson.core.json.async.NonBlockingJsonParserTest::testNextTokenNegativeInteger
+  - com.fasterxml.jackson.core.json.async.NonBlockingJsonParserTest::testNextTokenNestedObject
+  - com.fasterxml.jackson.core.json.async.NonBlockingJsonParserTest::testNextTokenNull
+  - com.fasterxml.jackson.core.json.async.NonBlockingJsonParserTest::testNextTokenTrue
+  - com.fasterxml.jackson.core.json.async.NonBlockingJsonParserTest::testNextTokenInvalidJson
+  - com.fasterxml.jackson.core.json.async.NonBlockingJsonParserTest::testNextTokenArray
+  - com.fasterxml.jackson.core.json.async.NonBlockingJsonParserTest::testNextTokenFalse
+  - com.fasterxml.jackson.core.json.async.NonBlockingJsonParserTest::testNextTokenFloat
+  - com.fasterxml.jackson.core.json.async.NonBlockingJsonParserTest::testNextTokenSimpleObject
+[exit 0]

@@ -1,0 +1,17 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Compress_8-drgbq4bt/Compress-8b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 11
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatCheckSumOctalBytesNormal
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatUnsignedOctalStringMaxFit
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatCheckSumOctalBytesEdgeValue
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatNameBytesEmptyName
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatUnsignedOctalStringTooLarge
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatNameBytesLongerThanBuffer
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatNameBytesShorterThanBuffer
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatNameBytesExactlyFit
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalInvalidCharacter
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatLongOctalBytes
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatOctalBytesNormal
+[exit 0]

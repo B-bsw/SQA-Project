@@ -1,0 +1,14 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j coverage -s /tmp/deepseek-Collections_6-eol_wpp9/Collections-6b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (coverage.instrument).......................................... OK
+Running ant (run.gen.tests)................................................ OK
+Running ant (coverage.report).............................................. OK
+WARNING: Some tests failed (see /tmp/deepseek-Collections_6-eol_wpp9/buggy/failing_tests)!
+       Lines total: 495
+     Lines covered: 293
+  Conditions total: 376
+Conditions covered: 193
+     Line coverage: 59.2%
+Condition coverage: 51.3%
+[exit 0]

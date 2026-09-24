@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "generator": "DeepSeek-V4-Flash",
+  "created_at": "2026-09-24T12:49:31.830470+00:00",
+  "project": "Cli",
+  "bug_id": 5,
+  "source": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Cli_5_buggy",
+  "coverage_scope": "modified classes of buggy revision",
+  "tests": 14,
+  "test_files": 1,
+  "buggy": {
+    "result": "FAIL",
+    "fails": 1,
+    "compile": "PASS",
+    "coverage_status": "PASS",
+    "lines": 11,
+    "covered_lines": 0,
+    "line_cov": 0.0,
+    "branches": 8,
+    "covered_branches": 0,
+    "branch_cov": 0.0
+  },
+  "fixed": {
+    "result": "FAIL",
+    "fails": 1,
+    "compile": "PASS"
+  },
+  "verdict": "INCONCLUSIVE"
+}

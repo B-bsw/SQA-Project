@@ -1,0 +1,18 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Compress_17-dxqi6gba/Compress-17b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 12
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseNameNullTerminatedEarly
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalOrBinaryBinaryLongNegative
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatOctalBytes
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalNullTerminated
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseNameWithNull
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatNameBytes
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalNormal
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatUnsignedOctalStringOverflow
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatLongOctalOrBinaryBytesOctal
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testVerifyCheckSumValid
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatLongOctalOrBinaryBytesBinary
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatLongOctalBytes
+[exit 0]

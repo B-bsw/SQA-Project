@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "generator": "DeepSeek-V4-Flash",
+  "created_at": "2026-09-24T14:03:00.983466+00:00",
+  "project": "Codec",
+  "bug_id": 2,
+  "source": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Codec_2_buggy",
+  "coverage_scope": "modified classes of buggy revision",
+  "tests": 25,
+  "test_files": 1,
+  "buggy": {
+    "result": "FAIL",
+    "fails": 1,
+    "compile": "PASS",
+    "test_compile": "PASS",
+    "coverage_status": "PASS",
+    "lines": 214,
+    "covered_lines": 179,
+    "line_cov": 83.64,
+    "branches": 146,
+    "covered_branches": 102,
+    "branch_cov": 69.86
+  },
+  "fixed": {
+    "result": "FAIL",
+    "fails": 1,
+    "compile": "PASS",
+    "test_compile": "PASS"
+  },
+  "verdict": "INCONCLUSIVE"
+}

@@ -1,0 +1,20 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-JacksonDatabind_68-8kc3xirm/JacksonDatabind-68b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 14
+  - com.fasterxml.jackson.databind.deser.BeanDeserializerBaseTest::testDeserializeFromObjectUsingNonDefaultWithDelegate
+  - com.fasterxml.jackson.databind.deser.BeanDeserializerBaseTest::testEmptyPropertyAccessors
+  - com.fasterxml.jackson.databind.deser.BeanDeserializerBaseTest::testHandleUnknownPropertyIgnoreAll
+  - com.fasterxml.jackson.databind.deser.BeanDeserializerBaseTest::testBasicMetadata
+  - com.fasterxml.jackson.databind.deser.BeanDeserializerBaseTest::testWrapAndThrowVariants
+  - com.fasterxml.jackson.databind.deser.BeanDeserializerBaseTest::testNullBeanPropertyMapBehavior
+  - com.fasterxml.jackson.databind.deser.BeanDeserializerBaseTest::testDeserializeFromDouble
+  - com.fasterxml.jackson.databind.deser.BeanDeserializerBaseTest::testDeserializeFromNumber
+  - com.fasterxml.jackson.databind.deser.BeanDeserializerBaseTest::testHandleIgnoredPropertyFailsWhenConfigured
+  - com.fasterxml.jackson.databind.deser.BeanDeserializerBaseTest::testWithBeanPropertiesUnsupported
+  - com.fasterxml.jackson.databind.deser.BeanDeserializerBaseTest::testDeserializeFromString
+  - com.fasterxml.jackson.databind.deser.BeanDeserializerBaseTest::testDeserializeFromObjectUsingNonDefaultMissing
+  - com.fasterxml.jackson.databind.deser.BeanDeserializerBaseTest::testDeserializeFromBoolean
+  - com.fasterxml.jackson.databind.deser.BeanDeserializerBaseTest::testDeserializeFromArrayRejected
+[exit 0]

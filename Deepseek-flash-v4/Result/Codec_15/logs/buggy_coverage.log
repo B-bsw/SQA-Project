@@ -1,0 +1,3 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j coverage -s /tmp/deepseek-Codec_15-qctyn8yz/Codec-15b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+[exit -2]

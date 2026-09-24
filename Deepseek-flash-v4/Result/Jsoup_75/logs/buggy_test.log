@@ -1,0 +1,11 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Jsoup_75-82go5r0h/Jsoup-75b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 5
+  - org.jsoup.nodes.AttributesTest::testClone
+  - org.jsoup.nodes.AttributesTest::testHtml
+  - org.jsoup.nodes.AttributesTest::testAsList
+  - org.jsoup.nodes.AttributesTest::testPutNullAttribute
+  - org.jsoup.nodes.AttributesTest::testPutIgnoreCase
+[exit 0]

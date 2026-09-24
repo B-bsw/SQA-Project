@@ -1,0 +1,51 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Cli_25-yb04fcs1/Cli-25b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ FAIL
+Executed command:  cd /tmp/deepseek-Cli_25-yb04fcs1/buggy && ant -f /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/face/defect4j/defects4j -Dd4j.dir.projects=/home/face/defect4j/defects4j/framework/projects -Dbasedir=/tmp/deepseek-Cli_25-yb04fcs1/buggy -Dd4j.test.dir=/tmp/deepseek-Cli_25-yb04fcs1/buggy/.test_suite compile.gen.tests 2>&1
+Buildfile: /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+commons-cli-from-maven.compile:
+    [javac] /tmp/deepseek-Cli_25-yb04fcs1/buggy/maven-build.xml:74: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+    [mkdir] Created dir: /tmp/deepseek-Cli_25-yb04fcs1/buggy/.classes_testgen
+    [javac] /home/face/defect4j/defects4j/framework/projects/defects4j.build.xml:268: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/deepseek-Cli_25-yb04fcs1/buggy/.classes_testgen
+    [javac] /tmp/deepseek-Cli_25-yb04fcs1/buggy/.test_suite/org/apache/commons/cli/HelpFormatterTest.java:162: error: no suitable method found for printHelp(PrintWriter,int,String,String,Options,String,boolean)
+    [javac]         formatter.printHelp(printWriter, 80, "cmd", "HEADER", options, "FOOTER", false);
+    [javac]                  ^
+    [javac]     method HelpFormatter.printHelp(String,Options) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     method HelpFormatter.printHelp(String,Options,boolean) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     method HelpFormatter.printHelp(String,String,Options,String) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     method HelpFormatter.printHelp(String,String,Options,String,boolean) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     method HelpFormatter.printHelp(int,String,String,Options,String) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     method HelpFormatter.printHelp(int,String,String,Options,String,boolean) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     method HelpFormatter.printHelp(PrintWriter,int,String,String,Options,int,int,String) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     method HelpFormatter.printHelp(PrintWriter,int,String,String,Options,int,int,String,boolean) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac] Note: /tmp/deepseek-Cli_25-yb04fcs1/buggy/.test_suite/org/apache/commons/cli/HelpFormatterTest.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 1 error
+
+BUILD FAILED
+/home/face/defect4j/defects4j/framework/projects/defects4j.build.xml:268: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Cannot compile extracted test suite! at /home/face/defect4j/defects4j/framework/bin/d4j/d4j-test line 126.
+Compilation failed in require at /home/face/defect4j/defects4j/framework/bin/defects4j line 195.
+[exit 1]

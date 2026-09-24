@@ -1,0 +1,11 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j checkout -p Closure -v 126f -w /tmp/deepseek-Closure_126-2usf20rt/fixed
+Checking out bd2803b6 to /tmp/deepseek-Closure_126-2usf20rt/fixed.......... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+[exit -2]

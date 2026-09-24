@@ -1,0 +1,22 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Jsoup_46-t28htuyz/Jsoup-46b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 16
+  - org.jsoup.nodes.EntitiesTest::testSurrogatePairs
+  - org.jsoup.nodes.EntitiesTest::testUnescapeNullInput
+  - org.jsoup.nodes.EntitiesTest::testEscapeWithExtendedEntities
+  - org.jsoup.nodes.EntitiesTest::testEscapeNormaliseWhiteSpaceTwoRounds
+  - org.jsoup.nodes.EntitiesTest::testMultipleEntities
+  - org.jsoup.nodes.EntitiesTest::testEscapeInXhtmlMode
+  - org.jsoup.nodes.EntitiesTest::testEscapeInAttributeMode
+  - org.jsoup.nodes.EntitiesTest::testEscapeLessThanAttribute
+  - org.jsoup.nodes.EntitiesTest::testEscapeWithBaseEntities
+  - org.jsoup.nodes.EntitiesTest::testEscapeNormaliseWhiteSpaceSingleRound
+  - org.jsoup.nodes.EntitiesTest::testEscapeWithAsciiCharset
+  - org.jsoup.nodes.EntitiesTest::testEscapeNonAsciiInAttribute
+  - org.jsoup.nodes.EntitiesTest::testIsBaseNamedEntityNonBaseEntities
+  - org.jsoup.nodes.EntitiesTest::testIsNamedEntityUnknownEntities
+  - org.jsoup.nodes.EntitiesTest::testUnescapeStrictMode
+  - org.jsoup.nodes.EntitiesTest::testEscapeNormaliseWhiteSpace
+[exit 0]

@@ -1,0 +1,19 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Chart_15-sve73zol/Chart-15b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 13
+  - org.jfree.chart.plot.PiePlotTest::testGetSectionPaintWithEmptyDataset
+  - org.jfree.chart.plot.PiePlotTest::testSetInteriorGap
+  - org.jfree.chart.plot.PiePlotTest::testSetLegendLabelGenerator
+  - org.jfree.chart.plot.PiePlotTest::testSetLabelLinkPaint
+  - org.jfree.chart.plot.PiePlotTest::testClone
+  - org.jfree.chart.plot.PiePlotTest::testGetSectionPaintWithDataset
+  - org.jfree.chart.plot.PiePlotTest::testExplodePercentWithNullKey
+  - org.jfree.chart.plot.PiePlotTest::testSetBaseSectionPaint
+  - org.jfree.chart.plot.PiePlotTest::testSetLabelPadding
+  - org.jfree.chart.plot.PiePlotTest::testSetExplodePercent
+  - org.jfree.chart.plot.PiePlotTest::testSetDirection
+  - org.jfree.chart.plot.PiePlotTest::testSetLabelFont
+  - org.jfree.chart.plot.PiePlotTest::testDefaultConstructor
+[exit 0]

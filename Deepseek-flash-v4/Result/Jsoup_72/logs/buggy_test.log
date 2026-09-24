@@ -1,0 +1,16 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Jsoup_72-8i8g9t9l/Jsoup-72b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 10
+  - org.jsoup.parser.CharacterReaderTest::testConsumeLetterThenDigitSequenceWithOnlyDigits
+  - org.jsoup.parser.CharacterReaderTest::testConsumeToEndWithLongString
+  - org.jsoup.parser.CharacterReaderTest::testNextIndexOfWithLargeBuffer
+  - org.jsoup.parser.CharacterReaderTest::testConsumeToWithLongString
+  - org.jsoup.parser.CharacterReaderTest::testBufferRollover
+  - org.jsoup.parser.CharacterReaderTest::testConstructorWithUnsupportedMark
+  - org.jsoup.parser.CharacterReaderTest::testContainsIgnoreCaseFullMatch
+  - org.jsoup.parser.CharacterReaderTest::testConstructorWithNullInput
+  - org.jsoup.parser.CharacterReaderTest::testMultipleAdvanceAndConsume
+  - org.jsoup.parser.CharacterReaderTest::testConstructorWithReader
+[exit 0]

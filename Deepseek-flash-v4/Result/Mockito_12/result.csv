@@ -1,0 +1,2 @@
+project,bug_id,tests,buggy_result,buggy_fails,fixed_result,fixed_fails,verdict,lines,covered_lines,line_cov,branches,covered_branches,branch_cov
+Mockito,12,9,FAIL,1,FAIL,1,INCONCLUSIVE,6,6,100.0,4,3,75.0

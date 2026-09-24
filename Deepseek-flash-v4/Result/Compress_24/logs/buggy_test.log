@@ -1,0 +1,13 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Compress_24-9doorm52/Compress-24b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 7
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseBinaryLongTooLarge
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatOctalBytes
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseBinaryLongPositive
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalOrBinaryOctalValue
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testComputeCheckSum
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalInvalidCharacters
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatUnsignedOctalString
+[exit 0]

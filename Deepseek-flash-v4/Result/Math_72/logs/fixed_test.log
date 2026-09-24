@@ -1,0 +1,7 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Math_72-yl0mqf6a/Math-72b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.analysis.solvers.BrentSolverTest::testMaxIterationsExceeded
+[exit 0]

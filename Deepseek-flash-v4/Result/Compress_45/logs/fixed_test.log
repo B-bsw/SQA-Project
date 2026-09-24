@@ -1,0 +1,20 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Compress_45-empldyct/Compress-45b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 14
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalWithSpaces
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalOrBinaryInvalidBinaryLength
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatLongOctalOrBinaryBytesBinaryPositiveLarge
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalValid
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatNameBytesLongNameUsesFallback
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatOctalBytesPositive
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatOctalBytesZero
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalOrBinaryBinaryPositive
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatNameBytesBasic
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalOrBinaryMinValue
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatNameBytesPadding
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatLongOctalOrBinaryBytesOctal
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseNameWithEmbeddedNul
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testFormatLongOctalBytes
+[exit 0]

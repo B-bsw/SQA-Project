@@ -1,0 +1,12 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Math_41-62ze5be6/Math-41b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 6
+  - org.apache.commons.math.stat.descriptive.moment.VarianceTest::testEvaluateWeightedWithMissingValues
+  - org.apache.commons.math.stat.descriptive.moment.VarianceTest::testEvaluateWeightedNullValues
+  - org.apache.commons.math.stat.descriptive.moment.VarianceTest::testEvaluateWeightedWithMeanSubarray
+  - org.apache.commons.math.stat.descriptive.moment.VarianceTest::testEvaluateWeightedNullBoth
+  - org.apache.commons.math.stat.descriptive.moment.VarianceTest::testEvaluateWeightedZeroLength
+  - org.apache.commons.math.stat.descriptive.moment.VarianceTest::testMultipleIncrements
+[exit 0]

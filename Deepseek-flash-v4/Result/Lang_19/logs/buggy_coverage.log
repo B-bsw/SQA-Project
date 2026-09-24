@@ -1,0 +1,14 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j coverage -s /tmp/deepseek-Lang_19-vmgslsv3/Lang-19b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (coverage.instrument).......................................... OK
+Running ant (run.gen.tests)................................................ OK
+Running ant (coverage.report).............................................. OK
+WARNING: Some tests failed (see /tmp/deepseek-Lang_19-vmgslsv3/buggy/failing_tests)!
+       Lines total: 27
+     Lines covered: 27
+  Conditions total: 18
+Conditions covered: 17
+     Line coverage: 100.0%
+Condition coverage: 94.4%
+[exit 0]

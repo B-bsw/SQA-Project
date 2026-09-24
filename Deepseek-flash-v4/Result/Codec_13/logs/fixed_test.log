@@ -1,0 +1,23 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Codec_13-3f4j4s7f/Codec-13b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 17
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUnchecked
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringIso8859_1
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUsAscii
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf16Be
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf16Le
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf16
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testDoubleMetaphoneEmptyString
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testBoundaryCases
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testEncodeObject
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testEncodeString
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testDoubleMetaphoneBasic
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testComplexWords
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testSpecialLetterCombinations
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testLengthLimit
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testDoubleMetaphoneSpecialCases
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqual
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testDoubleMetaphoneAlternate
+[exit 0]

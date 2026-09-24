@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "generator": "DeepSeek-V4-Flash",
+  "created_at": "2026-09-24T16:44:56.432480+00:00",
+  "project": "Mockito",
+  "bug_id": 8,
+  "source": "/mnt/e/JavaEclipe/defect4j/SQA-Project/Deepseek-flash-v4/TestCode/Mockito_8_buggy",
+  "coverage_scope": "modified classes of buggy revision",
+  "tests": 16,
+  "test_files": 1,
+  "buggy": {
+    "result": "FAIL",
+    "fails": 4,
+    "compile": "PASS",
+    "test_compile": "PASS",
+    "coverage_status": "PASS",
+    "lines": 173,
+    "covered_lines": 99,
+    "line_cov": 57.23,
+    "branches": 80,
+    "covered_branches": 37,
+    "branch_cov": 46.25
+  },
+  "fixed": {
+    "result": "FAIL",
+    "fails": 4,
+    "compile": "PASS",
+    "test_compile": "PASS"
+  },
+  "verdict": "INCONCLUSIVE"
+}

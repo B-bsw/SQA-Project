@@ -1,0 +1,44 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/deepseek-Closure_161-ofzjn5zk/Closure-161b-deepseek.1.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 38
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testShiftWithLargeAmount
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldAddWithFractionalNumbers
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldTypeofWithNumber
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldNewWithNonConstructor
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldAddWithStringConcatenation
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testTypeofWithNameUndefined
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldAndWithFalseLeft
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldEqWithSameNumbers
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldBitXorWithNumbers
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testAddStringWithEmptyString
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldVoidWithNumber
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldEqWithDifferentNumbers
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldGeWithNumbers
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldShneWithDifferentNumbers
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldNeWithSameNumbers
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldSheqWithSameNumbers
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldDivByZero
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldMulWithTwoNumbers
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldNotWithFalseChild
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldLtWithNumbers
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testInstanceOfWithNonConstructor
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldNeWithDifferentNumbers
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldDivWithTwoNumbers
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldBitAndWithNumbers
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldBitOrWithNumbers
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldNegWithNumber
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testShiftWithZeroAmount
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldOrWithTrueLeft
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldLtWithEqualNumbers
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldPosWithNumber
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testVoidWithZero
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldModWithZeroDivisor
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldSubWithTwoNumbers
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldGtWithNumbers
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldAddWithNumberAndString
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldBitNotWithNumber
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldAddWithTwoNumbers
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldLeWithNumbers
+[exit 0]
