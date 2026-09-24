@@ -1,0 +1,2 @@
+"round","project","bug_id","seed","budget","tests","coverage","line_cov","branch_cov","total_goals","covered_goals","lines","covered_lines","total_branches","covered_branches","buggy_result","buggy_fails","fixed_result","fixed_fails","verdict"
+1,"Mockito",13,20260918,60,5,63.16,65,58.82,57,33,8,26,10,3,"PASS",0,"PASS",0,"NOT_REVEALING"

@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-24T18:12:40Z",
+  "round": 2,
+  "project": "Mockito",
+  "bug_id": 30,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 49,
+  "coverage": 53.22,
+  "line_cov": 51.92,
+  "branch_cov": 54.53,
+  "total_goals": 177,
+  "covered_goals": 136,
+  "lines": 56,
+  "covered_lines": 83,
+  "total_branches": 16,
+  "covered_branches": 8,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "NOT_RUN",
+  "fixed_fails": null,
+  "verdict": "NOT_AVAILABLE",
+  "targets": [
+    {
+      "target_class": "org.mockito.exceptions.Reporter",
+      "generation_result": "PASS",
+      "generation_seconds": 81,
+      "tests": 48,
+      "coverage": 92.30,
+      "line_cov": 88.04,
+      "branch_cov": 96.55,
+      "total_goals": 150,
+      "covered_goals": 132,
+      "lines": 51,
+      "covered_lines": 80,
+      "total_branches": 10,
+      "covered_branches": 8,
+      "total_methods": 51,
+      "covered_methods": 51,
+      "branchless_methods": 48,
+      "covered_branchless_methods": 48
+    },
+    {
+      "target_class": "org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls",
+      "generation_result": "PASS",
+      "generation_seconds": 67,
+      "tests": 1,
+      "coverage": 14.14,
+      "line_cov": 15.79,
+      "branch_cov": 12.50,
+      "total_goals": 27,
+      "covered_goals": 4,
+      "lines": 5,
+      "covered_lines": 3,
+      "total_branches": 6,
+      "covered_branches": 0,
+      "total_methods": 4,
+      "covered_methods": 2,
+      "branchless_methods": 2,
+      "covered_branchless_methods": 1
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "NOT_RUN",
+      "failures": null
+    }
+  ]
+}

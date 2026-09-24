@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-24T18:06:56Z",
+  "round": 2,
+  "project": "Mockito",
+  "bug_id": 22,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 7,
+  "coverage": 55.77,
+  "line_cov": 69.23,
+  "branch_cov": 42.31,
+  "total_goals": 39,
+  "covered_goals": 20,
+  "lines": 6,
+  "covered_lines": 9,
+  "total_branches": 24,
+  "covered_branches": 9,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.mockito.internal.matchers.Equality",
+      "generation_result": "PASS",
+      "generation_seconds": 66,
+      "tests": 7,
+      "coverage": 55.77,
+      "line_cov": 69.23,
+      "branch_cov": 42.31,
+      "total_goals": 39,
+      "covered_goals": 20,
+      "lines": 6,
+      "covered_lines": 9,
+      "total_branches": 24,
+      "covered_branches": 9,
+      "total_methods": 6,
+      "covered_methods": 6,
+      "branchless_methods": 2,
+      "covered_branchless_methods": 2
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}
