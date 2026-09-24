@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-24T10:57:46Z",
+  "round": 2,
+  "project": "Math",
+  "bug_id": 50,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 19,
+  "coverage": 93.52,
+  "line_cov": 92.75,
+  "branch_cov": 94.29,
+  "total_goals": 139,
+  "covered_goals": 130,
+  "lines": 8,
+  "covered_lines": 64,
+  "total_branches": 64,
+  "covered_branches": 60,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+      "generation_result": "PASS",
+      "generation_seconds": 92,
+      "tests": 19,
+      "coverage": 93.52,
+      "line_cov": 92.75,
+      "branch_cov": 94.29,
+      "total_goals": 139,
+      "covered_goals": 130,
+      "lines": 8,
+      "covered_lines": 64,
+      "total_branches": 64,
+      "covered_branches": 60,
+      "total_methods": 7,
+      "covered_methods": 7,
+      "branchless_methods": 6,
+      "covered_branchless_methods": 6
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}

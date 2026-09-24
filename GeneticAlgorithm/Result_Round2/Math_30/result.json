@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-24T10:45:12Z",
+  "round": 2,
+  "project": "Math",
+  "bug_id": 30,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 5,
+  "coverage": 100,
+  "line_cov": 100,
+  "branch_cov": 100,
+  "total_goals": 49,
+  "covered_goals": 49,
+  "lines": 7,
+  "covered_lines": 34,
+  "total_branches": 10,
+  "covered_branches": 10,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.math3.stat.inference.MannWhitneyUTest",
+      "generation_result": "PASS",
+      "generation_seconds": 13,
+      "tests": 5,
+      "coverage": 100.00,
+      "line_cov": 100.00,
+      "branch_cov": 100.00,
+      "total_goals": 49,
+      "covered_goals": 49,
+      "lines": 7,
+      "covered_lines": 34,
+      "total_branches": 10,
+      "covered_branches": 10,
+      "total_methods": 7,
+      "covered_methods": 7,
+      "branchless_methods": 5,
+      "covered_branchless_methods": 5
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}

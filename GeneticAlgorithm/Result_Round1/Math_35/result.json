@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-24T10:31:01Z",
+  "round": 1,
+  "project": "Math",
+  "bug_id": 35,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 5,
+  "coverage": 100,
+  "line_cov": 100,
+  "branch_cov": 100,
+  "total_goals": 29,
+  "covered_goals": 29,
+  "lines": 5,
+  "covered_lines": 19,
+  "total_branches": 6,
+  "covered_branches": 6,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "FAIL",
+  "fixed_fails": 3,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.math3.genetics.ElitisticListPopulation",
+      "generation_result": "PASS",
+      "generation_seconds": 27,
+      "tests": 5,
+      "coverage": 100.00,
+      "line_cov": 100.00,
+      "branch_cov": 100.00,
+      "total_goals": 29,
+      "covered_goals": 29,
+      "lines": 5,
+      "covered_lines": 19,
+      "total_branches": 6,
+      "covered_branches": 6,
+      "total_methods": 5,
+      "covered_methods": 5,
+      "branchless_methods": 3,
+      "covered_branchless_methods": 3
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 3
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-24T10:36:07Z",
+  "round": 1,
+  "project": "Math",
+  "bug_id": 42,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 19,
+  "coverage": 92.96,
+  "line_cov": 95.08,
+  "branch_cov": 90.85,
+  "total_goals": 325,
+  "covered_goals": 303,
+  "lines": 32,
+  "covered_lines": 174,
+  "total_branches": 124,
+  "covered_branches": 113,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "FAIL",
+  "fixed_fails": 1,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+      "generation_result": "PASS",
+      "generation_seconds": 96,
+      "tests": 19,
+      "coverage": 92.96,
+      "line_cov": 95.08,
+      "branch_cov": 90.85,
+      "total_goals": 325,
+      "covered_goals": 303,
+      "lines": 32,
+      "covered_lines": 174,
+      "total_branches": 124,
+      "covered_branches": 113,
+      "total_methods": 32,
+      "covered_methods": 30,
+      "branchless_methods": 18,
+      "covered_branchless_methods": 16
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 1
+    }
+  ]
+}

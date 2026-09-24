@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-24T10:47:11Z",
+  "round": 2,
+  "project": "Math",
+  "bug_id": 32,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 7,
+  "coverage": 86.85,
+  "line_cov": 89.82,
+  "branch_cov": 83.87,
+  "total_goals": 260,
+  "covered_goals": 226,
+  "lines": 20,
+  "covered_lines": 150,
+  "total_branches": 80,
+  "covered_branches": 66,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet",
+      "generation_result": "PASS",
+      "generation_seconds": 74,
+      "tests": 7,
+      "coverage": 86.85,
+      "line_cov": 89.82,
+      "branch_cov": 83.87,
+      "total_goals": 260,
+      "covered_goals": 226,
+      "lines": 20,
+      "covered_lines": 150,
+      "total_branches": 80,
+      "covered_branches": 66,
+      "total_methods": 20,
+      "covered_methods": 18,
+      "branchless_methods": 13,
+      "covered_branchless_methods": 12
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}

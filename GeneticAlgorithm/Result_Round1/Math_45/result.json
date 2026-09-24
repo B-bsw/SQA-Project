@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-24T10:37:25Z",
+  "round": 1,
+  "project": "Math",
+  "bug_id": 45,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 8,
+  "coverage": 63.93,
+  "line_cov": 69.79,
+  "branch_cov": 58.06,
+  "total_goals": 127,
+  "covered_goals": 85,
+  "lines": 16,
+  "covered_lines": 67,
+  "total_branches": 22,
+  "covered_branches": 9,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "FAIL",
+  "fixed_fails": 3,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.math.linear.OpenMapRealMatrix",
+      "generation_result": "PASS",
+      "generation_seconds": 77,
+      "tests": 8,
+      "coverage": 63.93,
+      "line_cov": 69.79,
+      "branch_cov": 58.06,
+      "total_goals": 127,
+      "covered_goals": 85,
+      "lines": 16,
+      "covered_lines": 67,
+      "total_branches": 22,
+      "covered_branches": 9,
+      "total_methods": 16,
+      "covered_methods": 16,
+      "branchless_methods": 9,
+      "covered_branchless_methods": 9
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 3
+    }
+  ]
+}

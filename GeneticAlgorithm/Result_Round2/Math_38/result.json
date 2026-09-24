@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-24T10:50:32Z",
+  "round": 2,
+  "project": "Math",
+  "bug_id": 38,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 2,
+  "coverage": 0.49,
+  "line_cov": 0.67,
+  "branch_cov": 0.31,
+  "total_goals": 1850,
+  "covered_goals": 10,
+  "lines": 15,
+  "covered_lines": 8,
+  "total_branches": 644,
+  "covered_branches": 0,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.math.optimization.direct.BOBYQAOptimizer",
+      "generation_result": "PASS",
+      "generation_seconds": 78,
+      "tests": 2,
+      "coverage": 0.49,
+      "line_cov": 0.67,
+      "branch_cov": 0.31,
+      "total_goals": 1850,
+      "covered_goals": 10,
+      "lines": 15,
+      "covered_lines": 8,
+      "total_branches": 644,
+      "covered_branches": 0,
+      "total_methods": 15,
+      "covered_methods": 3,
+      "branchless_methods": 7,
+      "covered_branchless_methods": 2
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}
