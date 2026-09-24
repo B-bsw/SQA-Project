@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-24T14:41:33Z",
+  "round": 1,
+  "project": "Math",
+  "bug_id": 78,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 12,
+  "coverage": 76.55,
+  "line_cov": 80.68,
+  "branch_cov": 68.97,
+  "total_goals": 146,
+  "covered_goals": 93,
+  "lines": 12,
+  "covered_lines": 71,
+  "total_branches": 50,
+  "covered_branches": 32,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.math.ode.events.EventState",
+      "generation_result": "PASS",
+      "generation_seconds": 75,
+      "tests": 12,
+      "coverage": 76.55,
+      "line_cov": 80.68,
+      "branch_cov": 68.97,
+      "total_goals": 146,
+      "covered_goals": 93,
+      "lines": 12,
+      "covered_lines": 71,
+      "total_branches": 50,
+      "covered_branches": 32,
+      "total_methods": 13,
+      "covered_methods": 13,
+      "branchless_methods": 8,
+      "covered_branchless_methods": 8
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}

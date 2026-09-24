@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-24T14:38:12Z",
+  "round": 1,
+  "project": "Math",
+  "bug_id": 73,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 15,
+  "coverage": 100,
+  "line_cov": 100,
+  "branch_cov": 100,
+  "total_goals": 160,
+  "covered_goals": 160,
+  "lines": 7,
+  "covered_lines": 104,
+  "total_branches": 52,
+  "covered_branches": 52,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "FAIL",
+  "fixed_fails": 1,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.math.analysis.solvers.BrentSolver",
+      "generation_result": "PASS",
+      "generation_seconds": 63,
+      "tests": 15,
+      "coverage": 100.00,
+      "line_cov": 100.00,
+      "branch_cov": 100.00,
+      "total_goals": 160,
+      "covered_goals": 160,
+      "lines": 7,
+      "covered_lines": 104,
+      "total_branches": 52,
+      "covered_branches": 52,
+      "total_methods": 7,
+      "covered_methods": 7,
+      "branchless_methods": 4,
+      "covered_branchless_methods": 4
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 1
+    }
+  ]
+}

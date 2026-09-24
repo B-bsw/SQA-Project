@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-24T14:32:19Z",
+  "round": 1,
+  "project": "Math",
+  "bug_id": 59,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 163,
+  "coverage": 76.35,
+  "line_cov": 77.92,
+  "branch_cov": 74.78,
+  "total_goals": 2190,
+  "covered_goals": 1685,
+  "lines": 68,
+  "covered_lines": 1175,
+  "total_branches": 662,
+  "covered_branches": 493,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "FAIL",
+  "fixed_fails": 1,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.math.util.FastMath",
+      "generation_result": "PASS",
+      "generation_seconds": 152,
+      "tests": 163,
+      "coverage": 76.35,
+      "line_cov": 77.92,
+      "branch_cov": 74.78,
+      "total_goals": 2190,
+      "covered_goals": 1685,
+      "lines": 68,
+      "covered_lines": 1175,
+      "total_branches": 662,
+      "covered_branches": 493,
+      "total_methods": 67,
+      "covered_methods": 55,
+      "branchless_methods": 20,
+      "covered_branchless_methods": 17
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 1
+    }
+  ]
+}

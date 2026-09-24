@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-24T14:32:06Z",
+  "round": 1,
+  "project": "Math",
+  "bug_id": 61,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 14,
+  "coverage": 100,
+  "line_cov": 100,
+  "branch_cov": 100,
+  "total_goals": 54,
+  "covered_goals": 54,
+  "lines": 11,
+  "covered_lines": 34,
+  "total_branches": 12,
+  "covered_branches": 12,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "FAIL",
+  "fixed_fails": 1,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.math.distribution.PoissonDistributionImpl",
+      "generation_result": "PASS",
+      "generation_seconds": 26,
+      "tests": 14,
+      "coverage": 100.00,
+      "line_cov": 100.00,
+      "branch_cov": 100.00,
+      "total_goals": 54,
+      "covered_goals": 54,
+      "lines": 11,
+      "covered_lines": 34,
+      "total_branches": 12,
+      "covered_branches": 12,
+      "total_methods": 11,
+      "covered_methods": 11,
+      "branchless_methods": 8,
+      "covered_branchless_methods": 8
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 1
+    }
+  ]
+}

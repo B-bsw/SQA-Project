@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-24T14:31:16Z",
+  "round": 1,
+  "project": "Math",
+  "bug_id": 58,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 10,
+  "coverage": 90.56,
+  "line_cov": 87.1,
+  "branch_cov": 94.03,
+  "total_goals": 160,
+  "covered_goals": 143,
+  "lines": 14,
+  "covered_lines": 81,
+  "total_branches": 58,
+  "covered_branches": 56,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.math.optimization.fitting.GaussianFitter",
+      "generation_result": "PASS",
+      "generation_seconds": 82,
+      "tests": 10,
+      "coverage": 90.56,
+      "line_cov": 87.10,
+      "branch_cov": 94.03,
+      "total_goals": 160,
+      "covered_goals": 143,
+      "lines": 14,
+      "covered_lines": 81,
+      "total_branches": 58,
+      "covered_branches": 56,
+      "total_methods": 16,
+      "covered_methods": 14,
+      "branchless_methods": 9,
+      "covered_branchless_methods": 7
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}

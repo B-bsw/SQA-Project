@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-24T14:39:09Z",
+  "round": 1,
+  "project": "Math",
+  "bug_id": 74,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 6,
+  "coverage": 55.75,
+  "line_cov": 63.11,
+  "branch_cov": 48.39,
+  "total_goals": 184,
+  "covered_goals": 105,
+  "lines": 9,
+  "covered_lines": 77,
+  "total_branches": 54,
+  "covered_branches": 22,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator",
+      "generation_result": "PASS",
+      "generation_seconds": 114,
+      "tests": 6,
+      "coverage": 55.75,
+      "line_cov": 63.11,
+      "branch_cov": 48.39,
+      "total_goals": 184,
+      "covered_goals": 105,
+      "lines": 9,
+      "covered_lines": 77,
+      "total_branches": 54,
+      "covered_branches": 22,
+      "total_methods": 9,
+      "covered_methods": 9,
+      "branchless_methods": 8,
+      "covered_branchless_methods": 8
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}
