@@ -1,0 +1,22 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/randoop-Chart_9-ron3k_v3/Chart_9-randoop.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 16
+  - org.jfree.data.time.ErrorTest0::test1
+  - org.jfree.data.time.ErrorTest0::test2
+  - org.jfree.data.time.ErrorTest0::test3
+  - org.jfree.data.time.ErrorTest0::test4
+  - org.jfree.data.time.ErrorTest0::test5
+  - org.jfree.data.time.ErrorTest0::test6
+  - org.jfree.data.time.ErrorTest0::test7
+  - org.jfree.data.time.ErrorTest0::test8
+  - org.jfree.data.time.ErrorTest0::test1
+  - org.jfree.data.time.ErrorTest0::test2
+  - org.jfree.data.time.ErrorTest0::test3
+  - org.jfree.data.time.ErrorTest0::test4
+  - org.jfree.data.time.ErrorTest0::test5
+  - org.jfree.data.time.ErrorTest0::test6
+  - org.jfree.data.time.ErrorTest0::test7
+  - org.jfree.data.time.ErrorTest0::test8
+[exit 0]

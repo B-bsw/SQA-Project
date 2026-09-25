@@ -1,0 +1,16 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/randoop-Cli_40-udvbxhkp/Cli_40-randoop.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 10
+  - org.apache.commons.cli.RegressionTest0::test0018
+  - org.apache.commons.cli.RegressionTest0::test0055
+  - org.apache.commons.cli.RegressionTest1::test0589
+  - org.apache.commons.cli.RegressionTest2::test1252
+  - org.apache.commons.cli.RegressionTest5::test2857
+  - org.apache.commons.cli.RegressionTest0::test0018
+  - org.apache.commons.cli.RegressionTest0::test0055
+  - org.apache.commons.cli.RegressionTest1::test0589
+  - org.apache.commons.cli.RegressionTest2::test1252
+  - org.apache.commons.cli.RegressionTest5::test2857
+[exit 0]

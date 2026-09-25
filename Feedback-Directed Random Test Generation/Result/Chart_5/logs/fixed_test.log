@@ -1,0 +1,42 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/randoop-Chart_5-3a0bp4d_/Chart_5-randoop.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 36
+  - org.jfree.data.xy.RegressionTest0::test0102
+  - org.jfree.data.xy.RegressionTest0::test0113
+  - org.jfree.data.xy.RegressionTest0::test0175
+  - org.jfree.data.xy.RegressionTest0::test0269
+  - org.jfree.data.xy.RegressionTest0::test0390
+  - org.jfree.data.xy.RegressionTest0::test0429
+  - org.jfree.data.xy.RegressionTest1::test0524
+  - org.jfree.data.xy.RegressionTest1::test0637
+  - org.jfree.data.xy.RegressionTest1::test0871
+  - org.jfree.data.xy.RegressionTest1::test0962
+  - org.jfree.data.xy.RegressionTest1::test0966
+  - org.jfree.data.xy.RegressionTest2::test1021
+  - org.jfree.data.xy.RegressionTest2::test1156
+  - org.jfree.data.xy.RegressionTest3::test1789
+  - org.jfree.data.xy.RegressionTest3::test1809
+  - org.jfree.data.xy.RegressionTest4::test2006
+  - org.jfree.data.xy.RegressionTest4::test2432
+  - org.jfree.data.xy.RegressionTest5::test2662
+  - org.jfree.data.xy.RegressionTest0::test0102
+  - org.jfree.data.xy.RegressionTest0::test0113
+  - org.jfree.data.xy.RegressionTest0::test0175
+  - org.jfree.data.xy.RegressionTest0::test0269
+  - org.jfree.data.xy.RegressionTest0::test0390
+  - org.jfree.data.xy.RegressionTest0::test0429
+  - org.jfree.data.xy.RegressionTest1::test0524
+  - org.jfree.data.xy.RegressionTest1::test0637
+  - org.jfree.data.xy.RegressionTest1::test0871
+  - org.jfree.data.xy.RegressionTest1::test0962
+  - org.jfree.data.xy.RegressionTest1::test0966
+  - org.jfree.data.xy.RegressionTest2::test1021
+  - org.jfree.data.xy.RegressionTest2::test1156
+  - org.jfree.data.xy.RegressionTest3::test1789
+  - org.jfree.data.xy.RegressionTest3::test1809
+  - org.jfree.data.xy.RegressionTest4::test2006
+  - org.jfree.data.xy.RegressionTest4::test2432
+  - org.jfree.data.xy.RegressionTest5::test2662
+[exit 0]

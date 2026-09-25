@@ -1,0 +1,14 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j coverage -s /tmp/randoop-Cli_37-gcgxt42q/Cli_37-randoop.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (coverage.instrument).......................................... OK
+Running ant (run.gen.tests)................................................ OK
+Running ant (coverage.report).............................................. OK
+WARNING: Some tests failed (see /tmp/randoop-Cli_37-gcgxt42q/buggy/failing_tests)!
+       Lines total: 187
+     Lines covered: 13
+  Conditions total: 158
+Conditions covered: 2
+     Line coverage: 7.0%
+Condition coverage: 1.3%
+[exit 0]

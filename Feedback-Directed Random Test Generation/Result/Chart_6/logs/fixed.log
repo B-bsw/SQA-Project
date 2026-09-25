@@ -1,0 +1,18 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j checkout -p Chart -v 6f -w /tmp/randoop-Chart_6-2hsy2ixu/fixed
+Checking out 1166 to /tmp/randoop-Chart_6-2hsy2ixu/fixed................... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 1166:1164............................................................. OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Chart-6f........................................ OK
+[exit 0]
+$ /home/face/defect4j/defects4j/framework/bin/defects4j compile -w /tmp/randoop-Chart_6-2hsy2ixu/fixed
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+[exit 0]

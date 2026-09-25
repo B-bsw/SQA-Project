@@ -1,0 +1,13 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j coverage -s /tmp/randoop-Chart_26-iw5c6bbs/Chart_26-randoop.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (coverage.instrument).......................................... OK
+Running ant (run.gen.tests)................................................ OK
+Running ant (coverage.report).............................................. OK
+       Lines total: 350
+     Lines covered: 10
+  Conditions total: 128
+Conditions covered: 0
+     Line coverage: 2.9%
+Condition coverage: 0.0%
+[exit 0]

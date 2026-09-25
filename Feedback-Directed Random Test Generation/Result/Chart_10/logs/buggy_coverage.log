@@ -1,0 +1,13 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j coverage -s /tmp/randoop-Chart_10-gonul_k6/Chart_10-randoop.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (coverage.instrument).......................................... OK
+Running ant (run.gen.tests)................................................ OK
+Running ant (coverage.report).............................................. OK
+       Lines total: 3
+     Lines covered: 3
+  Conditions total: 0
+Conditions covered: 0
+     Line coverage: 100.0%
+Condition coverage: 0.0%
+[exit 0]

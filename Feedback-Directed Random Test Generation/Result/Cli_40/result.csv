@@ -1,0 +1,2 @@
+"project","bug_id","seed","budget","tests","coverage","line_cov","branch_cov","total_goals","covered_goals","lines","covered_lines","total_branches","covered_branches","buggy_result","buggy_fails","fixed_result","fixed_fails","verdict"
+"Cli",40,20260918,60,3668,69.23,73.33,60.0,65,45,45,33,20,12,"PASS",0,"FAIL",10,"INCONCLUSIVE"

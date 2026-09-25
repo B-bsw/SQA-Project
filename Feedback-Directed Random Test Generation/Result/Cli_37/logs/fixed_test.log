@@ -1,0 +1,54 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j test -s /tmp/randoop-Cli_37-gcgxt42q/Cli_37-randoop.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Failing tests: 48
+  - org.apache.commons.cli.ErrorTest0::test01
+  - org.apache.commons.cli.ErrorTest0::test02
+  - org.apache.commons.cli.ErrorTest0::test03
+  - org.apache.commons.cli.ErrorTest0::test04
+  - org.apache.commons.cli.ErrorTest0::test05
+  - org.apache.commons.cli.ErrorTest0::test06
+  - org.apache.commons.cli.ErrorTest0::test07
+  - org.apache.commons.cli.ErrorTest0::test08
+  - org.apache.commons.cli.ErrorTest0::test09
+  - org.apache.commons.cli.ErrorTest0::test10
+  - org.apache.commons.cli.ErrorTest0::test11
+  - org.apache.commons.cli.ErrorTest0::test12
+  - org.apache.commons.cli.ErrorTest0::test13
+  - org.apache.commons.cli.ErrorTest0::test14
+  - org.apache.commons.cli.ErrorTest0::test15
+  - org.apache.commons.cli.ErrorTest0::test16
+  - org.apache.commons.cli.ErrorTest0::test17
+  - org.apache.commons.cli.ErrorTest0::test18
+  - org.apache.commons.cli.ErrorTest0::test19
+  - org.apache.commons.cli.ErrorTest0::test20
+  - org.apache.commons.cli.ErrorTest0::test21
+  - org.apache.commons.cli.ErrorTest0::test22
+  - org.apache.commons.cli.ErrorTest0::test23
+  - org.apache.commons.cli.ErrorTest0::test24
+  - org.apache.commons.cli.ErrorTest0::test01
+  - org.apache.commons.cli.ErrorTest0::test02
+  - org.apache.commons.cli.ErrorTest0::test03
+  - org.apache.commons.cli.ErrorTest0::test04
+  - org.apache.commons.cli.ErrorTest0::test05
+  - org.apache.commons.cli.ErrorTest0::test06
+  - org.apache.commons.cli.ErrorTest0::test07
+  - org.apache.commons.cli.ErrorTest0::test08
+  - org.apache.commons.cli.ErrorTest0::test09
+  - org.apache.commons.cli.ErrorTest0::test10
+  - org.apache.commons.cli.ErrorTest0::test11
+  - org.apache.commons.cli.ErrorTest0::test12
+  - org.apache.commons.cli.ErrorTest0::test13
+  - org.apache.commons.cli.ErrorTest0::test14
+  - org.apache.commons.cli.ErrorTest0::test15
+  - org.apache.commons.cli.ErrorTest0::test16
+  - org.apache.commons.cli.ErrorTest0::test17
+  - org.apache.commons.cli.ErrorTest0::test18
+  - org.apache.commons.cli.ErrorTest0::test19
+  - org.apache.commons.cli.ErrorTest0::test20
+  - org.apache.commons.cli.ErrorTest0::test21
+  - org.apache.commons.cli.ErrorTest0::test22
+  - org.apache.commons.cli.ErrorTest0::test23
+  - org.apache.commons.cli.ErrorTest0::test24
+[exit 0]

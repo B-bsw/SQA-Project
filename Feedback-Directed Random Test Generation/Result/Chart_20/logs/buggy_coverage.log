@@ -1,0 +1,14 @@
+$ /home/face/defect4j/defects4j/framework/bin/defects4j coverage -s /tmp/randoop-Chart_20-1bvhpfjk/Chart_20-randoop.tar.bz2
+Extract test suite......................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (coverage.instrument).......................................... OK
+Running ant (run.gen.tests)................................................ OK
+Running ant (coverage.report).............................................. OK
+WARNING: Some tests failed (see /tmp/randoop-Chart_20-1bvhpfjk/buggy/failing_tests)!
+       Lines total: 22
+     Lines covered: 20
+  Conditions total: 8
+Conditions covered: 6
+     Line coverage: 90.9%
+Condition coverage: 75.0%
+[exit 0]
