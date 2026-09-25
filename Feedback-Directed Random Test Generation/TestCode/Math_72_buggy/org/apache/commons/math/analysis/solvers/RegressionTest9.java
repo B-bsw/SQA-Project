@@ -1,0 +1,12464 @@
+package org.apache.commons.math.analysis.solvers;
+
+import org.junit.FixMethodOrder;
+import org.junit.Test;
+import org.junit.runners.MethodSorters;
+
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+public class RegressionTest9 {
+
+    public static boolean debug = false;
+
+    public void assertBooleanArrayEquals(boolean[] expectedArray, boolean[] actualArray) {
+        if (expectedArray.length != actualArray.length) {
+            throw new AssertionError("Array lengths differ: " + expectedArray.length + " != " + actualArray.length);
+        }
+        for (int i = 0; i < expectedArray.length; i++) {
+            if (expectedArray[i] != actualArray[i]) {
+                throw new AssertionError("Arrays differ at index " + i + ": " + expectedArray[i] + " != " + actualArray[i]);
+            }
+        }
+    }
+
+    @Test
+    public void test4501() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4501");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        double double19 = brentSolver0.getFunctionValueAccuracy();
+        double double20 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 52.0d + "'", double19 == 52.0d);
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 1.0E-14d + "'", double20 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4502() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4502");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double6 = brentSolver0.getAbsoluteAccuracy();
+        int int7 = brentSolver0.getIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double6 + "' != '" + 1.0E-6d + "'", double6 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
+    }
+
+    @Test
+    public void test4503() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4503");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 0);
+        brentSolver0.setMaximalIterationCount(0);
+        int int14 = brentSolver0.getIterationCount();
+        double double15 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy(100.0d);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 0.0f);
+        double double22 = brentSolver0.getAbsoluteAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double26 = brentSolver0.solve(100.0d, (double) (byte) 0, 0.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 100.0d + "'", double9 == 100.0d);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-14d + "'", double15 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 1.0E-6d + "'", double22 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4504() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4504");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount(0);
+        int int13 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy(32.0d);
+        brentSolver0.setRelativeAccuracy((double) 1);
+        brentSolver0.setFunctionValueAccuracy((double) 10.0f);
+        brentSolver0.setMaximalIterationCount((int) (short) 100);
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 0 + "'", int13 == 0);
+    }
+
+    @Test
+    public void test4505() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4505");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        double double3 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        int int5 = brentSolver0.getMaximalIterationCount();
+        double double6 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 'a');
+        int int9 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-15d + "'", double3 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 100 + "'", int5 == 100);
+        org.junit.Assert.assertTrue("'" + double6 + "' != '" + (-1.0d) + "'", double6 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 100 + "'", int9 == 100);
+    }
+
+    @Test
+    public void test4506() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4506");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        double double6 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double6 + "' != '" + 1.0E-15d + "'", double6 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4507() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4507");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        double double19 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) 0);
+        double double23 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + (-1.0d) + "'", double17 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + (-1.0d) + "'", double19 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + 10.0d + "'", double23 == 10.0d);
+    }
+
+    @Test
+    public void test4508() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4508");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 10);
+        brentSolver0.setAbsoluteAccuracy(1.0d);
+        int int20 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) 0L);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
+    }
+
+    @Test
+    public void test4509() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4509");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        double double11 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double13 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount(52);
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + (-1.0d) + "'", double11 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + 10.0d + "'", double13 == 10.0d);
+    }
+
+    @Test
+    public void test4510() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4510");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 52);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 0);
+        double double19 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 1.0E-14d + "'", double16 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 1.0E-14d + "'", double19 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4511() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4511");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount(0);
+        double double13 = brentSolver0.getRelativeAccuracy();
+        int int14 = brentSolver0.getMaximalIterationCount();
+        double double15 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy(52.0d);
+        int int19 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + 1.0E-14d + "'", double13 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 10.0d + "'", double15 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 0 + "'", int19 == 0);
+    }
+
+    @Test
+    public void test4512() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4512");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 0);
+        brentSolver0.setMaximalIterationCount(0);
+        int int14 = brentSolver0.getIterationCount();
+        double double15 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 1.0f);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double21 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 100.0d + "'", double9 == 100.0d);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-14d + "'", double15 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4513() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4513");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double12 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy(35.0d);
+        java.lang.Class<?> wildcardClass15 = brentSolver0.getClass();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0E-14d + "'", double12 == 1.0E-14d);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test4514() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4514");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        double double13 = brentSolver0.getAbsoluteAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        int int15 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double18 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        // The following exception was thrown during execution in test generation
+        try {
+            double double21 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + (-1.0d) + "'", double13 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 10.0d + "'", double14 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + (-1) + "'", int15 == (-1));
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 10.0d + "'", double18 == 10.0d);
+    }
+
+    @Test
+    public void test4515() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4515");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        double double3 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 100);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount(32);
+        int int9 = brentSolver0.getIterationCount();
+        java.lang.Class<?> wildcardClass10 = brentSolver0.getClass();
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-15d + "'", double3 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertNotNull(wildcardClass10);
+    }
+
+    @Test
+    public void test4516() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4516");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double15 = brentSolver0.getRelativeAccuracy();
+        int int16 = brentSolver0.getIterationCount();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 1);
+        double double19 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-14d + "'", double15 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 1.0d + "'", double19 == 1.0d);
+    }
+
+    @Test
+    public void test4517() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4517");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        int int13 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy(1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 100 + "'", int13 == 100);
+    }
+
+    @Test
+    public void test4518() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4518");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        double double11 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        double double13 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double15 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + (-1.0d) + "'", double9 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + 1.0E-15d + "'", double11 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + 1.0E-14d + "'", double13 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-15d + "'", double15 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4519() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4519");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy(1.0E-15d);
+        double double21 = brentSolver0.getFunctionValueAccuracy();
+        double double22 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 52.0d + "'", double21 == 52.0d);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 52.0d + "'", double22 == 52.0d);
+    }
+
+    @Test
+    public void test4520() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4520");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double11 = brentSolver0.solve(100.0d, (double) (byte) 1);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+    }
+
+    @Test
+    public void test4521() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4521");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 1L);
+        brentSolver0.setAbsoluteAccuracy(1.0d);
+    }
+
+    @Test
+    public void test4522() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4522");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 97);
+        brentSolver0.setAbsoluteAccuracy((double) (byte) 100);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy(0.0d);
+    }
+
+    @Test
+    public void test4523() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4523");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) '#');
+        brentSolver0.setMaximalIterationCount(10);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 52.0d + "'", double16 == 52.0d);
+    }
+
+    @Test
+    public void test4524() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4524");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        double double17 = brentSolver0.getRelativeAccuracy();
+        int int18 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy(10.0d);
+        double double21 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        double double23 = brentSolver0.getFunctionValueAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction24 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double28 = brentSolver0.solve(univariateRealFunction24, 100.0d, 52.0d, 35.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 52 + "'", int18 == 52);
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 52.0d + "'", double21 == 52.0d);
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + 52.0d + "'", double23 == 52.0d);
+    }
+
+    @Test
+    public void test4525() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4525");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) 0);
+        brentSolver0.setAbsoluteAccuracy(32.0d);
+        double double19 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (byte) 1);
+        double double22 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 1.0E-15d + "'", double19 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 1.0d + "'", double22 == 1.0d);
+    }
+
+    @Test
+    public void test4526() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4526");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 1.0f);
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        int int10 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double15 = brentSolver0.getRelativeAccuracy();
+        int int16 = brentSolver0.getIterationCount();
+        brentSolver0.setFunctionValueAccuracy((double) (-1.0f));
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-14d + "'", double15 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
+    }
+
+    @Test
+    public void test4527() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4527");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double12 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) '4');
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        java.lang.Class<?> wildcardClass17 = brentSolver0.getClass();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0E-15d + "'", double12 == 1.0E-15d);
+        org.junit.Assert.assertNotNull(wildcardClass17);
+    }
+
+    @Test
+    public void test4528() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4528");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        double double12 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 100);
+        brentSolver0.setAbsoluteAccuracy((double) (-1.0f));
+        brentSolver0.setAbsoluteAccuracy(0.0d);
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0E-14d + "'", double12 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4529() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4529");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 52.0d + "'", double17 == 52.0d);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+    }
+
+    @Test
+    public void test4530() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4530");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 0);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        double double17 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double19 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 97);
+        double double23 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int25 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy(0.0d);
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction28 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double32 = brentSolver0.solve(univariateRealFunction28, (double) 100L, 10.0d, 35.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 0.0d + "'", double14 == 0.0d);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0E-6d + "'", double17 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 1.0E-6d + "'", double19 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + 97.0d + "'", double23 == 97.0d);
+        org.junit.Assert.assertTrue("'" + int25 + "' != '" + 0 + "'", int25 == 0);
+    }
+
+    @Test
+    public void test4531() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4531");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.setFunctionValueAccuracy(1.0d);
+        brentSolver0.setRelativeAccuracy((double) 0.0f);
+        brentSolver0.resetMaximalIterationCount();
+    }
+
+    @Test
+    public void test4532() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4532");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 52);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction15 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double18 = brentSolver0.solve(univariateRealFunction15, (double) 1.0f, 0.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + (-1.0d) + "'", double9 == (-1.0d));
+    }
+
+    @Test
+    public void test4533() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4533");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double10 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy(1.0E-15d);
+        brentSolver0.resetAbsoluteAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double17 = brentSolver0.solve((double) 1, (double) 0, (double) (short) -1);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 1.0E-15d + "'", double10 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4534() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4534");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getAbsoluteAccuracy();
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double19 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double21 = brentSolver0.getAbsoluteAccuracy();
+        int int22 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + (-1.0d) + "'", double16 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + (-1.0d) + "'", double17 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 10.0d + "'", double19 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + (-1.0d) + "'", double21 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int22 + "' != '" + 10 + "'", int22 == 10);
+    }
+
+    @Test
+    public void test4535() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4535");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        double double19 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) 0);
+        double double23 = brentSolver0.getRelativeAccuracy();
+        double double24 = brentSolver0.getRelativeAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double25 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + (-1.0d) + "'", double17 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + (-1.0d) + "'", double19 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + 10.0d + "'", double23 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double24 + "' != '" + 10.0d + "'", double24 == 10.0d);
+    }
+
+    @Test
+    public void test4536() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4536");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 10);
+        brentSolver0.setFunctionValueAccuracy((double) 0.0f);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double22 = brentSolver0.solve((double) (byte) 100, (double) (byte) 1);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+    }
+
+    @Test
+    public void test4537() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4537");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy(1.0E-15d);
+        double double21 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        double double23 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy((double) '4');
+        brentSolver0.setFunctionValueAccuracy((double) 100.0f);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 52.0d + "'", double21 == 52.0d);
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + 1.0E-14d + "'", double23 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4538() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4538");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        double double13 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 100.0f);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction19 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double23 = brentSolver0.solve(univariateRealFunction19, 1.0E-15d, (double) 1L, (double) (short) 0);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + (-1.0d) + "'", double13 == (-1.0d));
+    }
+
+    @Test
+    public void test4539() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4539");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) ' ');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) (-1.0f));
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction16 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double19 = brentSolver0.solve(univariateRealFunction16, 52.0d, (double) 97);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+            // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 100.0d + "'", double9 == 100.0d);
+    }
+
+    @Test
+    public void test4540() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4540");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int6 = brentSolver0.getIterationCount();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        double double8 = brentSolver0.getRelativeAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction9 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double13 = brentSolver0.solve(univariateRealFunction9, (double) 0L, (double) (-1), (double) 97);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 0 + "'", int6 == 0);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 1.0E-15d + "'", double7 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 1.0E-14d + "'", double8 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4541() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4541");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 100);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy(52.0d);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double24 = brentSolver0.solve(100.0d, 10.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+    }
+
+    @Test
+    public void test4542() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4542");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1));
+        int int12 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 1);
+        brentSolver0.resetFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 10.0d + "'", double8 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 100 + "'", int12 == 100);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+    }
+
+    @Test
+    public void test4543() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4543");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount(0);
+        int int13 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy(97.0d);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 0.0f);
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 0 + "'", int13 == 0);
+    }
+
+    @Test
+    public void test4544() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4544");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1));
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((-1.0d));
+        brentSolver0.resetAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 10.0d + "'", double8 == 10.0d);
+    }
+
+    @Test
+    public void test4545() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4545");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+    }
+
+    @Test
+    public void test4546() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4546");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 0);
+        brentSolver0.setMaximalIterationCount(0);
+        int int14 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy((-1.0d));
+        int int17 = brentSolver0.getIterationCount();
+        brentSolver0.setFunctionValueAccuracy((double) 0);
+        brentSolver0.resetRelativeAccuracy();
+        double double21 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 100.0d + "'", double9 == 100.0d);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 0.0d + "'", double21 == 0.0d);
+    }
+
+    @Test
+    public void test4547() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4547");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        double double17 = brentSolver0.getRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount(0);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount(0);
+        brentSolver0.setRelativeAccuracy((double) 100.0f);
+        double double26 = brentSolver0.getRelativeAccuracy();
+        int int27 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double26 + "' != '" + 100.0d + "'", double26 == 100.0d);
+        org.junit.Assert.assertTrue("'" + int27 + "' != '" + 0 + "'", int27 == 0);
+    }
+
+    @Test
+    public void test4548() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4548");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) ' ');
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        int int17 = brentSolver0.getMaximalIterationCount();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + (-1) + "'", int17 == (-1));
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+    }
+
+    @Test
+    public void test4549() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4549");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        double double12 = brentSolver0.getAbsoluteAccuracy();
+        int int13 = brentSolver0.getMaximalIterationCount();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + (-1.0d) + "'", double12 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + (-1) + "'", int13 == (-1));
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 10.0d + "'", double14 == 10.0d);
+    }
+
+    @Test
+    public void test4550() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4550");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 1.0f);
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        int int10 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        brentSolver0.resetMaximalIterationCount();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction14 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double18 = brentSolver0.solve(univariateRealFunction14, (double) 52, (double) (byte) -1, 0.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+    }
+
+    @Test
+    public void test4551() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4551");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.setRelativeAccuracy((double) 10L);
+        int int15 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.setAbsoluteAccuracy(97.0d);
+        brentSolver0.setAbsoluteAccuracy((double) (short) 0);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + (-1) + "'", int15 == (-1));
+    }
+
+    @Test
+    public void test4552() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4552");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        double double3 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 100);
+        brentSolver0.resetMaximalIterationCount();
+        int int7 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 100);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        double double12 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy(10.0d);
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-15d + "'", double3 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0E-14d + "'", double12 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4553() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4553");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) '#');
+        brentSolver0.setAbsoluteAccuracy(0.0d);
+        brentSolver0.setRelativeAccuracy(1.0E-14d);
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+    }
+
+    @Test
+    public void test4554() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4554");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        double double3 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy(0.0d);
+        brentSolver0.setRelativeAccuracy((double) (-1.0f));
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setFunctionValueAccuracy((double) ' ');
+        int int12 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-14d + "'", double3 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 100 + "'", int9 == 100);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 100 + "'", int12 == 100);
+    }
+
+    @Test
+    public void test4555() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4555");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 52.0d + "'", double18 == 52.0d);
+    }
+
+    @Test
+    public void test4556() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4556");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 10);
+        brentSolver0.setFunctionValueAccuracy((double) 0.0f);
+        brentSolver0.setAbsoluteAccuracy(0.0d);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+    }
+
+    @Test
+    public void test4557() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4557");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        double double4 = brentSolver0.getFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount(10);
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double4 + "' != '" + 1.0E-15d + "'", double4 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 1.0E-15d + "'", double7 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+    }
+
+    @Test
+    public void test4558() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4558");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        double double9 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 1.0E-14d + "'", double9 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4559() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4559");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        double double17 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction21 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double25 = brentSolver0.solve(univariateRealFunction21, (double) 1.0f, (double) (-1), (double) ' ');
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+    }
+
+    @Test
+    public void test4560() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4560");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        double double1 = brentSolver0.getAbsoluteAccuracy();
+        double double2 = brentSolver0.getAbsoluteAccuracy();
+        double double3 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy((double) ' ');
+        int int6 = brentSolver0.getIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double9 = brentSolver0.getFunctionValueAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double13 = brentSolver0.solve((double) 10.0f, (double) (byte) 1, (double) (-1));
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double1 + "' != '" + 1.0E-6d + "'", double1 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double2 + "' != '" + 1.0E-6d + "'", double2 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-14d + "'", double3 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 0 + "'", int6 == 0);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 1.0E-15d + "'", double9 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4561() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4561");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setRelativeAccuracy(100.0d);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int15 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 100 + "'", int15 == 100);
+    }
+
+    @Test
+    public void test4562() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4562");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        brentSolver0.setAbsoluteAccuracy((double) 10);
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy(0.0d);
+        int int19 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount(32);
+        int int22 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 52 + "'", int19 == 52);
+        org.junit.Assert.assertTrue("'" + int22 + "' != '" + 0 + "'", int22 == 0);
+    }
+
+    @Test
+    public void test4563() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4563");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setRelativeAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(1.0E-15d);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 1.0E-15d + "'", double18 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4564() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4564");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        double double4 = brentSolver0.getFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount(10);
+        double double11 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 97);
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double15 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double4 + "' != '" + 1.0E-15d + "'", double4 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 1.0E-15d + "'", double7 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + 1.0E-14d + "'", double11 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 1.0E-15d + "'", double14 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4565() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4565");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        double double3 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        int int5 = brentSolver0.getMaximalIterationCount();
+        double double6 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 100L);
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-15d + "'", double3 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 100 + "'", int5 == 100);
+        org.junit.Assert.assertTrue("'" + double6 + "' != '" + 1.0E-14d + "'", double6 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 1.0E-15d + "'", double8 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4566() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4566");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double10 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        int int12 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) (short) 1);
+        int int15 = brentSolver0.getIterationCount();
+        int int16 = brentSolver0.getIterationCount();
+        int int17 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 1.0E-15d + "'", double10 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + (-1) + "'", int12 == (-1));
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 0 + "'", int15 == 0);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + (-1) + "'", int17 == (-1));
+    }
+
+    @Test
+    public void test4567() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4567");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        int int18 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) ' ');
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + (-1.0d) + "'", double17 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 10 + "'", int18 == 10);
+    }
+
+    @Test
+    public void test4568() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4568");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        double double13 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double17 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + (-1.0d) + "'", double13 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + (-1.0d) + "'", double17 == (-1.0d));
+    }
+
+    @Test
+    public void test4569() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4569");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+    }
+
+    @Test
+    public void test4570() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4570");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double15 = brentSolver0.getRelativeAccuracy();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-14d + "'", double15 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 1.0E-14d + "'", double16 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4571() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4571");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        double double17 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) (short) -1);
+        brentSolver0.setRelativeAccuracy((double) (byte) 0);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + (-1.0d) + "'", double17 == (-1.0d));
+    }
+
+    @Test
+    public void test4572() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4572");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy(35.0d);
+    }
+
+    @Test
+    public void test4573() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4573");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy(1.0E-14d);
+        double double8 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 1.0f);
+        double double11 = brentSolver0.getFunctionValueAccuracy();
+        double double12 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 1.0E-14d + "'", double8 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + 1.0E-15d + "'", double11 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0E-15d + "'", double12 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4574() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4574");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.resetFunctionValueAccuracy();
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        int int15 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + (-1) + "'", int15 == (-1));
+    }
+
+    @Test
+    public void test4575() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4575");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 0);
+        brentSolver0.setMaximalIterationCount(0);
+        int int14 = brentSolver0.getIterationCount();
+        double double15 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 1.0f);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) 0);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 100.0d + "'", double9 == 100.0d);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-14d + "'", double15 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4576() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4576");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.resetRelativeAccuracy();
+        double double21 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) ' ');
+        double double24 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) 97);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double28 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 52.0d + "'", double21 == 52.0d);
+        org.junit.Assert.assertTrue("'" + double24 + "' != '" + 52.0d + "'", double24 == 52.0d);
+    }
+
+    @Test
+    public void test4577() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4577");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        double double1 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 0.0f);
+        brentSolver0.setAbsoluteAccuracy(0.0d);
+        int int6 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double1 + "' != '" + 1.0E-6d + "'", double1 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 100 + "'", int6 == 100);
+    }
+
+    @Test
+    public void test4578() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4578");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount(0);
+        brentSolver0.setMaximalIterationCount(0);
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+    }
+
+    @Test
+    public void test4579() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4579");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 0);
+        brentSolver0.setAbsoluteAccuracy((double) (short) 10);
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy(0.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (short) 1);
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 100.0d + "'", double9 == 100.0d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 10.0d + "'", double14 == 10.0d);
+    }
+
+    @Test
+    public void test4580() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4580");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy(1.0d);
+        brentSolver0.setRelativeAccuracy((-1.0d));
+        double double19 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 'a');
+        brentSolver0.setRelativeAccuracy((double) '#');
+        double double24 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) '#');
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 1.0d + "'", double19 == 1.0d);
+        org.junit.Assert.assertTrue("'" + double24 + "' != '" + 1.0E-6d + "'", double24 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4581() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4581");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+    }
+
+    @Test
+    public void test4582() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4582");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        double double12 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        int int14 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0E-14d + "'", double12 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
+    }
+
+    @Test
+    public void test4583() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4583");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        double double3 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 'a');
+        double double7 = brentSolver0.getRelativeAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double8 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-15d + "'", double3 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 1.0E-14d + "'", double7 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4584() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4584");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        int int15 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy(52.0d);
+        double double18 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) ' ');
+        brentSolver0.resetRelativeAccuracy();
+        double double22 = brentSolver0.getRelativeAccuracy();
+        double double23 = brentSolver0.getFunctionValueAccuracy();
+        int int24 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 52.0d + "'", double18 == 52.0d);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 1.0E-14d + "'", double22 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + 52.0d + "'", double23 == 52.0d);
+        org.junit.Assert.assertTrue("'" + int24 + "' != '" + 32 + "'", int24 == 32);
+    }
+
+    @Test
+    public void test4585() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4585");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        int int10 = brentSolver0.getIterationCount();
+        int int11 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 10.0d + "'", double8 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + (-1.0d) + "'", double9 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 0 + "'", int11 == 0);
+    }
+
+    @Test
+    public void test4586() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4586");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        double double19 = brentSolver0.getFunctionValueAccuracy();
+        double double20 = brentSolver0.getFunctionValueAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double21 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 52.0d + "'", double19 == 52.0d);
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 52.0d + "'", double20 == 52.0d);
+    }
+
+    @Test
+    public void test4587() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4587");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 100);
+        brentSolver0.setMaximalIterationCount((int) ' ');
+        brentSolver0.resetFunctionValueAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double25 = brentSolver0.solve(1.0E-14d, 35.0d, 52.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+    }
+
+    @Test
+    public void test4588() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4588");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int11 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        int int15 = brentSolver0.getMaximalIterationCount();
+        int int16 = brentSolver0.getIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        int int19 = brentSolver0.getMaximalIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double23 = brentSolver0.solve((double) (-1L), (double) (short) 1, (double) 32);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 100 + "'", int11 == 100);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 100 + "'", int15 == 100);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 1.0E-6d + "'", double18 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 100 + "'", int19 == 100);
+    }
+
+    @Test
+    public void test4589() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4589");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) 100.0f);
+        brentSolver0.setFunctionValueAccuracy((double) (byte) -1);
+        brentSolver0.resetRelativeAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction14 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double18 = brentSolver0.solve(univariateRealFunction14, (double) 52, (double) 10.0f, (double) (short) 100);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+    }
+
+    @Test
+    public void test4590() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4590");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int11 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) 0L);
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (-1.0f));
+        double double17 = brentSolver0.getAbsoluteAccuracy();
+        double double18 = brentSolver0.getFunctionValueAccuracy();
+        java.lang.Class<?> wildcardClass19 = brentSolver0.getClass();
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 100 + "'", int11 == 100);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + (-1.0d) + "'", double17 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertNotNull(wildcardClass19);
+    }
+
+    @Test
+    public void test4591() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4591");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 0);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 1);
+        brentSolver0.setFunctionValueAccuracy((double) 0L);
+        brentSolver0.setFunctionValueAccuracy(100.0d);
+        brentSolver0.resetFunctionValueAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double24 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 0.0d + "'", double14 == 0.0d);
+    }
+
+    @Test
+    public void test4592() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4592");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        double double1 = brentSolver0.getAbsoluteAccuracy();
+        double double2 = brentSolver0.getAbsoluteAccuracy();
+        int int3 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) (byte) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double1 + "' != '" + 1.0E-6d + "'", double1 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double2 + "' != '" + 1.0E-6d + "'", double2 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int3 + "' != '" + 100 + "'", int3 == 100);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 1.0E-15d + "'", double7 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + (-1.0d) + "'", double9 == (-1.0d));
+    }
+
+    @Test
+    public void test4593() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4593");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 52);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount(52);
+        double double17 = brentSolver0.getRelativeAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction18 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double21 = brentSolver0.solve(univariateRealFunction18, (double) 0L, 0.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0E-14d + "'", double17 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4594() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4594");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy((double) '4');
+        brentSolver0.setRelativeAccuracy(1.0E-14d);
+        double double10 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.setRelativeAccuracy((double) ' ');
+        double double15 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 1.0E-15d + "'", double10 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-15d + "'", double15 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4595() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4595");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        double double13 = brentSolver0.getAbsoluteAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 10.0f);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double20 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + (-1.0d) + "'", double13 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 10.0d + "'", double14 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 1.0E-15d + "'", double20 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4596() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4596");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        double double11 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 97);
+        brentSolver0.setRelativeAccuracy((double) (short) 10);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double19 = brentSolver0.solve((double) 10, (double) (short) 1);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + (-1.0d) + "'", double11 == (-1.0d));
+    }
+
+    @Test
+    public void test4597() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4597");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double15 = brentSolver0.getRelativeAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double18 = brentSolver0.solve((double) 97, 1.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-14d + "'", double15 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4598() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4598");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.setAbsoluteAccuracy(0.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        brentSolver0.setMaximalIterationCount((int) '#');
+        brentSolver0.resetFunctionValueAccuracy();
+        double double20 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 1.0E-15d + "'", double20 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4599() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4599");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        double double11 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction14 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double18 = brentSolver0.solve(univariateRealFunction14, 97.0d, 10.0d, (double) 100);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + (-1.0d) + "'", double11 == (-1.0d));
+    }
+
+    @Test
+    public void test4600() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4600");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.setRelativeAccuracy((double) 10L);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) (-1.0f));
+        brentSolver0.setRelativeAccuracy((double) 1);
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction20 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double24 = brentSolver0.solve(univariateRealFunction20, 0.0d, (double) 52, 32.0d);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+            // Expected exception.
+        }
+    }
+
+    @Test
+    public void test4601() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4601");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int11 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) 0L);
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '4');
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double20 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 100 + "'", int11 == 100);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 1.0E-6d + "'", double20 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4602() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4602");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        int int6 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) 52);
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 0 + "'", int6 == 0);
+    }
+
+    @Test
+    public void test4603() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4603");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        double double1 = brentSolver0.getAbsoluteAccuracy();
+        double double2 = brentSolver0.getAbsoluteAccuracy();
+        double double3 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int5 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) '4');
+        org.junit.Assert.assertTrue("'" + double1 + "' != '" + 1.0E-6d + "'", double1 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double2 + "' != '" + 1.0E-6d + "'", double2 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-14d + "'", double3 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 100 + "'", int5 == 100);
+    }
+
+    @Test
+    public void test4604() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4604");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double21 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        double double23 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 1.0E-14d + "'", double21 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + 1.0E-6d + "'", double23 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4605() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4605");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int11 = brentSolver0.getMaximalIterationCount();
+        double double12 = brentSolver0.getRelativeAccuracy();
+        double double13 = brentSolver0.getRelativeAccuracy();
+        double double14 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 'a');
+        brentSolver0.setMaximalIterationCount(97);
+        brentSolver0.setMaximalIterationCount((int) (short) 10);
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 100 + "'", int11 == 100);
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 10.0d + "'", double12 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + 10.0d + "'", double13 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 10.0d + "'", double14 == 10.0d);
+    }
+
+    @Test
+    public void test4606() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4606");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int6 = brentSolver0.getIterationCount();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount(0);
+        brentSolver0.resetAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 0 + "'", int6 == 0);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 1.0E-15d + "'", double7 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4607() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4607");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.setRelativeAccuracy((double) 10L);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) (-1.0f));
+        brentSolver0.setRelativeAccuracy((double) 1);
+        brentSolver0.setFunctionValueAccuracy((double) 100.0f);
+    }
+
+    @Test
+    public void test4608() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4608");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        double double11 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double15 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + (-1.0d) + "'", double9 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + 1.0E-15d + "'", double11 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4609() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4609");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setRelativeAccuracy((double) (short) 100);
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        brentSolver0.resetRelativeAccuracy();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 1.0E-14d + "'", double16 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4610() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4610");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double7 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 100);
+        brentSolver0.setMaximalIterationCount((-1));
+        double double12 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0E-14d + "'", double12 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4611() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4611");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) (byte) 0);
+        double double15 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int17 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 0.0d + "'", double15 == 0.0d);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 100 + "'", int17 == 100);
+    }
+
+    @Test
+    public void test4612() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4612");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) 0);
+        brentSolver0.setAbsoluteAccuracy(32.0d);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double19 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+    }
+
+    @Test
+    public void test4613() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4613");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        int int8 = brentSolver0.getIterationCount();
+        int int9 = brentSolver0.getMaximalIterationCount();
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 0 + "'", int8 == 0);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 100 + "'", int9 == 100);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+    }
+
+    @Test
+    public void test4614() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4614");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setFunctionValueAccuracy(1.0E-6d);
+    }
+
+    @Test
+    public void test4615() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4615");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        double double19 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount(1);
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.resetMaximalIterationCount();
+        int int25 = brentSolver0.getIterationCount();
+        int int26 = brentSolver0.getMaximalIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double30 = brentSolver0.solve((double) ' ', 1.0E-6d, 32.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 52.0d + "'", double19 == 52.0d);
+        org.junit.Assert.assertTrue("'" + int25 + "' != '" + 0 + "'", int25 == 0);
+        org.junit.Assert.assertTrue("'" + int26 + "' != '" + 100 + "'", int26 == 100);
+    }
+
+    @Test
+    public void test4616() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4616");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.setRelativeAccuracy((double) 10L);
+        double double15 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 100);
+        double double18 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 1);
+        brentSolver0.setAbsoluteAccuracy((double) 10.0f);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 10.0d + "'", double15 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 10.0d + "'", double18 == 10.0d);
+    }
+
+    @Test
+    public void test4617() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4617");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (byte) 1);
+        double double11 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount(10);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double15 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 0);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + (-1.0d) + "'", double8 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + 1.0E-14d + "'", double11 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-6d + "'", double15 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4618() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4618");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        double double13 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 100.0f);
+        double double17 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy(1.0E-14d);
+        brentSolver0.setRelativeAccuracy((double) 52);
+        double double22 = brentSolver0.getAbsoluteAccuracy();
+        double double23 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + (-1.0d) + "'", double13 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 100.0d + "'", double17 == 100.0d);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + (-1.0d) + "'", double22 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + 52.0d + "'", double23 == 52.0d);
+    }
+
+    @Test
+    public void test4619() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4619");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        int int11 = brentSolver0.getIterationCount();
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        brentSolver0.resetFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 0 + "'", int11 == 0);
+    }
+
+    @Test
+    public void test4620() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4620");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        int int11 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy((double) (short) -1);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double15 = brentSolver0.getAbsoluteAccuracy();
+        int int16 = brentSolver0.getMaximalIterationCount();
+        java.lang.Class<?> wildcardClass17 = brentSolver0.getClass();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 0 + "'", int11 == 0);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-6d + "'", double15 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 100 + "'", int16 == 100);
+        org.junit.Assert.assertNotNull(wildcardClass17);
+    }
+
+    @Test
+    public void test4621() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4621");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.setRelativeAccuracy((double) 10L);
+        int int15 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        int int17 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setAbsoluteAccuracy((double) 0L);
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + (-1) + "'", int15 == (-1));
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
+    }
+
+    @Test
+    public void test4622() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4622");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        double double19 = brentSolver0.getFunctionValueAccuracy();
+        int int20 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction22 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double26 = brentSolver0.solve(univariateRealFunction22, (double) 100, (double) 100.0f, 1.0E-15d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 52.0d + "'", double19 == 52.0d);
+        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 52 + "'", int20 == 52);
+    }
+
+    @Test
+    public void test4623() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4623");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy(1.0d);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double18 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 1.0d + "'", double18 == 1.0d);
+    }
+
+    @Test
+    public void test4624() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4624");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setAbsoluteAccuracy((double) (-1L));
+        double double11 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 100);
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        double double16 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + 1.0E-15d + "'", double11 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 100.0d + "'", double14 == 100.0d);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 1.0E-15d + "'", double16 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4625() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4625");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 1.0f);
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        int int10 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount(0);
+        double double13 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + 1.0E-14d + "'", double13 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4626() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4626");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.setAbsoluteAccuracy(0.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        brentSolver0.setMaximalIterationCount((int) '#');
+        brentSolver0.resetFunctionValueAccuracy();
+        double double20 = brentSolver0.getRelativeAccuracy();
+        int int21 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 10.0d + "'", double20 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int21 + "' != '" + 35 + "'", int21 == 35);
+    }
+
+    @Test
+    public void test4627() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4627");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double23 = brentSolver0.getAbsoluteAccuracy();
+        double double24 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + (-1.0d) + "'", double23 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double24 + "' != '" + 1.0E-14d + "'", double24 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4628() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4628");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (byte) 1);
+        brentSolver0.setRelativeAccuracy((double) 52);
+        brentSolver0.resetRelativeAccuracy();
+        double double17 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 32);
+        brentSolver0.setAbsoluteAccuracy((double) (byte) -1);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double22 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0d + "'", double17 == 1.0d);
+    }
+
+    @Test
+    public void test4629() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4629");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int11 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) 0L);
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (-1.0f));
+        int int17 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 100 + "'", int11 == 100);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 100 + "'", int17 == 100);
+    }
+
+    @Test
+    public void test4630() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4630");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        java.lang.Class<?> wildcardClass14 = brentSolver0.getClass();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test4631() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4631");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy(0.0d);
+        double double19 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 'a');
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 0.0d + "'", double19 == 0.0d);
+    }
+
+    @Test
+    public void test4632() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4632");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount(0);
+        int int18 = brentSolver0.getMaximalIterationCount();
+        int int19 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setFunctionValueAccuracy((double) 100);
+        brentSolver0.setMaximalIterationCount((int) (byte) 1);
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction24 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double27 = brentSolver0.solve(univariateRealFunction24, (double) 100, (double) 10.0f);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 0 + "'", int18 == 0);
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 0 + "'", int19 == 0);
+    }
+
+    @Test
+    public void test4633() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4633");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getAbsoluteAccuracy();
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 100.0f);
+        brentSolver0.setFunctionValueAccuracy(1.0d);
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction14 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double18 = brentSolver0.solve(univariateRealFunction14, (double) (short) 0, (double) (short) 1, (double) ' ');
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + (-1.0d) + "'", double8 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + (-1.0d) + "'", double9 == (-1.0d));
+    }
+
+    @Test
+    public void test4634() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4634");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        double double17 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 10.0f);
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction23 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double26 = brentSolver0.solve(univariateRealFunction23, (double) (-1), (double) (byte) 0);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+            // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+    }
+
+    @Test
+    public void test4635() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4635");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy((double) '4');
+        brentSolver0.setRelativeAccuracy(1.0E-14d);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        double double11 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + (-1.0d) + "'", double11 == (-1.0d));
+    }
+
+    @Test
+    public void test4636() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4636");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.setMaximalIterationCount(10);
+        int int15 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double19 = brentSolver0.solve(10.0d, (double) (byte) -1);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+    }
+
+    @Test
+    public void test4637() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4637");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        double double1 = brentSolver0.getAbsoluteAccuracy();
+        double double2 = brentSolver0.getAbsoluteAccuracy();
+        double double3 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy((double) ' ');
+        int int6 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) (byte) -1);
+        brentSolver0.setMaximalIterationCount(52);
+        brentSolver0.resetMaximalIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double12 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double1 + "' != '" + 1.0E-6d + "'", double1 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double2 + "' != '" + 1.0E-6d + "'", double2 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-14d + "'", double3 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 0 + "'", int6 == 0);
+    }
+
+    @Test
+    public void test4638() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4638");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy(1.0d);
+        brentSolver0.setRelativeAccuracy((-1.0d));
+        double double19 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 'a');
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 'a');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount(97);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 1.0d + "'", double19 == 1.0d);
+    }
+
+    @Test
+    public void test4639() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4639");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 0.0f);
+        int int17 = brentSolver0.getIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double22 = brentSolver0.solve(52.0d, (double) (byte) -1, (double) 10.0f);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
+    }
+
+    @Test
+    public void test4640() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4640");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        int int10 = brentSolver0.getIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 1.0f);
+        int int14 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 0.0f);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 10 + "'", int14 == 10);
+    }
+
+    @Test
+    public void test4641() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4641");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setAbsoluteAccuracy((double) 1);
+        int int11 = brentSolver0.getIterationCount();
+        int int12 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction14 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double17 = brentSolver0.solve(univariateRealFunction14, (double) 10, 97.0d);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+            // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 0 + "'", int11 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + (-1) + "'", int12 == (-1));
+    }
+
+    @Test
+    public void test4642() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4642");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        int int10 = brentSolver0.getIterationCount();
+        double double11 = brentSolver0.getAbsoluteAccuracy();
+        double double12 = brentSolver0.getFunctionValueAccuracy();
+        int int13 = brentSolver0.getIterationCount();
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double16 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + (-1.0d) + "'", double11 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + (-1.0d) + "'", double12 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 0 + "'", int13 == 0);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + (-1.0d) + "'", double16 == (-1.0d));
+    }
+
+    @Test
+    public void test4643() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4643");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double20 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double22 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int25 = brentSolver0.getMaximalIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double26 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 1.0E-15d + "'", double20 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 1.0E-14d + "'", double22 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int25 + "' != '" + 52 + "'", int25 == 52);
+    }
+
+    @Test
+    public void test4644() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4644");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 10);
+        brentSolver0.setFunctionValueAccuracy((double) 0.0f);
+        brentSolver0.setMaximalIterationCount(1);
+        brentSolver0.setAbsoluteAccuracy(1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+    }
+
+    @Test
+    public void test4645() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4645");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        brentSolver0.resetMaximalIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double20 = brentSolver0.solve((-1.0d), (double) (short) -1, 0.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+    }
+
+    @Test
+    public void test4646() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4646");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        double double11 = brentSolver0.getAbsoluteAccuracy();
+        double double12 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + (-1.0d) + "'", double11 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 10.0d + "'", double12 == 10.0d);
+    }
+
+    @Test
+    public void test4647() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4647");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.resetRelativeAccuracy();
+        double double8 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 0.0f);
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction11 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double14 = brentSolver0.solve(univariateRealFunction11, (double) 35, (double) 0.0f);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 1.0E-14d + "'", double8 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4648() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4648");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        int int10 = brentSolver0.getIterationCount();
+        double double11 = brentSolver0.getRelativeAccuracy();
+        double double12 = brentSolver0.getRelativeAccuracy();
+        int int13 = brentSolver0.getMaximalIterationCount();
+        java.lang.Class<?> wildcardClass14 = brentSolver0.getClass();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + 1.0E-14d + "'", double11 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0E-14d + "'", double12 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 100 + "'", int13 == 100);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test4649() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4649");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        double double19 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + (-1.0d) + "'", double19 == (-1.0d));
+    }
+
+    @Test
+    public void test4650() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4650");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1));
+        brentSolver0.setRelativeAccuracy(52.0d);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 100L);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double18 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 10.0d + "'", double8 == 10.0d);
+    }
+
+    @Test
+    public void test4651() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4651");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        double double17 = brentSolver0.getRelativeAccuracy();
+        int int18 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        double double20 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int22 = brentSolver0.getIterationCount();
+        double double23 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 10);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double26 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 52 + "'", int18 == 52);
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 52.0d + "'", double20 == 52.0d);
+        org.junit.Assert.assertTrue("'" + int22 + "' != '" + 0 + "'", int22 == 0);
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + (-1.0d) + "'", double23 == (-1.0d));
+    }
+
+    @Test
+    public void test4652() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4652");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        double double7 = brentSolver0.getAbsoluteAccuracy();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        int int10 = brentSolver0.getIterationCount();
+        double double11 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double13 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + (-1.0d) + "'", double11 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + (-1.0d) + "'", double13 == (-1.0d));
+    }
+
+    @Test
+    public void test4653() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4653");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        double double1 = brentSolver0.getAbsoluteAccuracy();
+        double double2 = brentSolver0.getAbsoluteAccuracy();
+        double double3 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy((double) ' ');
+        double double6 = brentSolver0.getRelativeAccuracy();
+        double double7 = brentSolver0.getAbsoluteAccuracy();
+        double double8 = brentSolver0.getAbsoluteAccuracy();
+        double double9 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double1 + "' != '" + 1.0E-6d + "'", double1 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double2 + "' != '" + 1.0E-6d + "'", double2 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-14d + "'", double3 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double6 + "' != '" + 32.0d + "'", double6 == 32.0d);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 1.0E-6d + "'", double7 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 1.0E-6d + "'", double8 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 1.0E-15d + "'", double9 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4654() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4654");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 0);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        double double17 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double19 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 97);
+        double double23 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setMaximalIterationCount(1);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 0.0d + "'", double14 == 0.0d);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0E-6d + "'", double17 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 1.0E-6d + "'", double19 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + 97.0d + "'", double23 == 97.0d);
+    }
+
+    @Test
+    public void test4655() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4655");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double15 = brentSolver0.getRelativeAccuracy();
+        double double16 = brentSolver0.getAbsoluteAccuracy();
+        double double17 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-14d + "'", double15 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + (-1.0d) + "'", double16 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0E-14d + "'", double17 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4656() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4656");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.setRelativeAccuracy((double) 10L);
+        brentSolver0.setRelativeAccuracy((double) 1.0f);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+    }
+
+    @Test
+    public void test4657() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4657");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        double double1 = brentSolver0.getAbsoluteAccuracy();
+        double double2 = brentSolver0.getAbsoluteAccuracy();
+        int int3 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) (byte) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        int int9 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double1 + "' != '" + 1.0E-6d + "'", double1 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double2 + "' != '" + 1.0E-6d + "'", double2 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int3 + "' != '" + 100 + "'", int3 == 100);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 1.0E-15d + "'", double7 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 1.0E-15d + "'", double8 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 100 + "'", int9 == 100);
+    }
+
+    @Test
+    public void test4658() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4658");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 0);
+        brentSolver0.setMaximalIterationCount(0);
+        int int14 = brentSolver0.getIterationCount();
+        double double15 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy(100.0d);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        double double22 = brentSolver0.getFunctionValueAccuracy();
+        double double23 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 100.0d + "'", double9 == 100.0d);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-14d + "'", double15 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 100.0d + "'", double22 == 100.0d);
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + 100.0d + "'", double23 == 100.0d);
+    }
+
+    @Test
+    public void test4659() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4659");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        int int12 = brentSolver0.getIterationCount();
+        double double13 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 10L);
+        double double16 = brentSolver0.getFunctionValueAccuracy();
+        int int17 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) ' ');
+        double double21 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 0);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + (-1.0d) + "'", double13 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 100 + "'", int17 == 100);
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 32.0d + "'", double21 == 32.0d);
+    }
+
+    @Test
+    public void test4660() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4660");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 1.0f);
+        int int10 = brentSolver0.getIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction12 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double15 = brentSolver0.solve(univariateRealFunction12, (double) 0.0f, (double) 1.0f);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+            // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+    }
+
+    @Test
+    public void test4661() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4661");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setRelativeAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(1.0E-15d);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) 1L);
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction18 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double21 = brentSolver0.solve(univariateRealFunction18, (double) (short) 0, (double) 100.0f);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+            // Expected exception.
+        }
+    }
+
+    @Test
+    public void test4662() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4662");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setFunctionValueAccuracy((double) 100.0f);
+        int int18 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 10 + "'", int18 == 10);
+    }
+
+    @Test
+    public void test4663() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4663");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy(1.0d);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double18 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.resetMaximalIterationCount();
+        double double22 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 10.0d + "'", double18 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 1.0d + "'", double22 == 1.0d);
+    }
+
+    @Test
+    public void test4664() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4664");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 0);
+        brentSolver0.setAbsoluteAccuracy((double) (short) 10);
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        double double15 = brentSolver0.getFunctionValueAccuracy();
+        int int16 = brentSolver0.getIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double17 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 100.0d + "'", double9 == 100.0d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 10.0d + "'", double14 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0d + "'", double15 == 1.0d);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
+    }
+
+    @Test
+    public void test4665() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4665");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setRelativeAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1));
+        int int17 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + (-1) + "'", int17 == (-1));
+    }
+
+    @Test
+    public void test4666() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4666");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) ' ');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        double double15 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 100.0d + "'", double9 == 100.0d);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0d + "'", double15 == 1.0d);
+    }
+
+    @Test
+    public void test4667() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4667");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 0);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        double double17 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double19 = brentSolver0.getAbsoluteAccuracy();
+        double double20 = brentSolver0.getAbsoluteAccuracy();
+        int int21 = brentSolver0.getIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy((-1.0d));
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 0.0d + "'", double14 == 0.0d);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0E-6d + "'", double17 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 1.0E-6d + "'", double19 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 1.0E-6d + "'", double20 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int21 + "' != '" + 0 + "'", int21 == 0);
+    }
+
+    @Test
+    public void test4668() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4668");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        double double12 = brentSolver0.getAbsoluteAccuracy();
+        int int13 = brentSolver0.getMaximalIterationCount();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double18 = brentSolver0.solve((double) 52, 1.0E-14d, (double) 1.0f);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + (-1.0d) + "'", double12 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + (-1) + "'", int13 == (-1));
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 10.0d + "'", double14 == 10.0d);
+    }
+
+    @Test
+    public void test4669() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4669");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 0.0f);
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        double double20 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 100);
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 0.0d + "'", double17 == 0.0d);
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 0.0d + "'", double20 == 0.0d);
+    }
+
+    @Test
+    public void test4670() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4670");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        double double19 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) 0);
+        double double23 = brentSolver0.getRelativeAccuracy();
+        java.lang.Class<?> wildcardClass24 = brentSolver0.getClass();
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + (-1.0d) + "'", double17 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + (-1.0d) + "'", double19 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + 10.0d + "'", double23 == 10.0d);
+        org.junit.Assert.assertNotNull(wildcardClass24);
+    }
+
+    @Test
+    public void test4671() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4671");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        brentSolver0.resetRelativeAccuracy();
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 52);
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction17 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double20 = brentSolver0.solve(univariateRealFunction17, (double) 32, (double) 52);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+            // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+    }
+
+    @Test
+    public void test4672() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4672");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.setRelativeAccuracy((double) 10L);
+        int int15 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) (short) -1);
+        brentSolver0.setMaximalIterationCount((int) (short) 100);
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + (-1) + "'", int15 == (-1));
+    }
+
+    @Test
+    public void test4673() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4673");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        int int15 = brentSolver0.getMaximalIterationCount();
+        int int16 = brentSolver0.getIterationCount();
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy((double) 'a');
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction23 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double27 = brentSolver0.solve(univariateRealFunction23, 1.0E-14d, (double) 1L, (double) 35);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 52.0d + "'", double17 == 52.0d);
+    }
+
+    @Test
+    public void test4674() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4674");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        double double11 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) (short) 1);
+        brentSolver0.resetFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + (-1.0d) + "'", double11 == (-1.0d));
+    }
+
+    @Test
+    public void test4675() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4675");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double6 = brentSolver0.getAbsoluteAccuracy();
+        int int7 = brentSolver0.getIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) (byte) 1);
+        brentSolver0.resetRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double6 + "' != '" + 1.0E-6d + "'", double6 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
+    }
+
+    @Test
+    public void test4676() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4676");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        double double13 = brentSolver0.getAbsoluteAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        double double18 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + (-1.0d) + "'", double13 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 10.0d + "'", double14 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 10.0d + "'", double18 == 10.0d);
+    }
+
+    @Test
+    public void test4677() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4677");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (byte) 1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double13 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getFunctionValueAccuracy();
+        double double17 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + (-1.0d) + "'", double8 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + 1.0E-6d + "'", double13 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 100 + "'", int15 == 100);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 1.0E-15d + "'", double16 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0E-14d + "'", double17 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4678() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4678");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1));
+        brentSolver0.resetMaximalIterationCount();
+        int int13 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount(0);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setFunctionValueAccuracy(0.0d);
+        double double20 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 10.0d + "'", double8 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 100 + "'", int13 == 100);
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 0.0d + "'", double20 == 0.0d);
+    }
+
+    @Test
+    public void test4679() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4679");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(0.0d);
+        brentSolver0.setFunctionValueAccuracy((-1.0d));
+        brentSolver0.setRelativeAccuracy((double) (-1.0f));
+        brentSolver0.setMaximalIterationCount(1);
+    }
+
+    @Test
+    public void test4680() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4680");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 100);
+        brentSolver0.setMaximalIterationCount((int) ' ');
+        brentSolver0.resetMaximalIterationCount();
+        double double22 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 1.0E-6d + "'", double22 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4681() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4681");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double11 = brentSolver0.getFunctionValueAccuracy();
+        int int12 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) 100.0f);
+        double double15 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + 1.0E-15d + "'", double11 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 97 + "'", int12 == 97);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 100.0d + "'", double15 == 100.0d);
+    }
+
+    @Test
+    public void test4682() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4682");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        int int9 = brentSolver0.getMaximalIterationCount();
+        int int10 = brentSolver0.getIterationCount();
+        double double11 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) 100);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) 10);
+        brentSolver0.resetRelativeAccuracy();
+        int int19 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 100 + "'", int9 == 100);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + (-1.0d) + "'", double11 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 0 + "'", int19 == 0);
+    }
+
+    @Test
+    public void test4683() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4683");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        double double3 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        int int5 = brentSolver0.getMaximalIterationCount();
+        double double6 = brentSolver0.getAbsoluteAccuracy();
+        double double7 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 10);
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-15d + "'", double3 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 100 + "'", int5 == 100);
+        org.junit.Assert.assertTrue("'" + double6 + "' != '" + (-1.0d) + "'", double6 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+    }
+
+    @Test
+    public void test4684() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4684");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1));
+        brentSolver0.resetMaximalIterationCount();
+        int int13 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount(0);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) ' ');
+        brentSolver0.setMaximalIterationCount(100);
+        brentSolver0.setFunctionValueAccuracy((double) (short) 100);
+        double double23 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 10.0d + "'", double8 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 100 + "'", int13 == 100);
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + 32.0d + "'", double23 == 32.0d);
+    }
+
+    @Test
+    public void test4685() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4685");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (byte) 1);
+        brentSolver0.resetRelativeAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction15 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double19 = brentSolver0.solve(univariateRealFunction15, (double) 35, (double) 97, (double) 10L);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+    }
+
+    @Test
+    public void test4686() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4686");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        double double4 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) 0);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double7 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double4 + "' != '" + 1.0E-14d + "'", double4 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4687() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4687");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.resetRelativeAccuracy();
+        double double21 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 0);
+        int int24 = brentSolver0.getIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        int int26 = brentSolver0.getIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double30 = brentSolver0.solve((double) (short) 0, (double) 1L, 32.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 52.0d + "'", double21 == 52.0d);
+        org.junit.Assert.assertTrue("'" + int24 + "' != '" + 0 + "'", int24 == 0);
+        org.junit.Assert.assertTrue("'" + int26 + "' != '" + 0 + "'", int26 == 0);
+    }
+
+    @Test
+    public void test4688() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4688");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 0);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        double double17 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        double double22 = brentSolver0.getAbsoluteAccuracy();
+        int int23 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) (byte) 100);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double26 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 0.0d + "'", double14 == 0.0d);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0E-6d + "'", double17 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 1.0E-6d + "'", double22 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int23 + "' != '" + 100 + "'", int23 == 100);
+    }
+
+    @Test
+    public void test4689() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4689");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int15 = brentSolver0.getMaximalIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double19 = brentSolver0.solve((double) (byte) 0, (double) (byte) 0, (double) 1L);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 100 + "'", int15 == 100);
+    }
+
+    @Test
+    public void test4690() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4690");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount(0);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double18 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+    }
+
+    @Test
+    public void test4691() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4691");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        double double1 = brentSolver0.getAbsoluteAccuracy();
+        double double2 = brentSolver0.getAbsoluteAccuracy();
+        double double3 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy((double) ' ');
+        brentSolver0.setAbsoluteAccuracy((double) (-1));
+        int int8 = brentSolver0.getIterationCount();
+        double double9 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 97);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy(0.0d);
+        org.junit.Assert.assertTrue("'" + double1 + "' != '" + 1.0E-6d + "'", double1 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double2 + "' != '" + 1.0E-6d + "'", double2 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-14d + "'", double3 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 0 + "'", int8 == 0);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 1.0E-15d + "'", double9 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4692() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4692");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1));
+        brentSolver0.resetMaximalIterationCount();
+        int int13 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount(0);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) ' ');
+        double double19 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        // The following exception was thrown during execution in test generation
+        try {
+            double double22 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 10.0d + "'", double8 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 100 + "'", int13 == 100);
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 1.0E-15d + "'", double19 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4693() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4693");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        double double11 = brentSolver0.getFunctionValueAccuracy();
+        double double12 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + (-1.0d) + "'", double11 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0E-14d + "'", double12 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4694() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4694");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        int int9 = brentSolver0.getMaximalIterationCount();
+        int int10 = brentSolver0.getIterationCount();
+        double double11 = brentSolver0.getRelativeAccuracy();
+        double double12 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy(1.0E-15d);
+        brentSolver0.setAbsoluteAccuracy(1.0E-14d);
+        brentSolver0.setMaximalIterationCount(0);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 100 + "'", int9 == 100);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + 1.0E-14d + "'", double11 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0E-14d + "'", double12 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4695() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4695");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy(0.0d);
+        double double21 = brentSolver0.getRelativeAccuracy();
+        java.lang.Class<?> wildcardClass22 = brentSolver0.getClass();
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 52.0d + "'", double17 == 52.0d);
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 1.0E-14d + "'", double21 == 1.0E-14d);
+        org.junit.Assert.assertNotNull(wildcardClass22);
+    }
+
+    @Test
+    public void test4696() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4696");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        double double19 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 35.0d + "'", double18 == 35.0d);
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 35.0d + "'", double19 == 35.0d);
+    }
+
+    @Test
+    public void test4697() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4697");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount(10);
+        int int25 = brentSolver0.getMaximalIterationCount();
+        int int26 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setFunctionValueAccuracy(1.0d);
+        org.junit.Assert.assertTrue("'" + int25 + "' != '" + 10 + "'", int25 == 10);
+        org.junit.Assert.assertTrue("'" + int26 + "' != '" + 10 + "'", int26 == 10);
+    }
+
+    @Test
+    public void test4698() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4698");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        double double3 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy(0.0d);
+        brentSolver0.setRelativeAccuracy((double) (-1.0f));
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy(52.0d);
+        int int12 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-14d + "'", double3 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 100 + "'", int9 == 100);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+    }
+
+    @Test
+    public void test4699() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4699");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        double double13 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 100.0f);
+        double double17 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy(1.0E-14d);
+        double double20 = brentSolver0.getAbsoluteAccuracy();
+        double double21 = brentSolver0.getRelativeAccuracy();
+        int int22 = brentSolver0.getIterationCount();
+        double double23 = brentSolver0.getRelativeAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double26 = brentSolver0.solve((double) 100L, (double) (byte) -1);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + (-1.0d) + "'", double13 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 100.0d + "'", double17 == 100.0d);
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + (-1.0d) + "'", double20 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 1.0E-14d + "'", double21 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int22 + "' != '" + 0 + "'", int22 == 0);
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + 1.0E-14d + "'", double23 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4700() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4700");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int11 = brentSolver0.getMaximalIterationCount();
+        double double12 = brentSolver0.getRelativeAccuracy();
+        double double13 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 100 + "'", int11 == 100);
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 10.0d + "'", double12 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + 10.0d + "'", double13 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 100 + "'", int15 == 100);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+    }
+
+    @Test
+    public void test4701() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4701");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        double double3 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 100);
+        brentSolver0.resetMaximalIterationCount();
+        int int7 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 100);
+        int int10 = brentSolver0.getIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-15d + "'", double3 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+    }
+
+    @Test
+    public void test4702() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4702");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double15 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double20 = brentSolver0.solve((double) (-1L), (double) (-1), (double) 1L);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-14d + "'", double15 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4703() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4703");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1));
+        int int12 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double16 = brentSolver0.getAbsoluteAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction17 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double20 = brentSolver0.solve(univariateRealFunction17, 52.0d, 1.0E-15d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 10.0d + "'", double8 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 100 + "'", int12 == 100);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + (-1.0d) + "'", double16 == (-1.0d));
+    }
+
+    @Test
+    public void test4704() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4704");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 1.0f);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy(52.0d);
+        brentSolver0.resetAbsoluteAccuracy();
+    }
+
+    @Test
+    public void test4705() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4705");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1.0f));
+        int int16 = brentSolver0.getIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double20 = brentSolver0.solve((double) 97, (double) (short) 1);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
+    }
+
+    @Test
+    public void test4706() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4706");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        double double17 = brentSolver0.getRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+    }
+
+    @Test
+    public void test4707() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4707");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double9 = brentSolver0.getFunctionValueAccuracy();
+        int int10 = brentSolver0.getIterationCount();
+        double double11 = brentSolver0.getFunctionValueAccuracy();
+        double double12 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount(52);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (byte) 0);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double21 = brentSolver0.solve((double) 1, (double) 52, (double) 100L);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 1.0E-15d + "'", double9 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + 1.0E-15d + "'", double11 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0E-14d + "'", double12 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4708() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4708");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) (-1.0f));
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+    }
+
+    @Test
+    public void test4709() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4709");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 52);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        int int16 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + (-1.0d) + "'", double9 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + (-1) + "'", int15 == (-1));
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
+    }
+
+    @Test
+    public void test4710() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4710");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy(1.0d);
+        brentSolver0.setRelativeAccuracy((-1.0d));
+        double double19 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 'a');
+        brentSolver0.setRelativeAccuracy((double) '#');
+        double double24 = brentSolver0.getAbsoluteAccuracy();
+        double double25 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 1.0d + "'", double19 == 1.0d);
+        org.junit.Assert.assertTrue("'" + double24 + "' != '" + 1.0E-6d + "'", double24 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double25 + "' != '" + 35.0d + "'", double25 == 35.0d);
+    }
+
+    @Test
+    public void test4711() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4711");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount(0);
+        double double13 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getAbsoluteAccuracy();
+        int int17 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + 1.0E-14d + "'", double13 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 0 + "'", int15 == 0);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + (-1.0d) + "'", double16 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
+    }
+
+    @Test
+    public void test4712() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4712");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        int int9 = brentSolver0.getMaximalIterationCount();
+        int int10 = brentSolver0.getIterationCount();
+        double double11 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) 100);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy(0.0d);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double18 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 100 + "'", int9 == 100);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + (-1.0d) + "'", double11 == (-1.0d));
+    }
+
+    @Test
+    public void test4713() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4713");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getAbsoluteAccuracy();
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy(1.0E-14d);
+        brentSolver0.setAbsoluteAccuracy((double) (byte) -1);
+        brentSolver0.setFunctionValueAccuracy((double) (byte) 10);
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + (-1.0d) + "'", double8 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + (-1.0d) + "'", double9 == (-1.0d));
+    }
+
+    @Test
+    public void test4714() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4714");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double20 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double22 = brentSolver0.getRelativeAccuracy();
+        double double23 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 1.0E-15d + "'", double20 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 1.0E-14d + "'", double22 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + 1.0E-14d + "'", double23 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4715() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4715");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 100);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double26 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setRelativeAccuracy((double) (-1.0f));
+        org.junit.Assert.assertTrue("'" + double26 + "' != '" + 1.0E-15d + "'", double26 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4716() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4716");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) ' ');
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setFunctionValueAccuracy((double) '#');
+        int int18 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 100 + "'", int18 == 100);
+    }
+
+    @Test
+    public void test4717() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4717");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        double double4 = brentSolver0.getFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount(10);
+        double double11 = brentSolver0.getRelativeAccuracy();
+        double double12 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) (byte) 100);
+        org.junit.Assert.assertTrue("'" + double4 + "' != '" + 1.0E-15d + "'", double4 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 1.0E-15d + "'", double7 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + 1.0E-14d + "'", double11 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0E-15d + "'", double12 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4718() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4718");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setRelativeAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy((double) (byte) -1);
+        brentSolver0.setAbsoluteAccuracy((double) 100L);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double17 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+    }
+
+    @Test
+    public void test4719() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4719");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double24 = brentSolver0.solve((double) (byte) 100, (double) (byte) 100);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+    }
+
+    @Test
+    public void test4720() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4720");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int11 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) 0L);
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double16 = brentSolver0.getAbsoluteAccuracy();
+        int int17 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) (byte) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double21 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy(32.0d);
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 100 + "'", int11 == 100);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + (-1.0d) + "'", double16 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 1.0E-14d + "'", double21 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4721() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4721");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy(0.0d);
+        int int18 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) (short) -1);
+        double double21 = brentSolver0.getAbsoluteAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double22 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 100 + "'", int18 == 100);
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + (-1.0d) + "'", double21 == (-1.0d));
+    }
+
+    @Test
+    public void test4722() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4722");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double7 = brentSolver0.getRelativeAccuracy();
+        int int8 = brentSolver0.getIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 1.0E-14d + "'", double7 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 0 + "'", int8 == 0);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+    }
+
+    @Test
+    public void test4723() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4723");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double12 = brentSolver0.getRelativeAccuracy();
+        double double13 = brentSolver0.getAbsoluteAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double17 = brentSolver0.solve((double) 0L, 10.0d, (double) 100L);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0E-14d + "'", double12 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + 1.0E-6d + "'", double13 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4724() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4724");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.setRelativeAccuracy((double) 10L);
+        double double15 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double18 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 10.0d + "'", double15 == 10.0d);
+    }
+
+    @Test
+    public void test4725() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4725");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int11 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount((int) ' ');
+        brentSolver0.resetRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 100 + "'", int11 == 100);
+    }
+
+    @Test
+    public void test4726() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4726");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        double double19 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction22 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double25 = brentSolver0.solve(univariateRealFunction22, (double) (short) 10, 1.0E-6d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + (-1.0d) + "'", double17 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + (-1.0d) + "'", double19 == (-1.0d));
+    }
+
+    @Test
+    public void test4727() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4727");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.setAbsoluteAccuracy(1.0d);
+        double double24 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        double double26 = brentSolver0.getRelativeAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double29 = brentSolver0.solve((double) (byte) 1, (double) (byte) -1);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double24 + "' != '" + 1.0d + "'", double24 == 1.0d);
+        org.junit.Assert.assertTrue("'" + double26 + "' != '" + 1.0E-14d + "'", double26 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4728() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4728");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy(1.0E-15d);
+        double double21 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        double double23 = brentSolver0.getAbsoluteAccuracy();
+        java.lang.Class<?> wildcardClass24 = brentSolver0.getClass();
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 52.0d + "'", double21 == 52.0d);
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + (-1.0d) + "'", double23 == (-1.0d));
+        org.junit.Assert.assertNotNull(wildcardClass24);
+    }
+
+    @Test
+    public void test4729() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4729");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 0);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        double double17 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        double double22 = brentSolver0.getAbsoluteAccuracy();
+        int int23 = brentSolver0.getMaximalIterationCount();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction24 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double28 = brentSolver0.solve(univariateRealFunction24, (double) (byte) 1, (double) 35, (double) (-1L));
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 0.0d + "'", double14 == 0.0d);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0E-6d + "'", double17 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 1.0E-6d + "'", double22 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int23 + "' != '" + 100 + "'", int23 == 100);
+    }
+
+    @Test
+    public void test4730() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4730");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        double double19 = brentSolver0.getFunctionValueAccuracy();
+        int int20 = brentSolver0.getIterationCount();
+        int int21 = brentSolver0.getMaximalIterationCount();
+        double double22 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        double double24 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 52.0d + "'", double19 == 52.0d);
+        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
+        org.junit.Assert.assertTrue("'" + int21 + "' != '" + 52 + "'", int21 == 52);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 1.0E-14d + "'", double22 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double24 + "' != '" + 1.0E-14d + "'", double24 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4731() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4731");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        double double15 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) (byte) 0);
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 10.0d + "'", double15 == 10.0d);
+    }
+
+    @Test
+    public void test4732() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4732");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        double double17 = brentSolver0.getRelativeAccuracy();
+        int int18 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        double double20 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int22 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy((double) (short) 100);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 52 + "'", int18 == 52);
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 52.0d + "'", double20 == 52.0d);
+        org.junit.Assert.assertTrue("'" + int22 + "' != '" + 0 + "'", int22 == 0);
+    }
+
+    @Test
+    public void test4733() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4733");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.setRelativeAccuracy((double) 10L);
+        int int15 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 0L);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + (-1) + "'", int15 == (-1));
+    }
+
+    @Test
+    public void test4734() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4734");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double6 = brentSolver0.getAbsoluteAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        double double9 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double6 + "' != '" + 1.0E-6d + "'", double6 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 1.0E-15d + "'", double7 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 1.0E-15d + "'", double9 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4735() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4735");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setRelativeAccuracy((double) (short) 0);
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+    }
+
+    @Test
+    public void test4736() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4736");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        brentSolver0.setAbsoluteAccuracy((double) 10);
+        brentSolver0.setFunctionValueAccuracy((double) 1L);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) ' ');
+        brentSolver0.setMaximalIterationCount(1);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+    }
+
+    @Test
+    public void test4737() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4737");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int6 = brentSolver0.getIterationCount();
+        int int7 = brentSolver0.getIterationCount();
+        double double8 = brentSolver0.getAbsoluteAccuracy();
+        int int9 = brentSolver0.getIterationCount();
+        int int10 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        double double13 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 0 + "'", int6 == 0);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 100.0d + "'", double8 == 100.0d);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 100 + "'", int10 == 100);
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + 52.0d + "'", double13 == 52.0d);
+    }
+
+    @Test
+    public void test4738() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4738");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        double double13 = brentSolver0.getAbsoluteAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        int int15 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double18 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.setMaximalIterationCount((int) (byte) 100);
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction23 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double27 = brentSolver0.solve(univariateRealFunction23, 100.0d, 10.0d, 0.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + (-1.0d) + "'", double13 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 10.0d + "'", double14 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + (-1) + "'", int15 == (-1));
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 10.0d + "'", double18 == 10.0d);
+    }
+
+    @Test
+    public void test4739() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4739");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 0);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        double double17 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double20 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 0.0d + "'", double14 == 0.0d);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0E-6d + "'", double17 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4740() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4740");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        double double6 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        double double8 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double6 + "' != '" + 1.0E-15d + "'", double6 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + (-1.0d) + "'", double8 == (-1.0d));
+    }
+
+    @Test
+    public void test4741() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4741");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.resetMaximalIterationCount();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        double double9 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy(1.0d);
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction14 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double17 = brentSolver0.solve(univariateRealFunction14, (double) 1L, 10.0d);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+            // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + (-1.0d) + "'", double9 == (-1.0d));
+    }
+
+    @Test
+    public void test4742() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4742");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        int int11 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy(10.0d);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 0 + "'", int11 == 0);
+    }
+
+    @Test
+    public void test4743() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4743");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 0.0f);
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.setRelativeAccuracy((double) 0L);
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        brentSolver0.setRelativeAccuracy((double) (byte) 0);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 0.0d + "'", double17 == 0.0d);
+    }
+
+    @Test
+    public void test4744() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4744");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1));
+        int int12 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double20 = brentSolver0.solve(1.0E-15d, 0.0d, 1.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 10.0d + "'", double8 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 100 + "'", int12 == 100);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 1.0E-14d + "'", double16 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4745() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4745");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        double double17 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int20 = brentSolver0.getMaximalIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double21 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 100 + "'", int20 == 100);
+    }
+
+    @Test
+    public void test4746() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4746");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 1.0f);
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        int int10 = brentSolver0.getIterationCount();
+        brentSolver0.setFunctionValueAccuracy((double) ' ');
+        brentSolver0.resetRelativeAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double14 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+    }
+
+    @Test
+    public void test4747() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4747");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy((double) '4');
+        brentSolver0.resetFunctionValueAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double12 = brentSolver0.solve(1.0d, 0.0d, (double) 100L);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+    }
+
+    @Test
+    public void test4748() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4748");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        double double15 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount(0);
+        brentSolver0.setAbsoluteAccuracy(1.0d);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + (-1.0d) + "'", double15 == (-1.0d));
+    }
+
+    @Test
+    public void test4749() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4749");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 1.0f);
+        int int10 = brentSolver0.getIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 10);
+        brentSolver0.setFunctionValueAccuracy((double) 32);
+        brentSolver0.resetRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+    }
+
+    @Test
+    public void test4750() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4750");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.resetFunctionValueAccuracy();
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        int int15 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        double double17 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + (-1) + "'", int15 == (-1));
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0E-14d + "'", double17 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4751() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4751");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double19 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 1.0E-14d + "'", double16 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0E-15d + "'", double17 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 35.0d + "'", double18 == 35.0d);
+    }
+
+    @Test
+    public void test4752() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4752");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) 0);
+        brentSolver0.setFunctionValueAccuracy((double) (byte) -1);
+    }
+
+    @Test
+    public void test4753() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4753");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (byte) 1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double13 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) 0);
+        int int16 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + (-1.0d) + "'", double8 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + 1.0E-14d + "'", double13 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
+    }
+
+    @Test
+    public void test4754() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4754");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        int int11 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double15 = brentSolver0.getFunctionValueAccuracy();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 0 + "'", int11 == 0);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 10.0d + "'", double15 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 1.0E-14d + "'", double16 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4755() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4755");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        double double11 = brentSolver0.getAbsoluteAccuracy();
+        int int12 = brentSolver0.getIterationCount();
+        java.lang.Class<?> wildcardClass13 = brentSolver0.getClass();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + (-1.0d) + "'", double11 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test4756() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4756");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        double double6 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double9 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double6 + "' != '" + 1.0E-15d + "'", double6 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 1.0E-14d + "'", double9 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4757() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4757");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        double double3 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        int int5 = brentSolver0.getMaximalIterationCount();
+        int int6 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        double double9 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 100.0f);
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-15d + "'", double3 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 100 + "'", int5 == 100);
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 0 + "'", int6 == 0);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 1.0E-15d + "'", double9 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4758() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4758");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 1.0f);
+        int int10 = brentSolver0.getIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 10);
+        brentSolver0.setFunctionValueAccuracy((double) 32);
+        brentSolver0.setRelativeAccuracy((double) 1L);
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction18 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double21 = brentSolver0.solve(univariateRealFunction18, 0.0d, (double) 0.0f);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+    }
+
+    @Test
+    public void test4759() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4759");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 0);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        double double17 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double21 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 0.0d + "'", double14 == 0.0d);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0E-6d + "'", double17 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4760() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4760");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (byte) 1);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double12 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) 0);
+        brentSolver0.resetFunctionValueAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double18 = brentSolver0.solve((double) (byte) 100, (double) 100);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + (-1.0d) + "'", double8 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0E-14d + "'", double12 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4761() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4761");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount(0);
+        int int18 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        double double20 = brentSolver0.getRelativeAccuracy();
+        double double21 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 0 + "'", int18 == 0);
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 1.0E-14d + "'", double20 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + (-1.0d) + "'", double21 == (-1.0d));
+    }
+
+    @Test
+    public void test4762() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4762");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        double double17 = brentSolver0.getRelativeAccuracy();
+        int int18 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.resetMaximalIterationCount();
+        double double22 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 52 + "'", int18 == 52);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 10.0d + "'", double22 == 10.0d);
+    }
+
+    @Test
+    public void test4763() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4763");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double15 = brentSolver0.getRelativeAccuracy();
+        int int16 = brentSolver0.getIterationCount();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 1);
+        double double19 = brentSolver0.getFunctionValueAccuracy();
+        double double20 = brentSolver0.getRelativeAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double23 = brentSolver0.solve(52.0d, 35.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-14d + "'", double15 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 1.0d + "'", double19 == 1.0d);
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 1.0E-14d + "'", double20 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4764() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4764");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        int int13 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy((double) (byte) 1);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        int int19 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 0 + "'", int13 == 0);
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 0 + "'", int19 == 0);
+    }
+
+    @Test
+    public void test4765() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4765");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        double double17 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double20 = brentSolver0.getFunctionValueAccuracy();
+        int int21 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy(10.0d);
+        int int24 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 1.0E-15d + "'", double20 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int21 + "' != '" + 0 + "'", int21 == 0);
+        org.junit.Assert.assertTrue("'" + int24 + "' != '" + 0 + "'", int24 == 0);
+    }
+
+    @Test
+    public void test4766() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4766");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        double double11 = brentSolver0.getAbsoluteAccuracy();
+        double double12 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 100 + "'", int9 == 100);
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + (-1.0d) + "'", double11 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + (-1.0d) + "'", double12 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 1.0E-15d + "'", double14 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4767() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4767");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy(0.0d);
+        double double21 = brentSolver0.getRelativeAccuracy();
+        double double22 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 52.0d + "'", double17 == 52.0d);
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 1.0E-14d + "'", double21 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 1.0E-14d + "'", double22 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4768() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4768");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        double double17 = brentSolver0.getRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount(0);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount(0);
+        brentSolver0.setRelativeAccuracy((double) 100.0f);
+        double double26 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double26 + "' != '" + (-1.0d) + "'", double26 == (-1.0d));
+    }
+
+    @Test
+    public void test4769() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4769");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 100);
+        brentSolver0.resetMaximalIterationCount();
+        double double26 = brentSolver0.getFunctionValueAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double30 = brentSolver0.solve(52.0d, (double) (byte) 1, (double) 1);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double26 + "' != '" + 1.0E-15d + "'", double26 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4770() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4770");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.resetFunctionValueAccuracy();
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (byte) 0);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (-1.0f));
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+    }
+
+    @Test
+    public void test4771() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4771");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) 100.0f);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setFunctionValueAccuracy(0.0d);
+        brentSolver0.setRelativeAccuracy((double) (short) 1);
+        brentSolver0.setRelativeAccuracy((double) (-1L));
+        brentSolver0.setFunctionValueAccuracy((double) 52);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+    }
+
+    @Test
+    public void test4772() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4772");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int12 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.setFunctionValueAccuracy(0.0d);
+        int int17 = brentSolver0.getIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double21 = brentSolver0.solve((double) 100, (double) (byte) 10);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 100 + "'", int12 == 100);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
+    }
+
+    @Test
+    public void test4773() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4773");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.resetMaximalIterationCount();
+        double double16 = brentSolver0.getAbsoluteAccuracy();
+        int int17 = brentSolver0.getIterationCount();
+        double double18 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + (-1.0d) + "'", double16 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 10.0d + "'", double18 == 10.0d);
+    }
+
+    @Test
+    public void test4774() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4774");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount(0);
+        int int13 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy(32.0d);
+        brentSolver0.setRelativeAccuracy((double) 1);
+        double double18 = brentSolver0.getFunctionValueAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction19 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double22 = brentSolver0.solve(univariateRealFunction19, (double) 97, (double) (short) 1);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 0 + "'", int13 == 0);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 10.0d + "'", double18 == 10.0d);
+    }
+
+    @Test
+    public void test4775() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4775");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.resetRelativeAccuracy();
+        double double12 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + (-1.0d) + "'", double8 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 10.0d + "'", double12 == 10.0d);
+    }
+
+    @Test
+    public void test4776() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4776");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int14 = brentSolver0.getMaximalIterationCount();
+        double double15 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 100 + "'", int14 == 100);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 10.0d + "'", double15 == 10.0d);
+    }
+
+    @Test
+    public void test4777() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4777");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        int int11 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy((double) (short) -1);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) '#');
+        int int17 = brentSolver0.getMaximalIterationCount();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 0 + "'", int11 == 0);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 100 + "'", int17 == 100);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 1.0E-6d + "'", double18 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4778() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4778");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double7 = brentSolver0.getRelativeAccuracy();
+        double double8 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        double double10 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 1.0E-14d + "'", double7 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 1.0E-14d + "'", double8 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 1.0E-15d + "'", double10 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4779() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4779");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1.0f));
+        int int16 = brentSolver0.getIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double17 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
+    }
+
+    @Test
+    public void test4780() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4780");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        double double3 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy(0.0d);
+        brentSolver0.setRelativeAccuracy((double) (-1.0f));
+        brentSolver0.resetAbsoluteAccuracy();
+        double double9 = brentSolver0.getRelativeAccuracy();
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-14d + "'", double3 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + (-1.0d) + "'", double9 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 1.0E-6d + "'", double10 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4781() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4781");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        int int19 = brentSolver0.getIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        double double21 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) 1);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 35.0d + "'", double18 == 35.0d);
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 0 + "'", int19 == 0);
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 1.0E-15d + "'", double21 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4782() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4782");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int11 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        int int15 = brentSolver0.getIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        int int17 = brentSolver0.getIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 100 + "'", int11 == 100);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 1.0E-6d + "'", double14 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 0 + "'", int15 == 0);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
+    }
+
+    @Test
+    public void test4783() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4783");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        int int13 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy((double) (byte) 1);
+        brentSolver0.resetAbsoluteAccuracy();
+        int int17 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy(35.0d);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double20 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 0 + "'", int13 == 0);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 1 + "'", int17 == 1);
+    }
+
+    @Test
+    public void test4784() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4784");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) 0);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int19 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount(0);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 0 + "'", int19 == 0);
+    }
+
+    @Test
+    public void test4785() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4785");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 52);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        int int16 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((-1));
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + (-1.0d) + "'", double9 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
+    }
+
+    @Test
+    public void test4786() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4786");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        double double11 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 100);
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + (-1.0d) + "'", double11 == (-1.0d));
+    }
+
+    @Test
+    public void test4787() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4787");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy((double) '4');
+        brentSolver0.setRelativeAccuracy(1.0E-14d);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int12 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 100 + "'", int12 == 100);
+    }
+
+    @Test
+    public void test4788() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4788");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        double double12 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 100);
+        double double15 = brentSolver0.getRelativeAccuracy();
+        double double16 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) (byte) 100);
+        double double19 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0E-14d + "'", double12 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-14d + "'", double15 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 10.0d + "'", double19 == 10.0d);
+    }
+
+    @Test
+    public void test4789() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4789");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1));
+        int int12 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) (byte) 1);
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 10.0d + "'", double8 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 100 + "'", int12 == 100);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 1.0E-15d + "'", double14 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4790() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4790");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        double double17 = brentSolver0.getRelativeAccuracy();
+        int int18 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        double double20 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 52 + "'", int18 == 52);
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 52.0d + "'", double20 == 52.0d);
+    }
+
+    @Test
+    public void test4791() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4791");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.setRelativeAccuracy((double) 10L);
+        double double15 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 10.0d + "'", double15 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 1.0E-6d + "'", double18 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4792() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4792");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double20 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1));
+        double double23 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 1.0E-15d + "'", double20 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + (-1.0d) + "'", double23 == (-1.0d));
+    }
+
+    @Test
+    public void test4793() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4793");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1));
+        brentSolver0.resetMaximalIterationCount();
+        int int13 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount(0);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) ' ');
+        brentSolver0.setMaximalIterationCount(100);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 10.0d + "'", double8 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 100 + "'", int13 == 100);
+    }
+
+    @Test
+    public void test4794() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4794");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.resetMaximalIterationCount();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        double double9 = brentSolver0.getFunctionValueAccuracy();
+        double double10 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 52);
+        int int13 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + (-1.0d) + "'", double9 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 100 + "'", int13 == 100);
+    }
+
+    @Test
+    public void test4795() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4795");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        double double3 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        int int5 = brentSolver0.getMaximalIterationCount();
+        double double6 = brentSolver0.getRelativeAccuracy();
+        double double7 = brentSolver0.getRelativeAccuracy();
+        double double8 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-15d + "'", double3 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 100 + "'", int5 == 100);
+        org.junit.Assert.assertTrue("'" + double6 + "' != '" + 1.0E-14d + "'", double6 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 1.0E-14d + "'", double7 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + (-1.0d) + "'", double8 == (-1.0d));
+    }
+
+    @Test
+    public void test4796() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4796");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy(1.0d);
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy(52.0d);
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction20 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double23 = brentSolver0.solve(univariateRealFunction20, (double) 97, (double) 10.0f);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0d + "'", double17 == 1.0d);
+    }
+
+    @Test
+    public void test4797() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4797");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.setFunctionValueAccuracy(1.0d);
+        brentSolver0.setRelativeAccuracy((double) 0.0f);
+        double double12 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy(10.0d);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double17 = brentSolver0.solve((double) 32, 1.0E-14d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 0.0d + "'", double12 == 0.0d);
+    }
+
+    @Test
+    public void test4798() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4798");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        double double19 = brentSolver0.getFunctionValueAccuracy();
+        double double20 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        int int22 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.resetRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 52.0d + "'", double19 == 52.0d);
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 1.0E-14d + "'", double20 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int22 + "' != '" + 52 + "'", int22 == 52);
+    }
+
+    @Test
+    public void test4799() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4799");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int6 = brentSolver0.getIterationCount();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        double double8 = brentSolver0.getRelativeAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction9 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double13 = brentSolver0.solve(univariateRealFunction9, 0.0d, (double) 10.0f, 97.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 0 + "'", int6 == 0);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 1.0E-15d + "'", double7 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 1.0E-14d + "'", double8 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4800() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4800");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double10 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        int int12 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) (short) 1);
+        int int15 = brentSolver0.getIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double16 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 1.0E-15d + "'", double10 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + (-1) + "'", int12 == (-1));
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 0 + "'", int15 == 0);
+    }
+
+    @Test
+    public void test4801() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4801");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int7 = brentSolver0.getIterationCount();
+        double double8 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int10 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + (-1.0d) + "'", double8 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 100 + "'", int10 == 100);
+    }
+
+    @Test
+    public void test4802() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4802");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.setAbsoluteAccuracy(32.0d);
+        brentSolver0.setMaximalIterationCount((int) (byte) 1);
+    }
+
+    @Test
+    public void test4803() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4803");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 0);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double16 = brentSolver0.getAbsoluteAccuracy();
+        double double17 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy(52.0d);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 0.0d + "'", double14 == 0.0d);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 1.0E-6d + "'", double16 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+    }
+
+    @Test
+    public void test4804() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4804");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        double double10 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy(97.0d);
+        brentSolver0.resetMaximalIterationCount();
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+    }
+
+    @Test
+    public void test4805() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4805");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        double double11 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction15 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double19 = brentSolver0.solve(univariateRealFunction15, (double) (byte) -1, 52.0d, 100.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + (-1.0d) + "'", double11 == (-1.0d));
+    }
+
+    @Test
+    public void test4806() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4806");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        double double13 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 100.0f);
+        brentSolver0.resetMaximalIterationCount();
+        double double18 = brentSolver0.getFunctionValueAccuracy();
+        double double19 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy(100.0d);
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + (-1.0d) + "'", double13 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 1.0E-15d + "'", double18 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + (-1.0d) + "'", double19 == (-1.0d));
+    }
+
+    @Test
+    public void test4807() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4807");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 0);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double16 = brentSolver0.getAbsoluteAccuracy();
+        double double17 = brentSolver0.getRelativeAccuracy();
+        int int18 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy((double) 100.0f);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 1);
+        int int24 = brentSolver0.getMaximalIterationCount();
+        int int25 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 0.0d + "'", double14 == 0.0d);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 1.0E-6d + "'", double16 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 0 + "'", int18 == 0);
+        org.junit.Assert.assertTrue("'" + int24 + "' != '" + 1 + "'", int24 == 1);
+        org.junit.Assert.assertTrue("'" + int25 + "' != '" + 0 + "'", int25 == 0);
+    }
+
+    @Test
+    public void test4808() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4808");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double4 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+    }
+
+    @Test
+    public void test4809() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4809");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 0);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 1);
+        brentSolver0.setFunctionValueAccuracy((double) 0L);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        // The following exception was thrown during execution in test generation
+        try {
+            double double23 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 0.0d + "'", double14 == 0.0d);
+    }
+
+    @Test
+    public void test4810() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4810");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        double double3 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) (short) 1);
+        java.lang.Class<?> wildcardClass8 = brentSolver0.getClass();
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-15d + "'", double3 == 1.0E-15d);
+        org.junit.Assert.assertNotNull(wildcardClass8);
+    }
+
+    @Test
+    public void test4811() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4811");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction16 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double19 = brentSolver0.solve(univariateRealFunction16, 10.0d, (double) (byte) 100);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+            // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+    }
+
+    @Test
+    public void test4812() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4812");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        double double3 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 100);
+        brentSolver0.resetMaximalIterationCount();
+        int int7 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 100);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy(1.0d);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double16 = brentSolver0.solve(35.0d, (double) '#', 1.0E-15d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-15d + "'", double3 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
+    }
+
+    @Test
+    public void test4813() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4813");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy((double) ' ');
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double17 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+    }
+
+    @Test
+    public void test4814() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4814");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        int int15 = brentSolver0.getMaximalIterationCount();
+        int int16 = brentSolver0.getIterationCount();
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 10L);
+        double double21 = brentSolver0.getRelativeAccuracy();
+        double double22 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 52.0d + "'", double17 == 52.0d);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 10.0d + "'", double21 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 10.0d + "'", double22 == 10.0d);
+    }
+
+    @Test
+    public void test4815() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4815");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        double double19 = brentSolver0.getAbsoluteAccuracy();
+        double double20 = brentSolver0.getAbsoluteAccuracy();
+        double double21 = brentSolver0.getFunctionValueAccuracy();
+        double double22 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + (-1.0d) + "'", double17 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + (-1.0d) + "'", double19 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + (-1.0d) + "'", double20 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + (-1.0d) + "'", double21 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + (-1.0d) + "'", double22 == (-1.0d));
+    }
+
+    @Test
+    public void test4816() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4816");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 0);
+        brentSolver0.setMaximalIterationCount(0);
+        int int14 = brentSolver0.getIterationCount();
+        double double15 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy(100.0d);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 100.0d + "'", double9 == 100.0d);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-14d + "'", double15 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4817() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4817");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 0);
+        brentSolver0.setMaximalIterationCount(0);
+        brentSolver0.setRelativeAccuracy((double) (short) 100);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy(100.0d);
+        double double19 = brentSolver0.getRelativeAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction20 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double23 = brentSolver0.solve(univariateRealFunction20, (double) 1.0f, (double) (byte) -1);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 100.0d + "'", double9 == 100.0d);
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 1.0E-14d + "'", double19 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4818() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4818");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        double double4 = brentSolver0.getFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 10.0f);
+        org.junit.Assert.assertTrue("'" + double4 + "' != '" + 1.0E-15d + "'", double4 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+    }
+
+    @Test
+    public void test4819() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4819");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 1.0f);
+        int int10 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy(0.0d);
+        brentSolver0.setRelativeAccuracy((double) 0);
+        brentSolver0.setFunctionValueAccuracy((double) (byte) 100);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double17 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+    }
+
+    @Test
+    public void test4820() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4820");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int6 = brentSolver0.getIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 0 + "'", int6 == 0);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 100.0d + "'", double10 == 100.0d);
+    }
+
+    @Test
+    public void test4821() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4821");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) 0);
+        brentSolver0.setRelativeAccuracy((double) 100L);
+        brentSolver0.resetRelativeAccuracy();
+    }
+
+    @Test
+    public void test4822() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4822");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) 100);
+        brentSolver0.setFunctionValueAccuracy((double) 52);
+        brentSolver0.setRelativeAccuracy(0.0d);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+    }
+
+    @Test
+    public void test4823() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4823");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 0);
+        brentSolver0.setMaximalIterationCount(0);
+        int int14 = brentSolver0.getIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        int int17 = brentSolver0.getIterationCount();
+        double double18 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 100.0d + "'", double9 == 100.0d);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 1.0E-14d + "'", double18 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4824() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4824");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int11 = brentSolver0.getMaximalIterationCount();
+        double double12 = brentSolver0.getRelativeAccuracy();
+        int int13 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 0);
+        int int16 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 100 + "'", int11 == 100);
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0E-14d + "'", double12 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 100 + "'", int13 == 100);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 100 + "'", int16 == 100);
+    }
+
+    @Test
+    public void test4825() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4825");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        double double9 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        int int13 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 1.0E-14d + "'", double9 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 1 + "'", int13 == 1);
+    }
+
+    @Test
+    public void test4826() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4826");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int6 = brentSolver0.getIterationCount();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        int int9 = brentSolver0.getIterationCount();
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 0 + "'", int6 == 0);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 1.0E-15d + "'", double7 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 1.0E-6d + "'", double10 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4827() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4827");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy(0.0d);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setFunctionValueAccuracy((double) 10.0f);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+    }
+
+    @Test
+    public void test4828() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4828");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.setFunctionValueAccuracy(1.0d);
+        brentSolver0.setRelativeAccuracy((double) 0.0f);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double14 = brentSolver0.solve((double) 100.0f, (double) ' ');
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+    }
+
+    @Test
+    public void test4829() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4829");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double9 = brentSolver0.getFunctionValueAccuracy();
+        int int10 = brentSolver0.getIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int12 = brentSolver0.getMaximalIterationCount();
+        int int13 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount(100);
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 1.0E-15d + "'", double9 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + (-1) + "'", int12 == (-1));
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 0 + "'", int13 == 0);
+    }
+
+    @Test
+    public void test4830() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4830");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 0);
+        brentSolver0.setAbsoluteAccuracy((double) (short) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        int int16 = brentSolver0.getIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double17 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 100.0d + "'", double9 == 100.0d);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
+    }
+
+    @Test
+    public void test4831() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4831");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy(1.0d);
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        int int18 = brentSolver0.getIterationCount();
+        double double19 = brentSolver0.getAbsoluteAccuracy();
+        int int20 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0d + "'", double17 == 1.0d);
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 0 + "'", int18 == 0);
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 1.0E-6d + "'", double19 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
+    }
+
+    @Test
+    public void test4832() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4832");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        int int15 = brentSolver0.getIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 0.0f);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double22 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 0 + "'", int15 == 0);
+    }
+
+    @Test
+    public void test4833() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4833");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        int int15 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 0 + "'", int15 == 0);
+    }
+
+    @Test
+    public void test4834() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4834");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int11 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction17 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double21 = brentSolver0.solve(univariateRealFunction17, 32.0d, (double) 97, (double) ' ');
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 100 + "'", int11 == 100);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 100 + "'", int15 == 100);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+    }
+
+    @Test
+    public void test4835() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4835");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.resetRelativeAccuracy();
+        double double21 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) ' ');
+        double double24 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (byte) -1);
+        double double27 = brentSolver0.getRelativeAccuracy();
+        double double28 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 52.0d + "'", double21 == 52.0d);
+        org.junit.Assert.assertTrue("'" + double24 + "' != '" + 1.0E-14d + "'", double24 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double27 + "' != '" + 1.0E-14d + "'", double27 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double28 + "' != '" + 52.0d + "'", double28 == 52.0d);
+    }
+
+    @Test
+    public void test4836() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4836");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        double double3 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) ' ');
+        brentSolver0.setRelativeAccuracy(32.0d);
+        brentSolver0.setMaximalIterationCount(52);
+        brentSolver0.setMaximalIterationCount((int) (byte) 0);
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double17 = brentSolver0.solve((double) (byte) -1, (double) (-1), (double) (short) 10);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-15d + "'", double3 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+    }
+
+    @Test
+    public void test4837() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4837");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double6 = brentSolver0.getAbsoluteAccuracy();
+        int int7 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount(32);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy(1.0E-6d);
+        brentSolver0.resetFunctionValueAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double14 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double6 + "' != '" + 1.0E-6d + "'", double6 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
+    }
+
+    @Test
+    public void test4838() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4838");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 52);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double15 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        brentSolver0.setMaximalIterationCount(0);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double20 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + (-1.0d) + "'", double9 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-15d + "'", double15 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4839() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4839");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy(0.0d);
+        int int18 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy(0.0d);
+        double double22 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 100 + "'", int18 == 100);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + (-1.0d) + "'", double22 == (-1.0d));
+    }
+
+    @Test
+    public void test4840() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4840");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        double double4 = brentSolver0.getFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int8 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) (byte) -1);
+        org.junit.Assert.assertTrue("'" + double4 + "' != '" + 1.0E-15d + "'", double4 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 0 + "'", int8 == 0);
+    }
+
+    @Test
+    public void test4841() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4841");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getAbsoluteAccuracy();
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        int int19 = brentSolver0.getMaximalIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double20 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + (-1.0d) + "'", double16 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + (-1.0d) + "'", double17 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 10 + "'", int19 == 10);
+    }
+
+    @Test
+    public void test4842() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4842");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.setRelativeAccuracy((double) 10L);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount(97);
+        double double19 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 10.0d + "'", double19 == 10.0d);
+    }
+
+    @Test
+    public void test4843() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4843");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        int int15 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setFunctionValueAccuracy(1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 0 + "'", int15 == 0);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+    }
+
+    @Test
+    public void test4844() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4844");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        double double17 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        int int19 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double21 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) 100.0f);
+        brentSolver0.setRelativeAccuracy(52.0d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 52 + "'", int19 == 52);
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 10.0d + "'", double21 == 10.0d);
+    }
+
+    @Test
+    public void test4845() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4845");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        brentSolver0.setFunctionValueAccuracy((double) ' ');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) 0);
+        brentSolver0.resetFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+    }
+
+    @Test
+    public void test4846() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4846");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 100);
+        brentSolver0.setMaximalIterationCount(0);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+    }
+
+    @Test
+    public void test4847() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4847");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int11 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        double double13 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 100 + "'", int11 == 100);
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + (-1.0d) + "'", double13 == (-1.0d));
+    }
+
+    @Test
+    public void test4848() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4848");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy(1.0E-6d);
+        brentSolver0.setFunctionValueAccuracy((double) (byte) 0);
+        int int20 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
+    }
+
+    @Test
+    public void test4849() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4849");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double7 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        int int9 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) (short) 100);
+        double double12 = brentSolver0.getRelativeAccuracy();
+        double double13 = brentSolver0.getRelativeAccuracy();
+        int int14 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 100 + "'", int9 == 100);
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 100.0d + "'", double12 == 100.0d);
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + 100.0d + "'", double13 == 100.0d);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
+    }
+
+    @Test
+    public void test4850() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4850");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int16 = brentSolver0.getMaximalIterationCount();
+        java.lang.Class<?> wildcardClass17 = brentSolver0.getClass();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + (-1) + "'", int16 == (-1));
+        org.junit.Assert.assertNotNull(wildcardClass17);
+    }
+
+    @Test
+    public void test4851() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4851");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount(32);
+        brentSolver0.setMaximalIterationCount((int) (byte) 1);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+    }
+
+    @Test
+    public void test4852() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4852");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        double double4 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction9 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double12 = brentSolver0.solve(univariateRealFunction9, (double) (byte) -1, (double) 97);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+            // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + double4 + "' != '" + 1.0E-14d + "'", double4 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 1.0E-15d + "'", double8 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4853() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4853");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        double double1 = brentSolver0.getAbsoluteAccuracy();
+        double double2 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy(1.0d);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double1 + "' != '" + 1.0E-6d + "'", double1 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double2 + "' != '" + 1.0E-6d + "'", double2 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4854() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4854");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        double double12 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0E-14d + "'", double12 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4855() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4855");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setMaximalIterationCount((int) '#');
+        brentSolver0.setAbsoluteAccuracy((double) 0);
+        brentSolver0.resetMaximalIterationCount();
+        double double16 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        int int18 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 0 + "'", int18 == 0);
+    }
+
+    @Test
+    public void test4856() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4856");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) 0);
+        brentSolver0.setAbsoluteAccuracy(32.0d);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy(1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+    }
+
+    @Test
+    public void test4857() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4857");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double8 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 1.0E-15d + "'", double7 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4858() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4858");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        double double7 = brentSolver0.getAbsoluteAccuracy();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        int int10 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 100 + "'", int10 == 100);
+    }
+
+    @Test
+    public void test4859() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4859");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) 0);
+        int int15 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 0 + "'", int15 == 0);
+    }
+
+    @Test
+    public void test4860() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4860");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 0);
+        brentSolver0.setAbsoluteAccuracy((double) (short) 10);
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction17 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double21 = brentSolver0.solve(univariateRealFunction17, (double) (short) 0, 0.0d, (double) 10);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 100.0d + "'", double9 == 100.0d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 10.0d + "'", double14 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 1.0E-14d + "'", double16 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4861() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4861");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 1.0f);
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        int int10 = brentSolver0.getIterationCount();
+        int int11 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 1 + "'", int11 == 1);
+    }
+
+    @Test
+    public void test4862() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4862");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 100);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double26 = brentSolver0.getFunctionValueAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double29 = brentSolver0.solve((double) (byte) 10, (double) (short) 1);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double26 + "' != '" + 1.0E-15d + "'", double26 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4863() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4863");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        double double13 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 100.0f);
+        double double17 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy(1.0E-14d);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) (-1.0f));
+        double double23 = brentSolver0.getAbsoluteAccuracy();
+        int int24 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + (-1.0d) + "'", double13 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 100.0d + "'", double17 == 100.0d);
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + (-1.0d) + "'", double23 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int24 + "' != '" + 100 + "'", int24 == 100);
+    }
+
+    @Test
+    public void test4864() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4864");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        int int10 = brentSolver0.getMaximalIterationCount();
+        int int11 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 100.0d + "'", double9 == 100.0d);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 100 + "'", int10 == 100);
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 0 + "'", int11 == 0);
+    }
+
+    @Test
+    public void test4865() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4865");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setRelativeAccuracy((double) (short) 100);
+        brentSolver0.resetAbsoluteAccuracy();
+        int int14 = brentSolver0.getIterationCount();
+        double double15 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 52.0d + "'", double15 == 52.0d);
+    }
+
+    @Test
+    public void test4866() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4866");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 52);
+        int int15 = brentSolver0.getIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int17 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 0);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 0 + "'", int15 == 0);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 100 + "'", int17 == 100);
+    }
+
+    @Test
+    public void test4867() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4867");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double6 = brentSolver0.getAbsoluteAccuracy();
+        double double7 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double6 + "' != '" + 1.0E-6d + "'", double6 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 1.0E-14d + "'", double7 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4868() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4868");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy(1.0E-15d);
+        brentSolver0.resetRelativeAccuracy();
+        int int22 = brentSolver0.getMaximalIterationCount();
+        double double23 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int25 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) (-1.0f));
+        java.lang.Class<?> wildcardClass28 = brentSolver0.getClass();
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int22 + "' != '" + 52 + "'", int22 == 52);
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + (-1.0d) + "'", double23 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int25 + "' != '" + 52 + "'", int25 == 52);
+        org.junit.Assert.assertNotNull(wildcardClass28);
+    }
+
+    @Test
+    public void test4869() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4869");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 1.0f);
+        int int10 = brentSolver0.getIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 10);
+        double double14 = brentSolver0.getRelativeAccuracy();
+        double double15 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 1.0d + "'", double14 == 1.0d);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + (-1.0d) + "'", double15 == (-1.0d));
+    }
+
+    @Test
+    public void test4870() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4870");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        int int10 = brentSolver0.getIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction12 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double16 = brentSolver0.solve(univariateRealFunction12, (double) 0, (double) (byte) 0, (double) 1L);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 10.0d + "'", double8 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+    }
+
+    @Test
+    public void test4871() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4871");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 1.0f);
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        int int10 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double15 = brentSolver0.getRelativeAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double19 = brentSolver0.solve(97.0d, (double) '#', (double) 0L);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-14d + "'", double15 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4872() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4872");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        double double17 = brentSolver0.getRelativeAccuracy();
+        int int18 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        double double20 = brentSolver0.getFunctionValueAccuracy();
+        int int21 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 52 + "'", int18 == 52);
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 52.0d + "'", double20 == 52.0d);
+        org.junit.Assert.assertTrue("'" + int21 + "' != '" + 100 + "'", int21 == 100);
+    }
+
+    @Test
+    public void test4873() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4873");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getAbsoluteAccuracy();
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double19 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double21 = brentSolver0.getFunctionValueAccuracy();
+        double double22 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + (-1.0d) + "'", double16 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + (-1.0d) + "'", double17 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 10.0d + "'", double19 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 1.0E-15d + "'", double21 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 1.0E-6d + "'", double22 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4874() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4874");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        double double17 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        int int19 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double21 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy((double) (-1.0f));
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 52 + "'", int19 == 52);
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 10.0d + "'", double21 == 10.0d);
+    }
+
+    @Test
+    public void test4875() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4875");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 0);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+    }
+
+    @Test
+    public void test4876() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4876");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        double double15 = brentSolver0.getFunctionValueAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double16 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 52.0d + "'", double15 == 52.0d);
+    }
+
+    @Test
+    public void test4877() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4877");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount(0);
+        int int13 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy(32.0d);
+        brentSolver0.setRelativeAccuracy((double) 1);
+        brentSolver0.setRelativeAccuracy((double) (-1.0f));
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction20 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double23 = brentSolver0.solve(univariateRealFunction20, (double) 1.0f, (double) 35);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+            // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 0 + "'", int13 == 0);
+    }
+
+    @Test
+    public void test4878() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4878");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) '#');
+        brentSolver0.setAbsoluteAccuracy(0.0d);
+        double double10 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy(32.0d);
+        brentSolver0.setMaximalIterationCount((int) (byte) 1);
+        brentSolver0.setMaximalIterationCount((int) (short) 10);
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 1.0E-15d + "'", double10 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4879() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4879");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.setAbsoluteAccuracy(0.0d);
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+    }
+
+    @Test
+    public void test4880() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4880");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 100);
+        brentSolver0.setRelativeAccuracy((double) (byte) 1);
+        int int15 = brentSolver0.getIterationCount();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + (-1.0d) + "'", double9 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 0 + "'", int15 == 0);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 1.0d + "'", double16 == 1.0d);
+    }
+
+    @Test
+    public void test4881() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4881");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        double double10 = brentSolver0.getRelativeAccuracy();
+        double double11 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount(35);
+        int int14 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + (-1.0d) + "'", double9 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 1.0E-14d + "'", double10 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + (-1.0d) + "'", double11 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
+    }
+
+    @Test
+    public void test4882() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4882");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) 100.0f);
+        brentSolver0.setFunctionValueAccuracy((double) (byte) -1);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (-1.0f));
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+    }
+
+    @Test
+    public void test4883() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4883");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.setRelativeAccuracy((double) 10L);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 100);
+        int int19 = brentSolver0.getMaximalIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double20 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 100 + "'", int19 == 100);
+    }
+
+    @Test
+    public void test4884() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4884");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        double double11 = brentSolver0.getAbsoluteAccuracy();
+        double double12 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) (byte) -1);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 100 + "'", int9 == 100);
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + (-1.0d) + "'", double11 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + (-1.0d) + "'", double12 == (-1.0d));
+    }
+
+    @Test
+    public void test4885() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4885");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 0);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double16 = brentSolver0.getAbsoluteAccuracy();
+        double double17 = brentSolver0.getRelativeAccuracy();
+        int int18 = brentSolver0.getIterationCount();
+        double double19 = brentSolver0.getAbsoluteAccuracy();
+        double double20 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 0.0d + "'", double14 == 0.0d);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 1.0E-6d + "'", double16 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 0 + "'", int18 == 0);
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 1.0E-6d + "'", double19 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 10.0d + "'", double20 == 10.0d);
+    }
+
+    @Test
+    public void test4886() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4886");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 52);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 52);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + (-1.0d) + "'", double9 == (-1.0d));
+    }
+
+    @Test
+    public void test4887() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4887");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        double double11 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) (short) 1);
+        double double14 = brentSolver0.getRelativeAccuracy();
+        java.lang.Class<?> wildcardClass15 = brentSolver0.getClass();
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + (-1.0d) + "'", double11 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 1.0d + "'", double14 == 1.0d);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test4888() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4888");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        double double13 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 100L);
+        brentSolver0.resetAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + 10.0d + "'", double13 == 10.0d);
+    }
+
+    @Test
+    public void test4889() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4889");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        double double11 = brentSolver0.getAbsoluteAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double14 = brentSolver0.solve((double) 100.0f, (double) 1L);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + 100.0d + "'", double11 == 100.0d);
+    }
+
+    @Test
+    public void test4890() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4890");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        int int13 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy((double) (byte) 1);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 0 + "'", int13 == 0);
+    }
+
+    @Test
+    public void test4891() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4891");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double7 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) (short) -1);
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setRelativeAccuracy(0.0d);
+        int int16 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
+    }
+
+    @Test
+    public void test4892() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4892");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 0);
+        brentSolver0.setMaximalIterationCount(0);
+        int int14 = brentSolver0.getIterationCount();
+        double double15 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy(100.0d);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy(100.0d);
+        double double21 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) -1);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 100.0d + "'", double9 == 100.0d);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-14d + "'", double15 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 100.0d + "'", double21 == 100.0d);
+    }
+
+    @Test
+    public void test4893() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4893");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        int int9 = brentSolver0.getMaximalIterationCount();
+        int int10 = brentSolver0.getIterationCount();
+        double double11 = brentSolver0.getRelativeAccuracy();
+        double double12 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy(1.0E-15d);
+        brentSolver0.setAbsoluteAccuracy(1.0E-14d);
+        brentSolver0.resetRelativeAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double18 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 100 + "'", int9 == 100);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + 1.0E-14d + "'", double11 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0E-14d + "'", double12 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4894() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4894");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (byte) 1);
+        double double11 = brentSolver0.getRelativeAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double15 = brentSolver0.solve((double) (-1), (double) ' ', (double) '4');
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + (-1.0d) + "'", double8 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + 1.0E-14d + "'", double11 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4895() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4895");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy(0.0d);
+        double double19 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount(1);
+        double double23 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        double double25 = brentSolver0.getAbsoluteAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double26 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 0.0d + "'", double19 == 0.0d);
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + 0.0d + "'", double23 == 0.0d);
+        org.junit.Assert.assertTrue("'" + double25 + "' != '" + 0.0d + "'", double25 == 0.0d);
+    }
+
+    @Test
+    public void test4896() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4896");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy(100.0d);
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+    }
+
+    @Test
+    public void test4897() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4897");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double7 = brentSolver0.getRelativeAccuracy();
+        double double8 = brentSolver0.getRelativeAccuracy();
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        double double10 = brentSolver0.getRelativeAccuracy();
+        int int11 = brentSolver0.getIterationCount();
+        double double12 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 1.0E-14d + "'", double7 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 1.0E-14d + "'", double8 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + (-1.0d) + "'", double9 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 1.0E-14d + "'", double10 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 0 + "'", int11 == 0);
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + (-1.0d) + "'", double12 == (-1.0d));
+    }
+
+    @Test
+    public void test4898() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4898");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        double double12 = brentSolver0.getAbsoluteAccuracy();
+        int int13 = brentSolver0.getMaximalIterationCount();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        java.lang.Class<?> wildcardClass15 = brentSolver0.getClass();
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + (-1.0d) + "'", double12 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + (-1) + "'", int13 == (-1));
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 10.0d + "'", double14 == 10.0d);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test4899() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4899");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.resetMaximalIterationCount();
+        int int12 = brentSolver0.getIterationCount();
+        double double13 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount(32);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + (-1.0d) + "'", double13 == (-1.0d));
+    }
+
+    @Test
+    public void test4900() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4900");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getAbsoluteAccuracy();
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        double double10 = brentSolver0.getFunctionValueAccuracy();
+        double double11 = brentSolver0.getRelativeAccuracy();
+        double double12 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (byte) 100);
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + (-1.0d) + "'", double8 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + (-1.0d) + "'", double9 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + 1.0E-14d + "'", double11 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 10.0d + "'", double12 == 10.0d);
+    }
+
+    @Test
+    public void test4901() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4901");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 10);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double12 = brentSolver0.solve((double) (byte) 10, (double) 10);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+    }
+
+    @Test
+    public void test4902() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4902");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double6 = brentSolver0.getAbsoluteAccuracy();
+        int int7 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount(32);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double13 = brentSolver0.solve((double) '4', (double) '#', (double) 100);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double6 + "' != '" + 1.0E-6d + "'", double6 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
+    }
+
+    @Test
+    public void test4903() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4903");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy((double) '4');
+        brentSolver0.setRelativeAccuracy(1.0E-14d);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 'a');
+        // The following exception was thrown during execution in test generation
+        try {
+            double double14 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+    }
+
+    @Test
+    public void test4904() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4904");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) (-1L));
+        double double14 = brentSolver0.getRelativeAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction15 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double18 = brentSolver0.solve(univariateRealFunction15, (double) 97, (double) (byte) -1);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 1.0E-15d + "'", double8 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + (-1.0d) + "'", double9 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+    }
+
+    @Test
+    public void test4905() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4905");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy(1.0E-6d);
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount(10);
+        brentSolver0.resetFunctionValueAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction22 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double25 = brentSolver0.solve(univariateRealFunction22, 1.0E-6d, 35.0d);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+            // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 1.0E-6d + "'", double18 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4906() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4906");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        double double9 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 1.0E-14d + "'", double9 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4907() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4907");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setRelativeAccuracy((double) (-1.0f));
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction19 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double23 = brentSolver0.solve(univariateRealFunction19, (double) 100.0f, 52.0d, (double) 100.0f);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+    }
+
+    @Test
+    public void test4908() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4908");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        int int11 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setFunctionValueAccuracy(1.0d);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 1);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 100 + "'", int11 == 100);
+    }
+
+    @Test
+    public void test4909() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4909");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        double double4 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 'a');
+        double double7 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double4 + "' != '" + 1.0E-15d + "'", double4 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + 97.0d + "'", double7 == 97.0d);
+    }
+
+    @Test
+    public void test4910() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4910");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+    }
+
+    @Test
+    public void test4911() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4911");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        int int19 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 100);
+        brentSolver0.resetFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + (-1.0d) + "'", double16 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 0 + "'", int19 == 0);
+    }
+
+    @Test
+    public void test4912() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4912");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 0);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        int int16 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        java.lang.Class<?> wildcardClass18 = brentSolver0.getClass();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 0.0d + "'", double14 == 0.0d);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 100 + "'", int16 == 100);
+        org.junit.Assert.assertNotNull(wildcardClass18);
+    }
+
+    @Test
+    public void test4913() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4913");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 0);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        double double17 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 10L);
+        int int20 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 0.0d + "'", double14 == 0.0d);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0E-6d + "'", double17 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 100 + "'", int20 == 100);
+    }
+
+    @Test
+    public void test4914() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4914");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (byte) 1);
+        brentSolver0.setRelativeAccuracy((double) 52);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1L));
+        // The following exception was thrown during execution in test generation
+        try {
+            double double22 = brentSolver0.solve(32.0d, 0.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+    }
+
+    @Test
+    public void test4915() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4915");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.setRelativeAccuracy((double) 10L);
+        brentSolver0.setRelativeAccuracy((double) 1.0f);
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+    }
+
+    @Test
+    public void test4916() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4916");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        int int8 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (byte) 1);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 100 + "'", int8 == 100);
+    }
+
+    @Test
+    public void test4917() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4917");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        double double12 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy(52.0d);
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction15 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double18 = brentSolver0.solve(univariateRealFunction15, 0.0d, (double) (byte) 100);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+            // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0E-14d + "'", double12 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4918() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4918");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) 0);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 1L);
+        brentSolver0.resetAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+    }
+
+    @Test
+    public void test4919() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4919");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        double double19 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount(1);
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double24 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 52.0d + "'", double19 == 52.0d);
+    }
+
+    @Test
+    public void test4920() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4920");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.setRelativeAccuracy((double) 10L);
+        int int15 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy(35.0d);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + (-1) + "'", int15 == (-1));
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+    }
+
+    @Test
+    public void test4921() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4921");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int11 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) 0L);
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        int int20 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 100 + "'", int11 == 100);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 1.0E-6d + "'", double18 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
+    }
+
+    @Test
+    public void test4922() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4922");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy(1.0d);
+        brentSolver0.setRelativeAccuracy((-1.0d));
+        int int19 = brentSolver0.getIterationCount();
+        int int20 = brentSolver0.getIterationCount();
+        int int21 = brentSolver0.getIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction24 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double27 = brentSolver0.solve(univariateRealFunction24, (double) 100.0f, (double) (-1));
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 0 + "'", int19 == 0);
+        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
+        org.junit.Assert.assertTrue("'" + int21 + "' != '" + 0 + "'", int21 == 0);
+    }
+
+    @Test
+    public void test4923() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4923");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.resetRelativeAccuracy();
+        double double8 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy((double) (byte) 10);
+        brentSolver0.resetMaximalIterationCount();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction12 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double15 = brentSolver0.solve(univariateRealFunction12, (double) ' ', (double) '#');
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+            // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 1.0E-14d + "'", double8 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4924() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4924");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        double double1 = brentSolver0.getAbsoluteAccuracy();
+        double double2 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 0);
+        brentSolver0.resetMaximalIterationCount();
+        int int6 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double1 + "' != '" + 1.0E-6d + "'", double1 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double2 + "' != '" + 1.0E-6d + "'", double2 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 100 + "'", int6 == 100);
+    }
+
+    @Test
+    public void test4925() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4925");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount(52);
+        brentSolver0.setRelativeAccuracy((double) 100);
+        int int9 = brentSolver0.getIterationCount();
+        int int10 = brentSolver0.getIterationCount();
+        java.lang.Class<?> wildcardClass11 = brentSolver0.getClass();
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertNotNull(wildcardClass11);
+    }
+
+    @Test
+    public void test4926() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4926");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int17 = brentSolver0.getMaximalIterationCount();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        double double19 = brentSolver0.getRelativeAccuracy();
+        double double20 = brentSolver0.getRelativeAccuracy();
+        int int21 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) 1L);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double27 = brentSolver0.solve((double) (byte) 10, (double) 1.0f, 10.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 100 + "'", int17 == 100);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 1.0E-14d + "'", double19 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 1.0E-14d + "'", double20 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int21 + "' != '" + 100 + "'", int21 == 100);
+    }
+
+    @Test
+    public void test4927() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4927");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 1.0f);
+        int int10 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy(0.0d);
+        brentSolver0.setRelativeAccuracy((double) 0);
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double17 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+    }
+
+    @Test
+    public void test4928() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4928");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        int int10 = brentSolver0.getIterationCount();
+        double double11 = brentSolver0.getAbsoluteAccuracy();
+        double double12 = brentSolver0.getFunctionValueAccuracy();
+        double double13 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 10);
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + (-1.0d) + "'", double11 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + (-1.0d) + "'", double12 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + (-1.0d) + "'", double13 == (-1.0d));
+    }
+
+    @Test
+    public void test4929() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4929");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 0);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        double double17 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double19 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 97);
+        int int22 = brentSolver0.getMaximalIterationCount();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction23 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double27 = brentSolver0.solve(univariateRealFunction23, (double) (byte) 10, 0.0d, 0.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + 10.0d + "'", double10 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 0.0d + "'", double14 == 0.0d);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0E-6d + "'", double17 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 1.0E-6d + "'", double19 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int22 + "' != '" + 100 + "'", int22 == 100);
+    }
+
+    @Test
+    public void test4930() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4930");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        double double1 = brentSolver0.getAbsoluteAccuracy();
+        int int2 = brentSolver0.getMaximalIterationCount();
+        int int3 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) 1.0f);
+        brentSolver0.resetRelativeAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction8 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double12 = brentSolver0.solve(univariateRealFunction8, (double) (short) -1, (double) 1, (-1.0d));
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double1 + "' != '" + 1.0E-6d + "'", double1 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 100 + "'", int2 == 100);
+        org.junit.Assert.assertTrue("'" + int3 + "' != '" + 100 + "'", int3 == 100);
+    }
+
+    @Test
+    public void test4931() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4931");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy(10.0d);
+        double double22 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 10.0d + "'", double22 == 10.0d);
+    }
+
+    @Test
+    public void test4932() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4932");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        int int12 = brentSolver0.getIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 52);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+    }
+
+    @Test
+    public void test4933() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4933");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        double double1 = brentSolver0.getAbsoluteAccuracy();
+        double double2 = brentSolver0.getAbsoluteAccuracy();
+        int int3 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double1 + "' != '" + 1.0E-6d + "'", double1 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double2 + "' != '" + 1.0E-6d + "'", double2 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int3 + "' != '" + 100 + "'", int3 == 100);
+    }
+
+    @Test
+    public void test4934() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4934");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        brentSolver0.resetRelativeAccuracy();
+        double double13 = brentSolver0.getFunctionValueAccuracy();
+        int int14 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy(52.0d);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double20 = brentSolver0.solve((double) 10L, 1.0E-6d, (double) 100.0f);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + (-1.0d) + "'", double13 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 100 + "'", int14 == 100);
+    }
+
+    @Test
+    public void test4935() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4935");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.setRelativeAccuracy((double) 10L);
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        brentSolver0.resetMaximalIterationCount();
+        double double18 = brentSolver0.getFunctionValueAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction19 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double23 = brentSolver0.solve(univariateRealFunction19, 52.0d, 52.0d, (double) (short) 1);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 10.0d + "'", double18 == 10.0d);
+    }
+
+    @Test
+    public void test4936() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4936");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double6 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 52);
+        double double9 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1));
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction12 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double15 = brentSolver0.solve(univariateRealFunction12, 10.0d, (double) (byte) 0);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double6 + "' != '" + 100.0d + "'", double6 == 100.0d);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 1.0E-14d + "'", double9 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4937() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4937");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.resetRelativeAccuracy();
+        double double8 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy(1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 1.0E-14d + "'", double8 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4938() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4938");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy(1.0E-15d);
+        brentSolver0.resetRelativeAccuracy();
+        int int22 = brentSolver0.getMaximalIterationCount();
+        double double23 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 1);
+        brentSolver0.setAbsoluteAccuracy(0.0d);
+        java.lang.Class<?> wildcardClass28 = brentSolver0.getClass();
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int22 + "' != '" + 52 + "'", int22 == 52);
+        org.junit.Assert.assertTrue("'" + double23 + "' != '" + (-1.0d) + "'", double23 == (-1.0d));
+        org.junit.Assert.assertNotNull(wildcardClass28);
+    }
+
+    @Test
+    public void test4939() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4939");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.setRelativeAccuracy((double) 10L);
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        int int17 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 1 + "'", int17 == 1);
+    }
+
+    @Test
+    public void test4940() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4940");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 100);
+        brentSolver0.setMaximalIterationCount((int) ' ');
+        double double21 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 10.0d + "'", double21 == 10.0d);
+    }
+
+    @Test
+    public void test4941() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4941");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        double double1 = brentSolver0.getAbsoluteAccuracy();
+        double double2 = brentSolver0.getAbsoluteAccuracy();
+        double double3 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy((double) ' ');
+        int int6 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) (byte) -1);
+        brentSolver0.resetAbsoluteAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction10 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double13 = brentSolver0.solve(univariateRealFunction10, (double) '#', (double) (short) 0);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double1 + "' != '" + 1.0E-6d + "'", double1 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double2 + "' != '" + 1.0E-6d + "'", double2 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-14d + "'", double3 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 0 + "'", int6 == 0);
+    }
+
+    @Test
+    public void test4942() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4942");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double17 = brentSolver0.getAbsoluteAccuracy();
+        int int18 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + (-1.0d) + "'", double17 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 0 + "'", int18 == 0);
+    }
+
+    @Test
+    public void test4943() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4943");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.resetAbsoluteAccuracy();
+        double double9 = brentSolver0.getFunctionValueAccuracy();
+        int int10 = brentSolver0.getIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 'a');
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 1.0E-15d + "'", double9 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+    }
+
+    @Test
+    public void test4944() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4944");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.setAbsoluteAccuracy(0.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        brentSolver0.setMaximalIterationCount((int) '#');
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+    }
+
+    @Test
+    public void test4945() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4945");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        double double9 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        int int13 = brentSolver0.getIterationCount();
+        int int14 = brentSolver0.getMaximalIterationCount();
+        double double15 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 1.0E-14d + "'", double9 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 0 + "'", int13 == 0);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 1 + "'", int14 == 1);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-6d + "'", double15 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4946() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4946");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int8 = brentSolver0.getIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double11 = brentSolver0.solve((double) 100L, (double) 32);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 0 + "'", int8 == 0);
+    }
+
+    @Test
+    public void test4947() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4947");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((-1));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) 0.0f);
+        double double17 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + (-1.0d) + "'", double17 == (-1.0d));
+    }
+
+    @Test
+    public void test4948() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4948");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy((double) '4');
+        brentSolver0.setRelativeAccuracy(1.0E-14d);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction11 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double15 = brentSolver0.solve(univariateRealFunction11, (double) 32, (double) (short) 100, (double) 0);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+    }
+
+    @Test
+    public void test4949() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4949");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction9 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double12 = brentSolver0.solve(univariateRealFunction9, (double) 100L, (double) 0);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 1.0E-15d + "'", double8 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4950() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4950");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1));
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) ' ');
+        brentSolver0.setFunctionValueAccuracy((double) 10L);
+        int int17 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 10.0d + "'", double8 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 100 + "'", int17 == 100);
+    }
+
+    @Test
+    public void test4951() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4951");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        double double19 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount(1);
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.resetMaximalIterationCount();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction25 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double29 = brentSolver0.solve(univariateRealFunction25, (double) (short) 10, (double) (byte) 0, (double) '#');
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 52.0d + "'", double19 == 52.0d);
+    }
+
+    @Test
+    public void test4952() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4952");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getAbsoluteAccuracy();
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double19 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        int int21 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy(1.0E-14d);
+        double double24 = brentSolver0.getFunctionValueAccuracy();
+        double double25 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + (-1.0d) + "'", double16 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + (-1.0d) + "'", double17 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 10.0d + "'", double19 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int21 + "' != '" + 10 + "'", int21 == 10);
+        org.junit.Assert.assertTrue("'" + double24 + "' != '" + 1.0E-15d + "'", double24 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double25 + "' != '" + 10.0d + "'", double25 == 10.0d);
+    }
+
+    @Test
+    public void test4953() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4953");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double7 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        int int10 = brentSolver0.getIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction12 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double16 = brentSolver0.solve(univariateRealFunction12, 35.0d, (double) (-1), (double) (byte) 0);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 1.0E-6d + "'", double9 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+    }
+
+    @Test
+    public void test4954() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4954");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        double double11 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction14 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double17 = brentSolver0.solve(univariateRealFunction14, 1.0E-6d, (double) (-1));
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + (-1.0d) + "'", double11 == (-1.0d));
+    }
+
+    @Test
+    public void test4955() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4955");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        double double1 = brentSolver0.getAbsoluteAccuracy();
+        double double2 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy(1.0E-15d);
+        brentSolver0.setMaximalIterationCount(100);
+        brentSolver0.resetMaximalIterationCount();
+        double double11 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy(35.0d);
+        org.junit.Assert.assertTrue("'" + double1 + "' != '" + 1.0E-6d + "'", double1 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double2 + "' != '" + 1.0E-6d + "'", double2 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + 1.0E-15d + "'", double11 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4956() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4956");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 0);
+        brentSolver0.setMaximalIterationCount(0);
+        int int14 = brentSolver0.getIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        int int18 = brentSolver0.getIterationCount();
+        double double19 = brentSolver0.getFunctionValueAccuracy();
+        double double20 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 100);
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 100.0d + "'", double9 == 100.0d);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0E-15d + "'", double17 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 0 + "'", int18 == 0);
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 1.0E-15d + "'", double19 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double20 + "' != '" + 1.0E-14d + "'", double20 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4957() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4957");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double15 = brentSolver0.getRelativeAccuracy();
+        double double16 = brentSolver0.getAbsoluteAccuracy();
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount(32);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double21 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-14d + "'", double15 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + (-1.0d) + "'", double16 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0E-15d + "'", double17 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4958() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4958");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy(1.0E-15d);
+        double double21 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double23 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 52.0d + "'", double21 == 52.0d);
+    }
+
+    @Test
+    public void test4959() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4959");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((double) 1.0f);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setRelativeAccuracy((double) (short) 10);
+        brentSolver0.resetMaximalIterationCount();
+        double double17 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 1);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0E-6d + "'", double17 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4960() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4960");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        int int18 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) 1.0f);
+        int int21 = brentSolver0.getIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double22 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + (-1.0d) + "'", double17 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 10 + "'", int18 == 10);
+        org.junit.Assert.assertTrue("'" + int21 + "' != '" + 0 + "'", int21 == 0);
+    }
+
+    @Test
+    public void test4961() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4961");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        int int18 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) 1.0f);
+        int int21 = brentSolver0.getIterationCount();
+        double double22 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) 0);
+        brentSolver0.setFunctionValueAccuracy((double) 97);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + (-1.0d) + "'", double17 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 10 + "'", int18 == 10);
+        org.junit.Assert.assertTrue("'" + int21 + "' != '" + 0 + "'", int21 == 0);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 1.0d + "'", double22 == 1.0d);
+    }
+
+    @Test
+    public void test4962() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4962");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy(1.0E-15d);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        double double15 = brentSolver0.getRelativeAccuracy();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        int int17 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + double15 + "' != '" + 1.0E-15d + "'", double15 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 1.0E-15d + "'", double16 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 100 + "'", int17 == 100);
+    }
+
+    @Test
+    public void test4963() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4963");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int17 = brentSolver0.getMaximalIterationCount();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        double double19 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 100 + "'", int17 == 100);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + (-1.0d) + "'", double19 == (-1.0d));
+    }
+
+    @Test
+    public void test4964() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4964");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1));
+        int int12 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 97);
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 10.0d + "'", double8 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 100 + "'", int12 == 100);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 100 + "'", int15 == 100);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 1.0E-6d + "'", double16 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4965() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4965");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setRelativeAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(1.0E-15d);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double17 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0E-6d + "'", double17 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4966() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4966");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1));
+        brentSolver0.setRelativeAccuracy(52.0d);
+        brentSolver0.setAbsoluteAccuracy(0.0d);
+        brentSolver0.resetFunctionValueAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double20 = brentSolver0.solve((double) '#', (double) (byte) -1, (double) 32);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 10.0d + "'", double8 == 10.0d);
+    }
+
+    @Test
+    public void test4967() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4967");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 0);
+        double double12 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 100.0d + "'", double9 == 100.0d);
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0d + "'", double12 == 1.0d);
+    }
+
+    @Test
+    public void test4968() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4968");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double16 = brentSolver0.getAbsoluteAccuracy();
+        double double17 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 1.0E-6d + "'", double16 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 10.0d + "'", double17 == 10.0d);
+    }
+
+    @Test
+    public void test4969() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4969");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int11 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) 0L);
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        double double16 = brentSolver0.getAbsoluteAccuracy();
+        int int17 = brentSolver0.getIterationCount();
+        double double18 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount(10);
+        brentSolver0.setRelativeAccuracy((double) (short) 1);
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 100 + "'", int11 == 100);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + (-1.0d) + "'", double16 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + 0.0d + "'", double18 == 0.0d);
+    }
+
+    @Test
+    public void test4970() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4970");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy((double) (short) 100);
+        int int9 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+    }
+
+    @Test
+    public void test4971() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4971");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1));
+        brentSolver0.resetMaximalIterationCount();
+        int int13 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount(0);
+        brentSolver0.setRelativeAccuracy((double) '4');
+        brentSolver0.setFunctionValueAccuracy((-1.0d));
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 10.0d + "'", double8 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 100 + "'", int13 == 100);
+    }
+
+    @Test
+    public void test4972() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4972");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        double double1 = brentSolver0.getFunctionValueAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double2 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double1 + "' != '" + 1.0E-15d + "'", double1 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4973() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4973");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        double double19 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount(1);
+        int int22 = brentSolver0.getMaximalIterationCount();
+        int int23 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 52.0d + "'", double19 == 52.0d);
+        org.junit.Assert.assertTrue("'" + int22 + "' != '" + 1 + "'", int22 == 1);
+        org.junit.Assert.assertTrue("'" + int23 + "' != '" + 1 + "'", int23 == 1);
+    }
+
+    @Test
+    public void test4974() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4974");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        double double16 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (byte) 10);
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 1.0E-15d + "'", double16 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4975() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4975");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 0);
+        brentSolver0.setMaximalIterationCount(0);
+        int int14 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy((-1.0d));
+        brentSolver0.setMaximalIterationCount((int) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int20 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 100.0d + "'", double9 == 100.0d);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
+        org.junit.Assert.assertTrue("'" + int20 + "' != '" + (-1) + "'", int20 == (-1));
+    }
+
+    @Test
+    public void test4976() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4976");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double14 = brentSolver0.getAbsoluteAccuracy();
+        int int15 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        int int18 = brentSolver0.getMaximalIterationCount();
+        double double19 = brentSolver0.getAbsoluteAccuracy();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + (-1.0d) + "'", double14 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 0 + "'", int15 == 0);
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 10 + "'", int18 == 10);
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + (-1.0d) + "'", double19 == (-1.0d));
+    }
+
+    @Test
+    public void test4977() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4977");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        double double10 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) 10);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy(1.0d);
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int19 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double10 + "' != '" + (-1.0d) + "'", double10 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 100 + "'", int19 == 100);
+    }
+
+    @Test
+    public void test4978() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4978");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy(1.0E-6d);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double15 = brentSolver0.getResult();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+    }
+
+    @Test
+    public void test4979() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4979");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 100);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        double double13 = brentSolver0.getFunctionValueAccuracy();
+        double double14 = brentSolver0.getRelativeAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction15 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double19 = brentSolver0.solve(univariateRealFunction15, (double) ' ', (double) 97, 10.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 10.0d + "'", double8 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + 10.0d + "'", double13 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 1.0E-14d + "'", double14 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4980() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4980");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 1);
+        int int13 = brentSolver0.getIterationCount();
+        int int14 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy((double) 0);
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 0 + "'", int13 == 0);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 1 + "'", int14 == 1);
+    }
+
+    @Test
+    public void test4981() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4981");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        double double18 = brentSolver0.getAbsoluteAccuracy();
+        double double19 = brentSolver0.getFunctionValueAccuracy();
+        int int20 = brentSolver0.getIterationCount();
+        int int21 = brentSolver0.getMaximalIterationCount();
+        double double22 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        double double24 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double29 = brentSolver0.solve((double) 10L, (double) (short) 100, (double) 0L);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double18 + "' != '" + (-1.0d) + "'", double18 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 52.0d + "'", double19 == 52.0d);
+        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
+        org.junit.Assert.assertTrue("'" + int21 + "' != '" + 52 + "'", int21 == 52);
+        org.junit.Assert.assertTrue("'" + double22 + "' != '" + 1.0E-14d + "'", double22 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double24 + "' != '" + 1.0E-14d + "'", double24 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4982() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4982");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) (byte) 1);
+        double double14 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount(10);
+        double double17 = brentSolver0.getFunctionValueAccuracy();
+        org.junit.Assert.assertTrue("'" + double14 + "' != '" + 1.0E-15d + "'", double14 == 1.0E-15d);
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + 1.0E-15d + "'", double17 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4983() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4983");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        int int5 = brentSolver0.getIterationCount();
+        brentSolver0.setRelativeAccuracy((double) '4');
+        brentSolver0.setRelativeAccuracy(1.0E-14d);
+        brentSolver0.setMaximalIterationCount(97);
+        brentSolver0.setRelativeAccuracy((double) (-1.0f));
+        // The following exception was thrown during execution in test generation
+        try {
+            double double17 = brentSolver0.solve((double) 'a', (double) (byte) 1, (double) 32);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
+    }
+
+    @Test
+    public void test4984() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4984");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double7 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setRelativeAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        int int13 = brentSolver0.getIterationCount();
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 1.0E-6d + "'", double9 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 0 + "'", int13 == 0);
+    }
+
+    @Test
+    public void test4985() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4985");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int6 = brentSolver0.getIterationCount();
+        int int7 = brentSolver0.getIterationCount();
+        brentSolver0.resetAbsoluteAccuracy();
+        int int9 = brentSolver0.getMaximalIterationCount();
+        int int10 = brentSolver0.getMaximalIterationCount();
+        double double11 = brentSolver0.getFunctionValueAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double12 = brentSolver0.getFunctionValue();
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalStateException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 0 + "'", int6 == 0);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 100 + "'", int9 == 100);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 100 + "'", int10 == 100);
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + 1.0E-15d + "'", double11 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4986() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4986");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy(0.0d);
+        double double19 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) 10L);
+        int int22 = brentSolver0.getIterationCount();
+        brentSolver0.setMaximalIterationCount(32);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double19 + "' != '" + 0.0d + "'", double19 == 0.0d);
+        org.junit.Assert.assertTrue("'" + int22 + "' != '" + 0 + "'", int22 == 0);
+    }
+
+    @Test
+    public void test4987() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4987");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.resetRelativeAccuracy();
+        double double21 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 0);
+        int int24 = brentSolver0.getIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetMaximalIterationCount();
+        int int28 = brentSolver0.getIterationCount();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction29 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double33 = brentSolver0.solve(univariateRealFunction29, (double) (short) 0, (double) 52, (double) ' ');
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+            // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 52.0d + "'", double21 == 52.0d);
+        org.junit.Assert.assertTrue("'" + int24 + "' != '" + 0 + "'", int24 == 0);
+        org.junit.Assert.assertTrue("'" + int28 + "' != '" + 0 + "'", int28 == 0);
+    }
+
+    @Test
+    public void test4988() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4988");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) (-1L));
+        int int15 = brentSolver0.getMaximalIterationCount();
+        double double16 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy((double) (short) 10);
+        int int19 = brentSolver0.getMaximalIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double22 = brentSolver0.solve((double) 32, (double) (-1L));
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 10 + "'", int15 == 10);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 10.0d + "'", double16 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 10 + "'", int19 == 10);
+    }
+
+    @Test
+    public void test4989() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4989");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        double double11 = brentSolver0.getFunctionValueAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double15 = brentSolver0.solve(1.0E-15d, 1.0d, (double) 100L);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double11 + "' != '" + 1.0E-15d + "'", double11 == 1.0E-15d);
+    }
+
+    @Test
+    public void test4990() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4990");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setMaximalIterationCount((int) (byte) 10);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setMaximalIterationCount((int) '4');
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setMaximalIterationCount((int) 'a');
+        brentSolver0.resetRelativeAccuracy();
+        double double21 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (short) 0);
+        int int24 = brentSolver0.getIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.setRelativeAccuracy(1.0E-6d);
+        // The following exception was thrown during execution in test generation
+        try {
+            double double31 = brentSolver0.solve((double) 97, (double) (byte) 0);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double21 + "' != '" + 52.0d + "'", double21 == 52.0d);
+        org.junit.Assert.assertTrue("'" + int24 + "' != '" + 0 + "'", int24 == 0);
+    }
+
+    @Test
+    public void test4991() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4991");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy((double) (short) 0);
+        brentSolver0.resetMaximalIterationCount();
+        double double13 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) 'a');
+        brentSolver0.setRelativeAccuracy((double) 1);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + 1.0E-6d + "'", double13 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4992() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4992");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setRelativeAccuracy((double) (short) 100);
+        brentSolver0.resetAbsoluteAccuracy();
+        int int14 = brentSolver0.getIterationCount();
+        brentSolver0.resetRelativeAccuracy();
+        double double16 = brentSolver0.getAbsoluteAccuracy();
+        int int17 = brentSolver0.getMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
+        org.junit.Assert.assertTrue("'" + double16 + "' != '" + 1.0E-6d + "'", double16 == 1.0E-6d);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + (-1) + "'", int17 == (-1));
+    }
+
+    @Test
+    public void test4993() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4993");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetAbsoluteAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy((double) (short) 0);
+        brentSolver0.resetMaximalIterationCount();
+        double double13 = brentSolver0.getAbsoluteAccuracy();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction14 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double17 = brentSolver0.solve(univariateRealFunction14, (double) (byte) 10, (double) 0.0f);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + 1.0E-6d + "'", double13 == 1.0E-6d);
+    }
+
+    @Test
+    public void test4994() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4994");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setMaximalIterationCount((int) (byte) -1);
+        brentSolver0.setFunctionValueAccuracy((double) '4');
+        brentSolver0.setRelativeAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1));
+        double double17 = brentSolver0.getAbsoluteAccuracy();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double20 = brentSolver0.solve((double) 0L, 0.0d);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double17 + "' != '" + (-1.0d) + "'", double17 == (-1.0d));
+    }
+
+    @Test
+    public void test4995() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4995");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        double double3 = brentSolver0.getRelativeAccuracy();
+        brentSolver0.setRelativeAccuracy(0.0d);
+        brentSolver0.setRelativeAccuracy((double) (-1.0f));
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getMaximalIterationCount();
+        brentSolver0.setAbsoluteAccuracy(52.0d);
+        brentSolver0.resetMaximalIterationCount();
+        org.junit.Assert.assertTrue("'" + double3 + "' != '" + 1.0E-14d + "'", double3 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 100 + "'", int9 == 100);
+    }
+
+    @Test
+    public void test4996() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4996");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.setAbsoluteAccuracy(100.0d);
+        brentSolver0.setFunctionValueAccuracy((double) (-1));
+        brentSolver0.setFunctionValueAccuracy((double) 1.0f);
+        double double9 = brentSolver0.getAbsoluteAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (short) 0);
+        brentSolver0.resetRelativeAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        // The following exception was thrown during execution in test generation
+        try {
+            double double17 = brentSolver0.solve(100.0d, (double) '4', (double) 10);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + double9 + "' != '" + 100.0d + "'", double9 == 100.0d);
+    }
+
+    @Test
+    public void test4997() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4997");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        double double8 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setAbsoluteAccuracy((double) (-1));
+        double double12 = brentSolver0.getRelativeAccuracy();
+        double double13 = brentSolver0.getRelativeAccuracy();
+        org.junit.Assert.assertTrue("'" + double8 + "' != '" + 10.0d + "'", double8 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 1.0E-14d + "'", double12 == 1.0E-14d);
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + 1.0E-14d + "'", double13 == 1.0E-14d);
+    }
+
+    @Test
+    public void test4998() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4998");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setRelativeAccuracy(0.0d);
+        brentSolver0.resetMaximalIterationCount();
+        brentSolver0.resetFunctionValueAccuracy();
+        java.lang.Class<?> wildcardClass5 = brentSolver0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass5);
+    }
+
+    @Test
+    public void test4999() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test4999");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.resetRelativeAccuracy();
+        double double7 = brentSolver0.getFunctionValueAccuracy();
+        brentSolver0.resetMaximalIterationCount();
+        int int9 = brentSolver0.getIterationCount();
+        brentSolver0.setAbsoluteAccuracy((double) '#');
+        brentSolver0.setRelativeAccuracy((double) 100L);
+        org.junit.Assert.assertTrue("'" + double7 + "' != '" + (-1.0d) + "'", double7 == (-1.0d));
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+    }
+
+    @Test
+    public void test5000() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest9.test5000");
+        org.apache.commons.math.analysis.solvers.BrentSolver brentSolver0 = new org.apache.commons.math.analysis.solvers.BrentSolver();
+        brentSolver0.setAbsoluteAccuracy((-1.0d));
+        brentSolver0.resetFunctionValueAccuracy();
+        brentSolver0.setFunctionValueAccuracy((double) (short) -1);
+        brentSolver0.setFunctionValueAccuracy((double) 10);
+        brentSolver0.setRelativeAccuracy((double) 10);
+        brentSolver0.resetFunctionValueAccuracy();
+        int int11 = brentSolver0.getMaximalIterationCount();
+        double double12 = brentSolver0.getRelativeAccuracy();
+        double double13 = brentSolver0.getRelativeAccuracy();
+        int int14 = brentSolver0.getMaximalIterationCount();
+        org.apache.commons.math.analysis.UnivariateRealFunction univariateRealFunction15 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            double double19 = brentSolver0.solve(univariateRealFunction15, 0.0d, (double) (short) 10, (double) 10L);
+            org.junit.Assert.fail("Expected anonymous exception");
+        } catch (java.lang.IllegalArgumentException e) {
+            // Expected exception.
+            if (!e.getClass().isAnonymousClass()) {
+                org.junit.Assert.fail("Expected anonymous exception, got " + e.getClass().getCanonicalName());
+            }
+        }
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 100 + "'", int11 == 100);
+        org.junit.Assert.assertTrue("'" + double12 + "' != '" + 10.0d + "'", double12 == 10.0d);
+        org.junit.Assert.assertTrue("'" + double13 + "' != '" + 10.0d + "'", double13 == 10.0d);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 100 + "'", int14 == 100);
+    }
+}
+
