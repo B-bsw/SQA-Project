@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-24T19:37:17Z",
+  "round": 1,
+  "project": "Jsoup",
+  "bug_id": 14,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 35,
+  "coverage": 46.22,
+  "line_cov": 48.76,
+  "branch_cov": 43.68,
+  "total_goals": 2110,
+  "covered_goals": 192,
+  "lines": 94,
+  "covered_lines": 118,
+  "total_branches": 846,
+  "covered_branches": 59,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "PASS",
+  "fixed_fails": 0,
+  "verdict": "NOT_REVEALING",
+  "targets": [
+    {
+      "target_class": "org.jsoup.parser.Tokeniser",
+      "generation_result": "PASS",
+      "generation_seconds": 78,
+      "tests": 34,
+      "coverage": 92.44,
+      "line_cov": 97.52,
+      "branch_cov": 87.36,
+      "total_goals": 208,
+      "covered_goals": 192,
+      "lines": 25,
+      "covered_lines": 118,
+      "total_branches": 70,
+      "covered_branches": 59,
+      "total_methods": 25,
+      "covered_methods": 25,
+      "branchless_methods": 17,
+      "covered_branchless_methods": 17
+    },
+    {
+      "target_class": "org.jsoup.parser.TokeniserState",
+      "generation_result": "PASS",
+      "generation_seconds": 65,
+      "tests": 1,
+      "coverage": 0.00,
+      "line_cov": 0.00,
+      "branch_cov": 0.00,
+      "total_goals": 1902,
+      "covered_goals": 0,
+      "lines": 69,
+      "covered_lines": 0,
+      "total_branches": 776,
+      "covered_branches": 0,
+      "total_methods": 135,
+      "covered_methods": 0,
+      "branchless_methods": 70,
+      "covered_branchless_methods": 0
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "PASS",
+      "failures": 0
+    }
+  ]
+}

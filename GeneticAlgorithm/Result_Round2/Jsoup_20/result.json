@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.1",
+  "algorithm": "STANDARD_GA",
+  "created_at": "2569-09-24T19:43:20Z",
+  "round": 2,
+  "project": "Jsoup",
+  "bug_id": 20,
+  "seed": 20260918,
+  "budget": 60,
+  "tests": 8,
+  "coverage": 69.54,
+  "line_cov": 81.4,
+  "branch_cov": 57.69,
+  "total_goals": 69,
+  "covered_goals": 50,
+  "lines": 7,
+  "covered_lines": 35,
+  "total_branches": 24,
+  "covered_branches": 13,
+  "buggy_result": "PASS",
+  "buggy_fails": 0,
+  "fixed_result": "FAIL",
+  "fixed_fails": 1,
+  "verdict": "INCONCLUSIVE",
+  "targets": [
+    {
+      "target_class": "org.jsoup.helper.DataUtil",
+      "generation_result": "PASS",
+      "generation_seconds": 67,
+      "tests": 8,
+      "coverage": 69.54,
+      "line_cov": 81.40,
+      "branch_cov": 57.69,
+      "total_goals": 69,
+      "covered_goals": 50,
+      "lines": 7,
+      "covered_lines": 35,
+      "total_branches": 24,
+      "covered_branches": 13,
+      "total_methods": 6,
+      "covered_methods": 6,
+      "branchless_methods": 2,
+      "covered_branchless_methods": 2
+    }
+  ],
+  "validations": [
+    {
+      "subject": "buggy",
+      "result": "PASS",
+      "failures": 0
+    },
+    {
+      "subject": "fixed",
+      "result": "FAIL",
+      "failures": 1
+    }
+  ]
+}

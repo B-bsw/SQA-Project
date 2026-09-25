@@ -1,0 +1,2 @@
+"round","project","bug_id","seed","budget","tests","coverage","line_cov","branch_cov","total_goals","covered_goals","lines","covered_lines","total_branches","covered_branches","buggy_result","buggy_fails","fixed_result","fixed_fails","verdict"
+1,"Jsoup",9,20260918,60,6,80.48,79.49,81.48,66,53,6,31,24,19,"PASS",0,"PASS",0,"NOT_REVEALING"

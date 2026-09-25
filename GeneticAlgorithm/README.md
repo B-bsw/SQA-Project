@@ -87,4 +87,4 @@ generated `.java` files
 | Lang            | commons-lang           |                    61 | 1,3-17,19-24,26-47,49-65 | 2,18,25,48              | check      |              |
 | Math            | commons-math           |                   106 | 1-106                    | None                    | check      |              |
 | Mockito         | mockito                |                    38 | 1-38                     | None                    | check      |              |
-| Time            | joda-time              |                    26 | 1-20,22-27               | 21                      |            |              |
+| Time            | joda-time              |                    26 | 1-20,22-27               | 21                      | Check      |              |
